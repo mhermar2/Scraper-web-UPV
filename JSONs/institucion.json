@@ -1,0 +1,203 @@
+{
+  "titulo": "La institución",
+  "url": "https://www.upv.es/organizacion/la-institucion/index-es.html",
+  "tipo": "padre",
+  "secciones": [
+    {
+      "id": "organos_de_gobierno",
+      "titulo": "Órganos de gobierno",
+      "tipo": "organos_gobierno",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Unipersonales y colegiados",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/organos-gobierno-upv-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Rector",
+          "descripcion": "",
+          "url": "https://rector.upv.es/es"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Equipo rectoral",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/equipo-rectoral-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Vicerrectorados y sus áreas",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/vicerrectorados-y-areas-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Secretaria General",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SG/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gerencia",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/ger/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Consejo Social",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/CS/index-es.html"
+        }
+      ]
+    },
+    {
+      "id": "publicaciones_oficiales",
+      "titulo": "Publicaciones oficiales",
+      "tipo": "publicaciones_oficiales",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Boletín oficial de la UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SG/infoweb/sg/info/513084normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Estatutos",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/estatutos-upv-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Memoria del curso académico",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/memoria-curso-upv-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Presupuestos",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/ger/presupuesto/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Cuentas anuales",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/ger/cuentas-anuales/"
+        }
+      ]
+    },
+    {
+      "id": "la_upv_al_detalle",
+      "titulo": "La UPV al detalle",
+      "tipo": "upv_al_detalle",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Historia de la UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/historia/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Doctores honoris causa",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/honoris-causa/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Folleto institucional",
+          "descripcion": "",
+          "url": "https://www.upv.es/organizacion/la-institucion/folleto-institucional-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Portal de transparencia",
+          "descripcion": "",
+          "url": "http://www.upv.es/contenidos/PORTRANSV4/indexc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "50 aniversario de la UPV",
+          "descripcion": "",
+          "url": "http://50a.upv.es/index_c.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Memoria Viva",
+          "descripcion": "",
+          "url": "https://memoriaviva.upv.es/"
+        }
+      ]
+    },
+    {
+      "id": "estrategia_upv_sirve",
+      "titulo": "Estrategia UPV_SIRVE",
+      "tipo": "estrategia_upv_sirve",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Propósito, misión y valores",
+          "descripcion": "",
+          "url": "https://www.upv.es/contenidos/upv_sirve/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Plan SIRVE UPV 2023-2027",
+          "descripcion": "",
+          "url": "https://www.upv.es/contenidos/upv_sirve/download/18245"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Presentación del plan",
+          "descripcion": "",
+          "url": "https://www.youtube.com/watch?v=pHVVQ6LT6x8l"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Vicerrectorado de Planificación, Oferta Académica y Transformación Digital",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/vpt/"
+        }
+      ]
+    },
+    {
+      "id": "sindicatura",
+      "titulo": "Sindicatura",
+      "tipo": "sindicatura",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Sindicatura de Greuges Universitària",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/dcu/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Ámbito de actuación",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/dcu/actuaciones-antes-de-acudir-a-la-defensoria-universitaria/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Normativa",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/dcu/normativa-3/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Comisión Ética",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/dcu/carpeta/comision-etica/"
+        }
+      ]
+    }
+  ]
+}

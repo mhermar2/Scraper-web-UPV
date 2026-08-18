@@ -1,0 +1,580 @@
+{
+  "titulaciones": [
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Recursos y Tecnologías Agrícolas",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-recursos-y-tecnologias-agricolas/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ciencia y Tecnología de la Producción Animal",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ciencia-y-tecnologia-de-la-produccion-animal/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ciencia, Tecnología y Gestión Alimentaria",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ciencia-tecnologia-y-gestion-alimentaria/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Biotecnología",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-biotecnologia/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Arquitectura, Edificación, Urbanística y Paisaje",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-arquitectura-edificacion-urbanistica-y-paisaje/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Arquitectura, Edificación, Patrimonio y Ciudad (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-arquitectura-edificacion-patrimonio-y-ciudad/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Industrias de la Comunicación y Culturales",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-industrias-de-la-comunicacion-y-culturales/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Conservación y Restauración de Bienes Culturales",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-conservacion-y-restauracion-de-bienes-culturales/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Arte: Producción e Investigación",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-arte-produccion-e-investigacion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Técnicas Experimentales en Química (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-tecnicas-experimentales-en-quimica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Química Sostenible (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-quimica-sostenible/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Química (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-quimica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Matemáticas (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-matematicas/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ciencia y Tecnología Marina y Costera",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ciencia-y-tecnologia-marina-y-costera/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Estadística y Optimización (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-estadistica-y-optimizacion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Lenguas, Literaturas y Culturas, y sus Aplicaciones (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-lenguas-literaturas-y-culturas-y-sus-aplicaciones/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Economía Agroalimentaria",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-economia-agroalimentaria/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Desarrollo Local y Cooperación Internacional (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-desarrollo-local-y-cooperacion-internacional/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Administración y Dirección de Empresas",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-administracion-y-direccion-de-empresas/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería del Agua y Medioambiental",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ingenieria-del-agua-y-medioambiental/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería de la Construcción",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ingenieria-de-la-construccion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Infraestructuras de Transporte y Territorio",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-infraestructuras-de-transporte-y-territorio/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Tecnologías para la Salud y el Bienestar",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-tecnologias-para-la-salud-y-el-bienestar/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Sistemas Propulsivos en Medios de Transporte",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-sistemas-propulsivos-en-medios-de-transporte/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería y Producción Industrial",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ingenieria-y-produccion-industrial/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería Textil",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ingenieria-textil/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería Electrónica",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ingenieria-electronica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Diseño, Fabricación y Gestión de Proyectos Industriales",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-diseno-fabricacion-y-gestion-de-proyectos-industriales/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Automática, Robótica e Informática Industrial",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-automatica-robotica-e-informatica-industrial/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Telecomunicación",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-telecomunicacion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería Geomática (*)",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ingenieria-geomatica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Informática",
+      "url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-informatica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    }
+  ]
+}

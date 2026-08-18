@@ -1,0 +1,519 @@
+{
+    "padres": [
+        {
+            "titulo": "Admisión a máster",
+            "url": "https://www.upv.es/admision/admision-master/index-es.html",
+            "descripcion": "Continúa tus estudios. Conviértete en especialista.",
+            "secciones": [
+                {
+                    "id": "section-01",
+                    "titulo": "Conoce la UPV",
+                    "descripcion": "",
+                    "tarjetas": [
+                        {
+                            "titulo": "Conoce la UPV",
+                            "descripcion": "01. Cada año la UPV organiza diferentes actividades para que el futuro alumnado conozca de primera mano qué estudios ofrece la universidad, así como los servicios, recursos e instalaciones de sus tres campus.",
+                            "url": ""
+                        }
+                    ],
+                    "acordeones": [],
+                    "banners": [],
+                    "enlaces": [
+                        {
+                            "texto": "JPA Online",
+                            "url": "https://jpamasteres.upv.es/"
+                        },
+                        {
+                            "texto": "Ver rankings",
+                            "url": "http://www.upv.es/rankings/"
+                        },
+                        {
+                            "texto": "Ver vídeo",
+                            "url": "https://www.youtube.com/watch?v=MPWcjSTJZuA"
+                        },
+                        {
+                            "texto": "UPV 360",
+                            "url": "https://www.upv.es/otros/upv-360-es.html"
+                        },
+                        {
+                            "texto": "UPV ARTU",
+                            "url": "https://www.youtube.com/watch?v=uoQOKIQyc2k"
+                        },
+                        {
+                            "texto": "Únete a Generación Espontánea",
+                            "url": "https://www.upv.es/entidades/adge/"
+                        },
+                        {
+                            "texto": "Nuevo campus de UPV en China. Atrévete",
+                            "url": "https://www.upv.es/entidades/bvpi/"
+                        }
+                    ]
+                },
+                {
+                    "id": "section-02",
+                    "titulo": "Elige estudios",
+                    "descripcion": "",
+                    "tarjetas": [
+                        {
+                            "titulo": "Elige estudios",
+                            "descripcion": "02. ¿Qué máster quieres estudiar? La UPV te ofrece más de 100 opciones entre másteres y dobles másteres para que continúes tus estudios. La oferta más amplia para que te especialices de verdad.",
+                            "url": ""
+                        }
+                    ],
+                    "acordeones": [],
+                    "banners": [],
+                    "enlaces": [
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/contenidos/asistenteia/"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/estudios/master/index-es.html"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/estudios/posgrado/masteres-habilitantes-es.html"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/entidades/vpec/acreditaciones-internacionales/"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/china"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "http://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://aplicat.upv.es/buscasiupv-app/"
+                        },
+                        {
+                            "texto": "Plazas ofertadas de másteres",
+                            "url": "https://www.upv.es/pls/oalu/sic_futuroalumno.plazasofertadasMaster?p_idioma=c "
+                        },
+                        {
+                            "texto": "Requisito lingüístico de los másteres",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/MUconRequisitoLing.pdf"
+                        },
+                        {
+                            "texto": "Calendario académico",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/719935normalc.html"
+                        }
+                    ]
+                },
+                {
+                    "id": "section-03",
+                    "titulo": "Haz tu preinscripción",
+                    "descripcion": "",
+                    "tarjetas": [
+                        {
+                            "titulo": "Haz tu preinscripción",
+                            "descripcion": "03. Si ya has elegido el máster en el que quieres formarte, llega el momento de realizar la preinscripción para solicitar tu admisión y poder reservar tu plaza.",
+                            "url": ""
+                        }
+                    ],
+                    "acordeones": [
+                        {
+                            "titulo": "Acceso a la preinscripción",
+                            "texto": "La preincripción a los estudios de máster se hace a través de una aplicación que habilita la UPV. Para realizarla, sigue estas instrucciones para acceder: Si ya eres estudiante de la UPV: utiliza tu DNI y tu CLAVE. Si eres personal de la UPV: utiliza tu DNI y tu CLAVE de UPVnet. Si eres estudiante procedente de otras universidades, solicita una clave y un identificador previo a la preinscripción . Acceso a la preinscripción Accede a la aplicación de la UPV que te permite realizar la preinscripción a los estudios de máster. Ir a la aplicación",
+                            "enlaces": [
+                                {
+                                    "texto": "solicita una clave y un identificador previo a la preinscripción",
+                                    "url": "https://www.upv.es/pls/soalu/pos_preins.Datos_personales?p_vista=normal&P_IDIOMA=c"
+                                },
+                                {
+                                    "texto": "Ir a la aplicación",
+                                    "url": "https://www.upv.es/pls/soalu/pos_preins.sol_preinscripcion?p_vista=normal"
+                                }
+                            ]
+                        },
+                        {
+                            "titulo": "Fase 0",
+                            "texto": "Los diferentes másteres ofertados por la UPV se inscriben a distintas fases de preinscripción. Puedes consultar los listados y más información sobre los períodos a continuación: Fase 0 Dirigida a alumnado con titulación extranjera que no tenga nacionalidad de la Unión Europea ni residencia legal en la misma. Abierta del 17 de noviembre de 2025 hasta el 13 de febrero de 2026. Fase 1 Dirigida a todo el alumnado (nacional e internacional). Abierta del 2 de marzo al 30 de abril de 2026. Fase 2 Dirigida a todo el alumnado (nacional e internacional). Abierta del 15 al 26 de junio de 2026. Fase 3 Dirigida a todo el alumnado (nacional e internacional). Abierta en dos períodos: del 31 de julio al 7 de agosto; y del 24 de agosto al 4 de septiembre de 2026.",
+                            "enlaces": [
+                                {
+                                    "texto": "fases",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183876normalc.html"
+                                },
+                                {
+                                    "texto": "Fase 0",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183877normalc.html"
+                                },
+                                {
+                                    "texto": "Fase 1",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183878normalc.html"
+                                },
+                                {
+                                    "texto": "Fase 2",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183879normalc.html"
+                                },
+                                {
+                                    "texto": "Fase 3",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183880normalc.html"
+                                }
+                            ]
+                        },
+                        {
+                            "titulo": "",
+                            "texto": "Si quieres consultar toda la documentación disponible sobre cómo hacer la preinscripción a un máster universitario correctamente, la UPV te proporciona material de apoyo. Documentación general Documento general sobre el proceso de preinscripción Calendario de preinscripción y admisiones - Curso 2026-2027 Normativa de acceso y admisión Contacto con las entidades responsables de los másteres Instrucciones para el cálculo de la equivalencia de la nota media de titulaciones obtenidas en el extranjero Manuales de ayuda para realizar la preinscripción Para solicitantes que aportan estudios de acceso UPV Para solicitantes que aportan estudios de acceso ESPAÑOLES O EXTRANJEROS del EEES (Espacio Europeo de Educación Superior) Para solicitantes que aportan estudios de acceso EXTRANJEROS AJENOS al EEES (Espacio Europeo de Educación Superior) Acceso con una titulación extranjera Diferencia entre homologación y legalización Traducción oficial al castellano de la documentación Procedimiento para la legalización de documentos académicos (títulos universitarios y certificados académicos personales) extranjeros para que tengan validez en España. Validez de documentos y traducciones juradas Lista traductores/as- interpretes, jurados/as nombrados por el Ministerio competente",
+                            "enlaces": [
+                                {
+                                    "texto": "Documento general sobre el proceso de preinscripción",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/1185934normalc.html"
+                                },
+                                {
+                                    "texto": "Calendario de preinscripción y admisiones - Curso 2026-2027",
+                                    "url": "https://www.upv.es/entidades/SESTU/mastersoficiales/U0984550.pdf"
+                                },
+                                {
+                                    "texto": "Normativa de acceso y admisión",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/591233normalc.html"
+                                },
+                                {
+                                    "texto": "Contacto con las entidades responsables de los másteres",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/ContactoERT.pdf"
+                                },
+                                {
+                                    "texto": "Instrucciones para el cálculo de la equivalencia de la nota media de titulaciones obtenidas en el extranjero",
+                                    "url": "https://universidades.sede.gob.es/pagina/index/directorio/Equivalencia_notas_medias"
+                                },
+                                {
+                                    "texto": "Para solicitantes que aportan estudios de acceso UPV",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/1185934normalc.html"
+                                },
+                                {
+                                    "texto": "Para solicitantes que aportan estudios de acceso ESPAÑOLES O EXTRANJEROS del EEES (Espacio Europeo de Educación Superior)",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/1185934normalc.html"
+                                },
+                                {
+                                    "texto": "Para solicitantes que aportan estudios de acceso EXTRANJEROS AJENOS al EEES (Espacio Europeo de Educación Superior)",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/1185934normalc.html"
+                                },
+                                {
+                                    "texto": "Diferencia entre homologación y legalización",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1186014normalc.html"
+                                },
+                                {
+                                    "texto": "Traducción oficial al castellano de la documentación",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1184307normalc.html"
+                                },
+                                {
+                                    "texto": "Procedimiento para la legalización de documentos académicos (títulos universitarios y certificados académicos personales) extranjeros para que tengan validez en España.",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1073570normalc.html"
+                                },
+                                {
+                                    "texto": "Validez de documentos y traducciones juradas",
+                                    "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Legalizacion-y-apostilla.aspx"
+                                },
+                                {
+                                    "texto": "Lista traductores/as- interpretes, jurados/as nombrados por el Ministerio competente",
+                                    "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Buscador-STIJ.aspx"
+                                }
+                            ]
+                        },
+                        {
+                            "titulo": "Fase 0",
+                            "texto": "Fase 0 Publicación de resultados en diferentes fechas según el máster al que se solicita acceso. Fase 1 El 3 de junio de 2026, a partir de las 14 horas, sabrás si has conseguido plaza en el máster que solicitaste. Y, si te has quedado a las puertas, tendrás un plazo para confirmar que quieres seguir en la lista de espera de cara a las siguientes adjudicaciones de vacantes: del 3 al 8 de junio de 2026. Fase 2 El 22 de julio de 2026, a partir de las 14 horas, sabrás si has conseguido plaza en el máster que solicitaste. Y, si te has quedado a las puertas, tendrás un plazo para confirmar que quieres seguir en la lista de espera de cara a las siguientes adjudicaciones de vacantes: del 22 al 24 de julio de 2026. Fase 3 El 11 de septiembre  de 2026, a partir de las 14 horas, sabrás si has conseguido plaza en el máster que solicitaste. Y, si te has quedado a las puertas, tendrás un plazo para confirmar que quieres seguir en la lista de espera de cara a las siguientes adjudicaciones de vacantes: del 11 al 15 de septiembre de 2026.",
+                            "enlaces": [
+                                {
+                                    "texto": "Fase 0",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183877normalc.html"
+                                },
+                                {
+                                    "texto": "Fase 1",
+                                    "url": ""
+                                },
+                                {
+                                    "texto": "Fase 2",
+                                    "url": ""
+                                },
+                                {
+                                    "texto": "Fase 3",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        {
+                            "titulo": "",
+                            "texto": "Cuando te admitan en un máster, te van a pedir que hagas un pago obligatorio de 300 euros en concepto de reserva de plaza . Podrás hacer el ingreso mediante TPV (tarjeta bancaria) siguiendo los pasos que encontrarás en la aplicación de preinscripción. Este importe no es un añadido, sino un adelanto, y se descontará del total que pagues por la matrícula. Así mismo, se devolverá a todas aquellas personas que tengan derecho a una beca o una exención por el motivo que sea. Pero, si no haces el pago, se entenderá que renuncias a la plaza y no podrás matricularte. Y, como ocurre en este tipo de pagos, si te admiten y pagas la reserva, pero finalmente decides no matricularte, no podrás pedir la devolución de este importe.",
+                            "enlaces": [
+                                {
+                                    "texto": "reserva de plaza",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/1271947normalc.html"
+                                }
+                            ]
+                        }
+                    ],
+                    "banners": [
+                        {
+                            "titulo": "Acceso a la preinscripción",
+                            "descripcion": "Accede a la aplicación de la UPV que te permite realizar la preinscripción a los estudios de máster.",
+                            "url": "https://www.upv.es/pls/soalu/pos_preins.sol_preinscripcion?p_vista=normal"
+                        }
+                    ],
+                    "enlaces": [
+                        {
+                            "texto": "solicita una clave y un identificador previo a la preinscripción",
+                            "url": "https://www.upv.es/pls/soalu/pos_preins.Datos_personales?p_vista=normal&P_IDIOMA=c"
+                        },
+                        {
+                            "texto": "Ir a la aplicación",
+                            "url": "https://www.upv.es/pls/soalu/pos_preins.sol_preinscripcion?p_vista=normal"
+                        },
+                        {
+                            "texto": "fases",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183876normalc.html"
+                        },
+                        {
+                            "texto": "Fase 0",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183877normalc.html"
+                        },
+                        {
+                            "texto": "Fase 1",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183878normalc.html"
+                        },
+                        {
+                            "texto": "Fase 2",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183879normalc.html"
+                        },
+                        {
+                            "texto": "Fase 3",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1183880normalc.html"
+                        },
+                        {
+                            "texto": "Documento general sobre el proceso de preinscripción",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/1185934normalc.html"
+                        },
+                        {
+                            "texto": "Calendario de preinscripción y admisiones - Curso 2026-2027",
+                            "url": "https://www.upv.es/entidades/SESTU/mastersoficiales/U0984550.pdf"
+                        },
+                        {
+                            "texto": "Normativa de acceso y admisión",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/591233normalc.html"
+                        },
+                        {
+                            "texto": "Contacto con las entidades responsables de los másteres",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/ContactoERT.pdf"
+                        },
+                        {
+                            "texto": "Instrucciones para el cálculo de la equivalencia de la nota media de titulaciones obtenidas en el extranjero",
+                            "url": "https://universidades.sede.gob.es/pagina/index/directorio/Equivalencia_notas_medias"
+                        },
+                        {
+                            "texto": "Diferencia entre homologación y legalización",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1186014normalc.html"
+                        },
+                        {
+                            "texto": "Traducción oficial al castellano de la documentación",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1184307normalc.html"
+                        },
+                        {
+                            "texto": "Procedimiento para la legalización de documentos académicos (títulos universitarios y certificados académicos personales) extranjeros para que tengan validez en España.",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/1073570normalc.html"
+                        },
+                        {
+                            "texto": "Validez de documentos y traducciones juradas",
+                            "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Legalizacion-y-apostilla.aspx"
+                        },
+                        {
+                            "texto": "Lista traductores/as- interpretes, jurados/as nombrados por el Ministerio competente",
+                            "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Buscador-STIJ.aspx"
+                        },
+                        {
+                            "texto": "Fase 1",
+                            "url": ""
+                        },
+                        {
+                            "texto": "reserva de plaza",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/1271947normalc.html"
+                        }
+                    ]
+                },
+                {
+                    "id": "section-04",
+                    "titulo": "Realiza la matrícula",
+                    "descripcion": "",
+                    "tarjetas": [
+                        {
+                            "titulo": "Realiza la matrícula",
+                            "descripcion": "04. Estás muy cerca de iniciar tu máster universitario en la UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.",
+                            "url": ""
+                        }
+                    ],
+                    "acordeones": [
+                        {
+                            "titulo": "Acceso a la automatrícula",
+                            "texto": "Una vez has realizado la confirmación de tu admisión, se te indicará la fecha y hora exacta para que realices la matrícula. Las personas que pueden realizar la matrícula según cada fase son: Personas admitidas en la Fase 0: según el máster en que se solicita el acceso Personas admitidas en la Fase 1: viernes 5 y lunes 8 de junio de 2026 Personas admitidas en la Fase 2: jueves 23 y viernes 24 de julio de 2026 Personas admitidas en la Fase 3: lunes 14 y martes 15 de septiembre de 2026 Acceso a la automatrícula Formaliza tu matrícula online sin necesidad de desplazarte físicamente a la universidad. Rápido. Cómodo. ¡Es UPV! Ir a la aplicación",
+                            "enlaces": [
+                                {
+                                    "texto": "Ir a la aplicación",
+                                    "url": "https://automatricula.upv.es/"
+                                }
+                            ]
+                        },
+                        {
+                            "titulo": "",
+                            "texto": "Normativa de máster Seguro escolar obligatorio y seguro voluntario de accidentes Solicitudes matrícula dedicación a tiempo parcial (TP) Precios y tasas másteres universitarios Información y formas de pago de tasas académicas Reconocimiento (adaptaciones/convalidaciones) Homologación, equivalencia y correspondencia de Títulos oficiales",
+                            "enlaces": [
+                                {
+                                    "texto": "Normativa de máster",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/591233normalc.html"
+                                },
+                                {
+                                    "texto": "Seguro escolar obligatorio y seguro voluntario de accidentes",
+                                    "url": "http://www.upv.es/entidades/SA/ciclos/409018normalc.html"
+                                },
+                                {
+                                    "texto": "Solicitudes matrícula dedicación a tiempo parcial (TP)",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/854983normalc.html"
+                                },
+                                {
+                                    "texto": "Precios y tasas másteres universitarios",
+                                    "url": "http://www.upv.es/entidades/SA/mastersoficiales/557201normalc.html"
+                                },
+                                {
+                                    "texto": "Información y formas de pago de tasas académicas",
+                                    "url": "http://www.upv.es/contenidos/SMAT/info/718876normalc.html"
+                                },
+                                {
+                                    "texto": "Reconocimiento (adaptaciones/convalidaciones)",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/635285normalc.html"
+                                },
+                                {
+                                    "texto": "Homologación, equivalencia y correspondencia de Títulos oficiales",
+                                    "url": "https://www.upv.es/entidades/SA/mastersoficiales/900323normalc.html"
+                                }
+                            ]
+                        }
+                    ],
+                    "banners": [
+                        {
+                            "titulo": "Acceso a la automatrícula",
+                            "descripcion": "Formaliza tu matrícula online sin necesidad de desplazarte físicamente a la universidad. Rápido. Cómodo. ¡Es UPV!",
+                            "url": "https://automatricula.upv.es/"
+                        }
+                    ],
+                    "enlaces": [
+                        {
+                            "texto": "Ir a la aplicación",
+                            "url": "https://automatricula.upv.es/"
+                        },
+                        {
+                            "texto": "Normativa de máster",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/591233normalc.html"
+                        },
+                        {
+                            "texto": "Seguro escolar obligatorio y seguro voluntario de accidentes",
+                            "url": "http://www.upv.es/entidades/SA/ciclos/409018normalc.html"
+                        },
+                        {
+                            "texto": "Solicitudes matrícula dedicación a tiempo parcial (TP)",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/854983normalc.html"
+                        },
+                        {
+                            "texto": "Precios y tasas másteres universitarios",
+                            "url": "http://www.upv.es/entidades/SA/mastersoficiales/557201normalc.html"
+                        },
+                        {
+                            "texto": "Información y formas de pago de tasas académicas",
+                            "url": "http://www.upv.es/contenidos/SMAT/info/718876normalc.html"
+                        },
+                        {
+                            "texto": "Reconocimiento (adaptaciones/convalidaciones)",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/635285normalc.html"
+                        },
+                        {
+                            "texto": "Homologación, equivalencia y correspondencia de Títulos oficiales",
+                            "url": "https://www.upv.es/entidades/SA/mastersoficiales/900323normalc.html"
+                        }
+                    ]
+                },
+                {
+                    "id": "section-05",
+                    "titulo": "Consulta las becas",
+                    "descripcion": "",
+                    "tarjetas": [
+                        {
+                            "titulo": "Consulta las becas",
+                            "descripcion": "05. Descubre todas las becas disponibles que pueden ayudarte a realizar tus estudios de máster. Elige la que más te encaje, prepara la documentación y solicítala en los plazos establecidos.",
+                            "url": ""
+                        }
+                    ],
+                    "acordeones": [],
+                    "banners": [],
+                    "enlaces": [
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/entidades/SA/becas/397810normalc.html"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/entidades/SA/becas/397812normalc.html"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/entidades/SA/becas/397813normalc.html"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/entidades/SA/becas/397814normalc.html"
+                        },
+                        {
+                            "texto": "Más información sobre becas y ayudas para máster",
+                            "url": "https://www.upv.es/entidades/SA/becas/392212normalc.html"
+                        },
+                        {
+                            "texto": "Información sobre la entrega de documentación",
+                            "url": "https://www.upv.es/entidades/SA/becas/U0912831.pdf"
+                        },
+                        {
+                            "texto": "Normativa sobre becas",
+                            "url": "https://www.upv.es/entidades/SA/becas/U0912837.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "section-06",
+                    "titulo": "Comienza tu posgrado",
+                    "descripcion": "",
+                    "tarjetas": [
+                        {
+                            "titulo": "Comienza tu posgrado",
+                            "descripcion": "06. ¡Enhorabuena! Ya eres oficialmente estudiante de la Universitat Politècnica de València. Hasta que comiencen las clases, ¿qué tal si empiezas por aquí? No te pierdas estos contenidos que pueden ayudarte a empezar.",
+                            "url": ""
+                        }
+                    ],
+                    "acordeones": [],
+                    "banners": [],
+                    "enlaces": [
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/entidades/acom/carnet-upv-es/"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/perfiles/estudiante/alojamientos-upv-es.html"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://poliformat.upv.es"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/entidades/aaoie/"
+                        },
+                        {
+                            "texto": "Más información",
+                            "url": "https://www.upv.es/organizacion/vida-universitaria/index-es.html"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+  "titulo": "La UPV en los rankings",
+  "url": "https://www.upv.es/rankings/index.html",
+  "tipo": "padre",
+  "secciones": [
+    {
+      "id": "rankings",
+      "titulo": "Rankings",
+      "tipo": "rankings",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "ranking",
+          "titulo": "LA UPV EN EL RANKING DE SHANGHÁI",
+          "descripcion": "",
+          "url": "https://www.upv.es/noticias-upv/noticia-15353-arwu-2025-es.html"
+        },
+        {
+          "tipo": "ranking",
+          "titulo": "QS: Top 500 mundial por 15º año consecutivo",
+          "descripcion": "Un año más, QS World University Rankings ha vuelto a incluir a la UPV entre las 500 mejores universidades de todo el mundo, además de certificarla como mejor universidad de la Comunitat Valenciana.",
+          "url": "http://preview.upv.es/noticias-upv/noticia-15901-qs-world-unive-es.html",
+          "url_externa": "https://www.topuniversities.com/world-university-rankings?items_per_page=100"
+        },
+        {
+          "tipo": "ranking",
+          "titulo": "THE: La UPV, universidad con mayor impacto social y económico de España",
+          "descripcion": "Times Higher Education reconoce a la UPV como universidad con mayor impacto social y económico de España y la incluye en el top 200 mundial, destacándola en un total de 5 ODS.",
+          "url": "https://www.upv.es/noticias-upv/noticia-15919-the-sustainabi-es.html",
+          "url_externa": "https://www.timeshighereducation.com/impactrankings"
+        },
+        {
+          "tipo": "ranking",
+          "titulo": "Greenmetric: Top 5 nacional y única politécnica española",
+          "descripcion": "El ranking medioambiental universitario por excelencia reconoce a la UPV como una de las 250 universidades más comprometidas con la sostenibilidad y el medio ambiente del mundo.",
+          "url": "https://www.upv.es/noticias-upv/noticia-15603-ui-greenmetric-es.html",
+          "url_externa": "https://uigreenmetric.com/rankings/university/overall-rankings-2025"
+        },
+        {
+          "tipo": "ranking",
+          "titulo": "Shanghái por materias: Top400 en 17 disciplinas",
+          "descripcion": "La UPV, mejor universidad de España para estudiar Ciencias Agrícolas, Ingeniería Civil y Ciencia e Ingeniería Energética.",
+          "url": "https://www.upv.es/noticias-upv/noticia-15590-shanghai-por-m-es.html",
+          "url_externa": "https://www.shanghairanking.com/rankings/gras/2025"
+        },
+        {
+          "tipo": "ranking",
+          "titulo": "QS por materias: Nº1 de España en 4 disciplinas",
+          "descripcion": "La UPV, mejor universidad del país para estudiar Ciencias Agrícolas, Arte y Diseño, Estadística e Ingeniería Química.",
+          "url": "https://www.upv.es/noticias-upv/noticia-15721-qs-rankings-po-es.html",
+          "url_externa": "https://www.topuniversities.com/subject-rankings"
+        },
+        {
+          "tipo": "ranking",
+          "titulo": "THE por materias: Top 500 en 5 grandes áreas de conocimiento",
+          "descripcion": "La UPV, internacionalmente reconocida para estudiar Artes y Humanidades, Empresariales y Económicas, Informática, Ciencias de la Vida y Ciencias Físicas",
+          "url": "https://www.upv.es/noticias-upv/noticia-15017-the-por-materi-es.html",
+          "url_externa": "http://www.timeshighereducation.com/world-university-rankings/by-subject"
+        }
+      ]
+    }
+  ]
+}

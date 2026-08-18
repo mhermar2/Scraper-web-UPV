@@ -1,0 +1,589 @@
+{
+  "titulaciones": [
+    {
+      "acro": "Programa_de_doctorado_en_Recursos_y_Tecnologías_Agrícolas",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Recursos y Tecnologías Agrícolas",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-recursos-y-tecnologias-agricolas/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ciencia_y_Tecnología_de_la_Producción_Animal",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ciencia y Tecnología de la Producción Animal",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ciencia-y-tecnologia-de-la-produccion-animal/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ciencia__Tecnología_y_Gestión_Alimentaria",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ciencia, Tecnología y Gestión Alimentaria",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ciencia-tecnologia-y-gestion-alimentaria/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Biotecnología",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Biotecnología",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-biotecnologia/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Arquitectura__Edificación__Urbanística_y_Paisaje",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Arquitectura, Edificación, Urbanística y Paisaje",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-arquitectura-edificacion-urbanistica-y-paisaje/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Arquitectura__Edificación__Patrimonio_y_Ciudad____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Arquitectura, Edificación, Patrimonio y Ciudad (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-arquitectura-edificacion-patrimonio-y-ciudad/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Industrias_de_la_Comunicación_y_Culturales",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Industrias de la Comunicación y Culturales",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-industrias-de-la-comunicacion-y-culturales/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Conservación_y_Restauración_de_Bienes_Culturales",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Conservación y Restauración de Bienes Culturales",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-conservacion-y-restauracion-de-bienes-culturales/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Arte__Producción_e_Investigación",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Arte: Producción e Investigación",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-arte-produccion-e-investigacion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Técnicas_Experimentales_en_Química____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Técnicas Experimentales en Química (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-tecnicas-experimentales-en-quimica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Química_Sostenible____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Química Sostenible (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-quimica-sostenible/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Química____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Química (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-quimica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Matemáticas____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Matemáticas (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-matematicas/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ciencia_y_Tecnología_Marina_y_Costera",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ciencia y Tecnología Marina y Costera",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ciencia-y-tecnologia-marina-y-costera/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Estadística_y_Optimización____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Estadística y Optimización (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-estadistica-y-optimizacion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Lenguas__Literaturas_y_Culturas__y_sus_Aplicaciones____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Lenguas, Literaturas y Culturas, y sus Aplicaciones (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-lenguas-literaturas-y-culturas-y-sus-aplicaciones/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Economía_Agroalimentaria",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Economía Agroalimentaria",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-economia-agroalimentaria/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Desarrollo_Local_y_Cooperación_Internacional____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Desarrollo Local y Cooperación Internacional (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-desarrollo-local-y-cooperacion-internacional/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Administración_y_Dirección_de_Empresas",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Administración y Dirección de Empresas",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-administracion-y-direccion-de-empresas/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ingeniería_del_Agua_y_Medioambiental",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería del Agua y Medioambiental",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ingenieria-del-agua-y-medioambiental/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ingeniería_de_la_Construcción",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería de la Construcción",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ingenieria-de-la-construccion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Infraestructuras_de_Transporte_y_Territorio",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Infraestructuras de Transporte y Territorio",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-infraestructuras-de-transporte-y-territorio/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Tecnologías_para_la_Salud_y_el_Bienestar",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Tecnologías para la Salud y el Bienestar",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-tecnologias-para-la-salud-y-el-bienestar/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Sistemas_Propulsivos_en_Medios_de_Transporte",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Sistemas Propulsivos en Medios de Transporte",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-sistemas-propulsivos-en-medios-de-transporte/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ingeniería_y_Producción_Industrial",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería y Producción Industrial",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ingenieria-y-produccion-industrial/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ingeniería_Textil",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería Textil",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ingenieria-textil/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ingeniería_Electrónica",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería Electrónica",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ingenieria-electronica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Diseño__Fabricación_y_Gestión_de_Proyectos_Industriales",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Diseño, Fabricación y Gestión de Proyectos Industriales",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-diseno-fabricacion-y-gestion-de-proyectos-industriales/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Automática__Robótica_e_Informática_Industrial",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Automática, Robótica e Informática Industrial",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-automatica-robotica-e-informatica-industrial/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Telecomunicación",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Telecomunicación",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-telecomunicacion/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Ingeniería_Geomática____",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Ingeniería Geomática (*)",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-ingenieria-geomatica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    },
+    {
+      "acro": "Programa_de_doctorado_en_Informática",
+      "tipo": [
+        "D"
+      ],
+      "nom": "Programa de doctorado en Informática",
+      "url": "/entidades/edoctorado/programa-de-doctorado-en-informatica/",
+      "centros": [],
+      "ramas": [],
+      "mostrar_leye": false,
+      "id_leye": "VALIDO",
+      "mostrar_sello": false,
+      "id_sello": null,
+      "mostrar_pac": false,
+      "pac": null,
+      "mostrar_masInfo": false,
+      "id_info": null
+    }
+  ],
+  "ramas": [],
+  "campus": [],
+  "centros": [],
+  "tipos": [
+    {
+      "tipo": "D",
+      "texto": "Doctorado"
+    }
+  ]
+}
