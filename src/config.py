@@ -29,3 +29,10 @@ PAUSA_RED = 0.4
 FORMACION_PERMANENTE_JSON = DATA_RAW_DIR / "formacion_permanente_upv.json"
 FORMACION_PERMANENTE_KB_DIR = ESTUDIOS_DIR / "formacion_permanente"
 FORMACION_PERMANENTE_ESTADO = FORMACION_PERMANENTE_KB_DIR / "_estado.pkl"
+
+# --- estudios / doctorado ---
+DOCTORADOS_JSON = DATA_RAW_DIR / "doctorados.json"
+DOCTORADOS_UPV_JSON = DATA_RAW_DIR / "doctorados_upv.json"
+DOCTORADOS_KB_DIR = ESTUDIOS_DIR / "doctorado"
+DOCTORADOS_ESTADO = DOCTORADOS_KB_DIR / "_estado.pkl"
+DOCTORADOS_INDICE_MD = DOCTORADOS_KB_DIR / "_indice.md"
