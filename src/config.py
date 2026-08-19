@@ -67,3 +67,8 @@ INNOVACION_JSON = DATA_RAW_DIR / "innovacion.json"
 INNOVACION_DIR = INVESTIGACION_DIR / "innovacion"
 INNOVACION_MD_PADRE = INNOVACION_DIR / "innovacion.md"
 INNOVACION_RECURSOS_DIR = INNOVACION_DIR / "recursos"
+
+# --- rankings ---
+RANKINGS_URL = "https://www.upv.es/rankings/index.html"
+RANKINGS_JSON = DATA_RAW_DIR / "rankings.json"
+RANKINGS_MD_PADRE = RANKINGS_DIR / "rankings.md"
