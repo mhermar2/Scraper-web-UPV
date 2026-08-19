@@ -48,3 +48,8 @@ INSTITUCION_CARPETAS = {
     "estrategia_upv_sirve": INSTITUCION_DIR / "estrategia_upv_sirve",
     "sindicatura": INSTITUCION_DIR / "sindicatura",
 }
+
+# --- servicios ---
+SERVICIOS_URL = "https://www.upv.es/organizacion/servicios-universitarios/index-es.html"
+SERVICIOS_JSON = DATA_RAW_DIR / "servicios_universitarios.json"
+SERVICIOS_MD_PADRE = SERVICIOS_DIR / "servicios_universitarios.md"
