@@ -24,3 +24,8 @@ HEADERS = {
 }
 
 PAUSA_RED = 0.4
+
+# --- estudios / formacion permanente ---
+FORMACION_PERMANENTE_JSON = DATA_RAW_DIR / "formacion_permanente_upv.json"
+FORMACION_PERMANENTE_KB_DIR = ESTUDIOS_DIR / "formacion_permanente"
+FORMACION_PERMANENTE_ESTADO = FORMACION_PERMANENTE_KB_DIR / "_estado.pkl"
