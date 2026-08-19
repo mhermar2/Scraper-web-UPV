@@ -60,9 +60,11 @@ def guardar_estado(path: Path, procesados: set) -> None:
         pickle.dump(procesados, f)
 
 
-def limpiar_texto(texto: str) -> str:
+def limpiar_texto(texto: str | None) -> str:
     """Colapsa espacios/saltos de linea repetidos."""
-    return re.sub(r"\s+", " ", texto).strip()
+    if texto is None:
+        return ""
+    return re.sub(r"\s+", " ", str(texto)).strip()
 
 
 def buscar_patron(texto: str, patrones: list[str]) -> str | None:

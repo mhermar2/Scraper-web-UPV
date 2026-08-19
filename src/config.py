@@ -36,3 +36,15 @@ DOCTORADOS_UPV_JSON = DATA_RAW_DIR / "doctorados_upv.json"
 DOCTORADOS_KB_DIR = ESTUDIOS_DIR / "doctorado"
 DOCTORADOS_ESTADO = DOCTORADOS_KB_DIR / "_estado.pkl"
 DOCTORADOS_INDICE_MD = DOCTORADOS_KB_DIR / "_indice.md"
+
+# --- institucion ---
+INSTITUCION_URL_RAIZ = "https://www.upv.es/organizacion/la-institucion/index-es.html"
+INSTITUCION_JSON = DATA_RAW_DIR / "institucion.json"
+INSTITUCION_MD_PADRE = INSTITUCION_DIR / "institucion.md"
+INSTITUCION_CARPETAS = {
+    "organos_de_gobierno": INSTITUCION_DIR / "organos_gobierno",
+    "publicaciones_oficiales": INSTITUCION_DIR / "publicaciones_oficiales",
+    "la_upv_al_detalle": INSTITUCION_DIR / "upv_al_detalle",
+    "estrategia_upv_sirve": INSTITUCION_DIR / "estrategia_upv_sirve",
+    "sindicatura": INSTITUCION_DIR / "sindicatura",
+}
