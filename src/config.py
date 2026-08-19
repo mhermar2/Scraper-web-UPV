@@ -98,6 +98,9 @@ ADMISION_GRADO_DIR = ADMISION_DIR / "grado"
 # la reorganizacion de data/processed/admision/grado/, distinta del slug
 # largo derivado del <title> de cada pagina que usaba el notebook
 # original (ver extrae_grado.py para el detalle).
+CRAWLER_OUTPUT_DIR = DATA_RAW_DIR / "crawler_generico"
+CRAWLER_ESTADO = CRAWLER_OUTPUT_DIR / "estado_bot.pkl"
+
 ADMISION_GRADO_FUENTES = [
     ("Bachillerato", "https://www.upv.es/admision/admision-grado/bachillerato-es.html", "bachillerato"),
     ("Ciclos formativos", "https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html", "ciclos_formativos"),
