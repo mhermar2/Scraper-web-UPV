@@ -60,3 +60,10 @@ INICIATIVAS_IDI_JSON = DATA_RAW_DIR / "iniciativas_idi.json"
 INICIATIVAS_IDI_DIR = INVESTIGACION_DIR / "iniciativas_idi"
 INICIATIVAS_IDI_MD_PADRE = INICIATIVAS_IDI_DIR / "iniciativas_idi.md"
 INICIATIVAS_IDI_RECURSOS_DIR = INICIATIVAS_IDI_DIR / "recursos"
+
+# --- investigacion / innovacion ---
+INNOVACION_URL = "https://innovacion.upv.es/"
+INNOVACION_JSON = DATA_RAW_DIR / "innovacion.json"
+INNOVACION_DIR = INVESTIGACION_DIR / "innovacion"
+INNOVACION_MD_PADRE = INNOVACION_DIR / "innovacion.md"
+INNOVACION_RECURSOS_DIR = INNOVACION_DIR / "recursos"
