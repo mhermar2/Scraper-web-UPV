@@ -90,3 +90,18 @@ ADMISION_INTERNACIONAL_URL = "https://www.upv.es/admision/internacional/"
 ADMISION_INTERNACIONAL_JSON = DATA_RAW_DIR / "admision_internacional.json"
 ADMISION_INTERNACIONAL_DIR = ADMISION_DIR / "internacional"
 ADMISION_INTERNACIONAL_RECURSOS_DIR = ADMISION_INTERNACIONAL_DIR / "recursos"
+
+# --- admision / grado ---
+ADMISION_GRADO_JSON = DATA_RAW_DIR / "admision_grado.json"
+ADMISION_GRADO_DIR = ADMISION_DIR / "grado"
+# (nombre_fuente, url, carpeta_corta) -- carpeta_corta es la ya usada en
+# la reorganizacion de data/processed/admision/grado/, distinta del slug
+# largo derivado del <title> de cada pagina que usaba el notebook
+# original (ver extrae_grado.py para el detalle).
+ADMISION_GRADO_FUENTES = [
+    ("Bachillerato", "https://www.upv.es/admision/admision-grado/bachillerato-es.html", "bachillerato"),
+    ("Ciclos formativos", "https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html", "ciclos_formativos"),
+    ("Titulados universitarios", "https://www.upv.es/admision/admision-grado/titulados-universitarios-es.html", "titulados_universitarios"),
+    ("Mayores de 25/40/45 años", "https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html", "mayores_25_40_45"),
+    ("Vengo de otra universidad", "https://www.upv.es/admision/admision-grado/vengo-de-otra-universidad-es.html", "otra_universidad"),
+]
