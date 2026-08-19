@@ -17,16 +17,22 @@ import requests
 from config import HEADERS, PAUSA_RED
 
 
-def get(url: str, headers: dict | None = None, timeout: int = 20, pausa: float = PAUSA_RED) -> str | None:
-    """GET con pausa y manejo de errores. Devuelve el HTML o None si falla."""
+def get_response(url: str, headers: dict | None = None, timeout: int = 20, pausa: float = PAUSA_RED):
+    """GET con pausa y manejo de errores. Devuelve el objeto Response o None si falla."""
     try:
         r = requests.get(url, headers=headers or HEADERS, timeout=timeout)
         r.raise_for_status()
         time.sleep(pausa)
-        return r.text
+        return r
     except Exception as e:
         print(f"Error: {url} -> {e}")
         return None
+
+
+def get(url: str, headers: dict | None = None, timeout: int = 20, pausa: float = PAUSA_RED) -> str | None:
+    """Igual que get_response(), pero devuelve directamente el HTML (o None)."""
+    r = get_response(url, headers=headers, timeout=timeout, pausa=pausa)
+    return r.text if r is not None else None
 
 
 def get_soup(url: str, headers: dict | None = None, timeout: int = 20, pausa: float = PAUSA_RED):
