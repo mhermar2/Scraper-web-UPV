@@ -53,3 +53,10 @@ INSTITUCION_CARPETAS = {
 SERVICIOS_URL = "https://www.upv.es/organizacion/servicios-universitarios/index-es.html"
 SERVICIOS_JSON = DATA_RAW_DIR / "servicios_universitarios.json"
 SERVICIOS_MD_PADRE = SERVICIOS_DIR / "servicios_universitarios.md"
+
+# --- investigacion / iniciativas idi ---
+INICIATIVAS_IDI_URL = "https://www.upv.es/investigacion/iniciativas-idi/index-es.html"
+INICIATIVAS_IDI_JSON = DATA_RAW_DIR / "iniciativas_idi.json"
+INICIATIVAS_IDI_DIR = INVESTIGACION_DIR / "iniciativas_idi"
+INICIATIVAS_IDI_MD_PADRE = INICIATIVAS_IDI_DIR / "iniciativas_idi.md"
+INICIATIVAS_IDI_RECURSOS_DIR = INICIATIVAS_IDI_DIR / "recursos"
