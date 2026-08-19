@@ -72,3 +72,9 @@ INNOVACION_RECURSOS_DIR = INNOVACION_DIR / "recursos"
 RANKINGS_URL = "https://www.upv.es/rankings/index.html"
 RANKINGS_JSON = DATA_RAW_DIR / "rankings.json"
 RANKINGS_MD_PADRE = RANKINGS_DIR / "rankings.md"
+
+# --- admision / master ---
+ADMISION_MASTER_URL = "https://www.upv.es/admision/admision-master/index-es.html"
+ADMISION_MASTER_JSON = DATA_RAW_DIR / "admision_master.json"
+ADMISION_MASTER_DIR = ADMISION_DIR / "master"
+ADMISION_MASTER_RECURSOS_DIR = ADMISION_MASTER_DIR / "recursos"
