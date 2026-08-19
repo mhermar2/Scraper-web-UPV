@@ -78,3 +78,9 @@ ADMISION_MASTER_URL = "https://www.upv.es/admision/admision-master/index-es.html
 ADMISION_MASTER_JSON = DATA_RAW_DIR / "admision_master.json"
 ADMISION_MASTER_DIR = ADMISION_DIR / "master"
 ADMISION_MASTER_RECURSOS_DIR = ADMISION_MASTER_DIR / "recursos"
+
+# --- admision / doctorado ---
+ADMISION_DOCTORADO_URL = "https://www.upv.es/admision/admision-doctorado/index-es.html"
+ADMISION_DOCTORADO_JSON = DATA_RAW_DIR / "admision_doctorado.json"
+ADMISION_DOCTORADO_DIR = ADMISION_DIR / "doctorado"
+ADMISION_DOCTORADO_RECURSOS_DIR = ADMISION_DOCTORADO_DIR / "recursos"
