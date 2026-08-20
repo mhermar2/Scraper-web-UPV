@@ -1,20 +1,36 @@
-"""Etapa 2 (Markdown) del extractor de Doctorado UPV (estudios, no admision).
+"""Extractor de Doctorado UPV (estudios/doctorado).
 
-Adaptacion del extractor de masteres UPV: lee
-config.DOCTORADOS_UPV_JSON y genera un _indice.md (tabla) y un .md por
-programa en config.DOCTORADOS_KB_DIR. Reanudable via
-config.DOCTORADOS_ESTADO.
+Reescritura completa que sustituye las dos etapas anteriores
+(sacar_json_doctorado.py + extrae_doctorado.py, movidas a legacy) por un
+unico modulo, siguiendo el patron de institucion (motor de limpieza
+comun + metadatos YAML definitivos) en vez de markdownify con logica de
+hero/iframe Oracle.
 
-Migrado desde src/extractores/estudios/extrae_doctorado.ipynb (antes
-Extrae_Doctorados.ipynb). Sin celdas exploratorias que descartar; solo
-Colab (drive.mount, rutas /content/drive) sustituido por config.py.
-cargar_estado/guardar_estado ahora vienen de common.py. La funcion get()
-que usaba el notebook original no estaba definida en las celdas
-guardadas (quedo huerfana de una celda de una sesion anterior de Colab
-que no se guardo) -- aqui se usa common.get_response(), que es el patron
-equivalente (misma pausa/manejo de errores) usado en el resto de
-extractores, y que por su uso (.text, .json()) es evidentemente lo que
-esa funcion perdida hacia.
+Esa logica especial (extraer_hero_metadata sobre ".seccion01hero",
+seguir_iframe_oracle sobre "pls/oalu") ya no aplica: el microsite
+edoctorado.upv.es se rediseno desde que se escribio el notebook
+original (comprobado contra la web real, ninguno de esos dos selectores
+aparece ya en el HTML) y ahora usa la misma plantilla WordPress
+"entry-content"/"<main>" que el resto de microsites de entidad UPV. El
+notebook original tambien asumia siempre las mismas dos secciones fijas
+("Inicio"/"Admision") con URLs fijas; la pagina actual de cada programa
+enlaza a un numero variable de subpaginas (informacion de acceso,
+organizacion, actividades formativas, resultados, verificacion...) via
+bloques ".wp-block-upv-enlace" -- se siguen los que haya en cada
+programa en vez de asumir una lista fija.
+
+`rama` (uno de los campos exclusivos de fichas de titulacion en
+estudios/doctorado, ver las notas internas del proyecto) sale de cruzar cada programa con las
+paginas de "ambito de investigacion" del menu (Agroalimentacion y
+Biotecnologia, Arquitectura, Arte, Ciencias...), que sí listan los
+programas por area de forma real. `acronimo`/`campus`/`modalidad`/
+`centro` NO se rellenan: a diferencia de admision/master (que sale de un
+catalogo JSON con esas facetas), esta pagina no expone esa informacion
+de forma estructurada por programa -- un programa participa de varias
+estructuras de investigacion y departamentos a la vez (ver "Estructuras
+de Investigacion participantes"), asi que forzar un unico `centro` seria
+inventar un dato que la fuente no da. Mejor omitir el campo que rellenar
+con un valor no verificable.
 """
 
 from __future__ import annotations
@@ -22,312 +38,282 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 from pathlib import Path
-from urllib.parse import urljoin
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # src/ (config.py, common.py)
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # src/extractores/ (motor_limpieza.py)
 
 from bs4 import BeautifulSoup
-import markdownify
+import requests
 
-from common import cargar_estado, get_response, guardar_estado
-from config import DOCTORADOS_ESTADO, DOCTORADOS_INDICE_MD, DOCTORADOS_KB_DIR, DOCTORADOS_UPV_JSON
+from common import limpiar_texto
+from config import DOCTORADOS_JSON, DOCTORADOS_KB_DIR, DOCTORADOS_MD_PADRE, DOCTORADOS_URL_RAIZ
+import motor_limpieza as ml
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/139.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Connection": "keep-alive",
+}
 
 BASE_URL = "https://www.upv.es"
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; UPV-KB-Bot/2.0)"}
-
-# Secciones del programa de doctorado
-SECCIONES = {
-    "Inicio": "",
-    "Admisión": "admision/",
+# Menu "Programas de Doctorado" > "Listado por ambitos de investigacion"
+# del propio microsite -- unica fuente real de "rama" por programa.
+AMBITOS_URL = {
+    "Agroalimentación y Biotecnología": "https://www.upv.es/entidades/edoctorado/agroalimentacion-y-biotecnologia/",
+    "Arquitectura": "https://www.upv.es/entidades/edoctorado/arquitectura/",
+    "Arte": "https://www.upv.es/entidades/edoctorado/arte/",
+    "Ciencias": "https://www.upv.es/entidades/edoctorado/ciencias/",
+    "Economía y Ciencias Sociales": "https://www.upv.es/entidades/edoctorado/economia-y-ciencias-sociales/",
+    "Ingeniería Civil": "https://www.upv.es/entidades/edoctorado/ingenieria-civil/",
+    "Ingeniería Industrial": "https://www.upv.es/entidades/edoctorado/ingenieria-industrial/",
+    "TIC": "https://www.upv.es/entidades/edoctorado/tic/",
 }
 
-HEADINGS_RUIDO = {
-    "Conoce el máster a fondo", "Galería de imágenes",
-    "Actualidad del máster", "Mantente al día",
-    "Normativa general", "Otros enlaces de interés",
-    "Conoce el master a fondo",
-}
+FUENTE = "UPV"
+CATEGORIA = "estudios"
+NIVEL = "doctorado"
+TIPO_RECURSO = "informacion"
+SECCION = "doctorado"
 
-TEXTO_PROMO = re.compile(r"Desde 1991 hemos gestionado|Hemos creado 5500|hemos tramitado \d", re.I)
-
-
-def _get(url: str):
-    return get_response(url, headers=HEADERS)
+UMBRAL_PALABRAS_POCO_CONTENIDO = 60
 
 
-def generar_indice(json_url: Path = DOCTORADOS_UPV_JSON, salida: Path = DOCTORADOS_INDICE_MD) -> None:
-    """Genera _indice.md (tabla) a partir del JSON de doctorados."""
-    with open(json_url, encoding="utf-8") as f:
-        datos = json.load(f)
-
-    tipos_idx = {t["tipo"]: t["texto"] for t in datos.get("tipos", [])}
-
-    lineas = [
-        "# Índice de Doctorados UPV",
-        "",
-        "| Acrónimo | Título | Tipo |",
-        "|----------|--------|------|",
-    ]
-
-    for d in sorted(datos["titulaciones"], key=lambda x: x["nom"]):
-        acro = d["acro"]
-        nom = d["nom"]
-        tipos = ", ".join(tipos_idx.get(t, t) for t in d.get("tipo", []))
-        url = f"https://www.upv.es{d['url']}"
-        lineas.append(f"| [{acro}]({url}) | {nom} | {tipos} |")
-
-    salida.parent.mkdir(parents=True, exist_ok=True)
-    with open(salida, "w", encoding="utf-8") as f:
-        f.write("\n".join(lineas))
-
-    print(f"Índice generado: {len(datos['titulaciones'])} doctorados -> {salida}")
+def _yaml_resumen(url: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="resumen", titulo=titulo)
 
 
-def _limpiar_ruido_inicio(main) -> None:
-    """Elimina in-place secciones ruidosas del arbol BeautifulSoup de Inicio."""
-    for heading in main.find_all(["h1", "h2", "h3", "h4"]):
-        texto_h = heading.get_text(strip=True)
-        if any(r.lower() in texto_h.lower() for r in HEADINGS_RUIDO):
-            padre = heading.find_parent(
-                lambda t: t.name in ("section", "div", "aside", "article") and t != main
-            )
-            if padre:
-                padre.decompose()
-            else:
-                for sib in list(heading.find_next_siblings()):
-                    sib.decompose()
-                heading.decompose()
-
-    for a in main.find_all("a", string=re.compile(r"Lee más", re.I)):
-        contenedor = a.find_parent(["li", "article", "div"])
-        if contenedor:
-            contenedor.decompose()
-
-    for nodo in main.find_all(string=TEXTO_PROMO):
-        bloque = nodo.find_parent(["div", "section", "p", "h3"])
-        if bloque:
-            bloque.decompose()
-
-    for sel in [".wp-block-gallery", "figure.wp-block-image", '[class*="galeria"]']:
-        for tag in main.select(sel):
-            tag.decompose()
+def _yaml_recurso(item: dict, url_resumen: str) -> str:
+    campos_extra = {"rama": item["rama"]} if item.get("rama") else None
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=item["url"], categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="recurso", tipo_recurso=TIPO_RECURSO,
+                                      resumen=url_resumen, seccion=SECCION, titulo=item["nombre"],
+                                      campos_extra=campos_extra)
 
 
-def extraer_hero_metadata(soup: BeautifulSoup) -> str:
-    """Extrae el banner hero de cabecera: acronimo, idioma, modalidad, campus, creditos..."""
-    hero = soup.find(class_="seccion01hero")
-    if not hero:
-        return ""
+# ==========================================================
+# 1. Catalogo (indice + ambitos para la rama)
+# ==========================================================
 
-    lineas = ["### Datos del programa\n"]
+def extraer_catalogo(url_indice: str = DOCTORADOS_URL_RAIZ) -> list[dict]:
+    respuesta = requests.get(url_indice, headers=HEADERS, timeout=30)
+    respuesta.raise_for_status()
+    soup = BeautifulSoup(respuesta.text, "html.parser")
 
-    for col in hero.find_all(class_="columna_arriba"):
-        t = col.get_text(" ", strip=True)
-        if t:
-            lineas.append(f"- {t}")
+    contenedor = soup.find("main") or soup.body
+    recursos = []
+    for enlace in contenedor.find_all("a", href=True):
+        nombre = limpiar_texto(enlace.get_text(" ", strip=True))
+        if not ml.normalizar_para_comparar(nombre).startswith("programa de doctorado"):
+            continue
+        url = ml.normalizar_url(enlace["href"], BASE_URL)
+        if not ml.es_url_valida(url):
+            continue
+        recursos.append(ml.crear_elemento(titulo=nombre, url=url, tipo="recurso", url_base=BASE_URL))
 
-    lineas.append("")
-
-    for col in hero.find_all(class_="columna_abajo"):
-        h = col.find(["h3", "h4"])
-        p = col.find("p")
-        if h and p:
-            clave = h.get_text(strip=True)
-            valor = p.get_text(strip=True)
-            if clave and valor:
-                lineas.append(f"**{clave}**: {valor}")
-
-    return "\n".join(lineas) if len(lineas) > 2 else ""
+    recursos = ml.deduplicar_lista(recursos, clave="url")
+    print("Programas de doctorado encontrados:", len(recursos))
+    return [{"nombre": r["titulo"], "url": r["url"], "rama": ""} for r in recursos]
 
 
-def seguir_iframe_oracle(soup: BeautifulSoup) -> str:
-    """Sigue iframes Oracle/UPV (pls/oalu/...) con el listado real de asignaturas."""
-    iframe = (soup.find(class_="upv_query") or soup).find(
-        "iframe", src=re.compile(r"pls/oalu|oalu/sic_", re.I)
-    )
-    if not iframe or not iframe.get("src"):
-        return ""
+def asignar_ramas(items: list[dict], ambitos: dict[str, str] = AMBITOS_URL) -> list[dict]:
+    """Cruza cada programa con las paginas de ambito de investigacion
+    para saber su rama -- unica fuente real de ese dato (ver cabecera)."""
+    urls_a_item = {item["url"]: item for item in items}
 
-    src = iframe["src"]
-    if src.startswith("//"):
-        src = "https:" + src
-    elif src.startswith("/"):
-        src = BASE_URL + src
-
-    print(f"      -> iframe Oracle: {src[:90]}...")
-    resp = _get(src)
-    if not resp:
-        return ""
-
-    isoup = BeautifulSoup(resp.text, "html.parser")
-    for tag in isoup(["script", "style", "noscript", "link", "meta"]):
-        tag.decompose()
-
-    body = isoup.find("body") or isoup
-    md = markdownify.markdownify(str(body), heading_style="ATX", strip=["a", "img"])
-    return re.sub(r"\n{3,}", "\n\n", md).strip()
-
-
-def limpiar_html_pagina(soup: BeautifulSoup, es_inicio: bool = False) -> str:
-    """Limpia la pagina WordPress y devuelve el contenido util en Markdown."""
-    for tag in soup(["script", "style", "noscript", "link", "meta", "header", "footer", "nav"]):
-        tag.decompose()
-
-    for sel in [
-        ".master-global-header", ".master-global-header-secondary",
-        "#masthead-container", "#masthead", "#colophon", "#site-navigation",
-        ".global-menu", ".bg-overlay", ".breadcrumb", ".social-sharer",
-        ".cookies-banner", ".menu-lateral", ".accessible-megamenu",
-        ".boton_policonsulta", ".footer-area", ".footer-bottom-bar",
-    ]:
-        for tag in soup.select(sel):
-            tag.decompose()
-
-    for tag in soup.find_all(["div", "section", "aside", "article"]):
+    for rama, url_ambito in ambitos.items():
         try:
-            clases = " ".join(tag.get("class", []))
-            id_tag = tag.get("id", "")
-            if "conoce-la-universitat" in clases + id_tag or "bloque-conoce" in clases + id_tag:
-                tag.decompose()
-        except Exception:
-            pass
+            respuesta = requests.get(url_ambito, headers=HEADERS, timeout=30)
+            respuesta.raise_for_status()
+        except Exception as error:
+            print(f"  AVISO: no se pudo leer ámbito '{rama}': {error}")
+            continue
 
-    main = (
-        soup.find("main")
-        or soup.find(id="primary")
-        or soup.find(id="cuerpo")
-        or soup.find(class_=re.compile(r"entry-content|page-content"))
-        or soup.body
-    )
-    if not main:
-        return ""
+        soup = BeautifulSoup(respuesta.text, "html.parser")
+        contenedor = soup.find("main") or soup.body
+        for enlace in contenedor.find_all("a", href=True):
+            if not ml.normalizar_para_comparar(enlace.get_text(" ", strip=True)).startswith("programa de doctorado"):
+                continue
+            url = ml.normalizar_url(enlace["href"], BASE_URL)
+            item = urls_a_item.get(url)
+            if item is not None:
+                item["rama"] = rama
 
-    if es_inicio:
-        _limpiar_ruido_inicio(main)
-
-    md = markdownify.markdownify(str(main), heading_style="ATX", strip=["a", "img"])
-    return re.sub(r"\n{3,}", "\n\n", md).strip()
+    sin_rama = sum(1 for item in items if not item["rama"])
+    if sin_rama:
+        print(f"AVISO: {sin_rama} programa(s) sin rama asignada (no aparecen en ningún ámbito).")
+    return items
 
 
-def extraer_seccion(url: str, nombre: str, es_inicio: bool = False) -> str:
-    """Descarga una seccion del programa y devuelve su contenido en Markdown."""
-    resp = _get(url)
-    if resp is None:
-        return f'> ⚠️ No se pudo obtener "{nombre}" ({url})\n'
-
-    soup = BeautifulSoup(resp.text, "html.parser")
-    partes = []
-
-    if es_inicio:
-        hero = extraer_hero_metadata(soup)
-        if hero:
-            partes.append(hero)
-
-    iframe_md = seguir_iframe_oracle(soup)
-    if iframe_md:
-        partes.append(iframe_md)
-
-    if es_inicio or nombre == "Admisión" or not iframe_md:
-        html_md = limpiar_html_pagina(soup, es_inicio=es_inicio)
-        if html_md:
-            partes.append(html_md)
-
-    if not partes:
-        return f'> ℹ️ Sección "{nombre}" sin contenido extraíble.\n'
-
-    return "\n\n".join(partes)
+def guardar_json(items: list[dict], ruta: Path = DOCTORADOS_JSON) -> None:
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    with open(ruta, "w", encoding="utf-8") as f:
+        json.dump({"programas": items}, f, ensure_ascii=False, indent=2)
+    print("JSON guardado:", ruta)
 
 
-def construir_metadata(m: dict, ramas_idx: dict, campus_idx: dict, centros_idx: dict, tipos_idx: dict) -> str:
-    """Cabecera YAML-like con los metadatos del JSON para facilitar el filtrado en RAG."""
-    ramas = ", ".join(ramas_idx.get(r, str(r)) for r in m.get("ramas", []))
-    campus = campus_idx.get(m.get("id_campus", ""), m.get("id_campus", ""))
-    centros = ", ".join(centros_idx.get(c, c) for c in m.get("centros", []))
-    tipos = ", ".join(tipos_idx.get(t, t) for t in m.get("tipo", []))
-    modal = {"1": "Presencial", "2": "Semipresencial", "3": "En línea"}.get(str(m.get("id_modalidad", "")), "")
-    return "\n".join([
-        "---",
-        f'título: "{m["nom"]}"',
-        f"acrónimo: {m['acro']}",
-        f"tipo: {tipos}",
-        f"campus: {campus}",
-        f"modalidad: {modal}",
-        f"centros: {centros}",
-        f"ramas: {ramas}",
-        f"url: {BASE_URL}{m['url']}",
-        "---", "",
-    ])
+# ==========================================================
+# 2. Markdown por programa
+# ==========================================================
+
+def limpiar_pagina_programa(soup: BeautifulSoup) -> BeautifulSoup:
+    """No se puede reusar ml.limpiar_contenido_html() tal cual: esta
+    plantilla WordPress envuelve el <h1> del articulo en un propio
+    <header class="entry-header"> (distinto del <header id="masthead">
+    del menu del sitio) -- decompose(["header"]) global se lo llevaria
+    por delante. Al escoger <main> como contenedor ya quedan fuera el
+    menu/pie del sitio, asi que no hace falta ese filtro aqui."""
+    for tag in soup.find_all(["script", "style", "noscript", "svg"]):
+        tag.decompose()
+    for tag in soup.select(".social-sharer"):
+        tag.decompose()
+    return soup
 
 
-def procesar_doctorados(json_url: Path = DOCTORADOS_UPV_JSON, path_kb: Path = DOCTORADOS_KB_DIR,
-                         estado_path: Path = DOCTORADOS_ESTADO, limite: int | None = None) -> None:
-    print("Descargando catálogo de doctorados...")
+def extraer_enlaces_subpaginas(contenido) -> list[tuple[str, str]]:
+    """Cada programa enlaza a un numero variable de subpaginas propias
+    via bloques ".wp-block-upv-enlace" (antes asumido fijo: "Inicio" +
+    "Admision", ver cabecera del modulo)."""
+    enlaces = []
+    for bloque in contenido.select(".wp-block-upv-enlace"):
+        a = bloque.find("a", href=True)
+        if a is None:
+            continue
+        texto = limpiar_texto(a.get_text(" ", strip=True))
+        url = ml.normalizar_url(a["href"], BASE_URL)
+        if texto and ml.es_url_valida(url):
+            enlaces.append((texto, url))
+    return enlaces
 
-    with open(json_url, "r", encoding="utf-8") as f:
-        datos = json.load(f)
 
-    doctorados = datos["titulaciones"]
+def extraer_contenido_pagina(url: str) -> list[str] | None:
+    soup, es_html = ml.descargar_soup(url, headers=HEADERS)
+    if not es_html:
+        return None
+    soup = limpiar_pagina_programa(soup)
+    contenido = soup.find("main") or soup.body
+    if contenido is None:
+        return None
 
-    ramas_idx = {r["id_rama"]: r["nom"] for r in datos.get("ramas", [])}
-    campus_idx = {c["id_campus"]: c["nom"] for c in datos.get("campus", [])}
-    centros_idx = {c["acro"]: c["nom"] for c in datos.get("centros", [])}
-    tipos_idx = {t["tipo"]: t["texto"] for t in datos.get("tipos", [])}
+    ml.reemplazar_tablas_por_listas(soup, contenido)
+    lineas = ml.extraer_bloques_contenido(contenido, url)
+    lineas = ml.limpiar_lineas_finales(lineas)
+    return lineas
 
-    print(f"{len(doctorados)} títulos en el catálogo.")
 
-    path_kb.mkdir(parents=True, exist_ok=True)
-    procesados = cargar_estado(estado_path)
-    pendientes = [d for d in doctorados if d["acro"] not in procesados]
-    if limite is not None:
-        pendientes = pendientes[:limite]
+def generar_markdown_programa(item: dict, carpeta: Path, url_resumen: str) -> bool:
+    titulo = item["nombre"]
+    url = item["url"]
 
-    print(f"{len(procesados)} ya procesados, {len(pendientes)} pendientes.")
+    print(f"  Extrayendo: {titulo} ({url})")
 
-    for i, doctorado in enumerate(pendientes, 1):
-        acro = doctorado["acro"]
-        nom = doctorado["nom"]
-        url_base = urljoin(BASE_URL, doctorado["url"])
+    try:
+        soup, es_html = ml.descargar_soup(url, headers=HEADERS)
+        yaml_metadatos = _yaml_recurso(item, url_resumen)
 
-        print(f"\n[{i}/{len(pendientes)}] -- {acro}: {nom}")
+        if not es_html:
+            print("  AVISO: no es HTML.")
+            return False
 
-        partes = [
-            construir_metadata(doctorado, ramas_idx, campus_idx, centros_idx, tipos_idx),
-            f"# {nom}\n",
-        ]
+        soup = limpiar_pagina_programa(soup)
+        contenido = soup.find("main") or soup.body
+        if contenido is None:
+            print("  AVISO: no se ha encontrado contenido.")
+            return False
 
-        for nombre_sec, sufijo in SECCIONES.items():
-            url_sec = url_base if sufijo == "" else urljoin(url_base, sufijo)
-            es_inicio = nombre_sec == "Inicio"
+        subpaginas = extraer_enlaces_subpaginas(contenido)
 
-            print(f"    -> {nombre_sec}: {url_sec}")
+        ml.reemplazar_tablas_por_listas(soup, contenido)
+        lineas_contenido = ml.extraer_bloques_contenido(contenido, url)
+        lineas_contenido = ml.limpiar_lineas_finales(lineas_contenido)
 
-            contenido = extraer_seccion(url_sec, nombre_sec, es_inicio=es_inicio)
-            partes.append(f"\n## {nombre_sec}\n\n{contenido}\n")
+        if not lineas_contenido:
+            print("  AVISO: contenido vacío.")
+            return False
 
-        documento = "\n".join(partes)
+        bloques = [lineas_contenido[0], f"**URL:** {url}"] + lineas_contenido[1:]
 
-        nombre_archivo = re.sub(r"[^\w\-]", "_", acro) + ".md"
-        ruta = path_kb / nombre_archivo
-        with open(ruta, "w", encoding="utf-8") as f:
-            f.write(documento)
+        for texto_enlace, url_sub in subpaginas:
+            time.sleep(0.3)
+            print(f"    -> {texto_enlace}: {url_sub}")
+            lineas_sub = extraer_contenido_pagina(url_sub)
+            bloques.append(f"## {texto_enlace}")
+            if lineas_sub:
+                # La subpagina repite su propio <h1> (ya cubierto por el
+                # "##" de arriba) -- se descarta para no duplicar titulo.
+                bloques.extend(lineas_sub[1:] if lineas_sub[0].startswith("#") else lineas_sub)
+            else:
+                bloques.append(f"_No se pudo obtener el contenido de esta subpágina. Consulta {url_sub}._")
 
-        procesados.add(acro)
-        if i % 5 == 0:
-            guardar_estado(estado_path, procesados)
-            print(f"    Checkpoint ({len(procesados)} procesados)")
+        markdown = f"{yaml_metadatos}\n" + "\n\n".join(bloques) + "\n"
 
-    guardar_estado(estado_path, procesados)
+        ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
+        with open(ruta_archivo, "w", encoding="utf-8") as archivo:
+            archivo.write(markdown)
+        print(f"  OK: {ruta_archivo}")
+        return True
 
-    total = len([f for f in path_kb.iterdir() if f.suffix == ".md"])
-    print(f"\nCompletado. Archivos .md: {total}")
-    print(f"   Ruta: {path_kb}")
+    except Exception as error:
+        print(f"  ERROR: {error}")
+        return False
 
+
+def generar_markdowns_programas(items: list[dict], carpeta: Path = DOCTORADOS_KB_DIR,
+                                 url_resumen: str = DOCTORADOS_URL_RAIZ) -> tuple[int, int, int]:
+    carpeta.mkdir(parents=True, exist_ok=True)
+    total = correctos = errores = 0
+    for item in items:
+        total += 1
+        if generar_markdown_programa(item, carpeta, url_resumen):
+            correctos += 1
+        else:
+            errores += 1
+        time.sleep(0.3)
+    return total, correctos, errores
+
+
+def generar_markdown_padre(url: str = DOCTORADOS_URL_RAIZ, ruta: Path = DOCTORADOS_MD_PADRE) -> str:
+    soup, es_html = ml.descargar_soup(url, headers=HEADERS)
+    soup = limpiar_pagina_programa(soup)
+
+    contenido = soup.find("main") or soup.body
+    if contenido is None:
+        raise Exception("No se ha encontrado <main>.")
+
+    lineas = ml.extraer_bloques_contenido(contenido, url)
+    lineas = ml.limpiar_lineas_finales(lineas)
+
+    yaml_metadatos = _yaml_resumen(url, "Doctorado")
+    markdown = f"{yaml_metadatos}\n" + "\n\n".join(lineas) + "\n"
+
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    with open(ruta, "w", encoding="utf-8") as archivo:
+        archivo.write(markdown)
+    print("OK: Markdown padre generado:", ruta)
+    return markdown
+
+
+# ==========================================================
+# Ejecucion
+# ==========================================================
 
 def main(limite: int | None = None) -> None:
-    generar_indice()
-    procesar_doctorados(limite=limite)
+    generar_markdown_padre()
+    items = extraer_catalogo()
+    items = asignar_ramas(items)
+    guardar_json(items)
+    if limite is not None:
+        items = items[:limite]
+    total, correctos, errores = generar_markdowns_programas(items)
+    print(f"Doctorado: {total} · generados: {correctos} · errores: {errores}")
 
 
 if __name__ == "__main__":
