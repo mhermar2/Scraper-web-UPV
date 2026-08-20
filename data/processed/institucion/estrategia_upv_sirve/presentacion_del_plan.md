@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: estrategia_upv_sirve
-
 url: https://www.youtube.com/watch?v=pHVVQ6LT6x8l
+categoria: institucion
+nivel: estrategia_upv_sirve
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: estrategia_upv_sirve
+titulo: Presentación del plan
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Presentación del plan
@@ -42,6 +38,6 @@ url: https://www.youtube.com/watch?v=pHVVQ6LT6x8l
 
 [Probar funciones nuevas](https://www.youtube.com/new)
 
-[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)
-
 © 2026 Google LLC
+
+YouTube, una empresa de Google

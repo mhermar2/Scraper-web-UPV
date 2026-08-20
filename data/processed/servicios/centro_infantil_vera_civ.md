@@ -1,19 +1,14 @@
 ---
 fuente: UPV
-
-categoria: servicios_universitarios
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: servicio
-
-padre: servicios_universitarios
-
-seccion: servicios_universitarios
-
 url: https://www.upv.es/entidades/CIV/index-es.html
+categoria: servicios
+tipo_documento: recurso
+tipo_recurso: servicio
+resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
+seccion: servicios_universitarios
+titulo: Centro Infantil Vera - (CIV)
+descripcion: Centro Infantil Vera
+actualizado: 2026-08-20
 ---
 
 # Centro Infantil Vera - (CIV)
@@ -460,7 +455,7 @@ Menú general mes de diciembre
 
 Primeros auxilios pediátricos: “Taller de RCP Básica y Desobstrucción de Vía Aérea en Pediatría”,
 
-[if !supportLineBreakNewLine]
+[if !supportLineBreakNewLine] [endif]
 
 [17/11/2023 Nos visita la castañera](https://www.upv.es/entidades/CIV/noticia_1232115c.html)
 

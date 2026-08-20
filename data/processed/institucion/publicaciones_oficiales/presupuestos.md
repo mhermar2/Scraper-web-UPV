@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: publicaciones_oficiales
-
 url: https://www.upv.es/entidades/ger/presupuesto/
+categoria: institucion
+nivel: publicaciones_oficiales
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: publicaciones_oficiales
+titulo: Presupuestos
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Presupuestos

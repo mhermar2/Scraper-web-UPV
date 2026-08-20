@@ -1,19 +1,14 @@
 ---
 fuente: UPV
-
-categoria: servicios_universitarios
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: servicio
-
-padre: servicios_universitarios
-
-seccion: servicios_universitarios
-
 url: https://www.upv.es/entidades/SJ/index-es.html
+categoria: servicios
+tipo_documento: recurso
+tipo_recurso: servicio
+resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
+seccion: servicios_universitarios
+titulo: Jurídico - (SJ)
+descripcion: Servicio Jurídico
+actualizado: 2026-08-20
 ---
 
 # Jurídico - (SJ)

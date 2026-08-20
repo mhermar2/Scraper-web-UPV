@@ -1,19 +1,11 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: padre
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: 
-
 url: https://www.upv.es/organizacion/la-institucion/index-es.html
+categoria: institucion
+tipo_documento: resumen
+titulo: La institución
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # La institución

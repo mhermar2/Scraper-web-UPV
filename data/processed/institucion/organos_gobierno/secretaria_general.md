@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: organos_de_gobierno
-
 url: https://www.upv.es/entidades/SG/index-es.html
+categoria: institucion
+nivel: organos_gobierno
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: organos_gobierno
+titulo: Secretaria General
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Secretaria General

@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: estrategia_upv_sirve
-
 url: https://www.upv.es/contenidos/upv_sirve/
+categoria: institucion
+nivel: estrategia_upv_sirve
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: estrategia_upv_sirve
+titulo: Propósito, misión y valores
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Propósito, misión y valores

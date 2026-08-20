@@ -1,19 +1,14 @@
 ---
 fuente: UPV
-
-categoria: servicios_universitarios
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: servicio
-
-padre: servicios_universitarios
-
-seccion: servicios_universitarios
-
 url: https://www.upv.es/entidades/APROFE/index-es.html
+categoria: servicios
+tipo_documento: recurso
+tipo_recurso: servicio
+resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
+seccion: servicios_universitarios
+titulo: Profesorado - (APROFE)
+descripcion: Área de Profesorado
+actualizado: 2026-08-20
 ---
 
 # Profesorado - (APROFE)
@@ -54,6 +49,6 @@ url: https://www.upv.es/entidades/APROFE/index-es.html
 
 ## Cargos
 
-[Coll Aliaga, Peregrina Eloína](https://www.upv.es/pls/oalu/sic_person.info?PE=78088BCB2CF83DF976B524C19C88152600D4BB546C1449900BEE26989670421523084E1DCE53881CAFFEB1D4FAD431EF0A576DF116CA63AE1AE6A01981A331EB8CD108E2F368232043F184441B8DF15C0278FDC313103456870E295C23D5052FB49DECB8ECD2B375452659D0AA17D3F0F955E5CAA7F85A2317715B42311E8BA5&P_IDIOMA=c&P_VISTA=MS)
+[Coll Aliaga, Peregrina Eloína](https://www.upv.es/pls/oalu/sic_person.info?PE=E0F75A1CA44AFE212DBB775D79D5D94810D593F2A5F4A19D68A19A092052987C150C335F233FA0629CC5D63AAE17E8EFE9D155A3E17863F425BA344BE024C21BB60A719727D7ACC8E0E3CEC6B3CA3A9A9B323171B9ED61673C707E599430586126A08308EADF89B333689E973765DD8D54BB28D10CE14D8BDF7A428E30DDA457&P_IDIOMA=c&P_VISTA=MS)
 
 En ningún momento puede considerarse este directorio como una fuente accesible al público, ni se puede hacer una libre disposición de los datos recogidos en ella. Este directorio no es ninguna de las fuentes de acceso público reguladas por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril, o por la Ley orgánica 3/2018, de 5 de diciembre, d…

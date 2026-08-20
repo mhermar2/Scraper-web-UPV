@@ -1,19 +1,11 @@
 ---
 fuente: UPV
-
-categoria: rankings
-
-nivel: institucional
-
-tipo_documento: padre
-
-tipo_recurso: informacion
-
-padre: rankings
-
-seccion: rankings
-
 url: https://www.upv.es/rankings/index.html
+categoria: rankings
+tipo_documento: resumen
+titulo: La UPV en los rankings
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 [VA](https://www.upv.es/rankings/index-va.html) / [EN](https://www.upv.es/rankings/index-en.html)

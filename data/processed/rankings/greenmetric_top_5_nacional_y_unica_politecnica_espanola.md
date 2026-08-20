@@ -1,20 +1,14 @@
 ---
 fuente: UPV
-
-categoria: rankings
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: ranking
-
-padre: rankings
-
-seccion: rankings
-
 url: https://www.upv.es/noticias-upv/noticia-15603-ui-greenmetric-es.html
-
+categoria: rankings
+tipo_documento: recurso
+tipo_recurso: ranking
+resumen: https://www.upv.es/rankings/index.html
+seccion: rankings
+titulo: "Greenmetric: Top 5 nacional y única politécnica española"
+descripcion: El ranking medioambiental universitario por excelencia reconoce a la UPV como una de las 250 universidades más comprometidas con la sostenibilidad y el medio ambiente del mundo.
+actualizado: 2026-08-20
 url_externa: https://uigreenmetric.com/rankings/university/overall-rankings-2025
 ---
 
@@ -52,7 +46,7 @@ Elaborado por la Universidad de Indonesia (UI) desde 2010 (95 universidades de 3
 
 Noticias destacadas
 
-Otro año de récord para la UPV La UPV mejora de nuevo sus resultados de preinscripción de grado, con un 3,2% más de plazas adjudicadas, y ya son diez años de subida constante
+[Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html) La UPV mejora de nuevo sus resultados de preinscripción de grado, con un 3,2% más de plazas adjudicadas, y ya son diez años de subida constante
 
 [Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html)
 

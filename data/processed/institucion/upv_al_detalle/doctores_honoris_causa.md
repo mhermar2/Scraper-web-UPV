@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: la_upv_al_detalle
-
 url: https://www.upv.es/organizacion/la-institucion/honoris-causa/index-es.html
+categoria: institucion
+nivel: upv_al_detalle
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: upv_al_detalle
+titulo: Doctores honoris causa
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Doctores honoris causa

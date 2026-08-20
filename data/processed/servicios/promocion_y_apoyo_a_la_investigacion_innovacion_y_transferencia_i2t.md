@@ -1,19 +1,14 @@
 ---
 fuente: UPV
-
-categoria: servicios_universitarios
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: servicio
-
-padre: servicios_universitarios
-
-seccion: servicios_universitarios
-
 url: https://www.upv.es/entidades/I2T/index-es.html
+categoria: servicios
+tipo_documento: recurso
+tipo_recurso: servicio
+resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
+seccion: servicios_universitarios
+titulo: Promoción y Apoyo a la Investigación, Innovación y Transferencia - (I2T)
+descripcion: Servicio de Promoción y Apoyo a la Investigación, Innovación y Transferencia
+actualizado: 2026-08-20
 ---
 
 # Promoción y Apoyo a la Investigación, Innovación y Transferencia - (I2T)

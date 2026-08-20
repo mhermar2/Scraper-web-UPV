@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: sindicatura
-
 url: https://www.upv.es/entidades/dcu/
+categoria: institucion
+nivel: sindicatura
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: sindicatura
+titulo: Sindicatura de Greuges Universitària
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Sindicatura de Greuges Universitària

@@ -1,20 +1,14 @@
 ---
 fuente: UPV
-
-categoria: rankings
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: ranking
-
-padre: rankings
-
-seccion: rankings
-
 url: https://www.upv.es/noticias-upv/noticia-15721-qs-rankings-po-es.html
-
+categoria: rankings
+tipo_documento: recurso
+tipo_recurso: ranking
+resumen: https://www.upv.es/rankings/index.html
+seccion: rankings
+titulo: "QS por materias: Nº1 de España en 4 disciplinas"
+descripcion: La UPV, mejor universidad del país para estudiar Ciencias Agrícolas, Arte y Diseño, Estadística e Ingeniería Química.
+actualizado: 2026-08-20
 url_externa: https://www.topuniversities.com/subject-rankings
 ---
 
@@ -72,7 +66,7 @@ Todas ellas, sin excepción, [destacan a la UPV como referencia internacional de
 
 Noticias destacadas
 
-Otro año de récord para la UPV La UPV mejora de nuevo sus resultados de preinscripción de grado, con un 3,2% más de plazas adjudicadas, y ya son diez años de subida constante
+[Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html) La UPV mejora de nuevo sus resultados de preinscripción de grado, con un 3,2% más de plazas adjudicadas, y ya son diez años de subida constante
 
 [Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html)
 

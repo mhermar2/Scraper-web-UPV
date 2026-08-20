@@ -1,19 +1,14 @@
 ---
 fuente: UPV
-
-categoria: servicios_universitarios
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: servicio
-
-padre: servicios_universitarios
-
-seccion: servicios_universitarios
-
 url: https://www.upv.es/entidades/AOAC/index-es.html
+categoria: servicios
+tipo_documento: recurso
+tipo_recurso: servicio
+resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
+seccion: servicios_universitarios
+titulo: Ordenación Académica - (AOAC)
+descripcion: Área de Ordenación Académica
+actualizado: 2026-08-20
 ---
 
 # Ordenación Académica - (AOAC)
@@ -54,6 +49,6 @@ url: https://www.upv.es/entidades/AOAC/index-es.html
 
 ## Cargos
 
-[Camacho Torregrosa, Francisco Javier](https://www.upv.es/pls/oalu/sic_person.info?PE=78088BCB2CF83DF976B524C19C88152600D4BB546C1449900BEE269896704215FEAEDFB38C80CA7DDE75B838348B2FD7683A2B69AF6B5184E56C8743A93DBFA932AF4BFF971C0F6930CC1A7AF24E3FD927307414CAE4CCC748835DB14584681FA811E0E49F0A1B03AE9F58F7769DC1EB5079981B2D651742B414B5BFB5601593&P_IDIOMA=c&P_VISTA=MS)
+[Camacho Torregrosa, Francisco Javier](https://www.upv.es/pls/oalu/sic_person.info?PE=E0F75A1CA44AFE212DBB775D79D5D94810D593F2A5F4A19D68A19A092052987C010B24DD563E60BE797F72FECB36717B206F15E61FEA31CE73DFDE606C5D86940268045950CC1D98B9734D39F1E2C48B8330634223541C67C7B93192788EC9709F6B576229F551E061328C16FE7D41635764F51541A87041F53DCA17E5B6E18B&P_IDIOMA=c&P_VISTA=MS)
 
 En ningún momento puede considerarse este directorio como una fuente accesible al público, ni se puede hacer una libre disposición de los datos recogidos en ella. Este directorio no es ninguna de las fuentes de acceso público reguladas por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril, o por la Ley orgánica 3/2018, de 5…

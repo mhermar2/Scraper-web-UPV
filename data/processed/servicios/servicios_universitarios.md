@@ -1,19 +1,11 @@
 ---
 fuente: UPV
-
-categoria: servicios_universitarios
-
-nivel: institucional
-
-tipo_documento: padre
-
-tipo_recurso: informacion
-
-padre: servicios_universitarios
-
-seccion: servicios_universitarios
-
 url: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
+categoria: servicios
+tipo_documento: resumen
+titulo: Servicios universitarios
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 ## Encuentra aquí los servicios, áreas, delegaciones, unidades, oficinas… de la UPV

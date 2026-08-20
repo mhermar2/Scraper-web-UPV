@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: la_upv_al_detalle
-
 url: http://50a.upv.es/index_c.html
+categoria: institucion
+nivel: upv_al_detalle
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: upv_al_detalle
+titulo: 50 aniversario de la UPV
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # 50 aniversario de la UPV

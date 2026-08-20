@@ -1,20 +1,14 @@
 ---
 fuente: UPV
-
-categoria: rankings
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: ranking
-
-padre: rankings
-
-seccion: rankings
-
 url: https://www.upv.es/noticias-upv/noticia-15017-the-por-materi-es.html
-
+categoria: rankings
+tipo_documento: recurso
+tipo_recurso: ranking
+resumen: https://www.upv.es/rankings/index.html
+seccion: rankings
+titulo: "THE por materias: Top 500 en 5 grandes áreas de conocimiento"
+descripcion: La UPV, internacionalmente reconocida para estudiar Artes y Humanidades, Empresariales y Económicas, Informática, Ciencias de la Vida y Ciencias Físicas
+actualizado: 2026-08-20
 url_externa: http://www.timeshighereducation.com/world-university-rankings/by-subject
 ---
 
@@ -54,7 +48,7 @@ Por su parte, el QS World University Rankings incluyó el pasado mes de junio a 
 
 Noticias destacadas
 
-Otro año de récord para la UPV La UPV mejora de nuevo sus resultados de preinscripción de grado, con un 3,2% más de plazas adjudicadas, y ya son diez años de subida constante
+[Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html) La UPV mejora de nuevo sus resultados de preinscripción de grado, con un 3,2% más de plazas adjudicadas, y ya son diez años de subida constante
 
 [Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html)
 

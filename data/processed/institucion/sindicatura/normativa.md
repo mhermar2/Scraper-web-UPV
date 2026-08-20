@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: sindicatura
-
 url: https://www.upv.es/entidades/dcu/normativa-3/
+categoria: institucion
+nivel: sindicatura
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: sindicatura
+titulo: Normativa
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Normativa

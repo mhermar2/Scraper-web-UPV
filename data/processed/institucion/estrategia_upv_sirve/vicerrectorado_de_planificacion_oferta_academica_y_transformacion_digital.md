@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: estrategia_upv_sirve
-
 url: https://www.upv.es/entidades/vpt/
+categoria: institucion
+nivel: estrategia_upv_sirve
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: estrategia_upv_sirve
+titulo: Vicerrectorado de Planificación, Oferta Académica y Transformación Digital
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Vicerrectorado de Planificación, Oferta Académica y Transformación Digital

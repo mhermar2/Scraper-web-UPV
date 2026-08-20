@@ -1,19 +1,15 @@
 ---
 fuente: UPV
-
-categoria: institucion
-
-nivel: institucional
-
-tipo_documento: recurso
-
-tipo_recurso: informacion
-
-padre: la_institucion
-
-seccion: estrategia_upv_sirve
-
 url: https://www.upv.es/contenidos/upv_sirve/download/18245
+categoria: institucion
+nivel: estrategia_upv_sirve
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
+seccion: estrategia_upv_sirve
+titulo: Plan SIRVE UPV 2023-2027
+descripcion: ""
+actualizado: 2026-08-20
 ---
 
 # Plan SIRVE UPV 2023-2027

@@ -64,8 +64,7 @@ HEADERS = {
 
 FUENTE = "UPV"
 CATEGORIA = "institucion"
-NIVEL = "institucional"
-PADRE_SLUG = "la_institucion"
+TIPO_RECURSO = "informacion"
 
 UMBRAL_PALABRAS_POCO_CONTENIDO = 60
 MAX_ENLACES_HIJOS = 5
@@ -80,9 +79,16 @@ CONFIG_SECCIONES = {
 }
 
 
-def _yaml(seccion_id: str, recurso: dict, tipo_documento: str = "recurso") -> str:
-    return ml.generar_yaml_metadatos(seccion_id, recurso, fuente=FUENTE, categoria=CATEGORIA,
-                                      nivel=NIVEL, padre_slug=PADRE_SLUG, tipo_documento=tipo_documento)
+def _yaml_resumen(url: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA,
+                                      tipo_documento="resumen", titulo=titulo)
+
+
+def _yaml_recurso(nivel: str, recurso: dict, url_resumen: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=recurso.get("url", ""), categoria=CATEGORIA,
+                                      nivel=nivel, tipo_documento="recurso", tipo_recurso=TIPO_RECURSO,
+                                      resumen=url_resumen, seccion=nivel, titulo=recurso.get("titulo", ""),
+                                      descripcion=recurso.get("descripcion", ""))
 
 
 # ==========================================================
@@ -216,7 +222,7 @@ def resumir_pagina_hija(url: str) -> str | None:
         return None
 
 
-def generar_markdown_recurso(recurso: dict, carpeta: Path, seccion_id: str) -> bool:
+def generar_markdown_recurso(recurso: dict, carpeta: Path, nivel: str, url_resumen: str) -> bool:
     titulo = recurso.get("titulo", "")
     url = recurso.get("url", "")
     if not titulo or not url:
@@ -226,7 +232,7 @@ def generar_markdown_recurso(recurso: dict, carpeta: Path, seccion_id: str) -> b
 
     try:
         soup, es_html = ml.descargar_soup(url, headers=HEADERS)
-        yaml_metadatos = _yaml(seccion_id, recurso)
+        yaml_metadatos = _yaml_recurso(nivel, recurso, url_resumen)
 
         if not es_html:
             markdown = (
@@ -279,9 +285,11 @@ def generar_markdown_recurso(recurso: dict, carpeta: Path, seccion_id: str) -> b
 
 def generar_markdowns_recursos(json_institucion: dict, carpetas: dict[str, Path] = INSTITUCION_CARPETAS) -> tuple[int, int, int]:
     total = correctos = errores = 0
+    url_resumen = json_institucion.get("url", INSTITUCION_URL_RAIZ)
 
     for seccion in json_institucion.get("secciones", []):
         seccion_id = seccion.get("id", "")
+        nivel = seccion.get("tipo", seccion_id)
         carpeta = carpetas.get(seccion_id)
         if carpeta is None:
             print(f"AVISO: no existe carpeta para id '{seccion_id}'")
@@ -292,7 +300,7 @@ def generar_markdowns_recursos(json_institucion: dict, carpetas: dict[str, Path]
 
         for recurso in seccion.get("elementos", []):
             total += 1
-            if generar_markdown_recurso(recurso, carpeta, seccion_id):
+            if generar_markdown_recurso(recurso, carpeta, nivel, url_resumen):
                 correctos += 1
             else:
                 errores += 1
@@ -311,7 +319,7 @@ def generar_markdown_padre(url_raiz: str = INSTITUCION_URL_RAIZ, ruta: Path = IN
     lineas_contenido = ml.limpiar_lineas_finales(ml.extraer_bloques_contenido(contenedor, url_raiz), recortar_h1=False)
     resultado = [limpiar_texto(linea) for linea in lineas_contenido if limpiar_texto(linea)]
 
-    yaml_metadatos = _yaml("", {"url": url_raiz}, tipo_documento="padre")
+    yaml_metadatos = _yaml_resumen(url_raiz, "La institución")
     markdown = f"{yaml_metadatos}\n# La institución\n\n" + "\n\n".join(resultado) + "\n"
 
     ruta.parent.mkdir(parents=True, exist_ok=True)

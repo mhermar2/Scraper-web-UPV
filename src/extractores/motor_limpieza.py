@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import re
 import unicodedata
+from datetime import date
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -342,20 +343,64 @@ def es_url_valida_para_expandir(href: str, url_pagina: str, urls_ya_usadas: set)
 
 
 # ==========================================================
-# Metadatos YAML
+# Metadatos YAML (formato definitivo, ver las notas internas del proyecto "Metadatos YAML")
 # ==========================================================
 
-def generar_yaml_metadatos(seccion_id: str, recurso: dict, *, fuente: str, categoria: str, nivel: str,
-                            padre_slug: str, tipo_documento: str = "recurso", tipo_recurso: str = "informacion") -> str:
-    campos = [
-        ("fuente", fuente),
-        ("categoria", categoria),
-        ("nivel", nivel),
-        ("tipo_documento", tipo_documento),
-        ("tipo_recurso", tipo_recurso),
-        ("padre", padre_slug),
-        ("seccion", seccion_id),
-        ("url", recurso.get("url", "")),
-    ]
-    lineas = [f"{clave}: {valor}" for clave, valor in campos]
-    return "---\n" + "\n\n".join(lineas) + "\n---\n"
+CARACTERES_INICIALES_YAML = tuple("-?:[]{},&*!|>'\"%@`#")
+
+
+def _yaml_valor(valor: str) -> str:
+    """Formatea un valor como escalar YAML seguro. Los titulos/descripciones
+    extraidos de la web son texto libre y a menudo contienen ': ' (ej.
+    titulares de noticias tipo 'THE: La UPV es...'), que en YAML sin
+    comillas se interpreta como un mapping anidado y rompe el parseo --
+    hay que entrecomillar en ese caso (y en cualquier otro caracter
+    especial al inicio, o cadena vacia)."""
+    valor = str(valor)
+    necesita_comillas = (
+        valor == ""
+        or ": " in valor
+        or valor.endswith(":")
+        or valor.startswith(CARACTERES_INICIALES_YAML)
+        or "\n" in valor
+    )
+    if not necesita_comillas:
+        return valor
+    escapado = valor.replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{escapado}"'
+
+
+def generar_yaml_metadatos(*, fuente: str, url: str, categoria: str, tipo_documento: str, titulo: str,
+                            nivel: str | None = None, tipo_recurso: str | None = None,
+                            resumen: str | None = None, seccion: str | None = None,
+                            descripcion: str = "", actualizado: str | None = None,
+                            campos_extra: dict[str, str] | None = None) -> str:
+    """Cabecera YAML homogenea para todo el corpus.
+
+    tipo_documento distingue tres casos (ver tabla de presencia en
+    las notas internas del proyecto): "resumen" (pagina raiz de una categoria/nivel, sin
+    `resumen` ni `seccion` propios), "seccion" (lleva `resumen` pero no
+    `seccion`) y "recurso" (lleva ambos). `nivel` solo se incluye si el
+    documento vive en una subcarpeta real de data/processed/<categoria>/.
+    """
+    if actualizado is None:
+        actualizado = date.today().strftime("%Y-%m-%d")
+
+    campos = [("fuente", fuente), ("url", url), ("categoria", categoria)]
+    if nivel:
+        campos.append(("nivel", nivel))
+    campos.append(("tipo_documento", tipo_documento))
+    if tipo_recurso:
+        campos.append(("tipo_recurso", tipo_recurso))
+    if resumen:
+        campos.append(("resumen", resumen))
+    if seccion:
+        campos.append(("seccion", seccion))
+    campos.append(("titulo", titulo))
+    campos.append(("descripcion", descripcion))
+    campos.append(("actualizado", actualizado))
+    if campos_extra:
+        campos.extend(campos_extra.items())
+
+    lineas = [f"{clave}: {_yaml_valor(valor)}" for clave, valor in campos]
+    return "---\n" + "\n".join(lineas) + "\n---\n"
