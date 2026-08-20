@@ -1,0 +1,109 @@
+---
+fuente: UPV
+url: https://www.cfp.upv.es/formacion-permanente/curso/modulo-nociones-basicas-uso-sistemas-informacion-geografica-ordenacion-territorio-urbanismo-paisaje_105121.html
+categoria: estudios
+nivel: formacion_permanente
+tipo_documento: recurso
+tipo_recurso: curso
+resumen: https://www.cfp.upv.es/formacion-permanente
+seccion: cursos_online
+titulo: MÓDULO EN NOCIONES BÁSICAS PARA EL USO DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA EN LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE
+descripcion: ""
+actualizado: 2026-08-20
+---
+
+# MÓDULO EN NOCIONES BÁSICAS PARA EL USO DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA EN LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE
+
+**ECTS totales:** 7
+
+**URL:** https://www.cfp.upv.es/formacion-permanente/curso/modulo-nociones-basicas-uso-sistemas-informacion-geografica-ordenacion-territorio-urbanismo-paisaje_105121.html
+
+- Desde: 22/10/26
+
+- Hasta: 30/11/26
+
+- Campus de Valencia
+
+- Online
+
+Preinscripción desde el 7/6/26
+
+Matrícula disponible hasta el 21/11/26
+
+Promovido por: Dpto. de Urbanismo
+
+Responsable de la actividad: Rafael Ramón Temes Córdovez
+
+## Modalidad
+
+- Presencial: 0 horas; Online: 70 horas; Emisión en directo: 0 horas
+
+- Lugar de impartición: Toda la Docencia se realiza 100% On-line Las tutorías se realizan On-line a través del foro y el correo electrónico
+
+- Precio: 380 €; Colectivo: Alumno UPV; Plazos: 1 plazo
+
+- Precio: 380 €; Colectivo: Alumni UPV PLUS; Plazos: 1 plazo
+
+- Precio: 380 €; Colectivo: Personal UPV; Plazos: 1 plazo
+
+- Precio: 450 €; Colectivo: Público en general; Plazos: 1 plazo
+
+- Precio: 380 €; Colectivo: Miembros del Colegio de Arquitectos de Castellón, Málaga y Tenerife; Plazos: 1 plazo
+
+- Precio: 380 €; Colectivo: Desempleado; Plazos: 1 plazo
+
+380€ Alumni UPV PLUS 380€ Alumno UPV 380€ Personal UPV 450€ Público en general 380€ Desempleado 380€ Miembros del Colegio de Arquitectos de Castellón, Málaga y Tenerife
+
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+
+## Acción formativa dirigida a
+
+Titulados universitarios y profesionales del sector, fundamentalmente Arquitectos, Ingenieros de Caminos, Geógrafos, Ingenieros Agrónomos, Ingenieros Forestales, Arquitectos Técnicos, Ingenieros de la Edificación. Para recibir la Titulación de Postgrado de Máster los alumnos deberán estar en posesión de un título universitario oficial que otorgue acceso a enseñanzas oficiales de postgrado (Art.35. Normas Reguladoras de Estudios del CFP de la UPV)
+
+## Profesores
+
+María Cristina Cáceres Barros Profesional del sector
+
+Jorge Fernandez Carrillo Profesional del sector
+
+Rafael Ramón Temes Córdovez Profesor/a Titular de Universidad
+
+Ruth De León Rodríguez Profesor/a Asociado/a Indefinido/a
+
+José Sergio Palencia Jiménez Profesor/a Permanente Laboral
+
+Juan José Tuset Davó Profesor/a Titular de Universidad
+
+## Metodología didáctica y sistemas de evaluación
+
+Los cursos se desarrollan completamente Online sobre la Plataforma de Formación "PoliformaT" propia de la Universitat Politècnica de València, ampliamente experimentada en una comunidad de más de 40.000 alumnos de Grado, Master y Doctorado. Las tutorías se realizan mediante Foros con la asistencia del profesorado Los cursos se diseñan con una finalidad práctica enfocados al uso inmediato por parte de los participantes de los Sistemas de Información Geográfica. Para ello cada MÓDULO está dividido en un conjunto de ASIGNATURAS tutorizadas cuyos contenidos se sirven a través de Poliformat. Cada ASIGNATURA que realice el alumno contará a su finalización con un "Ejercicio de Verificación" en la que se trabajará con los procedimientos expuestos. La finalización de cada MÓDULO (formada por 4 ASIGNATURAS), requerirá de la realización de una "Práctica Final de Módulo". Los alumnos del curso tendrán acceso a consultas y dudas con el profesorado de manera diaria mediante la herramienta de PoliformaT "Foro". Se abrirá un Foro específico para cada Asignatura en el que se reunirán las dudas y contestaciones planteadas por los alumnos y profesores. Se abrirá otro Foro complementario para tratar otros asuntos de carácter más general Posibilidad de realizar Módulos individuales. Ver oferta Modular del Experto universitario.
+
+## Temas a desarrollar
+
+Materia 02: "Análisis a través de Sistemas de información geográfica aplicados al territorio y la ciudad". - Aptitud territorial a través de Análisis multicriterio - Geocodificación automática de datos y creación de mapas de calor - Análisis de Redes: entidades más cercanas, áreas de servicio y matrices de costo - Cálculo del soleamiento y visibilidad a partir de un MDT
+
+## Proyecto formativo
+
+#### [DIPLOMA DE EXPERTO EN GESTIÓN DE DATOS PARA LA ADMINISTRACIÓN DE TERRITORIOS Y CIUDADES A TRAVÉS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-gestion-datos-administracion-territorios-ciudades-traves-sistemas-informacion-geografica_105118.html)
+
+- 4/5/27
+
+- 17 ECTS
+
+- Matriculable
+
+#### [DIPLOMA DE EXPERTO EN ANÁLISIS URBANO Y TERRITORIAL A TRAVÉS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-analisis-urbano-territorial-traves-sistemas-informacion-geografica_105119.html)
+
+- 22/10/26
+
+#### [MÁSTER DE FORMACIÓN PERMANENTE EN SISTEMAS DE INFORMACIÓN GEOGRÁFICA APLICADOS A LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE](https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-sistemas-informacion-geografica-aplicados-ordenacion-territorio-urbanismo-paisaje_105116.html)
+
+- 60 ECTS
+
+#### [DIPLOMA DE ESPECIALIZACIÓN EN SISTEMAS DE INFORMACIÓN GEOGRÁFICA APLICADOS A LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE](https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-sistemas-informacion-geografica-aplicados-ordenacion-territorio-urbanismo-paisaje_105117.html)
+
+- 37 ECTS
+
+Página web: [https://mastersigyurbanismo.upv.es/](https://mastersigyurbanismo.upv.es/)

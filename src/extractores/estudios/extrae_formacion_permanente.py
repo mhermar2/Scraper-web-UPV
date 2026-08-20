@@ -1,15 +1,30 @@
-"""Etapa 2 (Markdown) del extractor de Formacion Permanente UPV.
+"""Extractor de Formacion Permanente UPV (estudios/formacion_permanente).
 
-Lee config.FORMACION_PERMANENTE_JSON (generado por
-sacar_json_formacion_permanente.py) y escribe un .md por curso/master en
-config.FORMACION_PERMANENTE_KB_DIR. Reanudable: guarda el progreso en
-config.FORMACION_PERMANENTE_ESTADO.
+Reescritura completa que sustituye las dos etapas anteriores
+(sacar_json_formacion_permanente.py + extrae_formacion_permanente.py,
+movidas a legacy) por un unico modulo, siguiendo el patron de
+institucion/servicios/rankings: motor de limpieza comun +
+metadatos YAML definitivos, en vez de markdownify sobre texto plano con
+metadatos extraidos por regex.
 
-Migrado desde src/extractores/estudios/extrae_formacion_permanente.ipynb
-(antes ExtraeFormacionPermanente_v2.ipynb). Confirmado como la version
-correcta -- y no la v1 sin sufijo -- comparando el .md real ya generado
-en el repo: solo esta version produce el campo ECTS y la cabecera
-"## Informacion adicional" que aparecen en el resultado final.
+cfp.upv.es usa una plantilla Bootstrap muy distinta de la WordPress de
+upv.es (mucho widget/tabla), lo que exponia dos limitaciones reales del
+motor de limpieza generico al probarlo aqui:
+  - Las tablas HTML (precios, horarios, asignaturas...) se perdian en
+    silencio: extraer_bloques_contenido() no recorre table/tr/td (no
+    estan en TAGS_CANDIDATAS/TAGS_BLOQUE). Se soluciono anadiendo
+    reemplazar_tablas_por_listas() a motor_limpieza.py -- convierte cada
+    tabla en un <ul><li> equivalente antes del traversal, reutilizable
+    por cualquier otra seccion que tenga el mismo problema.
+  - El resto de la ficha (fechas, campus, modalidad, responsable) SI
+    esta bien cubierto por el traversal generico porque vive en <li>/<p>
+    sin bloques anidados -- no hizo falta logica especifica para eso,
+    al contrario que la version anterior (regex sobre soup.get_text()
+    de toda la pagina, que producia falsos positivos: p.ej. "ECTS: 2026"
+    al capturar un curso academico suelto en vez de los creditos).
+  - El total de ECTS del programa SI requiere un extra: solo aparece en
+    el widget lateral ".service-block-vCFP" (fuera del contenedor de
+    contenido principal), se saca aparte y se antepone como una linea.
 """
 
 from __future__ import annotations
@@ -17,188 +32,316 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # src/ (config.py, common.py)
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # src/extractores/ (motor_limpieza.py)
 
-from common import cargar_estado, get, guardar_estado
-from config import FORMACION_PERMANENTE_ESTADO, FORMACION_PERMANENTE_JSON, FORMACION_PERMANENTE_KB_DIR
+from bs4 import BeautifulSoup
+import requests
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; UPV-KB-Bot/2.0)"}
+from common import limpiar_texto
+from config import (
+    FORMACION_PERMANENTE_JSON,
+    FORMACION_PERMANENTE_KB_DIR,
+    FORMACION_PERMANENTE_MD_PADRE,
+    FORMACION_PERMANENTE_URL_RAIZ,
+)
+import motor_limpieza as ml
 
-CAMPOS_INFO = [
-    ("Precio", "precio"),
-    ("Horas", "horas"),
-    ("ECTS", "ects"),
-    ("Modalidad", "modalidad"),
-    ("Fechas", "fechas"),
-    ("Campus", "campus"),
-    ("Responsable", "responsable"),
-    ("Promueve", "promotor"),
-]
-
-ORDEN_SECCIONES = ["Dirigido a", "Objetivos", "Contenidos", "Evaluación", "Metodología", "Requisitos"]
-
-TITULOS_SECCION = {
-    "dirigida a": "Dirigido a",
-    "objetivos": "Objetivos",
-    "temas": "Contenidos",
-    "evaluación": "Evaluación",
-    "metodología": "Metodología",
-    "requisitos": "Requisitos",
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/139.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Connection": "keep-alive",
 }
 
-BASURA_TEXTOS = [
-    "Suscríbete", "Registrarse", "Iniciar sesión",
-    "Toggle navigation", "Buscar formación",
-    "Descarga en PDF", "Boletín",
+BASE_URL = "https://www.cfp.upv.es"
+
+FUENTES = [
+    ("cursos_online", "https://www.cfp.upv.es/formacion-permanente/online/formacion-online.html"),
+    ("masters", "https://www.cfp.upv.es/formacion-permanente/masters/masters.html"),
+]
+
+ENLACES_BASURA = {"matriculable", "más información", "ver más", "acceder", "inscribirse"}
+
+FUENTE = "UPV"
+CATEGORIA = "estudios"
+NIVEL = "formacion_permanente"
+
+# Clasificacion de tipo -> tipo_recurso (slug, sin acentos, como el resto
+# de valores de tipo_recurso del corpus).
+TIPOS_RECURSO = [
+    (r"m[aá]ster", "master"),
+    (r"diploma de especializaci[oó]n", "diploma_especializacion"),
+    (r"diploma de experto", "diploma_experto"),
+    (r"diploma de extensi[oó]n", "diploma_extension"),
+    (r"curso", "curso"),
 ]
 
 
-def buscar_patron(texto: str, patrones: list[str]) -> str | None:
-    for p in patrones:
-        m = re.search(p, texto, re.I)
-        if m:
-            return m.group(1).strip()
+def clasificar_tipo_recurso(nombre: str, origen: str = "") -> str:
+    nombre_normalizado = nombre.lower()
+    for patron, tipo in TIPOS_RECURSO:
+        if re.search(patron, nombre_normalizado):
+            return tipo
+    # Muchos titulos de curso son solo el tema ("Excel avanzado"), sin la
+    # palabra "curso" -- si no matcheo por titulo, caigo al origen (el
+    # listado del que salio la ficha) antes que a un generico sin
+    # informacion.
+    if origen == "masters":
+        return "master"
+    if origen == "cursos_online":
+        return "curso"
+    return "oferta_formativa"
+
+
+# Amplia el conjunto comun con el ruido propio de la plantilla Bootstrap
+# de cfp.upv.es: pestanas de navegacion internas, pitch promocional
+# repetido en cada ficha, leyendas de graficos vacios...
+TEXTOS_BOILERPLATE_CFP = ml.TEXTOS_BOILERPLATE_BASE | {
+    "registrarse", "iniciar sesion", "buscar formacion", "contacto",
+    "precios", "observaciones al precio",
+    "con la garantia y calidad de la upv", "upv", "condiciones especificas",
+    "descargar informacion", "descarga en pdf la informacion de esta actividad",
+    "consulta las condiciones especificas de la actividad",
+    "quiero recibir informacion sobre esta actividad",
+    "rellena el siguiente formulario y el responsable de la actividad se pondra en contacto contigo",
+}
+
+# El widget de cuenta atras se renderiza en servidor como ceros ("00
+# horas, 00 minutos y 00 segundos.") y el boton de inscripcion viene
+# duplicado (icono + texto se leen dos veces): mas robusto detectarlos
+# por patron que meterlos en el set de boilerplate de textos exactos.
+PATRON_CONTADOR_INSCRIPCION = re.compile(r"^\d{2} horas, \d{2} minutos y \d{2} segundos\.?$")
+
+
+def es_ruido_ficha_cfp(linea: str) -> bool:
+    if PATRON_CONTADOR_INSCRIPCION.match(linea.strip()):
+        return True
+    match_enlace = re.match(r"^\[([^\]]*)\]\([^)]+\)$", linea.strip())
+    texto_plano = match_enlace.group(1) if match_enlace else linea
+    normalizado = ml.normalizar_para_comparar(re.sub(r"^#+\s*", "", texto_plano))
+    if normalizado.startswith("inscripcion"):
+        return True
+    if normalizado.startswith("la upv es una de las universidades mejor valorada"):
+        return True
+    return False
+
+
+def _yaml_resumen(url: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="resumen", titulo=titulo)
+
+
+def _yaml_recurso(item: dict, url_resumen: str) -> str:
+    tipo_recurso = clasificar_tipo_recurso(item["nombre"], origen=item["origen"])
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=item["url"], categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="recurso", tipo_recurso=tipo_recurso,
+                                      resumen=url_resumen, seccion=item["origen"], titulo=item["nombre"])
+
+
+# ==========================================================
+# 1. Catalogo (listados de cursos/masteres)
+# ==========================================================
+
+def extraer_fichas(origen: str, url: str) -> list[dict]:
+    """Enlaces a ficha de curso/master de una pagina de listado."""
+    respuesta = requests.get(url, headers=HEADERS, timeout=30)
+    respuesta.raise_for_status()
+    soup = BeautifulSoup(respuesta.text, "html.parser")
+
+    fichas = []
+    for enlace in soup.find_all("a", href=True):
+        href = enlace["href"]
+        if "/formacion-permanente/curso/" not in href:
+            continue
+
+        nombre = limpiar_texto(enlace.get_text(" ", strip=True))
+        if not nombre or ml.normalizar_para_comparar(nombre) in ENLACES_BASURA:
+            continue
+
+        url_ficha = ml.normalizar_url(href, BASE_URL)
+        if not ml.es_url_valida(url_ficha):
+            continue
+
+        fichas.append(ml.crear_elemento(titulo=nombre, url=url_ficha, tipo="recurso", url_base=BASE_URL) | {"origen": origen})
+
+    return fichas
+
+
+def extraer_catalogo(fuentes: list[tuple[str, str]] = FUENTES) -> list[dict]:
+    catalogo: dict[str, dict] = {}
+    for origen, url in fuentes:
+        fichas = extraer_fichas(origen, url)
+        print(f"[{origen}] enlaces encontrados: {len(fichas)}")
+        for ficha in fichas:
+            catalogo.setdefault(ficha["url"], ficha)
+
+    items = [{"nombre": f["titulo"], "url": f["url"], "origen": f["origen"]} for f in catalogo.values()]
+    print("Total en catalogo (dedup por URL):", len(items))
+    return items
+
+
+def guardar_json(items: list[dict], ruta: Path = FORMACION_PERMANENTE_JSON) -> None:
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    with open(ruta, "w", encoding="utf-8") as f:
+        json.dump({"formaciones": items}, f, ensure_ascii=False, indent=2)
+    print("JSON guardado:", ruta)
+
+
+# ==========================================================
+# 2. Markdown por ficha
+# ==========================================================
+
+def extraer_ects_totales(soup: BeautifulSoup) -> str | None:
+    """El total de ECTS del programa solo aparece en el widget lateral
+    '.service-block-vCFP' (fuera del contenedor de contenido principal,
+    ver cabecera del modulo)."""
+    widget = soup.find(class_="service-block-vCFP")
+    if widget is None:
+        return None
+    for fila in widget.select(".service-in"):
+        etiqueta = ml.extraer_texto_limpio(fila.find("small"))
+        valor = ml.extraer_texto_limpio(fila.find("h4"))
+        if etiqueta.lower() == "ects" and valor:
+            return valor
     return None
 
 
-def extraer_metadata_mejorada(texto: str) -> dict:
-    meta = {}
-
-    meta["precio"] = buscar_patron(texto, [r"Precio\s+(\d+[.,]?\d*\s*€)", r"(\d+[.,]?\d*)\s*€"])
-    meta["horas"] = buscar_patron(texto, [r"(\d+)\s*h\b", r"(\d+)\s*horas"])
-    meta["ects"] = buscar_patron(texto, [r"(\d+)\s*ECTS"])
-
-    meta["modalidad"] = None
-    for m in ["Online", "Presencial", "Semipresencial", "Emisión en directo"]:
-        if re.search(r"\b" + re.escape(m) + r"\b", texto, re.I):
-            meta["modalidad"] = m
-            break
-
-    meta["fechas"] = buscar_patron(texto, [r"Desde:\s*(.+)", r"Hasta:\s*(.+)"])
-    meta["campus"] = buscar_patron(texto, [r"Campus\s+de\s+([A-Za-zÁÉÍÓÚáéíóú]+)"])
-    meta["responsable"] = buscar_patron(texto, [r"Responsable de la actividad\s*:?\s*\n(.+)"])
-    meta["promotor"] = buscar_patron(texto, [r"Promovido por:\s*(.+)", r"Organiza:\s*(.+)"])
-
-    return meta
+PATRON_ID_CURSO = re.compile(r"_(\d+)\.html?$")
 
 
-def html_a_markdown_limpio(html: str) -> str:
-    from bs4 import BeautifulSoup
-    import markdownify
+def nombre_archivo_curso(item: dict) -> str:
+    """cfp.upv.es reutiliza el mismo titulo para ediciones/anos distintos
+    de un mismo curso (URLs e IDs distintos, nombre identico) -- usar
+    solo el titulo normalizado produce colisiones que se pisan entre si
+    en silencio (comprobado: 14 de 304 items). El ID numerico al final
+    de la URL es unico por ficha, se ancla siempre para garantizarlo."""
+    id_curso = PATRON_ID_CURSO.search(item["url"])
+    sufijo = f"_{id_curso.group(1)}" if id_curso else ""
+    return ml.normalizar_identificador(item["nombre"]) + sufijo + ".md"
 
-    soup = BeautifulSoup(html, "html.parser")
 
-    for tag in soup(["script", "style", "nav", "footer", "header", "form"]):
+def limpiar_pagina_curso(soup: BeautifulSoup) -> BeautifulSoup:
+    soup = ml.limpiar_contenido_html(soup)
+    for tag in soup.find_all("form"):
         tag.decompose()
-
-    for tag in soup.find_all(["div", "section", "aside"]):
-        txt = tag.get_text(" ", strip=True)
-        if any(b.lower() in txt.lower() for b in BASURA_TEXTOS):
-            tag.decompose()
-
-    main = soup.find("main") or soup.body or soup
-
-    for a in main.find_all("a"):
-        a.replace_with(a.get_text(" ", strip=True))
-
-    md = markdownify.markdownify(str(main), heading_style="ATX")
-    md = re.sub(r"\n{3,}", "\n\n", md)
-    return md.strip()
+    for tag in soup.select(".funny-boxes, .anuncio-cfp, .tag-box-v6, .service-block-vCFP, .modal, #cfpModal"):
+        tag.decompose()
+    return soup
 
 
-def extraer_secciones(html: str) -> dict:
-    from bs4 import BeautifulSoup
+def generar_markdown_curso(item: dict, carpeta: Path, url_resumen: str) -> bool:
+    titulo = item["nombre"]
+    url = item["url"]
 
-    soup = BeautifulSoup(html, "html.parser")
-    secciones = {}
+    print(f"  Extrayendo: {titulo} ({url})")
 
-    for h in soup.find_all(["h2", "h3"]):
-        titulo = h.get_text(" ", strip=True).lower()
-        key = next((v for k, v in TITULOS_SECCION.items() if k in titulo), None)
-        if key is None:
-            continue
+    try:
+        soup, es_html = ml.descargar_soup(url, headers=HEADERS)
+        yaml_metadatos = _yaml_recurso(item, url_resumen)
 
-        bloque = []
-        for sib in h.find_next_siblings():
-            if sib.name in ["h2", "h3"]:
-                break
-            txt = sib.get_text(" ", strip=True)
-            if txt:
-                bloque.append(txt)
+        if not es_html:
+            markdown = (
+                f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n"
+                "_Este recurso no es una página HTML estándar. "
+                "Consulta el contenido directamente en la URL indicada._\n"
+            )
+            ruta_archivo = carpeta / nombre_archivo_curso(item)
+            with open(ruta_archivo, "w", encoding="utf-8") as archivo:
+                archivo.write(markdown)
+            print(f"  OK (no HTML): {ruta_archivo}")
+            return True
 
-        if bloque:
-            secciones[key] = " ".join(bloque)
+        ects = extraer_ects_totales(soup)
+        soup = limpiar_pagina_curso(soup)
 
-    return secciones
+        contenido = soup.select_one("div.container.content.profile") or soup.body
+        if contenido is None:
+            print("  AVISO: no se ha encontrado contenido.")
+            return False
+
+        ml.reemplazar_tablas_por_listas(soup, contenido)
+        lineas_contenido = ml.extraer_bloques_contenido(contenido, url)
+        lineas_contenido = ml.limpiar_lineas_finales(lineas_contenido, textos_boilerplate=TEXTOS_BOILERPLATE_CFP)
+        lineas_contenido = [l for l in lineas_contenido if not es_ruido_ficha_cfp(l)]
+
+        if not lineas_contenido:
+            print("  AVISO: contenido vacío.")
+            return False
+
+        cabecera = lineas_contenido[:1]
+        resto = lineas_contenido[1:]
+        if ects:
+            cabecera.append(f"**ECTS totales:** {ects}")
+
+        markdown = f"{yaml_metadatos}\n" + "\n\n".join(cabecera + [f"**URL:** {url}"] + resto) + "\n"
+
+        ruta_archivo = carpeta / nombre_archivo_curso(item)
+        with open(ruta_archivo, "w", encoding="utf-8") as archivo:
+            archivo.write(markdown)
+        print(f"  OK: {ruta_archivo}")
+        return True
+
+    except Exception as error:
+        print(f"  ERROR: {error}")
+        return False
 
 
-def crear_markdown(item: dict, html: str) -> str:
-    from bs4 import BeautifulSoup
-
-    soup = BeautifulSoup(html, "html.parser")
-    texto = soup.get_text("\n", strip=True)
-
-    meta = extraer_metadata_mejorada(texto)
-    secciones = extraer_secciones(html)
-
-    md = [f"# {item['nombre']}\n", "## Información principal\n"]
-
-    for etiqueta, clave in CAMPOS_INFO:
-        if meta.get(clave):
-            md.append(f"- **{etiqueta}:** {meta[clave]}")
-
-    md.append(f"\nURL: {item['url']}\n")
-    md.append("\n---\n")
-
-    for seccion in ORDEN_SECCIONES:
-        if seccion in secciones:
-            md.append(f"\n## {seccion}\n")
-            md.append(secciones[seccion])
-
-    md.append("\n## Información adicional\n")
-    md.append(html_a_markdown_limpio(html))
-
-    return "\n".join(md)
+def generar_markdowns_cursos(items: list[dict], carpeta: Path = FORMACION_PERMANENTE_KB_DIR,
+                              url_resumen: str = FORMACION_PERMANENTE_URL_RAIZ) -> tuple[int, int, int]:
+    carpeta.mkdir(parents=True, exist_ok=True)
+    total = correctos = errores = 0
+    for item in items:
+        total += 1
+        if generar_markdown_curso(item, carpeta, url_resumen):
+            correctos += 1
+        else:
+            errores += 1
+        time.sleep(0.3)
+    return total, correctos, errores
 
 
-def main(limite: int | None = None, json_url: Path = FORMACION_PERMANENTE_JSON,
-         path_kb: Path = FORMACION_PERMANENTE_KB_DIR, estado_path: Path = FORMACION_PERMANENTE_ESTADO) -> None:
-    path_kb.mkdir(parents=True, exist_ok=True)
+def generar_markdown_padre(url: str = FORMACION_PERMANENTE_URL_RAIZ, ruta: Path = FORMACION_PERMANENTE_MD_PADRE) -> str:
+    """Pagina resumen de la seccion. cfp.upv.es/formacion-permanente es un
+    home con carruseles muy ruidosos para el motor de limpieza generico;
+    en vez de arrastrar ese ruido, se compone un resumen breve a mano con
+    enlaces a los dos listados que sí se scrapean (masteres/diplomas y
+    cursos online), igual de honesto y mucho mas util para el RAG."""
+    yaml_metadatos = _yaml_resumen(url, "Formación permanente")
+    markdown = (
+        f"{yaml_metadatos}\n# Formación permanente\n\n**URL:** {url}\n\n"
+        "Oferta de formación permanente de la UPV (títulos propios): másteres, "
+        "diplomas de especialización/experto/extensión universitaria y cursos, "
+        "gestionados por el Centro de Formación Permanente (cfp.upv.es).\n\n"
+        f"- [Másteres y diplomas]({FUENTES[1][1]})\n"
+        f"- [Cursos online]({FUENTES[0][1]})\n"
+    )
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    with open(ruta, "w", encoding="utf-8") as archivo:
+        archivo.write(markdown)
+    print("OK: Markdown padre generado:", ruta)
+    return markdown
 
-    with open(json_url, encoding="utf-8") as f:
-        datos = json.load(f)
 
-    formaciones = datos["formaciones"]
-    procesados = cargar_estado(estado_path)
+# ==========================================================
+# Ejecucion
+# ==========================================================
 
-    pendientes = [f for f in formaciones if f["id"] not in procesados]
+def main(limite: int | None = None) -> None:
+    generar_markdown_padre()
+    items = extraer_catalogo()
+    guardar_json(items)
     if limite is not None:
-        pendientes = pendientes[:limite]
-
-    print("Pendientes:", len(pendientes))
-
-    for i, item in enumerate(pendientes, 1):
-        print(f"[{i}/{len(pendientes)}] {item['nombre']}")
-
-        html = get(item["url"], headers=HEADERS)
-        if not html:
-            continue
-
-        md = crear_markdown(item, html)
-
-        nombre = re.sub(r"[^a-z0-9]+", "_", item["id"]) + ".md"
-        ruta = path_kb / nombre
-        with open(ruta, "w", encoding="utf-8") as f:
-            f.write(md)
-
-        procesados.add(item["id"])
-        if i % 10 == 0:
-            guardar_estado(estado_path, procesados)
-
-    guardar_estado(estado_path, procesados)
-    print("KB terminada:", path_kb)
+        items = items[:limite]
+    total, correctos, errores = generar_markdowns_cursos(items)
+    print(f"Formación permanente: {total} · generados: {correctos} · errores: {errores}")
 
 
 if __name__ == "__main__":

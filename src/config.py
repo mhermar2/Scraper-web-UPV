@@ -26,16 +26,17 @@ HEADERS = {
 PAUSA_RED = 0.4
 
 # --- estudios / formacion permanente ---
+FORMACION_PERMANENTE_URL_RAIZ = "https://www.cfp.upv.es/formacion-permanente"
 FORMACION_PERMANENTE_JSON = DATA_RAW_DIR / "formacion_permanente_upv.json"
 FORMACION_PERMANENTE_KB_DIR = ESTUDIOS_DIR / "formacion_permanente"
+FORMACION_PERMANENTE_MD_PADRE = FORMACION_PERMANENTE_KB_DIR / "formacion_permanente.md"
 FORMACION_PERMANENTE_ESTADO = FORMACION_PERMANENTE_KB_DIR / "_estado.pkl"
 
 # --- estudios / doctorado ---
+DOCTORADOS_URL_RAIZ = "https://www.upv.es/entidades/edoctorado/todos-los-programas-de-doctorado-ofertados-en-upv/"
 DOCTORADOS_JSON = DATA_RAW_DIR / "doctorados.json"
-DOCTORADOS_UPV_JSON = DATA_RAW_DIR / "doctorados_upv.json"
 DOCTORADOS_KB_DIR = ESTUDIOS_DIR / "doctorado"
-DOCTORADOS_ESTADO = DOCTORADOS_KB_DIR / "_estado.pkl"
-DOCTORADOS_INDICE_MD = DOCTORADOS_KB_DIR / "_indice.md"
+DOCTORADOS_MD_PADRE = DOCTORADOS_KB_DIR / "doctorado.md"
 
 # --- institucion ---
 INSTITUCION_URL_RAIZ = "https://www.upv.es/organizacion/la-institucion/index-es.html"
