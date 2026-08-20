@@ -30,31 +30,17 @@ Consulta aquí la estructura y el gobierno de la institución: quién ejerce cad
 
 - [Unipersonales y colegiados](https://www.upv.es/organizacion/la-institucion/organos-gobierno-upv-es.html)
 
-[Unipersonales y colegiados](https://www.upv.es/organizacion/la-institucion/organos-gobierno-upv-es.html)
-
 - [Rector](https://rector.upv.es/es)
-
-[Rector](https://rector.upv.es/es)
 
 - [Equipo rectoral](https://www.upv.es/organizacion/la-institucion/equipo-rectoral-es.html)
 
-[Equipo rectoral](https://www.upv.es/organizacion/la-institucion/equipo-rectoral-es.html)
-
 - [Vicerrectorados y sus áreas](https://www.upv.es/organizacion/la-institucion/vicerrectorados-y-areas-es.html)
-
-[Vicerrectorados y sus áreas](https://www.upv.es/organizacion/la-institucion/vicerrectorados-y-areas-es.html)
 
 - [Secretaria General](https://www.upv.es/entidades/SG/index-es.html)
 
-[Secretaria General](https://www.upv.es/entidades/SG/index-es.html)
-
 - [Gerencia](https://www.upv.es/entidades/ger/)
 
-[Gerencia](https://www.upv.es/entidades/ger/)
-
 - [Consejo Social](https://www.upv.es/entidades/CS/index-es.html)
-
-[Consejo Social](https://www.upv.es/entidades/CS/index-es.html)
 
 1 a
 
@@ -62,23 +48,17 @@ Consulta aquí la estructura y el gobierno de la institución: quién ejerce cad
 
 Según la referencia mundial sobre educación universitaria, el [ranking de Shanghái](http://www.upv.es/rankings/index.html)
 
-[ranking de Shanghái](http://www.upv.es/rankings/index.html)
-
 3 a
 
 ## universidad con más graduados Top
 
 54 currículums "de infarto y una formación exquisita, fruto de la preparación y el esfuerzo" según la [Sociedad Española de Excelencia Académica (SEDEA)](http://www.upv.es/noticias-upv/noticia-13022-sociedad-espan-es.html)
 
-[Sociedad Española de Excelencia Académica (SEDEA)](http://www.upv.es/noticias-upv/noticia-13022-sociedad-espan-es.html)
-
 93 %
 
 ## titulados que volverían a cursar su carrera en la UPV
 
 Qué mejor recomendación que los propios egresados elegirían la UPV [si tuvieran que empezar de nuevo.](https://www.upv.es/perfiles/futuro-alumno/veinte-razones-es.html)
-
-[si tuvieran que empezar de nuevo.](https://www.upv.es/perfiles/futuro-alumno/veinte-razones-es.html)
 
 [UPV en rankings](http://www.upv.es/rankings/index.html)
 
@@ -88,23 +68,13 @@ Accede de forma ordenada a toda la documentación jurídica y económica que gen
 
 - [Boletín oficial de la UPV](https://www.upv.es/entidades/SG/infoweb/sg/info/513084normalc.html)
 
-[Boletín oficial de la UPV](https://www.upv.es/entidades/SG/infoweb/sg/info/513084normalc.html)
-
 - [Estatutos](https://www.upv.es/organizacion/la-institucion/estatutos-upv-es.html)
-
-[Estatutos](https://www.upv.es/organizacion/la-institucion/estatutos-upv-es.html)
 
 - [Memoria del curso académico](https://www.upv.es/organizacion/la-institucion/memoria-curso-upv-es.html)
 
-[Memoria del curso académico](https://www.upv.es/organizacion/la-institucion/memoria-curso-upv-es.html)
-
 - [Presupuestos](https://www.upv.es/entidades/ger/presupuesto/)
 
-[Presupuestos](https://www.upv.es/entidades/ger/presupuesto/)
-
 - [Cuentas anuales](https://www.upv.es/entidades/ger/cuentas-anuales/)
-
-[Cuentas anuales](https://www.upv.es/entidades/ger/cuentas-anuales/)
 
 ## La UPV al detalle
 
@@ -112,27 +82,15 @@ Hay otros modos de conocer de la institución: a través de sus hitos más impor
 
 - [Historia de la UPV](https://www.upv.es/organizacion/la-institucion/historia/index-es.html)
 
-[Historia de la UPV](https://www.upv.es/organizacion/la-institucion/historia/index-es.html)
-
 - [Doctores honoris causa](https://www.upv.es/organizacion/la-institucion/honoris-causa/index-es.html)
-
-[Doctores honoris causa](https://www.upv.es/organizacion/la-institucion/honoris-causa/index-es.html)
 
 - [Folleto institucional](https://www.upv.es/organizacion/la-institucion/folleto-institucional-es.html)
 
-[Folleto institucional](https://www.upv.es/organizacion/la-institucion/folleto-institucional-es.html)
-
 - [Portal de transparencia](http://www.upv.es/contenidos/PORTRANSV4/indexc.html)
-
-[Portal de transparencia](http://www.upv.es/contenidos/PORTRANSV4/indexc.html)
 
 - [50 aniversario de la UPV](http://50a.upv.es/index_c.html)
 
-[50 aniversario de la UPV](http://50a.upv.es/index_c.html)
-
 - [Memoria Viva](https://memoriaviva.upv.es/)
-
-[Memoria Viva](https://memoriaviva.upv.es/)
 
 ## Estrategia UPV_SIRVE
 
@@ -140,19 +98,11 @@ El Plan Estratégico 2023-2027 pivota en torno a 5 metas estratégicas: sostenib
 
 - [Propósito, misión y valores](https://www.upv.es/contenidos/upv_sirve/)
 
-[Propósito, misión y valores](https://www.upv.es/contenidos/upv_sirve/)
-
 - [Plan SIRVE UPV 2023-2027](https://www.upv.es/contenidos/upv_sirve/download/18245)
-
-[Plan SIRVE UPV 2023-2027](https://www.upv.es/contenidos/upv_sirve/download/18245)
 
 - [Presentación del plan](https://www.youtube.com/watch?v=pHVVQ6LT6x8l)
 
-[Presentación del plan](https://www.youtube.com/watch?v=pHVVQ6LT6x8l)
-
 - [Vicerrectorado de Planificación, Oferta Académica y Transformación Digital](https://www.upv.es/entidades/vpt/)
-
-[Vicerrectorado de Planificación, Oferta Académica y Transformación Digital](https://www.upv.es/entidades/vpt/)
 
 ## Sindicatura
 
@@ -160,19 +110,11 @@ Es la antigua Defensoría Universitaria, la figura encargada de velar por la pro
 
 - [Sindicatura de Greuges Universitària](https://www.upv.es/entidades/dcu/)
 
-[Sindicatura de Greuges Universitària](https://www.upv.es/entidades/dcu/)
-
 - [Ámbito de actuación](https://www.upv.es/entidades/dcu/actuaciones-antes-de-acudir-a-la-defensoria-universitaria/)
-
-[Ámbito de actuación](https://www.upv.es/entidades/dcu/actuaciones-antes-de-acudir-a-la-defensoria-universitaria/)
 
 - [Normativa](https://www.upv.es/entidades/dcu/normativa-3/)
 
-[Normativa](https://www.upv.es/entidades/dcu/normativa-3/)
-
 - [Comisión Ética](https://www.upv.es/entidades/dcu/carpeta/comision-etica/)
-
-[Comisión Ética](https://www.upv.es/entidades/dcu/carpeta/comision-etica/)
 
 Sabías que
 

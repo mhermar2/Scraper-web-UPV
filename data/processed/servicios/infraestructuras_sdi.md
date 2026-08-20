@@ -19,49 +19,31 @@ actualizado: 2026-08-20
 
 [Incidencias y solicitudes](https://www.upv.es/entidades/sdi/incidencias-y-solicitudes/)
 
-### Incidencias y solicitudes
-
 [Mobiliario](https://www.upv.es/entidades/sdi/mobiliario/)
-
-### Mobiliario
 
 [Comunicaciones](https://www.upv.es/entidades/sdi/comunicaciones/)
 
-### Comunicaciones
-
 [Oficina Técnica](https://www.upv.es/entidades/sdi/documentacion-tecnica/)
-
-### Oficina Técnica
 
 [INCIDENCIAS MÓVILES EN AGOSTO](https://www.upv.es/entidades/sdi/horario-de-atencion-incidencias-moviles-en-semana-santa/)
 
 [S. Telefónicos](https://www.upv.es/entidades/sdi/incidencias-y-solicitudes#Servicios-Telefónicos)
 
-### S. Telefónicos
-
 Averías telefónicas, Extensión telefónica, Préstamo de móvil, Nuevo CFT, Móvil corporativo, Gestión Telefónica
 
 [Cerraduras SALTO](https://www.upv.es/entidades/sdi/incidencias-y-solicitudes#cerraduras-salto)
-
-### Cerraduras SALTO
 
 Averías, Permisos de usuario, Cambio de pilas, Nuevas instalaciones
 
 [Polisolicita](https://www.upv.es/entidades/sdi/incidencias-y-solicitudes#Polisolicita)
 
-### Polisolicita
-
 Señalética, Incidencias parking, Facturas telefónicas
 
 [Gregal](https://www.upv.es/entidades/sdi/incidencias-y-solicitudes#Gregal-Centros)
 
-### Gregal
-
 Incidencias informáticas, Conexión de equipos, Infraestructura Wifi, Obras
 
 [Somo](https://www.upv.es/entidades/sdi/mobiliario/)
-
-### Somo
 
 Desde esta aplicación se puede solicitar mobiliario nuevo para los tres campus de la UPV.
 

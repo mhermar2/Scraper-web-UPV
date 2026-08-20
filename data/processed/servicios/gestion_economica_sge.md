@@ -33,21 +33,9 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SGE/menu_1015722c.html) [Resultados](https://www.upv.es/entidades/SGE/menu_1015721c.html) [Mejoras](https://www.upv.es/entidades/SGE/menu_1015723c.html)
 
-[Compromisos](https://www.upv.es/entidades/SGE/menu_1015722c.html)
-
-[Resultados](https://www.upv.es/entidades/SGE/menu_1015721c.html)
-
-[Mejoras](https://www.upv.es/entidades/SGE/menu_1015723c.html)
-
 Atención al usuario
 
 [Consultas](http://www.upv.es/entidades/SGE/info/1077087normalc.html) [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SGE/menu_1015726c.html) Horario de atención
-
-[Consultas](http://www.upv.es/entidades/SGE/info/1077087normalc.html)
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SGE/menu_1015726c.html)
-
-Horario de atención
 
 Normativa
 

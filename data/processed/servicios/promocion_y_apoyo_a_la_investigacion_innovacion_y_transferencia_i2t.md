@@ -71,23 +71,17 @@ Impulsamos la conexión entre la investigación universitaria y los retos del en
 
 [Explora UPV](https://www.upv.es/entidades/i2t/explora-upv/)
 
-### Explora UPV
-
 Facilitamos que investigadores y empresas encuentren conocimiento, expertos y capacidades de la UPV a través de una plataforma abierta. Así, potenciamos la visibilidad de la investigación para promover nuevas colaboraciones dentro y fuera de la universidad.
 
 [Más info](https://www.upv.es/entidades/i2t/explora-upv/)
 
 [Innovación en Salud](https://www.upv.es/entidades/i2t/innovacion-salud/)
 
-### Innovación en Salud
-
 Promovemos alianzas estratégicas entre la UPV y centros sanitarios para desarrollar proyectos conjuntos que den respuesta a retos reales del sistema de salud, acercando la investigación universitaria al ámbito clínico.
 
 [Más info](https://www.upv.es/entidades/i2t/innovacion-salud/)
 
 [Match UPV-Empresa](https://www.upv.es/entidades/i2t/match-upv-empresa/)
-
-### Match UPV-Empresa
 
 Organizamos encuentros donde empresas líderes presentan sus desafíos tecnológicos y los investigadores ofrecen soluciones innovadoras. Tras el evento, se abren oportunidades de colaboración.
 

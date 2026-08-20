@@ -33,21 +33,9 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SDM/menu_1015632c.html) [Resultados](https://www.upv.es/entidades/SDM/menu_1015631c.html) [Mejoras](https://www.upv.es/entidades/SDM/menu_1015633c.html)
 
-[Compromisos](https://www.upv.es/entidades/SDM/menu_1015632c.html)
-
-[Resultados](https://www.upv.es/entidades/SDM/menu_1015631c.html)
-
-[Mejoras](https://www.upv.es/entidades/SDM/menu_1015633c.html)
-
 Atención al usuario
 
 [Consultas](https://www.upv.es/policonsulta/c/UM) [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SDM/menu_1015636c.html) Horario de atención
-
-[Consultas](https://www.upv.es/policonsulta/c/UM)
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SDM/menu_1015636c.html)
-
-Horario de atención
 
 Normativa
 
@@ -62,8 +50,6 @@ Contraer
 ## Servicio de Mantenimiento
 
 El Servicio de Mantenimiento depende del Vicerrectorado de Infraestructura y Mantenimiento y se encarga de realizar las operaciones necesarias para el adecuado funcionamiento de las instalaciones, edificios e infraestructuras de la Universidad Politécnica de Valencia así como del ajardinamiento y limpieza de la urbanización. Incluye la atención a las infraestructuras generales y a los edificios de las diversas localizaciones de Universidad Politécnica de Valencia en sus campus de Vera, Gandía, Alcoi y en la avenida Blasco Ibáñez de la ciudad de Valencia.
-
-Buscador no activo para idweb : 487562
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

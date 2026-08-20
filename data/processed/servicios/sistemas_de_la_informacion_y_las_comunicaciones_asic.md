@@ -67,21 +67,15 @@ El servicio de aplicaciones es el encargado del desarrollo, implantación y mant
 
 [Clúster de cálculo científico Sirius](https://www.upv.es/entidades/asic/cluster-hpc-sirius/)
 
-### Clúster de cálculo científico Sirius
-
 [Más info](https://www.upv.es/entidades/asic/cluster-hpc-sirius/)
 
 [MOOCs UPV](https://www.upvx.es/)
-
-### MOOCs UPV
 
 La plataforma de MOOCs de la UPV
 
 [Más info](https://www.upvx.es/)
 
 [Oficina de Aprendizaje Digital](https://www.upv.es/contenidos/adigital/)
-
-### Oficina de Aprendizaje Digital
 
 [Más info](https://www.upv.es/contenidos/adigital/)
 
@@ -102,5 +96,3 @@ Consulte los servicios y aplicaciones gestionados por el Área de Sistemas de In
 El Centro de Atención al Usuario es la ventanilla única donde puede realizar su consulta o petición al Área de Sistemas de Información y Comunicaciones
 
 [ACCEDE](https://cau.upv.es) [A](https://cau.upv.es) [L](https://cau.upv.es) [C](https://cau.upv.es) [A](https://cau.upv.es) [U](https://cau.upv.es)
-
-[ACCEDE](https://cau.upv.es)

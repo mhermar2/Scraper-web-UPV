@@ -19,17 +19,7 @@ actualizado: 2026-08-20
 
 [Sindicatura de Greuges Universitària La Sindicatura de todas y todos](http://www.upv.es/entidades/dcu/presentacion/)
 
-#### Sindicatura de Greuges Universitària
-
-### La Sindicatura de todas y todos
-
 [Actuaciones Garantías en la actuación de la Sindicatura de Greuges Universitària La Sindicatura de Greuges Universitària y su Adjunta o Adjunto no estarán sujetos a mandato imperativo alguno ni recibirán instrucción de ninguna instancia universitaria y desempeñarán sus funciones con independencia, autonomía y objetividad.](http://www.upv.es/entidades/dcu/actuaciones-antes-de-acudir-a-la-defensoria-universitaria/)
-
-#### Actuaciones
-
-### Garantías en la actuación de la Sindicatura de Greuges Universitària
-
-La Sindicatura de Greuges Universitària y su Adjunta o Adjunto no estarán sujetos a mandato imperativo alguno ni recibirán instrucción de ninguna instancia universitaria y desempeñarán sus funciones con independencia, autonomía y objetividad.
 
 ## Sindicatura de Greuges Universitària
 
@@ -110,7 +100,3 @@ Mantente al día
 [II Jornadas de la Red de Sindicaturas y Defensorías de la Comunidad Valenciana (SIDUV)](https://www.upv.es/entidades/dcu/2025/11/13/ii-jornadas-de-la-red-de-sindicaturas-y-defensorias-de-la-comunidad-valenciana-siduv/)
 
 La Red de Sindicaturas de Agravios y Defensorías Universitarias de la Comunidad Valenciana (SIDUV) celebrará el viernes 14 de noviembre las II Jornadas “Humanizar la Universidad”, un encuentro orientado a reflexionar… [Lee más : II Jornadas de la Red de Sindicaturas y Defensorías de la Comunidad Valenciana (SIDUV)](https://www.upv.es/entidades/dcu/2025/11/13/ii-jornadas-de-la-red-de-sindicaturas-y-defensorias-de-la-comunidad-valenciana-siduv/)
-
-[Lee más : II Jornadas de la Red de Sindicaturas y Defensorías de la Comunidad Valenciana (SIDUV)](https://www.upv.es/entidades/dcu/2025/11/13/ii-jornadas-de-la-red-de-sindicaturas-y-defensorias-de-la-comunidad-valenciana-siduv/)
-
-: II Jornadas de la Red de Sindicaturas y Defensorías de la Comunidad Valenciana (SIDUV)

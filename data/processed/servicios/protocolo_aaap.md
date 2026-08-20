@@ -27,8 +27,6 @@ actualizado: 2026-08-20
 
 [Funciones](http://www.upv.es/entidades/AAAP/infoweb/aaap/aaap/693218normalc.html)
 
-Funciones
-
 Organigrama
 
 [Carta de servicios](http://www.upv.es/entidades/AAAP/infoweb/aaap/aaap/693234normalc.html)
@@ -36,8 +34,6 @@ Organigrama
 Procesos
 
 [Normativa](http://www.upv.es/entidades/AAAP/infoweb/aaap/aaap/737096normalc.html)
-
-Normativa
 
 [Manual para la organización de actos en la UPV](http://www.upv.es/entidades/AAAP/menu_urlc.html?https://intranet.upv.es/pls/soalu/sic_news2.Lis_Intranet_InfoIntranet?p_acronimo=AAAP&p_idioma=C&p_vista=MS&P_TIPO=UPV&p_acceso=*&P_MODO=URL&p_id_inicial=850541)
 
@@ -51,19 +47,9 @@ Protocolo de la Universitat Politècnica de València se encarga de organizar y 
 
 [01/06/2021 Fotos y vídeos de los últimos actos Disponibles los videos y fotos de los ultimos actos acadèmicos.](https://www.upv.es/entidades/AAAP/noticia_821528c.html)
 
-01/06/2021
-
-Fotos y vídeos de los últimos actos
-
-Disponibles los videos y fotos de los ultimos actos acadèmicos.
-
 [Fotos y vídeos de los últimos actos](http://protocolo.webs.upv.es/actos/)
 
 [ [ver todas](https://www.upv.es/entidades/AAAP/noticiasc.html) ]
-
-[ver todas](https://www.upv.es/entidades/AAAP/noticiasc.html)
-
-Buscador no activo para idweb : 693167
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

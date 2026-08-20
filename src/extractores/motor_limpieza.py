@@ -154,8 +154,16 @@ def descargar_soup(url: str, headers: dict | None = None):
 
 
 def limpiar_contenido_html(soup: BeautifulSoup) -> BeautifulSoup:
+    from bs4 import Comment
+
     for elemento in soup.find_all(["script", "style", "noscript", "svg", "nav", "footer", "header"]):
         elemento.decompose()
+    # Comment es subclase de NavigableString: sin este filtro,
+    # .get_text()/extraer_texto_limpio() cuelan comentarios HTML
+    # (notas de desarrollo tipo <!-- quitamos capitalizacion... -->)
+    # como si fueran texto real de la pagina.
+    for comentario in soup.find_all(string=lambda s: isinstance(s, Comment)):
+        comentario.extract()
     return soup
 
 
@@ -212,6 +220,22 @@ def texto_markdown_de_elemento(tag, url_pagina: str, resolver_url=_identidad) ->
     return limpiar_texto(" ".join(partes))
 
 
+def _tiene_ancestro_hoja(tag, contenedor) -> bool:
+    """True si algun ancestro de tag (hasta contenedor) ya califica como
+    hoja de contenido. texto_markdown_de_elemento() es recursivo via
+    get_text(), asi que ese ancestro ya capturara el texto de tag como
+    parte del suyo -- volver a emitirlo aqui aparte duplicaria la linea.
+    Tipico con <a>/<span> anidados dentro de un <h1-h6>/<p>/<li> que ya
+    es hoja por si mismo (ej. un <h4><a>...</a></h4>: sin este filtro
+    sale el titulo Y, justo debajo, el mismo enlace suelto otra vez)."""
+    ancestro = tag.parent
+    while ancestro is not None and ancestro is not contenedor:
+        if es_hoja_de_contenido(ancestro):
+            return True
+        ancestro = ancestro.parent
+    return False
+
+
 def extraer_bloques_contenido(contenedor, url_pagina: str, resolver_url=_identidad) -> list[str]:
     """Recorre el contenedor y devuelve lineas Markdown: titulos,
     parrafos, items de lista y enlaces sueltos (nombres, telefonos,
@@ -221,6 +245,8 @@ def extraer_bloques_contenido(contenedor, url_pagina: str, resolver_url=_identid
 
     for tag in contenedor.find_all(TAGS_CANDIDATAS, recursive=True):
         if not es_hoja_de_contenido(tag):
+            continue
+        if _tiene_ancestro_hoja(tag, contenedor):
             continue
 
         if tag.name == "a":
@@ -255,6 +281,39 @@ def contar_palabras(lineas: list[str]) -> int:
     return sum(len(linea.split()) for linea in lineas)
 
 
+def reemplazar_tablas_por_listas(soup: BeautifulSoup, contenedor) -> None:
+    """Convierte cada <table> del contenedor en un <ul><li> equivalente,
+    in-place. extraer_bloques_contenido() no recorre table/tr/td (no
+    estan en TAGS_CANDIDATAS/TAGS_BLOQUE) para no romper el traversal
+    generico con la semantica de filas/columnas, asi que sin esto
+    cualquier tabla HTML (precios, horarios, listados de asignaturas...)
+    se pierde en silencio. Cada fila se convierte en un <li> con sus
+    celdas unidas por '; ', usando los <th> como etiquetas si el numero
+    de columnas coincide."""
+    for tabla in contenedor.find_all("table"):
+        encabezados = [extraer_texto_limpio(th) for th in tabla.find_all("th")]
+        lista = soup.new_tag("ul")
+        for fila in tabla.find_all("tr"):
+            celdas = [extraer_texto_limpio(td) for td in fila.find_all("td")]
+            celdas = [c for c in celdas if c and c != "-" and re.search(r"[A-Za-z0-9]", c)]
+            if not celdas:
+                continue
+            if encabezados and len(encabezados) == len(celdas):
+                texto_fila = "; ".join(f"{h}: {c}" for h, c in zip(encabezados, celdas) if c)
+            else:
+                texto_fila = "; ".join(celdas)
+            if not texto_fila:
+                continue
+            item = soup.new_tag("li")
+            item.string = texto_fila
+            lista.append(item)
+
+        if lista.find("li"):
+            tabla.replace_with(lista)
+        else:
+            tabla.decompose()
+
+
 # ==========================================================
 # Filtrado de plantilla (menu, migas, pie, widgets)
 # ==========================================================
@@ -277,6 +336,9 @@ def es_linea_boilerplate(linea: str, textos_boilerplate: set[str] = TEXTOS_BOILE
 
     if normalizado in textos_boilerplate:
         return True
+    if normalizado and not re.search(r"[a-z0-9]", normalizado):
+        return True
+
     if "universitat politecnica de valencia" in normalizado and "©" in linea:
         return True
     if re.match(r"^tel\.?\s*\(?\+?34", normalizado):

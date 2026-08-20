@@ -33,21 +33,9 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SRH/menu_1015488c.html) [Resultados](https://www.upv.es/entidades/SRH/menu_1015487c.html) [Mejoras](https://www.upv.es/entidades/SRH/menu_1015489c.html)
 
-[Compromisos](https://www.upv.es/entidades/SRH/menu_1015488c.html)
-
-[Resultados](https://www.upv.es/entidades/SRH/menu_1015487c.html)
-
-[Mejoras](https://www.upv.es/entidades/SRH/menu_1015489c.html)
-
 Atención al usuario
 
 Consultas [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SRH/menu_1015492c.html) Horario de atención
-
-Consultas
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SRH/menu_1015492c.html)
-
-Horario de atención
 
 Normativa
 
@@ -55,57 +43,15 @@ Normativa
 
 [Normativa Comunidad Universitaria](http://www.upv.es/entidades/SRH/rlab/838234normalc.html) [Organos de Representación Unitaria del Personal](http://www.upv.es/entidades/SRH/rlab/778025normalc.html)
 
-[Normativa Comunidad Universitaria](http://www.upv.es/entidades/SRH/rlab/838234normalc.html)
-
-[Organos de Representación Unitaria del Personal](http://www.upv.es/entidades/SRH/rlab/778025normalc.html)
-
 [Personal Docente e Investigador](http://www.upv.es/entidades/SRH/pdi/579824normalc.html)
 
 [Introducción](http://www.upv.es/entidades/SRH/pdi/777024normalc.html) [Acceso como PDI -Concursos-](http://www.upv.es/entidades/SRH/pdi/751744normalc.html) [Información Laboral](http://www.upv.es/entidades/SRH/pdi/751742normalc.html) [Procesos y Solicitudes](http://www.upv.es/entidades/SRH/pdi/751745normalc.html) [Documentos y Modelos.](http://www.upv.es/entidades/SRH/menu_urlc.html?https://intranet.upv.es/pls/soalu/sic_news2.Lis_Intranet_InfoIntranet?p_acronimo=SRH&p_idioma=C&p_vista=MS&P_TIPO=UPV&p_acceso=&P_MODO=URL&p_id_inicial=751747) [Normativa](http://www.upv.es/entidades/SRH/pdi/751746normalc.html)
-
-[Introducción](http://www.upv.es/entidades/SRH/pdi/777024normalc.html)
-
-[Acceso como PDI -Concursos-](http://www.upv.es/entidades/SRH/pdi/751744normalc.html)
-
-[Información Laboral](http://www.upv.es/entidades/SRH/pdi/751742normalc.html)
-
-[Procesos y Solicitudes](http://www.upv.es/entidades/SRH/pdi/751745normalc.html)
-
-[Documentos y Modelos.](http://www.upv.es/entidades/SRH/menu_urlc.html?https://intranet.upv.es/pls/soalu/sic_news2.Lis_Intranet_InfoIntranet?p_acronimo=SRH&p_idioma=C&p_vista=MS&P_TIPO=UPV&p_acceso=&P_MODO=URL&p_id_inicial=751747)
-
-[Normativa](http://www.upv.es/entidades/SRH/pdi/751746normalc.html)
 
 [Personal Técnico, de Gestión y de Administración y Servicios](http://www.upv.es/entidades/SRH/pas/676956normalc.html)
 
 [Introducción](http://www.upv.es/entidades/SRH/pas/802999normalc.html) [Normativa](http://www.upv.es/entidades/SRH/pas/802410normalc.html) [Relación de Puestos Trabajo](http://www.upv.es/entidades/SRH/pas/802415normalc.html) [Selección y Provisión del PTGAS](http://www.upv.es/entidades/SRH/pas/802416normalc.html) [Bolsas de trabajo PTGAS](http://www.upv.es/entidades/SRH/pas/802417normalc.html) [Documentos y Modelos de solicitudes](http://www.upv.es/entidades/SRH/pas/1012237normalc.html) [Novedades y Últimas Noticias](https://rrhh.blogs.upv.es) [Programas de Teletrabajo](https://www.upv.es/entidades/SRH/pas/1226212normalc.html)
 
-[Introducción](http://www.upv.es/entidades/SRH/pas/802999normalc.html)
-
-[Normativa](http://www.upv.es/entidades/SRH/pas/802410normalc.html)
-
-[Relación de Puestos Trabajo](http://www.upv.es/entidades/SRH/pas/802415normalc.html)
-
-[Selección y Provisión del PTGAS](http://www.upv.es/entidades/SRH/pas/802416normalc.html)
-
-[Bolsas de trabajo PTGAS](http://www.upv.es/entidades/SRH/pas/802417normalc.html)
-
-[Documentos y Modelos de solicitudes](http://www.upv.es/entidades/SRH/pas/1012237normalc.html)
-
-[Novedades y Últimas Noticias](https://rrhh.blogs.upv.es)
-
-[Programas de Teletrabajo](https://www.upv.es/entidades/SRH/pas/1226212normalc.html)
-
 [Introducción](http://www.upv.es/entidades/SRH/conypi/1263583normalc.html) [Normativa](http://www.upv.es/entidades/SRH/conypi/1263554normalc.html) [Convocatorias de selección](http://www.upv.es/entidades/SRH/conypi/590724normalc.html) [Procesos y Solicitudes](http://www.upv.es/entidades/SRH/conypi/1243946normalc.html) Documentos y Modelos
-
-[Introducción](http://www.upv.es/entidades/SRH/conypi/1263583normalc.html)
-
-[Normativa](http://www.upv.es/entidades/SRH/conypi/1263554normalc.html)
-
-[Convocatorias de selección](http://www.upv.es/entidades/SRH/conypi/590724normalc.html)
-
-[Procesos y Solicitudes](http://www.upv.es/entidades/SRH/conypi/1243946normalc.html)
-
-Documentos y Modelos
 
 [Servicio Económico de Recursos Humanos](http://www.upv.es/entidades/SRH/retribuciones/786245normalc.html)
 
@@ -114,12 +60,6 @@ Documentos y Modelos
 [Unidad de Formación](http://www.upv.es/entidades/SRH/ufasu/741777normalc.html)
 
 [Información general](http://www.upv.es/entidades/SRH/ufasu/741777normalc.html) [Normativa de formación](http://www.upv.es/entidades/SRH/ufasu/741766normalc.html) [Portal de formación continua y permanente](http://www.upv.es/entidades/SRH/ufasu/944333normalc.html)
-
-[Información general](http://www.upv.es/entidades/SRH/ufasu/741777normalc.html)
-
-[Normativa de formación](http://www.upv.es/entidades/SRH/ufasu/741766normalc.html)
-
-[Portal de formación continua y permanente](http://www.upv.es/entidades/SRH/ufasu/944333normalc.html)
 
 [Formularios y Documentos](https://www.upv.es/entidades/SRH/menu_579820c.html)
 
@@ -134,10 +74,6 @@ La Vicegerencia de Recursos Humanos y Organización es la encargada de coordinar
 Actualizando...
 
 [ [más noticias](https://www.upv.es/entidades/SRH/noticiasc.html) ]
-
-[más noticias](https://www.upv.es/entidades/SRH/noticiasc.html)
-
-Buscador no activo para idweb : 460758
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

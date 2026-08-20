@@ -33,27 +33,13 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SIPRL/menu_935682c.html) [Resultados](https://www.upv.es/entidades/SIPRL/menu_935683c.html)
 
-[Compromisos](https://www.upv.es/entidades/SIPRL/menu_935682c.html)
-
-[Resultados](https://www.upv.es/entidades/SIPRL/menu_935683c.html)
-
 [Atención al usuario](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/978808normalc.html)
 
 [Información de contacto](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/976335normalc.html) [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SIPRL/menu_935677c.html)
 
-[Información de contacto](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/976335normalc.html)
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SIPRL/menu_935677c.html)
-
 [Universidades Saludables](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/913317normalc.html)
 
 [UPV Saludable](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/913326normalc.html) [REUS](http://www.msssi.gob.es/profesionales/saludPublica/prevPromocion/promocion/UniversidadesSaludables/REUS.htm) [Documentos](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/913318normalc.html)
-
-[UPV Saludable](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/913326normalc.html)
-
-[REUS](http://www.msssi.gob.es/profesionales/saludPublica/prevPromocion/promocion/UniversidadesSaludables/REUS.htm)
-
-[Documentos](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/913318normalc.html)
 
 [Campañas](http://www.upv.es/entidades/CSLJP/infoweb/gm/info/985162normalc.html)
 
@@ -75,17 +61,7 @@ El Centro de Salud Laboral Juana Portaceli es la unidad médica del Servicio Int
 
 [27/10/2016 Nueva actualización de la página web. Más contenido y mejor organizado. Actualmente actualizandose casi todos los días.](https://www.upv.es/entidades/CSLJP/noticia_599368c.html)
 
-27/10/2016
-
-Nueva actualización de la página web.
-
-Más contenido y mejor organizado. Actualmente actualizandose casi todos los días.
-
 [ [ver todas](https://www.upv.es/entidades/CSLJP/noticiasc.html) ]
-
-[ver todas](https://www.upv.es/entidades/CSLJP/noticiasc.html)
-
-Buscador no activo para idweb : 494970
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

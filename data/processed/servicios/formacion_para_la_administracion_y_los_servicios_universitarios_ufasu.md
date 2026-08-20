@@ -19,35 +19,11 @@ actualizado: 2026-08-20
 
 [Abierto plazo de preinscripción del 9 a 22 de junio Segunda convocatoria de actividades formativas 2026 Desarrollo de actividades de septiembre a diciembre](https://www.upv.es/entidades/ufasu/2026/06/08/plazo-abierto-para-la-preinscripcion-de-cursos-de-formacion-sept-dic/)
 
-#### Abierto plazo de preinscripción del 9 a 22 de junio
-
-### Segunda convocatoria de actividades formativas 2026
-
-Desarrollo de actividades de septiembre a diciembre
-
 [¿Eres nuevo/a en la UPV? ¿Tienes dudas sobre cómo formarte y mejorar tus competencias profesionales? Descubre cómo funciona la Unidad de formación](https://www.upv.es/entidades/ufasu/fines-y-objetivos/)
-
-#### ¿Eres nuevo/a en la UPV?
-
-### ¿Tienes dudas sobre cómo formarte y mejorar tus competencias profesionales?
-
-Descubre cómo funciona la Unidad de formación
 
 [Aprende a tu ritmo Descubre el Espacio Personal de Aprendizaje Más de 1500 recursos didácticos a tu alcance](https://aplicat.upv.es/vadell-app/autoformacion/index.xhtml)
 
-#### Aprende a tu ritmo
-
-### Descubre el Espacio Personal de Aprendizaje
-
-Más de 1500 recursos didácticos a tu alcance
-
 [Actividades 100% online Actividades de aprendizaje en abierto Sin límite de plazas](https://aplicat.upv.es/vadell-app/autoformacion/busqueda.xhtml?search&avanzada=true&certificado=UFASU)
-
-#### Actividades 100% online
-
-### Actividades de aprendizaje en abierto
-
-Sin límite de plazas
 
 ## ¿Cómo puedo mejorar mis competencias profesionales?
 
@@ -107,32 +83,16 @@ Actualizar tu currículum puede resultarte interesante para distintos procesos i
 
 Ya están a puntito de llegar esos días en los que la agenda se relaja, las prisas desaparecen y la siesta vuelve a ocupar el lugar que merece 😉 Desde la UFASU os deseamos un verano lleno de buenos momentos,… [Lee más : Las vacaciones ya asoman en el calendario](https://www.upv.es/entidades/ufasu/2026/07/24/las-vacaciones-ya-asoman-en-el-calendario/)
 
-[Lee más : Las vacaciones ya asoman en el calendario](https://www.upv.es/entidades/ufasu/2026/07/24/las-vacaciones-ya-asoman-en-el-calendario/)
-
-: Las vacaciones ya asoman en el calendario
-
 [Resultados del curso LA SALUD MENTAL TAMBIÉN ES SALUD](https://www.upv.es/entidades/ufasu/2026/07/14/resultados-del-curso-la-salud-mental-tambien-es-salud/)
 
 Gestionar proyectos, resolver problemas o cumplir plazos empieza por algo esencial: cuidar de quien lo hace posible, las personas. La salud mental influye en cómo afrontamos el estrés, nos relacionamos con los demás, tomamos decisiones y como rendimos en nuestro… [Lee más : Resultados del curso LA SALUD MENTAL TAMBIÉN ES SALUD](https://www.upv.es/entidades/ufasu/2026/07/14/resultados-del-curso-la-salud-mental-tambien-es-salud/)
-
-[Lee más : Resultados del curso LA SALUD MENTAL TAMBIÉN ES SALUD](https://www.upv.es/entidades/ufasu/2026/07/14/resultados-del-curso-la-salud-mental-tambien-es-salud/)
-
-: Resultados del curso LA SALUD MENTAL TAMBIÉN ES SALUD
 
 [Laboratorios más seguros, más eficientes y sostenibles](https://www.upv.es/entidades/ufasu/2026/07/03/laboratorios-mas-seguro-mas-eficiente-y-sostenible/)
 
 El laboratorio del futuro empieza con pequeños cambios. Un laboratorio más seguro, más eficiente y sostenible no depende solo del equipamiento. También nace de la forma en que organizamos, gestionamos y tomamos decisiones cada día. Con el curso Normativa y… [Lee más : Laboratorios más seguros, más eficientes y sostenibles](https://www.upv.es/entidades/ufasu/2026/07/03/laboratorios-mas-seguro-mas-eficiente-y-sostenible/)
 
-[Lee más : Laboratorios más seguros, más eficientes y sostenibles](https://www.upv.es/entidades/ufasu/2026/07/03/laboratorios-mas-seguro-mas-eficiente-y-sostenible/)
-
-: Laboratorios más seguros, más eficientes y sostenibles
-
 [Comunicar mejor también se entrena: claves para una atención más eficaz en Deportes](https://www.upv.es/entidades/ufasu/2026/06/26/comunicar-mejor-tambien-se-entrena-claves-para-una-atencion-mas-eficaz-en-deportes/)
 
 Una buena comunicación no solo resuelve problemas: genera confianza, mejora el servicio y fortalece la relación con las personas usuarias. Cada interacción cuenta. Una consulta, una incidencia o una simple conversación pueden marcar la diferencia en la experiencia de quienes… [Lee más : Comunicar mejor también se entrena: claves para una atención más eficaz en Deportes](https://www.upv.es/entidades/ufasu/2026/06/26/comunicar-mejor-tambien-se-entrena-claves-para-una-atencion-mas-eficaz-en-deportes/)
-
-[Lee más : Comunicar mejor también se entrena: claves para una atención más eficaz en Deportes](https://www.upv.es/entidades/ufasu/2026/06/26/comunicar-mejor-tambien-se-entrena-claves-para-una-atencion-mas-eficaz-en-deportes/)
-
-: Comunicar mejor también se entrena: claves para una atención más eficaz en Deportes
 
 [Ver todas](https://www.upv.es/entidades/ufasu/noticias/)

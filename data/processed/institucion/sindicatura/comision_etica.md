@@ -18,11 +18,7 @@ actualizado: 2026-08-20
 
 - [Composición y miembros](https://www.upv.es/entidades/dcu/composicion-y-miembros/)
 
-[Composición y miembros](https://www.upv.es/entidades/dcu/composicion-y-miembros/)
-
 - [Código Ético](https://www.upv.es/entidades/dcu/codigo-etico/)
-
-[Código Ético](https://www.upv.es/entidades/dcu/codigo-etico/)
 
 ## Información relacionada
 
@@ -59,5 +55,3 @@ Compartir : [Compartir Facebook](http://www.facebook.com/sharer/sharer.php?s=100
 [Código ético](https://www.upv.es/entidades/dcu/download/17168)
 
 Compartir : [Compartir Facebook](http://www.facebook.com/sharer/sharer.php?s=100&u=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Fcodigo-etico%2F&i=&t=C%C3%B3digo+%C3%89tico&s=) [Compartir Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Fcodigo-etico%2F) [Compartir Linkedin](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Fcodigo-etico%2F&title=C%C3%B3digo+%C3%89tico&summary=) [Compartir Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Fcodigo-etico%2F&media=&description=)
-
-[Compartir Facebook](http://www.facebook.com/sharer/sha…

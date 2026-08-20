@@ -88,8 +88,6 @@ Para llevar acabo toda la estrategia del Plan UPV SIRVE se han nombrado una seri
 
 ## [Daniel Catalá-Pérez](http://www.upv.es/ficha-personal/dacapre) . Profesor Ayudante Doctor. Dpto. de Organización de Empresas
 
-[Daniel Catalá-Pérez](http://www.upv.es/ficha-personal/dacapre)
-
 ## Noticias
 
 Descubre las últimas noticias relacionadas con el Plan UPV SIRVE
@@ -98,25 +96,13 @@ Descubre las últimas noticias relacionadas con el Plan UPV SIRVE
 
 La Universitat Politècnica de València presenta el Beihang Valencia Polytechnic Institute (BVPI). Inaugurado la semana pasada, el centro ha sido seleccionado por el Ministerio de Educación de China como proyecto piloto del Sino-Foreigner Excellence Engineering Program. La UPV presenta en este… [Lee más : Un puente académico hacia el futuro. Así es el nuevo campus UPV Hangzhou.](https://www.upv.es/contenidos/upv_sirve/2025/10/22/un-puente-academico-hacia-el-futuro-asi-es-el-nuevo-campus-upv-hangzhou/)
 
-[Lee más : Un puente académico hacia el futuro. Así es el nuevo campus UPV Hangzhou.](https://www.upv.es/contenidos/upv_sirve/2025/10/22/un-puente-academico-hacia-el-futuro-asi-es-el-nuevo-campus-upv-hangzhou/)
-
-: Un puente académico hacia el futuro. Así es el nuevo campus UPV Hangzhou.
-
 [Jornadas Plan UPV SIRVE Febrero 2024](https://www.upv.es/contenidos/upv_sirve/2024/03/06/jornadas-plan-upv-sirve-febrero-2024/)
 
 La implantación del Plan UPV SIRVE avanza con rumbo firme. Más de 50 personas de la comunidad universitaria se reunieron durante la semana del 12 al 16 de febrero para dar seguimiento a las iniciativas estratégicas que se están llevando a… [Lee más : Jornadas Plan UPV SIRVE Febrero 2024](https://www.upv.es/contenidos/upv_sirve/2024/03/06/jornadas-plan-upv-sirve-febrero-2024/)
 
-[Lee más : Jornadas Plan UPV SIRVE Febrero 2024](https://www.upv.es/contenidos/upv_sirve/2024/03/06/jornadas-plan-upv-sirve-febrero-2024/)
-
-: Jornadas Plan UPV SIRVE Febrero 2024
-
 [Plan UPV SIRVE](https://www.upv.es/contenidos/upv_sirve/2023/06/21/sirve/)
 
 La comunidad universitaria avanza en la definición del futuro de la Universitat Politècnica de València Más de 40 personas (personal de administración y servicios, personal docente e investigador y estudiantes de la UPV) se han reunido el 31 de mayo para… [Lee más : Plan UPV SIRVE](https://www.upv.es/contenidos/upv_sirve/2023/06/21/sirve/)
-
-[Lee más : Plan UPV SIRVE](https://www.upv.es/contenidos/upv_sirve/2023/06/21/sirve/)
-
-: Plan UPV SIRVE
 
 Ver todas
 

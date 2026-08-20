@@ -27,51 +27,15 @@ actualizado: 2026-08-20
 
 [Funciones](http://www.upv.es/entidades/FPA/info/865591normalc.html)
 
-Funciones
-
 [Organigrama](http://www.upv.es/entidades/FPA/info/1023842normalc.html)
-
-Organigrama
 
 [Servicios](http://www.upv.es/entidades/FPA/info/1018596normalc.html)
 
 [Visitas guiadas al MUCAES-UPV](http://www.upv.es/entidades/FPA/info/1018538normalc.html) [Préstamo de obras de arte para Museos e instituciones](http://www.upv.es/entidades/FPA/info/1018540normalc.html) [Préstamo de obras de arte en la UPV](http://www.upv.es/entidades/FPA/info/1018541normalc.html) [Actividades del Museo de Informática](http://www.upv.es/entidades/FPA/info/1018574normalc.html) [Actividades del Museo de Telecomunicación](http://www.upv.es/entidades/FPA/info/1018573normalc.html) [Actividades del Museo del Juguete](http://www.upv.es/entidades/FPA/info/1018575normalc.html) [Acceso a Libros de artista](http://www.upv.es/entidades/FPA/info/1018572normalc.html)
 
-[Visitas guiadas al MUCAES-UPV](http://www.upv.es/entidades/FPA/info/1018538normalc.html)
-
-[Préstamo de obras de arte para Museos e instituciones](http://www.upv.es/entidades/FPA/info/1018540normalc.html)
-
-[Préstamo de obras de arte en la UPV](http://www.upv.es/entidades/FPA/info/1018541normalc.html)
-
-[Actividades del Museo de Informática](http://www.upv.es/entidades/FPA/info/1018574normalc.html)
-
-[Actividades del Museo de Telecomunicación](http://www.upv.es/entidades/FPA/info/1018573normalc.html)
-
-[Actividades del Museo del Juguete](http://www.upv.es/entidades/FPA/info/1018575normalc.html)
-
-[Acceso a Libros de artista](http://www.upv.es/entidades/FPA/info/1018572normalc.html)
-
 [Museos y colecciones](http://www.upv.es/entidades/FPA/info/865594normalc.html)
 
 [MUCAES-UPV](http://www.upv.es/entidades/FPA/info/1018519normalc.html) [Fondo de Arte UPV](http://www.upv.es/entidades/FPA/info/1018529normalc.html) [Museo de Informática](http://www.upv.es/entidades/FPA/info/1018531normalc.html) [Museo de Telecomunicación](http://www.upv.es/entidades/FPA/info/1018532normalc.html) [Museo del Juguete](http://www.upv.es/entidades/FPA/info/1018533normalc.html) [Colección Libros de artista](http://www.upv.es/entidades/FPA/info/1018534normalc.html) [Colección Estatuaria clásica s XVIII](http://www.upv.es/entidades/FPA/info/1018535normalc.html) [Colección Mapas Fundación Luis Giménez Lorente](http://www.upv.es/entidades/FPA/info/1018536normalc.html) [Coleccción Maquinaria industrial](http://www.upv.es/entidades/FPA/info/1018537normalc.html)
-
-[MUCAES-UPV](http://www.upv.es/entidades/FPA/info/1018519normalc.html)
-
-[Fondo de Arte UPV](http://www.upv.es/entidades/FPA/info/1018529normalc.html)
-
-[Museo de Informática](http://www.upv.es/entidades/FPA/info/1018531normalc.html)
-
-[Museo de Telecomunicación](http://www.upv.es/entidades/FPA/info/1018532normalc.html)
-
-[Museo del Juguete](http://www.upv.es/entidades/FPA/info/1018533normalc.html)
-
-[Colección Libros de artista](http://www.upv.es/entidades/FPA/info/1018534normalc.html)
-
-[Colección Estatuaria clásica s XVIII](http://www.upv.es/entidades/FPA/info/1018535normalc.html)
-
-[Colección Mapas Fundación Luis Giménez Lorente](http://www.upv.es/entidades/FPA/info/1018536normalc.html)
-
-[Coleccción Maquinaria industrial](http://www.upv.es/entidades/FPA/info/1018537normalc.html)
 
 Expandir
 

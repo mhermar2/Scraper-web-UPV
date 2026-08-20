@@ -119,24 +119,12 @@ La Oficina de Mecenazgo canaliza toda la ayuda que recibe la UPV: desde pequeña
 
 ¿En breve tienes que elegir tus estudios universitarios y dónde cursarlos? Para facilitarte esta importante decisión,… [Lee más : Conoce todas las acciones que la UPV organiza para el futuro alumnado](https://www.upv.es/entidades/acom/2025/05/21/entrada-4-2/)
 
-[Lee más : Conoce todas las acciones que la UPV organiza para el futuro alumnado](https://www.upv.es/entidades/acom/2025/05/21/entrada-4-2/)
-
-: Conoce todas las acciones que la UPV organiza para el futuro alumnado
-
 [La Escuela de Geocaching UPV sigue creciendo](https://www.upv.es/entidades/acom/2025/01/28/la-escuela-de-geocaching-upv-sigue-creciendo/)
 
 Te invitamos a una nueva forma diferente y divertida de conocer el campus de Vera, que… [Lee más : La Escuela de Geocaching UPV sigue creciendo](https://www.upv.es/entidades/acom/2025/01/28/la-escuela-de-geocaching-upv-sigue-creciendo/)
 
-[Lee más : La Escuela de Geocaching UPV sigue creciendo](https://www.upv.es/entidades/acom/2025/01/28/la-escuela-de-geocaching-upv-sigue-creciendo/)
-
-: La Escuela de Geocaching UPV sigue creciendo
-
 [El proyecto «Dones de ciència», Premio Prismas de Divulgación](https://www.upv.es/entidades/acom/2024/01/31/entrada-1/)
 
 El proyecto Dones de ciència de la Universitat Politècnica de València (UPV) y el centro de… [Lee más : El proyecto «Dones de ciència», Premio Prismas de Divulgación](https://www.upv.es/entidades/acom/2024/01/31/entrada-1/)
-
-[Lee más : El proyecto «Dones de ciència», Premio Prismas de Divulgación](https://www.upv.es/entidades/acom/2024/01/31/entrada-1/)
-
-: El proyecto «Dones de ciència», Premio Prismas de Divulgación
 
 [Ver más noticias](https://www.upv.es/entidades/acom/noticias/)

@@ -18,15 +18,9 @@ actualizado: 2026-08-20
 
 ### [Memoria Viva I](https://memoriaviva.upv.es/memoria-viva-i/)
 
-[Memoria Viva I](https://memoriaviva.upv.es/memoria-viva-i/)
-
 ### [Memoria Viva II](https://memoriaviva.upv.es/memoria-viva-ii/)
 
-[Memoria Viva II](https://memoriaviva.upv.es/memoria-viva-ii/)
-
 ### [Presentación Tomo I](https://memoriaviva.upv.es/presentacion-tomo-i/)
-
-[Presentación Tomo I](https://memoriaviva.upv.es/presentacion-tomo-i/)
 
 Ver todas
 

@@ -28,15 +28,11 @@ De la Gerencia, dependen las unidades siguientes:
 
 [Vicegerencia de Recursos Humanos y Organización](http://www.upv.es/entidades/ger/vgrrhh)
 
-### Vicegerencia de Recursos Humanos y Organización
-
 La Vicegerencia de RRHH es la encargada de coordinar el ámbito económico-administrativo relacionado con la gestión de los recursos humanos de la UPV, incluyendo a todos los colectivos de personal (personal docente e investigador, personal de investigación, personal de administración …
 
 [Más info](http://www.upv.es/entidades/ger/vgrrhh)
 
 [Vicegerencia de Gestión Económica y de la I+D+i](http://www.upv.es/entidades/ger/vgidi)
-
-### Vicegerencia de Gestión Económica y de la I+D+i
 
 La Vicegerencia de Gestión Económica y de la I+D+i se crea bajo la dependencia directa de la Gerencia con el objetivo prestar un apoyo de calidad a la ejecución de las actividades de I+D+I que llevan a cabo los miembros …
 
@@ -48,45 +44,29 @@ Contamos con equipos altamente cualificados para el desarrollo de nuestros objet
 
 [Servicio de Gestión Económica](https://www.upv.es/entidades/ger/sgeconom/)
 
-### Servicio de Gestión Económica
-
 [Más info](https://www.upv.es/entidades/ger/sgeconom/)
 
 [Servicio de Financiación y Presupuestos](https://www.upv.es/entidades/ger/sfinanc/)
-
-### Servicio de Financiación y Presupuestos
 
 [Más info](https://www.upv.es/entidades/ger/sfinanc/)
 
 [Servicio de Tesorería y Gestión Tributaria](https://www.upv.es/entidades/ger/stesor/)
 
-### Servicio de Tesorería y Gestión Tributaria
-
 [Más info](https://www.upv.es/entidades/ger/stesor/)
 
 [Servicio de Contratación](https://www.upv.es/entidades/ger/scontrata/)
-
-### Servicio de Contratación
 
 [Más info](https://www.upv.es/entidades/ger/scontrata/)
 
 [Servicio de Gestión del PDI](https://www.upv.es/entidades/SRH/index-es.html)
 
-### Servicio de Gestión del PDI
-
 [Más info](https://www.upv.es/entidades/SRH/index-es.html)
 
 [Servicio de Gestión del PTGAS](https://www.upv.es/entidades/SRH/index-es.html)
 
-### Servicio de Gestión del PTGAS
-
 [Servicio de Gestión del PI](https://www.upv.es/entidades/SRH/index-es.html)
 
-### Servicio de Gestión del PI
-
 [Servicio Económico de Recursos Humanos](https://www.upv.es/entidades/SRH/index-es.html)
-
-### Servicio Económico de Recursos Humanos
 
 ## Filosofía de Trabajo
 

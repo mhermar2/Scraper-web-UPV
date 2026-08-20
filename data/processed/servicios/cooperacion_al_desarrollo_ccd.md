@@ -23,8 +23,6 @@ Si quieres contribuir a la consecución de un mundo más justo, a la vez que pon
 
 En el CCD el bien común está siempre en primer lugar. Por eso estrenamos nueva página web . Más accesible, más clara, más cercana. [Nuestro equipo](https://www.upv.es/entidades/ccd/equipo/) quiere estar cerca de ti.
 
-[Nuestro equipo](https://www.upv.es/entidades/ccd/equipo/)
-
 [Leer más](https://www.upv.es/entidades/ccd/fines-y-objetivos/)
 
 ## ¿Te gustaría vivir una experiencia única? El CCD te lo pone fácil
@@ -61,15 +59,11 @@ Pensar global para actuar en lo local. Te ayudamos a comprometerte con la realid
 
 [Prácticas Solidarias](https://www.upv.es/entidades/ccd/practicas-solidarias/)
 
-### Prácticas Solidarias
-
 Realiza tu práctica de empresa en entidades y ONG. Repensemos el compromiso de la UPV con su entorno
 
 [Más info](https://www.upv.es/entidades/ccd/practicas-solidarias/)
 
 [Participación Social](https://www.upv.es/entidades/ccd/participacion-social/)
-
-### Participación Social
 
 Te acercamos al voluntariado y la participación social, a nivel local e internacional. Construimos conciencia crítica
 
@@ -77,15 +71,11 @@ Te acercamos al voluntariado y la participación social, a nivel local e interna
 
 [Programa GLOCAL](https://www.upv.es/entidades/ccd/glocal/)
 
-### Programa GLOCAL
-
 Nuestra convocatoria GLOCAL apoya actividades de sensibilización, formación y voluntariado. Diseña la tuya!
 
 [Más info](https://www.upv.es/entidades/ccd/glocal/)
 
 [Colaboración con ONGD](https://www.upv.es/entidades/ccd/colaboracion-con-ongd/)
-
-### Colaboración con ONGD
 
 El CCD facilita actividades de ONG en nuestros campus, y conecta el potencial investigador UPV con el desarrollo
 
@@ -125,25 +115,13 @@ Conéctate al día a día del CCD
 
 Desde el CCD hacemos un llamamiento para la participación en la convocatoria de subvenciones para la realización de acciones de cooperación al desarrollo en el ámbito de la innovación 2026, de la… [Lee más : Preselección UPV para convocatoria AECID](https://www.upv.es/entidades/ccd/2026/03/23/preseleccion-upv-para-convocatoria-aecid/)
 
-[Lee más : Preselección UPV para convocatoria AECID](https://www.upv.es/entidades/ccd/2026/03/23/preseleccion-upv-para-convocatoria-aecid/)
-
-: Preselección UPV para convocatoria AECID
-
 [Meridies 2026](https://www.upv.es/entidades/ccd/2026/02/03/meridies-y-pcd-2024/)
 
 Gracias a nuestras becas de movilidad, el alumnado de la UPV puede formar parte de proyectos y acciones de cooperación al desarrollo en países de América Latina, África y Asia. Las… [Lee más : Meridies 2026](https://www.upv.es/entidades/ccd/2026/02/03/meridies-y-pcd-2024/)
 
-[Lee más : Meridies 2026](https://www.upv.es/entidades/ccd/2026/02/03/meridies-y-pcd-2024/)
-
-: Meridies 2026
-
 [Meridies-PAS 2025](https://www.upv.es/entidades/ccd/2025/10/22/meridies-pas-2024/)
 
 En el CCD creemos que todos los colectivos UPV pueden y deben involucrarse en actividades de cooperación al desarrollo. En el caso del personal técnico, de gestión y de administración y… [Lee más : Meridies-PAS 2025](https://www.upv.es/entidades/ccd/2025/10/22/meridies-pas-2024/)
-
-[Lee más : Meridies-PAS 2025](https://www.upv.es/entidades/ccd/2025/10/22/meridies-pas-2024/)
-
-: Meridies-PAS 2025
 
 ## Videoteca del CCD
 

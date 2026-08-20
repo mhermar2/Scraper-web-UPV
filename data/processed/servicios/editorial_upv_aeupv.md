@@ -33,21 +33,9 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/AEUPV/menu_1015830c.html) [Resultados](https://www.upv.es/entidades/AEUPV/menu_1015829c.html) [Mejoras](https://www.upv.es/entidades/AEUPV/menu_1015831c.html)
 
-[Compromisos](https://www.upv.es/entidades/AEUPV/menu_1015830c.html)
-
-[Resultados](https://www.upv.es/entidades/AEUPV/menu_1015829c.html)
-
-[Mejoras](https://www.upv.es/entidades/AEUPV/menu_1015831c.html)
-
 Atención al usuario
 
 [Consultas](https://www.upv.es/policonsulta/c/AEUPV) [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/AEUPV/menu_1015834c.html) [Horario de atención](http://www.upv.es/entidades/AEUPV/info/752802normalc.html)
-
-[Consultas](https://www.upv.es/policonsulta/c/AEUPV)
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/AEUPV/menu_1015834c.html)
-
-[Horario de atención](http://www.upv.es/entidades/AEUPV/info/752802normalc.html)
 
 [Normativa](http://www.upv.es/entidades/AEUPV/info/800991normalc.html)
 
@@ -55,43 +43,13 @@ Fondo editorial - Catálogos
 
 [Fondo editorial](http://www.upv.es/entidades/AEUPV/info/1026237normalc.html) [Catálogos](http://www.upv.es/entidades/AEUPV/info/494995normalc.html) [Colecciones](http://www.upv.es/entidades/AEUPV/info/1024766normalc.html) [Polipapers](https://polipapers.upv.es/) [Congresos UPV](https://ocs.editorial.upv.es/)
 
-[Fondo editorial](http://www.upv.es/entidades/AEUPV/info/1026237normalc.html)
-
-[Catálogos](http://www.upv.es/entidades/AEUPV/info/494995normalc.html)
-
-[Colecciones](http://www.upv.es/entidades/AEUPV/info/1024766normalc.html)
-
-[Polipapers](https://polipapers.upv.es/)
-
-[Congresos UPV](https://ocs.editorial.upv.es/)
-
 Sobre la Editorial
 
 [Política editorial](http://www.upv.es/entidades/AEUPV/info/877690normalc.html) [Política de acceso abierto](http://www.upv.es/entidades/AEUPV/info/981348normalc.html) [Criterios de calidad](http://www.upv.es/entidades/AEUPV/info/981353normalc.html) [Selección y evaluación](http://www.upv.es/entidades/AEUPV/info/891747normalc.html) [Comité editorial](https://gdocu.upv.es/share/proxy/alfresco-noauth/api/internal/shared/node/content/gPR4LV0cQtC8CCoW-ErGQA)
 
-[Política editorial](http://www.upv.es/entidades/AEUPV/info/877690normalc.html)
-
-[Política de acceso abierto](http://www.upv.es/entidades/AEUPV/info/981348normalc.html)
-
-[Criterios de calidad](http://www.upv.es/entidades/AEUPV/info/981353normalc.html)
-
-[Selección y evaluación](http://www.upv.es/entidades/AEUPV/info/891747normalc.html)
-
-[Comité editorial](https://gdocu.upv.es/share/proxy/alfresco-noauth/api/internal/shared/node/content/gPR4LV0cQtC8CCoW-ErGQA)
-
 Edición de obras
 
 [Material docente](http://www.upv.es/entidades/AEUPV/info/823959normalc.html) [Monografías de investigación](http://www.upv.es/entidades/AEUPV/info/823960normalc.html) [Revistas](http://www.upv.es/entidades/AEUPV/info/803148normalc.html) [Congresos](http://www.upv.es/entidades/AEUPV/info/1026191normalc.html) [Tesis Doctorales](http://www.upv.es/entidades/AEUPV/info/774884normalc.html)
-
-[Material docente](http://www.upv.es/entidades/AEUPV/info/823959normalc.html)
-
-[Monografías de investigación](http://www.upv.es/entidades/AEUPV/info/823960normalc.html)
-
-[Revistas](http://www.upv.es/entidades/AEUPV/info/803148normalc.html)
-
-[Congresos](http://www.upv.es/entidades/AEUPV/info/1026191normalc.html)
-
-[Tesis Doctorales](http://www.upv.es/entidades/AEUPV/info/774884normalc.html)
 
 Adquisición de publicaciones
 
@@ -103,17 +61,7 @@ Contraer
 
 [01/05/2021 Nueva web de la Editorial UPV .](https://www.upv.es/entidades/AEUPV/noticia_1156753c.html)
 
-01/05/2021
-
-Nueva web de la Editorial UPV
-
-.
-
 [ [ver todas](https://www.upv.es/entidades/AEUPV/noticiasc.html) ]
-
-[ver todas](https://www.upv.es/entidades/AEUPV/noticiasc.html)
-
-Buscador no activo para idweb : 491968
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

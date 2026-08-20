@@ -46,15 +46,11 @@ Contamos con equipos altamente cualificados para el desarrollo de nuestros objet
 
 [Área de Innovación y Soluciones Digitales](https://www.upv.es/entidades/AISD/index-es.html)
 
-### Área de Innovación y Soluciones Digitales
-
 Su propósito es impulsar la innovación en la UPV, dando soporte a los servicios de este vicerrectorado para ofrecer un enfoque centrado en el usuario en nuestras soluciones digitales, así como para incorporar nuevas aproximaciones basadas en IA.
 
 [Más info](https://www.upv.es/entidades/AISD/index-es.html)
 
 [Área de Sistemas de Información y Comunicaciones](http://www.upv.es/entidades/ASIC/index-es.html)
-
-### Área de Sistemas de Información y Comunicaciones
 
 Es la encargada de aplicar las nuevas tecnologías de la información y las comunicaciones a los servicios que se prestan a la comunidad universitaria, tanto en los ámbitos de la docencia y la investigación como en la propia gestión universitaria.
 
@@ -62,15 +58,11 @@ Es la encargada de aplicar las nuevas tecnologías de la información y las comu
 
 [Servicio de Aplicaciones](https://www.upv.es/entidades/asic/servicio-de-aplicaciones/)
 
-### Servicio de Aplicaciones
-
 Es el encargado del desarrollo, implantación y mantenimiento de las aplicaciones informáticas corporativas de la universidad.
 
 [Más info](https://www.upv.es/entidades/asic/servicio-de-aplicaciones/)
 
 [Servicio de Sistemas y Redes de Comunicación](https://www.upv.es/entidades/asic/servicio-de-sistemas-y-redes-de-comunicacion-2/)
-
-### Servicio de Sistemas y Redes de Comunicación
 
 Es el encargado de dar soporte a los usuarios y a las infraestructuras que hacen posible el uso de las Tecnologías de la Información y Comunicaciones en la UPV.
 

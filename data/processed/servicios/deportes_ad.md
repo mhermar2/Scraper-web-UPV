@@ -43,15 +43,11 @@ Practica deporte en cualquiera de los tres campus, independientemente de tu camp
 
 [Actividades](https://www.upv.es/entidades/ad/informacion-general-de-actividades_/)
 
-### Actividades
-
 Horario a la carta de 7.40 a 22.30 horas, dirigidas por monitores especializados.
 
 [Más info](https://www.upv.es/entidades/ad/informacion-general-de-actividades_/)
 
 [Escuelas](https://www.upv.es/entidades/ad/escuelas-3/)
-
-### Escuelas
 
 Iniciación o perfeccionamiento de las diferentes modalidades deportivas.
 
@@ -59,15 +55,11 @@ Iniciación o perfeccionamiento de las diferentes modalidades deportivas.
 
 [Competiciones UPV](https://www.upv.es/entidades/ad/competiciones-upv-3/)
 
-### Competiciones UPV
-
 Las ligas y Torneos en las modalidades de deportes de equipo, raqueta e individuales.
 
 [Más info](https://www.upv.es/entidades/ad/competiciones-upv-3/)
 
 [Competiciones interuniversitarias](https://www.upv.es/entidades/ad/competiciones-interuniversitarias-2/)
-
-### Competiciones interuniversitarias
 
 El Campeonato Autonómico de Deporte Universitario, los Campeonatos de España Universitarios y las competiciones internaciolales.
 
@@ -75,15 +67,11 @@ El Campeonato Autonómico de Deporte Universitario, los Campeonatos de España U
 
 [e Sports](https://www.upv.es/entidades/ad/e-sports-2/)
 
-### e Sports
-
 Competiciones retransmitidas en twitch por casters profesionales en las modalidades de LOL, FIFA, simracing,…
 
 [Más info](https://www.upv.es/entidades/ad/e-sports-2/)
 
 [Eventos](https://www.upv.es/entidades/ad/eventos-deportivos/)
-
-### Eventos
 
 Momentos especiales para vivir el deporte: el Trofeo UPV, Intercampus y de Vela, las carreras populares, la Gala del Deportes, etc.
 
@@ -91,23 +79,17 @@ Momentos especiales para vivir el deporte: el Trofeo UPV, Intercampus y de Vela,
 
 [Deporte federado](https://www.upv.es/entidades/ad/federado/)
 
-### Deporte federado
-
 La competición al más alto nivel: la Sección UPV o los Clubs con convenio.
 
 [Más info](https://www.upv.es/entidades/ad/federado/)
 
 [Apoyo a deportistas de alto nivel](https://www.upv.es/entidades/ad/deporte-de-alto-nivel/)
 
-### Apoyo a deportistas de alto nivel
-
 Dirigido al alumnado de la UPV que acredite su condición de deportista de alto nivel o deportista de alto rendimiento.
 
 [Más info](https://www.upv.es/entidades/ad/deporte-de-alto-nivel/)
 
 [El rincón del runner](https://www.upv.es/entidades/ad/rincon-del-runner/)
-
-### El rincón del runner
 
 Un espacio de recursos para las personas corredoras de la UPV. Rutinas, podcast y mucho más.
 

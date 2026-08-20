@@ -24,10 +24,6 @@ Idioma · language
 
 - [a](http://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](http://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
-[a](http://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A)
-
-[A](http://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A)
-
 - [Buscar](http://www.upv.es/pls/soalu/sic_mag.MetaBus?p_idioma=c) I
 
 [Institucional](http://www.upv.es/contenidos/PORTRANSV4/info/1081290normalc.html)
@@ -87,8 +83,6 @@ I
 [Portal de datos. Redes Sociales. E-Sede. Apps](http://www.upv.es/contenidos/PORTRANSV4/info/1086400normalc.html)
 
 [Informes y encuestas. Estadísticas](http://www.upv.es/contenidos/PORTRANSV4/info/1086402normalc.html)
-
-[Portal de transparencia](http://www.upv.es/contenidos/PORTRANSV4/indexc.html)
 
 La Universitat Politècnica de València entiende que la información pública no es patrimonio de los entes públicos, sino que es de los ciudadanos, los cuales tienen el derecho de exigirla, y nosotros el deber de ponerla a su alcance de la manera más didáctica posible. Para nosotros el Portal de Transparencia es una oportunidad para mejorar y acercar la información que generamos a los ciudadanos y a la sociedad valenciana que es a quien tenemos que rendir cuentas.
 

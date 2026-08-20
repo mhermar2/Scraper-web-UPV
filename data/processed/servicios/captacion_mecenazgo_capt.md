@@ -39,8 +39,6 @@ actualizado: 2026-08-20
 
 El Área de Captación de la Universitat Politècnica de València coordina la actividad de la [Oficina de Mecenazgo](https://mecenazgo.upv.es/) de la universidad, dirigida a facilitar la contribución de la sociedad a los fines de la UPV. El Área de Captación depende del vicerrectorado de Internacionalización y Comunicación de la UPV.
 
-[Oficina de Mecenazgo](https://mecenazgo.upv.es/)
-
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 
 - [Planos](http://www.upv.es/plano/plano-2d-es.html) I

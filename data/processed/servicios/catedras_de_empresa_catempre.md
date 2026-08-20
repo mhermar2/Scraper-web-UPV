@@ -31,19 +31,9 @@ Lugar de encuentro entre empresas, estudiantes y titulados/as que buscan una opo
 
 ### [vicerrectorado DE EMPLEO](https://www.upv.es/entidades/vefp/) [Y FORMACIÓN PERMANENTE](https://www.upv.es/entidades/vefp/)
 
-[vicerrectorado DE EMPLEO](https://www.upv.es/entidades/vefp/)
-
-[Y FORMACIÓN PERMANENTE](https://www.upv.es/entidades/vefp/)
-
 ### [sERVICIO INTEGRADO DE](https://www.upv.es/entidades/sie/) [EMPLEO – SIE](https://www.upv.es/entidades/sie/)
 
-[sERVICIO INTEGRADO DE](https://www.upv.es/entidades/sie/)
-
-[EMPLEO – SIE](https://www.upv.es/entidades/sie/)
-
 ### [Nuestra microweb](https://www.upv.es/entidades/CATEMPRE/)
-
-[Nuestra microweb](https://www.upv.es/entidades/CATEMPRE/)
 
 ## Calendario de eventos y agenda
 

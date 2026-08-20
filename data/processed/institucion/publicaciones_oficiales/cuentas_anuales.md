@@ -409,19 +409,3 @@ Ejercicio 2010
 [Cuentas Anuales 2010 Fundación SERVIPOLI](https://www.upv.es/entidades/ger/download/17735)
 
 Compartir : [Compartir Facebook](http://www.facebook.com/sharer/sharer.php?s=100&u=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F&i=&t=Cuentas+Anuales&s=) [Compartir Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F) [Compartir Linkedin](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F&title=Cuentas+Anuales&summary=) [Compartir Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F&media=&description=)
-
-[Compartir Facebook](http://www.facebook.com/sharer/sharer.php?s=100&u=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F&i=&t=Cuentas+Anuales&s=)
-
-Compartir Facebook
-
-[Compartir Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F)
-
-Compartir Twitter
-
-[Compartir Linkedin](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F&title=Cuentas+Anuales&summary=)
-
-Compartir Linkedin
-
-[Compartir Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fger%2Fcuentas-anuales%2F&media=&description=)
-
-Compartir Pinterest

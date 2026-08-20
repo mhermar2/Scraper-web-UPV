@@ -19,17 +19,7 @@ actualizado: 2026-08-20
 
 [IDEAS UPV ¿Quieres que te ayudemos con tu idea de negocio? Rellena el formulario de primera reunión y te atenderemos rápidamente.](https://www.upv.es/entidades/ideas/formulario/)
 
-#### IDEAS UPV
-
-### ¿Quieres que te ayudemos con tu idea de negocio?
-
-Rellena el formulario de primera reunión y te atenderemos rápidamente.
-
 [Formulario de proyecto empresarial para empresas basadas en conocimiento UPV Para acceder al formulario pincha sobre el banner](https://forms.office.com/e/XNjjnZEn1d)
-
-### Formulario de proyecto empresarial para empresas basadas en conocimiento UPV
-
-Para acceder al formulario pincha sobre el banner
 
 ## ¿Qué es IDEAS UPV?
 
@@ -40,8 +30,6 @@ Nuestra misión es fomentar y desarrollar la cultura emprendedora en la UPV, sen
 Realizamos numerosos proyectos y colaboraciones a nivel nacional e internacional con el objetivo de promover el emprendimiento y contribuir al desarrollo económico y social del territorio.
 
 Formamos parte de la Oficina de Transferencia de Conocimiento [UPV-Innovación](https://innovacion.upv.es/es/conoce-upv-innovacion/) , programa UPV de promoción de la innovación en su entorno socioeconómico.
-
-[UPV-Innovación](https://innovacion.upv.es/es/conoce-upv-innovacion/)
 
 ## Servicios
 
@@ -109,48 +97,24 @@ Edificio Carbonell – 4ª Planta – Área de Relaciones con el Entorno, 03801 
 
 ¿Te gustaría emprender, pero no sabes por dónde empezar? ¿Tienes una idea rondándote la cabeza o simplemente quieres descubrir cómo nacen las startups? DAY[EMPRENDE] es la puerta de entrada al ecosistema emprendedor de la Universitat Politècnica de València y el mejor… [Lee más : DAY[EMPRENDE]: el primer paso para entrar en el mundo startup](https://www.upv.es/entidades/ideas/2026/07/31/dayemprende-octubre-2026/)
 
-[Lee más : DAY[EMPRENDE]: el primer paso para entrar en el mundo startup](https://www.upv.es/entidades/ideas/2026/07/31/dayemprende-octubre-2026/)
-
-: DAY[EMPRENDE]: el primer paso para entrar en el mundo startup
-
 [Bootcamp: València Semicon Startup Lab](https://www.upv.es/entidades/ideas/2026/07/29/bootcamp-valencia-semicon-startup-lab/)
 
 ¿Quieres formar parte del futuro de una de las industrias más estratégicas del mundo? Los semiconductores, la microelectrónica y la fotónica están detrás de casi todas las tecnologías que utilizamos a diario: desde los teléfonos móviles y los vehículos inteligentes hasta… [Lee más : Bootcamp: València Semicon Startup Lab](https://www.upv.es/entidades/ideas/2026/07/29/bootcamp-valencia-semicon-startup-lab/)
-
-[Lee más : Bootcamp: València Semicon Startup Lab](https://www.upv.es/entidades/ideas/2026/07/29/bootcamp-valencia-semicon-startup-lab/)
-
-: Bootcamp: València Semicon Startup Lab
 
 [XX edición Premios IDEAS UPV](https://www.upv.es/entidades/ideas/2026/07/22/premios-ideas-upv-2026/)
 
 ¡Presenta tu candidatura hasta el 30 de septiembre! El 23 de julio se abre el plazo para inscribirse la XX edición de los Premios IDEAS UPV 2026, el certamen con el que la Universitat Politècnica de València reconoce y apoya a las… [Lee más : XX edición Premios IDEAS UPV](https://www.upv.es/entidades/ideas/2026/07/22/premios-ideas-upv-2026/)
 
-[Lee más : XX edición Premios IDEAS UPV](https://www.upv.es/entidades/ideas/2026/07/22/premios-ideas-upv-2026/)
-
-: XX edición Premios IDEAS UPV
-
 [IDEAS UPV participa en el encuentro anual de mentores de la Alianza ENHANCE](https://www.upv.es/entidades/ideas/2026/07/09/ideas-upv-encuentro-mentores-enhance/)
 
 IDEAS UPV ha participado en el encuentro anual de mentores del programa internacional de mentoría para startups impulsado por la Alianza ENHANCE, una iniciativa que conecta a emprendedores universitarios con expertos de las distintas universidades europeas que forman parte de la… [Lee más : IDEAS UPV participa en el encuentro anual de mentores de la Alianza ENHANCE](https://www.upv.es/entidades/ideas/2026/07/09/ideas-upv-encuentro-mentores-enhance/)
-
-[Lee más : IDEAS UPV participa en el encuentro anual de mentores de la Alianza ENHANCE](https://www.upv.es/entidades/ideas/2026/07/09/ideas-upv-encuentro-mentores-enhance/)
-
-: IDEAS UPV participa en el encuentro anual de mentores de la Alianza ENHANCE
 
 [Convocatoria de Ayudas a la Matrícula para la VI Edición del Máster en Startup Administration (MSA)](https://www.upv.es/entidades/ideas/2026/07/06/convocatoria-de-ayudas-a-la-matricula-para-la-vi-edicion-del-master-en-startup-administration-msa/)
 
 ¿Tienes una idea de negocio, estás desarrollando una startup o quieres impulsar tu perfil emprendedor? Desde IDEAS UPV lanzamos una nueva convocatoria de ayudas a la matrícula para cursar la VI edición del Máster de Formación Permanente en Startup Administration (MSA),… [Lee más : Convocatoria de Ayudas a la Matrícula para la VI Edición del Máster en Startup Administration (MSA)](https://www.upv.es/entidades/ideas/2026/07/06/convocatoria-de-ayudas-a-la-matricula-para-la-vi-edicion-del-master-en-startup-administration-msa/)
 
-[Lee más : Convocatoria de Ayudas a la Matrícula para la VI Edición del Máster en Startup Administration (MSA)](https://www.upv.es/entidades/ideas/2026/07/06/convocatoria-de-ayudas-a-la-matricula-para-la-vi-edicion-del-master-en-startup-administration-msa/)
-
-: Convocatoria de Ayudas a la Matrícula para la VI Edición del Máster en Startup Administration (MSA)
-
 [IDEAS UPV colabora en el Focus Pyme «Sales to Scale: Errores y aciertos en ventas»](https://www.upv.es/entidades/ideas/2026/06/22/ideas-upv-colabora-en-el-focus-pyme-sales-to-scale-errores-y-aciertos-en-ventas/)
 
 El próximo 2 de julio, el ecosistema emprendedor valenciano tiene una cita clave con la estrategia comercial en el evento «Sales to Scale: Errores y aciertos en ventas». Organizado por CEEI Valencia y Startup Valencia, este Focus Pyme busca desgranar los… [Lee más : IDEAS UPV colabora en el Focus Pyme «Sales to Scale: Errores y aciertos en ventas»](https://www.upv.es/entidades/ideas/2026/06/22/ideas-upv-colabora-en-el-focus-pyme-sales-to-scale-errores-y-aciertos-en-ventas/)
-
-[Lee más : IDEAS UPV colabora en el Focus Pyme «Sales to Scale: Errores y aciertos en ventas»](https://www.upv.es/entidades/ideas/2026/06/22/ideas-upv-colabora-en-el-focus-pyme-sales-to-scale-errores-y-aciertos-en-ventas/)
-
-: IDEAS UPV colabora en el Focus Pyme «Sales to Scale: Errores y aciertos en ventas»
 
 [ver todas las entradas](https://www.upv.es/entidades/ideas/noticias/)

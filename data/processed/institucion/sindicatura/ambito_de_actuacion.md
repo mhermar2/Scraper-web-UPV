@@ -58,24 +58,6 @@ I. Si el problema es con un o una estudiante o con un compañero o compañera (P
 
 2. Si no encuentra una solución en el ámbito del Departamento o Centro, acuda a la Sindicatura de Greuges Universitària (edificio 3F). [https://www.upv.es/plano/plano-2d-es.html?entidad=DCU](https://www.upv.es/plano/plano-2d-es.html?entidad=DCU)
 
-[https://www.upv.es/plano/plano-2d-es.html?entidad=DCU](https://www.upv.es/plano/plano-2d-es.html?entidad=DCU)
-
 ## PTGAS de la UPV (personal técnico, de gestión y administración y servicios)
 
 Compartir : [Compartir Facebook](http://www.facebook.com/sharer/sharer.php?s=100&u=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F&i=&t=Actuaciones+antes+de+acudir+a+la+Sindicatura+de+Greuges+Universit%C3%A0ria&s=) [Compartir Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F) [Compartir Linkedin](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F&title=Actuaciones+antes+de+acudir+a+la+Sindicatura+de+Greuges+Universit%C3%A0ria&summary=) [Compartir Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F&media=&description=)
-
-[Compartir Facebook](http://www.facebook.com/sharer/sharer.php?s=100&u=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F&i=&t=Actuaciones+antes+de+acudir+a+la+Sindicatura+de+Greuges+Universit%C3%A0ria&s=)
-
-Compartir Facebook
-
-[Compartir Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F)
-
-Compartir Twitter
-
-[Compartir Linkedin](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F&title=Actuaciones+antes+de+acudir+a+la+Sindicatura+de+Greuges+Universit%C3%A0ria&summary=)
-
-Compartir Linkedin
-
-[Compartir Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fdcu%2Factuaciones-antes-de-acudir-a-la-defensoria-universitaria%2F&media=&description=)
-
-Compartir Pinterest

@@ -33,21 +33,9 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SFP/menu_1015542c.html) [Resultados](https://www.upv.es/entidades/SFP/menu_1015541c.html) [Mejoras](https://www.upv.es/entidades/SFP/menu_1015543c.html)
 
-[Compromisos](https://www.upv.es/entidades/SFP/menu_1015542c.html)
-
-[Resultados](https://www.upv.es/entidades/SFP/menu_1015541c.html)
-
-[Mejoras](https://www.upv.es/entidades/SFP/menu_1015543c.html)
-
 Atención al usuario
 
 Consultas [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SFP/menu_1015546c.html) Horario de atención
-
-Consultas
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SFP/menu_1015546c.html)
-
-Horario de atención
 
 Normativa
 
@@ -107,7 +95,7 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SFP/menu_1015542c.html) [Resultados](https://www.upv.es/entidades/SFP/menu_1015541c.html) [Mejoras](https://www.upv.es/entidades/SFP/menu_1015543c.html)
 
-[Comprom…
+Atención…
 
 ### Compromisos
 
@@ -129,4 +117,4 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SFP/menu_1015542c.html) [Resultados](https://www.upv.es/entidades/SFP/menu_1015541c.html) [Mejoras](https://www.upv.es/entidades/SFP/menu_1015543c.html)
 
-[Comprom…
+Atención…

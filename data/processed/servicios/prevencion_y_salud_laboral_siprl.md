@@ -33,21 +33,9 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SIPRL/menu_1016082c.html) [Resultados](https://www.upv.es/entidades/SIPRL/menu_1016081c.html) [Mejoras](https://www.upv.es/entidades/SIPRL/menu_1016083c.html)
 
-[Compromisos](https://www.upv.es/entidades/SIPRL/menu_1016082c.html)
-
-[Resultados](https://www.upv.es/entidades/SIPRL/menu_1016081c.html)
-
-[Mejoras](https://www.upv.es/entidades/SIPRL/menu_1016083c.html)
-
 Atención al usuario
 
 [Consultas](https://www.upv.es/policonsulta/c/SPRL) [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SIPRL/menu_1016086c.html) Horario de atención
-
-[Consultas](https://www.upv.es/policonsulta/c/SPRL)
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SIPRL/menu_1016086c.html)
-
-Horario de atención
 
 Normativa
 
@@ -78,8 +66,6 @@ Expandir
 Contraer
 
 ## Servicio Integrado de Prevención y Salud Laboral
-
-Buscador no activo para idweb : 531338
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

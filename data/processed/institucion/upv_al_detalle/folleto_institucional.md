@@ -24,11 +24,7 @@ El folleto institucional muestra las principales características de la Universi
 
 - [Versión en castellano](https://www.upv.es/organizacion/la-institucion/documentos/folleto-institucional-upv-esp.pdf)
 
-[Versión en castellano](https://www.upv.es/organizacion/la-institucion/documentos/folleto-institucional-upv-esp.pdf)
-
 - [Versión en valenciano](https://www.upv.es/organizacion/la-institucion/documentos/folleto-institucional-upv-val.pdf)
-
-[Versión en valenciano](https://www.upv.es/organizacion/la-institucion/documentos/folleto-institucional-upv-val.pdf)
 
 - [Cómo llegar](https://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

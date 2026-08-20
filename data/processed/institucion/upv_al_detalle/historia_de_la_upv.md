@@ -34,10 +34,6 @@ El origen: el Instituto Politécnico Superior de Valencia (1968) La Universitat 
 
 La historia de la Universitat Politècnica de València se remonta a 1968 cuando se creó el Instituto Politécnico Superior de Valencia (IPSV) , por [Decreto ley 5/1968 de 6 de junio de 1968 sobre Medidas Urgentes de Reestructuración Universitaria](https://www.boe.es/buscar/doc.php?id=BOE-A-1968-650) y cuatro meses después, en el [Decreto 2731/1968 de 24 de octubre de 1968](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-1307) , se determinan los centros que constituirán el IPSV:
 
-[Decreto ley 5/1968 de 6 de junio de 1968 sobre Medidas Urgentes de Reestructuración Universitaria](https://www.boe.es/buscar/doc.php?id=BOE-A-1968-650)
-
-[Decreto 2731/1968 de 24 de octubre de 1968](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-1307)
-
 - La Escuela Técnica Superior de Ingenieros Agrónomos
 
 - La Escuela Técnica Superior de Arquitectura
@@ -49,8 +45,6 @@ La historia de la Universitat Politècnica de València se remonta a 1968 cuando
 que integró en el curso 1968-69 los estudios de Agronomía y los tres primeros cursos de Arquitectura, a los que se añadieron los primeros cursos de las recién creadas Escuela Técnica Superior de Ingenieros de Caminos, Canales y Puertos, y Escuela Técnica Superior de Ingenieros Industriales de València.
 
 La Escuela Técnica Superior de Ingenieros Agrónomos (ETSEA) de València se había creado por el [Decreto 1283/1959, del 16 de julio del 1959](https://www.boe.es/datos/pdfs/BOE/1959/176/A10100-10101.pdf) , y comenzó su tarea académica en el curso 1960-61, en la localidad valenciana de Burjassot, en el seno de la antigua "estación naranjera". Años más tarde, concretamente en el curso 1965-66 sus instalaciones se trasladan de Burjassot a un edificio de nueva planta diseñado al efecto, en el antiguo paseo de Valencia al Mar, número 21 (hoy, avenida de Blasco Ibáñez) de la ciudad. Y será a comienzos de los años 80, cuando se traslada de forma definitiva a su ubicación actual en el campus de Vera.
-
-[Decreto 1283/1959, del 16 de julio del 1959](https://www.boe.es/datos/pdfs/BOE/1959/176/A10100-10101.pdf)
 
 La existencia de estudios de ingeniería agronómica en la Comunitat Valenciana venía siendo una necesidad urgente dado el potencial productivo de su sector agrícola. Los frutos logrados a través de las promociones de ingenieros agrónomos titulados y las aportaciones de la institución en el campo académico, formativo e investigador, han sido y son de alto valor, y han merecido el reconocimiento por parte de la sociedad valenciana, nacional e internacional.
 
@@ -74,8 +68,6 @@ Cronológicamente, es la sexta escuela de ingenieros industriales de España, de
 
 El 11 de marzo de 1971, según [Decreto 495/1971](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1971-427) , el Instituto Politécnico Superior se constituye en Universitat Politècnica de València , un hecho que, más que un cambio de nombre, supone la integración total en el sistema universitario, con efectos sobre la ordenación y regulación de centros de enseñanza, las titulaciones, el acceso del profesorado, etc. En definitiva, conlleva el mismo tratamiento legal que la Ley General de Educación establece para las universidades en general. Por otro lado, el hasta ahora presidente del IPS pasa a ser rector de la UPV.
 
-[Decreto 495/1971](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1971-427)
-
 Es la primera vez que en España se crean universidades politécnicas. Y es que con la misma fecha se constituyen las tres primeras universidades politécnicas en tres decretos sucesivos: la de Barcelona, de Madrid y de València.
 
 A partir de octubre de 1968, recién creado el IPSV se dispuso que las cuatro escuelas impartieran su docencia ese mismo año. En aquellos años, la ETS de Ingenieros Agrónomos y la ETS de Arquitectura, ya contaban con instalaciones adecuadas -tenían planes de estudio definidos, profesorado contratado y algunos profesores con plaza en propiedad, y previsión de alumnado-. Pero no era el caso de las escuelas de Caminos e Industriales, que se auxiliaron con aulas cedidas por la ETS de Ingenieros Agrónomos, ajustando y optimizando el uso de espacios y recursos comunes. Se redactaron en brevísimo plazo planes de estudio provisionales para los nuevos centros. Se incrementó la búsqueda y contratación del profesorado adicional necesario. En definitiva, se consiguió que el IPSV, a sólo tres meses de su creación, pusiera en marcha todas las titulaciones de los centros que integraba.
@@ -87,8 +79,6 @@ Esta situación duró dos años académicos, 1968-69 y 1969-70, ya que en el añ
 Las antiguas escuelas de enseñanzas técnicas de grado medio que incluían en su denominación el término de perito en las distintas ramas de la ingeniería y de aparejadores para la ayuda a la arquitectura, pasaron a denominarse a partir del año 1964 escuelas de ingeniería técnica y escuelas de arquitectura técnica, respectivamente.
 
 Sin embargo, en mayo de 1972, por el [Decreto 1377/1972](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1972-824) y con la nueva denominación que añade el término universitaria , pasan a integrarse en las diferentes universidades del Estado. Así, la escuela de Arquitectura Técnica y la escuela de Ingeniería Técnica, pasan a renombrarse como Escuela Universitaria de Arquitectura Técnica y Escuela Universitaria de Ingeniería Técnica respectivamente.
-
-[Decreto 1377/1972](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1972-824)
 
 A la Universitat Politècnica de València le correspondió integrar las cinco escuelas universitarias existentes en ese momento en el territorio de la Comunitat, que eran:
 
@@ -108,8 +98,6 @@ Al contrario que la mayoría de las ETS, que han mantenido su denominación, las
 
 La Escuela Universitaria de Ingeniería Técnica Agrícola (EUITA) de València se creó como Escuela de Peritos Agrícolas de Valencia en 1959, en el mismo [Decreto 1283/1959](https://www.boe.es/datos/pdfs/BOE/1959/176/A10100-10101.pdf) , que creó la ETSEA de València. Igualmente comenzó su tarea académica en el curso 1960-61, en la localidad valenciana de Burjassot, en el seno de la antigua "estación fitopatológica" . Paralelamente, en el curso 1965-66 sus instalaciones se trasladan de Burjassot al edificio del antiguo paseo de Valencia al Mar, número 19 (hoy, avenida de Blasco Ibáñez) de la ciudad, donde permaneció hasta su fusión con ETSEA.
 
-[Decreto 1283/1959](https://www.boe.es/datos/pdfs/BOE/1959/176/A10100-10101.pdf)
-
 En el año 2002, cuando las escuelas universitarias pueden optar a la impartición de los segundos ciclos de enseñanzas en las diferentes titulaciones y los departamentos universitarios asignan el profesorado necesario, la mayoría opta por incluir en sus planes de enseñanza algunos segundos ciclos y cursos de máster, e incluso programas de doctorado. Con ello pasan a ser escuelas técnicas superiores. En particular, la EUITA pasó a denominarse en el año 2002 Escuela Técnica Superior del Medio Rural y Enología manteniendo su ubicación en la avenida de Blasco Ibáñez.
 
 En el año 2010, como ya se comentó al exponer la evolución de la ETSEA, se fusionaron ambas escuelas y surgió la nueva Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural (ETSEAMN), que se ubicó en el campus de Vera. El fruto de la fusión de ambas escuelas conforma uno de los centros de referencia del estudio de la agronomía y agricultura en España.
@@ -124,8 +112,6 @@ Finalmente, en el año 2002, al incorporar segundos ciclos de enseñanza univers
 
 La Escuela Universitaria de Arquitectura Técnica (EUAT) de València se crea en abril de 1968, anterior al IPSV, como Escuela de Arquitectura Técnica de Valencia, según [Decreto 854/1968 de 4 de abril](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-37801) , y se emplaza en el campus de Vera desde mediados los años 70. Con los cambios habidos en la estructura cíclica de la enseñanza -grado, máster y doctorado- y el incremento de titulaciones, se convierte en el año 2002 en la Escuela Técnica Superior de Gestión en la Edificación, y en 2010, en la actual de Escuela Técnica Superior de Ingeniería de Edificación.
 
-[Decreto 854/1968 de 4 de abril](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-37801)
-
 La Escuela Universitaria de Ingeniería Técnica de Obras Públicas de Alicante se creó en abril de 1968 como Escuela de Ingeniería Técnica de Obras Públicas, según el mismo decreto que creó la EUAT, [Decreto 854/1968 de 4 de abril](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-37801) . Aunque en 1972 se integró en la UPV, por razones de interés estratégico en 1991 pasó a formar parte de la Universidad de Alicante, creada en 1979.
 
 ## Incorporación de nuevos centros (del 1975 al 2000). Su evolución: fusiones y cambios de denominación
@@ -134,29 +120,17 @@ En el periodo que va de 1975 a 2000, la Universitat Politècnica de València va
 
 La adscripción a la UPV de la antigua Escuela de Bellas Artes de València se estableció por [Decreto 2503/1975 de 23 de agosto](https://www.boe.es/buscar/doc.php?id=BOE-A-1975-21903) , y posteriormente, en 1978, la escuela se convierte en Facultad de Bellas Artes (FBBAA). Por sus aulas han pasado artistas, comisarios y críticos de arte, profesionales y empresarios de diferentes sectores creativos. Actualmente, la Facultad de Bellas Artes de la Universitat Politècnica de València está considerada como la mejor del sistema universitario español y dota de un componente artístico a la UPV.
 
-[Decreto 2503/1975 de 23 de agosto](https://www.boe.es/buscar/doc.php?id=BOE-A-1975-21903)
-
 En 1978 se crea la Escuela Universitaria de Ingeniería Técnica Agrícola de Orihuela (Alicante) integrada en la UPV. En 1994 pasa a denominarse Escuela Politécnica Superior y, al crearse en 1996 la Universidad Miguel Hernández, en Elche (Alicante), esta escuela pasa a adscribirse a aquella universidad.
 
 Los estudios de informática comenzaron a impartirse en 1982 en la entonces Escuela Universitaria de Informática ( [Real Decreto 1620/1982 de 18 de junio](https://www.boe.es/eli/es/rd/1982/06/18/1620) ), creada e integrada en la UPV. En el año 2002, cambia su denominación por el de Escuela Técnica Superior de Informática Aplicada. En 1985 - [Real Decreto 1855/1985 de 9 de octubre](https://www.boe.es/buscar/doc.php?id=BOE-A-1985-21071) -, se establece la Facultad de Informática, donde se imparte el título de ingeniería informática. Años más tarde, en 2010, se funden ambos centros, lo que da lugar a la actual Escuela Técnica Superior de Ingeniería Informática (ETSINF).
 
-[Real Decreto 1620/1982 de 18 de junio](https://www.boe.es/eli/es/rd/1982/06/18/1620)
-
-[Real Decreto 1855/1985 de 9 de octubre](https://www.boe.es/buscar/doc.php?id=BOE-A-1985-21071)
-
 La Escuela Técnica Superior de Ingenieros de Telecomunicación (ETSIT) fue creada en 1989 ( [Decreto 117/1989 de 28 de julio](https://dogv.gva.es/es/eli/es-vc/d/1989/07/28/117/) ). En la actualidad, está posicionada como una de las escuelas de referencia a nivel nacional e internacional e incluye todas las disciplinas y facetas de la ingeniería de telecomunicación.
 
-[Decreto 117/1989 de 28 de julio](https://dogv.gva.es/es/eli/es-vc/d/1989/07/28/117/)
-
 En 1989, en el mismo [Decreto 117/1989](https://dogv.gva.es/es/eli/es-vc/d/1989/07/28/117/) , se funda la Escuela Universitaria de Ingeniería Técnica de Topografía y de Obras Públicas en la UPV. En 1994, se transforma en Escuela Técnica Superior de Ingeniería Topográfica, Cartográfica y Geodésica (ETSIGCT), cuyos estudios se han adaptado a los cambios que ha traído consigo la introducción de las tecnologías de la información y las comunicaciones en los métodos y las prácticas tradicionales. Por otro lado, la docencia de obras públicas se traslada a la ETS de Ingeniería de Caminos, Canales y Puertos.
-
-[Decreto 117/1989](https://dogv.gva.es/es/eli/es-vc/d/1989/07/28/117/)
 
 La Escuela Universitaria de Gandia , creada en 1993, se constituye como Escuela Politécnica Superior de Gandia (EPSG) durante el curso académico 1999-2000. En ella se imparten enseñanzas de forestales, medio ambiente, turismo, comunicación audiovisual, ingeniería de sistemas de telecomunicación, sonido e imagen. El establecimiento del campus de Gandia permite, en cierto modo, que la Ciudad Ducal recupere siglos de tradición universitaria. Y es que, en 1549, se había fundado la antigua Universidad de Gandía, primera universidad jesuita del mundo bajo el patronato del duque San Francisco de Borja y con la dirección de la Compañía de Jesús. Durante dos siglos fue un centro universitario de referencia. Se impartieron clases hasta que, en 1767, los jesuitas fueron expulsados de España y la Universidad se clausuró. En la actualidad, el campus de Gandia, que cumplió en 2019 su vigésimo quinto aniversario, ofrece una amplia oferta formativa y se caracteriza por ser un centro con marcada dimensión internacional e investigadora.
 
 Durante el curso académico 1999-2000, se pone en marcha la Facultad de Administración y Dirección de Empresas (FADE) , creada por [Decreto 56/2000, de 25 de abril, del Gobierno Valenciano](https://dogv.gva.es/datos/2000/05/04/pdf/2000_M3473.pdf) , completándose así el mapa actual de escuelas y facultades de la UPV.
-
-[Decreto 56/2000, de 25 de abril, del Gobierno Valenciano](https://dogv.gva.es/datos/2000/05/04/pdf/2000_M3473.pdf)
 
 ## Centros docentes actuales de la Universitat Politècnica de València:
 

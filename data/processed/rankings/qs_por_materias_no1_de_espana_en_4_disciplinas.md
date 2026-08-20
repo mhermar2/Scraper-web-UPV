@@ -30,8 +30,6 @@ La Universitat Politècnica de València (UPV) es la mejor universidad de Españ
 
 Así lo asegura el [ranking QS por materias 2026](https://www.topuniversities.com/subject-rankings) , en el que la politécnica valenciana figura a su vez como 36ª mejor universidad del mundo en Ciencias Agrícolas y top 100 mundial en Arquitectura y Gestión Documental y de la Información, además de estar entre las 150 universidades más destacadas del planeta en Ingeniería Mecánica, Aeronáutica y Fabricación, Arte y Diseño, Ingeniería Química, Ingeniería Civil y Estadística e Investigación Operativa.
 
-[ranking QS por materias 2026](https://www.topuniversities.com/subject-rankings)
-
 ### Referencia mundial en Ingeniería y Tecnología
 
 A nivel de grandes áreas de conocimiento, QS incluye a la UPV entre las 150 mejores universidades del mundo para estudiar Ingeniería y Tecnología. En concreto, la ubica en el puesto 135, mejorando 10 posiciones su resultado anterior.
@@ -62,32 +60,18 @@ Junto al ranking de Shanghái -elaborado por la Universidad Jiao Tong- y al de T
 
 Todas ellas, sin excepción, [destacan a la UPV como referencia internacional del ámbito](http://www.upv.es/rankings/index.html) .
 
-[destacan a la UPV como referencia internacional del ámbito](http://www.upv.es/rankings/index.html)
-
 Noticias destacadas
 
 [Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html) La UPV mejora de nuevo sus resultados de preinscripción de grado, con un 3,2% más de plazas adjudicadas, y ya son diez años de subida constante
 
-[Otro año de récord para la UPV](https://www.upv.es/noticias-upv/noticia-15964-otro-ano-de-re-es.html)
-
 [THE Sustainability Impact Ratings](https://www.upv.es/noticias-upv/noticia-15919-the-sustainabi-es.html) La UPV, universidad con mayor impacto social y económico de España
-
-[THE Sustainability Impact Ratings](https://www.upv.es/noticias-upv/noticia-15919-the-sustainabi-es.html)
 
 [Ranking de másteres de El Mundo](https://www.upv.es/noticias-upv/noticia-15962-ranking-de-mas-es.html) 10 másteres universitarios de la Universitat Politècnica de València, entre los mejores de España
 
-[Ranking de másteres de El Mundo](https://www.upv.es/noticias-upv/noticia-15962-ranking-de-mas-es.html)
-
 [La UPV da luz verde al arranque de su campus en China para el 7 de septiembre](https://www.upv.es/noticias-upv/noticia-15938-la-upv-da-luz-es.html) El Consejo de Gobierno aprueba tres nuevas medidas que suponen el impulso definitivo al Beihang Valencia Polytechnic Institute (BVPI)
-
-[La UPV da luz verde al arranque de su campus en China para el 7 de septiembre](https://www.upv.es/noticias-upv/noticia-15938-la-upv-da-luz-es.html)
 
 [U-Ranking 2026](https://www.upv.es/noticias-upv/noticia-15896-u-ranking-2026-es.html) La UPV, mejor universidad de España en ciencias
 
-[U-Ranking 2026](https://www.upv.es/noticias-upv/noticia-15896-u-ranking-2026-es.html)
-
 [Ayudas comedor](https://www.upv.es/noticias-upv/noticia-15969-ayudas-comedor-es.html) Abierto, hasta el próximo 4 de septiembre (inclusive), el plazo de solicitudes de ayudas para cubrir el menú del día durante el curso 2026-2027
-
-[Ayudas comedor](https://www.upv.es/noticias-upv/noticia-15969-ayudas-comedor-es.html)
 
 Envía una sugerencia, queja o felicitación. Consulta directamente tus dudas. Evita desplazamientos y esperas.

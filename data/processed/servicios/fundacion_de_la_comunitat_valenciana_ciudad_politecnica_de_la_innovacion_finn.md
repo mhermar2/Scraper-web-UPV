@@ -47,8 +47,6 @@ Descubre el proceso que te permite acceder a la mejor universidad tecnológica d
 
 ## Proceso de admisión a grado paso a paso: bachillerato
 
-bachillerato
-
 Estás a las puertas de acceder a la universidad. Por eso, queremos ponerte las cosas fáciles y que sepas en todo momento qué tienes que hacer para adentrarte en uno de los momentos más emocionantes de tu vida. ¡Tu viaje comienza ahora!
 
 01.
@@ -79,7 +77,7 @@ Ir a la sección
 
 ## Conoce la UPV
 
-Cada año la UPV organiza diferen…
+Cada año la UPV organiza diferentes actividade…
 
 ### Futuro estudiante
 
@@ -91,8 +89,6 @@ Descubre el proceso que te permite acceder a la mejor universidad tecnológica d
 
 ## Proceso de admisión a grado paso a paso: bachillerato
 
-bachillerato
-
 Estás a las puertas de acceder a la universidad. Por eso, queremos ponerte las cosas fáciles y que sepas en todo momento qué tienes que hacer para adentrarte en uno de los momentos más emocionantes de tu vida. ¡Tu viaje comienza ahora!
 
 01.
@@ -123,7 +119,7 @@ Ir a la sección
 
 ## Conoce la UPV
 
-Cada año la UPV organiza diferen…
+Cada año la UPV organiza diferentes actividade…
 
 ### Traslados e intercambios
 
@@ -135,8 +131,6 @@ Descubre el proceso que te permite acceder a la mejor universidad tecnológica d
 
 ## Proceso de admisión a grado paso a paso: bachillerato
 
-bachillerato
-
 Estás a las puertas de acceder a la universidad. Por eso, queremos ponerte las cosas fáciles y que sepas en todo momento qué tienes que hacer para adentrarte en uno de los momentos más emocionantes de tu vida. ¡Tu viaje comienza ahora!
 
 01.
@@ -167,7 +161,7 @@ Ir a la sección
 
 ## Conoce la UPV
 
-Cada año la UPV organiza diferen…
+Cada año la UPV organiza diferentes actividade…
 
 ### Después del grado
 
@@ -179,19 +173,19 @@ Quiero empezar un máster universitario
 
 - [Tengo un título universitario español](http://www.upv.es/entidades/SA/mastersoficiales/592623normalc.html)
 
-[Tengo un título universitario español](http://www.upv.es/entidades/SA/mastersoficiales/592623normalc.html)
-
 - [Tengo un título universitario extranjero](http://www.upv.es/entidades/SA/mastersoficiales/592623normalc.html)
-
-[Tengo un título universitario extranjero](http://www.upv.es/entidades/SA/mastersoficiales/592623normalc.html)
 
 - [Preinscripción y acceso](http://www.upv.es/entidades/SA/mastersoficiales/592623normalc.html)
 
-[Preinscripción y acceso](http://www.upv.es/entidades/SA/mastersoficiales/592623normalc.html)
-
 - [Másteres universitarios de la UPV](http://www.upv.es/estudios/posgrado/index-es.html)
 
-[Másteres u…
+Quiero empezar un doctorado
+
+- [Tengo un título de la UPV](http://www.upv.es/entidades/EDOCTORADO/info/718437normalc.html)
+
+- [Tengo un título universitario español](http://www.upv.es/entidades/EDOCTORADO/info/718437normalc.html)
+
+- [Tengo un título universitario extranjero](http://www.upv.es/entidades/EDOCTORADO/info/779181n…
 
 ### PAS y PDI
 
@@ -207,12 +201,10 @@ Accede a las principales herramientas y recursos que necesitas en tu día a día
 
 - [Directorio de personal](http://www.upv.es/pls/oalu/sic_per.Busca_Persona?p_idioma=c)
 
-[Directorio de personal](http://www.upv.es/pls/oalu/sic_per.Busca_Persona?p_idioma=c)
-
 - [Directorio de cargos docentes](http://www.upv.es/pls/oalu/sic_dir.Cargos?p_idioma=c)
-
-[Directorio de cargos docentes](http://www.upv.es/pls/oalu/sic_dir.Cargos?p_idioma=c)
 
 - [PoliformaT](https://poliformat.upv.es/portal)
 
-[Poliforma…
+- [Calendario laboral del PAS](http://www.upv.es/perfiles/pas-pdi/documentos/calendario-laboral-2026.pdf)
+
+- [Calendario académico](http://www.upv.es/perfiles/estudiante/calendario-aca…

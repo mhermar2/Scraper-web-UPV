@@ -22,8 +22,6 @@ La Universitat Politècnica de València es una institución de derecho público
 
 - [Estatutos de la Universitat Politècnica de València](https://dogv.gva.es/datos/2024/09/26/pdf/2024_9778_es.pdf)
 
-[Estatutos de la Universitat Politècnica de València](https://dogv.gva.es/datos/2024/09/26/pdf/2024_9778_es.pdf)
-
 - [Cómo llegar](https://www.upv.es/otros/como-llegar-upv/index-es.html) I
 
 - [Planos](https://www.upv.es/plano/plano-2d-es.html) I

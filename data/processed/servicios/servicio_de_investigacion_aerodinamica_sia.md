@@ -179,8 +179,6 @@ Lunes a jueves: 08:00 a 19:00 Viernes: 08:00 a 14:30 Sábado y domingo: cerrado
 
 Email: [sia@upv.es](mailto://sia@upv.es)
 
-[sia@upv.es](mailto://sia@upv.es)
-
 Teléfono: +34 963877000
 
 Dirección postal :

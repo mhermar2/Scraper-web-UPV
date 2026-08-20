@@ -12,11 +12,7 @@ actualizado: 2026-08-20
 
 ## [Academic Ranking of World Universities (ARWU)](https://www.shanghairanking.com/rankings/arwu/2025) Publicado por la Universidad Jiao Tong de Shanghái (China), está considerado el ranking de referencia mundial sobre educación universitaria
 
-[Academic Ranking of World Universities (ARWU)](https://www.shanghairanking.com/rankings/arwu/2025)
-
 #### [QS: Top 500 mundial por 15º año consecutivo](http://preview.upv.es/noticias-upv/noticia-15901-qs-world-unive-es.html)
-
-[QS: Top 500 mundial por 15º año consecutivo](http://preview.upv.es/noticias-upv/noticia-15901-qs-world-unive-es.html)
 
 Un año más, QS World University Rankings ha vuelto a incluir a la UPV entre las 500 mejores universidades de todo el mundo, además de certificarla como mejor universidad de la Comunitat Valenciana.
 

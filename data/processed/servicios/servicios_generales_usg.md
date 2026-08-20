@@ -33,31 +33,15 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/USG/menu_1015668c.html) [Resultados](https://www.upv.es/entidades/USG/menu_1015667c.html) [Mejoras](https://www.upv.es/entidades/USG/menu_1015669c.html)
 
-[Compromisos](https://www.upv.es/entidades/USG/menu_1015668c.html)
-
-[Resultados](https://www.upv.es/entidades/USG/menu_1015667c.html)
-
-[Mejoras](https://www.upv.es/entidades/USG/menu_1015669c.html)
-
 Atención al usuario
 
 [Consultas](https://www.upv.es/policonsulta/c/AG) [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/USG/menu_1015672c.html) Horario de atención
-
-[Consultas](https://www.upv.es/policonsulta/c/AG)
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/USG/menu_1015672c.html)
-
-Horario de atención
 
 Normativa
 
 Horario Campus UPV
 
 [Horario habitual](http://www.upv.es/entidades/USG/infoweb/ag/info/1207702normalc.html) [Horario agosto](http://www.upv.es/entidades/USG/infoweb/ag/info/1207708normalc.html)
-
-[Horario habitual](http://www.upv.es/entidades/USG/infoweb/ag/info/1207702normalc.html)
-
-[Horario agosto](http://www.upv.es/entidades/USG/infoweb/ag/info/1207708normalc.html)
 
 [Aparcamiento y estacionamiento de vehículos](http://www.upv.es/entidades/USG/infoweb/ag/info/1207973normalc.html)
 
@@ -77,12 +61,6 @@ Horario Campus UPV
 
 [Horario](http://www.upv.es/entidades/USG/infoweb/ag/info/1125098normalc.html) [Solicitud de Cita Previa](http://www.upv.es/entidades/USG/infoweb/ag/info/1125099normalc.html) [Información de contacto](https://www.upv.es/entidades/USG/menu_1125104c.html)
 
-[Horario](http://www.upv.es/entidades/USG/infoweb/ag/info/1125098normalc.html)
-
-[Solicitud de Cita Previa](http://www.upv.es/entidades/USG/infoweb/ag/info/1125099normalc.html)
-
-[Información de contacto](https://www.upv.es/entidades/USG/menu_1125104c.html)
-
 [Oficina de Objetos Perdidos](http://www.upv.es/entidades/USG/infoweb/ag/info/883422normalc.html)
 
 [Renovación DNI (Campus de Vera)](http://www.upv.es/entidades/USG/infoweb/ag/info/1241563normalc.html)
@@ -100,8 +78,6 @@ Contraer
 ## Unidad de Servicios Generales
 
 La Unidad de Servicios Generales, dependiente de la Secretaría General, es la entidad responsable de los servicios complementarios del campus.
-
-Buscador no activo para idweb : 487624
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

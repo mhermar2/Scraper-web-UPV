@@ -55,49 +55,17 @@ Localización https://openmaps.upv.es/?locate=V.4E.0.015
 
 [22/09/2025 OFERTA DE FORMACIÓN Consulta en el apartado FORMACIÓN, marco izquierdo de esta página, la oferta de la Unidad para miembros de la comunidad universitaria UPV.](https://www.upv.es/entidades/UI/noticia_1265285c.html)
 
-22/09/2025
-
-OFERTA DE FORMACIÓN
-
-Consulta en el apartado FORMACIÓN, marco izquierdo de esta página, la oferta de la Unidad para miembros de la comunidad universitaria UPV.
-
 [31/08/2025 Ubicación de la Unidad de Igualdad y Diversidad La Unidad está ubicada en la planta baja del edificio 4E. La atención presencial se realiza preferentemente a través de cita concertada mediante email de solicitud en el que se incluirá brevemente el motivo de la solicitud y datos de contacto de la persona solicitante. La dirección email es [ igualdad@upv.es ]](https://www.upv.es/entidades/UI/noticia_1264086c.html)
-
-31/08/2025
-
-Ubicación de la Unidad de Igualdad y Diversidad
-
-La Unidad está ubicada en la planta baja del edificio 4E. La atención presencial se realiza preferentemente a través de cita concertada mediante email de solicitud en el que se incluirá brevemente el motivo de la solicitud y datos de contacto de la persona solicitante. La dirección email es [ igualdad@upv.es ]
 
 [UBICACIÓN UNIDAD Ed. 4E Planta baja](http://www.upv.es/entidades/UI/info/946901normalc.html)
 
 [24/02/2025 SI ERES ESTUDIANTE Accede y consulta PROTOCOLO DE ACTUACIÓN EN LOS SUPUESTOS DE ACOSO SEXUAL, ACOSO POR RAZÓN DE SEXO, ACOSO POR ORIENTACIÓN SEXUAL Y ACOSO POR IDENTIDAD Y EXPRESIÓN DE GÉNERO NORMATIVA DE CONVIVENCIA UNIVERSITARIA Y RÈGIMEN DISCIPLINARIO](https://www.upv.es/entidades/UI/noticia_1256338c.html)
 
-24/02/2025
-
-SI ERES ESTUDIANTE
-
-Accede y consulta
-
-PROTOCOLO DE ACTUACIÓN EN LOS SUPUESTOS DE ACOSO SEXUAL, ACOSO POR RAZÓN DE SEXO, ACOSO POR ORIENTACIÓN SEXUAL Y ACOSO POR IDENTIDAD Y EXPRESIÓN DE GÉNERO
-
-NORMATIVA DE CONVIVENCIA UNIVERSITARIA Y RÈGIMEN DISCIPLINARIO
-
 [24/02/2025 SI ERES ESTUDIANT Accedeix i consulta PROTOCOL D’ACTUACIÓ EN ELS SUPÒSITS D’ASSETJAMENT SEXUAL, ASSETJAMENT PER RAÓ DE SEXE, ASSETJAMENT PER ORIENTACIÓ SEXUAL I ASSETJAMENT PER IDENTITAT I EXPRESSIÓ DE GÈNERE NORMATIVA DE CONVIVÈNCIA UNIVERSITÀRIA I RÈGIM DISCIPLINARI](https://www.upv.es/entidades/UI/noticia_1256339c.html)
-
-SI ERES ESTUDIANT
-
-Accedeix i consulta
-
-PROTOCOL D’ACTUACIÓ EN ELS SUPÒSITS D’ASSETJAMENT SEXUAL, ASSETJAMENT PER RAÓ DE SEXE, ASSETJAMENT PER ORIENTACIÓ SEXUAL I ASSETJAMENT PER IDENTITAT I EXPRESSIÓ DE GÈNERE
-
-NORMATIVA DE CONVIVÈNCIA UNIVERSITÀRIA I RÈGIM DISCIPLINARI
 
 [Si eres estudiant](http://www.upv.es/entidades/UI/info/1256043normalc.html)
 
 [ [ver todas](https://www.upv.es/entidades/UI/noticiasc.html) ]
-
-[ver todas](https://www.upv.es/entidades/UI/noticiasc.html)
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

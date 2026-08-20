@@ -33,21 +33,9 @@ Compromisos que asumimos
 
 [Compromisos](https://www.upv.es/entidades/SF/menu_1015758c.html) [Resultados](https://www.upv.es/entidades/SF/menu_1015757c.html) [Mejoras](https://www.upv.es/entidades/SF/menu_1015759c.html)
 
-[Compromisos](https://www.upv.es/entidades/SF/menu_1015758c.html)
-
-[Resultados](https://www.upv.es/entidades/SF/menu_1015757c.html)
-
-[Mejoras](https://www.upv.es/entidades/SF/menu_1015759c.html)
-
 Atención al usuario
 
 [Consultas](http://www.upv.es/entidades/SF/info/1114860normalc.html) [Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SF/menu_1015762c.html) [Horario de atención](http://www.upv.es/entidades/SF/info/1112629normalc.html)
-
-[Consultas](http://www.upv.es/entidades/SF/info/1114860normalc.html)
-
-[Sugerencias, quejas y felicitaciones](https://www.upv.es/entidades/SF/menu_1015762c.html)
-
-[Horario de atención](http://www.upv.es/entidades/SF/info/1112629normalc.html)
 
 [Normativa](https://www.upv.es/entidades/SF/menu_1111241c.html)
 

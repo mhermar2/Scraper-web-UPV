@@ -29,15 +29,11 @@ La primera función del Área de Gestión de Títulos es trabajar en el diseño 
 
 [Solicitud de modificación de plan de estudios](https://policonsulta.upv.es/servicedesk/customer/portal/653/create/5895)
 
-### Solicitud de modificación de plan de estudios
-
 Genere aquí su solicitud para la modificación de su plan de estudios, ya sea de título oficial de grado o máster.
 
 [Más info](https://policonsulta.upv.es/servicedesk/customer/portal/653/create/5895)
 
 [Solicitud genérica](https://policonsulta.upv.es/servicedesk/customer/portal/653/create/5916?q=gen%C3%A9rica&q_time=1672223645709)
-
-### Solicitud genérica
 
 Crea tu solicitud genérica aquí para cualquier duda relacionada con el área.
 

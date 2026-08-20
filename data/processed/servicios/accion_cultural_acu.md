@@ -19,33 +19,13 @@ actualizado: 2026-08-20
 
 [PENSAMIENTO CONTEMPORÁNEO V Encuentros Mundos por Venir Del 24 de septiembre al 31 de octubre de 2026](https://www.upv.es/entidades/acu/2026/07/15/v-encuentros-mundos-por-venir/)
 
-#### PENSAMIENTO CONTEMPORÁNEO
-
-### V Encuentros Mundos por Venir
-
-Del 24 de septiembre al 31 de octubre de 2026
-
 [EXPOSICIÓN Cartografías de futuro. Cartas desde la prisión Del 11 de septiembre al 14 de octubre de 2026 en Espai n-1 UPV](https://www.upv.es/entidades/acu/2026/07/23/cartografias-de-futuro-cartas-desde-la-prision/)
 
-#### EXPOSICIÓN
-
-### Cartografías de futuro. Cartas desde la prisión
-
-Del 11 de septiembre al 14 de octubre de 2026 en Espai n-1 UPV
-
 [Presentación candidaturas VII Premios a la Creación Precrea Hasta el 15 de septiembre de 2026](https://www.upv.es/entidades/acu/2026/06/26/vii-premios-a-la-creacion-precrea/)
-
-#### Presentación candidaturas
-
-### VII Premios a la Creación Precrea
-
-Hasta el 15 de septiembre de 2026
 
 ## Área de Acción Cultural
 
 Adscrita al [Vicerrectorado de Arte, Ciencia, Tecnología y Sociedad](https://www.upv.es/entidades/vacts/) , desde el Área de Acción Cultural queremos impulsar la cultura como instrumento para reforzar la cohesión social, la colaboración interdisciplinar y la formación integral. Los mecanismos articulados para conseguirlo pasan por:
-
-[Vicerrectorado de Arte, Ciencia, Tecnología y Sociedad](https://www.upv.es/entidades/vacts/)
 
 - Fomentar la cultura participativa y apoyar las iniciativas de la comunidad universitaria, con especial atención hacia aquellas que estén vinculadas a los objetivos de desarrollo sostenible (ODS)
 
@@ -60,12 +40,6 @@ Adscrita al [Vicerrectorado de Arte, Ciencia, Tecnología y Sociedad](https://ww
 - Crear nuevos espacios híbridos en los campus de la UPV para el aprendizaje interdisciplinar, la cultura libre, las prácticas colaborativas y la innovación social.
 
 [Memoria acciones culturales curso 2022-23](https://acts.webs.upv.es/docs/Memoria_ACU_2022_23.pdf) Memoria acciones culturales curso 2023-24 [Memoria acciones culturales curso 2024-25](https://acts.webs.upv.es/docs/memoria_ACU_24_25.pdf)
-
-[Memoria acciones culturales curso 2022-23](https://acts.webs.upv.es/docs/Memoria_ACU_2022_23.pdf)
-
-[Memoria acciones culturales curso 2023-24](https://acts.webs.upv.es/docs/Memoria_curso_2023_2024_Accion_Cultural_red.pdf)
-
-[Memoria acciones culturales curso 2024-25](https://acts.webs.upv.es/docs/memoria_ACU_24_25.pdf)
 
 ## Agenda
 
@@ -136,6 +110,8 @@ Oct
 ## ÚLTIMAS NOTICIAS
 
 [Cartografías de futuro. Cartas desde la prisión](https://www.upv.es/entidades/acu/2026/07/23/cartografias-de-futuro-cartas-desde-la-prision/)
+
+Del 11 de septiembre al 14 de octubre de 2026 en Espai n-1 UPV
 
 [Who is afraid of contemporary art?Estrategias y herramientas de profesionalización para el sector artístico](https://www.upv.es/entidades/acu/2026/07/16/profesionalizacion-sector-artistico/)
 
@@ -224,5 +200,3 @@ Si no formas parte de la UPV, te invitamos a unirte a nuestra newsletter, que re
 ## Música
 
 ## Otras actividades
-
-/wp:post-content

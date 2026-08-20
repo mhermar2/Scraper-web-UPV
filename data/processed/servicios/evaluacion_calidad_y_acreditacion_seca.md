@@ -19,27 +19,11 @@ actualizado: 2026-08-20
 
 [Soporte Estratégico Evaluación… …](https://www.upv.es)
 
-#### Soporte Estratégico
-
-### Evaluación…
-
-…
-
 [Coordinación Calidad… …](https://www.upv.es)
-
-#### Coordinación
-
-### Calidad…
 
 [Apoyo Técnico Acreditación… …](https://www.upv.es)
 
-#### Apoyo Técnico
-
-### Acreditación…
-
 El S ervicio de E valuación, C alidad y A creditación, depende orgánica y administrativamente del [Vicerrectorado de Planificación, Estudios, Calidad y Acreditación](https://www.upv.es/entidades/vpec/) .
-
-[Vicerrectorado de Planificación, Estudios, Calidad y Acreditación](https://www.upv.es/entidades/vpec/)
 
 ## Información sobre la web
 
@@ -67,25 +51,17 @@ Consulta la información ofrecida a través de las webs gestionadas por el S E C
 
 [Encuestas PEGASUS](https://aplicat.upv.es/pegasus-app/public/index.xhtml)
 
-### Encuestas PEGASUS
-
 Resultado de las encuestas sobre la satisfacción de los usuarios con los servicios universitarios.
 
 [poli SQF](http://wps1.cc.upv.es/sqf/)
-
-### poli SQF
 
 Sistema de gestión, de Sugerencia, Quejas y Felicitaciones de la UPV
 
 [PEGASUS](https://www.upv.es/contenidos/pegasus/)
 
-### PEGASUS
-
 Programa de mejora en la gestión de la administración y los servicios universitarios de la UPV.
 
 [Valora UPV](https://www.upv.es/contenidos/valoraupv/)
-
-### Valora UPV
 
 Participación en la encuesta de satisfacción sobre los servicios prestados UPV. Planes y acciones de mejora.
 
@@ -95,19 +71,11 @@ Acceso directo a distintos organismos oficiales relacionados con las competencia
 
 #### Ministerio de Ciencia, Innovación y Universidades
 
-[Ministerio de Ciencia, Innovación y Universidades](https://www.universidades.gob.es/)
-
 #### [Conselleria de Innovación, Universidades, Ciencia y Sociedad Digital](https://innova.gva.es/es)
-
-[Conselleria de Innovación, Universidades, Ciencia y Sociedad Digital](https://innova.gva.es/es)
 
 #### [Agencia Nacional de Evaluación de la Calidad y Acreditación](https://www.aneca.es/)
 
-[Agencia Nacional de Evaluación de la Calidad y Acreditación](https://www.aneca.es/)
-
 #### [Agència Valenciana d’Avaluació i Prospectiva](https://avap.es/es/)
-
-[Agència Valenciana d’Avaluació i Prospectiva](https://avap.es/es/)
 
 ## Actualidad
 
@@ -117,22 +85,10 @@ Mantente al día
 
 La Comisión de Calidad de la UPV, en su sesión del 25 de junio de 2025, ha aprobado el Informe Ejecutivo sobre el proceso general de Informe de Gestión de Título… [Lee más : Informe ejecutivo Informe de Gestión de Títulos 2024-25](https://www.upv.es/entidades/seca/2026/07/03/informe-ejecutivo-informe-de-gestion-de-titulos-2024-25/)
 
-[Lee más : Informe ejecutivo Informe de Gestión de Títulos 2024-25](https://www.upv.es/entidades/seca/2026/07/03/informe-ejecutivo-informe-de-gestion-de-titulos-2024-25/)
-
-: Informe ejecutivo Informe de Gestión de Títulos 2024-25
-
 [Encuesta satisfacción 2025](https://www.upv.es/entidades/seca/2026/05/21/entrada-1-2-2/)
 
 Resultados de las Encuestas de satisfacción sobre los servicios prestados en 2025. Ya se encuentran disponibles los resultados de la encuesta sobre la satisfacción con los servicios que presta la UPV … [Lee más : Encuesta satisfacción 2025](https://www.upv.es/entidades/seca/2026/05/21/entrada-1-2-2/)
 
-[Lee más : Encuesta satisfacción 2025](https://www.upv.es/entidades/seca/2026/05/21/entrada-1-2-2/)
-
-: Encuesta satisfacción 2025
-
 [Encuesta satisfacción 2024](https://www.upv.es/entidades/seca/2025/07/15/entrada-1-2/)
 
 Resultados de las Encuestas de satisfacción sobre los servicios prestados en 2024. Ya se encuentran disponibles los resultados de la encuesta sobre la satisfacción con los servicios que presta la UPV … [Lee más : Encuesta satisfacción 2024](https://www.upv.es/entidades/seca/2025/07/15/entrada-1-2/)
-
-[Lee más : Encuesta satisfacción 2024](https://www.upv.es/entidades/seca/2025/07/15/entrada-1-2/)
-
-: Encuesta satisfacción 2024

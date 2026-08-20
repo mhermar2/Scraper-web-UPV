@@ -24,8 +24,6 @@ Consulta en este enlace las memorias de los últimos años:
 
 - [Memorias del curso académico](https://www.upv.es/entidades/SG/infoweb/sg/info/518515normalc.html)
 
-[Memorias del curso académico](https://www.upv.es/entidades/SG/infoweb/sg/info/518515normalc.html)
-
 - [Cómo llegar](https://www.upv.es/otros/como-llegar-upv/index-es.html) I
 
 - [Planos](https://www.upv.es/plano/plano-2d-es.html) I
