@@ -1,5 +1,5 @@
 """Crawler generico inicial de UPV (punto de partida para el crawler
-generico del plan a medio plazo -- ver las notas internas del proyecto).
+generico del plan a medio plazo del proyecto).
 
 A diferencia de los extractores por seccion, este no se limita a una URL
 raiz conocida: parte de una semilla de páginas y sigue enlaces

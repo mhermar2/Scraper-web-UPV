@@ -1,5 +1,5 @@
 """Extractor de "La institucion" -- seccion de referencia (motor de
-limpieza validado, ver las notas internas del proyecto).
+limpieza validado, ver motor_limpieza.py).
 
 Pipeline (mismo orden que el notebook original):
   1. extraer_estructura()      -> JSON con las 5 secciones + recursos
@@ -10,8 +10,8 @@ Pipeline (mismo orden que el notebook original):
 
 Migrado desde src/extractores/institucion/extrae_institucion.ipynb (antes
 "Copia de Copia de Extrae_Institucion.ipynb" -- la version con los fixes
-que documenta las notas internas del proyecto: bug organos_gobierno/organos_de_gobierno,
-traversal por hoja de contenido, metadatos YAML homogeneos).
+ya validados: bug organos_gobierno/organos_de_gobierno, traversal por
+hoja de contenido, metadatos YAML homogeneos).
 
 Se descartaron: SECCIONES_VALIDAS (definida pero nunca usada), el
 "BLOQUE EXTRA. GENERAR UNICAMENTE ORGANOS DE GOBIERNO" (llamaba a
@@ -71,9 +71,9 @@ MAX_ENLACES_HIJOS = 5
 MAX_CARACTERES_FRAGMENTO_HIJO = 800
 
 # Institucion tambien puede encontrarse con la plantilla clasica de
-# fichas de entidad en /entidades/<CODIGO>/ (ver las notas internas del proyecto "Quirks
-# conocidos de upv.es") -- amplia el set base con esos terminos, igual
-# que hace servicios.
+# fichas de entidad en /entidades/<CODIGO>/ (sin JS, con el contenido
+# real detras de un iframe -- ver motor_limpieza.buscar_iframe_contenido_clasico())
+# -- amplia el set base con esos terminos, igual que hace servicios.
 TEXTOS_BOILERPLATE_INSTITUCION = ml.TEXTOS_BOILERPLATE_BASE | ml.TEXTOS_BOILERPLATE_PLANTILLA_CLASICA
 
 CONFIG_SECCIONES = {

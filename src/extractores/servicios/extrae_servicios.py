@@ -1,5 +1,5 @@
 """Extractor de "Servicios universitarios" -- seccion de referencia junto
-con institucion (motor de limpieza validado, ver las notas internas del proyecto).
+con institucion (motor de limpieza validado, ver motor_limpieza.py).
 
 A diferencia de institucion, aqui no hay varias secciones tematicas: es
 un unico listado (buscador) de entidades. La pagina de listado carga

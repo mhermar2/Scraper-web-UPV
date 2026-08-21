@@ -3,8 +3,8 @@
 A diferencia de institucion/servicios, esta pagina no usa el motor de
 "hoja de contenido": el contenido se extrae con una estrategia mas
 simple (texto plano de main/article/.entry-content...) y no lleva
-metadatos YAML -- es una seccion de baja calidad segun las notas internas del proyecto, cola
-de trabajo pendiente de rehacer con el motor validado.
+metadatos YAML -- seccion de baja calidad, pendiente de rehacer con el
+motor validado (motor_limpieza.py).
 
 Pipeline (mismo orden que el notebook original, quedandonos con la
 version FINAL de cada paso -- ver nota de deduplicacion abajo):

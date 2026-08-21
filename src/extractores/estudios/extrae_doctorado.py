@@ -20,7 +20,8 @@ bloques ".wp-block-upv-enlace" -- se siguen los que haya en cada
 programa en vez de asumir una lista fija.
 
 `rama` (uno de los campos exclusivos de fichas de titulacion en
-estudios/doctorado, ver las notas internas del proyecto) sale de cruzar cada programa con las
+estudios/doctorado, junto con acronimo/campus/modalidad/centro) sale de
+cruzar cada programa con las
 paginas de "ambito de investigacion" del menu (Agroalimentacion y
 Biotecnologia, Arquitectura, Arte, Ciencias...), que sí listan los
 programas por area de forma real. `acronimo`/`campus`/`modalidad`/

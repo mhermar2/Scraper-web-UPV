@@ -1,6 +1,7 @@
 """Motor de limpieza de contenido compartido por los extractores ya
-validados (institucion, servicios) -- ver las notas internas del proyecto: "Motor de limpieza
-de contenido (reutilizar, no reescribir por seccion)".
+validados (institucion, servicios, rankings, formacion_permanente,
+doctorado). Logica de proposito general: se amplia con capacidades
+nuevas cuando hace falta, pero no se bifurca por seccion.
 
 Extraido al comparar extrae_institucion.py y extrae_servicios.py durante
 su migracion desde notebooks: ambos duplicaban (casi) identica esta
@@ -282,9 +283,9 @@ def extraer_texto_pdf(contenido: bytes) -> list[str]:
 
 def buscar_iframe_contenido_clasico(soup: BeautifulSoup, url_base: str) -> str | None:
     """La plantilla clasica Oracle Portal/PL-SQL de fichas de entidad
-    (sin #smooth-wrapper ni <main>, ver las notas internas del proyecto "Quirks conocidos de
-    upv.es") no lleva el contenido real en la pagina index: lo carga en
-    un <iframe> (normalmente id="marco") que apunta a
+    (sin #smooth-wrapper ni <main>) no lleva el contenido real en la
+    pagina index: lo carga en un <iframe> (normalmente id="marco") que
+    apunta a
     pls/oalu/sic_infoent.*MS?P_ENTIDAD=.... Sin ejecutar JS, requests
     nunca ve ese contenido (datos de contacto, direccion postal,
     telefonos...) salvo que se siga el iframe explicitamente y se
@@ -550,7 +551,7 @@ def es_url_valida_para_expandir(href: str, url_pagina: str, urls_ya_usadas: set)
 
 
 # ==========================================================
-# Metadatos YAML (formato definitivo, ver las notas internas del proyecto "Metadatos YAML")
+# Metadatos YAML (formato definitivo del proyecto)
 # ==========================================================
 
 CARACTERES_INICIALES_YAML = tuple("-?:[]{},&*!|>'\"%@`#")
@@ -584,11 +585,11 @@ def generar_yaml_metadatos(*, fuente: str, url: str, categoria: str, tipo_docume
                             campos_extra: dict[str, str] | None = None) -> str:
     """Cabecera YAML homogenea para todo el corpus.
 
-    tipo_documento distingue tres casos (ver tabla de presencia en
-    las notas internas del proyecto): "resumen" (pagina raiz de una categoria/nivel, sin
-    `resumen` ni `seccion` propios), "seccion" (lleva `resumen` pero no
-    `seccion`) y "recurso" (lleva ambos). `nivel` solo se incluye si el
-    documento vive en una subcarpeta real de data/processed/<categoria>/.
+    tipo_documento distingue tres casos: "resumen" (pagina raiz de una
+    categoria/nivel, sin `resumen` ni `seccion` propios), "seccion"
+    (lleva `resumen` pero no `seccion`) y "recurso" (lleva ambos).
+    `nivel` solo se incluye si el documento vive en una subcarpeta real
+    de data/processed/<categoria>/.
     """
     if actualizado is None:
         actualizado = date.today().strftime("%Y-%m-%d")

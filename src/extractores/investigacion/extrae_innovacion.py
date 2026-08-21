@@ -7,8 +7,7 @@ selectores CSS especificos por seccion (.card-iniciativa,
 motor generico de "hoja de contenido" o de una extraccion de texto plano.
 El Markdown lleva su propio formato YAML simple (sin lineas en blanco
 entre campos), distinto del usado en institucion/servicios -- seccion de
-baja calidad segun las notas internas del proyecto, formato de metadatos aun sin normalizar
-globalmente.
+baja calidad, formato de metadatos aun sin normalizar globalmente.
 
 Pipeline (mismo orden que el notebook original):
   1. extraer_json_innovacion() -> JSON con las 7 secciones semanticas
