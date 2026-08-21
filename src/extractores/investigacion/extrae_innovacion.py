@@ -62,8 +62,9 @@ SECCIONES_BASE = [
 # Recursos enlazados desde estas tarjetas pueden ser paginas de
 # innovacion.upv.es (WordPress moderno) o de otros dominios UPV con la
 # plantilla clasica de fichas de entidad -- mismos selectores que
-# iniciativas_idi, con el mismo fallback a la plantilla clasica.
-SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry"]
+# iniciativas_idi, con el mismo fallback a la plantilla clasica
+# (incluida ".mwc_contenido", confirmada tambien en admision/master).
+SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido"]
 
 FUENTE = "UPV"
 CATEGORIA = "investigacion"

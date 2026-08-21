@@ -1,69 +1,74 @@
 """Extractor de "Admision a Grado" -- las 5 vias de acceso (Bachillerato,
 Ciclos formativos, Titulados universitarios, Mayores de 25/40/45,
-Vengo de otra universidad) en un unico pipeline con un "padre" por via.
+Vengo de otra universidad).
 
-Patron propio: secciones section-01..section-06 con tarjetas (.card-bg)
-y acordeones (que a su vez pueden contener banners anidados). Sigue
-ademas las URLs enlazadas para generar recursos adicionales, con el
-mismo filtro conservador de "contenido claramente ajeno" que master.
+Reescritura completa (2026-08-21), mismo patron que los nuevos
+extrae_master.py/extrae_doctorado.py: metadatos YAML definitivos y
+motor_limpieza.py para el contenido de cada pagina ENLAZADA (traversal,
+PDF, plantilla clasica, limpieza de renombrados) en vez del loop
+h1-h4/p/li/table ad-hoc anterior. La maquetacion de cada via en
+<section id="section-01">..<section id="section-06"> (con tarjetas
+".card-bg" y acordeones, distinto de ".box-number-box" que usan
+master/doctorado -- comprobado que ambas clases coexisten en el DOM de
+las 3 paginas, se respeta la eleccion de selector que ya tenia cada
+extractor) se mantiene con extraccion estructurada propia para el padre
+y secciones de cada via.
 
-Pipeline (mismo orden que el notebook original):
-  1. extraer_admision_grado() -> JSON con 5 "padres" (uno por via de
-     acceso), cada uno con sus secciones
-  2. guardar_json()
-  3. generar_markdowns_secciones() -> 1 .md padre + 1 .md por seccion,
-     por cada una de las 5 vias
-  4. recopilar_enlaces() -> aplana tarjetas/acordeones(enlaces+banners)
-     de todas las secciones y vias, deduplicando por (padre,seccion,url)
-  5. descargar_y_extraer_paginas() -> visita cada URL de verdad
-  6. generar_markdowns_recursos() -> un .md por pagina util, clasificada,
-     dentro de la carpeta de SU via de acceso correspondiente
+Cada via es un arbol "resumen" independiente (nivel=grado en las 5, pero
+url/resumen propios de esa via) -- no hay una pagina combinada que las
+englobe a las 5, asi que no se genera ningun indice nuevo que no
+existiera ya.
 
-Migrado desde src/extractores/admision/extrae_grado.py (antes
-Sacar_Admision_Grado.ipynb). Notebook completo y limpio -- unica celda
-descartada: la "COMPROBACIÓN DEL JSON" (prints de estadisticas +
-pprint.pprint de un padre concreto), pura inspeccion sin efecto en el
-resultado.
-
-Nota sobre nombres de carpeta: el notebook original nombraba la carpeta
-de cada via de acceso con el slug largo derivado del <title> de su
-pagina (ej. "admision_grado_bachillerato_upv_universitat_politecnica_de_valencia"),
-igual que el nombre de su .md padre. En este repo esas carpetas ya se
-renombraron a los nombres cortos (bachillerato, ciclos_formativos...) al
-reorganizar data/processed/ -- ver config.ADMISION_GRADO_FUENTES. El
-nombre de archivo del .md padre en si mismo SI se deja con el slug largo
-original, sin renombrar.
+Se preserva el filtro de "contenido claramente ajeno" (2+ senales de
+doctorado/personal investigador/alumni... en el mismo recurso) que ya
+tenia esta seccion: los acordeones de la web comparten a veces widgets
+con otras vias de admision, y sin este filtro se cuela contenido que no
+es de grado.
 """
 
 from __future__ import annotations
 
 import json
-import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urlunparse
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # src/ (config.py, common.py)
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # src/extractores/ (motor_limpieza.py)
 
 from bs4 import BeautifulSoup
 import requests
 
+from common import limpiar_texto
 from config import ADMISION_GRADO_DIR, ADMISION_GRADO_FUENTES, ADMISION_GRADO_JSON
+import motor_limpieza as ml
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; UPV-Admision-Bot/1.0)"}
-PAUSA = 0.3
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/139.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Connection": "keep-alive",
+}
 
+FUENTE = "UPV"
 CATEGORIA = "admision"
 NIVEL = "grado"
+TIPO_RECURSO = "informacion"
 
 INTRO_DOCUMENTO = (
     "Información completa sobre el proceso de admisión "
     "a estudios oficiales de grado en la Universitat Politècnica de València."
 )
 
-DOMINIOS_UPV = {"www.upv.es", "upv.es"}
+SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido"]
 
+# Filtro conservador: solo descarta un recurso si aparecen 2+ senales de
+# contenido claramente ajeno a grado (doctorado, personal investigador,
+# alumni...) a la vez -- una coincidencia aislada no basta.
 PATRONES_AJENOS = [
     "doctorado", "tesis doctoral", "doctorando",
     "personal docente e investigador", "personal investigador", "pdi", "profesorado",
@@ -72,155 +77,156 @@ PATRONES_AJENOS = [
     "antiguos alumnos", "exalumnos",
 ]
 
-CLASIFICACION = [
-    ("calendario", ["plazo", "calendario", "calendarios", "fechas"]),
-    ("matricula", ["matricula", "matrícula", "tasas", "precio", "precios"]),
-    ("faq", ["faq", "faqs", "preguntas frecuentes"]),
-    ("ayudas", ["beca", "becas", "ayuda", "ayudas"]),
-    ("admision", ["admision", "admisión", "preinscripcion", "preinscripción", "solicitud", "acceso"]),
-    ("estudios", ["grado", "grados", "estudio", "estudios", "titulacion", "titulación", "titulaciones", "oferta academica", "oferta académica"]),
-    ("normativa", ["normativa", "reglamento", "legislacion", "legislación"]),
-]
+
+def _yaml_resumen(url: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="resumen", titulo=titulo)
 
 
-def limpiar_texto(txt: str | None) -> str:
-    if txt is None:
+def _yaml_seccion(url_resumen: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url_resumen, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="seccion", resumen=url_resumen, titulo=titulo)
+
+
+def _yaml_recurso(elemento: dict, seccion_slug: str, url_resumen: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=elemento["url"], categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="recurso", tipo_recurso=TIPO_RECURSO,
+                                      resumen=url_resumen, seccion=seccion_slug, titulo=elemento["titulo"])
+
+
+def texto_limpio(elemento) -> str:
+    return " ".join(elemento.stripped_strings) if elemento is not None else ""
+
+
+def url_absoluta(url: str, base: str) -> str:
+    return ml.normalizar_url(url, base) if url else ""
+
+
+def primer_enlace(elemento, base: str) -> str:
+    if elemento is None:
         return ""
-    return re.sub(r"\s+", " ", txt).strip()
+    enlace = elemento.find("a", href=True)
+    return url_absoluta(enlace["href"], base) if enlace else ""
 
 
-def normalizar_url(url: str) -> str:
-    p = urlparse(url)
-    return urlunparse((p.scheme, p.netloc, p.path, "", "", ""))
+# ==========================================================
+# 1. Catalogo de cada via (padre + secciones con tarjetas/acordeones/banners)
+# ==========================================================
+
+def extraer_tarjetas(seccion, base: str) -> list[dict]:
+    tarjetas = []
+    for card in seccion.select(".card-bg"):
+        titulo = texto_limpio(card.find(["h3", "h4"]))
+        descripcion = ""
+        p = card.find("p", class_="text-sm")
+        if p:
+            descripcion = texto_limpio(p)
+        tarjetas.append({"titulo": titulo, "descripcion": descripcion, "url": primer_enlace(card, base)})
+    return tarjetas
 
 
-def get(url: str) -> BeautifulSoup | None:
+def extraer_banners(seccion, base: str) -> list[dict]:
+    banners = []
+    for banner in seccion.select(".banner"):
+        titulo = texto_limpio(banner.find(["h3", "h4"]))
+        descripcion = ""
+        p = banner.find("p")
+        if p:
+            descripcion = texto_limpio(p)
+        banners.append({"titulo": titulo, "descripcion": descripcion, "url": primer_enlace(banner, base)})
+    return banners
+
+
+def extraer_acordeones(seccion, base: str) -> list[dict]:
+    acordeones = []
+    for bloque in seccion.select(".accordion-element-content"):
+        titulo = texto_limpio(bloque.find(["h3", "h4"]))
+        texto = texto_limpio(bloque)
+        enlaces = []
+        vistos = set()
+        for a in bloque.find_all("a", href=True):
+            href = url_absoluta(a["href"], base)
+            if not href or href in vistos:
+                continue
+            vistos.add(href)
+            enlaces.append({"texto": texto_limpio(a), "url": href})
+        acordeones.append({"titulo": titulo, "texto": texto, "enlaces": enlaces, "banners": extraer_banners(bloque, base)})
+    return acordeones
+
+
+def extraer_padre(nombre_fuente: str, url: str) -> dict | None:
+    print("=" * 70)
+    print(nombre_fuente, "-", url)
     try:
-        r = requests.get(url, headers=HEADERS, timeout=20)
-        r.raise_for_status()
-        time.sleep(PAUSA)
-        return BeautifulSoup(r.text, "html.parser")
-    except Exception:
+        respuesta = requests.get(url, headers=HEADERS, timeout=30)
+        respuesta.raise_for_status()
+    except Exception as error:
+        print("  ERROR:", error)
         return None
-
-
-def texto(tag, selector: str | None = None) -> str:
-    if selector is not None:
-        tag = tag.select_one(selector)
-    if tag is None:
-        return ""
-    return limpiar_texto(tag.get_text(" ", strip=True))
-
-
-def url_absoluta(base: str, href: str) -> str:
-    if not href:
-        return ""
-    return normalizar_url(urljoin(base, href))
-
-
-# ==========================================================
-# 1. Extraccion del padre (una via de acceso)
-# ==========================================================
-
-def extraer_padre(url: str) -> dict | None:
-    print(url)
-    soup = get(url)
-    if soup is None:
-        return None
-
-    titulo = limpiar_texto(soup.title.get_text()) if soup.title else ""
+    soup = BeautifulSoup(respuesta.text, "html.parser")
 
     main = soup.find("main", class_="search-page")
     if main is None:
+        print("  AVISO: no se ha encontrado <main class=\"search-page\">.")
         return None
 
-    pagina = {"titulo": titulo, "url": normalizar_url(url), "secciones": []}
+    titulo_padre = texto_limpio(soup.find("h1")) or nombre_fuente
 
+    secciones = []
     for i in range(1, 7):
-        sec = main.find(id=f"section-{i:02d}")
-        if sec is None:
+        seccion_html = main.find(id=f"section-{i:02d}")
+        if seccion_html is None:
             continue
 
-        titulo_sec = ""
-        descripcion_sec = ""
-        info = sec.find("div", class_="col-4")
+        titulo_seccion, descripcion_seccion = "", ""
+        info = seccion_html.find("div", class_="col-4")
         if info:
             h = info.find(["h2", "h3"])
             if h:
-                titulo_sec = limpiar_texto(h.get_text())
+                titulo_seccion = texto_limpio(h)
             p = info.find("p", class_="text-sm")
             if p:
-                descripcion_sec = limpiar_texto(p.get_text())
+                descripcion_seccion = texto_limpio(p)
+        if not titulo_seccion:
+            continue
 
-        datos_seccion = {"id": f"section-{i:02d}", "titulo": titulo_sec, "descripcion": descripcion_sec, "tarjetas": [], "acordeones": []}
+        secciones.append({
+            "id": ml.normalizar_identificador(titulo_seccion) or f"seccion_{i:02d}",
+            "titulo": titulo_seccion,
+            "descripcion": descripcion_seccion,
+            "tarjetas": extraer_tarjetas(seccion_html, url),
+            "acordeones": extraer_acordeones(seccion_html, url),
+        })
 
-        for card in sec.select(".card-bg"):
-            titulo_card = ""
-            descripcion_card = ""
-            enlace_card = None
+    recursos = []
+    urls_vistas = set()
+    for seccion in secciones:
+        for tarjeta in seccion["tarjetas"]:
+            if tarjeta.get("url") and tarjeta["url"] not in urls_vistas:
+                urls_vistas.add(tarjeta["url"])
+                recursos.append({"titulo": tarjeta["titulo"], "url": tarjeta["url"], "seccion_id": seccion["id"]})
+        for acordeon in seccion["acordeones"]:
+            for enlace in acordeon["enlaces"]:
+                if enlace.get("url") and enlace["url"] not in urls_vistas:
+                    urls_vistas.add(enlace["url"])
+                    recursos.append({"titulo": enlace["texto"], "url": enlace["url"], "seccion_id": seccion["id"]})
+            for banner in acordeon["banners"]:
+                if banner.get("url") and banner["url"] not in urls_vistas:
+                    urls_vistas.add(banner["url"])
+                    recursos.append({"titulo": banner["titulo"], "url": banner["url"], "seccion_id": seccion["id"]})
 
-            h = card.find(["h3", "h4"])
-            if h:
-                titulo_card = limpiar_texto(h.get_text())
-            p = card.find("p", class_="text-sm")
-            if p:
-                descripcion_card = limpiar_texto(p.get_text())
-            a = card.find("a", href=True)
-            if a:
-                enlace_card = normalizar_url(urljoin(url, a["href"]))
-
-            datos_seccion["tarjetas"].append({"titulo": titulo_card, "descripcion": descripcion_card, "url": enlace_card})
-
-        for acc in sec.select(".accordion-element-content"):
-            titulo_acc = ""
-            h = acc.find(["h3", "h4"])
-            if h:
-                titulo_acc = limpiar_texto(h.get_text())
-
-            texto_acc = limpiar_texto(acc.get_text(" "))
-
-            enlaces = []
-            vistos = set()
-            for a in acc.find_all("a", href=True):
-                href = normalizar_url(urljoin(url, a["href"]))
-                if href in vistos:
-                    continue
-                vistos.add(href)
-                enlaces.append({"texto": limpiar_texto(a.get_text(" ")), "url": href})
-
-            banners = []
-            for banner in acc.select(".banner"):
-                titulo_banner = ""
-                descripcion_banner = ""
-                enlace_banner = None
-                h = banner.find(["h3", "h4"])
-                if h:
-                    titulo_banner = limpiar_texto(h.get_text())
-                p = banner.find("p")
-                if p:
-                    descripcion_banner = limpiar_texto(p.get_text(" "))
-                a = banner.find("a", href=True)
-                if a:
-                    enlace_banner = normalizar_url(urljoin(url, a["href"]))
-                banners.append({"titulo": titulo_banner, "descripcion": descripcion_banner, "url": enlace_banner})
-
-            datos_seccion["acordeones"].append({"titulo": titulo_acc, "texto": texto_acc, "enlaces": enlaces, "banners": banners})
-
-        pagina["secciones"].append(datos_seccion)
-
-    return pagina
+    return {"titulo": titulo_padre, "url": url, "secciones": secciones, "recursos": recursos}
 
 
-def extraer_admision_grado(fuentes: list[tuple[str, str, str]] = ADMISION_GRADO_FUENTES) -> dict:
+def extraer_catalogo(fuentes: list[tuple[str, str, str]] = ADMISION_GRADO_FUENTES) -> dict:
     padres = []
-    for nombre_fuente, url, _carpeta_corta in fuentes:
-        print("=" * 70)
-        print(nombre_fuente, "-", url)
-        pagina = extraer_padre(url)
+    for nombre_fuente, url, carpeta_corta in fuentes:
+        pagina = extraer_padre(nombre_fuente, url)
         if pagina is not None:
+            pagina["carpeta"] = carpeta_corta
             padres.append(pagina)
-
-    return {"fuente": "https://www.upv.es/admision/", "total_padres": len(padres), "padres": padres}
+    print("Vías de acceso extraídas:", len(padres), "de", len(fuentes))
+    return {"fuente": "https://www.upv.es/admision/", "padres": padres}
 
 
 def guardar_json(datos: dict, ruta: Path = ADMISION_GRADO_JSON) -> None:
@@ -230,428 +236,195 @@ def guardar_json(datos: dict, ruta: Path = ADMISION_GRADO_JSON) -> None:
     print("JSON guardado:", ruta)
 
 
-def mapa_padre_a_carpeta(datos: dict, fuentes: list[tuple[str, str, str]] = ADMISION_GRADO_FUENTES) -> dict[str, str]:
-    """Construye {titulo_padre: carpeta_corta} cruzando datos['padres']
-    (que solo trae la URL normalizada de cada padre) con
-    ADMISION_GRADO_FUENTES (que sabe la carpeta corta de cada URL de
-    origen) -- ver docstring del modulo sobre por que las carpetas no
-    usan el slug largo del <title> como hacia el notebook original."""
-    urls_a_carpeta = {normalizar_url(url): carpeta for _nombre, url, carpeta in fuentes}
-    mapa = {}
+def cargar_recursos_anteriores(ruta: Path = ADMISION_GRADO_JSON) -> dict[str, list[dict]]:
+    """{carpeta_corta: [{"titulo","url"}, ...]} de la ejecucion
+    anterior -- debe llamarse ANTES de guardar_json()."""
+    if not ruta.exists():
+        return {}
+    try:
+        with open(ruta, encoding="utf-8") as f:
+            datos = json.load(f)
+    except Exception:
+        return {}
+    resultado = {}
     for padre in datos.get("padres", []):
-        carpeta = urls_a_carpeta.get(normalizar_url(padre["url"]))
-        mapa[padre["titulo"]] = carpeta or (limpiar_nombre(padre["titulo"]) or "padre")
-    return mapa
+        carpeta = padre.get("carpeta", "")
+        resultado[carpeta] = [{"titulo": r["titulo"], "url": r["url"]} for r in padre.get("recursos", []) if r.get("titulo") and r.get("url")]
+    return resultado
 
 
 # ==========================================================
-# 2. Markdown de padre + secciones (vuelca el JSON, sin descargar nada)
+# 2. Markdown de padre + secciones de cada via (vuelca el JSON)
 # ==========================================================
 
-def limpiar_nombre(nombre) -> str:
-    nombre = str(nombre).lower().strip()
-    for viejo, nuevo in {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ü": "u", "ñ": "n"}.items():
-        nombre = nombre.replace(viejo, nuevo)
-    return re.sub(r"[^a-z0-9]+", "_", nombre).strip("_")
+def _escribir_bloque_seccion(f, seccion: dict, nivel_titulo: str, prefijo_enlace: str) -> None:
+    for t in seccion.get("tarjetas", []):
+        if t.get("titulo"):
+            f.write(f"{nivel_titulo} {t['titulo']}\n\n")
+        if t.get("descripcion"):
+            f.write(t["descripcion"] + "\n\n")
+        if t.get("url"):
+            f.write(f"{prefijo_enlace}: {t['url']}\n\n")
+
+    for acc in seccion.get("acordeones", []):
+        if acc.get("titulo"):
+            f.write(f"{nivel_titulo} {acc['titulo']}\n\n")
+        if acc.get("texto"):
+            f.write(acc["texto"] + "\n\n")
+        for enlace in acc.get("enlaces", []):
+            f.write(f"- {enlace['texto']}: {enlace['url']}\n")
+        if acc.get("enlaces"):
+            f.write("\n")
+        for banner in acc.get("banners", []):
+            if banner.get("titulo"):
+                f.write(f"{nivel_titulo} {banner['titulo']}\n\n")
+            if banner.get("descripcion"):
+                f.write(banner["descripcion"] + "\n\n")
+            if banner.get("url"):
+                f.write(f"{prefijo_enlace}: {banner['url']}\n\n")
 
 
-def _escribir_metadatos(f, tipo_documento: str, seccion: str | None = None) -> None:
-    f.write("---\n")
-    f.write("fuente: UPV\n")
-    f.write(f"categoria: {CATEGORIA}\n")
-    f.write(f"nivel: {NIVEL}\n")
-    f.write(f"tipo_documento: {tipo_documento}\n")
-    if seccion:
-        f.write(f"seccion: {seccion}\n")
-    f.write("---\n\n")
-
-
-def generar_markdowns_secciones(datos: dict, directorio: Path = ADMISION_GRADO_DIR) -> int:
+def generar_markdowns_padre_y_secciones(datos: dict, directorio: Path = ADMISION_GRADO_DIR) -> int:
     directorio.mkdir(parents=True, exist_ok=True)
-    mapa_carpetas = mapa_padre_a_carpeta(datos)
     contador = 0
 
     for padre in datos["padres"]:
-        nombre_padre_archivo = limpiar_nombre(padre["titulo"])
-        carpeta_padre = directorio / mapa_carpetas[padre["titulo"]]
+        carpeta_padre = directorio / padre["carpeta"]
         carpeta_padre.mkdir(parents=True, exist_ok=True)
 
-        # El notebook original escribia el .md padre en directorio_base
-        # (plano, ADMISION/Grado/). En la reorganizacion de data/ ya se
-        # movieron esos 5 ficheros dentro de la subcarpeta de su propia
-        # categoria -- se escribe ahi para reflejar la estructura actual.
-        with open(carpeta_padre / f"{nombre_padre_archivo}.md", "w", encoding="utf-8") as f:
-            _escribir_metadatos(f, "padre")
-            f.write(f"# {padre['titulo']}\n\n")
+        nombre_padre = ml.nombre_archivo_markdown(padre["titulo"])
+        with open(carpeta_padre / nombre_padre, "w", encoding="utf-8") as f:
+            f.write(_yaml_resumen(padre["url"], padre["titulo"]))
+            f.write(f"\n# {padre['titulo']}\n\n")
             f.write(INTRO_DOCUMENTO + "\n\n")
-
-            for seccion in padre.get("secciones", []):
+            for seccion in padre["secciones"]:
                 f.write(f"## {seccion['titulo']}\n\n")
                 if seccion.get("descripcion"):
                     f.write(seccion["descripcion"] + "\n\n")
-
-                for tarjeta in seccion.get("tarjetas", []):
-                    if tarjeta.get("titulo"):
-                        f.write(f"### {tarjeta['titulo']}\n\n")
-                    if tarjeta.get("descripcion"):
-                        f.write(tarjeta["descripcion"] + "\n\n")
-                    if tarjeta.get("url"):
-                        f.write(f"Más información: {tarjeta['url']}\n\n")
-
-                for acordeon in seccion.get("acordeones", []):
-                    if acordeon.get("titulo"):
-                        f.write(f"### {acordeon['titulo']}\n\n")
-                    if acordeon.get("texto"):
-                        f.write(acordeon["texto"] + "\n\n")
-                    for enlace in acordeon.get("enlaces", []):
-                        if enlace.get("texto") and enlace.get("url"):
-                            f.write(f"- {enlace['texto']}: {enlace['url']}\n")
-                    if acordeon.get("enlaces"):
-                        f.write("\n")
-                    for banner in acordeon.get("banners", []):
-                        if banner.get("titulo"):
-                            f.write(f"#### {banner['titulo']}\n\n")
-                        if banner.get("descripcion"):
-                            f.write(banner["descripcion"] + "\n\n")
-                        if banner.get("url"):
-                            f.write(f"Más información: {banner['url']}\n\n")
+                _escribir_bloque_seccion(f, seccion, "###", "Más información")
         contador += 1
 
-        for seccion in padre.get("secciones", []):
-            nombre_seccion = limpiar_nombre(seccion["titulo"])
-
-            with open(carpeta_padre / f"{nombre_seccion}.md", "w", encoding="utf-8") as f:
-                _escribir_metadatos(f, "seccion", nombre_seccion)
-                f.write(f"# {seccion['titulo']}\n\n")
+        for seccion in padre["secciones"]:
+            nombre_seccion = ml.nombre_archivo_markdown(seccion["titulo"])
+            with open(carpeta_padre / nombre_seccion, "w", encoding="utf-8") as f:
+                f.write(_yaml_seccion(padre["url"], seccion["titulo"]))
+                f.write(f"\n# {seccion['titulo']}\n\n")
                 f.write(f"Proceso de admisión: {padre['titulo']}\n\n")
                 if seccion.get("descripcion"):
                     f.write(seccion["descripcion"] + "\n\n")
-
-                for tarjeta in seccion.get("tarjetas", []):
-                    if tarjeta.get("titulo"):
-                        f.write(f"## {tarjeta['titulo']}\n\n")
-                    if tarjeta.get("descripcion"):
-                        f.write(tarjeta["descripcion"] + "\n\n")
-                    if tarjeta.get("url"):
-                        f.write(f"Enlace oficial: {tarjeta['url']}\n\n")
-
-                for acordeon in seccion.get("acordeones", []):
-                    if acordeon.get("titulo"):
-                        f.write(f"## {acordeon['titulo']}\n\n")
-                    if acordeon.get("texto"):
-                        f.write(acordeon["texto"] + "\n\n")
-                    for enlace in acordeon.get("enlaces", []):
-                        if enlace.get("texto") and enlace.get("url"):
-                            f.write(f"- {enlace['texto']}: {enlace['url']}\n")
-                    if acordeon.get("enlaces"):
-                        f.write("\n")
-                    for banner in acordeon.get("banners", []):
-                        if banner.get("titulo"):
-                            f.write(f"## {banner['titulo']}\n\n")
-                        if banner.get("descripcion"):
-                            f.write(banner["descripcion"] + "\n\n")
-                        if banner.get("url"):
-                            f.write(f"Enlace oficial: {banner['url']}\n\n")
+                _escribir_bloque_seccion(f, seccion, "##", "Enlace oficial")
             contador += 1
 
-    print("Markdown de secciones generado. Archivos:", contador)
+    print("Markdown de padre/secciones generado. Archivos:", contador)
     return contador
 
 
 # ==========================================================
-# 3. Recopilar enlaces de todas las vias/secciones
+# 3. Markdown de los recursos enlazados -- motor_limpieza
 # ==========================================================
 
-def recopilar_enlaces(datos: dict) -> list[dict]:
-    lista_enlaces = []
-    vistos = set()
-
-    for padre in datos["padres"]:
-        titulo_padre = padre["titulo"]
-
-        for seccion in padre["secciones"]:
-            titulo_seccion = seccion["titulo"]
-
-            for tarjeta in seccion.get("tarjetas", []):
-                url = tarjeta.get("url")
-                if not url:
-                    continue
-                url = normalizar_url(url)
-                if not url:
-                    continue
-                clave = (titulo_padre, titulo_seccion, url)
-                if clave in vistos:
-                    continue
-                vistos.add(clave)
-                lista_enlaces.append({"url": url, "texto": tarjeta.get("titulo", ""), "seccion_origen": titulo_seccion, "padre_origen": titulo_padre, "tipo_origen": "tarjeta"})
-
-            for acordeon in seccion.get("acordeones", []):
-                for enlace in acordeon.get("enlaces", []):
-                    url = enlace.get("url")
-                    if not url:
-                        continue
-                    url = normalizar_url(url)
-                    if not url:
-                        continue
-                    clave = (titulo_padre, titulo_seccion, url)
-                    if clave in vistos:
-                        continue
-                    vistos.add(clave)
-                    lista_enlaces.append({"url": url, "texto": enlace.get("texto", ""), "seccion_origen": titulo_seccion, "padre_origen": titulo_padre, "tipo_origen": "acordeon"})
-
-                for banner in acordeon.get("banners", []):
-                    url = banner.get("url")
-                    if not url:
-                        continue
-                    url = normalizar_url(url)
-                    if not url:
-                        continue
-                    clave = (titulo_padre, titulo_seccion, url)
-                    if clave in vistos:
-                        continue
-                    vistos.add(clave)
-                    lista_enlaces.append({"url": url, "texto": banner.get("titulo", ""), "seccion_origen": titulo_seccion, "padre_origen": titulo_padre, "tipo_origen": "banner"})
-
-    print("Enlaces encontrados:", len(lista_enlaces))
-    return lista_enlaces
-
-
-# ==========================================================
-# 4. Descargar, filtrar y extraer paginas enlazadas
-# ==========================================================
-
-def normalizar_url_final(url: str) -> str | None:
-    if not url:
-        return None
-    p = urlparse(url)
-    return urlunparse((p.scheme.lower(), p.netloc.lower(), p.path.rstrip("/") or "/", "", p.query, ""))
-
-
-def es_url_grado(url: str) -> bool:
-    """Se acepta cualquier recurso del ecosistema principal de la UPV
-    (www.upv.es, upv.es, subdominios *.upv.es), sin restringir por rutas
-    concretas -- paginas utiles pueden estar en distintas zonas del
-    portal."""
-    if not url:
-        return False
-    try:
-        dominio = urlparse(url).netloc.lower().split(":")[0]
-    except Exception:
-        return False
-    return dominio in DOMINIOS_UPV or dominio.endswith(".upv.es")
-
-
-def eliminar_basura(soup: BeautifulSoup) -> None:
-    for elemento in soup.find_all(["script", "style", "noscript", "header", "footer", "nav", "aside", "form", "iframe"]):
-        elemento.decompose()
-
-
-def encontrar_contenido_principal(soup: BeautifulSoup):
-    for selector in ["main", "article", "#content", ".content", ".container", ".main-content"]:
+def encontrar_contenedor(soup: BeautifulSoup):
+    contenedor_moderno = soup.find(id="smooth-wrapper") or soup.find("main")
+    if contenedor_moderno is not None:
+        return contenedor_moderno, True
+    for selector in SELECTORES_CONTENIDO:
         elemento = soup.select_one(selector)
         if elemento is not None and len(elemento.get_text(" ", strip=True)) >= 100:
-            return elemento
-    body = soup.find("body")
-    if body is not None and len(body.get_text(" ", strip=True)) >= 100:
-        return body
-    return None
+            return elemento, False
+    return None, False
 
 
-def normalizar_texto_para_comparacion(texto_: str) -> str:
-    return " ".join(texto_.lower().split())
+def extraer_contenido_iframe_clasico(soup: BeautifulSoup, url_pagina: str) -> list[str]:
+    iframe_url = ml.buscar_iframe_contenido_clasico(soup, url_pagina)
+    if iframe_url is None:
+        return []
+    soup_iframe, es_html = ml.descargar_soup(iframe_url, headers=HEADERS)
+    if not es_html:
+        return []
+    soup_iframe = ml.limpiar_contenido_html(soup_iframe)
+    contenido_iframe = soup_iframe.find(id="contenido") or soup_iframe.body
+    if contenido_iframe is None:
+        return []
+    ml.reemplazar_tablas_por_listas(soup_iframe, contenido_iframe)
+    lineas = ml.extraer_bloques_contenido(contenido_iframe, iframe_url)
+    return ml.limpiar_lineas_finales(lineas, recortar_h1=False)
 
 
-def contenido_claramente_ajeno(titulo: str, contenido: str, url: str) -> bool:
-    """Filtro deliberadamente conservador: solo descarta con 2+ senales
-    simultaneas de contenido ajeno (doctorado, personal investigador,
-    alumni...)."""
-    texto_ = (titulo + " " + contenido + " " + url).lower()
-    return sum(1 for patron in PATRONES_AJENOS if patron in texto_) >= 2
+def contenido_claramente_ajeno(titulo: str, cuerpo: str, url: str) -> bool:
+    texto = (titulo + " " + cuerpo + " " + url).lower()
+    return sum(1 for patron in PATRONES_AJENOS if patron in texto) >= 2
 
 
-def contenido_demasiado_corto(contenido: str) -> bool:
-    return len(contenido.strip()) < 100
+def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, url_resumen: str) -> bool:
+    titulo = elemento.get("titulo", "")
+    url = elemento.get("url", "")
+    if not titulo or not url:
+        return False
 
+    print(f"  Extrayendo: {titulo} ({url})")
+    try:
+        respuesta = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
+        respuesta.raise_for_status()
+    except Exception as error:
+        print(f"    ERROR descargando: {error}")
+        return False
 
-def descargar_y_extraer_paginas(enlaces_unicos: list[dict]) -> list[dict]:
-    paginas_extraidas = []
-    vistos_urls_finales = set()
-    sesion = requests.Session()
-    sesion.headers.update(HEADERS)
+    tipo = ml.tipo_contenido(respuesta.headers.get("Content-Type", ""))
+    yaml_metadatos = _yaml_recurso(elemento, seccion_slug, url_resumen)
 
-    for enlace in enlaces_unicos:
-        url_original = enlace["url"]
-        print(url_original)
-
-        if not es_url_grado(url_original):
-            print("Descartado (URL fuera del ámbito útil)")
-            continue
-
-        try:
-            respuesta = sesion.get(url_original, timeout=20, allow_redirects=True)
-            respuesta.raise_for_status()
-        except Exception as e:
-            print("Error de descarga:", e)
-            continue
-
-        url_final = normalizar_url_final(respuesta.url)
-
-        if not es_url_grado(url_final):
-            print("Descartado (URL final no útil)")
-            continue
-        if url_final in vistos_urls_finales:
-            print("Descartado (URL final duplicada)")
-            continue
-        vistos_urls_finales.add(url_final)
-
-        if "text/html" not in respuesta.headers.get("Content-Type", "").lower():
-            print("Descartado (recurso no HTML)")
-            continue
-
+    if tipo == "pdf":
+        paginas = ml.extraer_texto_pdf(respuesta.content)
+        cuerpo = "\n\n".join(paginas) if paginas else "_PDF sin texto extraíble (probablemente escaneado sin OCR)._"
+    elif tipo != "html":
+        cuerpo = "_Este recurso no es una página HTML ni un PDF estándar. Consulta el contenido directamente en la URL indicada._"
+    else:
         soup = BeautifulSoup(respuesta.text, "html.parser")
-        eliminar_basura(soup)
+        soup = ml.limpiar_contenido_html(soup)
+        contenedor, es_moderno = encontrar_contenedor(soup)
+        if contenedor is None:
+            lineas = extraer_contenido_iframe_clasico(soup, url)
+        else:
+            ml.reemplazar_tablas_por_listas(soup, contenedor)
+            lineas = ml.extraer_bloques_contenido(contenedor, url)
+            lineas = ml.limpiar_lineas_finales(lineas)
+        if not lineas:
+            print("    AVISO: sin contenido útil.")
+            return False
+        cuerpo = "\n\n".join(lineas)
+        if contenido_claramente_ajeno(titulo, cuerpo, url):
+            print("    Descartado (contenido claramente ajeno a grado).")
+            return False
 
-        contenido_principal = encontrar_contenido_principal(soup)
-        if contenido_principal is None:
-            print("Descartado (no se encontró contenido principal)")
-            continue
+    markdown = f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n{cuerpo}\n"
 
-        titulo = ""
-        h1 = contenido_principal.find("h1")
-        if h1:
-            titulo = limpiar_texto(h1.get_text(" "))
-        if not titulo:
-            h1 = soup.find("h1")
-            if h1:
-                titulo = limpiar_texto(h1.get_text(" "))
-        if not titulo:
-            titulo = enlace.get("texto", "")
-        titulo = limpiar_texto(titulo)
-
-        bloques = []
-        for elemento in contenido_principal.find_all(["h1", "h2", "h3", "h4", "p", "li", "table"]):
-            texto_ = limpiar_texto(elemento.get_text(" ", strip=True))
-            if len(texto_) < 3:
-                continue
-            if elemento.name == "h1" and normalizar_texto_para_comparacion(texto_) == normalizar_texto_para_comparacion(titulo):
-                continue
-            bloques.append(texto_)
-
-        bloques_limpios = []
-        for bloque in bloques:
-            if bloques_limpios and normalizar_texto_para_comparacion(bloque) == normalizar_texto_para_comparacion(bloques_limpios[-1]):
-                continue
-            bloques_limpios.append(bloque)
-
-        contenido = "\n\n".join(bloques_limpios)
-
-        if contenido_demasiado_corto(contenido):
-            print("Descartado (contenido insuficiente)")
-            continue
-        if contenido_claramente_ajeno(titulo, contenido, url_final):
-            print("Descartado (contenido claramente ajeno)")
-            continue
-
-        paginas_extraidas.append({
-            "url_original": url_original, "url": url_final, "titulo": titulo,
-            "texto_enlace": enlace.get("texto", ""), "seccion_origen": enlace.get("seccion_origen", ""),
-            "padre_origen": enlace.get("padre_origen", ""), "tipo_origen": enlace.get("tipo_origen", ""),
-            "contenido": contenido,
-        })
-        print("Página aceptada")
-
-    return paginas_extraidas
+    ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
+    with open(ruta_archivo, "w", encoding="utf-8") as archivo:
+        archivo.write(markdown)
+    print(f"  OK ({tipo}): {ruta_archivo}")
+    return True
 
 
-# ==========================================================
-# 5. Markdown de los recursos (paginas enlazadas), por via de acceso
-# ==========================================================
+def generar_markdowns_recursos(datos: dict, directorio_base: Path = ADMISION_GRADO_DIR,
+                                catalogo_anterior: dict[str, list[dict]] | None = None) -> tuple[int, int, int]:
+    total = correctos = 0
+    borrados_totales = 0
 
-def clasificar_recurso(pagina: dict) -> str:
-    texto_ = (pagina.get("titulo", "") + " " + pagina.get("url", "") + " " + pagina.get("seccion_origen", "")).lower()
-    for tipo, palabras in CLASIFICACION:
-        if any(palabra in texto_ for palabra in palabras):
-            return tipo
-    return "informacion"
+    for padre in datos["padres"]:
+        carpeta_recursos = directorio_base / padre["carpeta"] / "recursos"
+        carpeta_recursos.mkdir(parents=True, exist_ok=True)
 
+        elementos_escritos = []
+        for recurso in padre.get("recursos", []):
+            total += 1
+            if generar_markdown_recurso(recurso, recurso["seccion_id"], carpeta_recursos, padre["url"]):
+                correctos += 1
+                elementos_escritos.append(recurso)
+            time.sleep(0.3)
 
-def _escribir_metadatos_recurso(f, pagina: dict, tipo_recurso: str) -> None:
-    f.write("---\n")
-    f.write("fuente: UPV\n")
-    f.write(f"categoria: {CATEGORIA}\n")
-    f.write(f"nivel: {NIVEL}\n")
-    f.write("tipo_documento: recurso\n")
-    f.write(f"tipo_recurso: {tipo_recurso}\n")
-    f.write("padre: " + limpiar_nombre(pagina.get("padre_origen", "")) + "\n")
-    f.write("seccion: " + limpiar_nombre(pagina.get("seccion_origen", "")) + "\n")
-    f.write(f"url: {pagina['url']}\n")
-    f.write("---\n\n")
+        anteriores = (catalogo_anterior or {}).get(padre["carpeta"], [])
+        borrados_totales += ml.limpiar_ficheros_renombrados(anteriores, elementos_escritos, carpeta_recursos)
 
-
-def generar_markdowns_recursos(paginas_extraidas: list[dict], datos: dict, directorio_base: Path = ADMISION_GRADO_DIR) -> int:
-    mapa_carpetas = mapa_padre_a_carpeta(datos)
-
-    paginas_unicas = []
-    urls_vistas = set()
-    for pagina in paginas_extraidas:
-        url = pagina.get("url", "")
-        if not url or url in urls_vistas:
-            continue
-        urls_vistas.add(url)
-        paginas_unicas.append(pagina)
-
-    contador = 0
-    for pagina in paginas_unicas:
-        padre_origen = pagina.get("padre_origen", "")
-        seccion_origen = pagina.get("seccion_origen", "")
-
-        if not padre_origen:
-            print("Recurso omitido: no se encontró padre_origen")
-            print(pagina.get("url", ""))
-            continue
-
-        carpeta_padre = directorio_base / mapa_carpetas.get(padre_origen, limpiar_nombre(padre_origen) or "padre")
-        directorio_recursos = carpeta_padre / "recursos"
-        directorio_recursos.mkdir(parents=True, exist_ok=True)
-
-        tipo_recurso = clasificar_recurso(pagina)
-        nombre = limpiar_nombre(pagina.get("titulo", "")) or "recurso"
-
-        archivo = directorio_recursos / f"{nombre}.md"
-        if archivo.exists():
-            nombre_seccion = limpiar_nombre(seccion_origen)
-            if nombre_seccion:
-                archivo = directorio_recursos / f"{nombre}_{nombre_seccion}.md"
-
-        contador_nombre = 2
-        nombre_archivo_base = archivo.stem
-        while archivo.exists():
-            archivo = directorio_recursos / f"{nombre_archivo_base}_{contador_nombre}.md"
-            contador_nombre += 1
-
-        with open(archivo, "w", encoding="utf-8") as f:
-            _escribir_metadatos_recurso(f, pagina, tipo_recurso)
-            titulo = pagina.get("titulo", "Recurso UPV")
-            f.write(f"# {titulo}\n\n")
-            f.write(
-                "Recurso relacionado con el proceso de admisión a estudios "
-                "oficiales de grado en la Universitat Politècnica de València.\n\n"
-            )
-            if padre_origen:
-                f.write(f"Proceso de admisión: {padre_origen}\n\n")
-            if seccion_origen:
-                f.write(f"Sección de origen: {seccion_origen}\n\n")
-
-            contenido = pagina.get("contenido", "")
-            if contenido:
-                f.write(contenido + "\n\n")
-
-            f.write(f"Fuente oficial: {pagina['url']}\n")
-
-        contador += 1
-
-    print("Markdown de recursos generado. Archivos:", contador)
-    return contador
+    return total, correctos, borrados_totales
 
 
 # ==========================================================
@@ -659,13 +432,14 @@ def generar_markdowns_recursos(paginas_extraidas: list[dict], datos: dict, direc
 # ==========================================================
 
 def main() -> None:
-    datos = extraer_admision_grado()
-    guardar_json(datos)
-    generar_markdowns_secciones(datos)
+    catalogo_anterior = cargar_recursos_anteriores()
 
-    enlaces = recopilar_enlaces(datos)
-    paginas_extraidas = descargar_y_extraer_paginas(enlaces)
-    generar_markdowns_recursos(paginas_extraidas, datos)
+    datos = extraer_catalogo()
+    guardar_json(datos)
+    generar_markdowns_padre_y_secciones(datos)
+
+    total, correctos, borrados = generar_markdowns_recursos(datos, catalogo_anterior=catalogo_anterior)
+    print(f"Admisión grado: recursos {total} · generados: {correctos} · renombrados limpiados: {borrados}")
 
 
 if __name__ == "__main__":

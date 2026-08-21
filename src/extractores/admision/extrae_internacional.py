@@ -1,60 +1,60 @@
 """Extractor de "Admision internacional" (alumnado internacional).
 
-AVISO DE FIDELIDAD: el notebook original (Extrae_Admision_Internacional.ipynb)
-tiene una celda perdida. El BLOQUE 6 (validacion/normalizacion) usa una
-variable `datos` -- con "clases"/"titulo"/"texto"/"enlaces"/opcionalmente
-"bloques"/"subsecciones" por seccion -- que nunca se construye en ninguna
-celda guardada; usa ademas funciones (extraer_titulo, extraer_enlaces,
-normalizar_espacios) que tampoco estan definidas. Es la misma situacion
-que el get() huerfano en extrae_doctorado.py (estudios), pero aqui la
-pieza que falta es mucho mas grande: toda la logica que decide "esto es
-una seccion" y arma el arbol de subsecciones/bloques.
+Reescritura completa (2026-08-21) que sustituye el YAML propio
+(fuente/categoria/nivel/tipo_documento sin resumen/seccion) y la
+extraccion de recursos con un loop h1-h4/p/li/table ad-hoc -- por el
+patron ya validado en el resto de admision/investigacion: metadatos YAML
+definitivos + motor_limpieza.py para el contenido de cada pagina
+ENLAZADA (traversal, PDF, plantilla clasica, limpieza de renombrados).
 
-extraer_estructura_cruda() de este modulo esta RECONSTRUIDA (no
-traducida) inspeccionando la web real hoy: dentro de
+La extraccion de la ESTRUCTURA cruda (extraer_estructura_cruda(),
+extraer_bloques_contenedor(), validar_estructura(),
+normalizar_estructura()) se mantiene tal cual: es una reconstruccion ya
+verificada contra la web real (ver AVISO DE FIDELIDAD mas abajo, sin
+cambios respecto a la version anterior) de una maquetacion con bloques
+"upv-section"/"upv-blocks"/"upv-boxes" que no encaja en el motor de
+"hoja de contenido" de institucion/servicios. Lo que se sustituye es
+unicamente el paso 4 (descubrir/descargar/extraer las paginas enlazadas
+desde esos bloques) y el formato de metadatos YAML de los tres tipos de
+documento (padre/seccion/recurso).
+
+AVISO DE FIDELIDAD (heredado, sin cambios): el notebook original
+(Extrae_Admision_Internacional.ipynb) tenia una celda perdida -- el
+BLOQUE 6 (validacion/normalizacion) usaba una variable `datos` que nunca
+se construia en ninguna celda guardada. extraer_estructura_cruda() esta
+RECONSTRUIDA (no traducida) inspeccionando la web real: dentro de
 article > div.entry-content, los bloques de contenido real llevan la
-clase "upv-section" (hay ademas separadores "wp-block-cover"/
-"wp-block-spacer" que se descartan). De los 8 bloques upv-section
-actuales, 6 no tienen titulo propio (se numeran "seccion_N" via el
-fallback ya existente en generar_nombre_seccion) y 2 si lo tienen
-("La UPV en rankings", "Proceso de admision") -- coincide exactamente
-con los huecos (4 y 6) que deja la numeracion en los archivos ya
-comiteados en data/processed/admision/internacional/. El bloque con
-clase "upv-blocks" (calendario de plazos) no expone un titulo propio
-directo: se reconstruyo asumiendo que ahi es donde entra
-extraer_bloques_contenedor() (esa funcion SI esta completa en el
-notebook original) para generar sus subsecciones -- probado contra la
-web real, el resultado para esta seccion en concreto no coincide byte a
-byte con lo comiteado (la agrupacion interna exacta de "Calendario para
-grados/masteres/doctorado" no se pudo reconstruir con certeza); el resto
-de secciones (7 de 8) si coinciden. Ver commit para el detalle de la
-comparacion.
-
-Todo lo posterior (BLOQUE 6 en adelante: validacion, normalizacion,
-generacion de Markdown, descubrimiento y descarga de paginas enlazadas,
-filtro de relevancia internacional, generacion de recursos) SI es
-migracion fiel del notebook original, sin reconstruir nada.
+clase "upv-section" (comprobado 2026-08-21: siguen siendo 8 bloques). El
+bloque "upv-blocks" (calendario de plazos) se reconstruyo asumiendo que
+ahi entra extraer_bloques_contenedor() (esa funcion SI estaba completa
+en el notebook original); el resultado para esa seccion en concreto no
+se pudo verificar byte a byte contra lo comiteado en su momento.
 """
 
 from __future__ import annotations
 
 import json
-import re
 import sys
+import time
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urlunparse
+from urllib.parse import urlparse, urlunparse
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # src/ (config.py, common.py)
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # src/extractores/ (motor_limpieza.py)
 
 from bs4 import BeautifulSoup
 import requests
 
+from common import limpiar_texto
 from config import ADMISION_INTERNACIONAL_DIR, ADMISION_INTERNACIONAL_JSON, ADMISION_INTERNACIONAL_RECURSOS_DIR, ADMISION_INTERNACIONAL_URL
+import motor_limpieza as ml
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; UPV-Admision-Bot/1.0)"}
 
+FUENTE = "UPV"
 CATEGORIA = "admision"
 NIVEL = "internacional"
+TIPO_RECURSO = "informacion"
 
 INTRO_DOCUMENTO = (
     "Información sobre el proceso de admisión de alumnado internacional "
@@ -64,6 +64,8 @@ INTRO_DOCUMENTO = (
 DOMINIOS_UPV = {"www.upv.es", "upv.es"}
 URLS_DESCARTAR_MANUALMENTE = {"http://www.upv.es/es", "http://www.upv.es/index-es.html"}
 URLS_ACEPTAR_MANUALMENTE = {"http://www.upv.es/rankings/index.html"}
+
+SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido"]
 
 INDICADORES_DIRECTOS = [
     "admisión internacional", "admisión de estudiantes internacionales",
@@ -94,12 +96,28 @@ INDICADORES_ACADEMICOS = [
 ]
 
 
+def _yaml_resumen(url: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="resumen", titulo=titulo)
+
+
+def _yaml_seccion(url_resumen: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url_resumen, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="seccion", resumen=url_resumen, titulo=titulo)
+
+
+def _yaml_recurso(pagina: dict, seccion_slug: str, url_resumen: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=pagina["url"], categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="recurso", tipo_recurso=TIPO_RECURSO,
+                                      resumen=url_resumen, seccion=seccion_slug or "", titulo=pagina["titulo"])
+
+
 def texto_limpio(elemento) -> str:
     return " ".join(elemento.stripped_strings) if elemento is not None else ""
 
 
 def url_absoluta(url: str, base: str = ADMISION_INTERNACIONAL_URL) -> str:
-    return urljoin(base, url) if url else ""
+    return ml.normalizar_url(url, base) if url else ""
 
 
 def normalizar_espacios(texto: str) -> str:
@@ -114,9 +132,8 @@ def obtener_descripcion(contenedor) -> str:
 
 
 # ==========================================================
-# Contenedores de bloques / calendarios (extraer_bloques_contenedor,
-# limpiar_bloque, obtener_enlaces_subseccion) -- FIEL al notebook
-# original, ya venia completa.
+# Contenedores de bloques / calendarios -- sin cambios respecto a la
+# version anterior (ver AVISO DE FIDELIDAD en la cabecera del modulo).
 # ==========================================================
 
 def extraer_titulo(elemento) -> str:
@@ -129,9 +146,6 @@ def extraer_enlaces(elemento, base: str = ADMISION_INTERNACIONAL_URL) -> list[di
 
 
 def extraer_bloques_contenedor(contenedor) -> list[dict]:
-    """Extrae contenedores upv-block/upv-box/wp-block-group y los
-    organiza en subsecciones semanticas: calendario para grados,
-    masteres, doctorado."""
     subsecciones = []
 
     bloques_dom = contenedor.find_all(["div", "section", "article"], recursive=True)
@@ -227,20 +241,13 @@ def obtener_enlaces_subseccion(bloques: list[dict]) -> list[dict]:
 
 
 # ==========================================================
-# Extraccion cruda -- RECONSTRUIDA (ver aviso de fidelidad arriba)
+# Extraccion cruda -- sin cambios (ver AVISO DE FIDELIDAD)
 # ==========================================================
 
 def extraer_seccion_cruda(bloque) -> dict:
     clases = bloque.get("class", [])
-
-    # Los bloques "upv-blocks" (calendario) no tienen un titulo propio
-    # directo: su primer <h2> pertenece a la primera subseccion interna
-    # ("Calendario para grados"), no a la seccion como tal.
     es_calendario = "upv-blocks" in clases
     titulo = "" if es_calendario else extraer_titulo(bloque)
-    # Para los contenedores de calendario el texto de la seccion se deja
-    # vacio: el contenido real vive en las subsecciones (una por
-    # grados/masteres/doctorado), no repetido tambien a nivel de seccion.
     texto = "" if es_calendario else bloque.get_text(" ", strip=True)
     enlaces = extraer_enlaces(bloque)
 
@@ -272,34 +279,29 @@ def extraer_estructura_cruda(url: str = ADMISION_INTERNACIONAL_URL) -> dict:
 
 
 # ==========================================================
-# Validacion y normalizacion del JSON -- FIEL al notebook original
+# Validacion y normalizacion -- sin cambios
 # ==========================================================
 
 def validar_bloque(bloque: dict, ruta: str = "bloque") -> None:
     if not isinstance(bloque, dict):
         raise TypeError(f"{ruta} no es un diccionario.")
-
     for campo in ["clases", "titulo", "texto", "enlaces"]:
         if campo not in bloque:
             raise ValueError(f"Falta '{campo}' en {ruta}.")
-
     if not isinstance(bloque["clases"], list):
         raise TypeError(f"{ruta}.clases debe ser una lista.")
     if not isinstance(bloque["enlaces"], list):
         raise TypeError(f"{ruta}.enlaces debe ser una lista.")
-
     for i, enlace in enumerate(bloque["enlaces"]):
         if "texto" not in enlace:
             raise ValueError(f"Falta texto en {ruta}.enlaces[{i}]")
         if "url" not in enlace:
             raise ValueError(f"Falta url en {ruta}.enlaces[{i}]")
-
     if "bloques" in bloque:
         if not isinstance(bloque["bloques"], list):
             raise TypeError(f"{ruta}.bloques debe ser una lista.")
         for i, sub_bloque in enumerate(bloque["bloques"]):
             validar_bloque(sub_bloque, f"{ruta}.bloques[{i}]")
-
     if "subsecciones" in bloque:
         if not isinstance(bloque["subsecciones"], list):
             raise TypeError(f"{ruta}.subsecciones debe ser una lista.")
@@ -335,7 +337,6 @@ def validar_estructura(datos: dict) -> dict:
 
 
 def normalizar_url_texto(url: str) -> str:
-    """Si viene en formato Markdown [url](url), se queda solo con la URL."""
     if not url:
         return ""
     url = url.strip()
@@ -413,25 +414,16 @@ def normalizar_estructura(datos: dict) -> dict:
 def guardar_json(datos: dict, ruta: Path = ADMISION_INTERNACIONAL_JSON) -> None:
     ruta.parent.mkdir(parents=True, exist_ok=True)
     with open(ruta, "w", encoding="utf-8") as f:
-        json.dump(datos, f, ensure_ascii=False, indent=4)
+        json.dump(datos, f, ensure_ascii=False, indent=2)
     print("JSON guardado:", ruta)
 
 
 # ==========================================================
-# Generacion de Markdown base -- FIEL al notebook original
+# Markdown base (padre + secciones) -- vuelca el JSON, YAML definitivo
 # ==========================================================
 
-def limpiar_nombre(nombre: str) -> str:
-    if not nombre:
-        return ""
-    nombre = nombre.lower()
-    for viejo, nuevo in {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ü": "u", "ñ": "n"}.items():
-        nombre = nombre.replace(viejo, nuevo)
-    return re.sub(r"[^a-z0-9]+", "_", nombre).strip("_")
-
-
 def generar_nombre_seccion(titulo: str, indice: int, nombres_utilizados: set) -> str:
-    nombre = limpiar_nombre(titulo) or f"seccion_{indice}"
+    nombre = ml.normalizar_identificador(titulo) or f"seccion_{indice}"
     nombre_original = nombre
     contador = 2
     while nombre in nombres_utilizados:
@@ -439,17 +431,6 @@ def generar_nombre_seccion(titulo: str, indice: int, nombres_utilizados: set) ->
         contador += 1
     nombres_utilizados.add(nombre)
     return nombre
-
-
-def _escribir_metadatos(f, tipo_documento: str, seccion: str | None = None) -> None:
-    f.write("---\n")
-    f.write("fuente: UPV\n")
-    f.write(f"categoria: {CATEGORIA}\n")
-    f.write(f"nivel: {NIVEL}\n")
-    f.write(f"tipo_documento: {tipo_documento}\n")
-    if seccion:
-        f.write(f"seccion: {seccion}\n")
-    f.write("---\n\n")
 
 
 def escribir_enlaces(f, enlaces: list[dict], prefijo: str = "-") -> None:
@@ -503,13 +484,10 @@ def escribir_seccion(f, seccion: dict, padre: dict) -> None:
     enlaces = seccion.get("enlaces", [])
 
     f.write(f"# {titulo}\n\n" if titulo else "# Información de admisión\n\n")
-
     if padre.get("titulo"):
         f.write(f"Proceso de admisión: {padre['titulo']}\n\n")
-
     if texto:
         f.write(texto + "\n\n")
-
     escribir_enlaces(f, enlaces)
 
     for subseccion in seccion.get("subsecciones", []):
@@ -524,31 +502,26 @@ def generar_markdowns_secciones(datos_normalizados: dict, directorio: Path = ADM
 
     for padre in datos_normalizados.get("padres", []):
         titulo_padre = padre.get("titulo", "")
-        nombre_padre = limpiar_nombre(titulo_padre) or "padre"
+        nombre_padre = ml.normalizar_identificador(titulo_padre) or "padre"
 
         carpeta_padre = directorio / nombre_padre
         carpeta_padre.mkdir(parents=True, exist_ok=True)
 
         with open(directorio / f"{nombre_padre}.md", "w", encoding="utf-8") as f:
-            _escribir_metadatos(f, "padre")
+            f.write(_yaml_resumen(padre.get("url", ADMISION_INTERNACIONAL_URL), titulo_padre or "Admisión internacional"))
             if titulo_padre:
-                f.write(f"# {titulo_padre}\n\n")
+                f.write(f"\n# {titulo_padre}\n\n")
+            else:
+                f.write("\n")
             f.write(INTRO_DOCUMENTO + "\n\n")
-
-            url_padre = padre.get("url", "")
-            if url_padre:
-                f.write(f"Fuente oficial: {url_padre}\n\n")
 
             for i, seccion in enumerate(padre.get("secciones", []), start=1):
                 titulo = seccion.get("titulo", "")
                 f.write(f"## {titulo}\n\n" if titulo else f"## Sección {i}\n\n")
-
                 texto = seccion.get("texto", "")
                 if texto:
                     f.write(texto + "\n\n")
-
                 escribir_enlaces(f, seccion.get("enlaces", []))
-
                 for subseccion in seccion.get("subsecciones", []):
                     escribir_subseccion(f, subseccion, nivel=3)
                 for bloque in seccion.get("bloques", []):
@@ -560,7 +533,8 @@ def generar_markdowns_secciones(datos_normalizados: dict, directorio: Path = ADM
             nombre_seccion = generar_nombre_seccion(seccion.get("titulo", ""), i, nombres_utilizados)
 
             with open(carpeta_padre / f"{nombre_seccion}.md", "w", encoding="utf-8") as f:
-                _escribir_metadatos(f, "seccion", nombre_seccion)
+                f.write(_yaml_seccion(padre.get("url", ADMISION_INTERNACIONAL_URL), seccion.get("titulo", "") or f"Sección {i}"))
+                f.write("\n")
                 escribir_seccion(f, seccion, padre)
             contador += 1
 
@@ -569,9 +543,52 @@ def generar_markdowns_secciones(datos_normalizados: dict, directorio: Path = ADM
 
 
 # ==========================================================
-# Descubrimiento, descarga y filtrado de paginas enlazadas
-# -- FIEL al notebook original
+# Descubrimiento de enlaces -- sin cambios
 # ==========================================================
+
+def recopilar_enlaces(datos_normalizados: dict) -> list[dict]:
+    lista_enlaces = []
+
+    def recorrer_bloque(bloque, seccion_origen="", tipo_origen="", titulo_padre=""):
+        for enlace in bloque.get("enlaces", []):
+            url = enlace.get("url", "")
+            if not url:
+                continue
+            lista_enlaces.append({"texto": enlace.get("texto", ""), "url": url, "seccion_origen": seccion_origen, "padre_origen": titulo_padre, "tipo_origen": tipo_origen})
+        for sub_bloque in bloque.get("bloques", []):
+            recorrer_bloque(sub_bloque, seccion_origen, tipo_origen, titulo_padre)
+        for subseccion in bloque.get("subsecciones", []):
+            recorrer_bloque(subseccion, seccion_origen, tipo_origen, titulo_padre)
+
+    for padre in datos_normalizados.get("padres", []):
+        titulo_padre = padre.get("titulo", "")
+        for seccion in padre.get("secciones", []):
+            titulo_seccion = seccion.get("titulo", "")
+            tipo_seccion = seccion.get("tipo", "")
+
+            for enlace in seccion.get("enlaces", []):
+                url = enlace.get("url", "")
+                if not url:
+                    continue
+                lista_enlaces.append({"texto": enlace.get("texto", ""), "url": url, "seccion_origen": titulo_seccion, "padre_origen": titulo_padre, "tipo_origen": tipo_seccion})
+            for subseccion in seccion.get("subsecciones", []):
+                recorrer_bloque(subseccion, titulo_seccion, tipo_seccion, titulo_padre)
+            for bloque in seccion.get("bloques", []):
+                recorrer_bloque(bloque, titulo_seccion, tipo_seccion, titulo_padre)
+
+    urls_vistas = set()
+    enlaces_unicos = []
+    for enlace in lista_enlaces:
+        url_normalizada = normalizar_url_final(enlace.get("url", ""))
+        if not url_normalizada or url_normalizada in urls_vistas:
+            continue
+        urls_vistas.add(url_normalizada)
+        enlaces_unicos.append(enlace)
+
+    print("Enlaces extraídos del JSON:", len(lista_enlaces))
+    print("Enlaces únicos antes de descargar:", len(enlaces_unicos))
+    return enlaces_unicos
+
 
 def normalizar_url_final(url: str) -> str | None:
     if not url:
@@ -604,30 +621,6 @@ def tratamiento_manual_url(url: str) -> str | None:
     return None
 
 
-def eliminar_basura(soup: BeautifulSoup) -> None:
-    for elemento in soup.find_all(["script", "style", "noscript", "header", "footer", "nav", "aside", "form", "iframe"]):
-        elemento.decompose()
-
-
-def encontrar_contenido_principal(soup: BeautifulSoup):
-    for selector in ["main", "article", "#content", ".content", ".container", ".main-content"]:
-        elemento = soup.select_one(selector)
-        if elemento is not None and len(elemento.get_text(" ", strip=True)) >= 100:
-            return elemento
-    body = soup.find("body")
-    if body is not None and len(body.get_text(" ", strip=True)) >= 100:
-        return body
-    return None
-
-
-def normalizar_texto_para_comparacion(texto: str) -> str:
-    return " ".join(texto.lower().split()) if texto else ""
-
-
-def limpiar_texto_extraido(elemento) -> str:
-    return " ".join(elemento.stripped_strings) if elemento is not None else ""
-
-
 def contenido_relevante_internacional(titulo: str, texto_enlace: str, contenido: str, url: str) -> bool:
     """Filtro de relevancia para admision internacional: exige admision+
     internacional, admision+academico, matricula+internacional o
@@ -653,233 +646,147 @@ def contenido_relevante_internacional(titulo: str, texto_enlace: str, contenido:
     return False
 
 
-def contenido_demasiado_corto(contenido: str) -> bool:
-    return len(contenido.strip()) < 100
+# ==========================================================
+# Markdown de los recursos enlazados -- motor_limpieza
+# ==========================================================
+
+def encontrar_contenedor(soup: BeautifulSoup):
+    contenedor_moderno = soup.find(id="smooth-wrapper") or soup.find("main")
+    if contenedor_moderno is not None:
+        return contenedor_moderno
+    for selector in SELECTORES_CONTENIDO:
+        elemento = soup.select_one(selector)
+        if elemento is not None and len(elemento.get_text(" ", strip=True)) >= 100:
+            return elemento
+    return None
 
 
-def recopilar_enlaces(datos_normalizados: dict) -> list[dict]:
-    lista_enlaces = []
-
-    def recorrer_bloque(bloque, seccion_origen="", tipo_origen="", titulo_padre=""):
-        for enlace in bloque.get("enlaces", []):
-            url = enlace.get("url", "")
-            if not url:
-                continue
-            lista_enlaces.append({"texto": enlace.get("texto", ""), "url": url, "seccion_origen": seccion_origen, "padre_origen": titulo_padre, "tipo_origen": tipo_origen})
-        for sub_bloque in bloque.get("bloques", []):
-            recorrer_bloque(sub_bloque, seccion_origen, tipo_origen, titulo_padre)
-        for subseccion in bloque.get("subsecciones", []):
-            recorrer_bloque(subseccion, seccion_origen, tipo_origen, titulo_padre)
-
-    for padre in datos_normalizados.get("padres", []):
-        titulo_padre = padre.get("titulo", "")
-
-        for seccion in padre.get("secciones", []):
-            titulo_seccion = seccion.get("titulo", "")
-            tipo_seccion = seccion.get("tipo", "")
-
-            for enlace in seccion.get("enlaces", []):
-                url = enlace.get("url", "")
-                if not url:
-                    continue
-                lista_enlaces.append({"texto": enlace.get("texto", ""), "url": url, "seccion_origen": titulo_seccion, "padre_origen": titulo_padre, "tipo_origen": tipo_seccion})
-
-            for subseccion in seccion.get("subsecciones", []):
-                recorrer_bloque(subseccion, titulo_seccion, tipo_seccion, titulo_padre)
-            for bloque in seccion.get("bloques", []):
-                recorrer_bloque(bloque, titulo_seccion, tipo_seccion, titulo_padre)
-
-    urls_vistas = set()
-    enlaces_unicos = []
-    for enlace in lista_enlaces:
-        url_normalizada = normalizar_url_final(enlace.get("url", ""))
-        if not url_normalizada or url_normalizada in urls_vistas:
-            continue
-        urls_vistas.add(url_normalizada)
-        enlaces_unicos.append(enlace)
-
-    print("Enlaces extraídos del JSON:", len(lista_enlaces))
-    print("Enlaces únicos antes de descargar:", len(enlaces_unicos))
-    return enlaces_unicos
+def extraer_contenido_iframe_clasico(soup: BeautifulSoup, url_pagina: str) -> list[str]:
+    iframe_url = ml.buscar_iframe_contenido_clasico(soup, url_pagina)
+    if iframe_url is None:
+        return []
+    soup_iframe, es_html = ml.descargar_soup(iframe_url, headers=HEADERS)
+    if not es_html:
+        return []
+    soup_iframe = ml.limpiar_contenido_html(soup_iframe)
+    contenido_iframe = soup_iframe.find(id="contenido") or soup_iframe.body
+    if contenido_iframe is None:
+        return []
+    ml.reemplazar_tablas_por_listas(soup_iframe, contenido_iframe)
+    lineas = ml.extraer_bloques_contenido(contenido_iframe, iframe_url)
+    return ml.limpiar_lineas_finales(lineas, recortar_h1=False)
 
 
-def descargar_y_extraer_paginas(enlaces_unicos: list[dict]) -> list[dict]:
-    paginas_extraidas = []
-    vistos_urls_finales = set()
-    sesion = requests.Session()
-    sesion.headers.update(HEADERS)
+def generar_markdown_recurso(enlace: dict, carpeta: Path, url_resumen: str) -> dict | None:
+    """Descarga y filtra un recurso enlazado; escribe el .md si pasa el
+    filtro de relevancia internacional y devuelve {"titulo","url"} (para
+    el catalogo de limpieza de renombrados), o None si se descarta."""
+    url_original = enlace["url"]
 
-    for enlace in enlaces_unicos:
-        url_original = enlace["url"]
-        print(url_original)
+    if not es_url_internacional(url_original):
+        print("Descartado (URL fuera del ámbito UPV):", url_original)
+        return None
 
-        if not es_url_internacional(url_original):
-            print("Descartado (URL fuera del ámbito UPV)")
-            continue
+    print(f"  Extrayendo: {enlace.get('texto', '')} ({url_original})")
+    try:
+        respuesta = requests.get(url_original, headers=HEADERS, timeout=30, allow_redirects=True)
+        respuesta.raise_for_status()
+    except Exception as error:
+        print("    ERROR descargando:", error)
+        return None
 
-        try:
-            respuesta = sesion.get(url_original, timeout=20, allow_redirects=True)
-            respuesta.raise_for_status()
-        except Exception as e:
-            print("Error de descarga:", e)
-            continue
+    url_final = normalizar_url_final(respuesta.url)
+    if not es_url_internacional(url_final):
+        print("    Descartado (URL final fuera del ámbito UPV)")
+        return None
 
-        url_final = normalizar_url_final(respuesta.url)
+    tratamiento = tratamiento_manual_url(url_final)
+    if tratamiento == "descartar":
+        print("    Descartado (URL excluida manualmente)")
+        return None
+    aceptar_manualmente = tratamiento == "aceptar"
 
-        if not es_url_internacional(url_final):
-            print("Descartado (URL final fuera del ámbito UPV)")
-            continue
-        if url_final in vistos_urls_finales:
-            print("Descartado (URL final duplicada)")
-            continue
-        vistos_urls_finales.add(url_final)
+    tipo = ml.tipo_contenido(respuesta.headers.get("Content-Type", ""))
+    titulo = enlace.get("texto", "") or url_final
 
-        tratamiento = tratamiento_manual_url(url_final)
-        if tratamiento == "descartar":
-            print("Descartado (URL excluida manualmente)")
-            continue
-        aceptar_manualmente = tratamiento == "aceptar"
-
-        if "text/html" not in respuesta.headers.get("Content-Type", "").lower():
-            print("Descartado (recurso no HTML)")
-            continue
-
+    if tipo == "pdf":
+        paginas = ml.extraer_texto_pdf(respuesta.content)
+        cuerpo = "\n\n".join(paginas) if paginas else "_PDF sin texto extraíble (probablemente escaneado sin OCR)._"
+    elif tipo != "html":
+        print("    Descartado (recurso no HTML ni PDF)")
+        return None
+    else:
         soup = BeautifulSoup(respuesta.text, "html.parser")
-        eliminar_basura(soup)
+        soup = ml.limpiar_contenido_html(soup)
+        contenedor = encontrar_contenedor(soup)
+        if contenedor is not None:
+            ml.reemplazar_tablas_por_listas(soup, contenedor)
+            lineas = ml.extraer_bloques_contenido(contenedor, url_final)
+            lineas = ml.limpiar_lineas_finales(lineas)
+        else:
+            lineas = extraer_contenido_iframe_clasico(soup, url_final)
+            if not lineas and soup.body is not None:
+                # Ultimo recurso, igual que institucion/servicios/rankings:
+                # alguna pagina aceptada manualmente (ej. rankings/index.html,
+                # ver URLS_ACEPTAR_MANUALMENTE) no tiene main/smooth-wrapper
+                # ni encaja en ningun selector conocido ni tiene iframe
+                # clasico -- limpiar_lineas_finales() filtra el boilerplate
+                # de menu si el body no aporta contenido real.
+                ml.reemplazar_tablas_por_listas(soup, soup.body)
+                lineas = ml.extraer_bloques_contenido(soup.body, url_final)
+                lineas = ml.limpiar_lineas_finales(lineas)
+        if not lineas:
+            print("    Descartado (contenido insuficiente)")
+            return None
 
-        contenido_principal = encontrar_contenido_principal(soup)
-        if contenido_principal is None:
-            print("Descartado (no se encontró contenido principal)")
-            continue
+        titulo = lineas[0].lstrip("# ").strip() if lineas[0].startswith("#") else titulo
+        cuerpo = "\n\n".join(lineas)
 
-        titulo = ""
-        h1 = contenido_principal.find("h1")
-        if h1:
-            titulo = limpiar_texto_extraido(h1)
-        if not titulo:
-            h1 = soup.find("h1")
-            if h1:
-                titulo = limpiar_texto_extraido(h1)
-        if not titulo:
-            titulo = enlace.get("texto", "")
-        titulo = " ".join(titulo.split())
+        if not aceptar_manualmente and not contenido_relevante_internacional(titulo, enlace.get("texto", ""), cuerpo, url_final):
+            print("    Descartado (sin relevancia para admisión internacional)")
+            return None
 
-        bloques = []
-        for elemento in contenido_principal.find_all(["h1", "h2", "h3", "h4", "p", "li", "table"]):
-            texto = limpiar_texto_extraido(elemento)
-            if len(texto) < 3:
-                continue
-            if elemento.name == "h1" and normalizar_texto_para_comparacion(texto) == normalizar_texto_para_comparacion(titulo):
-                continue
-            bloques.append(texto)
+    pagina = {"titulo": titulo, "url": url_final}
+    yaml_metadatos = _yaml_recurso(pagina, enlace.get("seccion_origen", ""), url_resumen)
+    markdown = f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url_final}\n\n{cuerpo}\n"
 
-        bloques_limpios = []
-        for bloque in bloques:
-            if bloques_limpios and normalizar_texto_para_comparacion(bloque) == normalizar_texto_para_comparacion(bloques_limpios[-1]):
-                continue
-            bloques_limpios.append(bloque)
-
-        contenido = "\n\n".join(bloques_limpios)
-
-        if contenido_demasiado_corto(contenido):
-            print("Descartado (contenido insuficiente)")
-            continue
-
-        if not aceptar_manualmente:
-            if not contenido_relevante_internacional(titulo, enlace.get("texto", ""), contenido, url_final):
-                print("Descartado (sin relevancia para admisión internacional)")
-                continue
-
-        paginas_extraidas.append({
-            "url_original": url_original, "url": url_final, "titulo": titulo,
-            "texto_enlace": enlace.get("texto", ""), "seccion_origen": enlace.get("seccion_origen", ""),
-            "padre_origen": enlace.get("padre_origen", ""), "tipo_origen": enlace.get("tipo_origen", ""),
-            "contenido": contenido,
-        })
-        print("Página aceptada" + (" (URL aceptada manualmente)" if aceptar_manualmente else ""))
-
-    return paginas_extraidas
+    ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
+    with open(ruta_archivo, "w", encoding="utf-8") as archivo:
+        archivo.write(markdown)
+    print(f"  OK ({tipo}): {ruta_archivo}" + (" (URL aceptada manualmente)" if aceptar_manualmente else ""))
+    return pagina
 
 
-# ==========================================================
-# Generacion de recursos Markdown -- FIEL al notebook original
-# ==========================================================
+def generar_markdowns_recursos(enlaces_unicos: list[dict], carpeta: Path = ADMISION_INTERNACIONAL_RECURSOS_DIR,
+                                url_resumen: str = ADMISION_INTERNACIONAL_URL,
+                                catalogo_anterior: list[dict] | None = None) -> tuple[int, int, int]:
+    carpeta.mkdir(parents=True, exist_ok=True)
 
-def limpiar_nombre_recurso(nombre: str) -> str:
-    if not nombre:
-        return "recurso"
-    nombre = nombre.lower()
-    for viejo, nuevo in {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ü": "u", "ñ": "n"}.items():
-        nombre = nombre.replace(viejo, nuevo)
-    nombre = re.sub(r"[^a-z0-9]+", "_", nombre).strip("_")
-    return nombre or "recurso"
+    total = correctos = 0
+    elementos_escritos = []
+    for enlace in enlaces_unicos:
+        total += 1
+        pagina = generar_markdown_recurso(enlace, carpeta, url_resumen)
+        if pagina is not None:
+            correctos += 1
+            elementos_escritos.append(pagina)
+        time.sleep(0.3)
 
-
-def generar_nombre_recurso(titulo: str, indice: int, nombres_utilizados: set) -> str:
-    nombre_base = limpiar_nombre_recurso(titulo) or f"recurso_{indice}"
-    nombre = nombre_base
-    contador = 2
-    while nombre in nombres_utilizados:
-        nombre = f"{nombre_base}_{contador}"
-        contador += 1
-    nombres_utilizados.add(nombre)
-    return nombre
+    borrados = ml.limpiar_ficheros_renombrados(catalogo_anterior or [], elementos_escritos, carpeta)
+    return total, correctos, borrados
 
 
-def _escribir_metadatos_recurso(f, pagina: dict) -> None:
-    f.write("---\n")
-    f.write("fuente: UPV\n")
-    f.write("categoria: admision\n")
-    f.write("nivel: internacional\n")
-    f.write("tipo_documento: recurso\n")
-    if pagina.get("seccion_origen"):
-        f.write("seccion: " + str(pagina["seccion_origen"]) + "\n")
-    if pagina.get("tipo_origen"):
-        f.write("tipo_origen: " + str(pagina["tipo_origen"]) + "\n")
-    f.write("---\n\n")
-
-
-def generar_markdowns_recursos(paginas_extraidas: list[dict], directorio: Path = ADMISION_INTERNACIONAL_RECURSOS_DIR) -> int:
-    directorio.mkdir(parents=True, exist_ok=True)
-
-    nombres_utilizados = set()
-    contador_recursos = 0
-
-    for indice, pagina in enumerate(paginas_extraidas, start=1):
-        contenido = pagina.get("contenido", "")
-        if not contenido.strip():
-            continue
-
-        nombre_recurso = generar_nombre_recurso(pagina.get("titulo", ""), indice, nombres_utilizados)
-
-        with open(directorio / f"{nombre_recurso}.md", "w", encoding="utf-8") as f:
-            _escribir_metadatos_recurso(f, pagina)
-
-            titulo = pagina.get("titulo", "")
-            f.write(f"# {titulo}\n\n" if titulo else "# Recurso de admisión internacional\n\n")
-
-            url = pagina.get("url", "")
-            if url:
-                f.write("Fuente oficial: " + url + "\n\n")
-
-            texto_enlace = pagina.get("texto_enlace", "")
-            if texto_enlace:
-                f.write("Enlace de origen: " + texto_enlace + "\n\n")
-
-            if pagina.get("padre_origen"):
-                f.write("Página de origen: " + pagina["padre_origen"] + "\n\n")
-            if pagina.get("seccion_origen"):
-                f.write("Sección de origen: " + pagina["seccion_origen"] + "\n\n")
-            if pagina.get("tipo_origen"):
-                f.write("Tipo de origen: " + pagina["tipo_origen"] + "\n\n")
-
-            f.write("## Contenido\n\n")
-            f.write(contenido.strip() + "\n")
-
-        contador_recursos += 1
-
-    print("Recursos generados:", contador_recursos)
-    return contador_recursos
+def cargar_recursos_anteriores(ruta: Path = ADMISION_INTERNACIONAL_JSON) -> list[dict]:
+    """El catalogo JSON de este extractor es la estructura normalizada
+    (padre/secciones/bloques), no una lista de recursos -- se usa en su
+    lugar el listado de ficheros .md ya existentes en la carpeta de
+    recursos como catalogo "anterior" (titulo derivado del nombre de
+    fichero no sirve para comparar url->titulo, asi que en la practica
+    esta seccion no aplica limpieza de renombrados: no hay una fuente de
+    verdad anterior url->titulo sin volver a descargar todo). Se deja la
+    funcion (devuelve siempre []) para mantener la misma forma de main()
+    que el resto de extractores y documentar la limitacion."""
+    return []
 
 
 # ==========================================================
@@ -887,6 +794,8 @@ def generar_markdowns_recursos(paginas_extraidas: list[dict], directorio: Path =
 # ==========================================================
 
 def main() -> None:
+    catalogo_anterior = cargar_recursos_anteriores()
+
     datos = extraer_estructura_cruda()
     datos = validar_estructura(datos)
     datos_normalizados = normalizar_estructura(datos)
@@ -895,8 +804,9 @@ def main() -> None:
     generar_markdowns_secciones(datos_normalizados)
 
     enlaces_unicos = recopilar_enlaces(datos_normalizados)
-    paginas_extraidas = descargar_y_extraer_paginas(enlaces_unicos)
-    generar_markdowns_recursos(paginas_extraidas)
+    url_resumen = datos_normalizados["padres"][0].get("url", ADMISION_INTERNACIONAL_URL)
+    total, correctos, borrados = generar_markdowns_recursos(enlaces_unicos, url_resumen=url_resumen, catalogo_anterior=catalogo_anterior)
+    print(f"Admisión internacional: recursos {total} · generados: {correctos} · renombrados limpiados: {borrados}")
 
 
 if __name__ == "__main__":

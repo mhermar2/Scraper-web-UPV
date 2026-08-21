@@ -1,86 +1,86 @@
 """Extractor de "Admision a Doctorado".
 
-Mismo patron que extrae_master.py (section-01..section-06 con
-tarjetas/acordeones/banners/enlaces), pero con su propio alcance y
-reglas para la fase de paginas enlazadas:
+Reescritura completa (2026-08-21), mismo patron que el nuevo
+extrae_master.py: metadatos YAML definitivos para el padre/secciones
+(vuelcan directamente el JSON de tarjetas/acordeones/banners, la
+maquetacion en <section id="section-01">..<section id="section-06"> no
+encaja en el motor de "hoja de contenido") y motor_limpieza.py para el
+contenido de cada pagina ENLAZADA (traversal, PDF, plantilla clasica,
+limpieza de renombrados) en vez del loop h1-h4/p/li ad-hoc anterior.
 
-- Alcance mucho mas estrecho: solo sigue URLs bajo
-  upv.es/entidades/edoctorado/ o upv.es/pls/soalu/ (url_relevante());
-  master en cambio aceptaba cualquier URL de upv.es/jpa.upv.es y
-  filtraba por tema "claramente ajeno" a posteriori.
-- Descarta ademas URLs que requieren autenticacion (poliformat, login,
-  shibboleth) y archivos binarios (.pdf/.jpg/.doc/...), algo que master
-  no comprobaba explicitamente.
-- Selectores de contenido principal distintos (article / main con clase
-  que contenga "content" / #content / clase content|contenido|
-  page-content, con fallback a main -- no a "no encontrado").
-- Clasificador de recursos con categorias parecidas pero keywords
-  propias (ej. "programas-de-doctorado" en vez de "master").
-- Sin el filtro de "contenido claramente ajeno" que si tiene master.
-
-Pipeline (mismo orden que el notebook original):
-  1. extraer_admision_doctorado() -> JSON con el padre + secciones
-  2. guardar_json()
-  3. generar_markdowns_secciones() -> 1 .md padre + 1 .md por seccion
-  4. recopilar_enlaces_unicos() -> aplana tarjetas/acordeones/banners/
-     enlaces de todas las secciones, deduplicando por URL
-  5. descargar_y_extraer_paginas() -> visita cada URL relevante de
-     verdad y extrae su contenido
-  6. generar_markdowns_recursos() -> un .md por pagina util, clasificada
-
-Migrado desde src/extractores/admision/extrae_doctorado.ipynb (antes
-Extrae_Admision_Doctorado.ipynb). Notebook limpio, sin celdas
-exploratorias ni codigo muerto que descartar.
+Se preserva el alcance mas estrecho que ya tenia esta seccion frente a
+admision/master: solo se sigue de verdad el contenido de URLs bajo
+upv.es/entidades/edoctorado/ o upv.es/pls/soalu/ (url_relevante()) --
+decision deliberada de la version anterior, no alcance nuevo introducido
+aqui.
 """
 
 from __future__ import annotations
 
 import json
-import re
 import sys
+import time
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # src/ (config.py, common.py)
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # src/extractores/ (motor_limpieza.py)
 
 from bs4 import BeautifulSoup
 import requests
 
+from common import limpiar_texto
 from config import ADMISION_DOCTORADO_DIR, ADMISION_DOCTORADO_JSON, ADMISION_DOCTORADO_RECURSOS_DIR, ADMISION_DOCTORADO_URL
+import motor_limpieza as ml
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/139.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Connection": "keep-alive",
+}
 
+FUENTE = "UPV"
 CATEGORIA = "admision"
 NIVEL = "doctorado"
+TIPO_RECURSO = "informacion"
 
 INTRO_DOCUMENTO = (
     "Información completa sobre el proceso de admisión "
     "a estudios oficiales de doctorado en la Universitat Politècnica de València."
 )
 
-EXTENSIONES_ARCHIVO = (".pdf", ".jpg", ".jpeg", ".png", ".gif", ".zip", ".doc", ".docx", ".xls", ".xlsx")
-PALABRAS_REQUIEREN_AUTENTICACION = ["poliformat", "login", "shibboleth"]
+SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido"]
 
-CLASIFICACION = [
-    ("calendario", ["plazo", "calendario", "calendarios", "fechas"]),
-    ("matricula", ["precio", "precios", "tasas", "matricula"]),
-    ("faq", ["faq", "faqs", "preguntas frecuentes"]),
-    ("ayudas", ["ayuda", "ayudas", "beca", "becas"]),
-    ("admision", ["solicitud", "preinscripcion", "preinscripción", "admision", "admisión"]),
-    ("programas", ["programas-de-doctorado", "programa de doctorado", "oferta"]),
-    ("normativa", ["normativa", "reglamento", "legislacion", "legislación"]),
-]
+
+def _yaml_resumen(url: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="resumen", titulo=titulo)
+
+
+def _yaml_seccion(url_resumen: str, titulo: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url_resumen, categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="seccion", resumen=url_resumen, titulo=titulo)
+
+
+def _yaml_recurso(elemento: dict, seccion_slug: str, url_resumen: str) -> str:
+    return ml.generar_yaml_metadatos(fuente=FUENTE, url=elemento["url"], categoria=CATEGORIA, nivel=NIVEL,
+                                      tipo_documento="recurso", tipo_recurso=TIPO_RECURSO,
+                                      resumen=url_resumen, seccion=seccion_slug, titulo=elemento["titulo"])
 
 
 def texto_limpio(elemento) -> str:
     return " ".join(elemento.stripped_strings) if elemento is not None else ""
 
 
-def url_absoluta(url: str, base: str = ADMISION_DOCTORADO_URL) -> str:
-    return urljoin(base, url) if url else ""
+def url_absoluta(url: str, base: str) -> str:
+    return ml.normalizar_url(url, base) if url else ""
 
 
-def primer_enlace(elemento, base: str = ADMISION_DOCTORADO_URL) -> str:
+def primer_enlace(elemento, base: str) -> str:
     if elemento is None:
         return ""
     enlace = elemento.find("a", href=True)
@@ -94,18 +94,8 @@ def obtener_descripcion(contenedor) -> str:
     return " ".join(texto_limpio(p) for p in parrafos).strip()
 
 
-def limpiar_nombre(nombre: str, por_defecto: str = "") -> str:
-    if not nombre:
-        return por_defecto
-    nombre = nombre.lower()
-    for viejo, nuevo in {"á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ñ": "n"}.items():
-        nombre = nombre.replace(viejo, nuevo)
-    nombre = re.sub(r"[^a-z0-9]+", "_", nombre).strip("_")
-    return nombre or por_defecto
-
-
 # ==========================================================
-# 1. Extraccion del JSON
+# 1. Catalogo (padre + secciones con tarjetas/acordeones/banners)
 # ==========================================================
 
 def extraer_tarjetas(seccion, base: str) -> list[dict]:
@@ -136,73 +126,73 @@ def extraer_acordeones(seccion, base: str) -> list[dict]:
     return acordeones
 
 
-def extraer_enlaces(seccion, base: str) -> list[dict]:
-    enlaces = []
-    vistos = set()
-    for a in seccion.find_all("a", href=True):
-        texto = texto_limpio(a)
-        url = url_absoluta(a["href"], base)
-        if not texto or url in vistos:
-            continue
-        vistos.add(url)
-        enlaces.append({"texto": texto, "url": url})
-    return enlaces
-
-
-def extraer_admision_doctorado(url: str = ADMISION_DOCTORADO_URL) -> dict:
-    respuesta = requests.get(url, headers=HEADERS)
+def extraer_catalogo(url: str = ADMISION_DOCTORADO_URL) -> dict:
+    respuesta = requests.get(url, headers=HEADERS, timeout=30)
     respuesta.raise_for_status()
     soup = BeautifulSoup(respuesta.text, "html.parser")
 
     titulo_padre = texto_limpio(soup.find("h1"))
     descripcion_padre = texto_limpio(soup.find("h2"))
 
-    secciones_html = []
+    secciones = []
     for i in range(1, 7):
-        seccion = soup.find("section", id=f"section-{i:02d}")
-        if seccion is not None:
-            secciones_html.append(seccion)
-
-    padre = {"titulo": titulo_padre, "url": url, "descripcion": descripcion_padre, "secciones": []}
-
-    for seccion in secciones_html:
-        titulo = texto_limpio(seccion.find(["h2", "h3"]))
+        seccion_html = soup.find("section", id=f"section-{i:02d}")
+        if seccion_html is None:
+            continue
+        titulo = texto_limpio(seccion_html.find(["h2", "h3"]))
         if not titulo:
             continue
-        padre["secciones"].append({
-            "id": seccion.get("id"),
+        secciones.append({
+            "id": ml.normalizar_identificador(titulo) or f"seccion_{i:02d}",
             "titulo": titulo,
-            "descripcion": obtener_descripcion(seccion),
-            "tarjetas": extraer_tarjetas(seccion, url),
-            "acordeones": extraer_acordeones(seccion, url),
-            "banners": extraer_banners(seccion, url),
-            "enlaces": extraer_enlaces(seccion, url),
+            "descripcion": obtener_descripcion(seccion_html),
+            "tarjetas": extraer_tarjetas(seccion_html, url),
+            "acordeones": extraer_acordeones(seccion_html, url),
+            "banners": extraer_banners(seccion_html, url),
         })
 
-    return {"padres": [padre]}
+    recursos = []
+    urls_vistas = set()
+    for seccion in secciones:
+        for tarjeta in seccion["tarjetas"]:
+            if tarjeta.get("url") and tarjeta["url"] not in urls_vistas:
+                urls_vistas.add(tarjeta["url"])
+                recursos.append({"titulo": tarjeta["titulo"], "url": tarjeta["url"], "seccion_id": seccion["id"]})
+        for banner in seccion["banners"]:
+            if banner.get("url") and banner["url"] not in urls_vistas:
+                urls_vistas.add(banner["url"])
+                recursos.append({"titulo": banner["titulo"], "url": banner["url"], "seccion_id": seccion["id"]})
+        for acordeon in seccion["acordeones"]:
+            for enlace in acordeon["enlaces"]:
+                if enlace.get("url") and enlace["url"] not in urls_vistas:
+                    urls_vistas.add(enlace["url"])
+                    recursos.append({"titulo": enlace["texto"], "url": enlace["url"], "seccion_id": seccion["id"]})
+
+    print("Secciones encontradas:", len(secciones), "· recursos enlazados únicos:", len(recursos))
+    return {"titulo": titulo_padre, "url": url, "descripcion": descripcion_padre, "secciones": secciones, "recursos": recursos}
 
 
 def guardar_json(datos: dict, ruta: Path = ADMISION_DOCTORADO_JSON) -> None:
     ruta.parent.mkdir(parents=True, exist_ok=True)
     with open(ruta, "w", encoding="utf-8") as f:
-        json.dump(datos, f, ensure_ascii=False, indent=4)
+        json.dump(datos, f, ensure_ascii=False, indent=2)
     print("JSON guardado:", ruta)
+
+
+def cargar_recursos_anteriores(ruta: Path = ADMISION_DOCTORADO_JSON) -> list[dict]:
+    if not ruta.exists():
+        return []
+    try:
+        with open(ruta, encoding="utf-8") as f:
+            datos = json.load(f)
+    except Exception:
+        return []
+    return [{"titulo": r["titulo"], "url": r["url"]} for r in datos.get("recursos", []) if r.get("titulo") and r.get("url")]
 
 
 # ==========================================================
 # 2. Markdown de padre + secciones (vuelca el JSON, sin descargar nada)
 # ==========================================================
-
-def _escribir_metadatos(f, tipo_documento: str, seccion: str | None = None) -> None:
-    f.write("---\n")
-    f.write("fuente: UPV\n")
-    f.write(f"categoria: {CATEGORIA}\n")
-    f.write(f"nivel: {NIVEL}\n")
-    f.write(f"tipo_documento: {tipo_documento}\n")
-    if seccion:
-        f.write(f"seccion: {seccion}\n")
-    f.write("---\n\n")
-
 
 def _escribir_bloque_seccion(f, seccion: dict, nivel_titulo: str, prefijo_enlace: str) -> None:
     for t in seccion.get("tarjetas", []):
@@ -230,207 +220,148 @@ def _escribir_bloque_seccion(f, seccion: dict, nivel_titulo: str, prefijo_enlace
             f.write(f"{prefijo_enlace}: {b['url']}\n\n")
 
 
-def generar_markdowns_secciones(datos: dict, directorio: Path = ADMISION_DOCTORADO_DIR) -> int:
-    directorio.mkdir(parents=True, exist_ok=True)
+def generar_markdown_padre(datos: dict, ruta_dir: Path = ADMISION_DOCTORADO_DIR) -> Path:
+    ruta_dir.mkdir(parents=True, exist_ok=True)
+    nombre = ml.nombre_archivo_markdown(datos["titulo"] or "Admisión a doctorado")
+    ruta = ruta_dir / nombre
+
+    with open(ruta, "w", encoding="utf-8") as f:
+        f.write(_yaml_resumen(datos["url"], datos["titulo"]))
+        f.write(f"\n# {datos['titulo']}\n\n")
+        f.write(INTRO_DOCUMENTO + "\n\n")
+        for seccion in datos["secciones"]:
+            f.write(f"## {seccion['titulo']}\n\n")
+            if seccion.get("descripcion"):
+                f.write(seccion["descripcion"] + "\n\n")
+            _escribir_bloque_seccion(f, seccion, "###", "Más información")
+
+    print("OK: Markdown padre generado:", ruta)
+    return ruta
+
+
+def generar_markdowns_secciones(datos: dict, ruta_dir: Path = ADMISION_DOCTORADO_DIR) -> int:
+    ruta_dir.mkdir(parents=True, exist_ok=True)
     contador = 0
-
-    for padre in datos["padres"]:
-        nombre_padre = limpiar_nombre(padre["titulo"], "padre")
-
-        with open(directorio / f"{nombre_padre}.md", "w", encoding="utf-8") as f:
-            _escribir_metadatos(f, "padre")
-            f.write(f"# {padre['titulo']}\n\n")
-            f.write(INTRO_DOCUMENTO + "\n\n")
-            for seccion in padre["secciones"]:
-                f.write(f"## {seccion['titulo']}\n\n")
-                if seccion.get("descripcion"):
-                    f.write(seccion["descripcion"] + "\n\n")
-                _escribir_bloque_seccion(f, seccion, "###", "Más información")
+    for seccion in datos["secciones"]:
+        nombre = ml.nombre_archivo_markdown(seccion["titulo"])
+        with open(ruta_dir / nombre, "w", encoding="utf-8") as f:
+            f.write(_yaml_seccion(datos["url"], seccion["titulo"]))
+            f.write(f"\n# {seccion['titulo']}\n\n")
+            f.write(f"Proceso: {datos['titulo']}\n\n")
+            if seccion.get("descripcion"):
+                f.write(seccion["descripcion"] + "\n\n")
+            _escribir_bloque_seccion(f, seccion, "##", "Enlace oficial")
         contador += 1
-
-        for seccion in padre["secciones"]:
-            nombre_seccion = limpiar_nombre(seccion["titulo"], "seccion")
-            with open(directorio / f"{nombre_seccion}.md", "w", encoding="utf-8") as f:
-                _escribir_metadatos(f, "seccion", nombre_seccion)
-                f.write(f"# {seccion['titulo']}\n\n")
-                f.write(f"Proceso: {padre['titulo']}\n\n")
-                if seccion.get("descripcion"):
-                    f.write(seccion["descripcion"] + "\n\n")
-                _escribir_bloque_seccion(f, seccion, "##", "Enlace oficial")
-            contador += 1
-
     print("Markdown de secciones generado. Archivos:", contador)
     return contador
 
 
 # ==========================================================
-# 3. Descubrimiento de enlaces (dedup global por URL)
-# ==========================================================
-
-def recopilar_enlaces_unicos(datos: dict) -> list[dict]:
-    enlaces: dict[str, dict] = {}
-
-    def registrar(url, texto, seccion):
-        if not url or url in enlaces:
-            return
-        enlaces[url] = {"url": url, "texto": texto, "seccion_origen": seccion}
-
-    for padre in datos["padres"]:
-        for seccion in padre["secciones"]:
-            nombre_seccion = seccion["titulo"]
-
-            for enlace in seccion.get("enlaces", []):
-                registrar(enlace["url"], enlace["texto"], nombre_seccion)
-            for tarjeta in seccion.get("tarjetas", []):
-                registrar(tarjeta.get("url"), tarjeta.get("titulo"), nombre_seccion)
-            for banner in seccion.get("banners", []):
-                registrar(banner.get("url"), banner.get("titulo"), nombre_seccion)
-            for acordeon in seccion.get("acordeones", []):
-                for enlace in acordeon.get("enlaces", []):
-                    registrar(enlace["url"], enlace["texto"], nombre_seccion)
-
-    return list(enlaces.values())
-
-
-# ==========================================================
-# 4. Descargar y extraer paginas enlazadas
+# 3. Markdown de los recursos enlazados -- motor_limpieza
 # ==========================================================
 
 def url_relevante(url: str) -> bool:
-    """Alcance del crawler de doctorado: solo entidades/edoctorado y
-    las paginas dinamicas Oracle bajo pls/soalu."""
+    """Alcance de esta seccion (decision ya existente, no nueva): solo
+    entidades/edoctorado y las paginas dinamicas Oracle bajo pls/soalu."""
     url = url.lower()
     return "www.upv.es/entidades/edoctorado/" in url or "www.upv.es/pls/soalu/" in url
 
 
-def descargar_y_extraer_paginas(enlaces: list[dict]) -> list[dict]:
-    paginas_extraidas = []
+def encontrar_contenedor(soup: BeautifulSoup):
+    contenedor_moderno = soup.find(id="smooth-wrapper") or soup.find("main")
+    if contenedor_moderno is not None:
+        return contenedor_moderno, True
+    for selector in SELECTORES_CONTENIDO:
+        elemento = soup.select_one(selector)
+        if elemento is not None and len(elemento.get_text(" ", strip=True)) >= 100:
+            return elemento, False
+    return None, False
 
-    for enlace in enlaces:
-        url = enlace["url"]
-        print(url)
 
-        if not url_relevante(url):
-            print("Descartado (fuera del ámbito de Doctorado)")
-            continue
+def extraer_contenido_iframe_clasico(soup: BeautifulSoup, url_pagina: str) -> list[str]:
+    iframe_url = ml.buscar_iframe_contenido_clasico(soup, url_pagina)
+    if iframe_url is None:
+        return []
+    soup_iframe, es_html = ml.descargar_soup(iframe_url, headers=HEADERS)
+    if not es_html:
+        return []
+    soup_iframe = ml.limpiar_contenido_html(soup_iframe)
+    contenido_iframe = soup_iframe.find(id="contenido") or soup_iframe.body
+    if contenido_iframe is None:
+        return []
+    ml.reemplazar_tablas_por_listas(soup_iframe, contenido_iframe)
+    lineas = ml.extraer_bloques_contenido(contenido_iframe, iframe_url)
+    return ml.limpiar_lineas_finales(lineas, recortar_h1=False)
 
-        try:
-            respuesta = requests.get(url, headers=HEADERS, timeout=20, allow_redirects=True)
-            respuesta.raise_for_status()
-        except Exception:
-            print("Error al descargar.")
-            continue
 
-        if "upv.es" not in urlparse(respuesta.url).netloc.lower():
-            print("Descartado (dominio externo)")
-            continue
+def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, url_resumen: str) -> bool:
+    titulo = elemento.get("titulo", "")
+    url = elemento.get("url", "")
+    if not titulo or not url:
+        return False
 
-        if any(palabra in respuesta.url.lower() for palabra in PALABRAS_REQUIEREN_AUTENTICACION):
-            print("Descartado (requiere autenticación)")
-            continue
+    if not url_relevante(url):
+        print(f"  Descartado (fuera del ámbito de Doctorado): {url}")
+        return False
 
-        if respuesta.url.lower().split("?")[0].endswith(EXTENSIONES_ARCHIVO):
-            print("Descartado (archivo)")
-            continue
+    print(f"  Extrayendo: {titulo} ({url})")
+    try:
+        respuesta = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
+        respuesta.raise_for_status()
+    except Exception as error:
+        print(f"    ERROR descargando: {error}")
+        return False
 
+    tipo = ml.tipo_contenido(respuesta.headers.get("Content-Type", ""))
+    yaml_metadatos = _yaml_recurso(elemento, seccion_slug, url_resumen)
+
+    if tipo == "pdf":
+        paginas = ml.extraer_texto_pdf(respuesta.content)
+        cuerpo = "\n\n".join(paginas) if paginas else "_PDF sin texto extraíble (probablemente escaneado sin OCR)._"
+    elif tipo != "html":
+        cuerpo = "_Este recurso no es una página HTML ni un PDF estándar. Consulta el contenido directamente en la URL indicada._"
+    else:
         soup = BeautifulSoup(respuesta.text, "html.parser")
-        for basura in soup.find_all(["script", "style", "noscript", "header", "footer", "nav", "aside"]):
-            basura.decompose()
+        soup = ml.limpiar_contenido_html(soup)
+        contenedor, es_moderno = encontrar_contenedor(soup)
+        if contenedor is None:
+            lineas = extraer_contenido_iframe_clasico(soup, url)
+        else:
+            ml.reemplazar_tablas_por_listas(soup, contenedor)
+            lineas = ml.extraer_bloques_contenido(contenedor, url)
+            lineas = ml.limpiar_lineas_finales(lineas)
+        if not lineas:
+            print("    AVISO: sin contenido útil.")
+            return False
+        cuerpo = "\n\n".join(lineas)
 
-        contenido_principal = (
-            soup.find("article")
-            or soup.find("main", class_=lambda x: x and "content" in " ".join(x))
-            or soup.find(id="content")
-            or soup.find(class_=lambda x: x and any(p in " ".join(x).lower() for p in ["content", "contenido", "page-content"]))
-        )
-        if contenido_principal is None:
-            contenido_principal = soup.find("main")
-        if contenido_principal is None:
-            print("Descartado (no se encontró contenido principal)")
-            continue
+    markdown = f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n{cuerpo}\n"
 
-        titulo = texto_limpio(contenido_principal.find("h1")) or enlace["texto"]
-
-        bloques = []
-        vistos = set()
-        for elemento in contenido_principal.find_all(["h2", "h3", "h4", "p", "li"]):
-            texto = texto_limpio(elemento)
-            if len(texto) < 5 or texto in vistos:
-                continue
-            vistos.add(texto)
-            bloques.append(texto)
-
-        contenido = "\n\n".join(bloques)
-        if len(contenido) < 50:
-            print("Descartado (contenido insuficiente)")
-            continue
-
-        paginas_extraidas.append({
-            "url": url, "url_final": respuesta.url, "titulo": titulo,
-            "seccion_origen": enlace["seccion_origen"], "contenido": contenido,
-        })
-
-    return paginas_extraidas
+    ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
+    with open(ruta_archivo, "w", encoding="utf-8") as archivo:
+        archivo.write(markdown)
+    print(f"  OK ({tipo}): {ruta_archivo}")
+    return True
 
 
-# ==========================================================
-# 5. Markdown de los recursos (paginas enlazadas)
-# ==========================================================
+def generar_markdowns_recursos(datos: dict, carpeta: Path = ADMISION_DOCTORADO_RECURSOS_DIR,
+                                catalogo_anterior: list[dict] | None = None) -> tuple[int, int, int]:
+    carpeta.mkdir(parents=True, exist_ok=True)
+    url_resumen = datos["url"]
 
-def clasificar_recurso(pagina: dict) -> str:
-    texto = (pagina["titulo"] + " " + pagina["url_final"]).lower()
-    for tipo, palabras in CLASIFICACION:
-        if any(palabra in texto for palabra in palabras):
-            return tipo
-    return "informacion"
+    total = correctos = errores = 0
+    elementos_escritos = []
+    for recurso in datos.get("recursos", []):
+        total += 1
+        if generar_markdown_recurso(recurso, recurso["seccion_id"], carpeta, url_resumen):
+            correctos += 1
+            elementos_escritos.append(recurso)
+        else:
+            errores += 1
+        time.sleep(0.3)
 
-
-def _escribir_metadatos_recurso(f, pagina: dict, tipo_recurso: str) -> None:
-    f.write("---\n")
-    f.write("fuente: UPV\n")
-    f.write(f"categoria: {CATEGORIA}\n")
-    f.write(f"nivel: {NIVEL}\n")
-    f.write("tipo_documento: recurso\n")
-    f.write(f"tipo_recurso: {tipo_recurso}\n")
-    f.write("seccion_origen: " + limpiar_nombre(pagina["seccion_origen"]) + "\n")
-    f.write(f"url: {pagina['url_final']}\n")
-    f.write("---\n\n")
-
-
-def generar_markdowns_recursos(paginas_extraidas: list[dict], directorio: Path = ADMISION_DOCTORADO_RECURSOS_DIR) -> int:
-    directorio.mkdir(parents=True, exist_ok=True)
-
-    paginas_unicas = []
-    urls_vistas = set()
-    for pagina in paginas_extraidas:
-        url_final = pagina["url_final"]
-        if url_final in urls_vistas:
-            continue
-        urls_vistas.add(url_final)
-        paginas_unicas.append(pagina)
-
-    contador = 0
-    for pagina in paginas_unicas:
-        tipo_recurso = clasificar_recurso(pagina)
-        nombre = limpiar_nombre(pagina["titulo"], "recurso")
-
-        archivo = directorio / f"{nombre}.md"
-        if archivo.exists():
-            nombre_seccion = limpiar_nombre(pagina["seccion_origen"])
-            archivo = directorio / f"{nombre}_{nombre_seccion}.md"
-
-        with open(archivo, "w", encoding="utf-8") as f:
-            _escribir_metadatos_recurso(f, pagina, tipo_recurso)
-            f.write(f"# {pagina['titulo']}\n\n")
-            f.write("Contenido relacionado con el proceso de admisión a doctorado.\n\n")
-            f.write(f"Sección de origen: {pagina['seccion_origen']}\n\n")
-            f.write(pagina["contenido"] + "\n\n")
-            f.write(f"Fuente oficial: {pagina['url_final']}\n")
-
-        contador += 1
-
-    print("Markdown de recursos generado. Archivos:", contador)
-    return contador
+    borrados = ml.limpiar_ficheros_renombrados(catalogo_anterior or [], elementos_escritos, carpeta)
+    return total, correctos, borrados
 
 
 # ==========================================================
@@ -438,15 +369,15 @@ def generar_markdowns_recursos(paginas_extraidas: list[dict], directorio: Path =
 # ==========================================================
 
 def main() -> None:
-    datos = extraer_admision_doctorado()
+    catalogo_anterior = cargar_recursos_anteriores()
+
+    datos = extraer_catalogo()
     guardar_json(datos)
+    generar_markdown_padre(datos)
     generar_markdowns_secciones(datos)
 
-    enlaces = recopilar_enlaces_unicos(datos)
-    print("Enlaces únicos encontrados:", len(enlaces))
-
-    paginas_extraidas = descargar_y_extraer_paginas(enlaces)
-    generar_markdowns_recursos(paginas_extraidas)
+    total, correctos, borrados = generar_markdowns_recursos(datos, catalogo_anterior=catalogo_anterior)
+    print(f"Admisión doctorado: recursos {total} · generados: {correctos} · renombrados limpiados: {borrados}")
 
 
 if __name__ == "__main__":
