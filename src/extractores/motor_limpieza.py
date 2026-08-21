@@ -532,8 +532,23 @@ def limpiar_lineas_finales(lineas: list[str], recortar_h1: bool = True, textos_b
     if recortar_h1:
         lineas = recortar_desde_primer_h1(lineas)
     lineas = recortar_en_titulo_plantilla(lineas)
-    lineas = [linea for linea in lineas if not es_linea_boilerplate(linea, textos_boilerplate)]
-    return deduplicar_global(lineas)
+
+    # El h1 real de la pagina (primera linea, solo si recortar_h1 lo
+    # identifico como tal) nunca se trata como boilerplate: el titulo de
+    # una seccion a menudo coincide textualmente con su propia entrada en
+    # el menu de navegacion (ej. "Servicios universitarios", "Iniciativas
+    # de I+D+i"), que SI esta en textos_boilerplate por repetirse en el
+    # menu de cualquier otra pagina -- sin esta excepcion el h1 real
+    # desaparece en silencio. Bug real encontrado 2026-08-21: ya afectaba
+    # a servicios_universitarios.md (comiteado sin su propio h1).
+    if recortar_h1 and lineas and lineas[0].startswith("# "):
+        titulo_real, resto = lineas[0], lineas[1:]
+    else:
+        titulo_real, resto = None, lineas
+
+    resto = [linea for linea in resto if not es_linea_boilerplate(linea, textos_boilerplate)]
+    lineas_finales = ([titulo_real] if titulo_real else []) + resto
+    return deduplicar_global(lineas_finales)
 
 
 def es_url_valida_para_expandir(href: str, url_pagina: str, urls_ya_usadas: set) -> bool:
