@@ -84,6 +84,20 @@ TEXTOS_BOILERPLATE_BASE = {
 # arriesgarnos a cortar contenido real que use esa misma palabra suelta.
 TITULOS_CORTE_PLANTILLA = {"esto te interesa", "recursos", "instalaciones", "media"}
 
+# Ruido propio de la plantilla clasica Oracle Portal/PL-SQL de fichas de
+# entidad (menu lateral de idioma/accesibilidad, botones de plegado...),
+# que institucion/servicios no necesitan filtrar en la plantilla moderna
+# WordPress -- cada extractor decide si lo suma a su propio set de
+# boilerplate (ver TEXTOS_BOILERPLATE_SERVICIOS en extrae_servicios.py).
+TEXTOS_BOILERPLATE_PLANTILLA_CLASICA = {
+    "idioma", "idioma · language", "language",
+    "valencia", "valencian", "english", "castellano",
+    "cercar", "search", "directory", "directori",
+    "contacte", "contact",
+    "otros", "donde estamos", "¿donde estamos?",
+    "informacion general", "organigrama", "expandir", "contraer",
+}
+
 
 # ==========================================================
 # Identificadores, URLs, estructura JSON
@@ -151,6 +165,57 @@ def descargar_soup(url: str, headers: dict | None = None):
     if "html" not in content_type.lower():
         return None, False
     return BeautifulSoup(respuesta.text, "html.parser"), True
+
+
+def tipo_contenido(content_type: str) -> str:
+    """Clasifica un Content-Type de respuesta HTTP en 'html'/'pdf'/'otro'
+    (video, imagen...). Usado por los extractores para decidir como
+    procesar un recurso antes de descargarlo por completo."""
+    content_type = (content_type or "").lower()
+    if "pdf" in content_type:
+        return "pdf"
+    if "html" in content_type:
+        return "html"
+    return "otro"
+
+
+def extraer_texto_pdf(contenido: bytes) -> list[str]:
+    """Extrae el texto de un PDF pagina a pagina via pypdf. Cada entrada
+    de la lista devuelta es el texto (limpio) de una pagina; las paginas
+    sin texto extraible (escaneadas sin OCR, solo imagenes...) se omiten
+    en vez de devolver una cadena vacia."""
+    import io
+
+    from pypdf import PdfReader
+
+    lector = PdfReader(io.BytesIO(contenido))
+    paginas = []
+    for pagina in lector.pages:
+        try:
+            texto = limpiar_texto(pagina.extract_text() or "")
+        except Exception:
+            texto = ""
+        if texto:
+            paginas.append(texto)
+    return paginas
+
+
+def buscar_iframe_contenido_clasico(soup: BeautifulSoup, url_base: str) -> str | None:
+    """La plantilla clasica Oracle Portal/PL-SQL de fichas de entidad
+    (sin #smooth-wrapper ni <main>, ver las notas internas del proyecto "Quirks conocidos de
+    upv.es") no lleva el contenido real en la pagina index: lo carga en
+    un <iframe> (normalmente id="marco") que apunta a
+    pls/oalu/sic_infoent.*MS?P_ENTIDAD=.... Sin ejecutar JS, requests
+    nunca ve ese contenido (datos de contacto, direccion postal,
+    telefonos...) salvo que se siga el iframe explicitamente y se
+    descargue su src aparte."""
+    iframe = soup.find("iframe", src=re.compile(r"pls/oalu|oalu/sic_", re.I))
+    if iframe is None or not iframe.get("src"):
+        return None
+    src = iframe["src"].strip()
+    if src.startswith("//"):
+        return "https:" + src
+    return urljoin(url_base, src)
 
 
 def limpiar_contenido_html(soup: BeautifulSoup) -> BeautifulSoup:

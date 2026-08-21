@@ -75,12 +75,7 @@ MAX_CARACTERES_FRAGMENTO_HIJO = 800
 # Amplia el conjunto comun con los terminos de la plantilla ANTIGUA de
 # fichas de entidad (menu lateral de idioma/accesibilidad, sin contenido
 # real) -- institucion no los necesita, ver motor_limpieza.py.
-TEXTOS_BOILERPLATE_SERVICIOS = ml.TEXTOS_BOILERPLATE_BASE | {
-    "idioma", "idioma · language", "language",
-    "valencia", "valencian", "english", "castellano",
-    "cercar", "search", "directory", "directori",
-    "contacte", "contact",
-    "otros", "donde estamos", "¿donde estamos?",
+TEXTOS_BOILERPLATE_SERVICIOS = ml.TEXTOS_BOILERPLATE_BASE | ml.TEXTOS_BOILERPLATE_PLANTILLA_CLASICA | {
     "webs relacionadas",
 }
 
@@ -305,9 +300,10 @@ def es_enlace_hijo_util(texto: str, href: str, url_pagina: str) -> bool:
     return True
 
 
-def obtener_enlaces_hijos(contenedor, url_pagina: str, maximo: int = MAX_ENLACES_HIJOS) -> list[tuple[str, str]]:
+def obtener_enlaces_hijos(contenedor, url_pagina: str, maximo: int = MAX_ENLACES_HIJOS,
+                           excluir: set[str] = frozenset()) -> list[tuple[str, str]]:
     candidatos = []
-    urls_vistas = set()
+    urls_vistas = set(excluir)
 
     for a in contenedor.find_all("a", href=True):
         href = a["href"]
@@ -321,6 +317,8 @@ def obtener_enlaces_hijos(contenedor, url_pagina: str, maximo: int = MAX_ENLACES
             continue
 
         absoluta = resolver_url_menu_antiguo(urljoin(url_pagina, href).split("#")[0])
+        if absoluta in urls_vistas:
+            continue
         urls_vistas.add(absoluta)
         candidatos.append((texto, absoluta))
 
@@ -341,6 +339,7 @@ def resumir_pagina_hija(url: str) -> str | None:
         if contenedor is None:
             return None
 
+        ml.reemplazar_tablas_por_listas(soup, contenedor)
         lineas = ml.extraer_bloques_contenido(contenedor, url, resolver_url=resolver_url_menu_antiguo)
         lineas = ml.limpiar_lineas_finales(lineas, textos_boilerplate=TEXTOS_BOILERPLATE_SERVICIOS)
         lineas = [l for l in lineas if not es_autorreferencia_o_accesibilidad(l, url)]
@@ -353,6 +352,50 @@ def resumir_pagina_hija(url: str) -> str | None:
         return None
 
 
+def extraer_contenido_iframe_clasico(soup: BeautifulSoup, url_pagina: str) -> tuple[list[str], str | None]:
+    """Si la pagina usa la plantilla clasica (sin #smooth-wrapper ni
+    <main>), sigue el <iframe> con el contenido real (contacto,
+    direccion postal, telefonos...) que si no se pierde por completo --
+    ver ml.buscar_iframe_contenido_clasico(). Devuelve (lineas, url del
+    iframe) para poder excluirla despues de obtener_enlaces_hijos y no
+    duplicar la misma pagina dos veces."""
+    iframe_url = ml.buscar_iframe_contenido_clasico(soup, url_pagina)
+    if iframe_url is None:
+        return [], None
+
+    soup_iframe, es_html = ml.descargar_soup(iframe_url, headers=HEADERS)
+    if not es_html:
+        return [], iframe_url
+
+    soup_iframe = ml.limpiar_contenido_html(soup_iframe)
+    contenido_iframe = soup_iframe.find(id="contenido") or soup_iframe.body
+    if contenido_iframe is None:
+        return [], iframe_url
+
+    ml.reemplazar_tablas_por_listas(soup_iframe, contenido_iframe)
+    lineas = ml.extraer_bloques_contenido(contenido_iframe, iframe_url)
+    lineas = ml.limpiar_lineas_finales(lineas, textos_boilerplate=TEXTOS_BOILERPLATE_SERVICIOS, recortar_h1=False)
+    lineas = [l for l in lineas if not es_autorreferencia_o_accesibilidad(l, url_pagina)]
+    return lineas, iframe_url
+
+
+def markdown_recurso_no_html(yaml_metadatos: str, titulo: str, url: str, tipo: str, contenido_pdf: bytes | None) -> str:
+    if tipo == "pdf":
+        paginas = ml.extraer_texto_pdf(contenido_pdf)
+        if paginas:
+            return f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n" + "\n\n".join(paginas) + "\n"
+        return (
+            f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n"
+            "_PDF sin texto extraíble (probablemente escaneado sin OCR). "
+            "Consulta el contenido directamente en la URL indicada._\n"
+        )
+    return (
+        f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n"
+        "_Este recurso no es una página HTML ni un PDF estándar "
+        "(por ejemplo, un vídeo). Consulta el contenido directamente en la URL indicada._\n"
+    )
+
+
 def generar_markdown_recurso(recurso: dict, carpeta: Path, url_resumen: str) -> bool:
     titulo = recurso.get("titulo", "")
     url = recurso.get("url", "")
@@ -362,38 +405,42 @@ def generar_markdown_recurso(recurso: dict, carpeta: Path, url_resumen: str) -> 
     print(f"  Extrayendo: {titulo} ({url})")
 
     try:
-        soup, es_html = ml.descargar_soup(url, headers=HEADERS)
+        respuesta = requests.get(url, headers=HEADERS, timeout=30)
+        respuesta.raise_for_status()
+        tipo = ml.tipo_contenido(respuesta.headers.get("Content-Type", ""))
         yaml_metadatos = _yaml_recurso(recurso, url_resumen)
 
-        if not es_html:
-            markdown = (
-                f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n"
-                "_Este recurso no es una página HTML estándar "
-                "(por ejemplo, un PDF o un vídeo). "
-                "Consulta el contenido directamente en la URL indicada._\n"
-            )
+        if tipo != "html":
+            markdown = markdown_recurso_no_html(yaml_metadatos, titulo, url, tipo, respuesta.content)
             ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
             with open(ruta_archivo, "w", encoding="utf-8") as archivo:
                 archivo.write(markdown)
-            print(f"  OK (no HTML): {ruta_archivo}")
+            print(f"  OK ({tipo}): {ruta_archivo}")
             return True
 
+        soup = BeautifulSoup(respuesta.text, "html.parser")
         soup = ml.limpiar_contenido_html(soup)
-        contenido = soup.find(id="smooth-wrapper") or soup.find("main") or soup.body
+        contenedor_moderno = soup.find(id="smooth-wrapper") or soup.find("main")
+        contenido = contenedor_moderno or soup.body
         if contenido is None:
             print("  AVISO: no se ha encontrado contenido.")
             return False
 
+        lineas_iframe, iframe_url = ([], None) if contenedor_moderno is not None else extraer_contenido_iframe_clasico(soup, url)
+
+        ml.reemplazar_tablas_por_listas(soup, contenido)
         lineas_contenido = ml.extraer_bloques_contenido(contenido, url, resolver_url=resolver_url_menu_antiguo)
         lineas_contenido = ml.limpiar_lineas_finales(lineas_contenido, textos_boilerplate=TEXTOS_BOILERPLATE_SERVICIOS)
         lineas_contenido = [l for l in lineas_contenido if not es_autorreferencia_o_accesibilidad(l, url)]
+        lineas_contenido = lineas_iframe + lineas_contenido
 
         if not lineas_contenido:
             print("  AVISO: contenido vacío.")
             return False
 
         if ml.contar_palabras(lineas_contenido) < UMBRAL_PALABRAS_POCO_CONTENIDO:
-            enlaces_hijos = obtener_enlaces_hijos(contenido, url)
+            excluir = {iframe_url} if iframe_url else set()
+            enlaces_hijos = obtener_enlaces_hijos(contenido, url, excluir=excluir)
             if enlaces_hijos:
                 lineas_contenido.append("## Información relacionada")
                 for texto_enlace, url_hija in enlaces_hijos:
