@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-doctorado/index-es.html
 categoria: admision
 nivel: doctorado
 tipo_documento: seccion
-seccion: presenta_tu_solicitud
+resumen: https://www.upv.es/admision/admision-doctorado/index-es.html
+titulo: Presenta tu solicitud
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Presenta tu solicitud

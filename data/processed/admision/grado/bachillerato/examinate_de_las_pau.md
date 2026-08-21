@@ -1,14 +1,18 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/bachillerato-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: examinate_de_las_pau
+resumen: https://www.upv.es/admision/admision-grado/bachillerato-es.html
+titulo: Examínate de las PAU
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Examínate de las PAU
 
-Proceso de admisión: Admisión grado - bachillerato | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
 Llegó la hora de la verdad, de poner en valor todo el esfuerzo empleado durante los últimos años. Aquí puedes encontrar toda la información clave necesaria para que tú solo te preocupes de hacer bien una cosa: bordar tu prueba.
 
@@ -46,13 +50,13 @@ En términos generales, la matrícula de las PAU se realiza en el centro donde h
 
 El tribunal te entregará tu horario personalizado. Estas etiquetas contienen datos que identifican a cada estudiante: DNI, nombre y apellidos y materias matriculadas. En caso de que detectes algún error, debes avisar inmediatamente al vigilante del aula para que haga las comprobaciones oportunas. Además de estos datos, en las tarjetas también figuran el usuario y la clave para que accedas al portal donde consultar las notas, así como realizar todas las gestiones relativas a las PAU. Si has cursado bachillerato en la Comunidad Valenciana, debes matricularte de las PAU en el centro donde has cursado Bachillerato. Si has estudiado Bachillerato en otra Comunidad Autónoma, debes examinarte de las PAU (fases obligatoria y voluntaria) en esa comunidad, en la universidad a la que esté adscrito tu centro. Guía PAU Consulta todos los detalles sobre la realización de las pruebas de acceso a la universidad Información
 
-- Información: https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08
+- Información: https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08?t=1774358450877
 
 ## Guía PAU
 
 Consulta todos los detalles sobre la realización de las pruebas de acceso a la universidad
 
-Enlace oficial: https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08
+Enlace oficial: https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08?t=1774358450877
 
 ## Acceso al portal del alumno PAU
 

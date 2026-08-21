@@ -1,14 +1,18 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: solicita_acceso_a_la_prueba
+resumen: https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html
+titulo: Solicita acceso a la prueba
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Solicita acceso a la prueba
 
-Proceso de admisión: Admisión grado - mayores de 25 40 45 | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
 Ya sabes en qué consiste tu prueba específica. Ahora es el momento de realizar la matrícula para presentarte a dichas pruebas. ¡Ánimo!
 

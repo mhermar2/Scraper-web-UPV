@@ -1,23 +1,24 @@
 ---
 fuente: UPV
+url: https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html
 categoria: admision
 nivel: grado
 tipo_documento: recurso
-tipo_recurso: estudios
-padre: admision_grado_bachillerato_upv_universitat_polit_cnica_de_val_ncia
+tipo_recurso: informacion
+resumen: https://www.upv.es/admision/admision-grado/bachillerato-es.html
 seccion: elige_estudios
-url: https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html
+titulo: Dobles titulaciones internacionales
+descripcion: ""
+actualizado: 2026-08-21
 ---
+
+# Dobles titulaciones internacionales
+
+**URL:** https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html
 
 # Dobles Titulaciones Internacionales
 
-Recurso relacionado con el proceso de admisión a estudios oficiales de grado en la Universitat Politècnica de València.
-
-Proceso de admisión: Admisión grado - bachillerato | UPV - Universitat Politècnica de València
-
-Sección de origen: Elige estudios
-
-Dobles Titulaciones Internacionales
+## Dobles Titulaciones Internacionales
 
 La Universitat Politècnica de València imparte dobles titulaciones internacionales a nivel de grado y de máster universitario mediante convenios entre dos universidades, que permiten al estudiante obtener dos titulaciones diferentes. Los programas son diferentes, pero compatibles.
 
@@ -25,246 +26,180 @@ Estos programas están dirigidos a estudiantes de excelencia y requieren una est
 
 Las dobles titulaciones internacionales tienen muchas ventajas: impulsan la movilidad internacional de los estudiantes, proporcionan la acreditación profesional en dos países distintos y facilitan la empleabilidad. A continuación se muestran las dobles titulaciones internacionales que ofrecen las escuelas y facultades de la UPV.
 
-Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural
+## Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural
 
-Grados: Biotecnología, Ciencia y Tecnología de los Alimentos, Ingeniería Agroalimentaria y del Medio Rural, Ingeniería Forestal y del Medio Natural
+### Grados: Biotecnología, Ciencia y Tecnología de los Alimentos, Ingeniería Agroalimentaria y del Medio Rural, Ingeniería Forestal y del Medio Natural
 
-Reino Unido: Cranfield University
+- Reino Unido: [Cranfield University](http://www.cranfield.ac.uk)
 
-Máster Universitario en Ingeniería Agronómica
+### Máster Universitario en Ingeniería Agronómica
 
-EE.UU.: Illinois Institute of Technology
+- EE.UU.: [Illinois Institute of Technology](https://web.iit.edu/)
 
 (2 convenios)
 
-Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial
+## Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial
 
-Máster Universitario en Ingeniería Aeronáutica
+### Máster Universitario en Ingeniería Aeronáutica
 
-Francia: Institut Supérieur de l'Aéronautique et de l'Espace (ISAE-SUPAERO) de Toulouse
+- Francia: [Institut Supérieur de l'Aéronautique et de l'Espace (ISAE-SUPAERO) de Toulouse](https://www.isae-supaero.fr/fr/)
 
 (1 convenio)
 
-Escuela Técnica Superior de Ingeniería de Edificación
+## Escuela Técnica Superior de Ingeniería de Edificación
 
-Grado en Arquitectura Técnica
+### Grado en Arquitectura Técnica
 
-Dinamarca: VIA University College
+- Dinamarca: [VIA University College](http://www.viauc.com/horsens/programmes/fulldegree/constructing/Pages/constructing.aspx)
 
-Italia: Politecnico di Milano (POLIMI)
+- Italia: [Politecnico di Milano (POLIMI)](http://www.polimi.it)
 
-(2 convenios)
+## Escuela Técnica Superior de Ingeniería Geodésica, Cartográfica y Topográfica
 
-Escuela Técnica Superior de Ingeniería Geodésica, Cartográfica y Topográfica
+### Máster Universitario en Ingeniería Geomática y Geoinformación
 
-Máster Universitario en Ingeniería Geomática y Geoinformación
+- Francia: [École Spéciale des Travaux Publics, París](https://www.estp.fr)
 
-Francia: École Spéciale des Travaux Publics, París
+- Alemania: [University of Applied Sciences, Karlsruhe](http://www.hs-karlsruhe.de/en/home.html)
 
-Alemania: University of Applied Sciences, Karlsruhe
-
-Polonia: Warsaw University of Technology (WUT), Varsovia
+- Polonia: [Warsaw University of Technology (WUT), Varsovia](https://www.gik.pw.edu.pl/gik_en/Studies)
 
 (3 convenios)
 
-Escuela Técnica Superior de Ingeniería Informática
+## Escuela Técnica Superior de Ingeniería Informática
 
-Grado en Ingeniería Informática
+### Grado en Ingeniería Informática
 
-Argentina: Universidad de Belgrano (UB), Buenos Aires
+- Argentina: [Universidad de Belgrano (UB), Buenos Aires](http://www.ub.edu.ar/)
 
-Finlandia: Turku University of Applied Sciences
+- Finlandia: [Turku University of Applied Sciences](https://www.tuas.fi/en/)
 
-Máster Universitario en Ingeniería Informática
+### Máster Universitario en Ingeniería Informática
 
-Bélgica: Universidad Libre de Bruselas (ULB)
+- Bélgica: [Universidad Libre de Bruselas (ULB)](http://banssbfr.ulb.ac.be/)
 
-(3 convenios)
+## Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
 
-Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
+### Grado en Ingeniería Civil y Máster Universitario en Ingeniería de Caminos, Canales y Puertos
 
-Grado en Ingeniería Civil y Máster Universitario en Ingeniería de Caminos, Canales y Puertos
+- Francia: [ESTP París](https://www.estp.fr)
 
-Francia: ESTP París
+- Francia: [École des Ponts - Paris Tech](http://www.enpc.fr/formation-dingenieur)
 
-Francia: École des Ponts - Paris Tech
+- Francia: [École d'Ingenieurs de la Ville de Paris](http://www.eivp-paris.fr/)
 
-Francia: École d'Ingenieurs de la Ville de Paris
+- Dinamarca: [Danish Technical University](http://www.dtu.dk/english/Education/msc/Programmes/civil_engineering)
 
-Dinamarca: Danish Technical University
+- Italia: [Università degli Studi di Trento](https://international.unitn.it/incoming/double-degree)
 
-Italia: Università degli Studi di Trento
+- Bélgica: [Université Libre de Bruxelles (ULB)](https://polytech.ulb.be/)
 
-Bélgica: Université Libre de Bruxelles (ULB)
-
-EE.UU.: Institute of Technology - IIT
+- EE.UU.: [Institute of Technology - IIT](https://www.iit.edu/academics/programs/civil-engineering-ms)
 
 (7 convenios)
 
-Escuela Técnica Superior de Ingeniería Industrial
+## Escuela Técnica Superior de Ingeniería Industrial
 
-Grado en Ingeniería en Tecnologías Industriales y Máster Universitario en Ingeniería Industrial
+### Grado en Ingeniería en Tecnologías Industriales y Máster Universitario en Ingeniería Industrial
 
-Alemania: RWTH Aachen University
+- Alemania: [RWTH Aachen University](http://www.rwth-aachen.de/)
 
-Bélgica: Université Libre de Bruxelles
+- Bélgica: [Université Libre de Bruxelles](http://banssbfr.ulb.ac.be/)
 
-Dinamarca: Technical University of Denmark
+- Dinamarca: [Technical University of Denmark](http://www.dtu.dk/english)
 
-Francia: Centrale - Supelec
+- Francia: [Centrale - Supelec](https://www.time-association.org/)
 
-Francia: Ecole Centrale Lyon
+- Francia: [Ecole Centrale Lyon](http://www.ec-lyon.fr/)
 
-Francia: Ecole Centrale Nantes
+- Francia: [Ecole Centrale Nantes](http://www.ec-nantes.fr/)
 
-Francia: Ecole Centrale Lille
+- Francia: [Ecole Centrale Lille](http://www.ec-lille.fr/fr/index.html/)
 
-Francia: Ecole Centrale Marseille
+- Francia: [Ecole Centrale Marseille](https://www.centrale-marseille.fr/)
 
-Francia: Ecole Nationale Superieure d'Arts et Metiers (ENSAM)
+- Francia: [Ecole Nationale Superieure d'Arts et Metiers (ENSAM)](http://www.ensam.eu/)
 
-Francia: Ecole Speciale des Travaux Publics, du Batiment et de l'Industrie (ESTP)
+- Francia: [Ecole Speciale des Travaux Publics, du Batiment et de l'Industrie (ESTP)](https://www.estp.fr)
 
-Francia: EEIGM (Consorcio internacional)
+- Francia: [EEIGM (Consorcio internacional)](https://www.time-association.org/)
 
-Italia: Politécnico di Milano
+- Italia: [Politécnico di Milano](http://www.polimi.it)
 
-Suecia: Kungliga Tekniska Högskolan (KTH)
+- Suecia: [Kungliga Tekniska Högskolan (KTH)](https://www.kth.se/en)
 
-EE.UU.: Illinois Institute of Technology
+- EE.UU.: [University at Albany, State University of New York (SUNY)](https://www.albany.edu/)
 
-EE.UU.: University at Albany, State University of New York (SUNY)
+### Grado en Ingeniería Química y Máster Universitario en Ingeniería Química
 
-Grado en Ingeniería Química y Máster Universitario en Ingeniería Química
+- Francia: [Ecole Nationale Superieure de Chimie de Rennes (ENSCR)](https://www.ensc-rennes.fr/)
 
-Bélgica: Université Libre de Bruxelles
+### Grado en Ingeniería de la Energía y Máster Universitario en Tecnología Energética para el Desarrollo Sostenible
 
-Dinamarca: Technical University of Denmark
+- EE.UU.: [University at Albany, SUNY](https://www.albany.edu/)
 
-Francia: Ecole Nationale Superieure de Chimie de Rennes (ENSCR)
-
-Italia: Politécnico di Milano
-
-EE.UU.: Illinois Institute of Technology
-
-Grado en Ingeniería de la Energía y Máster Universitario en Tecnología Energética para el Desarrollo Sostenible
-
-Dinamarca: Technical University of Denmark
-
-Suecia: Kungliga Tekniska Högskolan (KTH)
-
-EE.UU.: Illinois Institute of Technology
-
-EE.UU.: University at Albany, SUNY
-
-Grado en Ingeniería Biomédica y Máster Universitario en Ingeniería Biomédica
-
-EE.UU.: Illinois Institute of Technology
+### Grado en Ingeniería Biomédica y Máster Universitario en Ingeniería Biomédica
 
 (25 convenios)
 
-Escuela Técnica Superior de Ingeniería de Telecomunicación
+## Escuela Técnica Superior de Ingeniería de Telecomunicación
 
-Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación y Máster Universitario en Ingeniería de Telecomunicación
+### Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación y Máster Universitario en Ingeniería de Telecomunicación
 
-Francia: Télécom - Bretagne
+- Francia: [Télécom - Bretagne](http://www.telecom-bretagne.eu/)
 
-Francia: Télécom - Lille
+- Francia: [Télécom - Lille](http://www.telecom-lille.fr/es)
 
-Máster Universitario en Ingeniería de Telecomunicación
+### Máster Universitario en Ingeniería de Telecomunicación
 
-Alemania: Tecnische Universität Darmstadt
+- Alemania: [Tecnische Universität Darmstadt](http://www.tu-darmstadt.de/)
 
-Francia: Télécom - ParisTech
+- Francia: [Télécom - ParisTech](http://www.telecom-paristech.fr/)
 
-EE.UU.: Illinois Institute of Technology
+- Colombia: [Universidad Nacional de Colombia](http://unal.edu.co/)
 
-Colombia: Universidad Nacional de Colombia
+### Máster Universitario en Tecnología de Telecomunicación
 
-Máster Universitario en Tecnología de Telecomunicación
+### Máster Universitario en Tecnologías, Sistemas y Redes de Comunicaciones
 
-Alemania: Tecnische Universität Darmstadt
-
-Máster Universitario en Tecnologías, Sistemas y Redes de Comunicaciones
-
-Alemania: Tecnische Hochschule Köln
+- Alemania: [Tecnische Hochschule Köln](http://www.th-koeln.de/)
 
 (8 convenios)
 
-Facultad de Administración y Dirección de Empresas (FADE)
+## Facultad de Administración y Dirección de Empresas (FADE)
 
-Grado en Administración y Dirección de Empresas (ADE)
+### Grado en Administración y Dirección de Empresas (ADE)
 
-Francia: IÉSEG School of Management
+- Francia: [IÉSEG School of Management](https://www.ieseg.fr/en/)
 
-República Checa: Faculty of Economics and Management
+- República Checa: [Faculty of Economics and Management](https://www.pef.czu.cz/en/)
 
-Suiza: FHNW School of Business
+- Suiza: [FHNW School of Business](https://www.fhnw.ch/en/about-fhnw/schools/business)
 
-(3 convenios)
+## Escuela Politécnica Superior de Alcoy
 
-Escuela Politécnica Superior de Alcoy
+### Grado en Ingeniería Mecánica
 
-Grado en Ingeniería Mecánica
+- Alemania: [Ostfalia University of Applied Sciences](http://www.ostfalia.de/cms/de/m/index.html)
 
-Alemania: Ostfalia University of Applied Sciences
+- Finlandia: [Lahti University of Applied Sciences](http://www.lamk.fi/Sivut/default.aspx)
 
-Finlandia: Lahti University of Applied Sciences
+## Escuela Politécnica Superior de Gandia
 
-(2 convenios)
+### Grado en Turismo
 
-Escuela Politécnica Superior de Gandia
+- Alemania: [Fachhochschule Stralsund](http://www.fh-stralsund.de)
 
-Grado en Turismo
+### Grado en Comunicación Audiovisual
 
-Alemania: Fachhochschule Stralsund
+- Finlandia: [Oulu University of Applied Sciences](http://libguides.oamk.fi/viestinta)
 
-Grado en Comunicación Audiovisual
+### Grado en Ingeniería de Sistemas de Telecomunicación, Sonido e Imagen
 
-Finlandia: Oulu University of Applied Sciences
+- Alemania: [Fachhochschule Köln](https://www.fh-koeln.de/en/academics/programs_5797.php)
 
-Grado en Ingeniería de Sistemas de Telecomunicación, Sonido e Imagen
+### Máster Universitario en Ingeniería Acústica
 
-Alemania: Fachhochschule Köln
-
-Máster Universitario en Ingeniería Acústica
-
-Francia: Université du Maine
+- Francia: [Université du Maine](http://www.univ-lemans.fr/fr/formation/l_offre_de_formation/MLMD/0004/smaelec-522.html)
 
 (4 convenios)
-
-¡Esto te interesa!
-
-Consulta toda la información relacionada con nuestra oferta formativa.
-
-IA orientadora
-
-Tienes dudas, la IA te ayuda
-
-Estudia en China
-
-4 grados, 6 másteres y 4 doctorados
-
-Videopódcasts OPEN
-
-¿Es muy difícil la carrera? ¿Cuánto se cobra? Conoce nuestros grados
-
-Dobles titulaciones internacionales
-
-Toda la información sobre nuestras titulaciones internacionales
-
-Profesiones reguladas
-
-Lo que necesitas saber para ejercer tu profesión
-
-Acreditación en inglés (B2)
-
-Let's do it!
-
-La UPV en los rankings
-
-Descubre por qué somos la primera universidad tecnológica de España
-
-¿Tienes dudas?
-
-Fuente oficial: https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html

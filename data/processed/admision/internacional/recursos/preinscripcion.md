@@ -1,75 +1,44 @@
 ---
 fuente: UPV
+url: https://www.upv.es/entidades/SESTU/mastersoficiales/1183876normalc.html
 categoria: admision
 nivel: internacional
 tipo_documento: recurso
-tipo_origen: contenedor
+tipo_recurso: informacion
+resumen: https://www.upv.es/admision/internacional/
+titulo: preinscripción
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # preinscripción
 
-Fuente oficial: https://www.upv.es/entidades/SESTU/mastersoficiales/1183876normalc.html
+**URL:** https://www.upv.es/entidades/SESTU/mastersoficiales/1183876normalc.html
 
-Enlace de origen: preinscripción
+FASES y PLAZOS de preinscripción y admisión
 
-Página de origen: Alumnado internacional
+[Másters Oficiales](https://www.upv.es/entidades/SESTU/mastersoficiales/indexnormalc.html) [Servicios](https://www.upv.es/entidades/SESTU/mastersoficiales/557194normalc.html) [Preinscripción y Acceso](https://www.upv.es/entidades/SESTU/mastersoficiales/592623normalc.html) FASES y PLAZOS de preinscripción y admisión ...
 
-Tipo de origen: contenedor
+[Fase 0](https://www.upv.es/entidades/SESTU/mastersoficiales/1183877normalc.html)
 
-## Contenido
+[Fase 0. Preinscripción para el estudiantado que no pertenece a la Unión Europea](https://www.upv.es/entidades/SESTU/mastersoficiales/InfoFase0.pdf) 300Kb
 
-Idioma · language I Valencià English
+[Listado másteres Fase 0](https://www.upv.es/entidades/SESTU/mastersoficiales/ListadoMasteresUPVFase0.pdf) 112Kb
 
-Valencià
+[Fase 1](https://www.upv.es/entidades/SESTU/mastersoficiales/1183878normalc.html)
 
-English
+[Información Fase 1](https://www.upv.es/entidades/SESTU/mastersoficiales/1183892normalc.html)
 
-a · A I
+[Listado másteres Fase 1](https://www.upv.es/entidades/SESTU/mastersoficiales/ListaMUFase1.pdf) 118Kb
 
-Buscar I
+[Fase 2](https://www.upv.es/entidades/SESTU/mastersoficiales/1183879normalc.html)
 
-Directorio
+[Información Fase 2](https://www.upv.es/entidades/SESTU/mastersoficiales/1183893normalc.html)
 
-Contacto
+[Listado másteres Fase 2](https://www.upv.es/entidades/SESTU/mastersoficiales/ListaMUFase2.pdf) 122Kb
 
-I Fines y objetivos I Organización Directorio Dependencia orgánica Equipo directivo Webs relacionadas
+[Fase 3](https://www.upv.es/entidades/SESTU/mastersoficiales/1183880normalc.html)
 
-I Organización Directorio Dependencia orgánica Equipo directivo Webs relacionadas
+[Información Fase 3](https://www.upv.es/entidades/SESTU/mastersoficiales/1183894normalc.html)
 
-Directorio
-
-Dependencia orgánica
-
-Equipo directivo
-
-Webs relacionadas
-
-Servicios que prestamos
-
-Compromisos que asumimos
-
-Atención al usuario
-
-Normativa
-
-Mapa Web
-
-Acceso a la Universidad
-
-Alumnos 1er y 2º Ciclo/Grado
-
-Becas
-
-Escuela de Doctorado
-
-Alumnos Máster Universitario
-
-Títulos
-
-Información Alumnos Extranjeros
-
-Cómo llegar I
-
-Planos I
-
-Contacto
+[Listado másteres Fase 3](https://www.upv.es/entidades/SESTU/mastersoficiales/listadomasteresUPVfase3.pdf) 112Kb

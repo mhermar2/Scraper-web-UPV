@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-master/index-es.html
 categoria: admision
 nivel: master
 tipo_documento: seccion
-seccion: haz_tu_preinscripcion
+resumen: https://www.upv.es/admision/admision-master/index-es.html
+titulo: Haz tu preinscripción
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Haz tu preinscripción

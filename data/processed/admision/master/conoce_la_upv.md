@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-master/index-es.html
 categoria: admision
 nivel: master
 tipo_documento: seccion
-seccion: conoce_la_upv
+resumen: https://www.upv.es/admision/admision-master/index-es.html
+titulo: Conoce la UPV
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Conoce la UPV

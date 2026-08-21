@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-doctorado/index-es.html
 categoria: admision
 nivel: doctorado
 tipo_documento: seccion
-seccion: conoce_la_escuela_de_doctorado
+resumen: https://www.upv.es/admision/admision-doctorado/index-es.html
+titulo: Conoce la Escuela de Doctorado
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Conoce la Escuela de Doctorado

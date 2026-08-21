@@ -1,14 +1,18 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: comienza_tu_aventura
+resumen: https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html
+titulo: Comienza tu aventura
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Comienza tu aventura
 
-Proceso de admisión: Admisión grado - ciclos formativos | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
 ¡Enhorabuena! Ya eres oficialmente estudiante de la Universitat Politècnica de València. Hasta que comiencen las clases, ¿qué tal si empiezas por aquí? No te pierdas estos contenidos que pueden ayudarte a empezar.
 

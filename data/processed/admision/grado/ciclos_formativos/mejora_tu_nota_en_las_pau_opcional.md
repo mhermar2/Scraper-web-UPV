@@ -1,14 +1,18 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: mejora_tu_nota_en_las_pau_opcional
+resumen: https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html
+titulo: Mejora tu nota en las PAU (opcional)
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Mejora tu nota en las PAU (opcional)
 
-Proceso de admisión: Admisión grado - ciclos formativos | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
 Con tu título de técnico superior, puedes acceder directamente a la universidad por el cupo general. Con tu nota (calculada sobre 10) competirás por una plaza con estudiantes de bachillerato que pueden llegar hasta un 14. Por eso, si quieres acceder a un grado con una nota de corte alta, te interesa presentarte a la fase voluntaria de las PAU.
 
@@ -46,13 +50,13 @@ Si has estudiado un ciclo formativo en otra comunidad autónoma , consulta la in
 
 El tribunal te entregará tu horario personalizado para realizar las pruebas, así como unas etiquetas identificativas que deberás utilizar en todos los ejercicios. Estas etiquetas contienen datos que identifican a cada estudiante: DNI, nombre y apellidos y materias matriculadas. En caso de que detectes algún error, debes avisar inmediatamente al vigilante del aula para que haga las comprobaciones oportunas. Además de estos datos, en las tarjetas también figuran el usuario y la clave para que accedas al portal donde consultar las notas, así como realizar todas las gestiones relativas a las PAU. Acceso a la Guía PAU Consulta todos los detalles sobre la realización de las pruebas de acceso a la universidad. Consultar guía
 
-- Consultar guía: https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061
+- Consultar guía: https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061?t=1745927490547
 
 ## Acceso a la Guía PAU
 
 Consulta todos los detalles sobre la realización de las pruebas de acceso a la universidad.
 
-Enlace oficial: https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061
+Enlace oficial: https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061?t=1745927490547
 
 ## Acceso al portal del alumno PAU
 

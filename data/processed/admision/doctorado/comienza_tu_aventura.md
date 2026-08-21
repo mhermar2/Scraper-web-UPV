@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-doctorado/index-es.html
 categoria: admision
 nivel: doctorado
 tipo_documento: seccion
-seccion: comienza_tu_aventura
+resumen: https://www.upv.es/admision/admision-doctorado/index-es.html
+titulo: Comienza tu aventura
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Comienza tu aventura

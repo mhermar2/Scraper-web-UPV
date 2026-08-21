@@ -1,76 +1,41 @@
 ---
 fuente: UPV
+url: https://www.upv.es/entidades/SA/acceso/740376normalc.html
 categoria: admision
 nivel: grado
 tipo_documento: recurso
-tipo_recurso: admision
-padre: admision_grado_mayores_de_25_40_45_upv_universitat_polit_cnica_de_val_ncia
+tipo_recurso: informacion
+resumen: https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html
 seccion: planifica_tu_prueba_especifica
-url: https://www.upv.es/entidades/SESTU/acceso/740376normalc.html
+titulo: Más información
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Más información
 
-Recurso relacionado con el proceso de admisión a estudios oficiales de grado en la Universitat Politècnica de València.
+**URL:** https://www.upv.es/entidades/SA/acceso/740376normalc.html
 
-Proceso de admisión: Admisión grado - mayores de 25 40 45 | UPV - Universitat Politècnica de València
+ACCESO A ENSEÑANZAS DE GRADO IMPARTIDAS EN LA UNIVERSIDAD POLITÉCNICA DE VALENCIA MEDIANTE ACREDITACIÓN DE EXPERIENCIA LABORAL O PROFESIONAL (MAYORES DE 40 AÑOS)
 
-Sección de origen: Planifica tu prueba específica
+[Acceso](https://www.upv.es/entidades/SA/acceso/indexnormalc.html) [Servicios](https://www.upv.es/entidades/SA/acceso/392139normalc.html) ACCESO A ENSEÑANZAS DE GRADO IMPARTIDAS EN LA UNIVERSIDAD POLITÉCNICA DE VALENCIA MEDIANTE ACREDITACIÓN DE EXPERIENCIA LABORAL O PROFESIONAL (MAYORES DE 40 AÑOS) ...
 
-Idioma · language I Valencià English
+[Fechas de Matrícula e información general](https://www.upv.es/entidades/SESTU/acceso/anuncio40c.pdf) 794Kb
 
-Valencià
+[Resultados de la valoración del acceso mediante acreditación de experiencia profesional o laboral - Año 2026](https://www.upv.es/entidades/SESTU/acceso/valoracion2026c.pdf) 1,0Mb
 
-English
+[Resultados Finales de la valoración del acceso mediante acreditación de experiencia profesional o laboral - Año 2026](https://www.upv.es/entidades/SESTU/acceso/ValoracionFinal.pdf) 1,1Mb
 
-a · A I
+[Sobre de Matrícula](https://www.upv.es/entidades/SESTU/acceso/741813normalc.html)
 
-Buscar I
+[Sobre de Matrícula (incluye la solicitud)](https://www.upv.es/entidades/SESTU/acceso/sobreweb40c.pdf) 1,2Mb
 
-Directorio
+[Oferta de Estudios para el Curso 2026-2027](https://www.upv.es/entidades/SESTU/acceso/oferta40c.pdf) 744Kb
 
-Contacto
+[Normativa Vigente](https://www.upv.es/entidades/SESTU/acceso/740471normalc.html)
 
-I Fines y objetivos I Organización Directorio Dependencia orgánica Equipo directivo Webs relacionadas
+[Normativa Estatal](https://www.upv.es/entidades/SESTU/acceso/740472normalc.html)
 
-I Organización Directorio Dependencia orgánica Equipo directivo Webs relacionadas
+[Normativa Autonomica](https://www.upv.es/entidades/SESTU/acceso/740473normalc.html)
 
-Directorio
-
-Dependencia orgánica
-
-Equipo directivo
-
-Webs relacionadas
-
-Servicios que prestamos
-
-Compromisos que asumimos
-
-Atención al usuario
-
-Normativa
-
-Mapa Web
-
-Acceso a la Universidad
-
-Alumnos 1er y 2º Ciclo/Grado
-
-Becas
-
-Escuela de Doctorado
-
-Alumnos Máster Universitario
-
-Títulos
-
-Información Alumnos Extranjeros
-
-Cómo llegar I
-
-Planos I
-
-Contacto
-
-Fuente oficial: https://www.upv.es/entidades/SESTU/acceso/740376normalc.html
+[Normativa propia de la Universidad](https://www.upv.es/entidades/SESTU/acceso/740474normalc.html)

@@ -1,239 +1,362 @@
 {
-    "padres": [
+  "titulo": "Admisión a doctorado",
+  "url": "https://www.upv.es/admision/admision-doctorado/index-es.html",
+  "descripcion": "Explora lo desconocido, enfrenta los retos del mañana",
+  "secciones": [
+    {
+      "id": "conoce_la_escuela_de_doctorado",
+      "titulo": "Conoce la Escuela de Doctorado",
+      "descripcion": "",
+      "tarjetas": [
         {
-            "titulo": "Admisión a doctorado",
-            "url": "https://www.upv.es/admision/admision-doctorado/index-es.html",
-            "descripcion": "Explora lo desconocido, enfrenta los retos del mañana",
-            "secciones": [
-                {
-                    "id": "section-01",
-                    "titulo": "Conoce la Escuela de Doctorado",
-                    "descripcion": "",
-                    "tarjetas": [
-                        {
-                            "titulo": "Conoce la Escuela de Doctorado",
-                            "descripcion": "01. Antes de empezar, ¿qué tal si nos conocemos? La Escuela de Doctorado de la UPV es una institución de prestigio que ofrece diferentes programas de doctorado. ¡Ven y descúbrenos!",
-                            "url": ""
-                        }
-                    ],
-                    "acordeones": [],
-                    "banners": [],
-                    "enlaces": [
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/la-escuela-en-cifras/"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/pasos-para-completar-la-tesis/"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/noticias-2/"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/china"
-                        },
-                        {
-                            "texto": "Tablón de anuncios oficial",
-                            "url": "https://www.upv.es/entidades/edoctorado/tablon-de-anuncios-oficial/"
-                        },
-                        {
-                            "texto": "Servicios que ofrece la Escuela de Doctorado",
-                            "url": "https://www.upv.es/entidades/edoctorado/consulta/servicios-que-prestamos/"
-                        },
-                        {
-                            "texto": "Noticias que te interesan",
-                            "url": "https://www.upv.es/entidades/edoctorado/noticias/"
-                        },
-                        {
-                            "texto": "FAQs",
-                            "url": "https://www.upv.es/entidades/edoctorado/faqs/"
-                        },
-                        {
-                            "texto": "Representación de estudiantes",
-                            "url": "https://www.upv.es/entidades/edoctorado/representacion-de-estudiantes/"
-                        }
-                    ]
-                },
-                {
-                    "id": "section-02",
-                    "titulo": "Elige Programa de Doctorado y confirma tutor",
-                    "descripcion": "",
-                    "tarjetas": [
-                        {
-                            "titulo": "Elige Programa de Doctorado y confirma tutor",
-                            "descripcion": "02. ¿Sobre qué quieres investigar? La Escuela de Doctorado de la UPV es multidisciplinar y ofrece programas en diferentes ámbitos: Agroalimentación y Biotecnología, Arquitectura, Arte, Ciencias, Economía y Ciencias Sociales, Ingeniería Civil, Ingeniería Industrial, TIC",
-                            "url": ""
-                        }
-                    ],
-                    "acordeones": [],
-                    "banners": [
-                        {
-                            "titulo": "Descubre nuestra oferta de Programas de Doctorado",
-                            "descripcion": "Tienes estudios de doctorado hasta en 8 ámbitos de investigación. ¡Elige el tuyo!",
-                            "url": "https://www.upv.es/entidades/edoctorado/oferta-de-programas-de-doctorado/"
-                        }
-                    ],
-                    "enlaces": [
-                        {
-                            "texto": "Consultar programas",
-                            "url": "https://www.upv.es/entidades/edoctorado/oferta-de-programas-de-doctorado/"
-                        }
-                    ]
-                },
-                {
-                    "id": "section-03",
-                    "titulo": "Consulta las ayudas predoctorales",
-                    "descripcion": "",
-                    "tarjetas": [
-                        {
-                            "titulo": "Consulta las ayudas predoctorales",
-                            "descripcion": "03. Sabemos que tener acceso a financiación para cursar  estudios de doctorado es muy importantes para los futuros investigadores. ¡Te facilitamos la información que necesitas para poder optar a estas ayudas!",
-                            "url": ""
-                        }
-                    ],
-                    "acordeones": [],
-                    "banners": [
-                        {
-                            "titulo": "Descubre las becas predoctorales a tu alcance",
-                            "descripcion": "Te ayudamos a gestionar todos las gestiones y trámites.",
-                            "url": "https://www.upv.es/entidades/edoctorado/ayudas-predoctorales/"
-                        }
-                    ],
-                    "enlaces": [
-                        {
-                            "texto": "Consultar ayudas",
-                            "url": "https://www.upv.es/entidades/edoctorado/ayudas-predoctorales/"
-                        }
-                    ]
-                },
-                {
-                    "id": "section-04",
-                    "titulo": "Presenta tu solicitud",
-                    "descripcion": "",
-                    "tarjetas": [
-                        {
-                            "titulo": "Presenta tu solicitud",
-                            "descripcion": "04. Estás muy cerca de convertirte en investigador en formación. Pero antes, debes seguir una serie de pasos y cumplir ciertos requisitos. ¡No te pierdas ningún detalle!",
-                            "url": ""
-                        }
-                    ],
-                    "acordeones": [],
-                    "banners": [
-                        {
-                            "titulo": "Descubre cómo acceder a un doctorado",
-                            "descripcion": "Te explicamos todos los requisitos que necesitas cumplir para acceder a los estudios.",
-                            "url": "https://www.upv.es/entidades/edoctorado/presenta-tu-solicitud-2025/"
-                        }
-                    ],
-                    "enlaces": [
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/presenta-tu-solicitud-2025/"
-                        },
-                        {
-                            "texto": "Accede a la plataforma de preinscripción",
-                            "url": "https://www.upv.es/pls/soalu/pos_preins_docto.sol_preinscripcion?p_vista=normal"
-                        },
-                        {
-                            "texto": "Consulta el estado de tu solicitud",
-                            "url": "https://www.upv.es/pls/soalu/pos_preins_docto.ConsultaEstado"
-                        },
-                        {
-                            "texto": "Información para poseedores de títulos máster no españoles",
-                            "url": "https://www.upv.es/entidades/edoctorado/informacion-para-poseedores-de-titulaciones-oficiales-expedidas-fuera-de-espana/"
-                        }
-                    ]
-                },
-                {
-                    "id": "section-05",
-                    "titulo": "Realiza la matrícula",
-                    "descripcion": "",
-                    "tarjetas": [
-                        {
-                            "titulo": "Realiza la matrícula",
-                            "descripcion": "05. Si estás en este punto es porque has sido oficialmente admitido en un Programa de Doctorado de la UPV. ¡El viaje comienza ahora!",
-                            "url": ""
-                        }
-                    ],
-                    "acordeones": [],
-                    "banners": [
-                        {
-                            "titulo": "Conoce el proceso de matrícula del doctorado",
-                            "descripcion": "Consulta las fechas clave sobre el proceso.",
-                            "url": "https://www.upv.es/entidades/edoctorado/plazos-de-solicitud-y-matricula/"
-                        }
-                    ],
-                    "enlaces": [
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/plazos-de-solicitud-y-matricula/"
-                        },
-                        {
-                            "texto": "Consejos para nuevos estudiantes",
-                            "url": "https://www.upv.es/entidades/edoctorado/consejos-para-nuevos-estudiantes/"
-                        },
-                        {
-                            "texto": "Duración de los estudios de doctorado",
-                            "url": "https://www.upv.es/entidades/edoctorado/duracion-de-los-estudios-de-doctorado/"
-                        },
-                        {
-                            "texto": "Precios de matrícula y otras tasas",
-                            "url": "https://www.upv.es/entidades/edoctorado/precios-de-matricula-y-otras-tasas/"
-                        },
-                        {
-                            "texto": "Pasos para completar la tesis",
-                            "url": "https://www.upv.es/entidades/edoctorado/pasos-para-completar-la-tesis/"
-                        },
-                        {
-                            "texto": "FAQs",
-                            "url": "https://www.upv.es/entidades/edoctorado/faqs/"
-                        }
-                    ]
-                },
-                {
-                    "id": "section-06",
-                    "titulo": "Comienza tu aventura",
-                    "descripcion": "",
-                    "tarjetas": [
-                        {
-                            "titulo": "Comienza tu aventura",
-                            "descripcion": "06. ¡Enhorabuena! Ya eres oficialmente estudiante de doctorado de la Universitat Politècnica de València.  No te pierdas estos contenidos que pueden ayudarte a organizar tu día a día.",
-                            "url": ""
-                        }
-                    ],
-                    "acordeones": [],
-                    "banners": [],
-                    "enlaces": [
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/normativa-y-calendarios/"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/acom/carnet-upv-es/"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://www.upv.es/entidades/edoctorado/formacion-transversal/"
-                        },
-                        {
-                            "texto": "Más información",
-                            "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339"
-                        }
-                    ]
-                }
-            ]
+          "titulo": "Conoce la Escuela de Doctorado",
+          "descripcion": "01. Antes de empezar, ¿qué tal si nos conocemos? La Escuela de Doctorado de la UPV es una institución de prestigio que ofrece diferentes programas de doctorado. ¡Ven y descúbrenos!",
+          "url": ""
         }
-    ]
+      ],
+      "acordeones": [],
+      "banners": [],
+      "enlaces": [
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/la-escuela-en-cifras/"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/pasos-para-completar-la-tesis/"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/noticias-2/"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/china"
+        },
+        {
+          "texto": "Tablón de anuncios oficial",
+          "url": "https://www.upv.es/entidades/edoctorado/tablon-de-anuncios-oficial/"
+        },
+        {
+          "texto": "Servicios que ofrece la Escuela de Doctorado",
+          "url": "https://www.upv.es/entidades/edoctorado/consulta/servicios-que-prestamos/"
+        },
+        {
+          "texto": "Noticias que te interesan",
+          "url": "https://www.upv.es/entidades/edoctorado/noticias/"
+        },
+        {
+          "texto": "FAQs",
+          "url": "https://www.upv.es/entidades/edoctorado/faqs/"
+        },
+        {
+          "texto": "Representación de estudiantes",
+          "url": "https://www.upv.es/entidades/edoctorado/representacion-de-estudiantes/"
+        }
+      ]
+    },
+    {
+      "id": "elige_programa_de_doctorado_y_confirma_tutor",
+      "titulo": "Elige Programa de Doctorado y confirma tutor",
+      "descripcion": "",
+      "tarjetas": [
+        {
+          "titulo": "Elige Programa de Doctorado y confirma tutor",
+          "descripcion": "02. ¿Sobre qué quieres investigar? La Escuela de Doctorado de la UPV es multidisciplinar y ofrece programas en diferentes ámbitos: Agroalimentación y Biotecnología, Arquitectura, Arte, Ciencias, Economía y Ciencias Sociales, Ingeniería Civil, Ingeniería Industrial, TIC",
+          "url": ""
+        }
+      ],
+      "acordeones": [],
+      "banners": [
+        {
+          "titulo": "Descubre nuestra oferta de Programas de Doctorado",
+          "descripcion": "Tienes estudios de doctorado hasta en 8 ámbitos de investigación. ¡Elige el tuyo!",
+          "url": "https://www.upv.es/entidades/edoctorado/oferta-de-programas-de-doctorado/"
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Consultar programas",
+          "url": "https://www.upv.es/entidades/edoctorado/oferta-de-programas-de-doctorado/"
+        }
+      ]
+    },
+    {
+      "id": "consulta_las_ayudas_predoctorales",
+      "titulo": "Consulta las ayudas predoctorales",
+      "descripcion": "",
+      "tarjetas": [
+        {
+          "titulo": "Consulta las ayudas predoctorales",
+          "descripcion": "03. Sabemos que tener acceso a financiación para cursar  estudios de doctorado es muy importantes para los futuros investigadores. ¡Te facilitamos la información que necesitas para poder optar a estas ayudas!",
+          "url": ""
+        }
+      ],
+      "acordeones": [],
+      "banners": [
+        {
+          "titulo": "Descubre las becas predoctorales a tu alcance",
+          "descripcion": "Te ayudamos a gestionar todos las gestiones y trámites.",
+          "url": "https://www.upv.es/entidades/edoctorado/ayudas-predoctorales/"
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Consultar ayudas",
+          "url": "https://www.upv.es/entidades/edoctorado/ayudas-predoctorales/"
+        }
+      ]
+    },
+    {
+      "id": "presenta_tu_solicitud",
+      "titulo": "Presenta tu solicitud",
+      "descripcion": "",
+      "tarjetas": [
+        {
+          "titulo": "Presenta tu solicitud",
+          "descripcion": "04. Estás muy cerca de convertirte en investigador en formación. Pero antes, debes seguir una serie de pasos y cumplir ciertos requisitos. ¡No te pierdas ningún detalle!",
+          "url": ""
+        }
+      ],
+      "acordeones": [],
+      "banners": [
+        {
+          "titulo": "Descubre cómo acceder a un doctorado",
+          "descripcion": "Te explicamos todos los requisitos que necesitas cumplir para acceder a los estudios.",
+          "url": "https://www.upv.es/entidades/edoctorado/presenta-tu-solicitud-2025/"
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/presenta-tu-solicitud-2025/"
+        },
+        {
+          "texto": "Accede a la plataforma de preinscripción",
+          "url": "https://www.upv.es/pls/soalu/pos_preins_docto.sol_preinscripcion?p_vista=normal"
+        },
+        {
+          "texto": "Consulta el estado de tu solicitud",
+          "url": "https://www.upv.es/pls/soalu/pos_preins_docto.ConsultaEstado"
+        },
+        {
+          "texto": "Información para poseedores de títulos máster no españoles",
+          "url": "https://www.upv.es/entidades/edoctorado/informacion-para-poseedores-de-titulaciones-oficiales-expedidas-fuera-de-espana/"
+        }
+      ]
+    },
+    {
+      "id": "realiza_la_matricula",
+      "titulo": "Realiza la matrícula",
+      "descripcion": "",
+      "tarjetas": [
+        {
+          "titulo": "Realiza la matrícula",
+          "descripcion": "05. Si estás en este punto es porque has sido oficialmente admitido en un Programa de Doctorado de la UPV. ¡El viaje comienza ahora!",
+          "url": ""
+        }
+      ],
+      "acordeones": [],
+      "banners": [
+        {
+          "titulo": "Conoce el proceso de matrícula del doctorado",
+          "descripcion": "Consulta las fechas clave sobre el proceso.",
+          "url": "https://www.upv.es/entidades/edoctorado/plazos-de-solicitud-y-matricula/"
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/plazos-de-solicitud-y-matricula/"
+        },
+        {
+          "texto": "Consejos para nuevos estudiantes",
+          "url": "https://www.upv.es/entidades/edoctorado/consejos-para-nuevos-estudiantes/"
+        },
+        {
+          "texto": "Duración de los estudios de doctorado",
+          "url": "https://www.upv.es/entidades/edoctorado/duracion-de-los-estudios-de-doctorado/"
+        },
+        {
+          "texto": "Precios de matrícula y otras tasas",
+          "url": "https://www.upv.es/entidades/edoctorado/precios-de-matricula-y-otras-tasas/"
+        },
+        {
+          "texto": "Pasos para completar la tesis",
+          "url": "https://www.upv.es/entidades/edoctorado/pasos-para-completar-la-tesis/"
+        },
+        {
+          "texto": "FAQs",
+          "url": "https://www.upv.es/entidades/edoctorado/faqs/"
+        }
+      ]
+    },
+    {
+      "id": "comienza_tu_aventura",
+      "titulo": "Comienza tu aventura",
+      "descripcion": "",
+      "tarjetas": [
+        {
+          "titulo": "Comienza tu aventura",
+          "descripcion": "06. ¡Enhorabuena! Ya eres oficialmente estudiante de doctorado de la Universitat Politècnica de València.  No te pierdas estos contenidos que pueden ayudarte a organizar tu día a día.",
+          "url": ""
+        }
+      ],
+      "acordeones": [],
+      "banners": [],
+      "enlaces": [
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/normativa-y-calendarios/"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/acom/carnet-upv-es/"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://www.upv.es/entidades/edoctorado/formacion-transversal/"
+        },
+        {
+          "texto": "Más información",
+          "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339"
+        }
+      ]
+    }
+  ],
+  "recursos": [
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/entidades/edoctorado/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/entidades/edoctorado/la-escuela-en-cifras/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/entidades/edoctorado/pasos-para-completar-la-tesis/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/entidades/edoctorado/noticias-2/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/china",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Tablón de anuncios oficial",
+      "url": "https://www.upv.es/entidades/edoctorado/tablon-de-anuncios-oficial/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Servicios que ofrece la Escuela de Doctorado",
+      "url": "https://www.upv.es/entidades/edoctorado/consulta/servicios-que-prestamos/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Noticias que te interesan",
+      "url": "https://www.upv.es/entidades/edoctorado/noticias/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "FAQs",
+      "url": "https://www.upv.es/entidades/edoctorado/faqs/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Representación de estudiantes",
+      "url": "https://www.upv.es/entidades/edoctorado/representacion-de-estudiantes/",
+      "seccion_id": "conoce_la_escuela_de_doctorado"
+    },
+    {
+      "titulo": "Descubre nuestra oferta de Programas de Doctorado",
+      "url": "https://www.upv.es/entidades/edoctorado/oferta-de-programas-de-doctorado/",
+      "seccion_id": "elige_programa_de_doctorado_y_confirma_tutor"
+    },
+    {
+      "titulo": "Descubre las becas predoctorales a tu alcance",
+      "url": "https://www.upv.es/entidades/edoctorado/ayudas-predoctorales/",
+      "seccion_id": "consulta_las_ayudas_predoctorales"
+    },
+    {
+      "titulo": "Descubre cómo acceder a un doctorado",
+      "url": "https://www.upv.es/entidades/edoctorado/presenta-tu-solicitud-2025/",
+      "seccion_id": "presenta_tu_solicitud"
+    },
+    {
+      "titulo": "Accede a la plataforma de preinscripción",
+      "url": "https://www.upv.es/pls/soalu/pos_preins_docto.sol_preinscripcion?p_vista=normal",
+      "seccion_id": "presenta_tu_solicitud"
+    },
+    {
+      "titulo": "Consulta el estado de tu solicitud",
+      "url": "https://www.upv.es/pls/soalu/pos_preins_docto.ConsultaEstado",
+      "seccion_id": "presenta_tu_solicitud"
+    },
+    {
+      "titulo": "Información para poseedores de títulos máster no españoles",
+      "url": "https://www.upv.es/entidades/edoctorado/informacion-para-poseedores-de-titulaciones-oficiales-expedidas-fuera-de-espana/",
+      "seccion_id": "presenta_tu_solicitud"
+    },
+    {
+      "titulo": "Conoce el proceso de matrícula del doctorado",
+      "url": "https://www.upv.es/entidades/edoctorado/plazos-de-solicitud-y-matricula/",
+      "seccion_id": "realiza_la_matricula"
+    },
+    {
+      "titulo": "Consejos para nuevos estudiantes",
+      "url": "https://www.upv.es/entidades/edoctorado/consejos-para-nuevos-estudiantes/",
+      "seccion_id": "realiza_la_matricula"
+    },
+    {
+      "titulo": "Duración de los estudios de doctorado",
+      "url": "https://www.upv.es/entidades/edoctorado/duracion-de-los-estudios-de-doctorado/",
+      "seccion_id": "realiza_la_matricula"
+    },
+    {
+      "titulo": "Precios de matrícula y otras tasas",
+      "url": "https://www.upv.es/entidades/edoctorado/precios-de-matricula-y-otras-tasas/",
+      "seccion_id": "realiza_la_matricula"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html",
+      "seccion_id": "comienza_tu_aventura"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/entidades/edoctorado/normativa-y-calendarios/",
+      "seccion_id": "comienza_tu_aventura"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/entidades/acom/carnet-upv-es/",
+      "seccion_id": "comienza_tu_aventura"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://www.upv.es/entidades/edoctorado/formacion-transversal/",
+      "seccion_id": "comienza_tu_aventura"
+    },
+    {
+      "titulo": "Más información",
+      "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339",
+      "seccion_id": "comienza_tu_aventura"
+    }
+  ]
 }

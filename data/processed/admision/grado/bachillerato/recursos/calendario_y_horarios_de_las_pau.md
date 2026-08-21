@@ -1,76 +1,45 @@
 ---
 fuente: UPV
+url: https://www.upv.es/entidades/SA/acceso/728089normalc.html
 categoria: admision
 nivel: grado
 tipo_documento: recurso
-tipo_recurso: calendario
-padre: admision_grado_bachillerato_upv_universitat_polit_cnica_de_val_ncia
+tipo_recurso: informacion
+resumen: https://www.upv.es/admision/admision-grado/bachillerato-es.html
 seccion: examinate_de_las_pau
-url: https://www.upv.es/entidades/SESTU/acceso/728089normalc.html
+titulo: Calendario y horarios de las PAU
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Calendario y horarios de las PAU
 
-Recurso relacionado con el proceso de admisión a estudios oficiales de grado en la Universitat Politècnica de València.
+**URL:** https://www.upv.es/entidades/SA/acceso/728089normalc.html
 
-Proceso de admisión: Admisión grado - bachillerato | UPV - Universitat Politècnica de València
+PRUEBAS DE ACCESO A LA UNIVERSIDAD PARA LOS ALUMNOS PROCEDENTES DEL BACHILLERATO Y CICLOS FORMATIVOS DE GRADO SUPERIOR O EQUIVALENTES
 
-Sección de origen: Examínate de las PAU
+[Acceso](https://www.upv.es/entidades/SA/acceso/indexnormalc.html) [Servicios](https://www.upv.es/entidades/SA/acceso/392139normalc.html) PRUEBAS DE ACCESO A LA UNIVERSIDAD PARA LOS ALUMNOS PROCEDENTES DEL BACHILLERATO Y CICLOS FORMATIVOS DE GRADO SUPERIOR O EQUIVALENTES ...
 
-Idioma · language I Valencià English
+[Sedes tribunales de la UPV y Centros Asignados - Convocatoria ORDINARIA (junio 2026)](https://www.upv.es/entidades/SESTU/acceso/sedesjunio2026.pdf) 789Kb
 
-Valencià
+[Sedes tribunales de la UPV y Centros Asignados - Convocatoria EXTRAORDINARIA (julio 2026)](https://www.upv.es/entidades/SESTU/acceso/sedesjulio2026.pdf)
 
-English
+786Kb
 
-a · A I
+[Horario Pruebas de Acceso 2026](https://universitats.gva.es/documents/389338055/389339982/Horari_PAU_2025+_Actual25-02-26.pdf/50ab62a0-18cf-e860-394b-a665c0fc5998?t=1744019732812)
 
-Buscar I
+[Exámenes y criterios de corrección](https://universitats.gva.es/es/caracteristiques-examens-criteris-generals-correccio-i-models-examen-pau-2025)
 
-Directorio
+[Guía PAU 2026](https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061?t=1745927490547)
 
-Contacto
+[Actas Reuniones de Coordinación Materias PAU 2026](https://universitats.gva.es/es/actes-reunions-coordinacio-pau-2025)
 
-I Fines y objetivos I Organización Directorio Dependencia orgánica Equipo directivo Webs relacionadas
+[Colegios e Institutos Adscritos](https://www.upv.es/entidades/SESTU/acceso/U0975604.pdf) 107Kb
 
-I Organización Directorio Dependencia orgánica Equipo directivo Webs relacionadas
+[Exámenes y Criterios de Corrección PAU (años anteriores)](https://universitats.gva.es/es/informacio-guies-i-examens-proves-acces-cursos-anteriors)
 
-Directorio
+[Estadística de las Pruebas](https://www.upv.es/entidades/SESTU/acceso/767106normalc.html)
 
-Dependencia orgánica
+[Estadísticas Pruebas de Acceso a la Universidad](https://universitats.gva.es/es/estadistiques)
 
-Equipo directivo
-
-Webs relacionadas
-
-Servicios que prestamos
-
-Compromisos que asumimos
-
-Atención al usuario
-
-Normativa
-
-Mapa Web
-
-Acceso a la Universidad
-
-Alumnos 1er y 2º Ciclo/Grado
-
-Becas
-
-Escuela de Doctorado
-
-Alumnos Máster Universitario
-
-Títulos
-
-Información Alumnos Extranjeros
-
-Cómo llegar I
-
-Planos I
-
-Contacto
-
-Fuente oficial: https://www.upv.es/entidades/SESTU/acceso/728089normalc.html
+[Normativa Vigente](https://www.upv.es/entidades/SESTU/acceso/728090normalc.html)

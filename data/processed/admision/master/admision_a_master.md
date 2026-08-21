@@ -1,8 +1,12 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-master/index-es.html
 categoria: admision
 nivel: master
-tipo_documento: padre
+tipo_documento: resumen
+titulo: Admisión a máster
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Admisión a máster

@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-doctorado/index-es.html
 categoria: admision
 nivel: doctorado
 tipo_documento: seccion
-seccion: realiza_la_matricula
+resumen: https://www.upv.es/admision/admision-doctorado/index-es.html
+titulo: Realiza la matrícula
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Realiza la matrícula

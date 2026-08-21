@@ -1,14 +1,18 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: elige_estudios
+resumen: https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html
+titulo: Elige estudios
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Elige estudios
 
-Proceso de admisión: Admisión grado - mayores de 25 40 45 | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
 ¿Qué quieres estudiar? La UPV te ofrece decenas de opciones entre grados, dobles grados y PARS para que te formes en lo que más te gusta. ¡Tenemos lo que buscas, seguro!
 
@@ -20,7 +24,7 @@ Enlace oficial: https://www.upv.es/contenidos/asistenteia/
 
 ## Grados y dobles grados
 
-Más de 40 grados, 17 dobles títulos...¡Y subiendo!
+Más de 40 grados, 17 dobles títulos... ¡Y subiendo!
 
 Enlace oficial: https://www.upv.es/estudios/grado/index-es.html
 

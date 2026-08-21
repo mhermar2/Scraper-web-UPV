@@ -1,8 +1,12 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-doctorado/index-es.html
 categoria: admision
 nivel: doctorado
-tipo_documento: padre
+tipo_documento: resumen
+titulo: Admisión a doctorado
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Admisión a doctorado

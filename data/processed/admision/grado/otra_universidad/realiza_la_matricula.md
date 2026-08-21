@@ -1,16 +1,20 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/vengo-de-otra-universidad-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: realiza_la_matricula
+resumen: https://www.upv.es/admision/admision-grado/vengo-de-otra-universidad-es.html
+titulo: Realiza la matrícula
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Realiza la matrícula
 
-Proceso de admisión: Admisión grado - otras univeridades | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
-Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula. ¡Estamos deseosos de conocerte!
+Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.  ¡Estamos deseosos de conocerte!
 
 ## Acceso a la automatrícula
 

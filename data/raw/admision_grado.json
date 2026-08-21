@@ -1,13 +1,12 @@
 {
   "fuente": "https://www.upv.es/admision/",
-  "total_padres": 5,
   "padres": [
     {
-      "titulo": "Admisión grado - bachillerato | UPV - Universitat Politècnica de València",
+      "titulo": "Admisión a grado",
       "url": "https://www.upv.es/admision/admision-grado/bachillerato-es.html",
       "secciones": [
         {
-          "id": "section-01",
+          "id": "conoce_la_upv",
           "titulo": "Conoce la UPV",
           "descripcion": "Cada año la UPV organiza diferentes actividades para que estudiantes de bachillerato, ciclos formativos y familias conozcan de primera mano qué estudios ofrece la universidad, así como los servicios, recursos e instalaciones de sus tres campus.",
           "tarjetas": [
@@ -19,7 +18,7 @@
             {
               "titulo": "Videopódcasts OPEN",
               "descripcion": "¿Es muy difícil la carrera? ¿Cuánto se cobra? Conoce nuestros grados",
-              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/"
+              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open"
             },
             {
               "titulo": "Red de Embajadores",
@@ -40,7 +39,7 @@
           "acordeones": []
         },
         {
-          "id": "section-02",
+          "id": "elige_estudios",
           "titulo": "Elige estudios",
           "descripcion": "¿Qué quieres estudiar? La UPV te ofrece decenas de opciones entre grados, dobles grados y PARS para que te formes en lo que más te gusta. ¡Tenemos lo que buscas, seguro!",
           "tarjetas": [
@@ -51,7 +50,7 @@
             },
             {
               "titulo": "Grados y dobles grados",
-              "descripcion": "Más de 40 grados, 17 dobles títulos...¡Y subiendo!",
+              "descripcion": "Más de 40 grados, 17 dobles títulos... ¡Y subiendo!",
               "url": "https://www.upv.es/estudios/grado/index-es.html"
             },
             {
@@ -78,7 +77,7 @@
           "acordeones": []
         },
         {
-          "id": "section-03",
+          "id": "examinate_de_las_pau",
           "titulo": "Examínate de las PAU",
           "descripcion": "Llegó la hora de la verdad, de poner en valor todo el esfuerzo empleado durante los últimos años. Aquí puedes encontrar toda la información clave necesaria para que tú solo te preocupes de hacer bien una cosa: bordar tu prueba.",
           "tarjetas": [
@@ -121,14 +120,14 @@
               "enlaces": [
                 {
                   "texto": "Información",
-                  "url": "https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08"
+                  "url": "https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08?t=1774358450877"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Guía PAU",
                   "descripcion": "Consulta todos los detalles sobre la realización de las pruebas de acceso a la universidad",
-                  "url": "https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08"
+                  "url": "https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08?t=1774358450877"
                 }
               ]
             },
@@ -169,7 +168,7 @@
           ]
         },
         {
-          "id": "section-04",
+          "id": "haz_tu_preinscripcion",
           "titulo": "Haz tu preinscripción",
           "descripcion": "Has logrado lo más difícil. ¡Enhorabuena! Si ya has elegido los estudios en los que te gustaría formarte, llega el momento de realizar la preinscripción. Toma nota de todos los datos y... ¡A por ello!",
           "tarjetas": [],
@@ -180,11 +179,11 @@
               "enlaces": [
                 {
                   "texto": "aplicación",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 },
                 {
                   "texto": "instrucciones para realizar el procedimiento",
-                  "url": "https://universitats.gva.es/documents/389338055/389340600/WEB+INSTRUCCIONES+PREINSCRIPCI%C3%93N+2026.pdf/c76a07ad-3d3d-6903-7df7-e7b96fd507f4"
+                  "url": "https://universitats.gva.es/documents/389338055/389340600/WEB+INSTRUCCIONES+PREINSCRIPCI%C3%93N+2026.pdf/c76a07ad-3d3d-6903-7df7-e7b96fd507f4?t=1780663471514"
                 },
                 {
                   "texto": "Acceso a la aplicación con clave PAU (video)",
@@ -203,7 +202,7 @@
                 {
                   "titulo": "Acceso a la preinscripción",
                   "descripcion": "Accede tanto a la aplicación de preinscripción como a todos los recursos de ayuda que te facilita la Generalitat Valenciana.",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 }
               ]
             },
@@ -226,11 +225,11 @@
             },
             {
               "titulo": "Conoce el resultado de tu preinscripción",
-              "texto": "Consulta los resultados de tu preinscripción a los estudios de grados, dobles grados y PARS de la UPV en estas fechas: El viernes 10 de julio, a partir de las 13 h. Conoce el resultado de tu preinscripción Descubre el estado de la preinscripción de los estudios que has solicitado. Ir a la plataforma Reclamación de los resultados de preinscripción Fechas: Del 14 al 16 de julio (hasta las 14 h del día 16) ¿Cómo hacer la reclamación?: A través de este enlace. Resolución de reclamaciones: 18 de julio, a las 14 h Preinscripción admitida ¿Has sido admitido en la preinscripción? En esta página de la automatrícula , encontrarás la fecha y hora a la que debes matricularte . Recuerda que la matrícula se realiza a través de internet y que es muy importante llevarla a cabo en el horario asignado, ya que, en caso contrario, se entiende que renuncias a tu plaza y esta vacante se asignará a otro estudiante a través de las listas de espera. Te proporcionamos más información sobre el proceso y fechas de matriculación en la sección 5 ‘Realiza la matrícula’.",
+              "texto": "Consulta los resultados de tu preinscripción a los estudios de grados, dobles grados y PARS de la UPV en estas fechas: El viernes 10 de julio, a partir de las 13 h. Conoce el resultado de tu preinscripción Descubre el estado de la preinscripción de los estudios que has solicitado. Ir a la plataforma Reclamación de los resultados de preinscripción Fechas: Del 14 al 16 de julio (hasta las 14 h del día 16) ¿Cómo hacer la reclamación?: A través de este enlace. Resolución de reclamaciones: 18 de julio, a las 14 h Preinscripción admitida ¿Has sido admitido en la preinscripción? En esta página de la automatrícula , encontrarás la fecha y hora a la que debes matricularte . Recuerda que la matrícula se realiza a través de internet y que es muy importante llevarla a cabo en el horario asignado, ya que, en caso contrario, se entiende que renuncias a tu plaza y esta vacante se asignará a otro estudiante a través de las listas de espera. Te proporcionamos más información sobre el proceso y fechas de matriculación  en la sección 5 ‘Realiza la matrícula’.",
               "enlaces": [
                 {
                   "texto": "Ir a la plataforma",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 },
                 {
                   "texto": "En esta página de la automatrícula",
@@ -238,18 +237,18 @@
                 },
                 {
                   "texto": "fecha y hora a la que debes matricularte",
-                  "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio"
+                  "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio?p_idioma=c"
                 },
                 {
                   "texto": "la matrícula se realiza a través de internet",
-                  "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual"
+                  "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual?p_cua=automat"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Conoce el resultado de tu preinscripción",
                   "descripcion": "Descubre el estado de la preinscripción de los estudios que has solicitado.",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 }
               ]
             },
@@ -262,9 +261,9 @@
           ]
         },
         {
-          "id": "section-05",
+          "id": "realiza_la_matricula",
           "titulo": "Realiza la matrícula",
-          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula. ¡Estamos deseosos de conocerte!",
+          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.  ¡Estamos deseosos de conocerte!",
           "tarjetas": [],
           "acordeones": [
             {
@@ -290,21 +289,21 @@
               "enlaces": [
                 {
                   "texto": "Acceder al tutorial",
-                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw"
+                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Tutorial: SOS Matrícula",
                   "descripcion": "La sesión se celebrará a mediados de julio. Se dará a conocer la fecha y la hora exactas más adelante. La asistencia es gratuita, solo es necesario inscribirse haciendo clic en el siguiente botón.",
-                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw"
+                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration"
                 }
               ]
             }
           ]
         },
         {
-          "id": "section-06",
+          "id": "comienza_tu_aventura",
           "titulo": "Comienza tu aventura",
           "descripcion": "¡Enhorabuena! Ya eres oficialmente estudiante de la Universitat Politècnica de València. Hasta que comiencen las clases, ¿qué tal si empiezas por aquí? No te pierdas estos contenidos que pueden ayudarte a empezar.",
           "tarjetas": [
@@ -336,14 +335,162 @@
           ],
           "acordeones": []
         }
-      ]
+      ],
+      "recursos": [
+        {
+          "titulo": "Jornadas de Puertas Abiertas",
+          "url": "https://www.jpa.upv.es/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Videopódcasts OPEN",
+          "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Red de Embajadores",
+          "url": "https://www.upv.es/contenidos/embajadores/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Campus Praktikum",
+          "url": "https://www.upv.es/contenidos/praktikum/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Geocaching",
+          "url": "https://geocaching.upv.es/portada/cas/index.html",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "IA orientadora",
+          "url": "https://www.upv.es/contenidos/asistenteia/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Grados y dobles grados",
+          "url": "https://www.upv.es/estudios/grado/index-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Estudia en China",
+          "url": "https://www.upv.es/china",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Dobles titulaciones internacionales",
+          "url": "https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Elige el idioma",
+          "url": "https://aplicat.upv.es/buscasiupv-app/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Calendario y horarios de las PAU",
+          "url": "https://www.upv.es/entidades/SA/acceso/728089normalc.html",
+          "seccion_id": "examinate_de_las_pau"
+        },
+        {
+          "titulo": "apartado Internacional",
+          "url": "https://www.upv.es/admision/internacional/grados-acceso-internacional/",
+          "seccion_id": "examinate_de_las_pau"
+        },
+        {
+          "titulo": "Información",
+          "url": "https://universitats.gva.es/documents/389338055/389339982/GU%C3%8DA+PAU+2026.pdf/c0522e02-96ed-88c4-edeb-c5e5cd82dd08?t=1774358450877",
+          "seccion_id": "examinate_de_las_pau"
+        },
+        {
+          "titulo": "Ir al portal",
+          "url": "https://appweb1.edu.gva.es/paseu/login.sec",
+          "seccion_id": "examinate_de_las_pau"
+        },
+        {
+          "titulo": "aplicación",
+          "url": "https://tramitadoredu.gva.es/jwt/#/home",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "instrucciones para realizar el procedimiento",
+          "url": "https://universitats.gva.es/documents/389338055/389340600/WEB+INSTRUCCIONES+PREINSCRIPCI%C3%93N+2026.pdf/c76a07ad-3d3d-6903-7df7-e7b96fd507f4?t=1780663471514",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceso a la aplicación con clave PAU (video)",
+          "url": "https://videos.gva.es/index.php/extwidget/preview/partner_id/324/uiconf_id/23448810/entry_id/0_2xqiot9c/embed/dynamic",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceso a la aplicación con certificado digital (video)",
+          "url": "https://videos.gva.es/index.php/extwidget/preview/partner_id/324/uiconf_id/23448810/entry_id/0_lfaynn5d/embed/dynamic",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceso a la aplicación con otros métodos (video)",
+          "url": "https://videos.gva.es/index.php/extwidget/preview/partner_id/324/uiconf_id/23448810/entry_id/0_15une7su/embed/dynamic",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceder al vídeo",
+          "url": "https://www.upv.es/contenidos/jpa/sos-preinscripcion-y-matricula/",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "En esta página de la automatrícula",
+          "url": "https://automatricula.upv.es/index-es.html",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "fecha y hora a la que debes matricularte",
+          "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio?p_idioma=c",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "la matrícula se realiza a través de internet",
+          "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual?p_cua=automat",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceder al tutorial",
+          "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration",
+          "seccion_id": "realiza_la_matricula"
+        },
+        {
+          "titulo": "Jornadas de acogida",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Calendario académico",
+          "url": "https://www.upv.es/perfiles/estudiante/calendario-academico-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Carné UPV",
+          "url": "https://www.upv.es/entidades/acom/carnet-upv-es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Cursos MOOC de nivelación",
+          "url": "https://www.upvx.es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "PoliFormaT",
+          "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339",
+          "seccion_id": "comienza_tu_aventura"
+        }
+      ],
+      "carpeta": "bachillerato"
     },
     {
-      "titulo": "Admisión grado - ciclos formativos | UPV - Universitat Politècnica de València",
+      "titulo": "Admisión a grado",
       "url": "https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html",
       "secciones": [
         {
-          "id": "section-01",
+          "id": "conoce_la_upv",
           "titulo": "Conoce la UPV",
           "descripcion": "Cada año la UPV organiza diferentes actividades para que estudiantes de ciclos formativos conozcan de primera mano qué estudios ofrece la universidad, así como los servicios, recursos e instalaciones de sus tres campus.",
           "tarjetas": [
@@ -355,7 +502,7 @@
             {
               "titulo": "Videopódcasts OPEN",
               "descripcion": "¿Es muy difícil la carrera? ¿Cuánto se cobra? Conoce nuestros grados",
-              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/"
+              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open"
             },
             {
               "titulo": "Red de Embajadores",
@@ -376,7 +523,7 @@
           "acordeones": []
         },
         {
-          "id": "section-02",
+          "id": "elige_estudios",
           "titulo": "Elige estudios",
           "descripcion": "¿Qué quieres estudiar? La UPV te ofrece decenas de opciones entre grados, dobles grados y PARS para que te formes en lo que más te gusta. ¡Tenemos lo que buscas, seguro!",
           "tarjetas": [
@@ -387,7 +534,7 @@
             },
             {
               "titulo": "Grados y dobles grados",
-              "descripcion": "Más de 40 grados, 17 dobles títulos...¡Y subiendo!",
+              "descripcion": "Más de 40 grados, 17 dobles títulos... ¡Y subiendo!",
               "url": "https://www.upv.es/estudios/grado/index-es.html"
             },
             {
@@ -414,7 +561,7 @@
           "acordeones": []
         },
         {
-          "id": "section-03",
+          "id": "mejora_tu_nota_en_las_pau_opcional",
           "titulo": "Mejora tu nota en las PAU (opcional)",
           "descripcion": "Con tu título de técnico superior, puedes acceder directamente a la universidad por el cupo general. Con tu nota (calculada sobre 10) competirás por una plaza con estudiantes de bachillerato que pueden llegar hasta un 14. Por eso, si quieres acceder a un grado con una nota de corte alta, te interesa presentarte a la fase voluntaria de las PAU.",
           "tarjetas": [
@@ -457,14 +604,14 @@
               "enlaces": [
                 {
                   "texto": "Consultar guía",
-                  "url": "https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061"
+                  "url": "https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061?t=1745927490547"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Acceso a la Guía PAU",
                   "descripcion": "Consulta todos los detalles sobre la realización de las pruebas de acceso a la universidad.",
-                  "url": "https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061"
+                  "url": "https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061?t=1745927490547"
                 }
               ]
             },
@@ -505,7 +652,7 @@
           ]
         },
         {
-          "id": "section-04",
+          "id": "haz_tu_preinscripcion",
           "titulo": "Haz tu preinscripción",
           "descripcion": "Has logrado lo más difícil. ¡Enhorabuena! Si ya has elegido los estudios en los que te gustaría formarte, llega el momento de realizar la preinscripción. Toma nota de todos los datos y... ¡A por ello!",
           "tarjetas": [],
@@ -516,11 +663,11 @@
               "enlaces": [
                 {
                   "texto": "aplicación",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 },
                 {
                   "texto": "instrucciones para realizar el procedimiento",
-                  "url": "https://universitats.gva.es/documents/389338055/389340600/WEB+INSTRUCCIONES+PREINSCRIPCI%C3%93N+2026.pdf/c76a07ad-3d3d-6903-7df7-e7b96fd507f4"
+                  "url": "https://universitats.gva.es/documents/389338055/389340600/WEB+INSTRUCCIONES+PREINSCRIPCI%C3%93N+2026.pdf/c76a07ad-3d3d-6903-7df7-e7b96fd507f4?t=1780663471514"
                 },
                 {
                   "texto": "Acceso a la aplicación con clave PAU (video)",
@@ -539,7 +686,7 @@
                 {
                   "titulo": "Acceso a la preinscripción",
                   "descripcion": "Accede tanto a la aplicación de preinscripción como a todos los recursos de ayuda que te facilita la Generalitat Valenciana.",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 }
               ]
             },
@@ -562,11 +709,11 @@
             },
             {
               "titulo": "Conoce el resultado de tu preinscripción",
-              "texto": "Consulta los resultados de tu preinscripción a los estudios de grados, dobles grados y PARS de la UPV en estas fechas: El viernes 10 de julio, a partir de las 13 h. Conoce el resultado de tu preinscripción Descubre el estado de la preinscripción de los estudios que has solicitado. Ir a la plataforma Reclamación de los resultados de preinscripción Fechas: Del 14 al 16 de julio (hasta las 14 h del día 16) ¿Cómo hacer la reclamación?: A través de este enlace. Resolución de reclamaciones: 18 de julio, a las 14 h Preinscripción admitida ¿Has sido admitido en la preinscripción? En esta página de la automatrícula , encontrarás la fecha y hora a la que debes matricularte . Recuerda que la matrícula se realiza a través de internet y que es muy importante llevarla a cabo en el horario asignado, ya que, en caso contrario, se entiende que renuncias a tu plaza y esta vacante se asignará a otro estudiante a través de las listas de espera. Te proporcionamos más información sobre el proceso y fechas de matriculación en la sección 5 ‘Realiza la matrícula’.",
+              "texto": "Consulta los resultados de tu preinscripción a los estudios de grados, dobles grados y PARS de la UPV en estas fechas: El viernes 10 de julio, a partir de las 13 h. Conoce el resultado de tu preinscripción Descubre el estado de la preinscripción de los estudios que has solicitado. Ir a la plataforma Reclamación de los resultados de preinscripción Fechas: Del 14 al 16 de julio (hasta las 14 h del día 16) ¿Cómo hacer la reclamación?: A través de este enlace. Resolución de reclamaciones: 18 de julio, a las 14 h Preinscripción admitida ¿Has sido admitido en la preinscripción? En esta página de la automatrícula , encontrarás la fecha y hora a la que debes matricularte . Recuerda que la matrícula se realiza a través de internet y que es muy importante llevarla a cabo en el horario asignado, ya que, en caso contrario, se entiende que renuncias a tu plaza y esta vacante se asignará a otro estudiante a través de las listas de espera. Te proporcionamos más información sobre el proceso y fechas de matriculación  en la sección 5 ‘Realiza la matrícula’.",
               "enlaces": [
                 {
                   "texto": "Ir a la plataforma",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 },
                 {
                   "texto": "En esta página de la automatrícula",
@@ -574,18 +721,18 @@
                 },
                 {
                   "texto": "fecha y hora a la que debes matricularte",
-                  "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio"
+                  "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio?p_idioma=c"
                 },
                 {
                   "texto": "la matrícula se realiza a través de internet",
-                  "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual"
+                  "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual?p_cua=automat"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Conoce el resultado de tu preinscripción",
                   "descripcion": "Descubre el estado de la preinscripción de los estudios que has solicitado.",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 }
               ]
             },
@@ -598,9 +745,9 @@
           ]
         },
         {
-          "id": "section-05",
+          "id": "realiza_la_matricula",
           "titulo": "Realiza la matrícula",
-          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula. ¡Estamos deseosos de conocerte!",
+          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.  ¡Estamos deseosos de conocerte!",
           "tarjetas": [],
           "acordeones": [
             {
@@ -626,21 +773,21 @@
               "enlaces": [
                 {
                   "texto": "Acceder al tutorial",
-                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw"
+                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Tutorial: SOS Matrícula",
                   "descripcion": "La sesión se celebrará a mediados de julio. La asistencia es gratuita, solo es necesario inscribirse haciendo clic en el siguiente botón.",
-                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw"
+                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration"
                 }
               ]
             }
           ]
         },
         {
-          "id": "section-06",
+          "id": "comienza_tu_aventura",
           "titulo": "Comienza tu aventura",
           "descripcion": "¡Enhorabuena! Ya eres oficialmente estudiante de la Universitat Politècnica de València. Hasta que comiencen las clases, ¿qué tal si empiezas por aquí? No te pierdas estos contenidos que pueden ayudarte a empezar.",
           "tarjetas": [
@@ -672,14 +819,167 @@
           ],
           "acordeones": []
         }
-      ]
+      ],
+      "recursos": [
+        {
+          "titulo": "Jornadas de Puertas Abiertas",
+          "url": "https://www.jpa.upv.es/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Videopódcasts OPEN",
+          "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Red de Embajadores",
+          "url": "https://www.upv.es/contenidos/embajadores/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Campus Praktikum",
+          "url": "https://www.upv.es/contenidos/praktikum/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Geocaching",
+          "url": "https://geocaching.upv.es/portada/cas/index.html",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "IA orientadora",
+          "url": "https://www.upv.es/contenidos/asistenteia/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Grados y dobles grados",
+          "url": "https://www.upv.es/estudios/grado/index-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Programas Académicos de Recorrido Sucesivo (PARS)",
+          "url": "https://www.upv.es/entidades/vecal/programa-academico-de-recorrido-sucesivo-pars/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Estudia en China",
+          "url": "https://www.upv.es/china",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Dobles titulaciones internacionales",
+          "url": "https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Elige el idioma",
+          "url": "https://aplicat.upv.es/buscasiupv-app/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Calendario y horarios de las PAU",
+          "url": "https://www.upv.es/entidades/SA/acceso/728089normalc.html",
+          "seccion_id": "mejora_tu_nota_en_las_pau_opcional"
+        },
+        {
+          "titulo": "preinscripción",
+          "url": "https://universitats.gva.es/es/preinscripcio-universitaria",
+          "seccion_id": "mejora_tu_nota_en_las_pau_opcional"
+        },
+        {
+          "titulo": "Consultar guía",
+          "url": "https://universitats.gva.es/documents/389338055/389339982/GUIA+PAU+2025_Actual29-04-25.pdf/cd2fbaa2-a218-07e6-77b7-5753e79bd061?t=1745927490547",
+          "seccion_id": "mejora_tu_nota_en_las_pau_opcional"
+        },
+        {
+          "titulo": "Ir al portal",
+          "url": "https://appweb1.edu.gva.es/paseu/login.sec",
+          "seccion_id": "mejora_tu_nota_en_las_pau_opcional"
+        },
+        {
+          "titulo": "aplicación",
+          "url": "https://tramitadoredu.gva.es/jwt/#/home",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "instrucciones para realizar el procedimiento",
+          "url": "https://universitats.gva.es/documents/389338055/389340600/WEB+INSTRUCCIONES+PREINSCRIPCI%C3%93N+2026.pdf/c76a07ad-3d3d-6903-7df7-e7b96fd507f4?t=1780663471514",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceso a la aplicación con clave PAU (video)",
+          "url": "https://videos.gva.es/index.php/extwidget/preview/partner_id/324/uiconf_id/23448810/entry_id/0_2xqiot9c/embed/dynamic",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceso a la aplicación con certificado digital (video)",
+          "url": "https://videos.gva.es/index.php/extwidget/preview/partner_id/324/uiconf_id/23448810/entry_id/0_lfaynn5d/embed/dynamic",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceso a la aplicación con otros métodos (video)",
+          "url": "https://videos.gva.es/index.php/extwidget/preview/partner_id/324/uiconf_id/23448810/entry_id/0_15une7su/embed/dynamic",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceder al vídeo",
+          "url": "https://www.upv.es/contenidos/jpa/sos-preinscripcion-y-matricula/",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "En esta página de la automatrícula",
+          "url": "https://automatricula.upv.es/index-es.html",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "fecha y hora a la que debes matricularte",
+          "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio?p_idioma=c",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "la matrícula se realiza a través de internet",
+          "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual?p_cua=automat",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceder al tutorial",
+          "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration",
+          "seccion_id": "realiza_la_matricula"
+        },
+        {
+          "titulo": "Jornadas de acogida",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Calendario académico",
+          "url": "https://www.upv.es/perfiles/estudiante/calendario-academico-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Carné UPV",
+          "url": "https://www.upv.es/entidades/acom/carnet-upv-es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Cursos MOOC de nivelación",
+          "url": "https://www.upvx.es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "PoliFormaT",
+          "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339",
+          "seccion_id": "comienza_tu_aventura"
+        }
+      ],
+      "carpeta": "ciclos_formativos"
     },
     {
-      "titulo": "Admisión grado - titulados | UPV - Universitat Politècnica de València",
+      "titulo": "Admisión a grado",
       "url": "https://www.upv.es/admision/admision-grado/titulados-universitarios-es.html",
       "secciones": [
         {
-          "id": "section-01",
+          "id": "conoce_la_upv",
           "titulo": "Conoce la UPV",
           "descripcion": "Cada año la UPV organiza diferentes actividades para que estudiantes de bachillerato, ciclos formativos y familias conozcan de primera mano qué estudios ofrece la universidad, así como los servicios, recursos e instalaciones de sus tres campus.",
           "tarjetas": [
@@ -691,7 +991,7 @@
             {
               "titulo": "Videopódcasts OPEN",
               "descripcion": "¿Es muy difícil la carrera? ¿Cuánto se cobra? Conoce nuestros grados",
-              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/"
+              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open"
             },
             {
               "titulo": "Red de Embajadores",
@@ -712,7 +1012,7 @@
           "acordeones": []
         },
         {
-          "id": "section-02",
+          "id": "elige_estudios",
           "titulo": "Elige estudios",
           "descripcion": "¿Qué quieres estudiar? La UPV te ofrece decenas de opciones entre grados, dobles grados y PARS para que te formes en lo que más te gusta. ¡Tenemos lo que buscas, seguro!",
           "tarjetas": [
@@ -723,7 +1023,7 @@
             },
             {
               "titulo": "Grados y dobles grados",
-              "descripcion": "Más de 40 grados, 17 dobles títulos...¡Y subiendo!",
+              "descripcion": "Más de 40 grados, 17 dobles títulos... ¡Y subiendo!",
               "url": "https://www.upv.es/estudios/grado/index-es.html"
             },
             {
@@ -750,7 +1050,7 @@
           "acordeones": []
         },
         {
-          "id": "section-03",
+          "id": "haz_tu_preinscripcion",
           "titulo": "Haz tu preinscripción",
           "descripcion": "Has logrado lo más difícil. ¡Enhorabuena! Si ya has elegido los estudios en los que te gustaría formarte, llega el momento de realizar la preinscripción. Toma nota de todos los datos y... ¡A por ello!",
           "tarjetas": [],
@@ -761,14 +1061,14 @@
               "enlaces": [
                 {
                   "texto": "Ir a la preinscripción",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Acceso a la preinscripción",
                   "descripcion": "Accede tanto a la aplicación de preinscripción como a todos los recursos de ayuda que te facilita la Generalitat Valenciana.",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 }
               ]
             },
@@ -797,11 +1097,11 @@
             },
             {
               "titulo": "Conoce el resultado de tu preinscripción",
-              "texto": "Consulta los resultados de tu preinscripción a los estudios de grados, dobles grados y PARS de la UPV en estas fechas: El viernes 10 de julio, a partir de las 13 h. Conoce el resultado de tu preinscripción Descubre el estado de la preinscripción de los estudios que has solicitado. Ir a la plataforma Reclamación de los resultados de preinscripción Fechas: Del 14 al 16 de julio (hasta las 14 h del día 16) ¿Cómo hacer la reclamación?: A través de este enlace. Resolución de reclamaciones: 18 de julio, a las 14 h Preinscripción admitida ¿Has sido admitido en la preinscripción? En esta página de la automatrícula , encontrarás la fecha y hora a la que debes matricularte . Recuerda que la matrícula se realiza a través de internet y que es muy importante llevarla a cabo en el horario asignado, ya que, en caso contrario, se entiende que renuncias a tu plaza y esta vacante se asignará a otro estudiante a través de las listas de espera. Te proporcionamos más información sobre el proceso y fechas de matriculación en la sección 4 ‘Realiza la matrícula’.",
+              "texto": "Consulta los resultados de tu preinscripción a los estudios de grados, dobles grados y PARS de la UPV en estas fechas: El viernes 10 de julio, a partir de las 13 h. Conoce el resultado de tu preinscripción Descubre el estado de la preinscripción de los estudios que has solicitado. Ir a la plataforma Reclamación de los resultados de preinscripción Fechas: Del 14 al 16 de julio (hasta las 14 h del día 16) ¿Cómo hacer la reclamación?: A través de este enlace. Resolución de reclamaciones: 18 de julio, a las 14 h Preinscripción admitida ¿Has sido admitido en la preinscripción? En esta página de la automatrícula , encontrarás la fecha y hora a la que debes matricularte . Recuerda que la matrícula se realiza a través de internet y que es muy importante llevarla a cabo en el horario asignado, ya que, en caso contrario, se entiende que renuncias a tu plaza y esta vacante se asignará a otro estudiante a través de las listas de espera. Te proporcionamos más información sobre el proceso y fechas de matriculación  en la sección 4 ‘Realiza la matrícula’.",
               "enlaces": [
                 {
                   "texto": "Ir a la plataforma",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 },
                 {
                   "texto": "En esta página de la automatrícula",
@@ -809,18 +1109,18 @@
                 },
                 {
                   "texto": "fecha y hora a la que debes matricularte",
-                  "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio"
+                  "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio?p_idioma=c"
                 },
                 {
                   "texto": "la matrícula se realiza a través de internet",
-                  "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual"
+                  "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual?p_cua=automat"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Conoce el resultado de tu preinscripción",
                   "descripcion": "Descubre el estado de la preinscripción de los estudios que has solicitado.",
-                  "url": "https://tramitadoredu.gva.es/jwt/"
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
                 }
               ]
             },
@@ -833,9 +1133,9 @@
           ]
         },
         {
-          "id": "section-04",
+          "id": "realiza_la_matricula",
           "titulo": "Realiza la matrícula",
-          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula. ¡Estamos deseosos de conocerte!",
+          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.  ¡Estamos deseosos de conocerte!",
           "tarjetas": [],
           "acordeones": [
             {
@@ -861,21 +1161,21 @@
               "enlaces": [
                 {
                   "texto": "Acceder al tutorial",
-                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw"
+                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration"
                 }
               ],
               "banners": [
                 {
                   "titulo": "Tutorial: SOS Matrícula",
                   "descripcion": "La sesión se celebrará a mediados de julio. La asistencia es gratuita, solo es necesario inscribirse haciendo clic en el siguiente botón.",
-                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw"
+                  "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration"
                 }
               ]
             }
           ]
         },
         {
-          "id": "section-05",
+          "id": "comienza_tu_aventura",
           "titulo": "Comienza tu aventura",
           "descripcion": "¡Enhorabuena! Ya eres oficialmente estudiante de la Universitat Politècnica de València. Hasta que comiencen las clases, ¿qué tal si empiezas por aquí? No te pierdas estos contenidos que pueden ayudarte a empezar.",
           "tarjetas": [
@@ -907,14 +1207,127 @@
           ],
           "acordeones": []
         }
-      ]
+      ],
+      "recursos": [
+        {
+          "titulo": "Jornadas de Puertas Abiertas",
+          "url": "https://www.jpa.upv.es/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Videopódcasts OPEN",
+          "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Red de Embajadores",
+          "url": "https://www.upv.es/contenidos/embajadores/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Campus Praktikum",
+          "url": "https://www.upv.es/contenidos/praktikum/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Geocaching",
+          "url": "https://geocaching.upv.es/portada/cas/index.html",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "IA orientadora",
+          "url": "https://www.upv.es/contenidos/asistenteia/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Grados y dobles grados",
+          "url": "https://www.upv.es/estudios/grado/index-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Programas Académicos de Recorrido Sucesivo (PARS)",
+          "url": "https://www.upv.es/entidades/vecal/programa-academico-de-recorrido-sucesivo-pars/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Estudia en China",
+          "url": "https://www.upv.es/china",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Dobles titulaciones internacionales",
+          "url": "https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Elige el idioma",
+          "url": "https://aplicat.upv.es/buscasiupv-app/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Ir a la preinscripción",
+          "url": "https://tramitadoredu.gva.es/jwt/#/home",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceder al vídeo",
+          "url": "https://www.upv.es/contenidos/jpa/sos-preinscripcion-y-matricula/",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "En esta página de la automatrícula",
+          "url": "https://automatricula.upv.es/index-es.html",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "fecha y hora a la que debes matricularte",
+          "url": "https://www.upv.es/pls/oalu/sic_acc.Inicio?p_idioma=c",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "la matrícula se realiza a través de internet",
+          "url": "https://intranet.upv.es/pls/soalu/est_intranet.ni_Dual?p_cua=automat",
+          "seccion_id": "haz_tu_preinscripcion"
+        },
+        {
+          "titulo": "Acceder al tutorial",
+          "url": "https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration",
+          "seccion_id": "realiza_la_matricula"
+        },
+        {
+          "titulo": "Jornadas de acogida",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Calendario académico",
+          "url": "https://www.upv.es/perfiles/estudiante/calendario-academico-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Carné UPV",
+          "url": "https://www.upv.es/entidades/acom/carnet-upv-es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Cursos MOOC de nivelación",
+          "url": "https://www.upvx.es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "PoliFormaT",
+          "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339",
+          "seccion_id": "comienza_tu_aventura"
+        }
+      ],
+      "carpeta": "titulados_universitarios"
     },
     {
-      "titulo": "Admisión grado - mayores de 25 40 45 | UPV - Universitat Politècnica de València",
+      "titulo": "Admisión a grado",
       "url": "https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html",
       "secciones": [
         {
-          "id": "section-01",
+          "id": "conoce_la_upv",
           "titulo": "Conoce la UPV",
           "descripcion": "Cada año la UPV organiza diferentes jornadas informativas para que los futuros alumnos conozcan de primera mano qué estudios ofrece la universidad, así como los servicios, actividades e instalaciones de sus tres campus.",
           "tarjetas": [
@@ -926,7 +1339,7 @@
             {
               "titulo": "Videopódcasts OPEN",
               "descripcion": "¿Es muy difícil la carrera? ¿Cuánto se cobra? Conoce nuestros grados",
-              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/"
+              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open"
             },
             {
               "titulo": "Red de Embajadores",
@@ -947,7 +1360,7 @@
           "acordeones": []
         },
         {
-          "id": "section-02",
+          "id": "elige_estudios",
           "titulo": "Elige estudios",
           "descripcion": "¿Qué quieres estudiar? La UPV te ofrece decenas de opciones entre grados, dobles grados y PARS para que te formes en lo que más te gusta. ¡Tenemos lo que buscas, seguro!",
           "tarjetas": [
@@ -958,7 +1371,7 @@
             },
             {
               "titulo": "Grados y dobles grados",
-              "descripcion": "Más de 40 grados, 17 dobles títulos...¡Y subiendo!",
+              "descripcion": "Más de 40 grados, 17 dobles títulos... ¡Y subiendo!",
               "url": "https://www.upv.es/estudios/grado/index-es.html"
             },
             {
@@ -985,7 +1398,7 @@
           "acordeones": []
         },
         {
-          "id": "section-03",
+          "id": "planifica_tu_prueba_especifica",
           "titulo": "Planifica tu prueba específica",
           "descripcion": "Si ya has elegido los estudios en los que te gustaría formarte, llega el momento de realizar la prueba específica, que será diferente dependiendo de tu perfil. Toma nota de todos los datos y... ¡A por ello!",
           "tarjetas": [],
@@ -1038,7 +1451,7 @@
             },
             {
               "titulo": "Consulta todos los detalles sobre esta prueba aquí",
-              "texto": "Tipo de prueba: examen y entrevista personal Nº de plazas reservadas: el cupo de mayores de 40 y 45 años es del 1% en cada caso, compensables uno con otro hasta el máximo de 2%, en conjunto Solo pueden acceder a la universidad por esta vía los candidatos mayores de 45 años que no posean ninguna titulación académica que les posibilite acceder a la universidad por otras vías y que tampoco puedan demostrar experiencia laboral o profesional. La superación de la prueba de acceso permitirá ser admitido únicamente en la Universidad en la que se haya realizado la prueba y para los estudios solicitados en la prueba. Para solicitar plaza y matricularse es imprescindible realizar la preinscripcion. Consulta todos los detalles sobre esta prueba aquí Más información ¿En qué consiste la prueba? La prueba de acceso para mayores de 45 años comprende tres ejercicios: Comentario de texto o desarrollo de un tema general de actualidad Lengua castellana Lengua valenciana ¿Cuándo se considera aprobado el examen? El candidato habrá superado la prueba de acceso cuando obtenga un mínimo de cinco puntos en la calificación definitiva. En ningún caso se puede promediar cuando se obtenga una puntuación inferior a cuatro puntos en alguno de los ejercicios. Además, los candidatos deben realizar una entrevista personal. Del resultado de la entrevista deberá elevarse una resolución de apto como condición necesaria para la posterior resolución favorable de admisión del interesado.",
+              "texto": "Tipo de prueba: examen y entrevista personal Nº de plazas reservadas: el cupo de mayores de 40 y 45 años es del 1% en cada caso, compensables uno con otro hasta el máximo de 2%, en conjunto Solo pueden acceder a la universidad por esta vía los candidatos mayores de 45 años que no posean ninguna titulación académica que les posibilite acceder a la universidad por otras vías y que tampoco puedan demostrar experiencia laboral o profesional. La superación de la prueba de acceso permitirá ser admitido únicamente en la Universidad en la que se haya realizado la prueba y para los estudios solicitados en la prueba. Para solicitar plaza y matricularse es imprescindible realizar la preinscripcion. Consulta todos los detalles sobre esta prueba aquí Más información ¿En qué consiste la prueba? La prueba de acceso para mayores de 45 años comprende tres ejercicios: Comentario de texto o desarrollo de un tema general de actualidad Lengua castellana Lengua valenciana ¿Cuándo se considera aprobado el examen? El candidato habrá superado la prueba de acceso cuando obtenga un mínimo de cinco puntos en la calificación definitiva. En ningún caso se puede promediar cuando se obtenga una puntuación inferior a cuatro puntos en alguno de los ejercicios. Además, los candidatos deben realizar una entrevista personal. Del resultado de la entrevista deberá elevarse una resolución de apto como condición necesaria para la posterior resolución favorable de admisión del interesado.",
               "enlaces": [
                 {
                   "texto": "Más información",
@@ -1068,7 +1481,7 @@
           ]
         },
         {
-          "id": "section-04",
+          "id": "solicita_acceso_a_la_prueba",
           "titulo": "Solicita acceso a la prueba",
           "descripcion": "Ya sabes en qué consiste tu prueba específica. Ahora es el momento de realizar la matrícula para presentarte a dichas pruebas. ¡Ánimo!",
           "tarjetas": [],
@@ -1129,9 +1542,9 @@
           ]
         },
         {
-          "id": "section-05",
+          "id": "realiza_la_matricula",
           "titulo": "Realiza la matrícula",
-          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula. ¡Estamos deseosos de conocerte!",
+          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.  ¡Estamos deseosos de conocerte!",
           "tarjetas": [],
           "acordeones": [
             {
@@ -1160,7 +1573,7 @@
           ]
         },
         {
-          "id": "section-06",
+          "id": "comienza_tu_aventura",
           "titulo": "Comienza tu aventura",
           "descripcion": "¡Enhorabuena! Ya eres oficialmente estudiante de la Universitat Politècnica de València. Hasta que comiencen las clases, ¿qué tal si empiezas por aquí? No te pierdas estos contenidos que pueden ayudarte a empezar.",
           "tarjetas": [
@@ -1192,14 +1605,122 @@
           ],
           "acordeones": []
         }
-      ]
+      ],
+      "recursos": [
+        {
+          "titulo": "Jornadas de Puertas Abiertas",
+          "url": "https://www.jpa.upv.es/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Videopódcasts OPEN",
+          "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Red de Embajadores",
+          "url": "https://www.upv.es/contenidos/embajadores/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Campus Praktikum",
+          "url": "https://www.upv.es/contenidos/praktikum/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Geocaching",
+          "url": "https://geocaching.upv.es/portada/cas/index.html",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "IA orientadora",
+          "url": "https://www.upv.es/contenidos/asistenteia/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Grados y dobles grados",
+          "url": "https://www.upv.es/estudios/grado/index-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Programas Académicos de Recorrido Sucesivo (PARS)",
+          "url": "https://www.upv.es/entidades/vecal/programa-academico-de-recorrido-sucesivo-pars/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Estudia en China",
+          "url": "https://www.upv.es/china",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Dobles titulaciones internacionales",
+          "url": "https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Elige el idioma",
+          "url": "https://aplicat.upv.es/buscasiupv-app/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Más información",
+          "url": "https://www.upv.es/entidades/SA/acceso/396893normalc.html",
+          "seccion_id": "planifica_tu_prueba_especifica"
+        },
+        {
+          "titulo": "Más información",
+          "url": "https://www.upv.es/entidades/SA/acceso/740376normalc.html",
+          "seccion_id": "planifica_tu_prueba_especifica"
+        },
+        {
+          "titulo": "Más información",
+          "url": "https://www.upv.es/entidades/SA/acceso/740375normalc.html",
+          "seccion_id": "planifica_tu_prueba_especifica"
+        },
+        {
+          "titulo": "Ir a la inscripción",
+          "url": "https://aplicat.upv.es/montlleo2-app/public/inicio.xhtml",
+          "seccion_id": "solicita_acceso_a_la_prueba"
+        },
+        {
+          "titulo": "Ir a la plataforma",
+          "url": "https://automatricula.upv.es/index-es.html",
+          "seccion_id": "realiza_la_matricula"
+        },
+        {
+          "titulo": "Jornadas de acogida",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Calendario académico",
+          "url": "https://www.upv.es/perfiles/estudiante/calendario-academico-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Carné UPV",
+          "url": "https://www.upv.es/entidades/acom/carnet-upv-es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Cursos MOOC de nivelación",
+          "url": "https://www.upvx.es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "PoliFormaT",
+          "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339",
+          "seccion_id": "comienza_tu_aventura"
+        }
+      ],
+      "carpeta": "mayores_25_40_45"
     },
     {
-      "titulo": "Admisión grado - otras univeridades | UPV - Universitat Politècnica de València",
+      "titulo": "Admisión a grado",
       "url": "https://www.upv.es/admision/admision-grado/vengo-de-otra-universidad-es.html",
       "secciones": [
         {
-          "id": "section-01",
+          "id": "conoce_la_upv",
           "titulo": "Conoce la UPV",
           "descripcion": "¡Queremos conocerte! Cada año la UPV organiza diferentes jornadas informativas para que los futuros alumnos conozcan de primera mano qué estudios ofrece la universidad, así como los servicios, actividades e instalaciones de sus tres campus.",
           "tarjetas": [
@@ -1211,7 +1732,7 @@
             {
               "titulo": "Videopódcasts OPEN",
               "descripcion": "¿Es muy difícil la carrera? ¿Cuánto se cobra? Conoce nuestros grados",
-              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/"
+              "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open"
             },
             {
               "titulo": "Red de Embajadores",
@@ -1232,7 +1753,7 @@
           "acordeones": []
         },
         {
-          "id": "section-02",
+          "id": "elige_estudios",
           "titulo": "Elige estudios",
           "descripcion": "¿Qué quieres estudiar? La UPV te ofrece decenas de opciones entre grados, dobles grados y PARS para que te formes en lo que más te gusta. ¡Tenemos lo que buscas, seguro!",
           "tarjetas": [
@@ -1243,7 +1764,7 @@
             },
             {
               "titulo": "Grados y dobles grados",
-              "descripcion": "Más de 40 grados, 17 dobles títulos...¡Y subiendo!",
+              "descripcion": "Más de 40 grados, 17 dobles títulos... ¡Y subiendo!",
               "url": "https://www.upv.es/estudios/grado/index-es.html"
             },
             {
@@ -1270,23 +1791,23 @@
           "acordeones": []
         },
         {
-          "id": "section-03",
+          "id": "solicita_plaza",
           "titulo": "Solicita plaza",
           "descripcion": "Si ya has elegido los estudios en los que te gustaría formarte, llega el momento de solicitar plaza en la UPV. Toma nota de todos los datos y... ¡A por ello!",
           "tarjetas": [],
           "acordeones": [
             {
               "titulo": "",
-              "texto": "Para acceder a la solicitud, los miembros de la comunidad universitaria de la UPV deben identificarse con su DNI y su PIN, mientras que los demás deben solicitar un identificador previo a través del mismo enlace de la solicitud. Al realizar la solicitud de admisión, es obligatorio cumplimentar también la solicitud de reconocimiento de créditos de las asignaturas cursadas a través del apartado Gestión de reconocimiento.",
+              "texto": "Para acceder a la solicitud, los miembros de la comunidad universitaria de la UPV deben identificarse con su DNI y su PIN, mientras que los demás deben solicitar un identificador previo a través del mismo enlace de la solicitud. Al realizar la solicitud de admisión, es obligatorio cumplimentar también la solicitud de reconocimiento de créditos de las asignaturas cursadas a través del apartado Gestión de reconocimiento.",
               "enlaces": [],
               "banners": []
             }
           ]
         },
         {
-          "id": "section-04",
+          "id": "realiza_la_matricula",
           "titulo": "Realiza la matrícula",
-          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula. ¡Estamos deseosos de conocerte!",
+          "descripcion": "Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.  ¡Estamos deseosos de conocerte!",
           "tarjetas": [],
           "acordeones": [
             {
@@ -1315,7 +1836,7 @@
           ]
         },
         {
-          "id": "section-05",
+          "id": "comienza_tu_aventura",
           "titulo": "Comienza tu aventura",
           "descripcion": "¡Enhorabuena! Ya eres oficialmente estudiante de la Universitat Politècnica de València. Hasta que comiencen las clases, ¿qué tal si empiezas por aquí? No te pierdas estos contenidos que pueden ayudarte a empezar.",
           "tarjetas": [
@@ -1347,7 +1868,95 @@
           ],
           "acordeones": []
         }
-      ]
+      ],
+      "recursos": [
+        {
+          "titulo": "Jornadas de Puertas Abiertas",
+          "url": "https://www.jpa.upv.es/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Videopódcasts OPEN",
+          "url": "https://www.upv.es/contenidos/jpa/sesiones-on-line-2/#videopodcasts-open",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Red de Embajadores",
+          "url": "https://www.upv.es/contenidos/embajadores/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Campus Praktikum",
+          "url": "https://www.upv.es/contenidos/praktikum/",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "Geocaching",
+          "url": "https://geocaching.upv.es/portada/cas/index.html",
+          "seccion_id": "conoce_la_upv"
+        },
+        {
+          "titulo": "IA orientadora",
+          "url": "https://www.upv.es/contenidos/asistenteia/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Grados y dobles grados",
+          "url": "https://www.upv.es/estudios/grado/index-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Programas Académicos de Recorrido Sucesivo (PARS)",
+          "url": "https://www.upv.es/entidades/vecal/programa-academico-de-recorrido-sucesivo-pars/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Estudia en China",
+          "url": "https://www.upv.es/china",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Dobles titulaciones internacionales",
+          "url": "https://www.upv.es/estudios/grado/dobles-tit-internacionales-es.html",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Elige el idioma",
+          "url": "https://aplicat.upv.es/buscasiupv-app/",
+          "seccion_id": "elige_estudios"
+        },
+        {
+          "titulo": "Ir a la plataforma",
+          "url": "https://automatricula.upv.es/index-es.html",
+          "seccion_id": "realiza_la_matricula"
+        },
+        {
+          "titulo": "Jornadas de acogida",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Calendario académico",
+          "url": "https://www.upv.es/perfiles/estudiante/calendario-academico-es.html",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Carné UPV",
+          "url": "https://www.upv.es/entidades/acom/carnet-upv-es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "Cursos MOOC de nivelación",
+          "url": "https://www.upvx.es/",
+          "seccion_id": "comienza_tu_aventura"
+        },
+        {
+          "titulo": "PoliFormaT",
+          "url": "https://poliformat.upv.es/portal/site/!gateway-es/tool/4bd36fed-4d79-4d97-a044-f5c1b72f2339",
+          "seccion_id": "comienza_tu_aventura"
+        }
+      ],
+      "carpeta": "otra_universidad"
     }
   ]
 }

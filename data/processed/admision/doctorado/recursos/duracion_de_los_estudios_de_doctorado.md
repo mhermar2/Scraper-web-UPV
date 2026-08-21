@@ -1,27 +1,30 @@
 ---
 fuente: UPV
+url: https://www.upv.es/entidades/edoctorado/duracion-de-los-estudios-de-doctorado/
 categoria: admision
 nivel: doctorado
 tipo_documento: recurso
-seccion_origen: realiza_la_matricula
-url: https://www.upv.es/entidades/edoctorado/duracion-de-los-estudios-de-doctorado/
+tipo_recurso: informacion
+resumen: https://www.upv.es/admision/admision-doctorado/index-es.html
+seccion: realiza_la_matricula
+titulo: Duración de los estudios de doctorado
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Duración de los estudios de doctorado
 
-Contenido relacionado con el proceso de admisión a doctorado.
+**URL:** https://www.upv.es/entidades/edoctorado/duracion-de-los-estudios-de-doctorado/
 
-Sección de origen: Realiza la matrícula
-
-La duración de los estudios de doctorado está regulada por el Real Decreto 99/2011 por el que se regulan las enseñanzas oficiales de doctorado.
+La duración de los estudios de doctorado está regulada por el [Real Decreto 99/2011 por el que se regulan las enseñanzas oficiales de doctorado.](https://www.boe.es/eli/es/rd/2011/01/28/99/con)
 
 Esta normativa se modificó en julio de 2023, con lo que se contemplan dos posibles situaciones en cuanto a la duración de los estudios, dependiendo del curso académico en que se hizo la primera matrícula.
 
 Aunque no hay en realidad diferencia en cuanto al tiempo total disponible para completar la tesis, sí hay diferencia en cuanto al tratamiento de la solicitud de prórrogas, por lo que es importante entender en qué situación estás.
 
-Si tu primera matricula ha sido en el curso 2024-2025 o posterior
+### Si tu primera matricula ha sido en el curso 2024-2025 o posterior
 
-Resumen
+### Resumen
 
 Tiempo completo: 4 años
 
@@ -53,7 +56,9 @@ Las tesis desarrolladas con financiación de ayudas predoctorales deberán tener
 
 En el siguiente enlace podrás encontrar información específica y del proceso de solicitud relacionada con el régimen de dedicación o matrícula a tiempo parcial, prorrogas y bajas.
 
-Si tu primera matricula ha sido en el 2023-2024 o anterior
+[solicitudes de cambios y bajas](https://www.upv.es/entidades/edoctorado/solicitudes-cambios-y-bajas/)
+
+### Si tu primera matricula ha sido en el 2023-2024 o anterior
 
 Tiempo completo: 3 años + una primera prórroga de 1 año + una segunda prórroga de 1 año
 
@@ -75,4 +80,6 @@ b) Si transcurrido el período inicial no se ha depositado la tesis se podrá so
 
 c) Si tras la primera prórroga no se ha depositado la tesis, se podrá solicitar excepcionalmente una segunda prórroga que tendrá en cualquier caso una duración de 1 año.
 
-Fuente oficial: https://www.upv.es/entidades/edoctorado/duracion-de-los-estudios-de-doctorado/
+[INFORMACIÓN SOBRE SOLICITUDES](https://www.upv.es/entidades/edoctorado/solicitudes/)
+
+Compartir : [Compartir Facebook](http://www.facebook.com/sharer/sharer.php?s=100&u=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fedoctorado%2Fduracion-de-los-estudios-de-doctorado%2F&i=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fedoctorado%2Fwp-content%2Fuploads%2F2024%2F02%2FDuracion-de-los-estudios-de-doctorado-1024x772.jpg&t=Duraci%C3%B3n+de+los+estudios+de+doctorado&s=) [Compartir Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fedoctorado%2Fduracion-de-los-estudios-de-doctorado%2F) [Compartir Linkedin](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fedoctorado%2Fduracion-de-los-estudios-de-doctorado%2F&title=Duraci%C3%B3n+de+los+estudios+de+doctorado&summary=) [Compartir Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fedoctorado%2Fduracion-de-los-estudios-de-doctorado%2F&media=https%3A%2F%2Fwww.upv.es%2Fentidades%2Fedoctorado%2Fwp-content%2Fuploads%2F2024%2F02%2FDuracion-de-los-estudios-de-doctorado-1024x772.jpg&description=)

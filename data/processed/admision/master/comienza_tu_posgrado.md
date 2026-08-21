@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-master/index-es.html
 categoria: admision
 nivel: master
 tipo_documento: seccion
-seccion: comienza_tu_posgrado
+resumen: https://www.upv.es/admision/admision-master/index-es.html
+titulo: Comienza tu posgrado
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Comienza tu posgrado

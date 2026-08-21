@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-doctorado/index-es.html
 categoria: admision
 nivel: doctorado
 tipo_documento: seccion
-seccion: consulta_las_ayudas_predoctorales
+resumen: https://www.upv.es/admision/admision-doctorado/index-es.html
+titulo: Consulta las ayudas predoctorales
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Consulta las ayudas predoctorales

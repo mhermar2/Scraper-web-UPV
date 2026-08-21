@@ -1,0 +1,197 @@
+{
+  "padres": [
+    {
+      "titulo": "Alumnado internacional",
+      "url": "https://www.upv.es/admision/internacional/",
+      "secciones": [
+        {
+          "tipo": "contenido",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-text",
+            "upv-section",
+            "no-padding"
+          ],
+          "titulo": "",
+          "texto": "La Universitat Politècnica de València (UPV) es una universidad pública y de prestigio, reconocida internacionalmente. Y no es para menos, la UPV es la mejor universidad española de carácter tecnológico que figura en el ranking de Shanghái , el ranking de referencia, donde se evalúan más de 2.600 universidades de todo el mundo.",
+          "enlaces": [
+            {
+              "texto": "Universitat Politècnica de València",
+              "url": "http://www.upv.es/es"
+            },
+            {
+              "texto": "ranking de Shanghái",
+              "url": "http://www.upv.es/rankings/index.html"
+            }
+          ]
+        },
+        {
+          "tipo": "contenido",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-text",
+            "upv-section",
+            "circular"
+          ],
+          "titulo": "",
+          "texto": "Llevamos más de 50 años formando profesionales para un futuro cambiante y lleno de desafíos, por eso son muchas las herramientas que ponemos a tu alcance para conseguir con éxito tus objetivos profesionales. La Universitat Politècnica de València te abre las puertas a una educación de primer nivel, con la proyección internacional y el prestigio que te ofrece los estándares europeos. Y no sólo eso, la UPV te ofrece una experiencia educativa, formativa y vital que te preparará para el mejor futuro. El que tú elijas.",
+          "enlaces": []
+        },
+        {
+          "tipo": "contenido",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-media",
+            "upv-section",
+            "alt"
+          ],
+          "titulo": "",
+          "texto": "",
+          "enlaces": []
+        },
+        {
+          "tipo": "contenido",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-texts",
+            "upv-section",
+            "two"
+          ],
+          "titulo": "La UPV en rankings",
+          "texto": "La UPV en rankings Descubre cómo la UPV se posiciona en los rankings nacionales e internacionales y los logros de nuestros estudiantes y profesores. 1ª Universidad tecnológica española 1ª universidad española según U-Ranking 95% de titulados volvería a estudiar en la UPV 88% aprobados en primera convocatoria ¿Más información? Resuelve tus dudas Contáctanos",
+          "enlaces": [
+            {
+              "texto": "Contáctanos",
+              "url": "https://www.upv.es/pls/soalu/SIC_POLICONSULTA.BienvenidaGlobal?P_VISTA=normal&P_IDIOMA=c"
+            }
+          ]
+        },
+        {
+          "tipo": "contenedor",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-blocks",
+            "upv-section",
+            "two"
+          ],
+          "titulo": "",
+          "texto": "",
+          "enlaces": [
+            {
+              "texto": "preinscripción",
+              "url": "https://tramitadoredu.gva.es/jwt/#/home"
+            },
+            {
+              "texto": "preinscripción",
+              "url": "https://www.upv.es/entidades/SA/mastersoficiales/1183876normalc.html"
+            }
+          ],
+          "subsecciones": [
+            {
+              "titulo": "Calendario para grados",
+              "texto": "",
+              "enlaces": [
+                {
+                  "texto": "preinscripción",
+                  "url": "https://tramitadoredu.gva.es/jwt/#/home"
+                },
+                {
+                  "texto": "preinscripción",
+                  "url": "https://www.upv.es/entidades/SA/mastersoficiales/1183876normalc.html"
+                }
+              ],
+              "bloques": [
+                {
+                  "titulo": "Preinscripción",
+                  "texto": "La preinscripción se realiza desde mediados de junio hasta la primera semana de julio. Para el alumnado internacional, existe un plazo extendido hasta finales de julio.",
+                  "enlaces": [
+                    {
+                      "texto": "preinscripción",
+                      "url": "https://tramitadoredu.gva.es/jwt/#/home"
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Preinscripción",
+                  "texto": "Existen varias fases para la preinscripción de másteres universitarios. Como norma general, los plazos se abren en primer lugar para al alumnado internacional. Fase 0: a partir de noviembre. Fase 1: a partir de marzo. Fase 2: segunda quincena de junio. Fase 3: dos periodos, finales de julio y principios de septiembre.",
+                  "enlaces": [
+                    {
+                      "texto": "preinscripción",
+                      "url": "https://www.upv.es/entidades/SA/mastersoficiales/1183876normalc.html"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Calendario para doctorado",
+              "texto": "",
+              "enlaces": [],
+              "bloques": [
+                {
+                  "titulo": "Preinscripción",
+                  "texto": "Se establecen dos periodos. Cada doctorado puede acogerse a uno de estos dos plazos: Periodo A: de finales de junio a mediados de octubre. Periodo B: de septiembre a mediados de octubre.",
+                  "enlaces": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "seccion",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-boxes",
+            "upv-section",
+            "one"
+          ],
+          "titulo": "Proceso de admisión",
+          "texto": "Proceso de admisión Todos los procesos de acceso se realizan vía online presentando documentos escaneados. En el momento en que inicies la preinscripción, un tutorial te guiará con los procesos a seguir. En caso de que no dispongas documentos definitivos, te pedirán justificantes. Para la presentación física de documentos originales, tienes un plazo extendido que llega hasta diciembre. Tutorial proceso admisión para grado",
+          "enlaces": [
+            {
+              "texto": "Tutorial proceso admisión para grado",
+              "url": "https://www.youtube.com/watch?v=GE8F0QF_bAg"
+            }
+          ]
+        },
+        {
+          "tipo": "contenido",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-text",
+            "upv-section",
+            "alt"
+          ],
+          "titulo": "",
+          "texto": "TE AYUDAMOS Si tienes cualquier tipo de duda o pregunta, puedes ponerte en contacto con PoliConsulta, el servicio de información de la UPV que remitirá tu petición al responsable indicado y que te responderá en un plazo fijado.",
+          "enlaces": [
+            {
+              "texto": "",
+              "url": "https://www.upv.es/pls/soalu/SIC_POLICONSULTA.BienvenidaGlobal?P_VISTA=normal&P_IDIOMA=c"
+            }
+          ]
+        },
+        {
+          "tipo": "seccion",
+          "clases": [
+            "wp-block-group",
+            "alignfull",
+            "upv-boxes",
+            "upv-section",
+            "one"
+          ],
+          "titulo": "",
+          "texto": "",
+          "enlaces": []
+        }
+      ]
+    }
+  ]
+}

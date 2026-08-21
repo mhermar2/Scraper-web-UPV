@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/internacional/
 categoria: admision
 nivel: internacional
 tipo_documento: seccion
-seccion: la_upv_en_rankings
+resumen: https://www.upv.es/admision/internacional/
+titulo: La UPV en rankings
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # La UPV en rankings

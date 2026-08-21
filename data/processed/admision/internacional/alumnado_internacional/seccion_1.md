@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/internacional/
 categoria: admision
 nivel: internacional
 tipo_documento: seccion
-seccion: seccion_1
+resumen: https://www.upv.es/admision/internacional/
+titulo: Sección 1
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Información de admisión

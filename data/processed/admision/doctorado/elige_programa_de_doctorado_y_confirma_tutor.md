@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-doctorado/index-es.html
 categoria: admision
 nivel: doctorado
 tipo_documento: seccion
-seccion: elige_programa_de_doctorado_y_confirma_tutor
+resumen: https://www.upv.es/admision/admision-doctorado/index-es.html
+titulo: Elige Programa de Doctorado y confirma tutor
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Elige Programa de Doctorado y confirma tutor

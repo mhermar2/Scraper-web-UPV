@@ -1,14 +1,18 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: planifica_tu_prueba_especifica
+resumen: https://www.upv.es/admision/admision-grado/mayores-25-40-45-es.html
+titulo: Planifica tu prueba específica
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Planifica tu prueba específica
 
-Proceso de admisión: Admisión grado - mayores de 25 40 45 | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
 Si ya has elegido los estudios en los que te gustaría formarte, llega el momento de realizar la prueba específica, que será diferente dependiendo de tu perfil. Toma nota de todos los datos y... ¡A por ello!
 
@@ -38,7 +42,7 @@ Enlace oficial: https://www.upv.es/entidades/SA/acceso/740376normalc.html
 
 ## Consulta todos los detalles sobre esta prueba aquí
 
-Tipo de prueba: examen y entrevista personal Nº de plazas reservadas: el cupo de mayores de 40 y 45 años es del 1% en cada caso, compensables uno con otro hasta el máximo de 2%, en conjunto Solo pueden acceder a la universidad por esta vía los candidatos mayores de 45 años que no posean ninguna titulación académica que les posibilite acceder a la universidad por otras vías y que tampoco puedan demostrar experiencia laboral o profesional. La superación de la prueba de acceso permitirá ser admitido únicamente en la Universidad en la que se haya realizado la prueba y para los estudios solicitados en la prueba. Para solicitar plaza y matricularse es imprescindible realizar la preinscripcion. Consulta todos los detalles sobre esta prueba aquí Más información ¿En qué consiste la prueba? La prueba de acceso para mayores de 45 años comprende tres ejercicios: Comentario de texto o desarrollo de un tema general de actualidad Lengua castellana Lengua valenciana ¿Cuándo se considera aprobado el examen? El candidato habrá superado la prueba de acceso cuando obtenga un mínimo de cinco puntos en la calificación definitiva. En ningún caso se puede promediar cuando se obtenga una puntuación inferior a cuatro puntos en alguno de los ejercicios. Además, los candidatos deben realizar una entrevista personal. Del resultado de la entrevista deberá elevarse una resolución de apto como condición necesaria para la posterior resolución favorable de admisión del interesado.
+Tipo de prueba: examen y entrevista personal Nº de plazas reservadas: el cupo de mayores de 40 y 45 años es del 1% en cada caso, compensables uno con otro hasta el máximo de 2%, en conjunto Solo pueden acceder a la universidad por esta vía los candidatos mayores de 45 años que no posean ninguna titulación académica que les posibilite acceder a la universidad por otras vías y que tampoco puedan demostrar experiencia laboral o profesional. La superación de la prueba de acceso permitirá ser admitido únicamente en la Universidad en la que se haya realizado la prueba y para los estudios solicitados en la prueba. Para solicitar plaza y matricularse es imprescindible realizar la preinscripcion. Consulta todos los detalles sobre esta prueba aquí Más información ¿En qué consiste la prueba? La prueba de acceso para mayores de 45 años comprende tres ejercicios: Comentario de texto o desarrollo de un tema general de actualidad Lengua castellana Lengua valenciana ¿Cuándo se considera aprobado el examen? El candidato habrá superado la prueba de acceso cuando obtenga un mínimo de cinco puntos en la calificación definitiva. En ningún caso se puede promediar cuando se obtenga una puntuación inferior a cuatro puntos en alguno de los ejercicios. Además, los candidatos deben realizar una entrevista personal. Del resultado de la entrevista deberá elevarse una resolución de apto como condición necesaria para la posterior resolución favorable de admisión del interesado.
 
 - Más información: https://www.upv.es/entidades/SA/acceso/740375normalc.html
 

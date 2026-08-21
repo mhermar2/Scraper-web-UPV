@@ -1,9 +1,13 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-master/index-es.html
 categoria: admision
 nivel: master
 tipo_documento: seccion
-seccion: elige_estudios
+resumen: https://www.upv.es/admision/admision-master/index-es.html
+titulo: Elige estudios
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Elige estudios

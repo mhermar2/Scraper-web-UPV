@@ -1,16 +1,20 @@
 ---
 fuente: UPV
+url: https://www.upv.es/admision/admision-grado/titulados-universitarios-es.html
 categoria: admision
 nivel: grado
 tipo_documento: seccion
-seccion: realiza_la_matricula
+resumen: https://www.upv.es/admision/admision-grado/titulados-universitarios-es.html
+titulo: Realiza la matrícula
+descripcion: ""
+actualizado: 2026-08-21
 ---
 
 # Realiza la matrícula
 
-Proceso de admisión: Admisión grado - titulados | UPV - Universitat Politècnica de València
+Proceso de admisión: Admisión a grado
 
-Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula. ¡Estamos deseosos de conocerte!
+Estás muy cerca de formar parte de la comunidad UPV. Si has llegado a este paso es porque tu preinscripción ha sido aprobada y ahora toca formalizar la matrícula.  ¡Estamos deseosos de conocerte!
 
 ## Acceso a la automatrícula
 
@@ -28,11 +32,11 @@ Enlace oficial: https://automatricula.upv.es/index-es.html
 
 El proceso de matrícula y el funcionamiento de las listas de espera generan cada año muchas dudas. Por eso, la Universitat Politècnica de València (UPV) organiza una sesión informativa online , titulada SOS Matrícula , dirigida a quienes van a matricularse por primera vez en un grado en la UPV o están en lista de espera. Tutorial: SOS Matrícula La sesión se celebrará a mediados de julio. La asistencia es gratuita, solo es necesario inscribirse haciendo clic en el siguiente botón. Acceder al tutorial
 
-- Acceder al tutorial: https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw
+- Acceder al tutorial: https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration
 
 ## Tutorial: SOS Matrícula
 
 La sesión se celebrará a mediados de julio. La asistencia es gratuita, solo es necesario inscribirse haciendo clic en el siguiente botón.
 
-Enlace oficial: https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw
+Enlace oficial: https://us06web.zoom.us/webinar/register/WN_VhjPJgtETg-LCwUkkBytVw#/registration
 
