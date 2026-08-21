@@ -126,6 +126,24 @@ def extraer_acordeones(seccion, base: str) -> list[dict]:
     return acordeones
 
 
+def extraer_enlaces(seccion, base: str) -> list[dict]:
+    """Catch-all de TODOS los enlaces de la seccion, mas alla de los que
+    ya capturan tarjetas/acordeones/banners -- ver mismo fix en
+    extrae_master.py: no todos los enlaces relevantes viven dentro de un
+    widget reconocido (ej. un carrusel ".card-bg" fuera de
+    .box-number-box), sin esto se pierden en silencio."""
+    enlaces = []
+    vistos = set()
+    for a in seccion.find_all("a", href=True):
+        href = url_absoluta(a["href"], base)
+        texto = texto_limpio(a)
+        if not href or not texto or href in vistos:
+            continue
+        vistos.add(href)
+        enlaces.append({"texto": texto, "url": href})
+    return enlaces
+
+
 def extraer_catalogo(url: str = ADMISION_DOCTORADO_URL) -> dict:
     respuesta = requests.get(url, headers=HEADERS, timeout=30)
     respuesta.raise_for_status()
@@ -149,6 +167,7 @@ def extraer_catalogo(url: str = ADMISION_DOCTORADO_URL) -> dict:
             "tarjetas": extraer_tarjetas(seccion_html, url),
             "acordeones": extraer_acordeones(seccion_html, url),
             "banners": extraer_banners(seccion_html, url),
+            "enlaces": extraer_enlaces(seccion_html, url),
         })
 
     recursos = []
@@ -167,6 +186,10 @@ def extraer_catalogo(url: str = ADMISION_DOCTORADO_URL) -> dict:
                 if enlace.get("url") and enlace["url"] not in urls_vistas:
                     urls_vistas.add(enlace["url"])
                     recursos.append({"titulo": enlace["texto"], "url": enlace["url"], "seccion_id": seccion["id"]})
+        for enlace in seccion["enlaces"]:
+            if enlace.get("url") and enlace["url"] not in urls_vistas:
+                urls_vistas.add(enlace["url"])
+                recursos.append({"titulo": enlace["texto"], "url": enlace["url"], "seccion_id": seccion["id"]})
 
     print("Secciones encontradas:", len(secciones), "· recursos enlazados únicos:", len(recursos))
     return {"titulo": titulo_padre, "url": url, "descripcion": descripcion_padre, "secciones": secciones, "recursos": recursos}
@@ -294,7 +317,7 @@ def extraer_contenido_iframe_clasico(soup: BeautifulSoup, url_pagina: str) -> li
     return ml.limpiar_lineas_finales(lineas, recortar_h1=False)
 
 
-def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, url_resumen: str) -> bool:
+def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, url_resumen: str, nombres_usados: set[str]) -> bool:
     titulo = elemento.get("titulo", "")
     url = elemento.get("url", "")
     if not titulo or not url:
@@ -337,7 +360,7 @@ def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, u
 
     markdown = f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n{cuerpo}\n"
 
-    ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
+    ruta_archivo = carpeta / ml.nombre_archivo_sin_colision(titulo, nombres_usados, desambiguador=seccion_slug)
     with open(ruta_archivo, "w", encoding="utf-8") as archivo:
         archivo.write(markdown)
     print(f"  OK ({tipo}): {ruta_archivo}")
@@ -351,9 +374,10 @@ def generar_markdowns_recursos(datos: dict, carpeta: Path = ADMISION_DOCTORADO_R
 
     total = correctos = errores = 0
     elementos_escritos = []
+    nombres_usados: set[str] = set()
     for recurso in datos.get("recursos", []):
         total += 1
-        if generar_markdown_recurso(recurso, recurso["seccion_id"], carpeta, url_resumen):
+        if generar_markdown_recurso(recurso, recurso["seccion_id"], carpeta, url_resumen, nombres_usados):
             correctos += 1
             elementos_escritos.append(recurso)
         else:

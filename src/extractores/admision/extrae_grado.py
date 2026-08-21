@@ -355,7 +355,7 @@ def contenido_claramente_ajeno(titulo: str, cuerpo: str, url: str) -> bool:
     return sum(1 for patron in PATRONES_AJENOS if patron in texto) >= 2
 
 
-def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, url_resumen: str) -> bool:
+def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, url_resumen: str, nombres_usados: set[str]) -> bool:
     titulo = elemento.get("titulo", "")
     url = elemento.get("url", "")
     if not titulo or not url:
@@ -397,7 +397,7 @@ def generar_markdown_recurso(elemento: dict, seccion_slug: str, carpeta: Path, u
 
     markdown = f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n{cuerpo}\n"
 
-    ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
+    ruta_archivo = carpeta / ml.nombre_archivo_sin_colision(titulo, nombres_usados, desambiguador=seccion_slug)
     with open(ruta_archivo, "w", encoding="utf-8") as archivo:
         archivo.write(markdown)
     print(f"  OK ({tipo}): {ruta_archivo}")
@@ -414,9 +414,10 @@ def generar_markdowns_recursos(datos: dict, directorio_base: Path = ADMISION_GRA
         carpeta_recursos.mkdir(parents=True, exist_ok=True)
 
         elementos_escritos = []
+        nombres_usados: set[str] = set()
         for recurso in padre.get("recursos", []):
             total += 1
-            if generar_markdown_recurso(recurso, recurso["seccion_id"], carpeta_recursos, padre["url"]):
+            if generar_markdown_recurso(recurso, recurso["seccion_id"], carpeta_recursos, padre["url"], nombres_usados):
                 correctos += 1
                 elementos_escritos.append(recurso)
             time.sleep(0.3)

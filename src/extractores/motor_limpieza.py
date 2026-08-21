@@ -155,6 +155,39 @@ def nombre_archivo_markdown(titulo: str) -> str:
     return normalizar_identificador(titulo) + ".md"
 
 
+def nombre_archivo_sin_colision(titulo: str, nombres_usados: set[str], desambiguador: str = "") -> str:
+    """Como nombre_archivo_markdown(), pero evita que dos recursos
+    DISTINTOS con el mismo texto de enlace (ej. varios "Mas informacion"
+    con URLs diferentes dentro de la misma seccion, visto en
+    admision/grado) se pisen en silencio bajo el mismo nombre de fichero
+    dentro de una misma ejecucion. `nombres_usados` debe ser un set
+    compartido por todos los recursos de la misma carpeta, actualizado
+    por esta funcion en cada llamada -- no comprueba el disco (un
+    recurso que SI es el mismo de una ejecucion anterior debe poder
+    sobrescribir su propio fichero con normalidad, eso no es colision).
+    Intenta primero el nombre plano, luego title+desambiguador (p.ej. el
+    slug de la seccion de origen), y por ultimo un contador incremental."""
+    nombre = nombre_archivo_markdown(titulo)
+    if nombre not in nombres_usados:
+        nombres_usados.add(nombre)
+        return nombre
+
+    if desambiguador:
+        candidato = nombre_archivo_markdown(f"{titulo}_{desambiguador}")
+        if candidato not in nombres_usados:
+            nombres_usados.add(candidato)
+            return candidato
+
+    base = nombre[:-3]  # sin ".md"
+    contador = 2
+    while True:
+        candidato = f"{base}_{contador}.md"
+        if candidato not in nombres_usados:
+            nombres_usados.add(candidato)
+            return candidato
+        contador += 1
+
+
 # ==========================================================
 # Limpieza de ficheros huerfanos por cambio de titulo
 #

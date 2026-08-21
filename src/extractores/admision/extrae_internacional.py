@@ -677,7 +677,7 @@ def extraer_contenido_iframe_clasico(soup: BeautifulSoup, url_pagina: str) -> li
     return ml.limpiar_lineas_finales(lineas, recortar_h1=False)
 
 
-def generar_markdown_recurso(enlace: dict, carpeta: Path, url_resumen: str) -> dict | None:
+def generar_markdown_recurso(enlace: dict, carpeta: Path, url_resumen: str, nombres_usados: set[str]) -> dict | None:
     """Descarga y filtra un recurso enlazado; escribe el .md si pasa el
     filtro de relevancia internacional y devuelve {"titulo","url"} (para
     el catalogo de limpieza de renombrados), o None si se descarta."""
@@ -750,7 +750,7 @@ def generar_markdown_recurso(enlace: dict, carpeta: Path, url_resumen: str) -> d
     yaml_metadatos = _yaml_recurso(pagina, enlace.get("seccion_origen", ""), url_resumen)
     markdown = f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url_final}\n\n{cuerpo}\n"
 
-    ruta_archivo = carpeta / ml.nombre_archivo_markdown(titulo)
+    ruta_archivo = carpeta / ml.nombre_archivo_sin_colision(titulo, nombres_usados, desambiguador=enlace.get("seccion_origen", ""))
     with open(ruta_archivo, "w", encoding="utf-8") as archivo:
         archivo.write(markdown)
     print(f"  OK ({tipo}): {ruta_archivo}" + (" (URL aceptada manualmente)" if aceptar_manualmente else ""))
@@ -764,9 +764,10 @@ def generar_markdowns_recursos(enlaces_unicos: list[dict], carpeta: Path = ADMIS
 
     total = correctos = 0
     elementos_escritos = []
+    nombres_usados: set[str] = set()
     for enlace in enlaces_unicos:
         total += 1
-        pagina = generar_markdown_recurso(enlace, carpeta, url_resumen)
+        pagina = generar_markdown_recurso(enlace, carpeta, url_resumen, nombres_usados)
         if pagina is not None:
             correctos += 1
             elementos_escritos.append(pagina)
