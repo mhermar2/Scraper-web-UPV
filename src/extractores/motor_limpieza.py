@@ -24,9 +24,11 @@ Resumen del algoritmo:
 
 from __future__ import annotations
 
+import json
 import re
 import unicodedata
 from datetime import date
+from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -150,6 +152,84 @@ def crear_elemento(titulo: str = "", descripcion: str = "", url: str = "", tipo:
 
 def nombre_archivo_markdown(titulo: str) -> str:
     return normalizar_identificador(titulo) + ".md"
+
+
+# ==========================================================
+# Limpieza de ficheros huerfanos por cambio de titulo
+#
+# El nombre de fichero de cada recurso sale del titulo (ver
+# nombre_archivo_markdown), pero el titulo puede cambiar en la web entre
+# una ejecucion y la siguiente -- sin este paso, el .md antiguo se queda
+# huerfano en la carpeta (el mismo recurso duplicado bajo dos nombres),
+# porque nada mas que el propio nombre de fichero identifica de que
+# recurso se trata. La url SI es una identidad estable (es la clave que
+# ya usan crear_elemento()/deduplicar_lista()), asi que sirve para
+# detectar el mismo recurso con un titulo distinto.
+# ==========================================================
+
+def cargar_catalogo_anterior(ruta_json: Path) -> dict[str, list[dict]]:
+    """Carga, agrupado por id de seccion, el catalogo JSON que dejo la
+    ejecucion anterior en data/raw/ -- debe llamarse ANTES de que
+    guardar_json() lo sobreescriba con el catalogo nuevo. Usado por
+    limpiar_ficheros_renombrados(). Si no existe o esta corrupto,
+    devuelve {} (equivale a "primera ejecucion", no hay nada que
+    limpiar)."""
+    if not ruta_json.exists():
+        return {}
+    try:
+        with open(ruta_json, encoding="utf-8") as f:
+            datos = json.load(f)
+    except Exception:
+        return {}
+    return {
+        seccion.get("id", ""): seccion.get("elementos", [])
+        for seccion in datos.get("secciones", [])
+        if isinstance(seccion, dict)
+    }
+
+
+def limpiar_ficheros_renombrados(elementos_anteriores: list[dict], elementos_escritos: list[dict], carpeta: Path) -> int:
+    """Borra el .md antiguo de un recurso cuyo titulo cambio de una
+    ejecucion a la siguiente (mismo url, nombre de fichero distinto).
+
+    `elementos_escritos` debe contener SOLO los recursos que se acaban
+    de escribir con exito en esta ejecucion (no la lista completa del
+    catalogo) -- si la extraccion de un recurso falla, su fichero
+    anterior se conserva tal cual en vez de borrarse sin reemplazo.
+    Ademas, nunca borra un nombre de fichero que algun otro recurso del
+    catalogo nuevo siga usando (evita pisarse entre si por una
+    coincidencia de slug). Devuelve cuantos ficheros se limpiaron."""
+    if not elementos_anteriores or not elementos_escritos:
+        return 0
+
+    titulos_anteriores_por_url = {
+        e["url"]: e["titulo"] for e in elementos_anteriores if e.get("url") and e.get("titulo")
+    }
+    nombres_nuevos_en_uso = {
+        nombre_archivo_markdown(e["titulo"]) for e in elementos_escritos if e.get("titulo")
+    }
+
+    borrados = 0
+    for elemento in elementos_escritos:
+        url, titulo_nuevo = elemento.get("url"), elemento.get("titulo")
+        if not url or not titulo_nuevo:
+            continue
+
+        titulo_anterior = titulos_anteriores_por_url.get(url)
+        if not titulo_anterior or titulo_anterior == titulo_nuevo:
+            continue
+
+        nombre_anterior = nombre_archivo_markdown(titulo_anterior)
+        if nombre_anterior == nombre_archivo_markdown(titulo_nuevo) or nombre_anterior in nombres_nuevos_en_uso:
+            continue
+
+        ruta_anterior = carpeta / nombre_anterior
+        if ruta_anterior.exists():
+            ruta_anterior.unlink()
+            borrados += 1
+            print(f"  Renombrado detectado: '{titulo_anterior}' -> '{titulo_nuevo}' (borrado {nombre_anterior})")
+
+    return borrados
 
 
 # ==========================================================

@@ -468,18 +468,29 @@ def generar_markdown_recurso(recurso: dict, carpeta: Path, url_resumen: str) -> 
         return False
 
 
-def generar_markdowns_recursos(datos: dict, carpeta: Path = SERVICIOS_DIR) -> tuple[int, int, int]:
+def generar_markdowns_recursos(datos: dict, carpeta: Path = SERVICIOS_DIR,
+                                catalogo_anterior: dict[str, list[dict]] | None = None) -> tuple[int, int, int]:
+    """catalogo_anterior (ver ml.cargar_catalogo_anterior(), cargado por
+    main() ANTES de guardar_json()) permite detectar servicios que
+    cambiaron de titulo entre ejecuciones y borrar su .md antiguo -- sin
+    esto se queda huerfano bajo el nombre de fichero viejo, duplicando
+    el mismo recurso. Ver motor_limpieza.limpiar_ficheros_renombrados()."""
     carpeta.mkdir(parents=True, exist_ok=True)
     seccion = datos["secciones"][0]
     url_resumen = datos.get("url", SERVICIOS_URL)
 
     total = correctos = errores = 0
+    elementos_escritos = []
     for recurso in seccion["elementos"]:
         total += 1
         if generar_markdown_recurso(recurso, carpeta, url_resumen):
             correctos += 1
+            elementos_escritos.append(recurso)
         else:
             errores += 1
+
+    elementos_anteriores = (catalogo_anterior or {}).get(seccion.get("id", ""), [])
+    ml.limpiar_ficheros_renombrados(elementos_anteriores, elementos_escritos, carpeta)
 
     return total, correctos, errores
 
@@ -548,12 +559,13 @@ def generar_markdown_padre_servicios(url: str = SERVICIOS_URL, ruta: Path = SERV
 # ==========================================================
 
 def main() -> None:
+    catalogo_anterior = ml.cargar_catalogo_anterior(SERVICIOS_JSON)
     datos = extraer_servicios()
     guardar_json(datos)
     datos = limpiar_json_servicios(datos)
     guardar_json(datos)
     generar_markdown_padre_servicios()
-    total, correctos, errores = generar_markdowns_recursos(datos)
+    total, correctos, errores = generar_markdowns_recursos(datos, catalogo_anterior=catalogo_anterior)
     print(f"Servicios: {total} · generados: {correctos} · errores: {errores}")
 
 

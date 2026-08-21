@@ -340,7 +340,14 @@ def generar_markdown_recurso(recurso: dict, carpeta: Path, nivel: str, url_resum
         return False
 
 
-def generar_markdowns_recursos(json_institucion: dict, carpetas: dict[str, Path] = INSTITUCION_CARPETAS) -> tuple[int, int, int]:
+def generar_markdowns_recursos(json_institucion: dict, carpetas: dict[str, Path] = INSTITUCION_CARPETAS,
+                                catalogo_anterior: dict[str, list[dict]] | None = None) -> tuple[int, int, int]:
+    """catalogo_anterior (ver ml.cargar_catalogo_anterior(), cargado por
+    main() ANTES de guardar_json()) permite detectar recursos que
+    cambiaron de titulo entre ejecuciones y borrar su .md antiguo -- sin
+    esto se queda huerfano bajo el nombre de fichero viejo, duplicando
+    el mismo recurso. Ver motor_limpieza.limpiar_ficheros_renombrados()."""
+    catalogo_anterior = catalogo_anterior or {}
     total = correctos = errores = 0
     url_resumen = json_institucion.get("url", INSTITUCION_URL_RAIZ)
 
@@ -355,12 +362,16 @@ def generar_markdowns_recursos(json_institucion: dict, carpetas: dict[str, Path]
         carpeta.mkdir(parents=True, exist_ok=True)
         print(f"[{seccion['titulo']}]")
 
+        elementos_escritos = []
         for recurso in seccion.get("elementos", []):
             total += 1
             if generar_markdown_recurso(recurso, carpeta, nivel, url_resumen):
                 correctos += 1
+                elementos_escritos.append(recurso)
             else:
                 errores += 1
+
+        ml.limpiar_ficheros_renombrados(catalogo_anterior.get(seccion_id, []), elementos_escritos, carpeta)
 
     return total, correctos, errores
 
@@ -391,10 +402,11 @@ def generar_markdown_padre(url_raiz: str = INSTITUCION_URL_RAIZ, ruta: Path = IN
 # ==========================================================
 
 def main() -> None:
+    catalogo_anterior = ml.cargar_catalogo_anterior(INSTITUCION_JSON)
     datos = extraer_estructura()
     guardar_json(datos)
     generar_markdown_padre()
-    total, correctos, errores = generar_markdowns_recursos(datos)
+    total, correctos, errores = generar_markdowns_recursos(datos, catalogo_anterior=catalogo_anterior)
     print(f"Recursos: {total} · generados: {correctos} · errores: {errores}")
 
 

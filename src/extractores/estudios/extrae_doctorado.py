@@ -266,17 +266,43 @@ def generar_markdown_programa(item: dict, carpeta: Path, url_resumen: str) -> bo
         return False
 
 
+def cargar_catalogo_anterior(ruta_json: Path = DOCTORADOS_JSON) -> list[dict]:
+    """Version propia de ml.cargar_catalogo_anterior() para el catalogo
+    de doctorado, que es una lista plana {"programas": [...]} en vez de
+    la forma secciones/elementos que usan institucion/servicios/rankings
+    -- devuelve directamente la lista, ya en formato {titulo, url} (el
+    catalogo interno usa "nombre", no "titulo")."""
+    if not ruta_json.exists():
+        return []
+    try:
+        with open(ruta_json, encoding="utf-8") as f:
+            datos = json.load(f)
+    except Exception:
+        return []
+    return [{"titulo": p["nombre"], "url": p["url"]} for p in datos.get("programas", []) if p.get("nombre") and p.get("url")]
+
+
 def generar_markdowns_programas(items: list[dict], carpeta: Path = DOCTORADOS_KB_DIR,
-                                 url_resumen: str = DOCTORADOS_URL_RAIZ) -> tuple[int, int, int]:
+                                 url_resumen: str = DOCTORADOS_URL_RAIZ,
+                                 catalogo_anterior: list[dict] | None = None) -> tuple[int, int, int]:
+    """catalogo_anterior (ver cargar_catalogo_anterior() arriba, cargado
+    ANTES de guardar_json()) permite detectar programas que cambiaron de
+    titulo entre ejecuciones y borrar su .md antiguo -- sin esto se
+    queda huerfano bajo el nombre de fichero viejo. Ver
+    motor_limpieza.limpiar_ficheros_renombrados()."""
     carpeta.mkdir(parents=True, exist_ok=True)
     total = correctos = errores = 0
+    elementos_escritos = []
     for item in items:
         total += 1
         if generar_markdown_programa(item, carpeta, url_resumen):
             correctos += 1
+            elementos_escritos.append({"titulo": item["nombre"], "url": item["url"]})
         else:
             errores += 1
         time.sleep(0.3)
+
+    ml.limpiar_ficheros_renombrados(catalogo_anterior or [], elementos_escritos, carpeta)
     return total, correctos, errores
 
 
@@ -306,13 +332,14 @@ def generar_markdown_padre(url: str = DOCTORADOS_URL_RAIZ, ruta: Path = DOCTORAD
 # ==========================================================
 
 def main(limite: int | None = None) -> None:
+    catalogo_anterior = cargar_catalogo_anterior()
     generar_markdown_padre()
     items = extraer_catalogo()
     items = asignar_ramas(items)
     guardar_json(items)
     if limite is not None:
         items = items[:limite]
-    total, correctos, errores = generar_markdowns_programas(items)
+    total, correctos, errores = generar_markdowns_programas(items, catalogo_anterior=catalogo_anterior)
     print(f"Doctorado: {total} · generados: {correctos} · errores: {errores}")
 
 
