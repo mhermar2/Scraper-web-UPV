@@ -63,8 +63,11 @@ SECCIONES_BASE = [
 # innovacion.upv.es (WordPress moderno) o de otros dominios UPV con la
 # plantilla clasica de fichas de entidad -- mismos selectores que
 # iniciativas_idi, con el mismo fallback a la plantilla clasica
-# (incluida ".mwc_contenido", confirmada tambien en admision/master).
-SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido"]
+# (incluida ".mwc_contenido", confirmada tambien en admision/master, y
+# "#contenido" -- id en espanol, distinto de "#content" -- para paginas
+# de boletines/listados Oracle Portal sin iframe, ver
+# extrae_iniciativas_idi.py).
+SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido", "#contenido"]
 
 FUENTE = "UPV"
 CATEGORIA = "investigacion"

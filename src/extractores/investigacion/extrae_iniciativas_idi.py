@@ -73,8 +73,13 @@ SECCIONES_VALIDAS = {
 # ni #smooth-wrapper/main/article/entry-content ni el iframe de
 # sic_infoent/oalu que ya cubre ml.buscar_iframe_contenido_clasico() --
 # el contenido real vive directamente en la pagina, en un
-# div.mwc_contenido separado del menu lateral (id="contmenu").
-SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido"]
+# div.mwc_contenido separado del menu lateral (id="contmenu"). "#contenido"
+# (con ID en espanol, distinto de "#content") es una CUARTA variante,
+# encontrada en las paginas de boletines de convocatorias
+# (pls/somag/CTT_W04.Boletines): el mismo id="contenido" que usa
+# buscar_iframe_contenido_clasico() para el contenido DENTRO del iframe,
+# pero aqui aparece directamente en la pagina, sin iframe de por medio.
+SELECTORES_CONTENIDO = ["main", "article", ".entry-content", "#content", ".content", ".entry", ".mwc_contenido", "#contenido"]
 
 FUENTE = "UPV"
 CATEGORIA = "investigacion"
