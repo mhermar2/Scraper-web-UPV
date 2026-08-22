@@ -1,80 +1,97 @@
 {
-    "url": "https://www.upv.es/investigacion/iniciativas-idi/index-es.html",
-    "titulo": "Iniciativas de I+D+i",
-    "tipo": "padre",
-    "secciones": [
+  "titulo": "Iniciativas de I+D+i",
+  "url": "https://www.upv.es/investigacion/iniciativas-idi/index-es.html",
+  "tipo": "padre",
+  "secciones": [
+    {
+      "id": "convocatorias_publicas",
+      "titulo": "Convocatorias públicas",
+      "tipo": "convocatorias_publicas",
+      "descripcion": "",
+      "elementos": [
         {
-            "titulo": "Convocatorias públicas",
-            "descripcion": "Accede a las convocatorias de ayudas y financiación para proyectos de investigación, tanto nacionales como europeas, así como a oportunidades de contratación de investigadores.",
-            "recursos": [
-                {
-                    "titulo": "Calendario de convocatorias",
-                    "url": "https://www.upv.es/pls/omag/ctt_agenda.Convocatorias_Cal",
-                    "tipo": "dinamico"
-                },
-                {
-                    "titulo": "Buscador de convocatorias",
-                    "url": "https://www.upv.es/pls/sogec/ctt_w05.Convocatorias_Bus?p_idioma=c",
-                    "tipo": "dinamico"
-                },
-                {
-                    "titulo": "Ayudas nacionales y autonómicas",
-                    "url": "https://www.upv.es/pls/somag/CTT_W04.Boletines?p_idioma=c&p_vista=compatible&p_grupo=1",
-                    "tipo": "dinamico"
-                },
-                {
-                    "titulo": "Ayudas europeas",
-                    "url": "https://www.upv.es/pls/somag/CTT_W04.Boletines?p_idioma=&p_vista=compatible&p_grupo=2",
-                    "tipo": "dinamico"
-                },
-                {
-                    "titulo": "Contratación de investigadores",
-                    "url": "https://www.upv.es/entidades/SRH/conypi/590724normalc.html",
-                    "tipo": "pagina"
-                }
-            ]
+          "tipo": "recurso",
+          "titulo": "Calendario de convocatorias",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/omag/ctt_agenda.Convocatorias_Cal"
         },
         {
-            "titulo": "Programas propios",
-            "descripcion": "La UPV ofrece programas propios de apoyo a la investigación que incluyen ayudas para I+D, recursos humanos, equipamiento científico y normativa reguladora.",
-            "recursos": [
-                {
-                    "titulo": "Programa de apoyo a la I+D",
-                    "url": "https://www.upv.es/entidades/VINV/info/594850normalc.html",
-                    "tipo": "pagina"
-                },
-                {
-                    "titulo": "Recursos Humanos en investigación",
-                    "url": "https://www.upv.es/entidades/VINV/info/594856normalc.html",
-                    "tipo": "pagina"
-                },
-                {
-                    "titulo": "Equipamiento científico",
-                    "url": "https://www.upv.es/entidades/VINV/",
-                    "tipo": "pagina"
-                },
-                {
-                    "titulo": "Normativa",
-                    "url": "https://www.upv.es/entidades/VINV/info/216007normalc.html",
-                    "tipo": "pagina"
-                }
-            ]
+          "tipo": "recurso",
+          "titulo": "Buscador de convocatorias",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/sogec/ctt_w05.Convocatorias_Bus?p_idioma=c"
         },
         {
-            "titulo": "Enlaces de interés",
-            "descripcion": "Consulta información relevante sobre la actividad investigadora y los aspectos éticos de la investigación en la UPV.",
-            "recursos": [
-                {
-                    "titulo": "Actividad investigadora",
-                    "url": "https://www.upv.es/entidades/VINV/info/216020normalc.html",
-                    "tipo": "pagina"
-                },
-                {
-                    "titulo": "Comité de Ética en la investigación",
-                    "url": "https://www.upv.es/entidades/VINV/info/708238normalc.html",
-                    "tipo": "pagina"
-                }
-            ]
+          "tipo": "recurso",
+          "titulo": "Ayudas nacionales y autonómicas",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/somag/CTT_W04.Boletines?p_idioma=c&p_vista=compatible&p_grupo=1"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Ayudas europeas",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/somag/CTT_W04.Boletines?p_idioma=&p_vista=compatible&p_grupo=2"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Contratación de investigadores",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SRH/conypi/590724normalc.html"
         }
-    ]
+      ]
+    },
+    {
+      "id": "programas_propios",
+      "titulo": "Programas propios",
+      "tipo": "programas_propios",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Programa de apoyo a la I+D",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/VINV/info/594850normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Recursos Humanos en investigación",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/VINV/info/594856normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Equipamiento científico",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/VINV/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Normativa",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/VINV/info/216007normalc.html"
+        }
+      ]
+    },
+    {
+      "id": "enlaces_de_interes",
+      "titulo": "Enlaces de interés",
+      "tipo": "enlaces_interes",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Actividad investigadora",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/VINV/info/216020normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Comité de Ética en la investigación",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/VINV/info/708238normalc.html"
+        }
+      ]
+    }
+  ]
 }

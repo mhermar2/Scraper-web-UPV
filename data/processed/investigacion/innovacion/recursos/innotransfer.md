@@ -1,13 +1,20 @@
 ---
-tipo: recurso
-nivel: innovacion
-tipo_recurso: destacado
-seccion_origen: Destacados
+fuente: UPV
 url: https://innotransfer.org/
-url_origen: https://innovacion.upv.es/
+categoria: investigacion
+nivel: innovacion
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://innovacion.upv.es/
+seccion: destacados
+titulo: Innotransfer
+descripcion: Innotransfer Conectamos universidad y empresa para impulsar innovación abierta, resolver retos reales y transferir conocimiento al tejido productivo valenciano. Ver Innotransfer
+actualizado: 2026-08-22
 ---
 
-# Innotransfer - Plataforma de innovación abierta de la Comunitat Valenciana
+# Innotransfer
+
+**URL:** https://innotransfer.org/
 
 ## ¿Qué es Innotransfer?
 
@@ -21,19 +28,31 @@ La iniciativa cuenta con el apoyo y financiación de la Conselleria de Innovaci�
 
 ## Próximos eventos
 
+[VER MÁS EVENTOS](https://innotransfer.org/eventos/)
+
 ## últimas noticias
+
+Noticias
 
 ### La inteligencia artificial avanza en salud, pero su adopción clínica exige superar barreras de confianza, datos y validación
 
 - 23/06/2026
 
+[VER MÁS](https://news.pcuv.es/home-pcuv-innotransferla-inteligencia-artificial-avanza-en-salud-pero-su-adopci%C3%B3n-clinica-exige-superar-barreras-de-confianza-datos-y-validacion)
+
 ### La bioinformática impulsa el salto del dato al negocio en la UPV
 
 - 11/06/2026
 
+[VER MÁS](https://innovacion.upv.es/noticias/la-bioinformatica-impulsa-el-salto-del-dato-al-negocio-en-la-upv/)
+
 ### El foro Innotransfer muestra en Espaitec las tecnologías más innovadoras que impulsan el sector aeroespacial
 
 - 29/05/2026
+
+[VER MÁS](https://espaitec.uji.es/espaitec-celebra-innotransfer-conectar-despegar-tecnologia-aeroespacial/)
+
+[VER MÁS NOTICIAS](https://innotransfer.org/noticias/)
 
 ## SUSCRÍBETE A NUESTRAs NEWSLETTERs
 

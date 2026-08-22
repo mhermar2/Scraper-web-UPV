@@ -1,7 +1,12 @@
 ---
-tipo: padre
-nivel: innovacion
+fuente: UPV
 url: https://innovacion.upv.es/
+categoria: investigacion
+nivel: innovacion
+tipo_documento: resumen
+titulo: Conectamos sociedad, empresa y universidad para innovar juntos →
+descripcion: ""
+actualizado: 2026-08-22
 ---
 
 # Conectamos sociedad, empresa y universidad para innovar juntos →
@@ -38,31 +43,31 @@ Emprendimiento Apoyamos a quienes quieren emprender desde la universidad con ase
 
 ## Iniciativas
 
-### Iniciativa
+### Match UPV
 
 Match UPV Match UPV conecta empresas con grupos de investigación, startups, spin-offs y otros agentes de la UPV.
 
 [https://innovacion.upv.es/iniciativas/matchmaking/match-upv/](https://innovacion.upv.es/iniciativas/matchmaking/match-upv/)
 
-### Iniciativa
+### Fórum UPV Innovación 2026 | Primavera – Side Event
 
 18 junio Fórum UPV Innovación 2026 | Primavera – Side Event Ven al encuentro de referencia entre investigadores, emprendedores y agentes I+D+i del ecosistema innovador de la UPV en "Seguridad de la Investigación y Deep Tech"
 
 [https://innovacion.upv.es/iniciativas/jornadas-upv-innovacion/forum-upv-innovacion-2026-primavera-side-event/](https://innovacion.upv.es/iniciativas/jornadas-upv-innovacion/forum-upv-innovacion-2026-primavera-side-event/)
 
-### Iniciativa
+### CPI Tour Experience para estudiantes UPV – PIAE+ | Febrero 2026
 
 CPI Tour Experience para estudiantes UPV – PIAE+ | Febrero 2026 Un recorrido lúdico de ciencia e innovación por el parque científico de la Universitat Politècnica de València.
 
 [https://innovacion.upv.es/iniciativas/cpi-tour-experience/cpi-tour-experience-para-estudiantes-upv-piae-febrero-2026/](https://innovacion.upv.es/iniciativas/cpi-tour-experience/cpi-tour-experience-para-estudiantes-upv-piae-febrero-2026/)
 
-### Iniciativa
+### Spin UPV
 
 Spin UPV ¿Te dedicas a la investigación en UPV y quieres llevar tus resultados al mercado? SPIN UPV te ofrece asesoramiento y formación para hacer realidad tu proyecto.
 
 [https://innovacion.upv.es/iniciativas/spin-upv/](https://innovacion.upv.es/iniciativas/spin-upv/)
 
-### Iniciativa
+### CPI Tour Experience
 
 CPI Tour Experience Un recorrido por la Ciudad Politécnica de la Innovación a través de rutas temáticas por sus espacios de investigación y experimentación más avanzados.
 
@@ -108,39 +113,39 @@ Valyra Aerospace - Spin-Off UPV Vehículos aéreos no tripulados de nueva genera
 
 ## Temas
 
-### Tema
+### Digital
 
 [https://innovacion.upv.es/temas/digital/](https://innovacion.upv.es/temas/digital/)
 
-### Tema
+### Arte, Arquitectura, Empresa y Sociedad
 
 [https://innovacion.upv.es/temas/arte-arquitectura-empresa-sociedad/](https://innovacion.upv.es/temas/arte-arquitectura-empresa-sociedad/)
 
-### Tema
+### Seguridad Civil, Infraestructuras y Resiliencia
 
 [https://innovacion.upv.es/temas/seguridad-civil-indraestructura-resiliencia/](https://innovacion.upv.es/temas/seguridad-civil-indraestructura-resiliencia/)
 
-### Tema
+### Industria y Materiales Avanzados
 
 [https://innovacion.upv.es/temas/industria-materiales-avanzados/](https://innovacion.upv.es/temas/industria-materiales-avanzados/)
 
-### Tema
+### Salud
 
 [https://innovacion.upv.es/temas/salud/](https://innovacion.upv.es/temas/salud/)
 
-### Tema
+### Clima, Medioambiente y Agua
 
 [https://innovacion.upv.es/temas/clima-medioambiente-agua/](https://innovacion.upv.es/temas/clima-medioambiente-agua/)
 
-### Tema
+### Biotecnología y Agroalimentación
 
 [https://innovacion.upv.es/temas/biotecnologia-agroalimentacion/](https://innovacion.upv.es/temas/biotecnologia-agroalimentacion/)
 
-### Tema
+### Comunicación y Espacio
 
 [https://innovacion.upv.es/temas/comunicacion-espacio/](https://innovacion.upv.es/temas/comunicacion-espacio/)
 
-### Tema
+### Energía y Movilidad Sostenible
 
 [https://innovacion.upv.es/temas/energia-movilidad-sostenible/](https://innovacion.upv.es/temas/energia-movilidad-sostenible/)
 
@@ -154,25 +159,25 @@ Accede a toda la innovación de la UPV Explora UPV es el buscador de conocimient
 
 ## Destacados
 
-### Destacado
+### Seguridad en la Investigación y Deep Tech | Primavera - Side Event del Fórum UPV Innovación
 
 Seguridad en la Investigación y Deep Tech | Primavera - Side Event del Fórum UPV Innovación Visualiza las claves de la ciencia segura, abierta y responsable desde la UPV Vuelve a ver
 
 [https://www.youtube.com/live/PWDbrH0FjE4?si=r9O9_MhUtw6rPJMc](https://www.youtube.com/live/PWDbrH0FjE4?si=r9O9_MhUtw6rPJMc)
 
-### Destacado
+### Innotransfer Bioinformática
 
 Innotransfer Bioinformática Del dato biológico al mercado Conoce el foro
 
 [https://innotransfer.org/evento/bioinformatica/](https://innotransfer.org/evento/bioinformatica/)
 
-### Destacado
+### Innotransfer
 
 Innotransfer Conectamos universidad y empresa para impulsar innovación abierta, resolver retos reales y transferir conocimiento al tejido productivo valenciano. Ver Innotransfer
 
 [https://innotransfer.org/](https://innotransfer.org/)
 
-### Destacado
+### Newsletter
 
 Newsletter Inscríbete para recibir en tu email novedades del ecosistema de investigación, entrevistas con protagonistas de la innovación, casos de éxito inspiradores, convocatorias, agenda de eventos clave y mucho más. Inscríbete
 

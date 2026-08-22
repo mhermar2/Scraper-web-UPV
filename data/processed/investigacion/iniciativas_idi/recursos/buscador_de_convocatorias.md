@@ -1,10 +1,20 @@
+---
+fuente: UPV
+url: https://www.upv.es/pls/sogec/ctt_w05.Convocatorias_Bus?p_idioma=c
+categoria: investigacion
+nivel: iniciativas_idi
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/investigacion/iniciativas-idi/index-es.html
+seccion: convocatorias_publicas
+titulo: Buscador de convocatorias
+descripcion: ""
+actualizado: 2026-08-22
+---
+
 # Buscador de convocatorias
 
-**Tipo:** dinamico
-
-**Página padre:** Iniciativas de I+D+i
-
-**Sección:** Convocatorias públicas
+**URL:** https://www.upv.es/pls/sogec/ctt_w05.Convocatorias_Bus?p_idioma=c
 
 ## URLs asociadas
 
@@ -14,82 +24,6 @@
 
 ## Parámetros de la búsqueda
 
+- --------------- Elija tipo Convocante -------------- UNIVERSIDAD POLITÉCNICA DE VALENCIA ADMINISTRACIÓN LOCAL ADMINISTRACIÓN AUTONÓMICA ADMINISTRACIÓN CENTRAL ADMINISTRACIÓN EUROPEA
 
-
-- Valencià · English I
-
-- a · A I
-
-- Accesibilidad I
-
-- Mapa web I
-
-- Buscar I
-
-- Directorio
-
-- :: Acceso identificado ::
-
-- Admisión Empezar en la universidad Traslados e intercambios Después del grado
-
-- Empezar en la universidad
-
-- Traslados e intercambios
-
-- Después del grado
-
-- Estudios Estudios de grado Estudios de posgrado Aula abierta
-
-- Estudios de grado
-
-- Estudios de posgrado
-
-- Aula abierta
-
-- Investigación Estructuras de investigación Iniciativas I+D+i Transferencia de tecnología Oferta tecnológica Ciudad Politécnica de la Innovación
-
-- Estructuras de investigación
-
-- Iniciativas I+D+i
-
-- Transferencia de tecnología
-
-- Oferta tecnológica
-
-- Ciudad Politécnica de la Innovación
-
-- Organización La institución Vida universitaria Escuelas y facultades Departamentos Servicios universitarios
-
-- La institución
-
-- Vida universitaria
-
-- Escuelas y facultades
-
-- Departamentos
-
-- Servicios universitarios
-
-- Perfiles Futuro alumno Orientador Estudiante PAS y PDI Prensa Alumni
-
-- Futuro alumno
-
-- Orientador
-
-- Estudiante
-
-- PAS y PDI
-
-- Prensa
-
-- Alumni
-
-# Buscador convocatorias I+D
-
-## Parámetros de la búsqueda
-
-- Cómo llegar I
-
-- Planos I
-
-- Contacto
+Rellene los datos de búsqueda y pulse el botón "Buscar".

@@ -1,260 +1,260 @@
 {
-    "titulo": "Conectamos sociedad, empresa y universidad para innovar juntos →",
-    "url": "https://innovacion.upv.es/",
-    "tipo": "padre",
-    "secciones": [
+  "titulo": "Conectamos sociedad, empresa y universidad para innovar juntos →",
+  "url": "https://innovacion.upv.es/",
+  "tipo": "padre",
+  "secciones": [
+    {
+      "id": "presentacion",
+      "titulo": "Presentación",
+      "tipo": "presentacion",
+      "descripcion": "Conectamos sociedad, empresa y universidad para innovar juntos → UPV Innovación es la oficina de transferencia de conocimiento (OTC) de la Universitat Politècnica de València. Enlazamos el talento de la Universidad con empresas e instituciones, valorizamos la investigación y generamos alianzas para transformar ideas innovadoras en soluciones con impacto. NUESTRAS CIFRAS 2025 EN TALENTO 1.414 Ofertas empleo 10.866 Prácticas empresa 107 Cátedras empresa NUESTRAS CIFRAS 2025 EN FORMACIÓN 10M€ Cursos 59.000 Matriculas LLL 291 Cursos empresa NUESTRAS CIFRAS 2025 EN I+D 119M€ I+i 30M€ Servicios 30 Patentes solicitadas NUESTRAS CIFRAS 2025 EN EMPRENDIMIENTO 3 Spin-offs 24 Start-ups 65 Makers Teams Descubre UPV Innovación Cifras UPV Innovación 2025",
+      "elementos": []
+    },
+    {
+      "id": "servicios_de_innovacion",
+      "titulo": "Servicios de Innovación",
+      "tipo": "servicios",
+      "descripcion": "",
+      "elementos": [
         {
-            "id": "presentacion",
-            "titulo": "Presentación",
-            "tipo": "presentacion",
-            "descripcion": "Conectamos sociedad, empresa y universidad para innovar juntos → UPV Innovación es la oficina de transferencia de conocimiento (OTC) de la Universitat Politècnica de València. Enlazamos el talento de la Universidad con empresas e instituciones, valorizamos la investigación y generamos alianzas para transformar ideas innovadoras en soluciones con impacto. NUESTRAS CIFRAS 2025 EN TALENTO 1.414 Ofertas empleo 10.866 Prácticas empresa 107 Cátedras empresa NUESTRAS CIFRAS 2025 EN FORMACIÓN 10M€ Cursos 59.000 Matriculas LLL 291 Cursos empresa NUESTRAS CIFRAS 2025 EN I+D 119M€ I+i 30M€ Servicios 30 Patentes solicitadas NUESTRAS CIFRAS 2025 EN EMPRENDIMIENTO 3 Spin-offs 24 Start-ups 65 Makers Teams Descubre UPV Innovación Cifras UPV Innovación 2025",
-            "elementos": []
+          "tipo": "servicio",
+          "titulo": "Talento",
+          "descripcion": "Talento Conectamos a estudiantes y titulados UPV con empresas para prácticas, empleo y proyectos que impulsan su desarrollo profesional.",
+          "url": "https://innovacion.upv.es/talento/"
         },
         {
-            "id": "servicios_de_innovacion",
-            "titulo": "Servicios de Innovación",
-            "tipo": "servicios",
-            "descripcion": "",
-            "elementos": [
-                {
-                    "tipo": "servicio",
-                    "titulo": "Talento",
-                    "descripcion": "Talento Conectamos a estudiantes y titulados UPV con empresas para prácticas, empleo y proyectos que impulsan su desarrollo profesional.",
-                    "url": "https://innovacion.upv.es/talento/"
-                },
-                {
-                    "tipo": "servicio",
-                    "titulo": "Formación",
-                    "descripcion": "Formación Ofrecemos formación práctica y especializada conectada con el tejido empresarial para reforzar competencias adaptadas a la realidad laboral.",
-                    "url": "https://innovacion.upv.es/formacion/"
-                },
-                {
-                    "tipo": "servicio",
-                    "titulo": "I+D+i",
-                    "descripcion": "I+D+i Facilitamos la colaboración entre empresas e investigadores UPV para desarrollar soluciones innovadoras con alto impacto tecnológico.",
-                    "url": "https://innovacion.upv.es/idi/"
-                },
-                {
-                    "tipo": "servicio",
-                    "titulo": "Emprendimiento",
-                    "descripcion": "Emprendimiento Apoyamos a quienes quieren emprender desde la universidad con asesoramiento, formación, mentoría y acceso a programas y financiación.",
-                    "url": "https://innovacion.upv.es/emprendimiento/"
-                }
-            ]
+          "tipo": "servicio",
+          "titulo": "Formación",
+          "descripcion": "Formación Ofrecemos formación práctica y especializada conectada con el tejido empresarial para reforzar competencias adaptadas a la realidad laboral.",
+          "url": "https://innovacion.upv.es/formacion/"
         },
         {
-            "id": "iniciativas",
-            "titulo": "Iniciativas",
-            "tipo": "iniciativas",
-            "descripcion": "",
-            "elementos": [
-                {
-                    "tipo": "iniciativa",
-                    "titulo": "",
-                    "descripcion": "Match UPV Match UPV conecta empresas con grupos de investigación, startups, spin-offs y otros agentes de la UPV.",
-                    "url": "https://innovacion.upv.es/iniciativas/matchmaking/match-upv/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/match-upv-card.jpg"
-                },
-                {
-                    "tipo": "iniciativa",
-                    "titulo": "",
-                    "descripcion": "18 junio Fórum UPV Innovación 2026 | Primavera – Side Event Ven al encuentro de referencia entre investigadores, emprendedores y agentes I+D+i del ecosistema innovador de la UPV en \"Seguridad de la Investigación y Deep Tech\"",
-                    "url": "https://innovacion.upv.es/iniciativas/jornadas-upv-innovacion/forum-upv-innovacion-2026-primavera-side-event/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/05/cabecera-web-2160-x-1080-sin-copy_Mesa-de-trabajo-1-copy-4-scaled.png"
-                },
-                {
-                    "tipo": "iniciativa",
-                    "titulo": "",
-                    "descripcion": "CPI Tour Experience para estudiantes UPV – PIAE+ | Febrero 2026 Un recorrido lúdico de ciencia e innovación por el parque científico de la Universitat Politècnica de València.",
-                    "url": "https://innovacion.upv.es/iniciativas/cpi-tour-experience/cpi-tour-experience-para-estudiantes-upv-piae-febrero-2026/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-20-at-10.37.20.jpeg"
-                },
-                {
-                    "tipo": "iniciativa",
-                    "titulo": "",
-                    "descripcion": "Spin UPV ¿Te dedicas a la investigación en UPV y quieres llevar tus resultados al mercado? SPIN UPV te ofrece asesoramiento y formación para hacer realidad tu proyecto.",
-                    "url": "https://innovacion.upv.es/iniciativas/spin-upv/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/spin-upv-principal.jpg"
-                },
-                {
-                    "tipo": "iniciativa",
-                    "titulo": "",
-                    "descripcion": "CPI Tour Experience Un recorrido por la Ciudad Politécnica de la Innovación a través de rutas temáticas por sus espacios de investigación y experimentación más avanzados.",
-                    "url": "https://innovacion.upv.es/iniciativas/cpi-tour-experience/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/cpi-upv-principal.jpg"
-                }
-            ]
+          "tipo": "servicio",
+          "titulo": "I+D+i",
+          "descripcion": "I+D+i Facilitamos la colaboración entre empresas e investigadores UPV para desarrollar soluciones innovadoras con alto impacto tecnológico.",
+          "url": "https://innovacion.upv.es/idi/"
         },
         {
-            "id": "historias_de_innovacion",
-            "titulo": "Historias de Innovación",
-            "tipo": "historias_innovacion",
-            "descripcion": "",
-            "elementos": [
-                {
-                    "tipo": "historia",
-                    "titulo": "XTRA2 UPV",
-                    "descripcion": "XTRA2 UPV Diseño, construcción y pilotaje de vehículos aéreos no tripulados (UAVs) de radiocontrol de competición. Luciyú Cámara Lara Responsable de imagen Eduardo Velasco Cano Responsable de taller",
-                    "url": "https://innovacion.upv.es/historias-innovacion/diseno-construccion-y-pilotaje-de-vehiculos-aereos-no-tripulados-uavs-de-radiocontrol-de-competicion/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Xtra2-logo-scaled.png"
-                },
-                {
-                    "tipo": "historia",
-                    "titulo": "Faraday Rocketry",
-                    "descripcion": "Faraday Rocketry Récord nacional de cohetería ‘amateur’ Joan Peiró Miembro de Faraday UPV, equipo ganador en la categoría del mejor vuelo 2026.",
-                    "url": "https://innovacion.upv.es/historias-innovacion/record-nacional-de-coheteria-amateur/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Faraday-logo.png"
-                },
-                {
-                    "tipo": "historia",
-                    "titulo": "Formula Student UPV",
-                    "descripcion": "Formula Student UPV Referencia mundial en ingeniería universitaria y competición automovilística estudiantil Carlos Marco Director técnico - Formula Student (UPV)",
-                    "url": "https://innovacion.upv.es/historias-innovacion/referencia-mundial-en-ingenieria-universitaria-y-competicion-automovilistica-estudiantil/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Formula-Student-UPV-Team-logo.jpg"
-                },
-                {
-                    "tipo": "historia",
-                    "titulo": "Mekreo Engineering",
-                    "descripcion": "Mekreo Engineering De la sostenibilidad a la acción: ingeniería para transformar materiales y procesos industriales Elena Moreno López CEO y Co fundadora Miguel García Monteagudo CTO y Co fundador",
-                    "url": "https://innovacion.upv.es/historias-innovacion/de-la-sostenibilidad-a-la-accion-ingenieria-para-transformar-materiales-y-procesos-industriales/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Mekreo-logo.png"
-                },
-                {
-                    "tipo": "historia",
-                    "titulo": "OLESYN - ITQ",
-                    "descripcion": "OLESYN - ITQ Química sin deforestación: la nueva generación de ingredientes sostenibles para la industria Ilaria Ceteroni Co-fundadora y pro-CTO OLESYN | Investigadora ITQ (UPV-CSIC)",
-                    "url": "https://innovacion.upv.es/historias-innovacion/quimica-sin-deforestacion-la-nueva-generacion-de-ingredientes-sostenibles-para-la-industria/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/OLESYN-Logo.png"
-                },
-                {
-                    "tipo": "historia",
-                    "titulo": "Valyra Aerospace - Spin-Off UPV",
-                    "descripcion": "Valyra Aerospace - Spin-Off UPV Vehículos aéreos no tripulados de nueva generación: autonomía y sostenibilidad para las misiones del futuro Joan Albert Such García Co-CEO en Valyra Aerospace, Spin-Off UPV",
-                    "url": "https://innovacion.upv.es/historias-innovacion/vehiculos-aereos-no-tripulados-de-nueva-generacion-autonomia-y-sostenibilidad-para-las-misiones-del-futuro/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/logo-def-valyra.png"
-                }
-            ]
-        },
-        {
-            "id": "temas",
-            "titulo": "Temas",
-            "tipo": "temas",
-            "descripcion": "",
-            "elementos": [
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/digital/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-digital-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/arte-arquitectura-empresa-sociedad/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-cultura-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/seguridad-civil-indraestructura-resiliencia/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-infraestructuras-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/industria-materiales-avanzados/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-industria-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/salud/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-salud-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/clima-medioambiente-agua/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-clima-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/biotecnologia-agroalimentacion/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-agrifood-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/comunicacion-espacio/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-comunicaciones-icon.svg"
-                },
-                {
-                    "tipo": "tema",
-                    "titulo": "",
-                    "descripcion": "",
-                    "url": "https://innovacion.upv.es/temas/energia-movilidad-sostenible/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-energia-icon.svg"
-                }
-            ]
-        },
-        {
-            "id": "explora_upv",
-            "titulo": "Explora UPV",
-            "tipo": "explora",
-            "descripcion": "Accede a toda la innovación de la UPV Explora UPV es el buscador de conocimiento e innovación de la Universitat Politècnica de València. Descubre líneas de investigación, proyectos y soluciones innovadoras que están transformando el futuro de nuestra sociedad. Comienza tu búsqueda ahora: Buscar en explora",
-            "elementos": [
-                {
-                    "tipo": "recurso",
-                    "titulo": "Accede a toda la innovación de la UPV",
-                    "descripcion": "Accede a toda la innovación de la UPV Explora UPV es el buscador de conocimiento e innovación de la Universitat Politècnica de València. Descubre líneas de investigación, proyectos y soluciones innovadoras que están transformando el futuro de nuestra sociedad. Comienza tu búsqueda ahora: Buscar en explora",
-                    "url": ""
-                }
-            ]
-        },
-        {
-            "id": "destacados",
-            "titulo": "Destacados",
-            "tipo": "destacados",
-            "descripcion": "",
-            "elementos": [
-                {
-                    "tipo": "destacado",
-                    "titulo": "",
-                    "descripcion": "Seguridad en la Investigación y Deep Tech | Primavera - Side Event del Fórum UPV Innovación Visualiza las claves de la ciencia segura, abierta y responsable desde la UPV Vuelve a ver",
-                    "url": "https://www.youtube.com/live/PWDbrH0FjE4?si=r9O9_MhUtw6rPJMc",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.07.19-e1781862946676.jpeg"
-                },
-                {
-                    "tipo": "destacado",
-                    "titulo": "",
-                    "descripcion": "Innotransfer Bioinformática Del dato biológico al mercado Conoce el foro",
-                    "url": "https://innotransfer.org/evento/bioinformatica/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/20260605_103312_resized-scaled-e1781000107840.jpg"
-                },
-                {
-                    "tipo": "destacado",
-                    "titulo": "",
-                    "descripcion": "Innotransfer Conectamos universidad y empresa para impulsar innovación abierta, resolver retos reales y transferir conocimiento al tejido productivo valenciano. Ver Innotransfer",
-                    "url": "https://innotransfer.org/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/05/Innotransfer-Destacado-1.png"
-                },
-                {
-                    "tipo": "destacado",
-                    "titulo": "",
-                    "descripcion": "Newsletter Inscríbete para recibir en tu email novedades del ecosistema de investigación, entrevistas con protagonistas de la innovación, casos de éxito inspiradores, convocatorias, agenda de eventos clave y mucho más. Inscríbete",
-                    "url": "https://innovacion.upv.es/newsletter/",
-                    "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/05/Newsletter-Destacado.png"
-                }
-            ]
+          "tipo": "servicio",
+          "titulo": "Emprendimiento",
+          "descripcion": "Emprendimiento Apoyamos a quienes quieren emprender desde la universidad con asesoramiento, formación, mentoría y acceso a programas y financiación.",
+          "url": "https://innovacion.upv.es/emprendimiento/"
         }
-    ]
+      ]
+    },
+    {
+      "id": "iniciativas",
+      "titulo": "Iniciativas",
+      "tipo": "iniciativas",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "iniciativa",
+          "titulo": "Match UPV",
+          "descripcion": "Match UPV Match UPV conecta empresas con grupos de investigación, startups, spin-offs y otros agentes de la UPV.",
+          "url": "https://innovacion.upv.es/iniciativas/matchmaking/match-upv/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/match-upv-card.jpg"
+        },
+        {
+          "tipo": "iniciativa",
+          "titulo": "Fórum UPV Innovación 2026 | Primavera – Side Event",
+          "descripcion": "18 junio Fórum UPV Innovación 2026 | Primavera – Side Event Ven al encuentro de referencia entre investigadores, emprendedores y agentes I+D+i del ecosistema innovador de la UPV en \"Seguridad de la Investigación y Deep Tech\"",
+          "url": "https://innovacion.upv.es/iniciativas/jornadas-upv-innovacion/forum-upv-innovacion-2026-primavera-side-event/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/05/cabecera-web-2160-x-1080-sin-copy_Mesa-de-trabajo-1-copy-4-scaled.png"
+        },
+        {
+          "tipo": "iniciativa",
+          "titulo": "CPI Tour Experience para estudiantes UPV – PIAE+ | Febrero 2026",
+          "descripcion": "CPI Tour Experience para estudiantes UPV – PIAE+ | Febrero 2026 Un recorrido lúdico de ciencia e innovación por el parque científico de la Universitat Politècnica de València.",
+          "url": "https://innovacion.upv.es/iniciativas/cpi-tour-experience/cpi-tour-experience-para-estudiantes-upv-piae-febrero-2026/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-20-at-10.37.20.jpeg"
+        },
+        {
+          "tipo": "iniciativa",
+          "titulo": "Spin UPV",
+          "descripcion": "Spin UPV ¿Te dedicas a la investigación en UPV y quieres llevar tus resultados al mercado? SPIN UPV te ofrece asesoramiento y formación para hacer realidad tu proyecto.",
+          "url": "https://innovacion.upv.es/iniciativas/spin-upv/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/spin-upv-principal.jpg"
+        },
+        {
+          "tipo": "iniciativa",
+          "titulo": "CPI Tour Experience",
+          "descripcion": "CPI Tour Experience Un recorrido por la Ciudad Politécnica de la Innovación a través de rutas temáticas por sus espacios de investigación y experimentación más avanzados.",
+          "url": "https://innovacion.upv.es/iniciativas/cpi-tour-experience/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/cpi-upv-principal.jpg"
+        }
+      ]
+    },
+    {
+      "id": "historias_de_innovacion",
+      "titulo": "Historias de Innovación",
+      "tipo": "historias_innovacion",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "historia",
+          "titulo": "XTRA2 UPV",
+          "descripcion": "XTRA2 UPV Diseño, construcción y pilotaje de vehículos aéreos no tripulados (UAVs) de radiocontrol de competición. Luciyú Cámara Lara Responsable de imagen Eduardo Velasco Cano Responsable de taller",
+          "url": "https://innovacion.upv.es/historias-innovacion/diseno-construccion-y-pilotaje-de-vehiculos-aereos-no-tripulados-uavs-de-radiocontrol-de-competicion/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Xtra2-logo-scaled.png"
+        },
+        {
+          "tipo": "historia",
+          "titulo": "Faraday Rocketry",
+          "descripcion": "Faraday Rocketry Récord nacional de cohetería ‘amateur’ Joan Peiró Miembro de Faraday UPV, equipo ganador en la categoría del mejor vuelo 2026.",
+          "url": "https://innovacion.upv.es/historias-innovacion/record-nacional-de-coheteria-amateur/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Faraday-logo.png"
+        },
+        {
+          "tipo": "historia",
+          "titulo": "Formula Student UPV",
+          "descripcion": "Formula Student UPV Referencia mundial en ingeniería universitaria y competición automovilística estudiantil Carlos Marco Director técnico - Formula Student (UPV)",
+          "url": "https://innovacion.upv.es/historias-innovacion/referencia-mundial-en-ingenieria-universitaria-y-competicion-automovilistica-estudiantil/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Formula-Student-UPV-Team-logo.jpg"
+        },
+        {
+          "tipo": "historia",
+          "titulo": "Mekreo Engineering",
+          "descripcion": "Mekreo Engineering De la sostenibilidad a la acción: ingeniería para transformar materiales y procesos industriales Elena Moreno López CEO y Co fundadora Miguel García Monteagudo CTO y Co fundador",
+          "url": "https://innovacion.upv.es/historias-innovacion/de-la-sostenibilidad-a-la-accion-ingenieria-para-transformar-materiales-y-procesos-industriales/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/Mekreo-logo.png"
+        },
+        {
+          "tipo": "historia",
+          "titulo": "OLESYN - ITQ",
+          "descripcion": "OLESYN - ITQ Química sin deforestación: la nueva generación de ingredientes sostenibles para la industria Ilaria Ceteroni Co-fundadora y pro-CTO OLESYN | Investigadora ITQ (UPV-CSIC)",
+          "url": "https://innovacion.upv.es/historias-innovacion/quimica-sin-deforestacion-la-nueva-generacion-de-ingredientes-sostenibles-para-la-industria/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/OLESYN-Logo.png"
+        },
+        {
+          "tipo": "historia",
+          "titulo": "Valyra Aerospace - Spin-Off UPV",
+          "descripcion": "Valyra Aerospace - Spin-Off UPV Vehículos aéreos no tripulados de nueva generación: autonomía y sostenibilidad para las misiones del futuro Joan Albert Such García Co-CEO en Valyra Aerospace, Spin-Off UPV",
+          "url": "https://innovacion.upv.es/historias-innovacion/vehiculos-aereos-no-tripulados-de-nueva-generacion-autonomia-y-sostenibilidad-para-las-misiones-del-futuro/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/08/logo-def-valyra.png"
+        }
+      ]
+    },
+    {
+      "id": "temas",
+      "titulo": "Temas",
+      "tipo": "temas",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "tema",
+          "titulo": "Digital",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/digital/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-digital-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Arte, Arquitectura, Empresa y Sociedad",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/arte-arquitectura-empresa-sociedad/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-cultura-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Seguridad Civil, Infraestructuras y Resiliencia",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/seguridad-civil-indraestructura-resiliencia/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-infraestructuras-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Industria y Materiales Avanzados",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/industria-materiales-avanzados/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-industria-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Salud",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/salud/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-salud-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Clima, Medioambiente y Agua",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/clima-medioambiente-agua/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-clima-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Biotecnología y Agroalimentación",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/biotecnologia-agroalimentacion/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-agrifood-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Comunicación y Espacio",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/comunicacion-espacio/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-comunicaciones-icon.svg"
+        },
+        {
+          "tipo": "tema",
+          "titulo": "Energía y Movilidad Sostenible",
+          "descripcion": "",
+          "url": "https://innovacion.upv.es/temas/energia-movilidad-sostenible/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2025/05/area-energia-icon.svg"
+        }
+      ]
+    },
+    {
+      "id": "explora_upv",
+      "titulo": "Explora UPV",
+      "tipo": "explora",
+      "descripcion": "Accede a toda la innovación de la UPV Explora UPV es el buscador de conocimiento e innovación de la Universitat Politècnica de València. Descubre líneas de investigación, proyectos y soluciones innovadoras que están transformando el futuro de nuestra sociedad. Comienza tu búsqueda ahora: Buscar en explora",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Accede a toda la innovación de la UPV",
+          "descripcion": "Accede a toda la innovación de la UPV Explora UPV es el buscador de conocimiento e innovación de la Universitat Politècnica de València. Descubre líneas de investigación, proyectos y soluciones innovadoras que están transformando el futuro de nuestra sociedad. Comienza tu búsqueda ahora: Buscar en explora",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "destacados",
+      "titulo": "Destacados",
+      "tipo": "destacados",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "destacado",
+          "titulo": "Seguridad en la Investigación y Deep Tech | Primavera - Side Event del Fórum UPV Innovación",
+          "descripcion": "Seguridad en la Investigación y Deep Tech | Primavera - Side Event del Fórum UPV Innovación Visualiza las claves de la ciencia segura, abierta y responsable desde la UPV Vuelve a ver",
+          "url": "https://www.youtube.com/live/PWDbrH0FjE4?si=r9O9_MhUtw6rPJMc",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.07.19-e1781862946676.jpeg"
+        },
+        {
+          "tipo": "destacado",
+          "titulo": "Innotransfer Bioinformática",
+          "descripcion": "Innotransfer Bioinformática Del dato biológico al mercado Conoce el foro",
+          "url": "https://innotransfer.org/evento/bioinformatica/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/06/20260605_103312_resized-scaled-e1781000107840.jpg"
+        },
+        {
+          "tipo": "destacado",
+          "titulo": "Innotransfer",
+          "descripcion": "Innotransfer Conectamos universidad y empresa para impulsar innovación abierta, resolver retos reales y transferir conocimiento al tejido productivo valenciano. Ver Innotransfer",
+          "url": "https://innotransfer.org/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/05/Innotransfer-Destacado-1.png"
+        },
+        {
+          "tipo": "destacado",
+          "titulo": "Newsletter",
+          "descripcion": "Newsletter Inscríbete para recibir en tu email novedades del ecosistema de investigación, entrevistas con protagonistas de la innovación, casos de éxito inspiradores, convocatorias, agenda de eventos clave y mucho más. Inscríbete",
+          "url": "https://innovacion.upv.es/newsletter/",
+          "imagen": "https://innovacion.upv.es/wp-content/uploads/2026/05/Newsletter-Destacado.png"
+        }
+      ]
+    }
+  ]
 }
