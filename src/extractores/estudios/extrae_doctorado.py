@@ -179,17 +179,25 @@ def limpiar_pagina_programa(soup: BeautifulSoup) -> BeautifulSoup:
     return soup
 
 
-def extraer_enlaces_subpaginas(contenido) -> list[tuple[str, str]]:
+def extraer_enlaces_subpaginas(contenido, url_pagina: str) -> list[tuple[str, str]]:
     """Cada programa enlaza a un numero variable de subpaginas propias
     via bloques ".wp-block-upv-enlace" (antes asumido fijo: "Inicio" +
-    "Admision", ver cabecera del modulo)."""
+    "Admision", ver cabecera del modulo). La mayoria de programas usan
+    href absolutos (WordPress los inserta asi por defecto), pero al
+    menos 2 de 32 (Arquitectura.../Urbanistica y Paisaje, Desarrollo
+    Local y Cooperacion Internacional) usan href RELATIVOS -- resolver
+    contra BASE_URL (solo el dominio) en vez de contra la URL de la
+    propia pagina resolvia mal esos 2 casos (perdia el prefijo
+    /entidades/edoctorado/, acababa en un 404), asi que los dos
+    programas se quedaban sin generar. url_pagina es la URL real de la
+    pagina del programa, usada como base de resolucion."""
     enlaces = []
     for bloque in contenido.select(".wp-block-upv-enlace"):
         a = bloque.find("a", href=True)
         if a is None:
             continue
         texto = limpiar_texto(a.get_text(" ", strip=True))
-        url = ml.normalizar_url(a["href"], BASE_URL)
+        url = ml.normalizar_url(a["href"], url_pagina)
         if texto and ml.es_url_valida(url):
             enlaces.append((texto, url))
     return enlaces
@@ -230,7 +238,7 @@ def generar_markdown_programa(item: dict, carpeta: Path, url_resumen: str) -> bo
             print("  AVISO: no se ha encontrado contenido.")
             return False
 
-        subpaginas = extraer_enlaces_subpaginas(contenido)
+        subpaginas = extraer_enlaces_subpaginas(contenido, url)
 
         ml.reemplazar_tablas_por_listas(soup, contenido)
         lineas_contenido = ml.extraer_bloques_contenido(contenido, url)
