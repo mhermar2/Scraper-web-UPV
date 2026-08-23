@@ -1,0 +1,604 @@
+{
+  "titulaciones": [
+    {
+      "codigo": "GADE-A",
+      "titulo": "Grado en Administración y Dirección de Empresas",
+      "url": "https://www.upv.es/titulaciones/GADE-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GADE",
+      "titulo": "Grado en Administración y Dirección de Empresas",
+      "url": "https://www.upv.es/titulaciones/GADE/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GIE",
+      "titulo": "Grado en Arquitectura Técnica",
+      "url": "https://www.upv.es/titulaciones/GIE/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Edificación",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GBA",
+      "titulo": "Grado en Bellas Artes",
+      "url": "https://www.upv.es/titulaciones/GBA/indexc.html",
+      "centro": "Facultad de Bellas Artes",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GB",
+      "titulo": "Grado en Biotecnología",
+      "url": "https://www.upv.es/titulaciones/GB/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GCD",
+      "titulo": "Grado en Ciencia de Datos",
+      "url": "https://www.upv.es/titulaciones/GCD/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GCTA",
+      "titulo": "Grado en Ciencia y Tecnología de los Alimentos",
+      "url": "https://www.upv.es/titulaciones/GCTA/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GCIA",
+      "titulo": "Grado en Ciencias Ambientales",
+      "url": "https://www.upv.es/titulaciones/GCIA/indexc.html",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "GCNS",
+      "titulo": "Grado en Communication Networks and Systems",
+      "url": "https://www.upv.es/titulaciones/GCNS/indexc.html",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Hangzhou"
+    },
+    {
+      "codigo": "GCST",
+      "titulo": "Grado en Computer Science and Technology",
+      "url": "https://www.upv.es/titulaciones/GCST/indexc.html",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Hangzhou"
+    },
+    {
+      "codigo": "GCOA",
+      "titulo": "Grado en Comunicación Audiovisual",
+      "url": "https://www.upv.es/titulaciones/GCOA/indexc.html",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "GCRBC",
+      "titulo": "Grado en Conservación y Restauración de Bienes Culturales",
+      "url": "https://www.upv.es/titulaciones/GCRBC/indexc.html",
+      "centro": "Facultad de Bellas Artes",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDAI",
+      "titulo": "Grado en Diseño Arquitectónico de Interiores",
+      "url": "https://www.upv.es/titulaciones/GDAI/indexc.html",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDI",
+      "titulo": "Grado en Diseño Arquitectónico de Interiores",
+      "url": "https://www.upv.es/titulaciones/GDI/indexc.html",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDTC",
+      "titulo": "Grado en Diseño y Tecnologías Creativas",
+      "url": "https://www.upv.es/titulaciones/GDTC/indexc.html",
+      "centro": "Facultad de Bellas Artes",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GETD",
+      "titulo": "Grado en Empresa y Tecnología Digital",
+      "url": "https://www.upv.es/titulaciones/GETD/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Gandia; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GETD-G",
+      "titulo": "Grado en Empresa y Tecnología Digital",
+      "url": "https://www.upv.es/titulaciones/GETD-G/",
+      "campus": "Campus de Gandia",
+      "centro": "Escuela Politécnica Superior de Gandia; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GFA",
+      "titulo": "Grado en Fundamentos de la Arquitectura",
+      "url": "https://www.upv.es/titulaciones/GFA/indexc.html",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GGAP",
+      "titulo": "Grado en Gestión y Administración Pública",
+      "url": "https://www.upv.es/titulaciones/GGAP/indexc.html",
+      "centro": "Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GTL",
+      "titulo": "Grado en Gestión del Transporte y la Logística",
+      "url": "https://www.upv.es/titulaciones/GTL/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIIROB-A",
+      "titulo": "Grado en Informática Industrial y Robótica",
+      "url": "https://www.upv.es/titulaciones/GIIROB-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones"
+    },
+    {
+      "codigo": "GIIROB",
+      "titulo": "Grado en Informática Industrial y Robótica",
+      "url": "https://www.upv.es/titulaciones/GIIROB/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones"
+    },
+    {
+      "codigo": "GIA",
+      "titulo": "Grado en Ingeniería Aeroespacial",
+      "url": "https://www.upv.es/titulaciones/GIA/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIAMR",
+      "titulo": "Grado en Ingeniería Agroalimentaria y del Medio Rural",
+      "url": "https://www.upv.es/titulaciones/GIAMR/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIAM",
+      "titulo": "Grado en Ingeniería Ambiental",
+      "url": "https://www.upv.es/titulaciones/GIAM/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIB",
+      "titulo": "Grado en Ingeniería Biomédica",
+      "url": "https://www.upv.es/titulaciones/GIB/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Ciencia y Tecnología para la Salud",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIC",
+      "titulo": "Grado en Ingeniería Civil",
+      "url": "https://www.upv.es/titulaciones/GIC/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GICO",
+      "titulo": "Grado en Ingeniería Civil",
+      "url": "https://www.upv.es/titulaciones/GICO/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIDIDP-A",
+      "titulo": "Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos",
+      "url": "https://www.upv.es/titulaciones/GIDIDP-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GIDIDP",
+      "titulo": "Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos",
+      "url": "https://www.upv.es/titulaciones/GIDIDP/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GIEL-A",
+      "titulo": "Grado en Ingeniería Eléctrica",
+      "url": "https://www.upv.es/titulaciones/GIEL-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GIEL",
+      "titulo": "Grado en Ingeniería Eléctrica",
+      "url": "https://www.upv.es/titulaciones/GIEL/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GIEIA",
+      "titulo": "Grado en Ingeniería Electrónica Industrial y Automática",
+      "url": "https://www.upv.es/titulaciones/GIEIA/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIEN",
+      "titulo": "Grado en Ingeniería de la Energía",
+      "url": "https://www.upv.es/titulaciones/GIEN/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIFIS",
+      "titulo": "Grado en Ingeniería Física",
+      "url": "https://www.upv.es/titulaciones/GIFIS/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIFOMN",
+      "titulo": "Grado en Ingeniería Forestal y del Medio Natural",
+      "url": "https://www.upv.es/titulaciones/GIFOMN/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIGT",
+      "titulo": "Grado en Ingeniería en Geomática y Topografía",
+      "url": "https://www.upv.es/titulaciones/GIGT/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Geodésica, Cartográfica y Topográfica",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GII-A",
+      "titulo": "Grado en Ingeniería Informática",
+      "url": "https://www.upv.es/titulaciones/GII-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones"
+    },
+    {
+      "codigo": "GII",
+      "titulo": "Grado en Ingeniería Informática",
+      "url": "https://www.upv.es/titulaciones/GII/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones"
+    },
+    {
+      "codigo": "GIM-A",
+      "titulo": "Grado en Ingeniería Mecánica",
+      "url": "https://www.upv.es/titulaciones/GIM-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GIM",
+      "titulo": "Grado en Ingeniería Mecánica",
+      "url": "https://www.upv.es/titulaciones/GIM/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GIOP",
+      "titulo": "Grado en Ingeniería de Obras Públicas",
+      "url": "https://www.upv.es/titulaciones/GIOP/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIOI",
+      "titulo": "Grado en Ingeniería de Organización Industrial",
+      "url": "https://www.upv.es/titulaciones/GIOI/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GIQ-A",
+      "titulo": "Grado en Ingeniería Química",
+      "url": "https://www.upv.es/titulaciones/GIQ-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GIQ",
+      "titulo": "Grado en Ingeniería Química",
+      "url": "https://www.upv.es/titulaciones/GIQ/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica"
+    },
+    {
+      "codigo": "GITI",
+      "titulo": "Grado en Ingeniería en Tecnologías Industriales",
+      "url": "https://www.upv.es/titulaciones/GITI/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GITST",
+      "titulo": "Grado en Ingeniería de Tecnologías de Telecomunicación",
+      "url": "https://www.upv.es/titulaciones/GITST/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GISTSI",
+      "titulo": "Grado en Ingeniería de Tecnologías de Telecomunicación, Sonido e Imagen",
+      "url": "https://www.upv.es/titulaciones/GISTSI/indexc.html",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "GIAR-A",
+      "titulo": "Grado en Inteligencia Artificial",
+      "url": "https://www.upv.es/titulaciones/GIAR-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones"
+    },
+    {
+      "codigo": "GIAR",
+      "titulo": "Grado en Inteligencia Artificial",
+      "url": "https://www.upv.es/titulaciones/GIAR/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones"
+    },
+    {
+      "codigo": "GIMA",
+      "titulo": "Grado en Intelligent Manufacturing",
+      "url": "https://www.upv.es/titulaciones/GIMA/indexc.html",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Hangzhou"
+    },
+    {
+      "codigo": "GROBE",
+      "titulo": "Grado en Robotics Engineering",
+      "url": "https://www.upv.es/titulaciones/GROBE/indexc.html",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Hangzhou"
+    },
+    {
+      "codigo": "GTDM",
+      "titulo": "Grado en Tecnología Digital y Multimedia",
+      "url": "https://www.upv.es/titulaciones/GTDM/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GTI",
+      "titulo": "Grado en Tecnologías Interactivas",
+      "url": "https://www.upv.es/titulaciones/GTI/indexc.html",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "GGT",
+      "titulo": "Grado en Turismo",
+      "url": "https://www.upv.es/titulaciones/GGT/indexc.html",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "GDADECTA",
+      "titulo": "Doble grado en Administración y Dirección de Empresas + Ciencia y Tecnología de los Alimentos",
+      "url": "https://www.upv.es/titulaciones/GDADECTA/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas; Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDADEINF-A",
+      "titulo": "Doble grado en Administración y Dirección de Empresas + Ingeniería Informática",
+      "url": "https://www.upv.es/titulaciones/GDADEINF-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones; Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GDADEINF",
+      "titulo": "Doble grado en Administración y Dirección de Empresas + Ingeniería Informática",
+      "url": "https://www.upv.es/titulaciones/GDADEINF/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Técnica Superior de Ingeniería Informática; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones; Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GDADETEL",
+      "titulo": "Doble grado en Administración y Dirección de Empresas + Ingeniería de Tecnologías de Telecomunicación",
+      "url": "https://www.upv.es/titulaciones/GDADETEL/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones; Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDADETUR-A",
+      "titulo": "Doble grado en Administración y Dirección de Empresas + Turismo",
+      "url": "https://www.upv.es/titulaciones/GDADETUR-A/",
+      "campus": "Campus de Alcoy",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GDADETUR-G",
+      "titulo": "Doble grado en Administración y Dirección de Empresas + Turismo",
+      "url": "https://www.upv.es/titulaciones/GDADETUR-G/",
+      "campus": "Campus de Gandia",
+      "centro": "Escuela Politécnica Superior de Alcoy; Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas"
+    },
+    {
+      "codigo": "GDBIOAGRO",
+      "titulo": "Doble grado en Biotecnología + Ingeniería Agroalimentaria y del Medio Rural",
+      "url": "https://www.upv.es/titulaciones/GDBIOAGRO/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal; Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDBQ",
+      "titulo": "Doble Grado en Biotecnología + Química",
+      "url": "https://www.upv.es/titulaciones/GDBQ/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDCDIOI",
+      "titulo": "Doble grado en Ciencia de Datos + Ingeniería de Organización Industrial",
+      "url": "https://www.upv.es/titulaciones/GDCDIOI/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial; Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDACM",
+      "titulo": "Doble Grado en Ciencias Ambientales + Ciencias y Tecnologías del Mar",
+      "url": "https://www.upv.es/titulaciones/GDACM/indexc.html",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "GDAGROCTA",
+      "titulo": "Doble grado en Ingeniería Agroalimentaria y del Medio Rural + Ciencia y Tecnología de los Alimentos",
+      "url": "https://www.upv.es/titulaciones/GDAGROCTA/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal; Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDIFOCA",
+      "titulo": "Doble grado en Ingeniería Forestal y del Medio Natural + Ciencias Ambientales",
+      "url": "https://www.upv.es/titulaciones/GDIFOCA/",
+      "campus": "Campus de Valencia",
+      "centro": "Escuela Politécnica Superior de Gandia; Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal; Ciencias"
+    },
+    {
+      "codigo": "GDIFOCA-G",
+      "titulo": "Doble grado en Ingeniería Forestal y del Medio Natural + Ciencias Ambientales",
+      "url": "https://www.upv.es/titulaciones/GDIFOCA-G/",
+      "campus": "Campus de Gandia",
+      "centro": "Escuela Politécnica Superior de Gandia; Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal; Ciencias"
+    },
+    {
+      "codigo": "GDIQTDT",
+      "titulo": "Doble grado en Ingeniería Química + Ingeniería de Tecnología y Diseño Textil",
+      "url": "https://www.upv.es/titulaciones/GDIQTDT/indexc.html",
+      "centro": "Escuela Politécnica Superior de Alcoy",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Alcoy"
+    },
+    {
+      "codigo": "GDISTSICOA",
+      "titulo": "Doble grado en Ingeniería de Tecnologías de Telecomunicación, Sonido e Imagen + Comunicación Audiovisual",
+      "url": "https://www.upv.es/titulaciones/GDISTSICOA/indexc.html",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones; Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "GDMATADE",
+      "titulo": "Doble grado en Matemáticas + Administración y Dirección de Empresas",
+      "url": "https://www.upv.es/titulaciones/GDMATADE/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación; Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas; Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDMATIC",
+      "titulo": "Doble grado en Matemáticas + Ingeniería Civil",
+      "url": "https://www.upv.es/titulaciones/GDMATIC/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos; Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación; Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDMATGEO",
+      "titulo": "Doble Grado en Matemáticas + Ingeniería en Geomática y Topografía",
+      "url": "https://www.upv.es/titulaciones/GDMATGEO/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Geodésica, Cartográfica y Topográfica; Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDMATINF",
+      "titulo": "Doble grado en Matemáticas + Ingeniería Informática",
+      "url": "https://www.upv.es/titulaciones/GDMATINF/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería Informática; Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones; Ciencias",
+      "campus": "Campus de Valencia"
+    },
+    {
+      "codigo": "GDMATEL",
+      "titulo": "Doble grado en Matemáticas + Ingeniería de Tecnologías de Telecomunicación",
+      "url": "https://www.upv.es/titulaciones/GDMATEL/indexc.html",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones; Ciencias",
+      "campus": "Campus de Valencia"
+    }
+  ]
+}
