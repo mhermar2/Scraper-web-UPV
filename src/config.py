@@ -38,6 +38,21 @@ DOCTORADOS_JSON = DATA_RAW_DIR / "doctorados.json"
 DOCTORADOS_KB_DIR = ESTUDIOS_DIR / "doctorado"
 DOCTORADOS_MD_PADRE = DOCTORADOS_KB_DIR / "doctorado.md"
 
+# --- estudios / master ---
+# Catalogo real (122 titulaciones con acronimo/centro/rama/campus/modalidad
+# ya estructurados) detras del listado con "Cargar mas resultados" de
+# /estudios/master/index-es.html -- descubierto inspeccionando las
+# peticiones de red de esa pagina, evita tener que lidiar con la
+# paginacion AJAX.
+MASTER_CATALOGO_URL = "https://www.upv.es/courses/masteres-es.json"
+MASTER_JSON = DATA_RAW_DIR / "master.json"
+MASTER_KB_DIR = ESTUDIOS_DIR / "master"
+
+# --- estudios / grado ---
+GRADO_CATALOGO_URL = "https://www.upv.es/courses/grados-es.json"
+GRADO_JSON = DATA_RAW_DIR / "grado.json"
+GRADO_KB_DIR = ESTUDIOS_DIR / "grado"
+
 # --- institucion ---
 INSTITUCION_URL_RAIZ = "https://www.upv.es/organizacion/la-institucion/index-es.html"
 INSTITUCION_JSON = DATA_RAW_DIR / "institucion.json"

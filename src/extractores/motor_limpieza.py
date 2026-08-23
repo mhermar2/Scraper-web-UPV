@@ -468,12 +468,23 @@ def reemplazar_tablas_por_listas(soup: BeautifulSoup, contenedor) -> None:
     cualquier tabla HTML (precios, horarios, listados de asignaturas...)
     se pierde en silencio. Cada fila se convierte en un <li> con sus
     celdas unidas por '; ', usando los <th> como etiquetas si el numero
-    de columnas coincide."""
+    de columnas coincide.
+
+    Las celdas de cada fila se buscan con recursive=False: encontrado en
+    paginas de fichas de titulacion (estudios/master), alguna plantilla
+    UPV genera HTML invalido donde cada fila "logica" es en realidad una
+    <tr> anidada dentro de un <td> de la <tr> anterior (una cadena, no
+    filas hermanas). find_all("td") recursivo por fila arrastraba
+    tambien las celdas de todas las filas anidadas mas adentro,
+    duplicando el contenido en cascada (una linea con todas las celdas,
+    otra con todas menos la primera, etc.). Con recursive=False cada
+    <tr> (top-level o anidada, find_all("tr") ya las encuentra todas)
+    aporta solo sus propias celdas."""
     for tabla in contenedor.find_all("table"):
         encabezados = [extraer_texto_limpio(th) for th in tabla.find_all("th")]
         lista = soup.new_tag("ul")
         for fila in tabla.find_all("tr"):
-            celdas = [extraer_texto_limpio(td) for td in fila.find_all("td")]
+            celdas = [extraer_texto_limpio(td) for td in fila.find_all("td", recursive=False)]
             celdas = [c for c in celdas if c and c != "-" and re.search(r"[A-Za-z0-9]", c)]
             if not celdas:
                 continue
