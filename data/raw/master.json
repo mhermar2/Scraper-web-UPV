@@ -1,0 +1,1102 @@
+{
+  "titulaciones": [
+    {
+      "acronimo": "MUA",
+      "titulo": "Máster Universitario en Acuicultura",
+      "url": "https://www.upv.es/estudios/master/mua/",
+      "centro": "Dpto. de Ciencia Animal",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUARQ",
+      "titulo": "Máster Universitario en Arquitectura",
+      "url": "https://www.upv.es/estudios/master/muarq/",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUAVM",
+      "titulo": "Máster Universitario en Artes Visuales y Multimedia",
+      "url": "https://www.upv.es/estudios/master/muavm/",
+      "centro": "Dpto. de Escultura",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUAITECH",
+      "titulo": "Máster Universitario en Artificial Intelligence Technologies",
+      "url": "https://www.upv.es/estudios/master/muaitech/",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Hangzhou",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUAII",
+      "titulo": "Máster Universitario en Automática e Informática Industrial",
+      "url": "https://www.upv.es/estudios/master/muaii/",
+      "centro": "Dpto. de Ingeniería de Sistemas y Automática",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUBB",
+      "titulo": "Máster Universitario en Biotecnología Biomédica",
+      "url": "https://www.upv.es/estudios/master/mubb/",
+      "centro": "Dpto. de Biotecnología",
+      "rama": "Ciencias de la Salud",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUBMCP",
+      "titulo": "Máster Universitario en Biotecnología Molecular y Celular de Plantas",
+      "url": "https://www.upv.es/estudios/master/mubmcp/",
+      "centro": "Instituto Universitario de Investigación Mixto de Biología Molecular y Celular de Plantas",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCC",
+      "titulo": "Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "url": "https://www.upv.es/estudios/master/mucc/",
+      "centro": "Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Semipresencial"
+    },
+    {
+      "acronimo": "MUCAL",
+      "titulo": "Máster Universitario en Ciencia de Animales de Laboratorio",
+      "url": "https://www.upv.es/estudios/master/mucal/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Ciencia y Tecnología para la Salud",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCIA",
+      "titulo": "Máster Universitario en Ciencia e Ingeniería de los Alimentos",
+      "url": "https://www.upv.es/estudios/master/mucia/",
+      "centro": "Instituto Universitario de Investigación de Ingeniería de Alimentos (FoodUPV)",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCNAP",
+      "titulo": "Máster Universitario en Computación en la Nube y de Altas Prestaciones",
+      "url": "https://www.upv.es/estudios/master/mucnap/",
+      "centro": "Dpto. de Sistemas Informáticos y Computación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCEIM",
+      "titulo": "Máster Universitario en Computational Engineering & Industrial Mathematics",
+      "url": "https://www.upv.es/estudios/master/muceim/en",
+      "centro": "Escuela Politécnica Superior de Alcoy",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Alcoy",
+      "modalidad": "En línea"
+    },
+    {
+      "acronimo": "MUCST",
+      "titulo": "Máster Universitario en Computer Science and Technology",
+      "url": "https://www.upv.es/estudios/master/mucst/",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Hangzhou",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCT",
+      "titulo": "Máster Universitario en Comunicación Transmedia",
+      "url": "https://www.upv.es/estudios/master/muct/",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Gandia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCPA",
+      "titulo": "Máster Universitario en Conservación del Patrimonio Arquitectónico",
+      "url": "https://www.upv.es/estudios/master/mucpa/",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCRBC",
+      "titulo": "Máster Universitario en Conservación y Restauración de Bienes Culturales",
+      "url": "https://www.upv.es/estudios/master/mucrbc/",
+      "centro": "Dpto. de Conservación y Restauración de Bienes Culturales",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCIPE",
+      "titulo": "Máster Universitario en Construcción Industrializada y Prototipado en Edificación",
+      "url": "https://www.upv.es/estudios/master/mucipe/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Edificación",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCII",
+      "titulo": "Máster Universitario en Construcciones e Instalaciones Industriales",
+      "url": "https://www.upv.es/estudios/master/mucii/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUCD",
+      "titulo": "Máster Universitario en Cooperación al Desarrollo",
+      "url": "https://www.upv.es/estudios/master/mucd/",
+      "centro": "Dpto. de Proyectos de Ingeniería",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MBA",
+      "titulo": "Máster Universitario en Dirección de Empresas (MBA)",
+      "url": "https://www.upv.es/estudios/master/mba/",
+      "centro": "Escuela Politécnica Superior de Alcoy",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Alcoy",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUDFF",
+      "titulo": "Máster Universitario en Dirección Financiera y Fiscal",
+      "url": "https://www.upv.es/estudios/master/mudff/",
+      "centro": "Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUDGP",
+      "titulo": "Máster Universitario en Dirección y Gestión de Proyectos",
+      "url": "https://www.upv.es/estudios/master/mudgp/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Gestión",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUDAI",
+      "titulo": "Máster Universitario en Diseño Arquitectónico de Interiores",
+      "url": "https://www.upv.es/estudios/master/mudai/",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUDFIAC",
+      "titulo": "Máster Universitario en Diseño y Fabricación Integrada Asistidos por Computador",
+      "url": "https://www.upv.es/estudios/master/mudfiac/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUEAMA",
+      "titulo": "Máster Universitario en Economía Agroalimentaria y del Medio Ambiente",
+      "url": "https://www.upv.es/estudios/master/mueama/",
+      "centro": "Dpto. de Economía y Ciencias Sociales",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUE",
+      "titulo": "Máster Universitario en Edificación",
+      "url": "https://www.upv.es/estudios/master/mue/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Edificación",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUENO",
+      "titulo": "Máster Universitario en Enología",
+      "url": "https://www.upv.es/estudios/master/mueno/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUEMWETEAM",
+      "titulo": "Máster Universitario Erasmus Mundus en Ciencia en Ingeniería Textil",
+      "url": "https://www.upv.es/estudios/master/muemweteam/en",
+      "centro": "Escuela Politécnica Superior de Alcoy",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Alcoy",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUEMISACI",
+      "titulo": "Máster Universitario Erasmus Mundus en Ingeniería para la Sostenibilidad Ambiental y la Cooperación Internacional",
+      "url": "https://www.upv.es/estudios/master/muemisaci/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUEMEMPLANT",
+      "titulo": "Máster Universitario Erasmus Mundus en Mejora Genética Vegetal",
+      "url": "https://www.upv.es/estudios/master/muememplant/",
+      "centro": "Instituto Universitario de Investigación de Conservación y Mejora de la Agrodiversidad Valenciana",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUEMWAVES",
+      "titulo": "Máster Universitario Erasmus Mundus en Ondas, Acústica, Vibraciones, Ingeniería y Sonido",
+      "url": "https://www.upv.es/estudios/master/muemwaves/",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Gandia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUEMPLANTHEALTH",
+      "titulo": "Máster Universitario Erasmus Mundus en Sanidad Vegetal en Agricultura Sostenible",
+      "url": "https://www.upv.es/estudios/master/muemplanthealth/",
+      "centro": "Dpto. de Ecosistemas Agroforestales",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUECTI",
+      "titulo": "Máster Universitario en Estudios de la Ciencia, la Tecnología y la Innovación",
+      "url": "https://www.upv.es/estudios/master/muecti/",
+      "centro": "Dpto. de Proyectos de Ingeniería",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia",
+      "modalidad": "En línea"
+    },
+    {
+      "acronimo": "MUEMIC",
+      "titulo": "Máster Universitario en Evaluación y Seguimiento Ambiental de Ecosistemas Marinos y Costeros",
+      "url": "https://www.upv.es/estudios/master/muemic/",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias",
+      "campus": "Campus de Gandia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUGP",
+      "titulo": "Máster Universitario en Ganadería de Precisión",
+      "url": "https://www.upv.es/estudios/master/mugp/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUGA",
+      "titulo": "Máster Universitario en Gestión Administrativa",
+      "url": "https://www.upv.es/estudios/master/muga/",
+      "centro": "Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUGC",
+      "titulo": "Máster Universitario en Gestión Cultural",
+      "url": "https://www.upv.es/estudios/master/mugc/",
+      "centro": "Dpto. de Comunicación Audiovisual, Documentación e Historia del Arte",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUGEPS",
+      "titulo": "Máster Universitario en Gestión de Empresas, Productos y Servicios",
+      "url": "https://www.upv.es/estudios/master/mugeps/",
+      "centro": "Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUGSCA",
+      "titulo": "Máster Universitario en Gestión de la Seguridad y Calidad Alimentaria",
+      "url": "https://www.upv.es/estudios/master/mugsca/",
+      "centro": "Instituto Universitario de Investigación de Ingeniería de Alimentos (FoodUPV)",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUHD",
+      "titulo": "Máster Universitario en Humanidades Digitales",
+      "url": "https://www.upv.es/estudios/master/muhd/",
+      "centro": "Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia",
+      "modalidad": "Semipresencial"
+    },
+    {
+      "acronimo": "MUIFCGI",
+      "titulo": "Máster Universitario en Incendios Forestales. Ciencia y Gestión Integral",
+      "url": "https://www.upv.es/estudios/master/muifcgi/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Semipresencial"
+    },
+    {
+      "acronimo": "MUIA",
+      "titulo": "Máster Universitario en Ingeniería Acústica",
+      "url": "https://www.upv.es/estudios/master/muia/",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Gandia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIAERO",
+      "titulo": "Máster Universitario en Ingeniería Aeronáutica",
+      "url": "https://www.upv.es/estudios/master/muiaero/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIAGRO",
+      "titulo": "Máster Universitario en Ingeniería Agronómica",
+      "url": "https://www.upv.es/estudios/master/muiagro/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIAMB",
+      "titulo": "Máster Universitario en Ingeniería Ambiental",
+      "url": "https://www.upv.es/estudios/master/muiamb/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIADMPTD",
+      "titulo": "Máster Universitario en Ingeniería de Análisis de Datos, Mejora de Procesos y Toma de Decisiones",
+      "url": "https://www.upv.es/estudios/master/muiadmptd/",
+      "centro": "Dpto. de Estadística e Investigación Operativa Aplicadas y Calidad",
+      "rama": "Ingeniería. Gestión",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIAPLCS",
+      "titulo": "Máster Universitario en Ingeniería Avanzada de Producción, Logística y Cadena de Suministro",
+      "url": "https://www.upv.es/estudios/master/muiaplcs/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Gestión",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIBP",
+      "titulo": "Máster Universitario en Ingeniería Bioambiental y del Paisaje",
+      "url": "https://www.upv.es/estudios/master/muibp/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIB",
+      "titulo": "Máster Universitario en Ingeniería Biomédica",
+      "url": "https://www.upv.es/estudios/master/muib/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Ciencia y Tecnología para la Salud",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUICCP",
+      "titulo": "Máster Universitario en Ingeniería de Caminos, Canales y Puertos",
+      "url": "https://www.upv.es/estudios/master/muiccp/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUICR",
+      "titulo": "Máster Universitario en Ingeniería de Computadores y Redes",
+      "url": "https://www.upv.es/estudios/master/muicr/",
+      "centro": "Dpto. de Informática de Sistemas y Computadores",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUID",
+      "titulo": "Máster Universitario en Ingeniería del Diseño",
+      "url": "https://www.upv.es/estudios/master/muid/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIEG",
+      "titulo": "Máster Universitario en Ingeniería Estructural y Geotécnica",
+      "url": "https://www.upv.es/estudios/master/muieg/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIGG",
+      "titulo": "Máster Universitario en Ingeniería Geomática y Geoinformación",
+      "url": "https://www.upv.es/estudios/master/muigg/",
+      "centro": "Escuela Técnica Superior de Ingeniería Geodésica, Cartográfica y Topográfica",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIHMA",
+      "titulo": "Máster Universitario en Ingeniería Hidráulica y Medio Ambiente",
+      "url": "https://www.upv.es/estudios/master/muihma/",
+      "centro": "Dpto. de Ingeniería Hidráulica y Medio Ambiente",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIH",
+      "titulo": "Máster Universitario en Ingeniería del Hormigón",
+      "url": "https://www.upv.es/estudios/master/muih/",
+      "centro": "Dpto. de Ingeniería de la Construcción y de Proyectos de Ingeniería Civil",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUII",
+      "titulo": "Máster Universitario en Ingeniería Industrial",
+      "url": "https://www.upv.es/estudios/master/muii/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIINF",
+      "titulo": "Máster Universitario en Ingeniería Informática",
+      "url": "https://www.upv.es/estudios/master/muiinf/",
+      "centro": "Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Semipresencial"
+    },
+    {
+      "acronimo": "MUIM",
+      "titulo": "Máster Universitario en Ingeniería del Mantenimiento",
+      "url": "https://www.upv.es/estudios/master/muim/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIMEC",
+      "titulo": "Máster Universitario en Ingeniería Mecánica",
+      "url": "https://www.upv.es/estudios/master/muimec/",
+      "centro": "Dpto. de Ingeniería Mecánica y de Materiales",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIMECA",
+      "titulo": "Máster Universitario en Ingeniería Mecatrónica",
+      "url": "https://www.upv.es/estudios/master/muimeca/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIMO",
+      "titulo": "Máster Universitario en Ingeniería de Montes",
+      "url": "https://www.upv.es/estudios/master/muimo/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIME",
+      "titulo": "Máster Universitario en Ingeniería en Movilidad Eléctrica",
+      "url": "https://www.upv.es/estudios/master/muime/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIOL",
+      "titulo": "Máster Universitario en Ingeniería de Organización y Logística",
+      "url": "https://www.upv.es/estudios/master/muiol/",
+      "centro": "Escuela Politécnica Superior de Alcoy",
+      "rama": "Ingeniería. Gestión",
+      "campus": "Campus de Alcoy",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIPCM",
+      "titulo": "Máster Universitario en Ingeniería, Procesado y Caracterización de Materiales",
+      "url": "https://www.upv.es/estudios/master/muipcm/",
+      "centro": "Escuela Politécnica Superior de Alcoy",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Alcoy",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIQ",
+      "titulo": "Máster Universitario en Ingeniería Química",
+      "url": "https://www.upv.es/estudios/master/muiq/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUISE",
+      "titulo": "Máster Universitario en Ingeniería de Sistemas Electrónicos",
+      "url": "https://www.upv.es/estudios/master/muise/",
+      "centro": "Dpto. de Ingeniería Electrónica",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUITSS",
+      "titulo": "Máster Universitario en Ingeniería y Tecnología de Sistemas Software",
+      "url": "https://www.upv.es/estudios/master/muitss/",
+      "centro": "Dpto. de Sistemas Informáticos y Computación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIT",
+      "titulo": "Máster Universitario en Ingeniería de Telecomunicación",
+      "url": "https://www.upv.es/estudios/master/muit/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUITEX",
+      "titulo": "Máster Universitario en Ingeniería Textil",
+      "url": "https://www.upv.es/estudios/master/muitex/",
+      "centro": "Escuela Politécnica Superior de Alcoy",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Alcoy",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUHAB",
+      "titulo": "Máster Universitario en Innovación en el Hábitat",
+      "url": "https://www.upv.es/estudios/master/muhab/",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIARFID",
+      "titulo": "Máster Universitario en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital",
+      "url": "https://www.upv.es/estudios/master/muiarfid/",
+      "centro": "Dpto. de Sistemas Informáticos y Computación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUINTUR",
+      "titulo": "Máster Universitario en Inteligencia Turística",
+      "url": "https://www.upv.es/estudios/master/muintur/",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Gandia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIMFG",
+      "titulo": "Máster Universitario en Intelligent Manufacturing",
+      "url": "https://www.upv.es/estudios/master/muimfg/",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Hangzhou",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIMA",
+      "titulo": "Máster Universitario en Investigación Matemática",
+      "url": "https://www.upv.es/estudios/master/muima/",
+      "centro": "Dpto. de Matemática Aplicada",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MULT",
+      "titulo": "Máster Universitario en Lenguas y Tecnología",
+      "url": "https://www.upv.es/estudios/master/mult/",
+      "centro": "Dpto. de Lingüística Aplicada",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUMA",
+      "titulo": "Máster Universitario en Materiales Avanzados",
+      "url": "https://www.upv.es/estudios/master/muma/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUMFC",
+      "titulo": "Máster Universitario en Mecánica de Fluidos Computacional",
+      "url": "https://www.upv.es/estudios/master/mumfc/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUMGABR",
+      "titulo": "Máster Universitario en Mejora Genética Animal y Biotecnología de la Reproducción",
+      "url": "https://www.upv.es/estudios/master/mumgabr/",
+      "centro": "Dpto. de Ciencia Animal",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUMGV",
+      "titulo": "Máster Universitario en Mejora Genética Vegetal",
+      "url": "https://www.upv.es/estudios/master/mumgv/",
+      "centro": "Instituto Universitario de Investigación de Conservación y Mejora de la Agrodiversidad Valenciana",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUPU",
+      "titulo": "Máster Universitario en Paisaje y Urbanismo",
+      "url": "https://www.upv.es/estudios/master/mupu/",
+      "centro": "Escuela Técnica Superior de Arquitectura",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUPGIC",
+      "titulo": "Máster Universitario en Planificación y Gestión en Ingeniería Civil",
+      "url": "https://www.upv.es/estudios/master/mupgic/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUPD",
+      "titulo": "Máster Universitario en Postproducción Digital",
+      "url": "https://www.upv.es/estudios/master/mupd/",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Gandia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUPRL",
+      "titulo": "Máster Universitario en Prevención de Riesgos Laborales",
+      "url": "https://www.upv.es/estudios/master/muprl/",
+      "centro": "Dpto. de Ingeniería de la Construcción y de Proyectos de Ingeniería Civil",
+      "rama": "Ciencias de la Salud",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUPA",
+      "titulo": "Máster Universitario en Producción Artística",
+      "url": "https://www.upv.es/estudios/master/mupa/",
+      "centro": "Facultad de Bellas Artes",
+      "rama": "Artes y Humanidades",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUPES",
+      "titulo": "Máster Universitario en Profesor/a de Educación Secundaria",
+      "url": "https://www.upv.es/estudios/master/mupes/",
+      "centro": "Escuela Politécnica Superior de Gandia",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Gandia",
+      "modalidad": "Semipresencial"
+    },
+    {
+      "acronimo": "MUQIP",
+      "titulo": "Máster Universitario en Quantum Information and Photonics",
+      "url": "https://www.upv.es/estudios/master/muqip/en",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUQS",
+      "titulo": "Máster Universitario en Química Sostenible",
+      "url": "https://www.upv.es/estudios/master/muqs/",
+      "centro": "Instituto Universitario de Investigación Mixto de Tecnología Química",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MURSE",
+      "titulo": "Máster Universitario en Rehabilitación y Sostenibilidad en Edificación",
+      "url": "https://www.upv.es/estudios/master/murse/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Edificación",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MURSC",
+      "titulo": "Máster Universitario en Responsabilidad y Sostenibilidad Corporativa",
+      "url": "https://www.upv.es/estudios/master/mursc/",
+      "centro": "Facultad de Administración y Dirección de Empresas",
+      "rama": "Ingeniería. Ciencia y Tecnología para la Salud",
+      "campus": "Campus de Valencia",
+      "modalidad": "En línea"
+    },
+    {
+      "acronimo": "MUROBE",
+      "titulo": "Máster Universitario en Robotics Engineering",
+      "url": "https://www.upv.es/estudios/master/murobe/",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Hangzhou",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSPV",
+      "titulo": "Máster Universitario en Sanidad y Producción Vegetal",
+      "url": "https://www.upv.es/estudios/master/muspv/",
+      "centro": "Dpto. de Ecosistemas Agroforestales",
+      "rama": "Ciencias",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSI",
+      "titulo": "Máster Universitario en Seguridad Industrial",
+      "url": "https://www.upv.es/estudios/master/musi/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSEPRA",
+      "titulo": "Máster Universitario en Seguridad Nuclear y Protección Radiológica",
+      "url": "https://www.upv.es/estudios/master/musepra/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSANTTA",
+      "titulo": "Máster Universitario en Sistemas de Aeronaves no Tripuladas y Tecnologías Asociadas",
+      "url": "https://www.upv.es/estudios/master/musantta/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSIT",
+      "titulo": "Máster Universitario en Sistemas Inteligentes de Transporte",
+      "url": "https://www.upv.es/estudios/master/musit/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación; Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSPMS",
+      "titulo": "Máster Universitario en Sistemas Propulsivos para una Movilidad Sostenible",
+      "url": "https://www.upv.es/estudios/master/muspms/",
+      "centro": "Instituto Universitario de Investigación CMT - Clean Mobility & Thermofluids",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSMCC",
+      "titulo": "Máster Universitario en Social Media y Comunicación Corporativa",
+      "url": "https://www.upv.es/estudios/master/musmcc/",
+      "centro": "Facultad de Administración y Dirección de Empresas",
+      "rama": "Ciencias Sociales y Jurídicas",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUSE",
+      "titulo": "Máster Universitario en Space Engineering",
+      "url": "https://www.upv.es/estudios/master/muse/",
+      "centro": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUTEDS",
+      "titulo": "Máster Universitario en Tecnología Energética para el Desarrollo Sostenible",
+      "url": "https://www.upv.es/estudios/master/muteds/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUTAV",
+      "titulo": "Máster Universitario en Tecnologías Audiovisuales",
+      "url": "https://www.upv.es/estudios/master/mutav/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUTSRC",
+      "titulo": "Máster Universitario en Tecnologías, Sistemas y Redes de Comunicaciones",
+      "url": "https://www.upv.es/estudios/master/mutsrc/",
+      "centro": "Dpto. de Comunicaciones",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUAERSYS",
+      "titulo": "Máster Universitario en Thermofluids in Aerospace Systems",
+      "url": "https://www.upv.es/estudios/master/muaersys/",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Industrial y Aeronáutica",
+      "campus": "Campus de Hangzhou",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUTTU",
+      "titulo": "Máster Universitario en Transporte, Territorio y Urbanismo",
+      "url": "https://www.upv.es/estudios/master/muttu/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUWCOM",
+      "titulo": "Máster Universitario en Wireless Communications",
+      "url": "https://www.upv.es/estudios/master/muwcom/",
+      "centro": "Beihang Valencia Polytechnic Institute",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Hangzhou",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDIABMCP",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Biotecnología Molecular y Celular de Plantas",
+      "url": "https://www.upv.es/estudios/master/mdiabmcp/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIAGCIA",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Ciencia e Ingeniería de los Alimentos",
+      "url": "https://www.upv.es/estudios/master/muiagcia/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIAEAMA",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Economía Agroalimentaria y del Medio Ambiente",
+      "url": "https://www.upv.es/estudios/master/muiaeama/",
+      "centro": "Dpto. de Economía y Ciencias Sociales; Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDIAENO",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Enología",
+      "url": "https://www.upv.es/estudios/master/mdiaeno/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDIAGP",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Ganadería de Precisión",
+      "url": "https://www.upv.es/estudios/master/mdiagp/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIAGSA",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Gestión de la Seguridad y Calidad Alimentaria",
+      "url": "https://www.upv.es/estudios/master/muiagsa/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDIAIBIP",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Ingeniería Bioambiental y del Paisaje",
+      "url": "https://www.upv.es/estudios/master/mdiaibip/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUIASPV",
+      "titulo": "Doble Máster Universitario en Ingeniería Agronómica + Sanidad y Producción Vegetal",
+      "url": "https://www.upv.es/estudios/master/muiaspv/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDUICCPIEG",
+      "titulo": "Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Ingeniería Estructural y Geotécnica",
+      "url": "https://www.upv.es/estudios/master/mduiccpieg/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MUICCPIHMA",
+      "titulo": "Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Ingeniería Hidráulica y Medio Ambiente",
+      "url": "https://www.upv.es/estudios/master/muiccpihma/",
+      "centro": "Dpto. de Ingeniería Hidráulica y Medio Ambiente; Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDUICCPPGI",
+      "titulo": "Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Planificación y Gestión en Ingeniería Civil",
+      "url": "https://www.upv.es/estudios/master/mduiccppgi/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDUICCPTTU",
+      "titulo": "Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Transporte, Territorio y Urbanismo",
+      "url": "https://www.upv.es/estudios/master/mduiccpttu/",
+      "centro": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "rama": "Ingeniería. Arquitectura, Ingeniería Civil y Edificación",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDUIISNPR",
+      "titulo": "Doble Máster Universitario en Ingeniería Industrial + Máster Universitario en Seguridad Nuclear y Protección Radiológica",
+      "url": "https://www.upv.es/estudios/master/mduiisnpr/",
+      "centro": "Escuela Técnica Superior de Ingeniería Industrial",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDUIINFCC",
+      "titulo": "Doble Máster Universitario en Ingeniería Informática + Ciberseguridad y Ciberinteligencia",
+      "url": "https://www.upv.es/estudios/master/mduiinfcc/",
+      "centro": "Escuela Técnica Superior de Ingeniería Informática",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDIMIBIP",
+      "titulo": "Doble Máster Universitario en Ingeniería de Montes + Ingeniería Bioambiental y del Paisaje",
+      "url": "https://www.upv.es/estudios/master/mdimibip/",
+      "centro": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "rama": "Ingeniería. Agroalimentaria y Forestal",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDUITELCC",
+      "titulo": "Doble Máster Universitario en Ingeniería de Telecomunicación + Ciberseguridad y Ciberinteligencia",
+      "url": "https://www.upv.es/estudios/master/mduitelcc/",
+      "centro": "Escuela Técnica Superior de Ingeniería Informática; Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    },
+    {
+      "acronimo": "MDUITELISE",
+      "titulo": "Doble Máster Universitario en Ingeniería de Telecomunicación + Ingeniería de Sistemas Electrónicos",
+      "url": "https://www.upv.es/estudios/master/mduitelise/",
+      "centro": "Dpto. de Ingeniería Electrónica; Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "rama": "Ingeniería. Tecnologías de la Información y las Comunicaciones",
+      "campus": "Campus de Valencia",
+      "modalidad": "Presencial"
+    }
+  ]
+}
