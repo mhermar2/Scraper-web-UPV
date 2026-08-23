@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Evaluación Calidad y Acreditación - (SECA)
 descripcion: Servicio de Evaluación, Calidad y Acreditación
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Evaluación Calidad y Acreditación - (SECA)

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Ciudad Politécnica de la Innovación - (ANICPI)
 descripcion: Área de la Ciudad Politécnica de la Innovación
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Ciudad Politécnica de la Innovación - (ANICPI)
@@ -34,8 +34,6 @@ El Área para la Ciudad Politécnica de la Innovación (CPI), parque científico
 El Área de la Ciudad Politécnica de la Innovación (CPI) se concibe como un espacio, no solo físico, donde conectar universidad, empresa y sociedad, para acelerar la generación de actividades intensivas en conocimiento.
 
 Así, la CPI pretende contribuir a capitalizar el conocimiento de la UPV generando impacto mediante la transferencia de sus resultados y contribuyendo al desarrollo socioeconómico.
-
-## Organigrama
 
 ### Vicerrectorado de Innovación y Transferencia
 

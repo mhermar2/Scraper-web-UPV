@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Centro Infantil Vera - (CIV)
 descripcion: Centro Infantil Vera
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Centro Infantil Vera - (CIV)
@@ -58,10 +58,6 @@ Proyecto Educativo
 [Gabinete Psicopedagógico](https://www.upv.es/entidades/CIV/infoweb/guar/info/U0952572.pdf)
 
 [AFACI UPV](http://www.upv.es/entidades/CIV/infoweb/guar/info/962349normalc.html)
-
-Expandir
-
-Contraer
 
 [29/04/2026 CONVOCATORIA MATRICULA EN EL CENTRO INFANTIL VERA DE VALENCIA, CAMPUS DE ALCOI Y CAMPUS DE GANDÍA 2026-2027 Desde el día 4 al 17 de mayo, ambos inclusive, queda abierta la convocatoria de matrícula de los Centros Infantiles de los Campus de Vera de Valencia, Alcoi y Gandía para el curso 2026-2027.](https://www.upv.es/entidades/CIV/noticia_1274955c.html)
 
@@ -792,8 +788,6 @@ Contraer
 [27/09/2016 REUNIONES DE AULA: INICIO CURSO Comunicamos que durante el mes de octubre se realizarán en la Escuela Infantil las reuniones de aula de las educadoras con los padres.](https://www.upv.es/entidades/CIV/noticia_970631c.html)
 
 [15/07/2016 INFORMACIÓN DEL CENTRO Información primera reunión ADAPTACIÖN.](https://www.upv.es/entidades/CIV/noticia_966591c.html)
-
-[Información general](https://www.upv.es/entidades/CIV/infoweb/guar/info/U0735128.pdf)
 
 [12/07/2016 REUNIÓN PADRES Y MADRES DE LOS NIÑOS Y NIÑAS DE NUEVA INCORPORACIÓN Reunión Informativa padres y madres de los niños y niñas de nueva incorporación.](https://www.upv.es/entidades/CIV/noticia_965995c.html)
 

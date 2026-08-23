@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Centro de Formación Permanente - (CFP)
 descripcion: Centro de Formación Permanente
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Centro de Formación Permanente - (CFP)
@@ -66,10 +66,6 @@ Becas
 [Infraestructura y aulas](http://www.upv.es/entidades/CFP/menu_urlc.html?https://intranet.upv.es/pls/soalu/sic_news2.Lis_Intranet_InfoIntranet?p_acronimo=CFP&p_idioma=C&p_vista=MS&P_TIPO=UPV&p_acceso=&p_id_inicial=739886)
 
 [Logotipo del CFP](http://www.upv.es/entidades/CFP/info/756515normalc.html)
-
-Expandir
-
-Contraer
 
 ## Centro de Formación Permanente
 

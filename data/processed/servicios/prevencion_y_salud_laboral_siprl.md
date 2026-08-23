@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Prevención y Salud Laboral - (SIPRL)
 descripcion: Servicio Integrado de Prevención y Salud Laboral
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Prevención y Salud Laboral - (SIPRL)
@@ -61,11 +61,9 @@ Normativa
 
 [Coordinación de Actividades Empresariales](https://www.sprl.upv.es/CA.htm)
 
-Expandir
-
-Contraer
-
 ## Servicio Integrado de Prevención y Salud Laboral
+
+El Servicio Integrado de Prevención y Salud Laboral es la Unidad de carácter técnico destinada a realizar labores de asesoramiento y evaluación sobre aquellos riesgos que son inherentes a las actividades realizadas por los usuarios, y que pueden suponer una disminución de los niveles de seguridad y salud o que pudieran repercutir negativamente sobre los miembros de la Comunidad Universitaria que estuviesen expuestos a las mismas.
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

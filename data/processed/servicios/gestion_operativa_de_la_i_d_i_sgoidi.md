@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Gestión Operativa de la I+D+i - (SGOIDI)
 descripcion: Servicio de Gestión Operativa de la I+D+i
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Gestión Operativa de la I+D+i - (SGOIDI)
@@ -56,10 +56,6 @@ I+D+i en la UPV
 [Parque científico de la UPV](https://www.cpi.upv.es/) [Vicerrectorado de Investigación, Innovación y Transferencia](https://www.upv.es/entidades/VIIT/index-es.html) [Indicadores I+D+i de la UPV](http://www.upv.es/entidades/SGOIDI/info/932029normalc.html) [La UPV en Europa](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/999864846)
 
 [Intranet SGI](https://www.upv.es/pls/sogec/ctt_web.inicio)
-
-Expandir
-
-Contraer
 
 ## Servicio de Gestión Operativa de la I+D+i
 

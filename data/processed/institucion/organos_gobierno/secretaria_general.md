@@ -9,18 +9,12 @@ resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
 seccion: organos_gobierno
 titulo: Secretaria General
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Secretaria General
 
 **URL:** https://www.upv.es/entidades/SG/index-es.html
-
-Idioma · language
-
-[Valencià](https://www.upv.es/entidades/SG/index-va.html)
-
-[English](https://www.upv.es/entidades/SG/index-en.html)
 
 - [a](https://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](https://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
@@ -28,15 +22,9 @@ Idioma · language
 
 [Secretaría General](https://www.upv.es/entidades/SG/indexc.html)
 
-[Información general](https://www.upv.es/entidades/SG/menu_urlc.html?//www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=SG&P_IDIOMA=c)
-
-Otros
-
 [Equipo directivo](https://www.upv.es/entidades/SG/menu_urlc.html?//www.upv.es/pls/oalu/sic_per.Busca_PersonaMS?P_SC=SG&P_CARGOS=1&P_IDIOMA=c)
 
 [Webs relacionadas](https://www.upv.es/entidades/SG/menu_urlc.html?//www.upv.es/pls/oalu/sic_infoent.WebsMS?P_ENTIDAD=SG&P_IDIOMA=c)
-
-Organigrama
 
 [Normativa](http://www.upv.es/entidades/SG/infoweb/sg/info/999520normalc.html)
 
@@ -79,10 +67,6 @@ Organigrama
 [Servicio Jurídico](https://www.upv.es/entidades/SJ/indexc.html)
 
 [Servicio de Administración Electrónica y Transparencia](https://www.upv.es/entidades/SAET/index-es.html)
-
-Expandir
-
-Contraer
 
 ## Secretaría General
 

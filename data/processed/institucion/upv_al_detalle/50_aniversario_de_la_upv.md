@@ -9,7 +9,7 @@ resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
 seccion: upv_al_detalle
 titulo: 50 aniversario de la UPV
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # 50 aniversario de la UPV

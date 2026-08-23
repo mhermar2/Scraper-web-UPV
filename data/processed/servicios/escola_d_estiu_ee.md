@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Escola d'Estiu - (EE)
 descripcion: Escola d'Estiu
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Escola d'Estiu - (EE)
@@ -42,10 +42,6 @@ Atención al usuario
 [Documentación para las familias](http://www.upv.es/entidades/EE/info/856490normalc.html)
 
 [Monitores](http://www.upv.es/entidades/EE/info/856927normalc.html)
-
-Expandir
-
-Contraer
 
 [10/07/2029 ESCOLA D'ESTIU 2026 La Escola d'Estiu es del 1 al 31 de julio En el contenido dispones de toda la información y avisos diarios. Bienvenidos a los participantes de la segunda quincena.](https://www.upv.es/entidades/EE/noticia_1278413c.html)
 

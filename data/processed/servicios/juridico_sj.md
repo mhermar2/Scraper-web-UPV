@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Jurídico - (SJ)
 descripcion: Servicio Jurídico
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Jurídico - (SJ)
@@ -50,10 +50,6 @@ Normativa
 [Modelos](http://www.upv.es/entidades/SJ/info/280934normalc.html)
 
 [Preguntas frecuentes FAQs](http://www.upv.es/entidades/SJ/info/979813normalc.html)
-
-Expandir
-
-Contraer
 
 ## Servicio Jurídico
 

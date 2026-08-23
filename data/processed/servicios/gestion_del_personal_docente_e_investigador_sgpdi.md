@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Gestión del Personal Docente e Investigador - (SGPDI)
 descripcion: Servicio de Gestión del Personal Docente e Investigador
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Gestión del Personal Docente e Investigador - (SGPDI)
@@ -66,10 +66,6 @@ Normativa
 [Información general](http://www.upv.es/entidades/SRH/ufasu/741777normalc.html) [Normativa de formación](http://www.upv.es/entidades/SRH/ufasu/741766normalc.html) [Portal de formación continua y permanente](http://www.upv.es/entidades/SRH/ufasu/944333normalc.html)
 
 [Formularios y Documentos](https://www.upv.es/entidades/SRH/menu_579820c.html)
-
-Expandir
-
-Contraer
 
 ## Vicegerencia de Recursos Humanos y Organización
 

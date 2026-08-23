@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Sindicatura de Greuges Universitària - (DCU)
 descripcion: Sindicatura de Greuges Universitària
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Sindicatura de Greuges Universitària - (DCU)

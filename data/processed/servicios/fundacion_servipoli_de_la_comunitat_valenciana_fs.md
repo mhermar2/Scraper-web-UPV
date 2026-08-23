@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Fundación Servipoli de la Comunitat Valenciana - (FS)
 descripcion: Fundación Servipoli de la Comunitat Valenciana
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Fundación Servipoli de la Comunitat Valenciana - (FS)
@@ -21,13 +21,19 @@ actualizado: 2026-08-20
 
 ## Información de contacto
 
-[http://www.servipoli.es](http://www.servipoli.es)
+- http://www.servipoli.es
 
-[servipoli@servipoli.es](mailto:servipoli@servipoli.es)
+- servipoli@servipoli.es
 
-[Edificio 8H](https://www.upv.es/plano/plano-2d-es.html?entidad=FS)
+- Fundación Servipoli de la Comunitat Valenciana Camino de Vera, s/n 46022 Valencia
 
-[http://www.upv.es/otros/como-llegar-upv/index-es.html](http://www.upv.es/otros/como-llegar-upv/index-es.html)
+- +34 963394269
+
+- +34 963394275
+
+- Edificio 8H
+
+- http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

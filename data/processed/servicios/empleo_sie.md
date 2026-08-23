@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Empleo - (SIE)
 descripcion: Servicio Integrado de Empleo
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Empleo - (SIE)

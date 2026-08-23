@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Editorial UPV - (AEUPV)
 descripcion: Editorial UPV
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Editorial UPV - (AEUPV)
@@ -52,10 +52,6 @@ Edición de obras
 [Material docente](http://www.upv.es/entidades/AEUPV/info/823959normalc.html) [Monografías de investigación](http://www.upv.es/entidades/AEUPV/info/823960normalc.html) [Revistas](http://www.upv.es/entidades/AEUPV/info/803148normalc.html) [Congresos](http://www.upv.es/entidades/AEUPV/info/1026191normalc.html) [Tesis Doctorales](http://www.upv.es/entidades/AEUPV/info/774884normalc.html)
 
 Adquisición de publicaciones
-
-Expandir
-
-Contraer
 
 [Nueva web de la Editorial UPV: www.editorial.upv.es](http://www.editorial.upv.es)
 

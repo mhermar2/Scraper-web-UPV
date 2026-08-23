@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Servicios Generales - (USG)
 descripcion: Unidad de Servicios Generales
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Servicios Generales - (USG)
@@ -70,10 +70,6 @@ Horario Campus UPV
 [Secretaría General](https://www.upv.es/entidades/SG/index-es.html)
 
 [Acceso Intranet](https://intranet.upv.es/pls/soalu/sic_news2.Lis_Intranet_InfoIntranet?p_acronimo=USG&p_idioma=c&p_vista=MS&P_TIPO=UPV&p_acceso=&P_MODO=URL)
-
-Expandir
-
-Contraer
 
 ## Unidad de Servicios Generales
 

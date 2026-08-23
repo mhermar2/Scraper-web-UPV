@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Estudiantes (antiguo Servicio de Alumnado) - (SESTU)
 descripcion: Servicio de Estudiantes
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Estudiantes (antiguo Servicio de Alumnado) - (SESTU)
@@ -51,11 +51,9 @@ Atención al usuario
 
 [Información Alumnos Extranjeros](http://www.upv.es/entidades/SESTU/general/694425normalc.html)
 
-Expandir
-
-Contraer
-
 ## SERVICIO DE ESTUDIANTES
+
+El Servicio de Estudiantes es un servicio administrativo de carácter central de la UPV, cuya función está dirigida fundamentalmente hacia el estudiantado, tanto en lo que se refiere al preuniversitario como al de grado, máster y doctorado. Como unidad central, coordina procedimientos y actuaciones relacionadas con el estudiantado matriculado en títulos oficiales de la UPV, gestionando a través de las distintas unidades administrativas que conforman este servicio los procesos relacionados con la gestión de estudiantes: preinscripción y admisión, matrícula, reconocimiento de créditos, reconocimiento de actividades, evaluación por curriculum, permanencia y progreso, becas y títulos.
 
 [30/07/2026 FASE 3: APERTURA PERIODO DE PREINSCRIPCIÓN EN LOS ESTUDIOS DE MÁSTER UNIVERSITARIO 2026/27 Plazo de presentación de solicitudes de Fase 3 desde el 31 de julio al 7 de agosto y del 24 de agosto al 4 de septiembre de 2026 .](https://www.upv.es/entidades/SESTU/noticia_1196879c.html)
 

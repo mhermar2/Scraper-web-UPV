@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Mantenimiento - (SDM)
 descripcion: Servicio de Mantenimiento
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Mantenimiento - (SDM)
@@ -42,10 +42,6 @@ Normativa
 [Localiza a tu técnico](http://www.upv.es/entidades/SDM/infoweb/um/info/504228normalc.html)
 
 [Localizador de espacios](https://polimapa.upv.es)
-
-Expandir
-
-Contraer
 
 ## Servicio de Mantenimiento
 

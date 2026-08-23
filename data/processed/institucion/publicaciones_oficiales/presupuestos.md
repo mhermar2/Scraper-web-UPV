@@ -9,7 +9,7 @@ resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
 seccion: publicaciones_oficiales
 titulo: Presupuestos
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Presupuestos

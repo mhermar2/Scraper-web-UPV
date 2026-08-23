@@ -9,7 +9,7 @@ resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
 seccion: estrategia_upv_sirve
 titulo: Presentación del plan
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Presentación del plan

@@ -5,7 +5,7 @@ categoria: institucion
 tipo_documento: resumen
 titulo: La institución
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # La institución

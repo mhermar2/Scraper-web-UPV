@@ -9,18 +9,12 @@ resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
 seccion: upv_al_detalle
 titulo: Portal de transparencia
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Portal de transparencia
 
 **URL:** http://www.upv.es/contenidos/PORTRANSV4/indexc.html
-
-Idioma · language
-
-[Valencià](http://www.upv.es/contenidos/PORTRANSV4/index-va.html)
-
-[English](http://www.upv.es/contenidos/PORTRANSV4/index-en.html)
 
 - [a](http://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](http://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
@@ -86,19 +80,13 @@ I
 
 La Universitat Politècnica de València entiende que la información pública no es patrimonio de los entes públicos, sino que es de los ciudadanos, los cuales tienen el derecho de exigirla, y nosotros el deber de ponerla a su alcance de la manera más didáctica posible. Para nosotros el Portal de Transparencia es una oportunidad para mejorar y acercar la información que generamos a los ciudadanos y a la sociedad valenciana que es a quien tenemos que rendir cuentas.
 
-[Institucional Informa sobre la misión y valores de la Universitat, sus diferentes estructuras organizativas, planes y programas anuales, cartas de servicios, recursos humanos, fundaciones, entidades públicas y privadas en las que tiene participación...](http://www.upv.es/contenidos/PORTRANSV4/info/1081290normalc.html)
+- Institucional Informa sobre la misión y valores de la Universitat, sus diferentes estructuras organizativas, planes y programas anuales, cartas de servicios, recursos humanos, fundaciones, entidades públicas y privadas en las que tiene participación...; Académica Estudios ofertados, becas, programas de intercambio, prácticas de empresa, organización del profesorado, indicadores de demanda, rendimiento, satisfacción...
 
-[Académica Estudios ofertados, becas, programas de intercambio, prácticas de empresa, organización del profesorado, indicadores de demanda, rendimiento, satisfacción...](http://www.upv.es/contenidos/PORTRANSV4/info/1080739normalc.html)
+- Investigación Estructuras propias de investigación, presupuestos, convenios, subvenciones, resultados de la labor investigadora, servicios de apoyo, becas de investigación, resultados de la labor investigadora, etc.; Jurídica Normativas vigentes (estatutos, reglamentos, etc), legislación, etc.
 
-[Investigación Estructuras propias de investigación, presupuestos, convenios, subvenciones, resultados de la labor investigadora, servicios de apoyo, becas de investigación, resultados de la labor investigadora, etc.](http://www.upv.es/contenidos/PORTRANSV4/info/1082999normalc.html)
+- Económica Presupuestos, planes de financiación, cuentas anuales e informes de auditoría, tablas salariales, patrimonio, concesiones administrativas, becas, ayudas, aportaciones,...; Estadística Rankings, informes y encuestas de satisfacción, empleabilidad, estudios de opinión, acceso al portal de Open Data UPV, mapas de redes sociales,etc.
 
-[Jurídica Normativas vigentes (estatutos, reglamentos, etc), legislación, etc.](http://www.upv.es/contenidos/PORTRANSV4/info/1080735normalc.html)
-
-[Económica Presupuestos, planes de financiación, cuentas anuales e informes de auditoría, tablas salariales, patrimonio, concesiones administrativas, becas, ayudas, aportaciones,...](http://www.upv.es/contenidos/PORTRANSV4/info/1083171normalc.html)
-
-[Estadística Rankings, informes y encuestas de satisfacción, empleabilidad, estudios de opinión, acceso al portal de Open Data UPV, mapas de redes sociales,etc.](http://www.upv.es/contenidos/PORTRANSV4/info/1083175normalc.html)
-
-[Solicitud de información pública Acceso a la información pública, formulario de acceso.](https://www.upv.es/entidades/saet/solicitud-de-acceso-a-informacion-publica/)
+- Solicitud de información pública Acceso a la información pública, formulario de acceso.
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

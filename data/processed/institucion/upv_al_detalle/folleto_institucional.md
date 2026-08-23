@@ -9,7 +9,7 @@ resumen: https://www.upv.es/organizacion/la-institucion/index-es.html
 seccion: upv_al_detalle
 titulo: Folleto institucional
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Folleto institucional
