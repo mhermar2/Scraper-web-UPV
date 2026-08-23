@@ -1,0 +1,379 @@
+---
+fuente: UPV
+url: https://www.upv.es/titulaciones/GDAGROCTA/indexc.html
+categoria: estudios
+nivel: grado
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/estudios/grado/index-es.html
+seccion: grado
+titulo: Doble grado en Ingeniería Agroalimentaria y del Medio Rural + Ciencia y Tecnología de los Alimentos
+descripcion: ""
+actualizado: 2026-08-23
+acronimo: GDAGROCTA
+centro: Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural
+rama: Ingeniería. Agroalimentaria y Forestal; Ciencias
+campus: Campus de Valencia
+---
+
+# Doble grado en Ingeniería Agroalimentaria y del Medio Rural + Ciencia y Tecnología de los Alimentos
+
+# Doble grado en Ingeniería Agroalimentaria y del Medio Rural + Ciencia y Tecnología de los Alimentos
+
+5 cursos 343,5 créditos
+
+Crédito 17,34€ (2026/2027)
+
+Nota de corte 9,97 (2025/2026)
+
+15 plazas (2026/2027)
+
+## Presentación del grado
+
+Este doble grado te formará como profesional que integra competencias de la ingeniería agroalimentaria y del medio rural con la ciencia y tecnología de los alimentos. Darás respuesta a la demanda del sector agroalimentario, con una sólida formación en todos los eslabones de la cadena agroalimentaria, desde la producción de materias primas y la gestión de infraestructuras agrarias y ganaderas hasta el desarrollo, la conservación, la transformación, el envasado, la distribución y el uso de alimentos seguros, nutritivos y saludables.
+
+El Grado en Ingeniería Agroalimentaria y del Medio Rural te habilita para ejercer la profesión regulada de ingeniero/a técnico/a agrícola.
+
+Programa acreditado por la comisión de ingeniería de ABET (Grado Ingeniería Agroalimentaria y del Medio Rural).
+
+Título acreditado con el sello internacional de calidad EUR-ACE (Grado Ingeniería Agroalimentaria y del Medio Rural).
+
+Título acreditado con el sello internacional de calidad de Iseki Food Association (Grado Ciencia y Tecnología de los Alimentos).
+
+## Salidas profesionales
+
+Serás capaz de abordar retos a lo largo de toda la cadena de valor implicada en la producción y distribución de alimentos. Por ello, la combinación de ambos grados genera un valioso perfil de titulado para el sector agroalimentario: un ingeniero/a especialista en ciencia y tecnología de los alimentos.
+
+## Movilidad internacional y prácticas
+
+La ETSIAMN tiene convenios con algunas de las mejores universidades europeas y americanas. Más de 200 estudiantes pasan un período en el extranjero y alrededor de 300 vienen desde otros países.
+
+La ETSIAMN facilita la realización de prácticas en empresas e instituciones, enviando cada año a alrededor de 650 estudiantes a 300 empresas de diferentes sectores.
+
+## Continuación de estudios
+
+El Grado en Ingeniería Agroalimentaria y del Medio Rural es el grado de referencia para cursar el Máster Universitario en Ingeniería Agronómica, que habilita para el ejercicio de la profesión regulada de ingeniero/a agrónomo/a.
+
+## Plan de estudios
+
+## Créditos establecidos para obtener la titulación
+
+- Formación básica: 85,50; Obligatorios: 222,00; Optativos: 12,00; Práctica externa: 0,00; TFG: 24,00; Total: 343,50
+
+[Videopódcast OPEN](https://moneres.upv.es/tv/open-upv/2026-06-05-open-upv-68913.mp4)
+
+## Asignaturas
+
+# Asignaturas
+
+## Asignaturas
+
+- Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural
+
+- Doble Titulación. Grado en Ingeniería Agroalimentaria y del Medio Rural y Grado en Ciencia y Tecnología de los Alimentos
+
+- Grado
+
+- 2026-2027
+
+## Asignaturas por módulos y materias
+
+- Ver asignaturas por cursos
+
+La consulta de bloques curriculares estará accesible a través del botón "Ver asignaturas por cursos" en su caso.
+
+## Créditos por tipo de asignatura establecidos para obtener la titulación
+
+- Formación básica: 85,50; Obligatorios: 222,00; Optativos* (*): 12,00; TFG: 24,00; Total: 343,50
+
+(*) Dentro de esta Optatividad el alumnado podrá cursar hasta un máximo de 6 créditos de prácticas externas curriculares.
+
+## MÓDULO 1: Asignaturas Grado en Ingeniería Agroalimentaria y del Medio Rural Créditos Ofertados : 151,5 Carácter: Obligatorio
+
+## MATERIA : Asignaturas básicas y obligatorias Créditos Ofertados : 139,5 Carácter: Mixto
+
+- 10786; Bases de la producción animal; Obligatorio; 4; A; 4,5
+
+- 10778; Biología; Formación Básica; 1; A; 6
+
+- 10783; Botánica Sistemática; Obligatorio; 2; B; 4,5
+
+- 10800; Cultivos herbáceos; Obligatorio; 3; B; 4,5
+
+- 10801; Cultivos leñosos; Obligatorio; 4; B; 4,5
+
+- 10788; Ecología e Impacto ambiental; Obligatorio; 2; A; 6
+
+- 10793; Electrotecnia y electrificación; Obligatorio; 2; B; 6
+
+- 10782; Fitotecnia general; Obligatorio; 3; A; 4,5
+
+- 10775; Fundamentos Físicos de la Ingeniería II; Formación Básica; 1; B; 6
+
+- 10776; Fundamentos Físicos en la Ingeniería I; Formación Básica; 1; A; 6
+
+- 10774; Fundamentos matemáticos I; Formación Básica; 1; A; 6
+
+- 10773; Fundamentos Matemáticos II; Formación Básica; 1; T; 9
+
+- 10781; Geología, Edafología y Climatología; Formación Básica; 2; T; 9
+
+- 10789; Geomática Agroforestal; Obligatorio; 2; A; 7,5
+
+- 10791; Hidráulica; Obligatorio; 3; A; 6
+
+- 10796; Ingeniería del riego; Obligatorio; 3; B; 4,5
+
+- 10790; Maquinaria y mecanización agraria; Obligatorio; 2; A; 6
+
+- 10795; Mecánica suelos, cimentaciones y vías; Obligatorio; 3; A; 4,5
+
+- 10798; Métodos estadísticos; Obligatorio; 3; A; 4,5
+
+- 10784; Protección de cultivos; Obligatorio; 4; B; 4,5
+
+- 10779; Representación Gráfica en la Ingeniería; Formación Básica; 1; B; 6
+
+- 10794; Resistencia de materiales y estructuras agroindustriales; Obligatorio; 2; B; 7,5
+
+- 10799; Tecnología de la producción animal; Obligatorio; 4; B; 6
+
+- 10792; Valoración y comercialización; Obligatorio; 4; A; 6
+
+## MATERIA : Asignaturas optativas Créditos Ofertados : 12 Carácter: Obligatorio
+
+- 15582; Alemán académico y profesional A1.1; Optativo; 5; A; 6
+
+- 15584; Alemán académico y profesional A1.2; Optativo; 5; A; 6
+
+- 13759; Alemán académico y profesional A2; Optativo; 5; A; 6
+
+- 13760; Alemán académico y profesional B1; Optativo; 5; A; 6
+
+- 13761; Alemán académico y profesional B2; Optativo; 5; A; 6
+
+- 15282; Complemento del TFG Industrias Agrarias y Alimentarias; Optativo; 5; B; 6
+
+- 13766; Francés académico y profesional A1; Optativo; 5; A; 6
+
+- 13767; Francés académico y profesional A2; Optativo; 5; A; 6
+
+- 13768; Francés académico y profesional B1; Optativo; 5; A; 6
+
+- 13769; Francés académico y profesional B2; Optativo; 5; A; 6
+
+- 10992; Inglés B2 para la ingeniería agroalimentaria y del medio rural; Optativo; 5; B; 6
+
+- 14064; Valencià tècnic - C1; Optativo; 5; A; 6
+
+- 14065; Valencià tècnic - C2; Optativo; 5; A; 6
+
+## MÓDULO 2: Asignaturas Grado en Ciencia y Tecnología de los Alimentos Créditos Ofertados : 168 Carácter: Obligatorio
+
+## MATERIA : Asignaturas básicas y obligatorias Créditos Ofertados : 168 Carácter: Mixto
+
+- 11218; Alimentación y Cultura; Obligatorio; 1; A; 4,5
+
+- 11196; Análisis químico I; Obligatorio; 2; B; 4,5
+
+- 11199; Análisis químico II; Obligatorio; 3; A; 4,5
+
+- 11197; Análisis y control de calidad de alimentos I; Obligatorio; 4; A; 6
+
+- 11198; Análisis y control de calidad de alimentos II; Obligatorio; 4; B; 4,5
+
+- 11188; Bioquímica; Formación Básica; 1; B; 6
+
+- 11207; Biotecnología alimentaria; Obligatorio; 5; A; 4,5
+
+- 15609; Composición química de los alimentos; Formación Básica; 2; A; 6
+
+- 11216; Dietética; Obligatorio; 5; A; 4,5
+
+- 11191; Economía y Gestión de la Empresa Alimentaria; Formación Básica; 3; B; 6
+
+- 11206; Envases y embalajes; Obligatorio; 5; A; 4,5
+
+- 15608; Fisiología Humana; Obligatorio; 2; B; 4,5
+
+- 11186; Fundamentos de la Ingenieria de Alimentos; Formación Básica; 1; B; 7,5
+
+- 11185; Fundamentos químicos para la ciencia y tecnología de alimentos; Formación Básica; 1; T; 12
+
+- 11211; Gestión de la calidad en la industria alimentaria; Obligatorio; 4; B; 4,5
+
+- 11213; Gestión medioambiental en la industria alimentaria; Obligatorio; 5; A; 4,5
+
+- 11212; Ingeniería de la calidad en la industria alimentaria; Obligatorio; 4; B; 4,5
+
+- 11209; Microbiología e higiene de alimentos I; Obligatorio; 3; A; 4,5
+
+- 11208; Microbiología e higiene de los alimentos II; Obligatorio; 3; B; 4,5
+
+- 11214; Normalización y Legislación Alimentaria; Obligatorio; 5; B; 4,5
+
+- 11215; Nutrición Humana; Obligatorio; 4; B; 7,5
+
+- 11202; Operaciones básicas en la industria alimentaria I; Obligatorio; 2; A; 6
+
+- 11203; Operaciones básicas en la industria alimentaria II; Obligatorio; 2; B; 6
+
+- 11204; Procesado de alimentos I; Obligatorio; 3; B; 6
+
+- 11205; Procesado de alimentos II; Obligatorio; 4; A; 6
+
+- 11194; Propiedades físicas de los alimentos I; Obligatorio; 3; A; 6
+
+- 11195; Propiedades físicas de los alimentos II; Obligatorio; 3; B; 7,5
+
+- 11217; Salud Pública; Obligatorio; 5; A; 4,5
+
+- 11210; Toxicología en Procesos Industriales Alimentarios; Obligatorio; 5; A; 4,5
+
+- 11193; Transformaciones químicas en el procesado de alimentos; Obligatorio; 4; A; 7,5
+
+## MÓDULO 3: Trabajo de fin de grado Créditos Ofertados : 24 Carácter: Trabajo Fin Titulación
+
+## MATERIA : Trabajo de fin de grado (GIAMR) Créditos Ofertados : 12 Carácter: Trabajo Fin Titulación
+
+- 10997; Trabajo Final de Grado; Trabajo Fin Titulación; 5; B; 12
+
+## MATERIA : Trabajo de fin de grado (GCTA) Créditos Ofertados : 12 Carácter: Trabajo Fin Titulación
+
+- 11262; Trabajo final de grado; Trabajo Fin Titulación; 5; B; 12
+
+: Asignatura ofertada en el curso 2026-2027 : Asignatura no ofertada en el curso 2026-2027 ( * ) : Asignatura de otro grado ofertada en el grado actual
+
+[Si quieres consultar el plan 2021 , para los alumnos de 2º curso y posteriores, pulsa en este mismo enunciado.](https://www.upv.es/pls/oalu/sic_pla.lisBloques?P_TIT=208&P_CACA=2026&P_TIPO=plan&P_NOMBRE=&P_CEN=GDAGROCTA&P_IDIOMA=c&P_ACCESO=G&P_NAVEGA=&P_VISTA=MSE&P_PLAN_EXT=S)
+
+## Competencias
+
+# Resultados
+
+Estos son los resultados que los estudiantes adquieren al cursar estos estudios: los resultados [transversales UPV](http://www.upv.es/contenidos/COMPTRAN/index-es.html) (comunes a todos los egresados UPV) y los resultados generales y específicos del título, aquí llamados "fundamentales".
+
+- Transversales UPV; ¿Dónde se evalúa?
+
+- Compromiso social y medioambiental Actuar con ética y responsabilidad profesional ante los desafíos sociales, ambientales y económicos, teniendo como referentes los principios y valores democráticos y los Objetivos de Desarrollo Sostenible.
+
+- Innovación y creatividad Proponer soluciones creativas e innovadoras a situaciones o problemas complejos, propios del ámbito de conocimiento, para dar respuesta a las diversas necesidades profesionales y sociales.
+
+- Trabajo en equipo y liderazgo Colaborar eficazmente en equipos de trabajo, asumiendo responsabilidades y funciones de liderazgo y contribuyendo a la mejora y desarrollo colectivo.
+
+- Comunicación efectiva Comunicarse de manera efectiva, tanto de forma oral como escrita, adaptándose a las características de la situación y de la audiencia.
+
+- Responsabilidad y toma de decisiones Actuar con autonomía en el aprendizaje, tomando decisiones fundamentadas en diferentes contextos, emitiendo juicios en base a la experimentación y el análisis y transfiriendo el conocimiento a nuevas situaciones.
+
+## Doble grado en Ingeniería Agroalimentaria y del Medio Rural + Ciencia y Tecnología de los Alimentos
+
+[Grado en Ingeniería Agroalimentaria y del Medio Rural (Curso Adaptación)](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.competencias?p_idioma=c&p_vista=MSE&p_tit=176)
+
+[Grado en Ciencia y Tecnología de los Alimentos](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.competencias?p_idioma=c&p_vista=MSE&p_tit=237)
+
+## Profesorado
+
+# Profesorado que imparte en la titulación
+
+## Doble Titulación. Grado en Ingeniería Agroalimentaria y del Medio Rural y Grado en Ciencia y Tecnología de los Alimentos
+
+[Adam Picazo, Eva](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F634C23E7ECBB94F1E09582CEAB8B96EE4089A67D9522BF3BD63C7ED3E941EB5CACF5B65DA7478E9B51B62C98990E0E6B74E84E32EA4836AE730EBF0615E3B76782AB76C78A3F5217D57CB65CD162EA2963F692470D64646C109CC792B161C9AD2&P_IDIOMA=c&P_VISTA=)
+
+[Agusti Feliu, Javier](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F667283803B49EAC69003B8DFD726B06861A4817D278FA253AA870B566058D90BB3BD79808515C097B3402145050129BA12120B1B09DF089EF17396D93E69BF01D81D3A6F840ACB1DA1ADD844C23A2FFFD19FF91C968E7694B077ABECE72C33D6D&P_IDIOMA=c&P_VISTA=)
+
+[Agustí Fonfría, Manuel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6C92244F2715C1430D3202D1E409950B62ACD3CA8404222535B230FD1B5FA765436F516B4E1AA52B923D4A195CADDFBF9E6688EDCA7448F26954D7CBD0E996864DD18F2A7DAAC97E207351FA6CC78B994E2B032CC1B5B2D1E54271C0DECDED256&P_IDIOMA=c&P_VISTA=)
+
+[Albors Sorolla, Ana María](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6329E056F8C441FAA4610DBDC25DD7581AA3EDB4224D9BC4DBC1D7C2DBEEA3CB135FEF437E62DE5A5282B83C573A6EAE7D20A1F1A29997AE483E642635BF841E62D61F65A62FA0A5B76C78DEF8AFC5F08DFA0FC469870C3AF04DAA66938EEB3A2&P_IDIOMA=c&P_VISTA=)
+
+[Aleixandre Tudó, José Luis](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6759C381F627E4CA10FFFAE49E8483D26465DA6773E9414E6DAF39FC145E72E7EDB17E342223A783C92A1F80BACB92D7387AE42662166C812DC7232132E55F0E1B46401CCAB2500B5034D54610ABC57930B6C4F8F6B77C95397570F8F38E4660E&P_IDIOMA=c&P_VISTA=)
+
+[Alfaro Fernández, Ana Olvido](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6C78ABB8E9F3644CC29374A77BEFC88E5560B8265D1BD0E722541BBCE734E8AC1538E4349B7887DDFE23E6C3F3FEA27A29502685E7F2F90C6ADA0F1871CB08B75B82D3D256E05CB73057E3B453091FF2BA673184257DE58E41FC67F9BFD8B9C83&P_IDIOMA=c&P_VISTA=)
+
+[Almudéver Folch, Patricia](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F66D5FAFC3FB90DB44612D9C91830BB07C1ED27964C9AD238A3E80E18316A18EDF4B8A18F5EEC52589D6619BEEAD527075D9C50E96350AD91A89BEFD53700BD9BCDCE2764DDF0DBCBDA716F7B0657623DADF7EEFDF89E52492CCD5C8961FC44825&P_IDIOMA=c&P_VISTA=)
+
+[Andrés Grau, Ana María](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6E28E150DFDE6C7BDEB5A659ECE9FF1D93D3BA0CC13D69B00AE42012895189C477A3BA4B9011F922C3F7DCD75FBFD3E3E059C3C6534EA27E77053B7CD63C67ABFFAB3DE12DF0A16F9926A7BB305DE927105927493B6C8538E46E8C281E1708DFF&P_IDIOMA=c&P_VISTA=)
+
+[Argüelles Foix, Angel Luís](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6218825CC65FD47B11C04E0E76910EE27B15CECAE6ADA5B0AC435C883C02ADCB6A5CB8F79C13A4C4F164C8A814470DD57418565DE38B2FC81B422C0E275A5246BCAB5E8CD7F9BD891DC63A1448948228FF23836621A3E4D1E3BF44D43B60164C7&P_IDIOMA=c&P_VISTA=)
+
+[Arizo García, Patricia](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F679E87F390AA89C79CD0E60B3C1D9ACEE0F437243C4A1CCF10B4DD32694E9976B3797F0EF8F50F5D251EA93060CBF0716925F4426E555C9EB8E4F4455053F10C6A3306DFDD39CC985BCFDFA0317E524379F9970E44DA3A9836AF522AA6D2C6F94&P_IDIOMA=c&P_VISTA=)
+
+[Arnal Salinas, Milagros](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6B9A25C558C65C0646E7376E42B5E45EFA11F9848F3343CDB0360909B1EC51CD5405B841E9B5224100D1783ED1C45D91B98033C7AD8FF5055BA5F091C4F5B48EF189C45A34F28E9FA75FD68EF27B204E98639E660E80C7BDC789A737F1BAC471F&P_IDIOMA=c&P_VISTA=)
+
+Asensi Sorio, María Angeles
+
+[Atarés Huerta, Lorena María](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6FA2D777EAAEBEDE11F9C9D0D39D76E7DBF6748494980976EAB2AA357E52C53DEE6B85BB03596F5AC47384142C12C19CC4B9CE6D54AFD71DBB66947128414463CD773B286DFBBA2CB530AF3E1CC18167A624E0D42F85115BE6DC811083850F4AC&P_IDIOMA=c&P_VISTA=)
+
+[Avellá Oliver, José Miguel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F62A74F084288F4F2211DA0CC517CFD8CCCAB2E526690E72644359F2F1687056B973DC2673921E86CEFE5A6F59CE861CE3C912BCEFB1DDC4FBB4797D7FCE946EEBCAAF7D91935FBA02C5A94CB1583165CBBE0BFB394B2D323735685BE79745A76E&P_IDIOMA=c&P_VISTA=)
+
+[Balaguer Puig, Matilde](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F654F7E2C4F06E90EF4009729C75BA2D61932FE935211235DD9AE79BA2A2A90880FF2BDD9F16EF78EC3BBA40DB625A2F3054A91BAD57BD331A909DC6148C271A1B9F7B20DEE8A66F635947432B29C1CB83919770E33AFC1BA10FE0306C5BD0C30D&P_IDIOMA=c&P_VISTA=)
+
+Balanzá Rodríguez, Mar
+
+Balasch Parisi, Sebastià
+
+[Balbastre Peralta, Iban](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6C8B14AA7ED1C90B299E9DA89BFF685A0B555BF0CBC4490225DA3FCEC2D0385156F8FB275F44EB9E4D72C7ECB1256573BA72BB7818C3DE5C405E905DCF9A83FCA99E1F36B4B4113EA36312BE745B485136DEAC124B7EFB6F3B5EBD5DF99A59508&P_IDIOMA=c&P_VISTA=)
+
+[Barceló Cerdá, Susana](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F69FE656E33C4496451EDF15C176647A185780C1368EA6EE5C383AAD8A1573A08E5AAC7B067EABAF78339E23248EB349969D715DCD01591DDAD5A71C8B139A139BAB5FEAA4EC5B96CF852F65B4DF8BBB50335F76CBB668354ED58FB0AAFF78B40E&P_IDIOMA=c&P_VISTA=)
+
+[Barrera Puigdollers, María Cristina](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F67B8DBDCB5CCC6F5A8EEBD23450FD02A687F25EFC21D24CE5620F893B1B823FE8222A7C3F8B6FDAD1D5A329B4A5E9C861E6D8896147C471EFA0CE2FA09A0870E968321B93E1B604453CA85262C3D110993D8ADDA7472CEEA40BF826D0D6A88691&P_IDIOMA=c&P_VISTA=)
+
+[Belles Albert, José María](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F68B5722F213A13552BD47D5CC6B4C9684628B81F907A884344D1A25B745A065D880D0D7F42AB5B5E9015B90B6ED00BA22663883B498A3E4BF148DF82D86F778D7F36F1CB2E6D605B34BCD8249A552FFB0AED61BBFBEAFE0B44F357D9E00B2FF5A&P_IDIOMA=c&P_VISTA=)
+
+[Benedito Fort, José Javier](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F640BE558A1BEC84542A9840BFEA46F3AB9482ACBF7F4362818E65342703C6A849A3084E1F8D1D4B70AC3774B084F2EAEBE33B4DD3566F6FF70DF8F091866FC4225C90BC1931048158393FEA5269F1426EDCCD8EF72A8124B2375FA16E67DADE16&P_IDIOMA=c&P_VISTA=)
+
+[Bernabeu Espí, David](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F622738600762DDEE41EDA53BE354AC29F89F6830395F3A4C4BCD18E2CD80420EE7F27895998073F624E65498A78AEDE4EF30226BC53872F83DB1D2043E703E8B637D4764EE2071AA6C5BA70764127E9158E8AB55E487AFAB85C6F2D0CA961E6DC&P_IDIOMA=c&P_VISTA=)
+
+[Betoret Valls, Noelia](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6123946853C11D37CEA4C2F5BB955A91735B004B9CD64217E1A04255BB2B09E0498F3CC03CA5436A1D6EC65E110B05B0FEF740D0D8B64179DE9640198C3B80080B3153949352C87B5B4B7771E3C9DEBEBDD5F42082D914CE87E14A29B356E0448&P_IDIOMA=c&P_VISTA=)
+
+[Bon Corbín, José](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6A17BCDF596BE67581C1E47A113CBA53D550C801CDD7E55983E8E4A474587CF941A82D11D65E48CD8379902E5AF4A34D3CC9AF3C2FAA1F0A8F3DFE34362CB231C96D847F100FE72A31FB59EA0AED586B1336E7CB8D235A57C320B4266B009ADA7&P_IDIOMA=c&P_VISTA=)
+
+[Bracho Lapiedra, Llum](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F61B9613534C56D391A78186AF107DE91EA8A27189CF3BF2B8D150E4715B5E52D031625B01657C8467B4E4D5D80197569A74EBCB25FA47611E313F4C5D2BB49736758FF2ADA94A6B6485634E52E2952AD8C6A76B465BE82243FA47C295DB38DF04&P_IDIOMA=c&P_VISTA=)
+
+[Bueno Bobadilla, Andrea Carolina](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F62A5EF8BF3008652CF74F414AB99B2143655A478E8EAE78C4B952B5DB144748DD986C93A2E1DD3640384B55C2A3787FA3932F436247C23E69B71C94F0A015E50891BF1305315E453ABDD47823C17C9FB4B918D54D72DE287B45AEB85D94D0A705&P_IDIOMA=c&P_VISTA=)
+
+[Buitrago Vera, Juan Manuel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6D9CB81EAAC03E8DE70C60531C131079A6C4F0ED37EFA379BC84C5E6F5727AE6FA8AE3CAA56C2590CA6D7E5FF20B55C323DB39268C7B75947BB55957EB0B7E48CCB376117EDA911D3B547832822721D07B8F06EA6FB9E920398E880FD00249AB0&P_IDIOMA=c&P_VISTA=)
+
+[Calvet Sanz, Salvador](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F649517EE985A3D2C106BF6798A72FF93E510C629A5B139A5BA4073EB23B7D933726C919DDCB8CD52B905A3294BAA6BFAFB66BE7E125BD6637EB4FE2CAB6045617E45CAD5E41DC650B74C66307D435D8D0B7E3F2CDB044FBC98AF8608F7FEEC0F6&P_IDIOMA=c&P_VISTA=)
+
+[Camacho Vidal, Mª Mar](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6D425C10101509643947A3135DCA09A15C0A983750F49B9ECAB40B416E78F8D8419E928BF982A249A8584442DAAA617DD0CFDE9AF5DF51F32EFB84F21A86238DEEF4E7490AAF19D2AA2F3041104BAAFF97D6C549C634264237FADDEAE7D9012B1&P_IDIOMA=c&P_VISTA=)
+
+[Cambra López, María](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6D07779027C765914B0FE1D7933E845E2C6908762A806733619D4058E14B650CA9CF45B6955AA62F0E8DE523EFBF3C828AB9B01B2861A25AF2007A7F01EE83A4E7E1E6859EED8C775874200F7EE83C8BD5FEFFA84042B69992B98CD0C5CE64C9B&P_IDIOMA=c&P_VISTA=)
+
+[Cárcel Carrión, Juan Andrés](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6AC02BAB6B70EB0C6F95A78C44FF01B0835158ABD0847A2B469A6FFDF677599E37B23429A8BC767B77EA9695BE07471820AEEABF787ACB1BC45A3C82D20311BEDF17100D784AC280892F4CF97308379A066FBF3A57B31F2F1B009682377F79A2B&P_IDIOMA=c&P_VISTA=)
+
+[Casabán Bartual, Mª Consuelo](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6A0C2E167E5367E542D05986A0F986080F52A8F63F1441C2E50DA16090B46170B41E4E3BCC3282F7A574F7F7746128C17B287CEBD0840C022242213A470360ACAEB7C6807EDC051CB7EBB92E26A1A7EC9BF1092CD8FBA1CD26E8D2568C52B4F81&P_IDIOMA=c&P_VISTA=)
+
+[Castell Zeising, Vicente](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6477E0ED5F283A5B613DE38600C18A5997F54C9035CCC585A1D010B29799CCB1D328E74E0FE0A43B04F2FBB1DC8AF4E73A2DF20077D0017E804D523B360CE67BC9B2E4F3EDA8B7EA04A0A44B7B07CDCC1E32FA36E3FBE22218C05BF9358AA6D1D&P_IDIOMA=c&P_VISTA=)
+
+[Castro Giráldez, Marta](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F62B63CD7043B8004E0053B057A51739E05126C5D560DA8873BE8D1AE17D6C4C5D5483BD7AF26F2D3EF46814201A2088783C28983CFF93CCD865D40F64A7DB9919102F62742CA03975723D0691704B1B42720216C8668F68513EDE340546E03AA0&P_IDIOMA=c&P_VISTA=)
+
+[Cháfer Nácher, María Teresa](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6D80AEDE68890FA7B46AC7E1EB15A4E0EF3C283207F3213D161DA678BC010A43A5BC795815FE453E7BB323F05C0550347CA27495FAFEC161F3C20EE6B5146D95EED240358CA5BB1679B1750A1545ED52E8AE8626AB281623358FE446EF97FC56E&P_IDIOMA=c&P_VISTA=)
+
+[Chaparro Banegas, Nuria](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F643C7E859796E0972765C2CFA64005C2B005399262CC0EC72889AAD8C538B06483A17CA0F520B96F1E321DA7477787926AE5DF29735F8F8BD082506EB06EAF2A5E9F96D8498F12CDB5924C0C9F4C57EBC2353136AE11D93CA35964A9320D9BDDD&P_IDIOMA=c&P_VISTA=)
+
+[Chiralt Boix, Mª Amparo](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F68FB05681A4A8F90DEFBB95D6C731F5B303BBE539FD2F83DB9C8956105683813D039B20D3F15AD21FBF7F90B6A8699EA28A190D8A7A0BBB5F2FECD7A895675E44ADFE99AB516D0B82175DFCC5442B707BA86D12728F7948624806456C5BF74FF5&P_IDIOMA=c&P_VISTA=)
+
+[Clemente Polo, Gabriela](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6C9B559DA7D2A3BD5D1C2F8E538CDEED881C0C4C4E12C9175D62CDDD3AF39C8DBB4577AA73A1EAD47F5E572E3E1334736A29D948CBD86B609910F54E6E33E85245C527E974607CAB5B321FC10BDE7EC40C39111ECD39B0999816825910C644B32&P_IDIOMA=c&P_VISTA=)
+
+[Contreras Fernández, Josefa](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6D147A12CD3AA61E818BB0CEF68ED5E28507B7499346407681F1BEA010D5DD0FFB8E9AF44BCE864CAE878A6678AFFE95B9EC236D2CCDA76B3B7ED8B74DA3605221DCE078993C6AF6D2BFBB36893C173285221A5F535193DCEE9B897FF49E974CD&P_IDIOMA=c&P_VISTA=)
+
+[Cortijo Martínez, Francisco Javier](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F614E8573E51E83459B41E31F4E78B8578845BFE702CE92E445B6658F763D559DE88B76B4A7ECC4999553DC0BC8AB0897631174E774B1FBDD5BD9CC5D90FEAFA5C796EE718F8E6240CB06B1E2B5DC6DEE71A78292BFA5EB927D5E762159C50E226&P_IDIOMA=c&P_VISTA=)
+
+[Costantino, Andrea](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F622B527E226DF8D6436438D7FC3B8990B277F667A298E11B363AE473948C916CE4ACCB90494A289D81277BA25695F4FFB69858270986E8B6C76B760A282DEF5377DA433C4B94D7C1F7BBD69D8BED6C0E054EF4AF28FCC7CD5338B2E85F1D180CC&P_IDIOMA=c&P_VISTA=)
+
+[Cruz González, José Maria](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6B036BD3DA90D779B3F391F007E2B112076D21BEAC75004D77D86BC7A6E6F84022C6898C53B357AFA4F097B3224B8FE344A07B68859ABB8B65AAE2E281F8B869647376A643812B63E17A4224470F9E38AE65E8D24F5BD5C6FB60A8966D7B7105D&P_IDIOMA=c&P_VISTA=)
+
+[Cubells Gómez, Aitor](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6F59405E8DFF97DE23DE983CC16BA9BC4195F2041ED1D41B7636A46902991CD85743D1168598186C0CD8A74B93469285DAE2FED16DEDF46F87F4118A01C82F577DC1491A2F8818001B8A67EC62D2DE2CA580C40E3DF636627D377555EF806A38F&P_IDIOMA=c&P_VISTA=)
+
+[Doménech Valiente, Tania](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6CA5E22B1BE17EEAE2F24B0E62A24817E9CDCCB1268358A62C1E529C7FFEDE95302C85AA3B7159498D2F827BFB39CA5DACD5BD62A63A538EE6CE92B2D230098E4A45F33CF4BCEAAB1BA01D1FD6A208D70D883E9D172398E6BE7BBA0EB3836BA27&P_IDIOMA=c&P_VISTA=)
+
+Enríquez Belenguer, Ana
+
+[Escriche Roberto, Mª Isabel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6B5300C541A781F12616FE692FE6B743D236A9A222255C51A7B91EF8E500095F8E3ABC2CA26DC084E278009BFEB70B632D49095D79A4B027CF0F753B9C2F44D4921C7351B251F3CD4F46C8CDDEE458B796C5B8B71397C78F625C1B7855B9F63AD&P_IDIOMA=c&P_VISTA=)
+
+[Escudero Noguera, Andrea](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6E26496C40F9933C7DADE528B997A2326C0999E45F7792E04537687BF086FB34F1831F3EAB97FA307D6DEB21FA8E51BA398F414B5EC5D10D553E3D3C65D1AB0D9ADE2F52ADC0677DF73CB3704852D313962A1B48BF6B3C54451A15A4F46DD6285&P_IDIOMA=c&P_VISTA=)
+
+[Estellés Barber, Fernando](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F69E6D27AFF2D0FF225D83F6D00E5930CC2DC92E03B9992E7E4B2487E0A8E231C6E63EE95F0B4AF9B7B54DEDA1E171A62AD9A44183AEC6D4187B129C9ECDB384DE402004257DD1B7250E92D3CBC42E2918CC052A58AB3432983908F5454A57D6B7&P_IDIOMA=c&P_VISTA=)
+
+[Fernández Segovia, Isabel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD4228972CCFE2259D26D5B70E6007220033F6F44C206881BA0C51E6612137346CB8FF4E65F8D10DB0C52DD4FEB90E319C0BB734C3E3A98E3D30D8D899EEB28E219A8CB840C9686033B967CD983B473E266A4942028296C513828360D78781147A9EDFB7D79842E5694BB281A784A1AD2C484E&P_IDIOMA=c&P_VISTA=)
+
+<< < pag 1/4 [>](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.profesorado?P_IDIOMA=c&P_TIT=208&P_CACA=2025&P_VISTA=MSE&P_REG_ACT=51) [>>](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.profesorado?P_IDIOMA=c&P_TIT=208&P_CACA=2025&P_VISTA=MSE&P_REG_ACT=151)

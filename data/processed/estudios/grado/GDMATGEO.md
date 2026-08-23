@@ -1,0 +1,435 @@
+---
+fuente: UPV
+url: https://www.upv.es/titulaciones/GDMATGEO/indexc.html
+categoria: estudios
+nivel: grado
+tipo_documento: recurso
+tipo_recurso: informacion
+resumen: https://www.upv.es/estudios/grado/index-es.html
+seccion: grado
+titulo: Doble Grado en Matemáticas + Ingeniería en Geomática y Topografía
+descripcion: ""
+actualizado: 2026-08-23
+acronimo: GDMATGEO
+centro: Escuela Técnica Superior de Ingeniería Geodésica, Cartográfica y Topográfica; Escuela Técnica Superior de Ingeniería de Telecomunicación
+rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación
+campus: Campus de Valencia
+---
+
+# Doble Grado en Matemáticas + Ingeniería en Geomática y Topografía
+
+# Doble Grado en Matemáticas + Ingeniería en Geomática y Topografía
+
+5 cursos 360 créditos
+
+Crédito 17,34€ (2026/2027)
+
+Nota de corte 10,72 (2025/2026)
+
+12 plazas (2026/2027)
+
+## Presentación del grado
+
+Tendrás una rigurosa formación matemática, con una alta cualificación y un perfil versátil. Al mismo tiempo adquirirás una sólida capacitación para abordar problemas del ámbito de la Ingeniería Geomática, ofreciendo una gran versatilidad para la resolución de problemas en campos tan estratégicos como los Sistemas de Información Geográfica, Observación y Gestión Medioambiental mediante Teledetección, Catastro y Delimitación Inmobiliaria, Análisis del Territorio, así como en disciplinas con una orientación más investigadora como Geodesia y Geofísica.
+
+Esta doble titulación responde a una demanda creciente de Cartografía especializada en áreas como la Ingeniería Civil, Consultoría Tecnológica, Medioambiente, Transportes y como técnico de la propiedad inmobiliaria.
+
+El Grado en Ingeniería en Geomática y Topografía habilita para el ejercicio de la profesión regulada de ingeniero/a técnico/a en Topografía.
+
+Título acreditado con el sello internacional de calidad EUR-ACE (Grado Ingeniería en Geomática y Topografía).
+
+## Salidas profesionales
+
+Esta doble titulación proporciona un valor añadido como experto en modelización físico-matemática en ámbitos de investigación en el campo de la Geodesia Métrica, así como en el de la Geodesia Física. En el campo de la consultoría Tecnológica, la formación complementaria permite abordar soluciones óptimas con modelos más complejos que incorporan cada vez más información geoespacial.
+
+## Movilidad internacional y prácticas
+
+Se pueden realizar estancias en universidades tanto en Europa, con las becas Erasmus, como en el resto del mundo, con las becas propias de la UPV.
+
+## Continuación de estudios
+
+El Grado en Ingeniería en Geomática y Topografía es el grado de referencia para cursar el Máster Universitario de Ingeniería Geomática y Geoinformación. Y también se puede cursar el Máster Universitario en Investigación Matemática.
+
+## Plan de estudios
+
+## Créditos establecidos para obtener la titulación
+
+- Formación básica: 78,00; Obligatorios: 258,00; Optativos: ,00; Práctica externa: 0,00; TFG: 24,00; Total: 360,00
+
+[Conoce el grado en 92"](http://www.upv.es/rtv/tv/grados/67483)
+
+[Videopódcast OPEN](https://moneres.upv.es/tv/open-upv/2026-06-09-open-upv-68916.mp4)
+
+[Videopódcast OPEN](https://moneres.upv.es/tv/open-upv/2026-06-11-open-upv-68921.mp4)
+
+## Asignaturas
+
+# Asignaturas
+
+## Asignaturas
+
+- ETSIT / ETSIGCT
+
+- Etsit / Etsigct
+
+- Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Geomática y Topografía
+
+- Grado
+
+- 2026-2027
+
+## Asignaturas por módulos y materias
+
+- Ver asignaturas por cursos
+
+La consulta de bloques curriculares estará accesible a través del botón "Ver asignaturas por cursos" en su caso.
+
+## Créditos por tipo de asignatura establecidos para obtener la titulación
+
+- Formación básica: 78,00; Obligatorios: 258,00; Optativos*: 0,00; TFG: 24,00; Total: 360,00
+
+## MÓDULO 1: Común Créditos Ofertados : 336 Carácter: Mixto
+
+## MATERIA : Matemáticas Créditos Ofertados : 36 Carácter: Formación Básica
+
+- 14313; Álgebra Lineal y Geometría I; Formación Básica; 1; A; 6
+
+- 14316; Análisis numérico; Formación Básica; 1; B; 6
+
+- 14314; Cálculo; Formación Básica; 1; A; 6
+
+- 14317; Ecuaciones Diferenciales I; Formación Básica; 1; B; 6
+
+- 14315; Estadística; Formación Básica; 1; A; 6
+
+- 14318; Matemática Discreta; Formación Básica; 1; B; 6
+
+## MATERIA : Física Créditos Ofertados : 12 Carácter: Formación Básica
+
+- 14319; Física I; Formación Básica; 1; A; 6
+
+- 14320; Física II; Formación Básica; 1; B; 6
+
+## MATERIA : Empresa Créditos Ofertados : 6 Carácter: Formación Básica
+
+- 14322; Organización y Gestión de Empresas; Formación Básica; 1; B; 6
+
+## MATERIA : Informática Créditos Ofertados : 6 Carácter: Formación Básica
+
+- 14321; Programación; Formación Básica; 1; A; 6
+
+## MATERIA : Expresión Gráfica Créditos Ofertados : 6 Carácter: Formación Básica
+
+- 11339; Técnicas de representación gráfica; Formación Básica; 1; A; 6
+
+## MATERIA : Cartografía y SIG Créditos Ofertados : 18 Carácter: Obligatorio
+
+- 11348; Cartografía; Obligatorio; 1; B; 6
+
+- 11349; Diseño y producción cartográfica; Obligatorio; 3; B; 6
+
+- 11350; Sistemas de información geográfica; Obligatorio; 2; B; 6
+
+## MATERIA : Análisis Matemático Créditos Ofertados : 30 Carácter: Obligatorio
+
+- 14325; Análisis de Fourier; Obligatorio; 5; A; 6
+
+- 14323; Cálculo en varias variables; Obligatorio; 2; A; 6
+
+- 14327; Integración curvilínea y de superficie; Obligatorio; 4; A; 6
+
+- 14326; Integral múltiple; Obligatorio; 3; A; 6
+
+- 14324; Variable Compleja; Obligatorio; 2; A; 6
+
+## MATERIA : Álgebra Lineal y Geometría Créditos Ofertados : 12 Carácter: Obligatorio
+
+- 14328; Álgebra Lineal y Geometría II; Obligatorio; 2; A; 6
+
+- 14329; Álgebra Lineal y Geometría III; Obligatorio; 4; A; 6
+
+## MATERIA : Informática (GIGT) Créditos Ofertados : 6 Carácter: Formación Básica
+
+- 11338; Bases de datos; Formación Básica; 2; A; 6
+
+## MATERIA : Estructuras Algebraicas Créditos Ofertados : 12 Carácter: Obligatorio
+
+- 14330; Estructuras Algebraicas I; Obligatorio; 2; A; 6
+
+- 14331; Estructuras Algebraicas II; Obligatorio; 4; A; 6
+
+## MATERIA : Topología y Geometría Diferencial Créditos Ofertados : 18 Carácter: Obligatorio
+
+- 14333; Geometría Diferencial; Obligatorio; 4; A; 6
+
+- 14334; Topología Algebraica; Obligatorio; 5; A; 6
+
+- 14332; Topología General; Obligatorio; 3; A; 6
+
+## MATERIA : Ecuaciones Diferenciales Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 14335; Ecuaciones diferenciales II; Obligatorio; 3; A; 6
+
+## MATERIA : Geología Créditos Ofertados : 6 Carácter: Formación Básica
+
+- 11341; Geomorfología; Formación Básica; 3; B; 6
+
+## MATERIA : Matemática Discreta y Optimización Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 14336; Investigación Operativa; Obligatorio; 3; A; 6
+
+## MATERIA : Modelización Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 14340; Modelización; Obligatorio; 5; A; 6
+
+## MATERIA : Métodos Numéricos e Informática Créditos Ofertados : 18 Carácter: Obligatorio
+
+- 14339; Computación de altas prestaciones; Obligatorio; 5; A; 6
+
+- 14338; Resolución numérica de ecuaciones en derivadas parciales; Obligatorio; 4; A; 6
+
+- 14337; Resolución numérica de sistemas lineales y no lineales; Obligatorio; 2; A; 6
+
+## MATERIA : Probabilidad y Estadística Créditos Ofertados : 12 Carácter: Obligatorio
+
+- 14341; Inferencia Estadística; Obligatorio; 3; A; 6
+
+- 14342; Modelos Predictivos y de Clasificación; Obligatorio; 5; A; 6
+
+## MATERIA : Topografía Créditos Ofertados : 18 Carácter: Obligatorio
+
+- 11342; Instrumentación y observaciones topográficas; Obligatorio; 2; B; 4,5
+
+- 11343; Métodos topográficos; Obligatorio; 2; B; 6
+
+- 11344; Topografía de obras; Obligatorio; 4; A; 7,5
+
+## MATERIA : Fotogrametría y Teledetección Créditos Ofertados : 18 Carácter: Obligatorio
+
+- 11347; Fotogrametría; Obligatorio; 3; B; 6
+
+- 11345; Teledetección; Obligatorio; 3; B; 6
+
+- 11346; Tratamiento de imagen digital; Obligatorio; 2; B; 6
+
+## MATERIA : Geodesia Geométrica Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 11351; Geodesia geométrica; Obligatorio; 3; B; 6
+
+## MATERIA : Ingeniería Civil Créditos Ofertados : 4,5 Carácter: Obligatorio
+
+- 11352; Ingeniería civil; Obligatorio; 3; A; 4,5
+
+## MATERIA : Infraestructura de Datos Espaciales Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 11357; Infraestructura de datos espaciales; Obligatorio; 4; B; 6
+
+## MATERIA : Ingeniería Ambiental Créditos Ofertados : 4,5 Carácter: Obligatorio
+
+- 11353; Ingeniería ambiental; Obligatorio; 2; B; 4,5
+
+## MATERIA : Geomática Créditos Ofertados : 15 Carácter: Obligatorio
+
+- 11354; Ajuste de observaciones; Obligatorio; 2; B; 4,5
+
+- 11355; Fotogrametría y teledetección aplicadas; Obligatorio; 4; B; 6
+
+- 11356; Proyectos geomáticos y oficina técnica; Obligatorio; 5; B; 4,5
+
+## MATERIA : Catastro y Ordenación del Territorio Créditos Ofertados : 9 Carácter: Obligatorio
+
+- 11358; Catastro; Obligatorio; 4; B; 4,5
+
+- 11359; Urbanismo y ordenación del territorio; Obligatorio; 2; B; 4,5
+
+## MATERIA : Geodesia Física, Espacial y Geofísica Créditos Ofertados : 16,5 Carácter: Obligatorio
+
+- 11362; Geodesia espacial; Obligatorio; 5; B; 7,5
+
+- 11360; Geodesia física; Obligatorio; 4; B; 4,5
+
+- 11361; Geofísica; Obligatorio; 4; B; 4,5
+
+## MATERIA : Cartografía Matemática Créditos Ofertados : 4,5 Carácter: Obligatorio
+
+- 11363; Cartografía matemática; Obligatorio; 4; B; 4,5
+
+## MATERIA : Sistemas de Información Geográfica Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 11364; SIG avanzado; Obligatorio; 3; B; 6
+
+## MATERIA : Diseño Geométrico de Obras Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 11365; Diseño geométrico de obras; Obligatorio; 5; A; 6
+
+## MATERIA : Tratamiento y Gestión de datos 3D Créditos Ofertados : 6 Carácter: Obligatorio
+
+- 11367; Tratamiento y gestión de datos 3D; Obligatorio; 4; B; 6
+
+## MATERIA : Intensificación Créditos Ofertados : Carácter: Optativo
+
+- 15583; Alemán académico y profesional A1.1; Optativo; 4; B; 4,5
+
+- 15585; Alemán académico y profesional A1.2; Optativo; 4; B; 4,5
+
+- 13763; Alemán académico y profesional A2; Optativo; 4; B; 4,5
+
+- 13764; Alemán académico y profesional B1; Optativo; 4; B; 4,5
+
+- 13770; Francés académico y profesional A1; Optativo; 4; B; 4,5
+
+- 13771; Francés académico y profesional A2; Optativo; 4; B; 4,5
+
+- 13772; Francés académico y profesional B1; Optativo; 4; B; 4,5
+
+- 13795; Italiano académico y profesional A1; Optativo; 4; B; 4,5
+
+- 14241; Italiano académico y profesional A2; Optativo; 4; B; 4,5
+
+## MATERIA : Actividades Universitarias y/o Prácticas externas Créditos Ofertados : Carácter: Optativo
+
+- 13765; Alemán académico y profesional B2; Optativo; 4; A; 4,5
+
+- 13773; Francés académico y profesional B2; Optativo; 4; A; 4,5
+
+## MÓDULO 2: Trabajo de fin de grado Créditos Ofertados : 24 Carácter: Trabajo Fin Titulación
+
+## MATERIA : Trabajo de fin de grado Créditos Ofertados : 24 Carácter: Trabajo Fin Titulación
+
+- 11397; Proyecto Fin de Grado; Trabajo Fin Titulación; 5; B; 12
+
+- 14359; Trabajo Fin de Grado; Trabajo Fin Titulación; 5; B; 12
+
+: Asignatura ofertada en el curso 2026-2027 : Asignatura no ofertada en el curso 2026-2027 ( * ) : Asignatura de otro grado ofertada en el grado actual
+
+## Competencias
+
+# Resultados
+
+Estos son los resultados que los estudiantes adquieren al cursar estos estudios: los resultados [transversales UPV](http://www.upv.es/contenidos/COMPTRAN/index-es.html) (comunes a todos los egresados UPV) y los resultados generales y específicos del título, aquí llamados "fundamentales".
+
+- Transversales UPV; ¿Dónde se evalúa?
+
+- Compromiso social y medioambiental Actuar con ética y responsabilidad profesional ante los desafíos sociales, ambientales y económicos, teniendo como referentes los principios y valores democráticos y los Objetivos de Desarrollo Sostenible.
+
+- Innovación y creatividad Proponer soluciones creativas e innovadoras a situaciones o problemas complejos, propios del ámbito de conocimiento, para dar respuesta a las diversas necesidades profesionales y sociales.
+
+- Trabajo en equipo y liderazgo Colaborar eficazmente en equipos de trabajo, asumiendo responsabilidades y funciones de liderazgo y contribuyendo a la mejora y desarrollo colectivo.
+
+- Comunicación efectiva Comunicarse de manera efectiva, tanto de forma oral como escrita, adaptándose a las características de la situación y de la audiencia.
+
+- Responsabilidad y toma de decisiones Actuar con autonomía en el aprendizaje, tomando decisiones fundamentadas en diferentes contextos, emitiendo juicios en base a la experimentación y el análisis y transfiriendo el conocimiento a nuevas situaciones.
+
+## Doble grado en Matemáticas + Ingeniería en Geomática y Topografía
+
+[Grado en Matemáticas](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.competencias?p_idioma=c&p_vista=MSE&p_tit=198)
+
+[Grado en Ingeniería en Geomática y Topografía](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.competencias?p_idioma=c&p_vista=MSE&p_tit=153)
+
+## Profesorado
+
+# Profesorado que imparte en la titulación
+
+## Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Geomática y Topografía
+
+[Aguilera Morillo, María Del Carmen](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320765984EBD1A975AE9DFEA597BA254082023BE40721909B9555D0461D881E7C86470F672AE17F953F87BFA9E42CD000D7824F4E7ADCDDD44427B96E918F5FD819B70CD7724975605416D489FE5D984536B873E682D65318E1A78F6FFD952D4D6CA&P_IDIOMA=c&P_VISTA=)
+
+[Alonso-Monasterio Fernández, Pau](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32077D1B3374D6C1C377BC109062EF573B5BDE24C58AC86F7BB789F8ACFF9F827D975DAB7EE6347B893057F361487F509ED499FF487F48D99D4A1320E788CD26AEB698A3BAE37C3475C5268F0A8B8FF7FFC9E66D03EBCB9A5EE636D5E7452947134E&P_IDIOMA=c&P_VISTA=)
+
+[Anquela Julián, Ana Belén](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207B7B067F1A987988D7231ACE3BD416FA632F359F04CB607F06B267EC56BF1F5D5B6CC7448E57146807E49E57A8617AD338DDB10BFB1509BCDBE41B3B0943A7D93F92C7518FBA2A7568319A555BA52955EFCC3C7D3F83111C55EEB39548B221136&P_IDIOMA=c&P_VISTA=)
+
+[Asensio López, Vicente](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207ACA9FC0C869A95FE565EFEC43BB915B56AF8D79435DB1A1A7EA7264F88C648E60106DD0ADD529D4BC4F8260A9ADAB38D2CB42C1A4A21129F36997F32F9EBE12665A0F38C90D261F11862410A455D2D18C0EED3FA9151CE2251C9134C7C7B5F7B&P_IDIOMA=c&P_VISTA=)
+
+[Balaguer Puig, Matilde](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207DC819137533B8117C52ADDD19840C37F9415A4F7D9880C554F9755BB15F23C6A98E433F45B302A45A4341238E1A909BB0AFEDE30B7547DBF9507DCB052F06DECD8F1D4AA380255E5138F74C78E974953B6C35EBDE1E1C1D4C4FC538F0346B066&P_IDIOMA=c&P_VISTA=)
+
+[Baselga Moreno, Sergio](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207955788E489B6231BE2224906CE6745A687986B6E619978203C86296A317A49E5CDEFF13B7A1FEDFFC6FB83A83EE32593B4A23875EFE941B1E585694644759F78EE0079F0C39C9593A5C2C5282596CF8FADF945FEFEC0791EE64F500743629B37&P_IDIOMA=c&P_VISTA=)
+
+[Berné Valero, José Luis](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320761972B25C4C9209AC1088F66D944F9F3F3BEA6EC120E163F54443914A28085FB610DB548E72A645C2E465DE460E4C783F9D66B6A153D4DB2BDB8AFC6C004CE07E291245B99221246F0A4D20788AF50CA12411087D8DBE18D1453B628B6DBFA13&P_IDIOMA=c&P_VISTA=)
+
+[Bonet Solves, José Antonio](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320786FA75EBBB7A398D7E74C0B07B9A0624B32882613D133EDB8BCC268E5D604043358AD5C447BA9F5535EDFDB88C70142530090F127740BEDA3FA5D3CF5001795E268567982032980949F03B0AD20885BA28718B4D8F14A0505A8435254C804508&P_IDIOMA=c&P_VISTA=)
+
+[Botella Carrubi, Maria Dolores](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320729D05F216104A42BE8C2DA95D526FA02F8DDB56858354851538354E13280BA5CD276BE6583CEA040CA2B711F59FD2FD6E52BFE5507A319B4553110B027F472363217D4D8D16A590CD128CD10F92C470C33FC3D6D0817949ACBE0543D8052C471&P_IDIOMA=c&P_VISTA=)
+
+[Cantarino Martí, Isidro](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207BE0600C9F7D973F61708B6F340338AD635220AFCB5341D9B2053B7CA4091547DBE5119880F4C4DDACF027A0FB0721CE3D45B8D486A1CFA226F8B172BBD5C81501E3F0EB54473F713DE10C071D8627D6903F59B05E853069E53179920DD82515A&P_IDIOMA=c&P_VISTA=)
+
+[Cervera Moreno, Francisco Salvador](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207F8F7479DB2627F13E0B65BD0F1C15CDB35DD7ED31D5F5A77944336020D81F275DB2813B41A7A7C8FE6D5841A8FCB752EE59A04D330FF3509D9F7496BC0E4963A62CB06190B0CBACECB971FC280A25826CED2D6626F3E2D7CF13C19B071FA723A&P_IDIOMA=c&P_VISTA=)
+
+[Chicharro López, Francisco Israel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207221D08DFCB35AC9805452543730FED71F11D93B69E23C33FBCF770100915A434EA76962FBC4F7BCE380EFB38E087F7E8ABDD6523CAE9328DF9B3291676831190B2C09E32BDB46B508BF87CB0F1CF1FB38649D9E05EECE2C021AED9D20C84BFDC&P_IDIOMA=c&P_VISTA=)
+
+[Cobollo Gómez, Christian](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207FB0FFDF98DAB1659EFA25477FE45D19D69F38E81392C95E23B818D4847A26ACDB18F5FF67917B808D4AD738E6AC12CBAF640E794284B2508BC543D29292F0804479F110DBA73DFE5C7BBEAEF93F1A2F208289142D763D44FE970994E7ACBE06D&P_IDIOMA=c&P_VISTA=)
+
+[Cobos Campos, Guillermo](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207B7614707810DA7ACBCF606AB975C4B5C11CE1EDF5ABF5381A3E23D4F1799282468E01A1F24A8717BAFB47AE20CFB1541FE52110FE0A794970DD9E24053CA363F52C7D06E79CB859925E0A6F1398E765D127002CE99EDFFEE201739CFD35FA819&P_IDIOMA=c&P_VISTA=)
+
+[Coll Aliaga, Peregrina Eloína](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32071A652C52F0E04C13B2E1BB20467D3A6CA87F93B09EEFE14560639F49D3F589FA99431B716591375AD07DF2224188C20EFD82DE88A6AA3BA63E4F519B1A4534C1D52D8EBCA3070FCF2F034E95FAB91F2CA3DFB2EF1EE52254DF8F3E40A8EC0A2A&P_IDIOMA=c&P_VISTA=)
+
+[Cordero Barbero, Alicia](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32078FFD7C6597552B642968D72BA05CFD070346DA201D79C3538B31419988F83DA9072A4D97A76C387BFEF97DC03CFC89E5B29C3DE8C94C816952452955921A91CA7FE1A53443BC41C12BC7CBCE9EF9854E0EDFD335AA6E70CF9690C1632EEC7AE1&P_IDIOMA=c&P_VISTA=)
+
+[Cortés López, Juan Carlos](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207884FF9AB18558ED362DB9E44C9752D9611ADAA1AF95D292F6EE80C1E3EF07FD2E3D415033CA8E53E849A32FB24BE8BD8CB10D6489C436C914E31107F0F6D6C26F08F641E1CC98C110251B8528EF23DA06E5EBD49CD3AC8123ADCE73C3B132FDC&P_IDIOMA=c&P_VISTA=)
+
+[Cruzado Porcar, Ignacio](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32072CD964CA7F3BD24128789A1DFFD855C11D003A6799DF5090A6E1C7E35CF2BBE5F66A3F899481DB26D4A20EAA20C8C13824C17D89026DBCF131518A8CC53CEECA89217805BE36E91968945C803EA45F447F289931A27BC704918E6B0180A5CE08&P_IDIOMA=c&P_VISTA=)
+
+[Cuesta Barrios, José Antonio](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207CFD5A66F80E5E7DBA07E51D07687B5BA84F538451458673B9F8FD52E64B57D69CDD9E497B5A0BB251802DE61A6D9EF28306E4929949739F2D6AF4076DD897DD77BFEF8462671A85A9512809E58985470782A63C43489AA49B152F9462A755B86&P_IDIOMA=c&P_VISTA=)
+
+[Denia Ríos, José Luis](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32076D4F28DF3C1FF8754032F56C6491125A3F76D0CF00A1CDEB8C1194DA3CBD936121BFB2E64FEADD1C5E0B407B0DAB2DDAFA51F586CBB3D94A2E96540BC9977E9ED5E5F6B06655EF59D60603EFAF4EA01CBA291DE809CB2ED7B745A6DDE6A78EEB&P_IDIOMA=c&P_VISTA=)
+
+[Femenia Ribera, Carmen](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207F0D9357E0F3C16417E865DDDA15DA3A7A69EC53FDBB6620284533D545060A8056BBFA7B6151FAEFFF3A143C37A1F1E36C500ACBC76BC9A9654E579B51D5B65E36B8807A15F434B639689EC0D4163C55BC78AB6A81E61A26DE0DB423F71DFCC2B&P_IDIOMA=c&P_VISTA=)
+
+[García García, Francisco](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207922C3A90001BA4DF9B3C3CDF15F7ABDEE6FFF219ECA0012E02BC5852FC5CBCECB522436B394D1C0DC45225750BF0DA5D164B60A969EE1DECB7BA5F046C42B10D3BE539C1827C413BAE0447DD24CB992E13B130AA568F38DB3B87BE14E0E9D4A0&P_IDIOMA=c&P_VISTA=)
+
+[García Villalba, Eva](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320729797E2E2A0AF8F14F300FAD7CDF219EBDA3074BE3A2B3F231F00DACDD42E9F5115CEEA12DD34A3C34717919C4B5DC252B4B39DF7CC646D1CBFED00B6CCA910943F955FFD1F6C7D8AE63D0F392BA66B288231BEE60CFEB37F10B8EFD21BEFDB3&P_IDIOMA=c&P_VISTA=)
+
+[García-Asenjo Villamayor, Luis](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32078EB682BD8A12E96A3AE9E34D9359C7F965639991E84EE317934A909534EC5387E5DD828F888A816D4D7D1DE3919E37D122FEAFAAEDDF949A7A8E474D0262BB40C7FFA1D455955784EE7DD68F531BB5E02888F39B8FB29AFE2B2590C0E35B41E3&P_IDIOMA=c&P_VISTA=)
+
+[Garrido Villén, Natalia](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32078CE9F58AB2B429CE5C1D974FE1FAA1B032C7D5D5A393047BD4813773BB4C7ABDB5DF3391A85EABA1C0FF49CC1E76783055990A6CCD1AA70AC309DDA1103AB2FBADB083BD9799F7A2AFC5EFAAA6CDA2D36CB02C49F37A2067B1BD0629EFF036CC&P_IDIOMA=c&P_VISTA=)
+
+[Guerola Navarro, Vicente](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32078446AA2DC8FFB8752A7D606BB1276FCA03990703BBC0DAAA127F4530A9289A41B68DF13CDE0DC0799EDF522EC585D923C5CA8A03CC6CEA8808F85C0E5D2CF1C1EE6A99F2CB0D7ED3941EA4FD4B86064EE315B28D305096FC5C1FA04531C682CE&P_IDIOMA=c&P_VISTA=)
+
+[Guirao Sánchez, Antonio José](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32076C3CEB365F280C8C784293C74EED6F708E47C56CF0DF088ACCE93017B3F6B32EE0F5B8C97BE3501F5BAAF1C736B5760C02E199F5F00891979200A88883492D6447DD4491250FA651A894E7EB2FC7561DFA83755363D42AA0DDE115937F24974F&P_IDIOMA=c&P_VISTA=)
+
+[Irigoyen Gaztelumendi, Jesús María](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207291E01401EC584BE8E86134FDB172FF6762D8063BDDE748C655D9E53EA8B4CC784E20B630B5013B2B9DAAC2F2D9665E2D602668292E4A5B6F47EAC0F9B602927EFEA975407515E0AE785D7DE9332AE701EB6BAF370A289738884059CE9F498AB&P_IDIOMA=c&P_VISTA=)
+
+[Jordan Lluch, Cristina](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32078E91EE5A5AA09A336CF8B137627C3D8A38CD0A00DAB719BF664641D0E21256C8B8A72F407A7A25602C5682FF14D9E5E9E0ACFE5AA5B70229D35FA990D4680332889F350BF013304347BB73B2A4E6F5F907C27073C2CC1A0FEE91F47058B2F1D4&P_IDIOMA=c&P_VISTA=)
+
+[Jornet Casanova, David](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320766126E0AFA2EA049755BF96C364E86F5E20E36463FAAD7CC5296955987679552B1AAF7BE7952E6C41AD256D4A2CC5BF62AE3A8D4A301A32AE78EB2004B62BABF4E549E734DA4392ACCD456A1BEB9C9E01706AA05BE29A411C1F9B8503D1AF500&P_IDIOMA=c&P_VISTA=)
+
+[López Martínez, Antoni](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32079070747A1063F79F64780C6353BD34BC266A42E96F5475D76B14EFD3FBECED5D895A605A40A4C11FC3CD9CAA1DB8A9E62CC3780A6847C5C25B1EB213E88D920917C0D0A18900F8042333A275CEF0F00A8175CB8973BA52981E22524C6D5B86AE&P_IDIOMA=c&P_VISTA=)
+
+[Lova Ruiz, Antonio Luís](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207F8930C5C278489B16946EC4B73C5AC3AC317A9D1FBBC83EFC7872C82711882F2471933A0EBF360335B45B94C99094A9F760E204D0FB773D6784E19BF99582BC233B46528D927A921CDA95604BC264A135E438F5523650F26EA0118AFC107E4B7&P_IDIOMA=c&P_VISTA=)
+
+[Madrigal Martínez, Santiago](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207C5BC899483115E1EED014B1F6BB71D5E88B2C9FC4EEBB63E2AD07A7570DAB3C3FE7FDD40B5DA9A8BFEF44E7D55EFB38B605FE37403A4C73076E91D31D0884688BEB1A1ACC95C87CFB7BB3CAFFC5E1351BD1C03A6F4EA9FE83C41ABA198B1F34A&P_IDIOMA=c&P_VISTA=)
+
+[Martín Romero, Fernando](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32070FC8C3E1C6748C467F1EA01BB94EE84B8912BC909F18C59F85EA3B8E51922EB9AB3A990A411DAE60CD24A496671E1D1A5549E2C89F0F0388DB7BE68B17932643D16CA7275A46B911CF7C57A1D5A7FF7AD8C8EF46F9D6E5152BE69B1F44071415&P_IDIOMA=c&P_VISTA=)
+
+[Martínez Climent, Carla](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207247D26D2848F3560064A313E31E07F3FF82B584950E04F08814D55027285C4DAE9423B30BCAED2F2DC4C4149735E185C9F9DA6DE32749CA2F3545423535D413D76B9D3394563C7FBD4CC8A65BFE8D6F73FBA1801629035C1426737F962449D23&P_IDIOMA=c&P_VISTA=)
+
+[Martínez Llario, José Carlos](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32071ED3702F9C436156F722D5120DBAB8AB03EA59A2E2CE7EA7FE83C8A77C8996C8BA6CAD585A6846D9306BABE1358D5C122CFBAAE8FCB050789F26F708DF16C2F397C01ABCFC449F51B14F64582E7E6ABA1C808034D1B2CB504E0B77A40E5910EF&P_IDIOMA=c&P_VISTA=)
+
+[Marzal Calatayud, Eliseo Jorge](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320770808129BBD4BF2415B8C4F3CA6897E0A4ECBA3C4577CDDF806469E730F7AB71814DC87AB35DE5395CBAE03F8543BE42D93F99F07E1044C955D5EE72E04909F74D77CEDF4FBBC736641819C30CD740550B1BB805F05C8A545DA1EA27E0BCB646&P_IDIOMA=c&P_VISTA=)
+
+[Mas Marí, José](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320770CEAA73F4C898738EC8EA48251636BF837379A4CF103E31463B309D77CD11CEDFB20C27178DA8B178560C9345354C4217FDCB66B35AAA1DAB5EBF136CDBFDD97BFE4275B557014EC284ED3536921F0BCAD6E8B7AE7337527CA8FACD20E854F1&P_IDIOMA=c&P_VISTA=)
+
+[Millán Franco, María Alejandra](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207F5382B1E6A37CD3E2C420ACD47D007D8A29FC846939A183D2C1731B242C21D96CBAEC723B2AD54D6B2C0B70787D217188D4ABA9CB990C4371B50AFED968C7036F91FE6CD1BD08095591C3659EE1664FFFC534E1F957990398436A0093F0F4A6B&P_IDIOMA=c&P_VISTA=)
+
+Moldovan Moldovan, Roxana Andreea
+
+[Moncho Santonja, María](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320789A342E357CD1B4F5E7FC80362924019FE3D5309534C2598D154133AA63ABD83FED7B00D4B02776F5553E92C7A48DA62BDE57D7BC191F4BF023C4A5D752DED49CF1A66C11DDB302F284CE09430BE8F4EB596106C0181B70B3B37EBC6B6A8C940&P_IDIOMA=c&P_VISTA=)
+
+[Monserrat Delpalillo, Francisco José](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320769EA0D44CF1B03433A9085FF7FC38A92805DF9EAB369977BEAD025969153C6C1D39C5FFE581695ADB74E9BB3A645B31E8B9EB2FAB080829B4DE8BE3AFD66993C451E6274E72959B5E6542274CE25DE64066728E464DE1142479179C619FA4AF0&P_IDIOMA=c&P_VISTA=)
+
+[Padin Devesa, Jorge](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32076F1D40C4E5A25E110AA94C844A1B6BE7A5AA4929E8C5250368F80A199705388C305274BD4E285DA4DE4B98EB8A41E4BBF259CE3F3C980A4E735F86417E8C20A5E4687F230F24A7D671382FA18EC992DD512B8C22158433D7C41D293A901E95E7&P_IDIOMA=c&P_VISTA=)
+
+[Palacios Marqués, Daniel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320701ABE33E493CE6B7982B6838984FAB05247C83EEF1B83CA9948CB21CFCB28FC0ED76EA32E51A72989578BD02010CA3DCA9BF0F52FBB0FEFB7F8054BD9647F677322578652C9A84EF63D4A656B442755383F8B2ABBB371F80BF6FC71D42B0D0A9&P_IDIOMA=c&P_VISTA=)
+
+[Palomar Vázquez, Jesús Manuel](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320738015CCA511872FA951248D967B489A69EDAC3C4CEB38D74C6E1FEA63B925DD46880774FDE77EC2D15C545AF872DB7FBDA9245483CF1E6FC566D33ACDEF83BAF5800D7C8524C3ED5067413BAC01EE934D6C3EF8490AB6BF46005430185BFF3D9&P_IDIOMA=c&P_VISTA=)
+
+[Pardo Pascual, Josep Eliseu](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207D0D2D62434F23529F99FFA8CEDE380FD2572EF4146EF11C0B591B7C3EFBE61D477729A5DB674F31074FF2141DAD80971A02FCF07CC5EC5EA8A68DCCE8B8C68B5ABD50858DBB6504CC8BA7F73DA077C793F7EBB55E56FB49E1780FCC712E90546&P_IDIOMA=c&P_VISTA=)
+
+[Peris Fajarnes, Guillermo](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207FF5C933D61693D9BF40DF203463F018F7D8838D520866EB111AF86C13E2257C964C038B7CD447E1A80044245D6CBC1CE1A3105EE0F40AB439ADEB220F2076C7AD22C262C4C38799906540FA65D32EF9A51A9DECB3A0733214A2D2186E1B6AB8D&P_IDIOMA=c&P_VISTA=)
+
+[Peris Manguillot, Alfredo](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A3207E002335355C6AADF264625696EF49076275463A2C12D2E0324D4861BBE93FE8F5DA1AEB75FBB1D34DB8900F2CF5181419FCF28954C7F596AA47D03DF22E3A3F519C7857E97C44121F3CF6889214F86F7A040415F84C966B968276141E6E2D61C&P_IDIOMA=c&P_VISTA=)
+
+[Pons Crespo, Ramón](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A32079135069BCCB7C9CEC9EB0C447490EA474FB5A33A4C0D686FF617055B6E076BA708E47E26E4C2AFEBC2BD2E793796AA8C134030AC97594BAB318DC1BE4CC18030786C03E78E3AA49B0F517EC49573F866CEAA8EECF2837C7E61CA7480EBFCEAEB&P_IDIOMA=c&P_VISTA=)
+
+[Porres De La Haza, María Joaquina](https://www.upv.es/pls/oalu/sic_person.info?PE=C0BA2DF1F21AFD8F8374625961AD42287B349A048C87BDFB001E51E75D1A320755DAFAB7FA21249B5C287B3BC4E5B334B507319989244A28E66177F9CE5D8507FBEBAAF1464B881E30C6BC5F1558A220296AA77EB5CDE869F42DD26D6D81E0022994677A3F2E043E7444E9718A2A872D1C09918E3D37453CCD7C58A6DC89D9D2&P_IDIOMA=c&P_VISTA=)
+
+<< < pag 1/2 [>](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.profesorado?P_IDIOMA=c&P_TIT=215&P_CACA=2025&P_VISTA=MSE&P_REG_ACT=51) [>>](https://www.upv.es/pls/oalu/SIC_VERIFICAA2.profesorado?P_IDIOMA=c&P_TIT=215&P_CACA=2025&P_VISTA=MSE&P_REG_ACT=51)
