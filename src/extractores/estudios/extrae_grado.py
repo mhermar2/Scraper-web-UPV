@@ -145,9 +145,30 @@ def _normalizar_campus(texto: str) -> str:
     return texto
 
 
-def _yaml_resumen(url: str, titulo: str) -> str:
-    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA, nivel=NIVEL,
-                                      tipo_documento="resumen", titulo=titulo)
+# URL real de la pagina de listado (no la API JSON) -- misma logica que
+# RESUMEN_URL en extrae_master.py: apunta a un documento real navegable,
+# no a un endpoint de datos sin contenido propio.
+RESUMEN_URL = "https://www.upv.es/estudios/grado/index-es.html"
+
+
+def generar_markdown_resumen(items: list[dict]) -> str:
+    """Bug real corregido (sesion 2026-08-23, mismo hallazgo que en
+    extrae_master.py): sin este documento, las fichas de grado ponian
+    `resumen: <URL del JSON de la API>`, que no corresponde a ningun
+    documento real del corpus (viola el esquema YAML definitivo)."""
+    yaml_metadatos = ml.generar_yaml_metadatos(
+        fuente=FUENTE, url=RESUMEN_URL, categoria=CATEGORIA, nivel=NIVEL,
+        tipo_documento="resumen", titulo="Grados universitarios")
+
+    filas = [
+        f"| [{i['codigo']}]({i['url']}) | {i['titulo']} | {i['campus']} | {i['centro']} | {i['rama']} |"
+        for i in items
+    ]
+    tabla = (
+        "| Código | Título | Campus | Centro | Rama |\n"
+        "|--------|--------|--------|--------|------|\n" + "\n".join(filas)
+    )
+    return f"{yaml_metadatos}\n# Grados universitarios\n\n{tabla}\n"
 
 
 def _yaml_recurso(item: dict) -> str:
@@ -156,7 +177,7 @@ def _yaml_recurso(item: dict) -> str:
         campos_extra["campus"] = item["campus"]
     return ml.generar_yaml_metadatos(fuente=FUENTE, url=item["url"], categoria=CATEGORIA, nivel=NIVEL,
                                       tipo_documento="recurso", tipo_recurso=TIPO_RECURSO,
-                                      resumen=GRADO_CATALOGO_URL, seccion=NIVEL, titulo=item["titulo"],
+                                      resumen=RESUMEN_URL, seccion=NIVEL, titulo=item["titulo"],
                                       campos_extra=campos_extra)
 
 
@@ -361,6 +382,11 @@ def generar_markdowns_titulaciones(items: list[dict], carpeta: Path = GRADO_KB_D
 def main(limite: int | None = None) -> None:
     items = extraer_catalogo()
     guardar_json(items)
+
+    GRADO_KB_DIR.mkdir(parents=True, exist_ok=True)
+    with open(GRADO_KB_DIR / "grado.md", "w", encoding="utf-8") as archivo:
+        archivo.write(generar_markdown_resumen(items))
+
     if limite is not None:
         items = items[:limite]
     total, correctos, errores = generar_markdowns_titulaciones(items)
