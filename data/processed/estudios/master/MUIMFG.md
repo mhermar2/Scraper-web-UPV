@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Máster Universitario en Intelligent Manufacturing
-
 El Máster Universitario en Intelligent Manufacturing te prepara para liderar la industria 4.0 con una formación avanzada en fabricación inteligente, robótica, visión por computador y realidad virtual, integrada con sostenibilidad, gestión e idiomas. Con un enfoque internacional y práctico, está pensado para sectores estratégicos globales. Cursando un primer año (60 ECTS) en el campus de Hangzhou, obtendrás el título por la Universitat Politècnica de València, oficial a todos los efectos. Existe la posibilidad de añadir un segundo curso (otros 60 ECTS) también en el campus de Hangzhou, para conseguir el título por la Beihang University, entre las 30 mejores del mundo tanto en Automática como en Robótica según el ranking de Shanghái.
 
 - PLAZAS OFERTADAS; 8 (curso 26-27)
@@ -155,17 +153,15 @@ El objetivo principal de un trabajo fin de máster es mostrar las competencias a
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Beihang Valencia Polytechnic Institute
 
-## Asignaturas
+- Unid. Gestión: Beihang Valencia Polytechnic Institute
 
-- Beihang Valencia Polytechnic Institute
+- Titulación: Máster Universitario en Intelligent Manufacturing
 
-- Máster Universitario en Intelligent Manufacturing
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

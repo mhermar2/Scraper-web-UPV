@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Industrial + Máster Universitario en Seguridad Nuclear y Protección Radiológica
-
 El Doble Máster Universitario en Ingeniería Industrial + Máster Universitario en Seguridad Nuclear y Protección Radiológica permite al alumnado del itinerario de Generación de Energía del MUII especializarse en el ámbito de la seguridad nuclear. Este doble máster es la respuesta a la alta demanda de profesionales con la cualificación necesaria que hay en España y en Europa para mejorar los procesos, la seguridad y el desempeño del sector nuclear.
 
 - PLAZAS OFERTADAS; 5

@@ -21,8 +21,6 @@ rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación
 
 ## Inicio
 
-## Máster Universitario en Construcción Industrializada y Prototipado en Edificación
-
 El Máster Universitario en Construcción Industrializada y Prototipado en Edificación forma especialistas capaces de liderar proyectos eficientes, sostenibles y tecnológicamente avanzados. Integra metodología BIM y técnicas de prototipado para diseñar, gestionar y valorar soluciones industrializadas, alineadas con la economía circular y las nuevas demandas profesionales del sector.
 
 - PLAZAS OFERTADAS; 30 (curso 26-27)
@@ -181,17 +179,15 @@ Por otro lado, actualmente existen varias cátedras activas en la ETSIE (Cátedr
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Escuela Técnica Superior de Ingeniería de Edificación
 
-## Asignaturas
+- Unid. Gestión: Escuela Técnica Superior de Ingeniería de Edificación
 
-- Escuela Técnica Superior de Ingeniería de Edificación
+- Titulación: Máster Universitario en Construcción Industrializada y Prototipado en Edificación
 
-- Máster Universitario en Construcción Industrializada y Prototipado en Edificación
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Máster Universitario en Robotics Engineering
-
 El Máster Universitario en Robotics Engineering profundiza en el diseño y la aplicación de sistemas robóticos en un entorno global. Integra fundamentos avanzados, IA, control, visión por computador y sostenibilidad, y combina teoría, proyectos e investigación aplicada en un solo título. Cursando un primer año (60 ECTS) en el campus de Hangzhou, obtendrás el título por la Universitat Politècnica de València, oficial a todos los efectos. Existe la posibilidad de añadir un segundo curso (otros 60 ECTS) también en el campus de Hangzhou, para conseguir el título por la Beihang University, la 28 del mundo en Robótica según el ranking de Shanghái.
 
 - PLAZAS OFERTADAS; 8 (curso 26-27)
@@ -147,17 +145,15 @@ El objetivo principal de un trabajo fin de máster es mostrar las competencias a
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Beihang Valencia Polytechnic Institute
 
-## Asignaturas
+- Unid. Gestión: Beihang Valencia Polytechnic Institute
 
-- Beihang Valencia Polytechnic Institute
+- Titulación: Máster Universitario en Robotics Engineering
 
-- Máster Universitario en Robotics Engineering
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

@@ -21,8 +21,6 @@ rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación
 
 ## Inicio
 
-## Máster Universitario en Ingeniería de Caminos, Canales y Puertos
-
 El Máster Universitario. en Ingeniería de Caminos, Canales y Puertos ofrece una formación especializada en la ingeniería civil, orientada a afrontar con solvencia y sostenibilidad los retos actuales y futuros del desarrollo de infraestructuras. El programa habilita para el ejercicio profesional como Ingeniero/a de Caminos, Canales y Puertos, y capacita para integrar las infraestructuras en el medio ambiente y la sociedad. La titulación abarca áreas como la ingeniería estructural y geotécnica, la ingeniería hidráulica y ambiental, el transporte y ordenación del territorio, así como la gestión, conservación y explotación de infraestructuras, con un enfoque integral, creativo y sostenible. En el segundo curso del máster, se ofrecen múltiples opciones de formación, desde cursar la innovadora Mención Dual en alguna de las más de 15 empresas del sector a realizar un período de movilidad internacional en múltiples destinos.
 
 - PLAZAS OFERTADAS; 110 (curso 26-27)

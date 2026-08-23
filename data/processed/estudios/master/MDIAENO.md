@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Enología
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Enología te habilita para ejercer de manera regulada la profesión de ingeniero o ingeniera agrónoma con una especialización tecnológica e innovadora. A la vez, te capacita profesionalmente para liderar proyectos del sector vitivinícola y completa tu formación enfocada a los estudios de doctorado.
 
 - PLAZAS OFERTADAS; 5

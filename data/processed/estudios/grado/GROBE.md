@@ -22,17 +22,15 @@ _Sin contenido disponible._
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Beihang Valencia Polytechnic Institute
 
-## Asignaturas
+- Unid. Gestión: Beihang Valencia Polytechnic Institute
 
-- Beihang Valencia Polytechnic Institute
+- Titulación: Grado en Computer Science and Technology
 
-- Grado en Computer Science and Technology
+- Tipo: Grado
 
-- Grado
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

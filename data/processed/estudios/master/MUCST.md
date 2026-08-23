@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Máster Universitario en Computer Science and Technology
-
 El Máster Universitario en Computer Science and Technology reúne un conjunto de conocimientos especializados en tecnologías avanzadas: IA, deep learning, computación en la nube, cuántica y de altas prestaciones. El objetivo es impulsar un perfil internacional para liderar la transformación digital global. Cursando un primer año (60 ECTS) en el campus de Hangzhou, obtendrás el título por la Universitat Politècnica de València, oficial a todos los efectos. Existe la posibilidad de añadir un segundo curso (otros 60 ECTS) también en el campus de Hangzhou, para conseguir el título por la Beihang University, entre las 35 mejores del mundo tanto en Telecomunicaciones como en Informática según el ranking de Shanghái.
 
 - PLAZAS OFERTADAS; 8 (curso 26-27)
@@ -149,17 +147,15 @@ El objetivo principal de un trabajo fin de máster es mostrar las competencias a
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Beihang Valencia Polytechnic Institute
 
-## Asignaturas
+- Unid. Gestión: Beihang Valencia Polytechnic Institute
 
-- Beihang Valencia Polytechnic Institute
+- Titulación: Máster Universitario en Computer Science and Technology
 
-- Máster Universitario en Computer Science and Technology
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

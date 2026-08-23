@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería de Telecomunicación + Ingeniería de Sistemas Electrónicos
-
 El Doble Máster Universitario en Ingeniería de Telecomunicación + Máster Universitario en Ingeniería de Sistemas Electrónicos te permite la habilitación profesional requerida para ejercer la profesión de ingeniería de Telecomunicación, y te especializa en disciplinas como la gestión de sistemas de comunicaciones y audiovisuales, redes, circuitos integrados y electrónica, entre otras.
 
 - PLAZAS OFERTADAS; 5

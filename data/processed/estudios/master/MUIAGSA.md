@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Gestión de la Seguridad y Calidad Alimentaria
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Gestión de la Seguridad y Calidad Alimentaria te habilita para ejercer como ingeniero o ingeniera agrónoma, a la vez que te especializa para dirigir y gestionar empresas de la industria agroalimentaria, integrando aspectos económicos, financieros, de calidad y de seguridad alimentaria.
 
 - PLAZAS OFERTADAS; 5

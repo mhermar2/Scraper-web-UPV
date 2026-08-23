@@ -21,8 +21,6 @@ rama: Ingeniería. Industrial y Aeronáutica
 
 ## Inicio
 
-## Máster Universitario en Thermofluids in Aerospace Systems
-
 El Máster Universitario en Thermofluids in Aerospace Systems forma a especialistas en aerodinámica, mecánica de fluidos computacional, diseño y estructuras aeronáuticas, con sólida base en métodos numéricos y modelado. Combina docencia avanzada, laboratorio, proyectos con la industria y colaboración internacional para impulsar carreras en I+D y liderazgo tecnológico aeroespacial. Cursando un primer año (60 ECTS) en el campus de Hangzhou, obtendrás el título por la Universitat Politècnica de València, oficial a todos los efectos. Existe la posibilidad de añadir un segundo curso (otros 60 ECTS) también en el campus de Hangzhou, para conseguir el título por la Beihang University, la número 1 del mundo en Aeroespacial según el ranking de Shanghái.
 
 - PLAZAS OFERTADAS; 9 (curso 26-27)
@@ -153,17 +151,15 @@ El objetivo principal de un trabajo fin de máster es mostrar las competencias a
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Beihang Valencia Polytechnic Institute
 
-## Asignaturas
+- Unid. Gestión: Beihang Valencia Polytechnic Institute
 
-- Beihang Valencia Polytechnic Institute
+- Titulación: Máster Universitario en Thermofluids in Aerospace Systems
 
-- Máster Universitario en Thermofluids in Aerospace Systems
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

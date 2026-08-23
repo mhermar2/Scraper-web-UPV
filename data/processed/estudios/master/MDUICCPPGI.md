@@ -21,8 +21,6 @@ rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Planificación y Gestión en Ingeniería Civil
-
 El Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Máster Universitario en Planificación y Gestión en Ingeniería Civil te habilita para ejercer como ingeniero o ingeniera de Caminos, Canales y Puertos, y complementa tu especialización en la planificación y gestión de la construcción con un enfoque profesional y científico.
 
 - PLAZAS OFERTADAS; 5

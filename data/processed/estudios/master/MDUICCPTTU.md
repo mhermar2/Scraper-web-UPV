@@ -21,8 +21,6 @@ rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Transporte, Territorio y Urbanismo
-
 El Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Máster Universitario en Transporte, Territorio y Urbanismo te habilita para ejercer la profesión regulada de ingeniero o ingeniera de Caminos, Canales y Puertos, a la vez que te permite profundizar y especializarte en los ámbitos del transporte, el territorio y el urbanismo, abordando los retos de la movilidad y la planificación sostenible.
 
 - PLAZAS OFERTADAS; 5

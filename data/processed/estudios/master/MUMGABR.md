@@ -21,8 +21,6 @@ rama: Ciencias
 
 ## Inicio
 
-## Máster Universitario en Mejora Genética Animal y Biotecnología de la Reproducción
-
 Descubre el Máster Universitario en Mejora Genética Animal y Biotecnología de la Reproducción, un programa interuniversitario de la Universitat Politècnica de València y la Universitat Autònoma de Barcelona que te ofrece formación avanzada en genética y biotecnología. Con un enfoque en sostenibilidad y bienestar animal, adquirirás experiencia práctica a través de revisiones críticas, debates y visitas técnicas. Su carácter internacional y multidisciplinar te prepara para salidas profesionales inmediatas.
 
 - PLAZAS OFERTADAS; 26 (curso 26-27)
@@ -205,19 +203,15 @@ Colaboran en el desarrollo académico del master el Institut Valencià d’Inves
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Dpto. de Ciencia Animal
 
-## Asignaturas
+- Unid. Gestión: Unidad de Másteres Universitarios
 
-- Dpto. de Ciencia Animal
+- Titulación: Máster Universitario en Mejora Genética Animal y Biotecnología de la Reproducción
 
-- Unidad de Másteres Universitarios
+- Tipo: Máster
 
-- Máster Universitario en Mejora Genética Animal y Biotecnología de la Reproducción
-
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

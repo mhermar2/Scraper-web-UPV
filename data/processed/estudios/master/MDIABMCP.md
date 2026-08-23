@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Biotecnología Molecular y Celular de Plantas
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Biotecnología Molecular y Celular de Plantas te habilita para ejercer la profesión regulada de ingeniería agronómica y te ofrece una formación avanzada, innovadora y orientada al futuro de la agricultura, y la biotecnología molecular y celular de plantas.
 
 - PLAZAS OFERTADAS; 5

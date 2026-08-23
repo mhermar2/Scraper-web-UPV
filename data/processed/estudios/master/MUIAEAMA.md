@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Economía Agroalimentaria y del Medio Ambiente
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Economía Agroalimentaria y del Medio Ambiente te habilita para ejercer como ingeniero o ingeniera agrónoma, a la vez que te especializa en la consultoría ambiental, la dirección de empresas agroalimentarias y la gestión pública. Además, la formación incluye profundizar en los estudios de doctorado.
 
 - PLAZAS OFERTADAS; 5

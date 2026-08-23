@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Ciencia e Ingeniería de los Alimentos
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Ciencia e Ingeniería de los Alimentos te habilita para ejercer la profesión de ingeniero o ingeniera agrónoma, a la vez que forma profesionales altamente cualificados para innovar en el sector agroalimentario con el fin de contribuir al éxito de un alimento en el mercado, a partir de la calidad, la seguridad, la salud y la viabilidad económica.
 
 - PLAZAS OFERTADAS; 5

@@ -18,8 +18,6 @@ campus: Campus de Gandia
 
 # Grado en Empresa y Tecnología Digital
 
-# Grado en Empresa y Tecnología Digital
-
 4 cursos 240 créditos
 
 Crédito € (2026/2027)
@@ -58,17 +56,15 @@ Podrás acceder a másteres universitarios en áreas de gestión empresarial y t
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Escuela Politécnica Superior de Gandia
 
-## Asignaturas
+- Unid. Gestión: Escuela Politécnica Superior de Gandia
 
-- Escuela Politécnica Superior de Gandia
+- Titulación: Grado en Empresa y Tecnología Digital
 
-- Grado en Empresa y Tecnología Digital
+- Tipo: Grado
 
-- Grado
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

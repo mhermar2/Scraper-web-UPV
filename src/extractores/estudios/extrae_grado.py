@@ -150,6 +150,15 @@ def _normalizar_campus(texto: str) -> str:
 # no a un endpoint de datos sin contenido propio.
 RESUMEN_URL = "https://www.upv.es/estudios/grado/index-es.html"
 
+# "Profesiones reguladas" -- enlazada desde el sitemap oficial dentro de
+# "Estudios de grado" (hermana de "Dobles titulaciones internacionales"/
+# "Videos de grados"), pero sin contenido propio en el corpus hasta ahora
+# (a peticion de Miguel, 2026-08-23). Pagina moderna estandar (motor de
+# limpieza generico, sin patron especial), con contenido real y util:
+# que grados/masteres habilitan para el ejercicio de cada profesion
+# regulada (arquitecto/a, ingeniero/a tecnico/a...).
+URL_PROFESIONES_REGULADAS = "https://www.upv.es/estudios/profesiones-reguladas/index-es.html"
+
 
 def generar_markdown_resumen(items: list[dict]) -> str:
     """Bug real corregido (sesion 2026-08-23, mismo hallazgo que en
@@ -169,6 +178,41 @@ def generar_markdown_resumen(items: list[dict]) -> str:
         "|--------|--------|--------|--------|------|\n" + "\n".join(filas)
     )
     return f"{yaml_metadatos}\n# Grados universitarios\n\n{tabla}\n"
+
+
+def generar_markdown_profesiones_reguladas(carpeta: Path = GRADO_KB_DIR) -> bool:
+    try:
+        soup, es_html = ml.descargar_soup(URL_PROFESIONES_REGULADAS, headers=HEADERS)
+        if not es_html:
+            print("  AVISO: profesiones-reguladas no es HTML.")
+            return False
+        soup = ml.limpiar_contenido_html(soup)
+        contenedor = soup.find(id="smooth-wrapper") or soup.find("main")
+        if contenedor is None:
+            print("  AVISO: no se ha encontrado contenido en profesiones-reguladas.")
+            return False
+
+        ml.reemplazar_tablas_por_listas(soup, contenedor)
+        lineas = ml.extraer_bloques_contenido(contenedor, URL_PROFESIONES_REGULADAS)
+        lineas = ml.limpiar_lineas_finales(lineas)
+        if not lineas:
+            print("  AVISO: profesiones-reguladas sin contenido.")
+            return False
+
+        yaml_metadatos = ml.generar_yaml_metadatos(
+            fuente=FUENTE, url=URL_PROFESIONES_REGULADAS, categoria=CATEGORIA, nivel=NIVEL,
+            tipo_documento="recurso", tipo_recurso=TIPO_RECURSO, resumen=RESUMEN_URL, seccion=NIVEL,
+            titulo="Profesiones reguladas")
+        markdown = f"{yaml_metadatos}\n" + "\n\n".join(lineas) + "\n"
+
+        ruta = carpeta / "profesiones_reguladas.md"
+        with open(ruta, "w", encoding="utf-8") as archivo:
+            archivo.write(markdown)
+        print(f"  OK: {ruta}")
+        return True
+    except Exception as error:
+        print(f"  ERROR (profesiones-reguladas): {error}")
+        return False
 
 
 def _yaml_recurso(item: dict) -> str:
@@ -306,7 +350,99 @@ def extraer_consulta_clasica(url: str) -> list[str]:
 
     ml.reemplazar_tablas_por_listas(soup, contenido)
     lineas = ml.extraer_bloques_contenido(contenido, url)
-    return ml.limpiar_lineas_finales(lineas, recortar_h1=False)
+    lineas = ml.limpiar_lineas_finales(lineas, recortar_h1=False)
+    # La plantilla clasica de estas consultas siempre trae su propio
+    # <h1 class="cabpagina"> con el titulo de la pagina ("Asignaturas",
+    # "Resultados"...), redundante con el "## {titulo}" que ya antepone
+    # generar_markdown_titulacion(); "Asignaturas" ademas lo repite una
+    # segunda vez como <h2> justo despues (bug real visto probando
+    # contra la web real). Ver motor_limpieza.quitar_titulos_redundantes().
+    return ml.quitar_titulos_redundantes(lineas)
+
+
+PATRON_PLAN_ESTUDIOS = re.compile(r"plan de estudios", re.IGNORECASE)
+PATRON_PLAN_ESTUDIOS_INICIO = re.compile(r"^plan de estudios", re.IGNORECASE)
+PATRON_MENU_URL_ANTIGUO = re.compile(r"menu_url\w*\.html\?(//.+)$", re.IGNORECASE)
+
+
+def _resolver_menu_url_antiguo(url_absoluta: str) -> str:
+    """La plantilla clasica usa a veces enlaces
+    '.../menu_urlc.html?//www.upv.es/...': la URL real va incrustada en
+    la query string tras '?//' (ver las notas internas del proyecto, "Quirks conocidos de
+    upv.es") -- confirmado en GIA, donde el propio enlace de menu "Plan
+    de estudios" ya apunta asi directamente al PDF, sin subpagina
+    intermedia. Sin resolver esto, se intentaria descargar la URL
+    ofuscada como si fuera HTML y fallaria en silencio. Mismo patron ya
+    resuelto por separado en extrae_servicios.py -- si aparece en una
+    tercera seccion, valorar promoverlo a motor_limpieza.py."""
+    m = PATRON_MENU_URL_ANTIGUO.search(url_absoluta)
+    if not m:
+        return url_absoluta
+    interno = m.group(1)
+    return "https:" + interno if interno.startswith("//") else interno
+
+
+def buscar_pdf_plan_estudios(url_ficha: str) -> str | None:
+    """Busca el PDF esquematico del plan de estudios (el mas util para
+    ver de un vistazo las asignaturas de la carrera, a peticion expresa
+    de Miguel) siguiendo, si existe, el enlace "Plan de Estudios y
+    Competencias" (o variantes) del propio menu de la ficha hacia una
+    subpagina con varios PDF, de la que se coge el que empieza por "Plan
+    de estudios". Bug real evitado al probarlo: esa subpagina repite el
+    mismo enlace de menu que la trajo hasta ahi ("Plan de Estudios y
+    Competencias" tambien empieza por "Plan de estudios"), asi que hay
+    que descartar explicitamente los enlaces sin extension .pdf.
+
+    Cobertura real (probado 2026-08-23 contra las 75 fichas): solo
+    4/75 -- el enlace de menu solo existe en unas pocas escuelas
+    (confirmado en ETSIT/GITT, IDEAS/GIA y los dobles con Matematicas
+    GDMATIC/GDMATEL) -- en la mayoria "Plan de estudios" del menu es
+    solo una categoria plegable (href="#") que agrupa las mismas
+    consultas de Asignaturas/Competencias/Profesorado ya seguidas por
+    separado, sin PDF propio. Se devuelve None en ese caso -- mejor no
+    encontrar el PDF que inventar una URL.
+
+    No se usa el parametro `string=` de BeautifulSoup con estos patrones
+    (bug real encontrado probando GDMATIC: `<a>.string` es None en
+    cuanto el enlace tiene mas de un nodo de texto interno -- p.ej.
+    "Plan de estudios 2023. Actual" con un salto de linea de por medio
+    -- asi que `find(string=patron)` no lo encontraba nunca aunque
+    `get_text()` si diera el texto completo). Se filtra siempre sobre
+    `get_text()` en Python."""
+    def _texto(a) -> str:
+        return a.get_text(" ", strip=True)
+
+    try:
+        soup, es_html = ml.descargar_soup(url_ficha, headers=HEADERS)
+    except Exception:
+        return None
+    if not es_html:
+        return None
+
+    enlaces_menu = [a for a in soup.find_all("a", href=True)
+                    if a["href"] != "#" and PATRON_PLAN_ESTUDIOS.search(_texto(a))]
+    if not enlaces_menu:
+        return None
+    url_subpagina = _resolver_menu_url_antiguo(ml.normalizar_url(enlaces_menu[0]["href"], url_ficha))
+    if url_subpagina.lower().endswith(".pdf"):
+        return url_subpagina  # el propio enlace de menu ya era el PDF (caso GIA)
+
+    try:
+        soup_sub, es_html_sub = ml.descargar_soup(url_subpagina, headers=HEADERS)
+    except Exception:
+        return None
+    if not es_html_sub:
+        return None
+
+    candidatos = [a for a in soup_sub.find_all("a", href=True)
+                  if a["href"].lower().endswith(".pdf") and PATRON_PLAN_ESTUDIOS_INICIO.search(_texto(a))]
+    if not candidatos:
+        return None
+    # Si hay varios (visto en GDMATIC: "Plan de estudios 2023. Actual" +
+    # una version "Anterior" del mismo documento), se prioriza el que
+    # dice "actual" explicitamente; si ninguno lo dice, el primero.
+    elegido = next((c for c in candidatos if "actual" in _texto(c).lower()), candidatos[0])
+    return ml.normalizar_url(elegido["href"], url_subpagina)
 
 
 # ==========================================================
@@ -328,6 +464,11 @@ def generar_markdown_titulacion(item: dict, carpeta: Path) -> bool:
         if not lineas_ficha and p_tit is None:
             print("    AVISO: no se ha podido leer la ficha.")
             return False
+        # La ficha repite su propio <h1> con el titulo de la titulacion --
+        # redundante con el "# {titulo}" que se antepone mas abajo (bug
+        # real preexistente en el corpus comiteado, encontrado 2026-08-23:
+        # las 75 fichas de grado repetian el titulo dos veces seguidas).
+        lineas_ficha = ml.quitar_titulos_redundantes(lineas_ficha, titulo)
 
         if p_tit:
             lineas_asignaturas = extraer_consulta_clasica(URL_ASIGNATURAS.format(p_tit=p_tit, acronimo=codigo))
@@ -340,8 +481,14 @@ def generar_markdown_titulacion(item: dict, carpeta: Path) -> bool:
             print("    AVISO: no se ha encontrado p_tit -- sin asignaturas/competencias/profesorado.")
             lineas_asignaturas = lineas_competencias = lineas_profesorado = []
 
-        bloques = [
-            f"# {titulo}",
+        pdf_plan_estudios = buscar_pdf_plan_estudios(url)
+        if pdf_plan_estudios:
+            print(f"    Plan de estudios (PDF): {pdf_plan_estudios}")
+
+        bloques = [f"# {titulo}"]
+        if pdf_plan_estudios:
+            bloques.append(f"**[Plan de estudios (PDF)]({pdf_plan_estudios})** -- esquema completo de asignaturas por curso y cuatrimestre.")
+        bloques += [
             "\n\n".join(lineas_ficha) if lineas_ficha else "_Sin contenido disponible._",
             _bloque("Asignaturas", lineas_asignaturas),
             _bloque("Competencias", lineas_competencias),
@@ -386,6 +533,7 @@ def main(limite: int | None = None) -> None:
     GRADO_KB_DIR.mkdir(parents=True, exist_ok=True)
     with open(GRADO_KB_DIR / "grado.md", "w", encoding="utf-8") as archivo:
         archivo.write(generar_markdown_resumen(items))
+    generar_markdown_profesiones_reguladas()
 
     if limite is not None:
         items = items[:limite]

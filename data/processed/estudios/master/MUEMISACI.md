@@ -21,8 +21,6 @@ rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación
 
 ## Inicio
 
-## Máster Universitario Erasmus Mundus en Ingeniería para la Sostenibilidad Ambiental y la Cooperación Internacional
-
 El Máster Universitario Erasmus Mundus en Ingeniería para la Sostenibilidad Ambiental y la Cooperación Internacional forma profesionales capaces de abordar retos ambientales complejos con una visión global. Gracias a la movilidad entre universidades europeas de referencia, combina ingeniería civil y ambiental, cooperación internacional y soluciones innovadoras basadas en la sostenibilidad.
 
 - PLAZAS OFERTADAS; 40 (curso 26-27)
@@ -235,17 +233,15 @@ Los Associated Partners constituyen una de las principales fortalezas del EESIC,
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
 
-## Asignaturas
+- Unid. Gestión: Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
 
-- Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
+- Titulación: Máster Universitario Erasmus Mundus en Ingeniería para la Sostenibilidad Ambiental y la Cooperación Internacional / EMM in Engineering for Environmental Sustainability and International Cooperation
 
-- Máster Universitario Erasmus Mundus en Ingeniería para la Sostenibilidad Ambiental y la Cooperación Internacional / EMM in Engineering for Environmental Sustainability and International Cooperation
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

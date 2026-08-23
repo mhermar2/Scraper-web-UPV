@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería de Montes + Ingeniería Bioambiental y del Paisaje
-
 El Máster en Ingeniería de Montes + Máster Universitario en Ingeniería Bioambiental y del Paisaje te habilita para ejercer la profesión regulada de ingeniero o ingeniera de montes, al mismo tiempo que te especializa en la gestión de proyectos aplicados a biosistemas agroalimentarios, forestales y naturales, con una integración técnica, ambiental y sostenible.
 
 - PLAZAS OFERTADAS; 5

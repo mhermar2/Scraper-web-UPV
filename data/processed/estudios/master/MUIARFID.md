@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Máster Universitario en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital
-
 Explora el futuro con el Máster Universitario en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital de la UPV. Este programa te sumerge en el mundo del procesado digital de imágenes, realidad virtual y técnicas inteligentes, cubriendo la creciente demanda de especialistas en TIC. Con un enfoque en la innovación y la investigación, te prepara tanto para el entorno profesional como para un potencial doctorado. Conviértete en un líder en tecnología avanzada.
 
 - PLAZAS OFERTADAS; 39 (curso 26-27)

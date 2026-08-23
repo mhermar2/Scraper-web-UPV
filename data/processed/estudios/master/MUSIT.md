@@ -21,8 +21,6 @@ rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación; Ingeniería. 
 
 ## Inicio
 
-## Máster Universitario en Sistemas Inteligentes de Transporte
-
 El Máster Universitario en Sistemas Inteligentes de Transporte de la Universitat Politècnica de València te prepara para liderar el futuro del transporte. Con un enfoque en la ingeniería y las TIC, adquirirás habilidades clave para innovar y optimizar infraestructuras y servicios de movilidad. Únete a un sector en expansión y transforma el transporte con soluciones inteligentes y sostenibles. Impartido por expertos, este máster es tu puerta a un mundo de oportunidades.
 
 - PLAZAS OFERTADAS; No disponible (curso 26-27)
@@ -221,17 +219,15 @@ Estas colaboraciones permiten a los estudiantes realizar prácticas en entornos 
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
 
-## Asignaturas
+- Unid. Gestión: Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
 
-- Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos
+- Titulación: Máster Universitario en Sistemas Inteligentes de Transporte
 
-- Máster Universitario en Sistemas Inteligentes de Transporte
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

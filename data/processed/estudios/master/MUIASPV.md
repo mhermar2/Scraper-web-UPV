@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Sanidad y Producción Vegetal
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Sanidad y Producción Vegetal, te permite ampliar tu formación en los campos de la sanidad y la producción vegetal, al incorporar competencias para la gestión integrada y sostenible de cultivos. Con un enfoque multidisciplinar, combina una doble orientación profesional e investigadora, a la vez que te habilita para el desempeño de la profesión de ingeniero o ingeniera agrónoma.
 
 - PLAZAS OFERTADAS; 5

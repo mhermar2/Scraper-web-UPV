@@ -695,17 +695,38 @@ def reemplazar_tablas_por_listas(soup: BeautifulSoup, contenedor) -> None:
     duplicando el contenido en cascada (una linea con todas las celdas,
     otra con todas menos la primera, etc.). Con recursive=False cada
     <tr> (top-level o anidada, find_all("tr") ya las encuentra todas)
-    aporta solo sus propias celdas."""
+    aporta solo sus propias celdas.
+
+    Dos formas de tabla con <th>, tratadas por separado (bug real
+    encontrado 2026-08-23 en la consulta de "Asignaturas" de
+    estudios/grado, clase `upv_ficha` -- la misma clase que usa el
+    contacto de institucion/servicios via
+    buscar_iframe_contenido_clasico(), asi que el bug podia estar
+    afectando tambien alli): tabla HORIZONTAL (una unica fila de
+    cabecera con todos los <th>, filas de datos solo con <td> debajo --
+    el caso ya cubierto) y tabla VERTICAL/clave-valor (cada fila trae su
+    propio <th> como etiqueta de esa fila, ej. "Titulacion" / "Curso").
+    Antes de este fix, una tabla vertical hacia que
+    `len(encabezados_globales) != len(celdas_de_una_fila)` (5 <th> en
+    toda la tabla contra 1 <td> por fila) y caia siempre al fallback sin
+    etiqueta -- la fila quedaba como un valor suelto sin ningun contexto
+    ("Escuela Tecnica Superior de Ingenieria de Telecomunicacion" sin
+    decir que ese valor es la "Ent. Resp"). Se detecta mirando el <th>
+    de la PROPIA fila primero; solo si la fila no tiene <th> propio se
+    usa el fallback de cabecera global (tabla horizontal)."""
     for tabla in contenedor.find_all("table"):
-        encabezados = [extraer_texto_limpio(th) for th in tabla.find_all("th")]
+        encabezados_horizontal = [extraer_texto_limpio(th) for th in tabla.find_all("th")]
         lista = soup.new_tag("ul")
         for fila in tabla.find_all("tr"):
+            etiquetas_fila = [extraer_texto_limpio(th) for th in fila.find_all("th", recursive=False)]
             celdas = [extraer_texto_limpio(td) for td in fila.find_all("td", recursive=False)]
             celdas = [c for c in celdas if c and c != "-" and re.search(r"[A-Za-z0-9]", c)]
             if not celdas:
                 continue
-            if encabezados and len(encabezados) == len(celdas):
-                texto_fila = "; ".join(f"{h}: {c}" for h, c in zip(encabezados, celdas) if c)
+            if etiquetas_fila and len(etiquetas_fila) == len(celdas):
+                texto_fila = "; ".join(f"{e}: {c}" for e, c in zip(etiquetas_fila, celdas) if c)
+            elif encabezados_horizontal and len(encabezados_horizontal) == len(celdas):
+                texto_fila = "; ".join(f"{h}: {c}" for h, c in zip(encabezados_horizontal, celdas) if c)
             else:
                 texto_fila = "; ".join(celdas)
             if not texto_fila:
@@ -728,6 +749,38 @@ def normalizar_para_comparar(texto: str) -> str:
     texto = texto.strip().lower().strip("¡¿!?: ")
     texto = "".join(c for c in unicodedata.normalize("NFD", texto) if unicodedata.category(c) != "Mn")
     return re.sub(r"\s+", " ", texto).strip()
+
+
+def quitar_titulos_redundantes(lineas: list[str], titulo_esperado: str | None = None) -> list[str]:
+    """Quita, del principio de `lineas`, cualquier titulo (#, ##...)
+    consecutivo redundante -- patron real encontrado 2026-08-23 en
+    estudios/grado y estudios/master: varias plantillas repiten el
+    titulo de la pagina/titulacion al principio de su propio contenido,
+    aunque el extractor ya lo antepone por su cuenta (ej.
+    generar_markdown_titulacion() ya escribe "# {titulo}"). Dos
+    variantes, cubiertas en el mismo bucle:
+      1. El titulo inicial coincide con `titulo_esperado` (si se pasa) --
+         ej. la pagina de Inicio de un master repite el nombre de la
+         titulacion como su propio <h2>.
+      2. El titulo inicial coincide con el SIGUIENTE titulo (auto-
+         duplicado, sin necesidad de conocer el titulo de antemano) --
+         ej. la consulta de Asignaturas de grado/master repite
+         "Asignaturas" como <h1> y <h2> seguidos, sin nada de por medio.
+    Una vez quitado el primero por cualquiera de los dos motivos, sigue
+    comprobando el nuevo primero contra el mismo texto (cubre el caso de
+    Asignaturas, donde hacen falta dos pasadas)."""
+    objetivo = normalizar_para_comparar(titulo_esperado) if titulo_esperado else None
+    while lineas and lineas[0].startswith("#"):
+        texto = normalizar_para_comparar(re.sub(r"^#+\s*", "", lineas[0]))
+        if objetivo is not None and texto == objetivo:
+            lineas = lineas[1:]
+        elif objetivo is None and len(lineas) > 1 and lineas[1].startswith("#") and \
+                normalizar_para_comparar(re.sub(r"^#+\s*", "", lineas[1])) == texto:
+            lineas = lineas[1:]
+            objetivo = texto
+        else:
+            break
+    return lineas
 
 
 def es_linea_boilerplate(linea: str, textos_boilerplate: set[str] = TEXTOS_BOILERPLATE_BASE) -> bool:

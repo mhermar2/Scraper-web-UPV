@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Ingeniería Estructural y Geotécnica
-
 El Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Máster Universitario en Ingeniería Estructural y Geotécnica te habilita para ejercer como ingeniero o ingeniera de Caminos, Canales y Puertos, a la vez que te permite especializarte en el diseño de estructuras, como edificios y puentes, con el análisis del terreno donde se asientan.
 
 - PLAZAS OFERTADAS; 5

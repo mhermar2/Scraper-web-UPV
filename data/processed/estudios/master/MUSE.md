@@ -21,8 +21,6 @@ rama: Ingeniería. Industrial y Aeronáutica
 
 ## Inicio
 
-## Máster Universitario en Space Engineering
-
 El Máster Universitario en Space Engineering de la UPV te prepara para liderar proyectos en el sector espacial, integrando ingeniería aeronáutica, de telecomunicaciones e informática. Adquirirás competencias avanzadas en diseño de vehículos y sistemas espaciales, comunicaciones y software, orientadas a la industria aeroespacial internacional.
 
 - PLAZAS OFERTADAS; 30 (curso 26-27)
@@ -215,17 +213,15 @@ Las empresas que han mostrado su apoyo al MSE son:
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial
 
-## Asignaturas
+- Unid. Gestión: Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial
 
-- Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial
+- Titulación: Máster Universitario en Space Engineering
 
-- Máster Universitario en Space Engineering
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

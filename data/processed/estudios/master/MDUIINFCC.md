@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Informática + Ciberseguridad y Ciberinteligencia
-
 El Doble Máster Universitario en Ingeniería Informática + Máster en Ciberseguridad y Ciberinteligencia forma profesionales capaces de liderar proyectos tecnológicos y gestionar empresas del sector de la informática, según las normativas vigentes y la ética profesional. Además, prepara especialistas para proteger sistemas de información, internet de las cosas (IoT) e infraestructuras tecnológicas críticas.
 
 - PLAZAS OFERTADAS; 5

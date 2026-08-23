@@ -21,8 +21,6 @@ rama: Ingeniería. Ciencia y Tecnología para la Salud
 
 ## Inicio
 
-## Máster Universitario en Responsabilidad y Sostenibilidad Corporativa
-
 Descubre el Máster Universitario en Responsabilidad y Sostenibilidad Corporativa de la Universitat Politècnica de València, impartido en modalidad en línea o virtual y diseñado para equiparte con las herramientas necesarias para liderar el cambio hacia empresas más justas y sostenibles. Adquiere un enfoque integral en gestión corporativa que abarca responsabilidades económicas, sociales y ambientales, en respuesta a la creciente demanda social y a los desafíos globales actuales. Su formato online permite compatibilizar la formación con la actividad profesional, manteniendo exámenes presenciales en el campus de Valencia de la UPV.
 
 - PLAZAS OFERTADAS; 35 (curso 26-27)
@@ -233,17 +231,15 @@ Nuestros alumnos trabajan en :
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Facultad de Administración y Dirección de Empresas
 
-## Asignaturas
+- Unid. Gestión: Facultad de Administración y Dirección de Empresas
 
-- Facultad de Administración y Dirección de Empresas
+- Titulación: Máster Universitario en Responsabilidad y Sostenibilidad Corporativa
 
-- Máster Universitario en Responsabilidad y Sostenibilidad Corporativa
+- Tipo: Máster
 
-- Máster
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

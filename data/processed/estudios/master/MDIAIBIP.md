@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Ingeniería Bioambiental y del Paisaje
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Ingeniería Bioambiental y del Paisaje te habilita para ejercer la profesión regulada de ingeniero o ingeniera agrónomo, a la vez que te especializa para analizar, planificar y gestionar proyectos de ingeniería ambiental aplicada a biosistemas agroalimentarios, forestales y del medio natural.
 
 - PLAZAS OFERTADAS; 5

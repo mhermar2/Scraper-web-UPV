@@ -21,8 +21,6 @@ rama: Ingeniería. Tecnologías de la Información y las Comunicaciones
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería de Telecomunicación + Ciberseguridad y Ciberinteligencia
-
 El Doble Máster Universitario en Ingeniería de Telecomunicación + Máster Universitario en Ciberseguridad y Ciberinteligencia te permite la habilitación profesional requerida para ejercer la profesión de ingeniería de Telecomunicación, y te especializa en disciplinas como la inteligencia artificial, la ciberseguridad, la realidad virtual, la programación web o la virtualización de redes, entre otras. ((La creciente demanda del mercado por formar profesionales con la especialización en ciberseguridad condujo hace años a la UPV a crear el Máster Universitario en Ciberseguridad y Ciberinteligencia, uno de los más demandados por parte del alumnado)).
 
 - PLAZAS OFERTADAS; 5

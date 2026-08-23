@@ -18,8 +18,6 @@ campus: Campus de Valencia
 
 # Grado en Empresa y Tecnología Digital
 
-# Grado en Empresa y Tecnología Digital
-
 4 cursos 240 créditos
 
 Crédito € (2026/2027)
@@ -60,17 +58,15 @@ Podrás acceder a másteres universitarios en áreas de gestión empresarial y t
 
 ## Asignaturas
 
-# Asignaturas
+- Ent. Resp: Facultad de Administración y Dirección de Empresas
 
-## Asignaturas
+- Unid. Gestión: Facultad de Administración y Dirección de Empresas
 
-- Facultad de Administración y Dirección de Empresas
+- Titulación: Grado en Empresa y Tecnología Digital
 
-- Grado en Empresa y Tecnología Digital
+- Tipo: Grado
 
-- Grado
-
-- 2026-2027
+- Curso: 2026-2027
 
 ## Asignaturas por módulos y materias
 

@@ -21,8 +21,6 @@ rama: Ingeniería. Arquitectura, Ingeniería Civil y Edificación
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Ingeniería Hidráulica y Medio Ambiente
-
 El Doble Máster Universitario en Ingeniería de Caminos, Canales y Puertos + Máster Universitario en Ingeniería Hidráulica y Medio Ambiente te abre las puertas a la profesión regulada de ingeniero o ingeniera de Caminos, Canales y Puertos, a través de la habilitación necesaria para liderar grandes proyectos e infraestructuras. Además, te aporta una especialización avanzada en ingeniería hidráulica y medioambiental, con un enfoque tanto profesional como investigador en la gestión del agua.
 
 - PLAZAS OFERTADAS; 5

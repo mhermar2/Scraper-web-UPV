@@ -300,7 +300,15 @@ def extraer_consulta_clasica(url: str) -> list[str]:
 
     ml.reemplazar_tablas_por_listas(soup, contenido)
     lineas = ml.extraer_bloques_contenido(contenido, url)
-    return ml.limpiar_lineas_finales(lineas, recortar_h1=False)
+    lineas = ml.limpiar_lineas_finales(lineas, recortar_h1=False)
+    # La plantilla clasica de estas consultas siempre trae su propio
+    # <h1 class="cabpagina"> con el titulo de la pagina ("Asignaturas",
+    # "Resultados"...), redundante con el "## {titulo}" que ya antepone
+    # generar_markdown_titulacion(); "Asignaturas" ademas lo repite una
+    # segunda vez como <h2> justo despues (mismo bug ya encontrado y
+    # corregido en estudios/grado, 2026-08-23 -- comparten el mismo
+    # endpoint clasico). Ver motor_limpieza.quitar_titulos_redundantes().
+    return ml.quitar_titulos_redundantes(lineas)
 
 
 # ==========================================================
@@ -322,6 +330,12 @@ def generar_markdown_titulacion(item: dict, carpeta: Path) -> bool:
         if not lineas_inicio and p_tit is None:
             print("    AVISO: no se ha podido leer la página de inicio.")
             return False
+        # La pagina de Inicio repite el nombre de la titulacion como su
+        # propio <h2> -- redundante con el "# {titulo}" que se antepone
+        # mas abajo (bug real preexistente en el corpus comiteado,
+        # encontrado 2026-08-23 al revisar el mismo problema en
+        # estudios/grado).
+        lineas_inicio = ml.quitar_titulos_redundantes(lineas_inicio, titulo)
 
         lineas_detalle = extraer_pagina_main(url.rstrip("/") + "/detalle/")
         time.sleep(0.3)

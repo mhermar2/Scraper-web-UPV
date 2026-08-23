@@ -21,8 +21,6 @@ rama: Ingeniería. Agroalimentaria y Forestal
 
 ## Inicio
 
-## Doble Máster Universitario en Ingeniería Agronómica + Ganadería de Precisión
-
 El Doble Máster Universitario en Ingeniería Agronómica + Máster Universitario en Ganadería de Precisión te habilita para ejercer de manera regulada la profesión de ingeniero o ingeniera agrónoma, a la vez que complementa tu formación en producción ganadera moderna, centrada en la monitorización, la biotecnología y la gestión de datos para mejorar la nutrición, salud y bienestar animal.
 
 - PLAZAS OFERTADAS; 5
