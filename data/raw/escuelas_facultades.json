@@ -1,0 +1,112 @@
+{
+  "centros": [
+    {
+      "codigo": "ETSA",
+      "titulo": "Escuela Técnica Superior de Arquitectura",
+      "url": "https://www.upv.es/entidades/ETSA/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSIAMN",
+      "titulo": "Escuela Técnica Superior de Ingeniería Agronómica y del Medio Natural",
+      "url": "https://www.upv.es/entidades/ETSIAMN/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSIADI",
+      "titulo": "Escuela Técnica Superior de Ingeniería Aeroespacial y Diseño Industrial",
+      "url": "https://www.upv.es/entidades/ETSIADI/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSIE",
+      "titulo": "Escuela Técnica Superior de Ingeniería de Edificación",
+      "url": "https://www.upv.es/entidades/ETSIE/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSIGCT",
+      "titulo": "Escuela Técnica Superior de Ingeniería Geodésica, Cartográfica y Topográfica",
+      "url": "https://www.upv.es/entidades/ETSIGCT/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSINF",
+      "titulo": "Escuela Técnica Superior de Ingeniería Informática",
+      "url": "https://www.upv.es/entidades/ETSINF/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSICCP",
+      "titulo": "Escuela Técnica Superior de Ingeniería de Caminos, Canales y Puertos",
+      "url": "https://www.upv.es/entidades/ETSICCP/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSII",
+      "titulo": "Escuela Técnica Superior de Ingeniería Industrial",
+      "url": "https://www.upv.es/entidades/ETSII/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ETSIT",
+      "titulo": "Escuela Técnica Superior de Ingeniería de Telecomunicación",
+      "url": "https://www.upv.es/entidades/ETSIT/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "ADE",
+      "titulo": "Facultad de Administración y Dirección de Empresas",
+      "url": "https://www.upv.es/entidades/ADE/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "BBAA",
+      "titulo": "Facultad de Bellas Artes",
+      "url": "https://www.upv.es/entidades/BBAA/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "EDOCTORADO",
+      "titulo": "Escuela de Doctorado",
+      "url": "https://www.upv.es/entidades/EDOCTORADO/index-es.html",
+      "campus": "Campus de Valencia (Vera)"
+    },
+    {
+      "codigo": "EPSA",
+      "titulo": "Escuela Politécnica Superior de Alcoy",
+      "url": "https://www.upv.es/entidades/EPSA/index-es.html",
+      "campus": "Campus de Alcoy"
+    },
+    {
+      "codigo": "EPSG",
+      "titulo": "Escuela Politécnica Superior de Gandia",
+      "url": "https://www.upv.es/entidades/EPSG/index-es.html",
+      "campus": "Campus de Gandia"
+    },
+    {
+      "codigo": "BVPI",
+      "titulo": "Beihang Valencia Polytechnic International",
+      "url": "https://www.upv.es/entidades/bvpi",
+      "campus": "Campus de Hangzhou"
+    },
+    {
+      "codigo": "BERK",
+      "titulo": "Centro Berklee-Valencia",
+      "url": "https://www.upv.es/entidades/BERK/index-es.html",
+      "campus": ""
+    },
+    {
+      "codigo": "EDEM",
+      "titulo": "Centro Universitario EDEM",
+      "url": "https://www.upv.es/entidades/EDEM/index-es.html",
+      "campus": ""
+    },
+    {
+      "codigo": "FCF",
+      "titulo": "Florida Universitaria",
+      "url": "https://www.upv.es/entidades/FCF/index-es.html",
+      "campus": ""
+    }
+  ]
+}

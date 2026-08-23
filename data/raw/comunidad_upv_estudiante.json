@@ -1,0 +1,359 @@
+{
+  "titulo": "Estudiante",
+  "url": "https://www.upv.es/perfiles/estudiante/index-es.html",
+  "secciones": [
+    {
+      "id": "estudios",
+      "titulo": "Lo primero: los estudios",
+      "tipo": "estudios",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "PoliformaT",
+          "descripcion": "",
+          "url": "https://poliformat.upv.es/portal"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Títulos de grado de la UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/estudios/grado/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Calendario académico",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/estudiante/calendario-academico-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Estatuto del Estudiante Universitario",
+          "descripcion": "",
+          "url": "http://www.upv.es/entidades/ARAEC/infoweb/araec/info/801686normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Normativa de progreso y permanencia",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SA/ciclos/528837normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Normativa de evaluación",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SA/ciclos/528835normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Seguro escolar",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/estudiante/seguro-escolar-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Consejo de Estudiantes de la UPV",
+          "descripcion": "",
+          "url": "https://ceupv.es"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Todo sobre las titulaciones de la UPV",
+          "descripcion": "",
+          "url": "http://www.upv.es/perfiles/estudiante/todo-sobre-titulaciones-es.html"
+        }
+      ]
+    },
+    {
+      "id": "ventajas",
+      "titulo": "Aprovecha las ventajas",
+      "tipo": "ventajas",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Tarjeta UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/tui/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Biblioteca General",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/ABDC/indexc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Casa del Alumno",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/CA/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Ofertas y descuentos",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/soalu/sic_ai_ofertas.ventajas_carnet"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Alojamientos",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/estudiante/alojamientos-upv-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Mejora el rendimiento",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/ICE/info/696172normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Haz deporte",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/AD/indexc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "PIAE+ Acompañamiento",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-piaeacom-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "PIAE+ Acogida",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-acogida-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "PIAE+ PATU",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/futuro-alumno/integra-patu-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Generación espontánea",
+          "descripcion": "",
+          "url": "https://generacionespontanea.upv.es"
+        }
+      ]
+    },
+    {
+      "id": "empleo",
+      "titulo": "Objetivo: el empleo",
+      "tipo": "empleo",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Idiomas",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/ACDL/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Estudia un semestre o un curso en el extranjero",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/sint"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Cursos y jornadas técnicas",
+          "descripcion": "",
+          "url": "https://www.cfp.upv.es/formacion-permanente/index/index.jsp?idioma=es&menuupv=true&"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Aprende a buscar empleo",
+          "descripcion": "",
+          "url": "https://www.upv.es/contenidos/SIEORIEN/indexc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Prácticas en empresas",
+          "descripcion": "",
+          "url": "https://www.upv.es/contenidos/SIEPRACT/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Trabajos a tiempo parcial",
+          "descripcion": "",
+          "url": "https://www.servipoli.es/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Empleo para titulados",
+          "descripcion": "",
+          "url": "https://www.upv.es/contenidos/SIEEMPLE/indexc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Crea una empresa",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/IDEAS/index-es.html"
+        }
+      ]
+    },
+    {
+      "id": "becas_ayudas",
+      "titulo": "Becas y ayudas",
+      "tipo": "becas_ayudas",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Becas, ayudas, subvenciones y premios",
+          "descripcion": "Ministerio",
+          "url": "https://www.becaseducacion.gob.es/portada.html",
+          "subseccion": "ministerio"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Sede electrónica del Ministerio de Educación",
+          "descripcion": "Ministerio",
+          "url": "https://sede.educacion.gob.es",
+          "subseccion": "ministerio"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Conselleria",
+          "descripcion": "Generalitat Valenciana",
+          "url": "http://innova.gva.es/es/web/universidad/ayudas-y-becas",
+          "subseccion": "generalitat_valenciana"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Servicio de Alumnado. Unidad de Becas. Normativas y convocatorias",
+          "descripcion": "Más información",
+          "url": "https://www.upv.es/entidades/SA/becas/indexnormalc.html",
+          "subseccion": "mas_informacion"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Servicio de Recursos Humanos",
+          "descripcion": "Más información",
+          "url": "https://www.upv.es/entidades/SRH/index-es.html",
+          "subseccion": "mas_informacion"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Buscador de becas convocadas por la UPV",
+          "descripcion": "Más información",
+          "url": "https://aplicat.upv.es/oportunidades-app/",
+          "subseccion": "mas_informacion"
+        }
+      ]
+    }
+  ],
+  "becas_ayudas": {
+    "titulo": "Becas y ayudas",
+    "url": "https://www.upv.es/perfiles/estudiante/introduccion-becas-es.html",
+    "resumen_lineas": [
+      "Con el fin de garantizar el derecho de todos los estudiantes a cursar estudios universitarios, el Ministerio y la Conselleria competentes en materia de educación, y la propia Universitat Politècnica de València convocan diferentes becas y ayudas."
+    ],
+    "secciones": [
+      {
+        "titulo": "Ministerio",
+        "lineas_texto": [
+          "Becas de carácter general para estudiantes que cursen estudios postobligatorios con validez en todo el territorio nacional. Para ser beneficiario de estas becas, será preciso cumplir con los requisitos básicos, así como con los umbrales de renta y patrimonio.",
+          "La beca consistirá en la exención del pago de las tasas por la prestación de servicios académicos universitarios (gastos de matrícula), correspondientes a asignaturas matriculadas por primera vez.",
+          "La solicitud se cumplimenta vía telemática a través de la sede electrónica del Ministerio."
+        ],
+        "elementos": [
+          {
+            "tipo": "recurso",
+            "titulo": "Becas, ayudas, subvenciones y premios",
+            "descripcion": "Ministerio",
+            "url": "https://www.becaseducacion.gob.es/portada.html",
+            "subseccion": "ministerio"
+          },
+          {
+            "tipo": "recurso",
+            "titulo": "Sede electrónica del Ministerio de Educación",
+            "descripcion": "Ministerio",
+            "url": "https://sede.educacion.gob.es",
+            "subseccion": "ministerio"
+          }
+        ]
+      },
+      {
+        "titulo": "Generalitat Valenciana",
+        "lineas_texto": [
+          "La Conselleria competente en estudios universitarios, convoca becas para la realización de estudios universitarios en las universidades de la Comunitat Valenciana.",
+          "Para la adjudicación de la beca es necesario acreditar residencia administrativa en la Comunitat Valenciana y no superar los umbrales de renta establecidos por la convocatoria.",
+          "La beca consiste en la exención del pago de las tasas por la prestación de servicios académicos universitarios (gastos de matrícula), de asignaturas matriculadas en primera y segunda matrícula.",
+          "La solicitud y la documentación necesaria se presentan vía telemática a través de la aplicación de la web de Conselleria. Es necesario disponer de un certificado digital.",
+          "La Conselleria convoca además otras ayudas que pueden consultar en la web del Servicio de Alumnado y en la web de la propia Conselleria."
+        ],
+        "elementos": [
+          {
+            "tipo": "recurso",
+            "titulo": "Conselleria",
+            "descripcion": "Generalitat Valenciana",
+            "url": "http://innova.gva.es/es/web/universidad/ayudas-y-becas",
+            "subseccion": "generalitat_valenciana"
+          }
+        ]
+      },
+      {
+        "titulo": "Universitat Politècnica de València",
+        "lineas_texto": [
+          "### Ayudas Acción Social \"Estudiantes UPV\"",
+          "Dirigida a estudiantes que acrediten una situación personal o familiar de especial necesidad económica y no disfruten de otras becas o ayudas al estudio.",
+          "Estas ayudas comprenden la exención del importe de las tasas por servicios académicos (importe de los créditos matriculados), hasta un máximo de 900€, tanto de primera como de segunda matrícula.",
+          "La solicitud se presenta a través de la intranet de cada estudiante.",
+          "### Ayudas Acción Social por causa sobrevenida",
+          "Esa convocatoria prevé dar respuesta a situaciones sobrevenidas de excepcional gravedad ocurridas durante el curso académico, en la unidad familiar o en el propio solicitante, causantes de un perjuicio económico grave que pueda dificultar al solicitante la continuación de sus estudios.",
+          "La solicitud se puede descargar desde la microweb de la Unidad de Becas, y se debe presentar en cualquier de las oficinas de Registro de la UPV, a través de la Sede Electrónica de la UPV, o a través del Registro Electrónico Común de la Administración del Estado."
+        ],
+        "elementos": []
+      },
+      {
+        "titulo": "Ayudas de comedor",
+        "lineas_texto": [
+          "Estas ayudas cubren el menú del día. Se otorgan vales de comedor para que el estudiante pueda utilizarlos en las cafeterías de la UPV.",
+          "Podrán ser beneficiarios de las ayudas, los estudiantes que cumplan con los requisitos generales, económicos y académicos."
+        ],
+        "elementos": []
+      },
+      {
+        "titulo": "Otras becas",
+        "lineas_texto": [
+          "Becas formativas de colaboración (tipo A). Tienen como finalidad la formación del becario/a mediante la realización de actividades que guarden una relación estrecha con los estudios que el/la estudiante esté cursando.",
+          "A cambio de una cuantía económica, los/as becarios/as deben desarrollar una serie de actividades en un departamento, centro, instituto o servicio.",
+          "Las convocatorias se publican a lo largo del curso escolar y en ellas se establecen los objetivos y las actividades a desarrollar, los méritos a valorar, la dedicación semanal, etc.",
+          "Ayudas a Deportistas de Élite, Ayudas Deportivas de Excelencia, y Ayudas Deportivas de Residencia.",
+          "Las solicitudes a estas convocatorias se encuentran en el mismo documento de la convocatoria, y se presentan a través de las oficinas de Registro de la UPV, a través del Registro Electrónico Común de la Administración del Estado, o por cualquiera de los medios establecidos en el artículo 16.4 de la Ley 39/2015."
+        ],
+        "elementos": []
+      },
+      {
+        "titulo": "Más información",
+        "lineas_texto": [],
+        "elementos": [
+          {
+            "tipo": "recurso",
+            "titulo": "Servicio de Alumnado. Unidad de Becas. Normativas y convocatorias",
+            "descripcion": "Más información",
+            "url": "https://www.upv.es/entidades/SA/becas/indexnormalc.html",
+            "subseccion": "mas_informacion"
+          },
+          {
+            "tipo": "recurso",
+            "titulo": "Servicio de Recursos Humanos",
+            "descripcion": "Más información",
+            "url": "https://www.upv.es/entidades/SRH/index-es.html",
+            "subseccion": "mas_informacion"
+          },
+          {
+            "tipo": "recurso",
+            "titulo": "Buscador de becas convocadas por la UPV",
+            "descripcion": "Más información",
+            "url": "https://aplicat.upv.es/oportunidades-app/",
+            "subseccion": "mas_informacion"
+          }
+        ]
+      }
+    ]
+  }
+}

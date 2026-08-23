@@ -107,6 +107,29 @@ ADMISION_INTERNACIONAL_JSON = DATA_RAW_DIR / "admision_internacional.json"
 ADMISION_INTERNACIONAL_DIR = ADMISION_DIR / "internacional"
 ADMISION_INTERNACIONAL_RECURSOS_DIR = ADMISION_INTERNACIONAL_DIR / "recursos"
 
+# --- organizacion / escuelas y facultades ---
+ESCUELAS_URL = "https://www.upv.es/organizacion/escuelas-facultades/index-es.html"
+ESCUELAS_JSON = DATA_RAW_DIR / "escuelas_facultades.json"
+ESCUELAS_KB_DIR = ORGANIZACION_DIR / "escuelas_facultades"
+
+# --- organizacion / departamentos ---
+DEPARTAMENTOS_URL = "https://www.upv.es/organizacion/departamentos/index-es.html"
+DEPARTAMENTOS_JSON = DATA_RAW_DIR / "departamentos.json"
+DEPARTAMENTOS_KB_DIR = ORGANIZACION_DIR / "departamentos"
+
+# --- comunidad_upv / estudiante ---
+ESTUDIANTE_URL = "https://www.upv.es/perfiles/estudiante/index-es.html"
+ESTUDIANTE_BECAS_URL = "https://www.upv.es/perfiles/estudiante/introduccion-becas-es.html"
+ESTUDIANTE_JSON = DATA_RAW_DIR / "comunidad_upv_estudiante.json"
+COMUNIDAD_UPV_DIR = DATA_PROCESSED_DIR / "comunidad_upv"
+ESTUDIANTE_DIR = COMUNIDAD_UPV_DIR / "estudiante"
+ESTUDIANTE_CARPETAS = {
+    "estudios": ESTUDIANTE_DIR / "estudios",
+    "ventajas": ESTUDIANTE_DIR / "ventajas",
+    "empleo": ESTUDIANTE_DIR / "empleo",
+    "becas_ayudas": ESTUDIANTE_DIR / "becas_ayudas",
+}
+
 # --- admision / grado ---
 ADMISION_GRADO_JSON = DATA_RAW_DIR / "admision_grado.json"
 ADMISION_GRADO_DIR = ADMISION_DIR / "grado"

@@ -1,0 +1,209 @@
+{
+  "departamentos": [
+    {
+      "codigo": "DB",
+      "titulo": "Dpto. de Biotecnología",
+      "url": "https://www.upv.es/entidades/DB/index-es.html"
+    },
+    {
+      "codigo": "DCAN",
+      "titulo": "Dpto. de Ciencia Animal",
+      "url": "https://www.upv.es/entidades/DCAN/index-es.html"
+    },
+    {
+      "codigo": "DCMA",
+      "titulo": "Dpto. de Composición Arquitectónica",
+      "url": "https://www.upv.es/entidades/DCMA/index-es.html"
+    },
+    {
+      "codigo": "DCADHA",
+      "titulo": "Dpto. de Comunicación Audiovisual, Documentación e Historia del Arte",
+      "url": "https://www.upv.es/entidades/DCADHA/index-es.html"
+    },
+    {
+      "codigo": "DC",
+      "titulo": "Dpto. de Comunicaciones",
+      "url": "https://www.upv.es/entidades/DC/index-es.html"
+    },
+    {
+      "codigo": "DCRBC",
+      "titulo": "Dpto. de Conservación y Restauración de Bienes Culturales",
+      "url": "https://www.upv.es/entidades/DCRBC/index-es.html"
+    },
+    {
+      "codigo": "DCAR",
+      "titulo": "Dpto. de Construcciones Arquitectónicas",
+      "url": "https://www.upv.es/entidades/DCAR/index-es.html"
+    },
+    {
+      "codigo": "DD",
+      "titulo": "Dpto. de Dibujo",
+      "url": "https://www.upv.es/entidades/DD/index-es.html"
+    },
+    {
+      "codigo": "DECS",
+      "titulo": "Dpto. de Economía y Ciencias Sociales",
+      "url": "https://www.upv.es/entidades/DECS/index-es.html"
+    },
+    {
+      "codigo": "DEAF",
+      "titulo": "Dpto. de Ecosistemas Agroforestales",
+      "url": "https://www.upv.es/entidades/DEAF/index-es.html"
+    },
+    {
+      "codigo": "DE",
+      "titulo": "Dpto. de Escultura",
+      "url": "https://www.upv.es/entidades/DE/index-es.html"
+    },
+    {
+      "codigo": "DEIO",
+      "titulo": "Dpto. de Estadística e Investigación Operativa Aplicadas y Calidad",
+      "url": "https://www.upv.es/entidades/DEIO/index-es.html"
+    },
+    {
+      "codigo": "DEGA",
+      "titulo": "Dpto. de Expresión Gráfica Arquitectónica",
+      "url": "https://www.upv.es/entidades/DEGA/index-es.html"
+    },
+    {
+      "codigo": "DFA",
+      "titulo": "Dpto. de Física Aplicada",
+      "url": "https://www.upv.es/entidades/DFA/index-es.html"
+    },
+    {
+      "codigo": "DISCA",
+      "titulo": "Dpto. de Informática de Sistemas y Computadores",
+      "url": "https://www.upv.es/entidades/DISCA/index-es.html"
+    },
+    {
+      "codigo": "DICGF",
+      "titulo": "Dpto. de Ingeniería Cartográfica Geodesia y Fotogrametría",
+      "url": "https://www.upv.es/entidades/DICGF/index-es.html"
+    },
+    {
+      "codigo": "DIC",
+      "titulo": "Dpto. de Ingeniería de la Construcción y de Proyectos de Ingeniería Civil",
+      "url": "https://www.upv.es/entidades/DIC/index-es.html"
+    },
+    {
+      "codigo": "DITT",
+      "titulo": "Dpto. de Ingeniería de los Transportes y del Terreno",
+      "url": "https://www.upv.es/entidades/DITT/index-es.html"
+    },
+    {
+      "codigo": "DISA",
+      "titulo": "Dpto. de Ingeniería de Sistemas y Automática",
+      "url": "https://www.upv.es/entidades/DISA/index-es.html"
+    },
+    {
+      "codigo": "DIEI",
+      "titulo": "Dpto. de Ingeniería Eléctrica",
+      "url": "https://www.upv.es/entidades/DIEI/index-es.html"
+    },
+    {
+      "codigo": "DIEO",
+      "titulo": "Dpto. de Ingeniería Electrónica",
+      "url": "https://www.upv.es/entidades/DIEO/index-es.html"
+    },
+    {
+      "codigo": "DIG",
+      "titulo": "Dpto. de Ingeniería Gráfica",
+      "url": "https://www.upv.es/entidades/DIG/index-es.html"
+    },
+    {
+      "codigo": "DIHMA",
+      "titulo": "Dpto. de Ingeniería Hidráulica y Medio Ambiente",
+      "url": "https://www.upv.es/entidades/DIHMA/index-es.html"
+    },
+    {
+      "codigo": "DIMM",
+      "titulo": "Dpto. de Ingeniería Mecánica y de Materiales",
+      "url": "https://www.upv.es/entidades/DIMM/index-es.html"
+    },
+    {
+      "codigo": "DIQN",
+      "titulo": "Dpto. de Ingeniería Química y Nuclear",
+      "url": "https://www.upv.es/entidades/DIQN/index-es.html"
+    },
+    {
+      "codigo": "DIRA",
+      "titulo": "Dpto. de Ingeniería Rural y Agroalimentaria",
+      "url": "https://www.upv.es/entidades/DIRA/index-es.html"
+    },
+    {
+      "codigo": "DITP",
+      "titulo": "Dpto. de Ingeniería Textil y Papelera",
+      "url": "https://www.upv.es/entidades/DITP/index-es.html"
+    },
+    {
+      "codigo": "DLA",
+      "titulo": "Dpto. de Lingüística Aplicada",
+      "url": "https://www.upv.es/entidades/DLA/index-es.html"
+    },
+    {
+      "codigo": "DMMT",
+      "titulo": "Dpto. de Máquinas y Motores Térmicos",
+      "url": "https://www.upv.es/entidades/DMMT/index-es.html"
+    },
+    {
+      "codigo": "DMAA",
+      "titulo": "Dpto. de Matemática Aplicada",
+      "url": "https://www.upv.es/entidades/DMAA/index-es.html"
+    },
+    {
+      "codigo": "DMMCTE",
+      "titulo": "Dpto. de Mecánica de los Medios Continuos y Teoría de Estructuras",
+      "url": "https://www.upv.es/entidades/DMMCTE/index-es.html"
+    },
+    {
+      "codigo": "DOE",
+      "titulo": "Dpto. de Organización de Empresas",
+      "url": "https://www.upv.es/entidades/DOE/index-es.html"
+    },
+    {
+      "codigo": "DP",
+      "titulo": "Dpto. de Pintura",
+      "url": "https://www.upv.es/entidades/DP/index-es.html"
+    },
+    {
+      "codigo": "DPV",
+      "titulo": "Dpto. de Producción Vegetal",
+      "url": "https://www.upv.es/entidades/DPV/index-es.html"
+    },
+    {
+      "codigo": "DPA",
+      "titulo": "Dpto. de Proyectos Arquitectónicos",
+      "url": "https://www.upv.es/entidades/DPA/index-es.html"
+    },
+    {
+      "codigo": "DPI",
+      "titulo": "Dpto. de Proyectos de Ingeniería",
+      "url": "https://www.upv.es/entidades/DPI/index-es.html"
+    },
+    {
+      "codigo": "DQ",
+      "titulo": "Dpto. de Química",
+      "url": "https://www.upv.es/entidades/DQ/index-es.html"
+    },
+    {
+      "codigo": "DSIC",
+      "titulo": "Dpto. de Sistemas Informáticos y Computación",
+      "url": "https://www.upv.es/entidades/DSIC/index-es.html"
+    },
+    {
+      "codigo": "DTEA",
+      "titulo": "Dpto. de Tecnología de Alimentos",
+      "url": "https://www.upv.es/entidades/DTEA/index-es.html"
+    },
+    {
+      "codigo": "DTRA",
+      "titulo": "Dpto. de Termodinámica Aplicada",
+      "url": "https://www.upv.es/entidades/DTRA/index-es.html"
+    },
+    {
+      "codigo": "DU",
+      "titulo": "Dpto. de Urbanismo",
+      "url": "https://www.upv.es/entidades/DU/index-es.html"
+    }
+  ]
+}

@@ -332,6 +332,222 @@ def buscar_iframe_contenido_clasico(soup: BeautifulSoup, url_base: str) -> str |
     return urljoin(url_base, src)
 
 
+def buscar_enlace_acceso_web_externa(soup: BeautifulSoup, url_base: str) -> str | None:
+    """Algunos centros con CMS propio fuera de upv.es (ASP.NET, PHP...)
+    no publican ningun contenido real bajo /entidades/<codigo>/: la
+    plantilla clasica de fallback que ahi aparece solo ofrece un enlace
+    "Acceso a la Web" hacia el dominio externo real (caso real:
+    ETSICCP -> iccp.upv.es). Sin seguir ese enlace, el corpus solo veria
+    ruido de menu y ningun dato del centro."""
+    enlace = soup.find("a", string=re.compile(r"acceso a la web", re.I))
+    if enlace is None or not enlace.get("href"):
+        return None
+    return normalizar_url(enlace["href"], url_base)
+
+
+# ==========================================================
+# Arbol de mapa del sitio (WordPress moderno / Oracle Portal clasico /
+# sitemap.xml)
+#
+# Anadida 2026-08-23 para organizacion/{escuelas_facultades,
+# departamentos}: a diferencia del resto de secciones, aqui el tutor ya
+# habia decidido (por correo) que el contenido real de cada centro es
+# demasiado heterogeneo para homogeneizar con el traversal por "hoja de
+# contenido" -- lo que aporta valor real es un indice navegable (que
+# secciones tiene la web del centro y a que URL van) mas que el texto
+# completo de cada pagina. Tres fuentes posibles segun la plantilla:
+#   1. WordPress moderno: pagina dedicada <web>/mapa-del-sitio/ con un
+#      arbol <ul class="sitemap"> de hasta 3 niveles (confirmado en
+#      ETSIT/DISCA).
+#   2. Oracle Portal clasico (paginas sin esa ruta, 404): el propio menu
+#      lateral de la ficha (#mnuIzquierda) YA es ese mismo arbol de
+#      categoria/subcategoria/enlace, solo que reconstruido con
+#      JavaScript en vez de <ul>/<li> anidados (confirmado en
+#      departamentos como DB/DCAN/DU, plantilla igual a la de
+#      servicios/admision pero aqui se usa para navegacion, no para
+#      seguir enlaces de contenido).
+#   3. Dominio propio con generador de sitio estatico (ETSII): no hay
+#      pagina "mapa del sitio" humana, pero si `sitemap.xml` estandar en
+#      la raiz -- se listan las URLs agrupadas por su primer segmento de
+#      ruta (sin texto humano, es lo unico que aporta el XML).
+# Si ninguna de las tres existe (caso ETSICCP, CMS ASP.NET con
+# navegacion por JavaScript), no se inventa nada: se deja constancia en
+# el Markdown de que no hay mapa del sitio estandar disponible.
+# ==========================================================
+
+def extraer_arbol_sitemap_wp(url_mapa: str, headers: dict | None = None) -> list[dict] | None:
+    """Descarga <web>/mapa-del-sitio/ (plantilla WordPress moderna) y
+    devuelve su arbol de navegacion anidado, o None si la pagina no
+    existe o no tiene la estructura esperada (<ul class="sitemap">)."""
+    try:
+        soup, es_html = descargar_soup(url_mapa, headers=headers)
+    except Exception:
+        return None
+    if not es_html:
+        return None
+    raiz = soup.find("ul", class_="sitemap")
+    if raiz is None:
+        return None
+    return _parsear_ul_sitemap(raiz, url_mapa)
+
+
+def _parsear_ul_sitemap(ul, url_base: str) -> list[dict]:
+    nodos = []
+    for li in ul.find_all("li", recursive=False):
+        enlace = li.find("a", recursive=False)
+        if enlace is None or not enlace.get("href"):
+            continue
+        nodo = {"titulo": extraer_texto_limpio(enlace), "url": normalizar_url(enlace["href"], url_base), "hijos": []}
+        sub_ul = li.find("ul", recursive=False)
+        if sub_ul is not None:
+            nodo["hijos"] = _parsear_ul_sitemap(sub_ul, url_base)
+        nodos.append(nodo)
+    return nodos
+
+
+def extraer_menu_clasico(soup: BeautifulSoup, url_base: str) -> list[dict]:
+    """Extrae el arbol de categorias del menu lateral de la plantilla
+    Oracle Portal clasica (id="mnuIzquierda"): cada categoria de primer
+    nivel es un <a id="itmN"> (dentro de un <p>) seguido de un
+    <div id="divN" class="submenu"> con subcategorias
+    (<span class="mnuizquierda_2donivel">, sin enlace propio, solo
+    etiqueta) y enlaces reales intercalados como hermanos -- no hay
+    <ul>/<li> anidados, hay que reconstruir la jerarquia a mano siguiendo
+    el orden de aparicion. Devuelve [] si la pagina no usa esta
+    plantilla."""
+    menu = soup.find(id="mnuIzquierda")
+    if menu is None:
+        return []
+
+    categorias = []
+    for parrafo in menu.find_all("p", recursive=False):
+        enlace_categoria = parrafo.find("a")
+        if enlace_categoria is None:
+            continue
+        categoria = {"titulo": extraer_texto_limpio(enlace_categoria), "hijos": []}
+        categorias.append(categoria)
+
+        id_categoria = (enlace_categoria.get("id") or "")
+        if not id_categoria.startswith("itm"):
+            continue
+        submenu = menu.find(id="div" + id_categoria[len("itm"):])
+        if submenu is None:
+            continue
+
+        subcategoria_actual = None
+        for hijo in submenu.find_all(["span", "a"], recursive=True):
+            if hijo.name == "span" and "mnuizquierda_2donivel" in (hijo.get("class") or []):
+                subcategoria_actual = {"titulo": extraer_texto_limpio(hijo), "hijos": []}
+                categoria["hijos"].append(subcategoria_actual)
+            elif hijo.name == "a" and hijo.get("href"):
+                item = {"titulo": extraer_texto_limpio(hijo), "url": normalizar_url(hijo["href"], url_base)}
+                if not item["titulo"]:
+                    continue
+                destino = subcategoria_actual["hijos"] if subcategoria_actual is not None else categoria["hijos"]
+                destino.append(item)
+
+        # Una subcategoria sin ningun hijo (etiqueta huerfana al final de
+        # un submenu, visto en DB: "Publicaciones docentes" aparece dos
+        # veces en el HTML real, una como enlace y otra como cabecera de
+        # subcategoria vacia que no llega a tener ningun enlace propio
+        # detras) no aporta navegacion real.
+        categoria["hijos"] = [
+            h for h in categoria["hijos"] if "hijos" not in h or h["hijos"]
+        ]
+
+    # Una categoria sin ningun hijo (ej. un enlace suelto "Acceso a la
+    # Web" fuera del patron itmN/divN, visto en ETSICCP) no aporta
+    # navegacion real -- se descarta en vez de aparecer como seccion
+    # vacia en el mapa del sitio.
+    return [c for c in categorias if c["hijos"]]
+
+
+def extraer_urls_de_sitemap(url: str, headers: dict | None = None, maximo_subsitemaps: int = 15,
+                             _profundidad: int = 0) -> list[str]:
+    """Descarga y parsea un sitemap.xml estandar (protocolo sitemaps.org),
+    resolviendo tambien el caso de un indice de sitemaps (<sitemapindex>,
+    el formato nativo de WordPress: wp-sitemap.xml apunta a varios
+    sub-sitemaps de posts/paginas/taxonomias -- confirmado en
+    etsie.upv.es) siguiendo cada sub-sitemap hasta un nivel de anidamiento
+    (en la practica un indice no aparece anidado mas de un nivel). Si hay
+    sub-sitemaps de "paginas" y de "entradas"/taxonomias mezclados, se
+    prioriza el de paginas (mejor proxy de secciones reales del sitio,
+    menos ruido que un listado de posts de blog). Sin texto humano
+    asociado (el XML no lo trae) -- ultimo recurso cuando ni la pagina de
+    mapa del sitio WordPress ni el menu clasico existen (ver
+    extraer_arbol_sitemap_wp/extraer_menu_clasico)."""
+    import xml.etree.ElementTree as ET
+
+    try:
+        respuesta = requests.get(url, headers=headers or HEADERS_GENERICOS, timeout=30)
+        respuesta.raise_for_status()
+        raiz = ET.fromstring(respuesta.content)
+    except Exception:
+        return []
+
+    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    locs = [loc.text.strip() for loc in raiz.findall(".//sm:loc", ns) if loc.text and loc.text.strip()]
+
+    if not raiz.tag.endswith("sitemapindex") or _profundidad >= 1:
+        return locs
+
+    candidatos = [u for u in locs if "page" in u.lower()] or locs
+    urls = []
+    for sub_url in candidatos[:maximo_subsitemaps]:
+        urls.extend(extraer_urls_de_sitemap(sub_url, headers=headers, _profundidad=_profundidad + 1))
+    return urls
+
+
+def agrupar_urls_sitemap_xml_por_seccion(urls: list[str], maximo_por_seccion: int = 20) -> list[dict]:
+    """Agrupa las URLs planas de un sitemap.xml por su primer segmento
+    de ruta (unica agrupacion tematica disponible sin texto humano),
+    con el mismo formato {titulo, url, hijos} que extraer_arbol_sitemap_wp/
+    extraer_menu_clasico para poder reutilizar el mismo renderizador.
+
+    Un sitemap.xml de un CMS plano (sin la curaduria editorial del arbol
+    WordPress/menu clasico) puede listar cientos de variantes casi
+    identicas de la misma plantilla (ej. un horario por
+    titulacion x curso x convocatoria, visto en etsii.upv.es: mas de 100
+    URLs solo de horario_titulacionN.php con distintos parametros) --
+    sin limite, la ficha del centro dejaria de ser un indice legible
+    para convertirse en un volcado de cientos de enlaces casi iguales.
+    Se trunca cada seccion a `maximo_por_seccion`, dejando constancia de
+    cuantas mas hay."""
+    grupos: dict[str, list[dict]] = {}
+    for url in urls:
+        ruta = urlparse(url).path.strip("/")
+        segmento = ruta.split("/", 1)[0] if ruta else ""
+        etiqueta = segmento.replace("-", " ").replace("_", " ").capitalize() if segmento else "General"
+        grupos.setdefault(etiqueta, []).append({"titulo": url, "url": url})
+
+    nodos = []
+    for etiqueta, items in grupos.items():
+        restantes = len(items) - maximo_por_seccion
+        hijos = items[:maximo_por_seccion]
+        if restantes > 0:
+            hijos.append({"titulo": f"… {restantes} enlaces más en esta sección (ver sitemap.xml completo)"})
+        nodos.append({"titulo": etiqueta, "hijos": hijos})
+    return nodos
+
+
+def arbol_sitemap_a_markdown(nodos: list[dict], nivel: int = 0) -> list[str]:
+    """Convierte el arbol devuelto por extraer_arbol_sitemap_wp()/
+    extraer_menu_clasico()/agrupar_urls_sitemap_xml_por_seccion() en
+    lineas Markdown: categorias de primer nivel como titulo de seccion,
+    el resto como lista anidada por sangria."""
+    lineas = []
+    for nodo in nodos:
+        titulo, url, hijos = nodo.get("titulo", ""), nodo.get("url"), nodo.get("hijos") or []
+        if nivel == 0:
+            lineas.append(f"### [{titulo}]({url})" if url else f"### {titulo}")
+        else:
+            sangria = "  " * (nivel - 1)
+            texto = f"[{titulo}]({url})" if url else f"**{titulo}**"
+            lineas.append(f"{sangria}- {texto}")
+        lineas.extend(arbol_sitemap_a_markdown(hijos, nivel + 1))
+    return lineas
+
+
 def limpiar_contenido_html(soup: BeautifulSoup) -> BeautifulSoup:
     from bs4 import Comment
 
