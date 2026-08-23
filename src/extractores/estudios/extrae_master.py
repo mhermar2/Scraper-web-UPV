@@ -110,12 +110,37 @@ TEXTO_RUIDO_DETALLE = {"contenido de la pagina", "contenido de la página"}
 # de menu generico de upv.es.
 PATRON_COMPARTIR = re.compile(r"^compartir\s*:", re.IGNORECASE)
 
+# URL real de la pagina de listado (no la API JSON) -- es la que se usa
+# como `url:` del resumen y como `resumen:` de cada ficha, para que
+# apunte a un documento real del corpus (la propia master.md), no a un
+# endpoint de datos sin contenido navegable.
+RESUMEN_URL = "https://www.upv.es/estudios/master/index-es.html"
+
 PATRON_P_TIT = re.compile(r"[?&]p_tit=(\d+)", re.IGNORECASE)
 
 
-def _yaml_resumen(url: str, titulo: str) -> str:
-    return ml.generar_yaml_metadatos(fuente=FUENTE, url=url, categoria=CATEGORIA, nivel=NIVEL,
-                                      tipo_documento="resumen", titulo=titulo)
+def generar_markdown_resumen(items: list[dict]) -> str:
+    """Bug real corregido (sesion 2026-08-23): antes de este fix, ninguna
+    ficha de master tenia un documento "resumen" al que apuntar -- las
+    122 fichas ponian `resumen: <URL del JSON de la API>`, que no
+    corresponde a ningun documento real del corpus (viola el esquema
+    definitivo, ver las notas internas del proyecto "resumen es siempre una URL que apunta a
+    otro documento del propio corpus"). Genera una tabla-indice a partir
+    del propio catalogo (siempre sincronizada, a diferencia de la
+    `_indice.md` estatica que dejo el tutor)."""
+    yaml_metadatos = ml.generar_yaml_metadatos(
+        fuente=FUENTE, url=RESUMEN_URL, categoria=CATEGORIA, nivel=NIVEL,
+        tipo_documento="resumen", titulo="Másteres universitarios")
+
+    filas = [
+        f"| [{i['acronimo']}]({i['url']}) | {i['titulo']} | {i['campus']} | {i['modalidad']} | {i['rama']} |"
+        for i in items
+    ]
+    tabla = (
+        "| Acrónimo | Título | Campus | Modalidad | Rama |\n"
+        "|----------|--------|--------|-----------|------|\n" + "\n".join(filas)
+    )
+    return f"{yaml_metadatos}\n# Másteres universitarios\n\n{tabla}\n"
 
 
 def _yaml_recurso(item: dict) -> str:
@@ -128,7 +153,7 @@ def _yaml_recurso(item: dict) -> str:
     }
     return ml.generar_yaml_metadatos(fuente=FUENTE, url=item["url"], categoria=CATEGORIA, nivel=NIVEL,
                                       tipo_documento="recurso", tipo_recurso=TIPO_RECURSO,
-                                      resumen=MASTER_CATALOGO_URL, seccion=NIVEL, titulo=item["titulo"],
+                                      resumen=RESUMEN_URL, seccion=NIVEL, titulo=item["titulo"],
                                       campos_extra=campos_extra)
 
 
@@ -226,8 +251,22 @@ def extraer_inicio(url: str) -> tuple[list[str], str | None]:
 
 def extraer_pagina_main(url: str, recortar_h1: bool = True) -> list[str]:
     """Extraccion generica para /detalle/ y /admision/: <main> + motor
-    de limpieza comun, sin logica propia de esta seccion."""
-    soup, es_html = ml.descargar_soup(url, headers=HEADERS)
+    de limpieza comun, sin logica propia de esta seccion.
+
+    Ambas subpaginas son opcionales: los "Dobles Master" (combinacion de
+    dos titulaciones ya existentes, 17/122 en el catalogo) no tienen su
+    propio /detalle/ -- un 404 aqui NO debe abortar la titulacion
+    completa (bug real encontrado al ejecutar: sin este guard, Inicio/
+    Asignaturas/Competencias/Profesorado ya extraidos con exito se
+    descartaban por el fallo de esta UNICA subpagina opcional, dejando
+    17/122 masteres sin generar en absoluto). Mismo criterio que el fix
+    de extraer_enlaces_subpaginas() en estudios/doctorado."""
+    try:
+        soup, es_html = ml.descargar_soup(url, headers=HEADERS)
+    except requests.exceptions.HTTPError as error:
+        if error.response is not None and error.response.status_code == 404:
+            return []
+        raise
     if not es_html:
         return []
     soup = ml.limpiar_contenido_html(soup)
@@ -345,6 +384,11 @@ def generar_markdowns_titulaciones(items: list[dict], carpeta: Path = MASTER_KB_
 def main(limite: int | None = None) -> None:
     items = extraer_catalogo()
     guardar_json(items)
+
+    MASTER_KB_DIR.mkdir(parents=True, exist_ok=True)
+    with open(MASTER_KB_DIR / "master.md", "w", encoding="utf-8") as archivo:
+        archivo.write(generar_markdown_resumen(items))
+
     if limite is not None:
         items = items[:limite]
     total, correctos, errores = generar_markdowns_titulaciones(items)
