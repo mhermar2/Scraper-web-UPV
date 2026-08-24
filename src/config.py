@@ -84,6 +84,25 @@ INNOVACION_DIR = INVESTIGACION_DIR / "innovacion"
 INNOVACION_MD_PADRE = INNOVACION_DIR / "innovacion.md"
 INNOVACION_RECURSOS_DIR = INNOVACION_DIR / "recursos"
 
+# --- investigacion / estructuras ---
+# Catalogo real (67 institutos/centros/UIC con tipo/area/web ya
+# estructurados) detras de los enlaces "Ver institutos universitarios"/
+# "Ver centros de investigacion"/"Ver unidades de investigacion conjunta"
+# de investigacion/estructuras/index-es.html, que en realidad llevan a un
+# buscador JS (buscador-estructuras-es.html) sin contenido estatico --
+# descubierto inspeccionando las peticiones de red de esa pagina, mismo
+# patron que courses/grados-es.json / courses/masteres-es.json.
+ESTRUCTURAS_URL = "https://www.upv.es/investigacion/estructuras/index-es.html"
+ESTRUCTURAS_CATALOGO_URL = "https://www.upv.es/courses/institutos-es.json"
+ESTRUCTURAS_JSON = DATA_RAW_DIR / "investigacion_estructuras.json"
+ESTRUCTURAS_DIR = INVESTIGACION_DIR / "estructuras"
+ESTRUCTURAS_CARPETAS = {
+    "institutos_investigacion": ESTRUCTURAS_DIR / "institutos_investigacion",
+    "centros_investigacion": ESTRUCTURAS_DIR / "centros_investigacion",
+    "uic": ESTRUCTURAS_DIR / "uic",
+    "estructuras_apoyo": ESTRUCTURAS_DIR / "estructuras_apoyo",
+}
+
 # --- rankings ---
 RANKINGS_URL = "https://www.upv.es/rankings/index.html"
 RANKINGS_JSON = DATA_RAW_DIR / "rankings.json"

@@ -1,0 +1,454 @@
+{
+  "institutos_investigacion": [
+    {
+      "acronimo": "CMT",
+      "titulo": "Instituto Universitario de Investigación CMT - Clean Mobility & Thermofluids",
+      "url": "https://www.upv.es/entidades/CMT/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Transporte y automoción"
+    },
+    {
+      "acronimo": "AI2",
+      "titulo": "Instituto Universitario de Investigación de Automática e Informática Industrial",
+      "url": "https://www.upv.es/entidades/AI2/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Informática, automatización industrial y logística"
+    },
+    {
+      "acronimo": "ICTA",
+      "titulo": "Instituto Universitario de Investigación de Ciencia y Tecnología Animal",
+      "url": "https://www.upv.es/entidades/ICTA/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Agricultura y biotecnología"
+    },
+    {
+      "acronimo": "ICITECH",
+      "titulo": "Instituto Universitario de Investigación de Ciencia y Tecnología del Hormigón",
+      "url": "https://www.upv.es/entidades/ICITECH/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Construcción e ingeniería civil"
+    },
+    {
+      "acronimo": "COMAV",
+      "titulo": "Instituto Universitario de Investigación de Conservación y Mejora de la Agrodiversidad Valenciana",
+      "url": "https://www.upv.es/entidades/COMAV/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Agricultura y biotecnología"
+    },
+    {
+      "acronimo": "FOODUPV",
+      "titulo": "Instituto Universitario de Investigación de Ingeniería de Alimentos (FoodUPV)",
+      "url": "https://www.upv.es/entidades/FOODUPV/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Alimentación"
+    },
+    {
+      "acronimo": "IIE",
+      "titulo": "Instituto Universitario de Investigación de Ingeniería Energética",
+      "url": "https://www.upv.es/entidades/IIE/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Energía"
+    },
+    {
+      "acronimo": "IMM",
+      "titulo": "Instituto Universitario de Investigación de Matemática Multidisciplinar",
+      "url": "https://www.upv.es/entidades/IMM/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Matemática"
+    },
+    {
+      "acronimo": "IMPA",
+      "titulo": "Instituto Universitario de Investigación de Matemática Pura y Aplicada",
+      "url": "https://www.upv.es/entidades/IMPA/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Matemática"
+    },
+    {
+      "acronimo": "IRP",
+      "titulo": "Instituto Universitario de Investigación de Restauración del Patrimonio",
+      "url": "https://www.upv.es/entidades/IRP/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Arte y patrimonio"
+    },
+    {
+      "acronimo": "ISIRYM",
+      "titulo": "Instituto Universitario de Investigación de Seguridad Industrial, Radiofísica y Medioambiental",
+      "url": "https://www.upv.es/entidades/ISIRYM/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Seguridad"
+    },
+    {
+      "acronimo": "ITM",
+      "titulo": "Instituto Universitario de Investigación de Tecnología de los Materiales de la UPV",
+      "url": "https://www.upv.es/entidades/ITM/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Industria química y materiales"
+    },
+    {
+      "acronimo": "NTC",
+      "titulo": "Instituto Universitario de Investigación de Tecnología Nanofotónica",
+      "url": "https://www.upv.es/entidades/NTC/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Tecnologías de la información y las comunicaciones"
+    },
+    {
+      "acronimo": "ITACA",
+      "titulo": "Instituto Universitario de Investigación de Tecnologías de la Información y Comunicaciones",
+      "url": "https://www.upv.es/entidades/ITACA/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Tecnologías de la información y las comunicaciones"
+    },
+    {
+      "acronimo": "iTEAM",
+      "titulo": "Instituto Universitario de Investigación de Telecomunicación y Aplicaciones Multimedia",
+      "url": "https://www.upv.es/entidades/iTEAM/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Tecnologías de la información y las comunicaciones"
+    },
+    {
+      "acronimo": "HUMANTECH",
+      "titulo": "Instituto Universitario de Investigación en Tecnología Centrada en el Ser Humano",
+      "url": "https://www.upv.es/entidades/HUMANTECH/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Salud, calidad de vida y educación"
+    },
+    {
+      "acronimo": "IIAMA",
+      "titulo": "Instituto Universitario de Investigación Ingeniería del Agua y del Medio Ambiente",
+      "url": "https://www.upv.es/entidades/IIAMA/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Gestión del agua y medio ambiente"
+    },
+    {
+      "acronimo": "VRAIN",
+      "titulo": "Instituto Universitario Valenciano de Investigación en Inteligencia Artificial",
+      "url": "https://www.upv.es/entidades/VRAIN/",
+      "tipo_nombre": "Institutos universitarios",
+      "area_nombre": "Tecnologías de la información y las comunicaciones"
+    },
+    {
+      "acronimo": "I2MB",
+      "titulo": "Instituto Universitario de Investigación Concertado de Ingeniería Mecánica y Biomecánica",
+      "url": "https://www.upv.es/entidades/I2MB/",
+      "tipo_nombre": "Institutos universitarios mixtos y concertados",
+      "area_nombre": "Salud, calidad de vida y educación"
+    },
+    {
+      "acronimo": "IBMCP",
+      "titulo": "Instituto Universitario de Investigación Mixto de Biología Molecular y Celular de Plantas",
+      "url": "https://www.upv.es/entidades/IBMCP/",
+      "tipo_nombre": "Institutos universitarios mixtos y concertados",
+      "area_nombre": "Agricultura y biotecnología"
+    },
+    {
+      "acronimo": "ITI",
+      "titulo": "Instituto Universitario de Investigación Mixto de Tecnología de Informática",
+      "url": "https://www.upv.es/entidades/ITI/",
+      "tipo_nombre": "Institutos universitarios mixtos y concertados",
+      "area_nombre": "Tecnologías de la información y las comunicaciones"
+    },
+    {
+      "acronimo": "ITQ",
+      "titulo": "Instituto Universitario de Investigación Mixto de Tecnología Química",
+      "url": "https://www.upv.es/entidades/ITQ/",
+      "tipo_nombre": "Institutos universitarios mixtos y concertados",
+      "area_nombre": "Industria química y materiales"
+    }
+  ],
+  "centros_investigacion": [
+    {
+      "acronimo": "CAMA",
+      "titulo": "Centro Avanzado de Microbiología Aplicada",
+      "url": "https://www.upv.es/entidades/CAMA/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Alimentación"
+    },
+    {
+      "acronimo": "CB",
+      "titulo": "Centro de Biomateriales e Ingeniería Tisular",
+      "url": "https://www.upv.es/entidades/CB/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Salud, calidad de vida y educación"
+    },
+    {
+      "acronimo": "CQ",
+      "titulo": "Centro de Gestión de la Calidad y del Cambio",
+      "url": "https://www.upv.es/entidades/CQ/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión empresarial y economía de la innovación"
+    },
+    {
+      "acronimo": "CIAE",
+      "titulo": "Centro de Investigación Arte y Entorno",
+      "url": "https://www.upv.es/entidades/CIAE/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Arte y patrimonio"
+    },
+    {
+      "acronimo": "INECO",
+      "titulo": "Centro de Investigación de Ingeniería Económica",
+      "url": "https://www.upv.es/entidades/INECO/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión empresarial y economía de la innovación"
+    },
+    {
+      "acronimo": "CITE",
+      "titulo": "Centro de Investigación de Tecnología de la Edificación",
+      "url": "https://www.upv.es/entidades/CITE/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Construcción e ingeniería civil"
+    },
+    {
+      "acronimo": "CIRAM",
+      "titulo": "Centro de Investigación del Regadío y Agrosistemas Mediterráneos",
+      "url": "https://www.upv.es/entidades/CIRAM/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión del agua y medio ambiente"
+    },
+    {
+      "acronimo": "CI2B",
+      "titulo": "Centro de Investigación e Innovación en Bioingeniería",
+      "url": "https://www.upv.es/entidades/CI2B/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Agricultura y biotecnología"
+    },
+    {
+      "acronimo": "ACUMA",
+      "titulo": "Centro de Investigación en Acuicultura y Medio Ambiente",
+      "url": "https://www.upv.es/entidades/ACUMA/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión del agua y medio ambiente"
+    },
+    {
+      "acronimo": "PEGASO",
+      "titulo": "Centro de Investigación en Arquitectura, Patrimonio y Gestión para el Desarrollo Sostenible",
+      "url": "https://www.upv.es/entidades/PEGASO/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Arte y patrimonio"
+    },
+    {
+      "acronimo": "PRINS",
+      "titulo": "Centro de Investigación en Dirección de Proyectos, Innovación y Sostenibilidad",
+      "url": "https://www.upv.es/entidades/PRINS/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión empresarial y economía de la innovación"
+    },
+    {
+      "acronimo": "CIGE",
+      "titulo": "Centro de Investigación en Gestión de Empresas (CEGEA)",
+      "url": "https://www.upv.es/entidades/CIGE/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión empresarial y economía de la innovación"
+    },
+    {
+      "acronimo": "CIGIP",
+      "titulo": "Centro de Investigación en Gestión e Ingeniería de Producción",
+      "url": "https://www.upv.es/entidades/CIGIP/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión empresarial y economía de la innovación"
+    },
+    {
+      "acronimo": "CITG",
+      "titulo": "Centro de Investigación en Tecnologías Gráficas",
+      "url": "https://www.upv.es/entidades/CITG/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Diseño gráfico e industrial"
+    },
+    {
+      "acronimo": "ESMART",
+      "titulo": "Centro de Investigación eSMART",
+      "url": "https://www.upv.es/entidades/ESMART/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión empresarial y economía de la innovación"
+    },
+    {
+      "acronimo": "PRHLT",
+      "titulo": "Centro de Investigación Pattern Recognition and Human Language Technology",
+      "url": "https://www.upv.es/entidades/PRHLT/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Tecnologías de la información y las comunicaciones"
+    },
+    {
+      "acronimo": "CTF",
+      "titulo": "Centro de Tecnologías Físicas: Acústica, Materiales y Astrofísica",
+      "url": "https://www.upv.es/entidades/CTF/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Construcción e ingeniería civil"
+    },
+    {
+      "acronimo": "IAM",
+      "titulo": "Instituto Agroforestal Mediterráneo",
+      "url": "https://www.upv.es/entidades/IAM/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Agricultura y biotecnología"
+    },
+    {
+      "acronimo": "IDF",
+      "titulo": "Instituto de Diseño para la Fabricación y Producción Automatizada",
+      "url": "https://www.upv.es/entidades/IDF/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Transporte y automoción"
+    },
+    {
+      "acronimo": "IGIC",
+      "titulo": "Instituto de Investigación para la Gestión Integrada de Zonas Costeras",
+      "url": "https://www.upv.es/entidades/IGIC/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Gestión del agua y medio ambiente"
+    },
+    {
+      "acronimo": "ITT",
+      "titulo": "Instituto del Transporte y Territorio",
+      "url": "https://www.upv.es/entidades/ITT/",
+      "tipo_nombre": "Centros de investigación",
+      "area_nombre": "Construcción e ingeniería civil"
+    },
+    {
+      "acronimo": "INGENIO",
+      "titulo": "Instituto de Gestión de la Innovación y del Conocimiento",
+      "url": "https://www.upv.es/entidades/INGENIO/",
+      "tipo_nombre": "Centros de investigación mixtos y concertados",
+      "area_nombre": "Gestión empresarial y economía de la innovación"
+    },
+    {
+      "acronimo": "I3M",
+      "titulo": "Instituto de Instrumentación para Imagen Molecular",
+      "url": "https://www.upv.es/entidades/I3M/",
+      "tipo_nombre": "Centros de investigación mixtos y concertados",
+      "area_nombre": "Salud, calidad de vida y educación"
+    },
+    {
+      "acronimo": "ITE",
+      "titulo": "Instituto de Tecnología Eléctrica",
+      "url": "https://www.upv.es/entidades/ITE/",
+      "tipo_nombre": "Centros de investigación mixtos y concertados",
+      "area_nombre": "Energía"
+    },
+    {
+      "acronimo": "IDM",
+      "titulo": "Instituto Interuniversitario de Investigación de Reconocimiento Molecular y Desarrollo Tecnológico",
+      "url": "https://www.upv.es/entidades/IDM/",
+      "tipo_nombre": "Institutos de investigación interuniversitarios",
+      "area_nombre": "Agricultura y biotecnología"
+    }
+  ],
+  "uic": [
+    {
+      "acronimo": "ENERGINV",
+      "titulo": "Centro Mixto UJI-UPV de Investigación en Energía",
+      "url": "https://www.upv.es/entidades/ENERGINV/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Energía"
+    },
+    {
+      "acronimo": "VALGRAI",
+      "titulo": "Escuela Valenciana de Posgrado y Red de Investigación de Inteligencia Artificial, ValgrAI",
+      "url": "https://www.upv.es/entidades/VALGRAI/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": ""
+    },
+    {
+      "acronimo": "ASCIRES",
+      "titulo": "UB2:B12 La Asistencia Hospitalaria",
+      "url": "https://www.upv.es/entidades/ASCIRES/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Industria química y materiales"
+    },
+    {
+      "acronimo": "UMIMCA",
+      "titulo": "UMI en Mejora de la Calidad Agroalimentaria UJI-UPV",
+      "url": "https://www.upv.es/entidades/UMIMCA/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": ""
+    },
+    {
+      "acronimo": "UMIEO",
+      "titulo": "UMI entre el Instituto Español de Oceanografía y la Universitat Politècnica de València",
+      "url": "https://www.upv.es/entidades/UMIEO/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": ""
+    },
+    {
+      "acronimo": "UMMEN",
+      "titulo": "UMI UPV-CIPF en Mecanismos de enfermedades y nanomedicina",
+      "url": "https://www.upv.es/entidades/UMMEN/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": ""
+    },
+    {
+      "acronimo": "UMICA",
+      "titulo": "UMI UPV-UV sobre Calidad de Aguas (CALAGUA)",
+      "url": "https://www.upv.es/entidades/UMICA/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": ""
+    },
+    {
+      "acronimo": "UMIBIOVA",
+      "titulo": "Unidad Mixta de Investigación en Biomecánica entre Fundación Hospital La Fe y el IU de Biomecanica",
+      "url": "https://www.upv.es/entidades/UMIBIOVA/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": ""
+    },
+    {
+      "acronimo": "ELECIMP",
+      "titulo": "Unidad Mixta de Investigación en Electrónica Impresa",
+      "url": "https://www.upv.es/entidades/ELECIMP/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Informática, automatización industrial y logística"
+    },
+    {
+      "acronimo": "EPIDMAT",
+      "titulo": "Unidad Mixta de Investigación en Estudios Epidemiológicos mediante modelos Matemáticos con Real Worl",
+      "url": "https://www.upv.es/entidades/EPIDMAT/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Matemática"
+    },
+    {
+      "acronimo": "INIAP",
+      "titulo": "Unidad Mixta de Investigación INIAP-COMAV/UPV",
+      "url": "https://www.upv.es/entidades/INIAP/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Gestión del agua y medio ambiente"
+    },
+    {
+      "acronimo": "CITEFOR",
+      "titulo": "Unidad Mixta de Investigación UPV-CTFC en Ciencia y Tecnología Forestal",
+      "url": "https://www.upv.es/entidades/CITEFOR/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Tecnologías de la información y las comunicaciones"
+    },
+    {
+      "acronimo": "UMNS",
+      "titulo": "Unidad Mixta en Nanomedicina y Sensores entre la Fundación Hospital La Fe y el Instituto de Reconoci",
+      "url": "https://www.upv.es/entidades/UMNS/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": ""
+    },
+    {
+      "acronimo": "CALAGUA",
+      "titulo": "Unidad Mixta UV-UPV",
+      "url": "https://www.upv.es/entidades/CALAGUA/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Gestión del agua y medio ambiente"
+    },
+    {
+      "acronimo": "VALHORTI",
+      "titulo": "Valorización y mejora de las variedades hortícolas tradicionales",
+      "url": "https://www.upv.es/entidades/VALHORTI/",
+      "tipo_nombre": "Unidades de investigación conjunta",
+      "area_nombre": "Agricultura y biotecnología"
+    }
+  ],
+  "estructuras_apoyo": [
+    {
+      "acronimo": "SR",
+      "titulo": "Servicio de Radiaciones",
+      "url": "https://www.upv.es/entidades/SR/index-es.html"
+    },
+    {
+      "acronimo": "CTT",
+      "titulo": "Servicio de Gestión de la I+D+i",
+      "url": "https://www.upv.es/entidades/CTT/indexc.html"
+    }
+  ]
+}
