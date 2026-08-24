@@ -112,6 +112,12 @@ SOSTENIBILIDAD_CARPETAS = {
     "servicios": SOSTENIBILIDAD_DIR / "servicios",
 }
 
+# --- contacto ---
+CONTACTO_URL = "https://www.upv.es/otros/contacto-es.html"
+POLICONSULTA_URL = "https://www.upv.es/noticias-upv/noticia-8492-policonsulta-es.html"
+CONTACTO_JSON = DATA_RAW_DIR / "contacto.json"
+CONTACTO_DIR = DATA_PROCESSED_DIR / "contacto"
+
 # --- rankings ---
 RANKINGS_URL = "https://www.upv.es/rankings/index.html"
 RANKINGS_JSON = DATA_RAW_DIR / "rankings.json"
