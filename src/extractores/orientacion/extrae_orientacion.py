@@ -2,9 +2,9 @@
 
 Hueco vacío del sitemap, sin extractor previo. A diferencia de
 `organizacion/{escuelas_facultades,departamentos}` (fichas-índice),
-Miguel decidió que esta categoría se scrapea "con cierta profundidad"
-(ver las notas internas del proyecto, "Cobertura del sitemap") -- se sigue el contenido real
-de cada página enlazada, mismo estándar que `comunidad_upv/estudiante`.
+Miguel decidió que esta categoría se scrapea "con cierta profundidad" --
+se sigue el contenido real de cada página enlazada, mismo estándar que
+`comunidad_upv/estudiante`.
 
 `contenidos/orienta/` es un microsite propio (plantilla WordPress
 distinta de la de upv.es: `<main class="site-main">` con `<article>`,

@@ -169,6 +169,17 @@ ESTUDIANTE_CARPETAS = {
     "becas_ayudas": ESTUDIANTE_DIR / "becas_ayudas",
 }
 
+# --- comunidad_upv / ptgas_pdi_pi ---
+PTGAS_PDI_PI_URL = "https://www.upv.es/perfiles/ptgas-pdi-pi/index-es.html"
+PTGAS_PDI_PI_JSON = DATA_RAW_DIR / "comunidad_upv_ptgas_pdi_pi.json"
+PTGAS_PDI_PI_DIR = COMUNIDAD_UPV_DIR / "ptgas_pdi_pi"
+PTGAS_PDI_PI_CARPETAS = {
+    "herramientas_recursos": PTGAS_PDI_PI_DIR / "herramientas_recursos",
+    "asuntos_propios": PTGAS_PDI_PI_DIR / "asuntos_propios",
+    "enlaces_interes": PTGAS_PDI_PI_DIR / "enlaces_interes",
+    "organizaciones_sindicales": PTGAS_PDI_PI_DIR / "organizaciones_sindicales",
+}
+
 # --- admision / grado ---
 ADMISION_GRADO_JSON = DATA_RAW_DIR / "admision_grado.json"
 ADMISION_GRADO_DIR = ADMISION_DIR / "grado"

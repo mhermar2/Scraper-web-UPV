@@ -1,7 +1,7 @@
 """Extractor de fichas de titulacion de "Estudios de master" (estudios/master).
 
-Sustituye el contenido entregado por el tutor (125 `.md`, metadatos YAML
-propios sin normalizar -- ver "Metadatos YAML" en las notas internas del proyecto) por un
+Sustituye el contenido entregado por el tutor (125 `.md`, con metadatos
+YAML propios sin normalizar al formato definitivo del proyecto) por un
 extractor propio que sigue el mismo estandar que institucion/servicios/
 admision/investigacion/doctorado: motor de limpieza comun + metadatos
 YAML definitivos + extraccion de tablas + limpieza de HTML. No hay
@@ -123,9 +123,10 @@ def generar_markdown_resumen(items: list[dict]) -> str:
     """Bug real corregido (sesion 2026-08-23): antes de este fix, ninguna
     ficha de master tenia un documento "resumen" al que apuntar -- las
     122 fichas ponian `resumen: <URL del JSON de la API>`, que no
-    corresponde a ningun documento real del corpus (viola el esquema
-    definitivo, ver las notas internas del proyecto "resumen es siempre una URL que apunta a
-    otro documento del propio corpus"). Genera una tabla-indice a partir
+    corresponde a ningun documento real del corpus (el esquema de
+    metadatos definitivo del proyecto exige que `resumen` sea siempre
+    una URL que apunta a otro documento real del propio corpus). Genera
+    una tabla-indice a partir
     del propio catalogo (siempre sincronizada, a diferencia de la
     `_indice.md` estatica que dejo el tutor)."""
     yaml_metadatos = ml.generar_yaml_metadatos(

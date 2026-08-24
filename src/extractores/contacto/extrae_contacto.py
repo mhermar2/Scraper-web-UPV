@@ -21,10 +21,11 @@ proyecto scrapea una URL `noticias-upv/`): el cuerpo real del articulo
 vive en `#DIVpanelIZQN3` ("panel izquierda"), como hermano de un
 `div.panelDERGradN3` ("panel derecha") con un widget de "Noticias
 destacadas" -- enlaces a 5 noticias SIN relacion con el contenido del
-articulo (rankings, ayudas de comedor...), contenido efimero que ya se
-descarta explicitamente en esta categoria (ver las notas internas del proyecto, "Cobertura
-del sitemap" -- `comunidad_upv/prensa` descartado por el mismo motivo).
-Sin acotar a `#DIVpanelIZQN3`, ese widget se cuela como si fuera parte
+articulo (rankings, ayudas de comedor...), el mismo tipo de contenido
+efimero por el que se descarto por completo la categoria
+`comunidad_upv/prensa` del sitemap (noticias, se desactualizan rapido,
+mal encaje para un corpus de referencia estable). Sin acotar a
+`#DIVpanelIZQN3`, ese widget se cuela como si fuera parte
 del articulo. Como de momento es la unica pagina de este patron en todo
 el corpus, se resuelve aqui (local a este extractor), no en
 `motor_limpieza.py` -- promover si aparece una segunda seccion con el

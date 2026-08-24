@@ -1,7 +1,7 @@
 """Extractor de "Estudiante" (comunidad_upv/estudiante).
 
-Primera sección de la categoría `comunidad_upv` (ver las notas internas del proyecto, "Cobertura
-del sitemap"). A diferencia de `organizacion/{escuelas_facultades,
+Primera sección de la categoría `comunidad_upv`. A diferencia de
+`organizacion/{escuelas_facultades,
 departamentos}` (fichas-índice, sin seguir el contenido real de cada
 enlace), aquí sí se extrae el contenido real de cada página enlazada --
 mismo estándar que institución/servicios/admisión (YAML definitivo,
@@ -121,9 +121,8 @@ TIPO_RECURSO_POR_SECCION = {
 
 PATRON_LINEA_ENLACE = re.compile(r"^-?\s*\[([^\]]+)\]\(([^)]+)\)\s*$")
 
-# Subdominios ya documentados como fuera de alcance del scraper (ver
-# las notas internas del proyecto, "Quirks conocidos de upv.es"): aplicaciones JavaScript con
-# sesion (intranet, poliformat, automatricula...) sin contenido real
+# Subdominios de upv.es con aplicaciones JavaScript con sesion propia
+# (intranet, poliformat, automatricula...) sin contenido real
 # scrapeable -- comprobado en esta sesion con PoliformaT: el HTML
 # estatico es integramente interfaz de edicion de Sakai ("Guardar
 # Cancelar", selectores de color, plantillas de pagina...), cero
@@ -433,9 +432,9 @@ def generar_markdown_recurso(recurso: dict, carpeta: Path, seccion_id: str, nomb
             markdown = (
                 f"{yaml_metadatos}\n# {titulo}\n\n**URL:** {url}\n\n"
                 "_Este enlace lleva a un subdominio con aplicación dinámica que requiere "
-                "sesión de usuario (intranet, PoliformaT, automatrícula...), fuera de "
-                "alcance de este scraper -- ver las notas internas del proyecto, \"Quirks conocidos de upv.es\". "
-                "Consulta el contenido directamente en la URL indicada._\n"
+                "sesión de usuario (intranet, PoliformaT, automatrícula...), sin contenido "
+                "real accesible sin iniciar sesión. Consulta el contenido directamente en "
+                "la URL indicada._\n"
             )
             with open(carpeta / nombre, "w", encoding="utf-8") as archivo:
                 archivo.write(markdown)

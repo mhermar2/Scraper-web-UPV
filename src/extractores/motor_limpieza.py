@@ -788,6 +788,61 @@ def quitar_titulos_redundantes(lineas: list[str], titulo_esperado: str | None = 
     return lineas
 
 
+PATRON_LINEA_ENLACE = re.compile(r"^-?\s*\[([^\]]+)\]\(([^)]+)\)\s*$")
+
+
+def dividir_bloques_h2(lineas: list[str]) -> list[dict]:
+    """Agrupa una lista de lineas Markdown ya limpias en bloques por cada
+    titulo de nivel 2 (## ...) -- los titulos de nivel 3 (### ...) se
+    quedan como parte del cuerpo de su bloque de nivel 2 padre, no abren
+    bloque propio. El primer bloque (antes del primer ##) lleva
+    titulo=None -- normalmente solo el <h1>. Promovida a este modulo
+    2026-08-24 (segundo sitio real que la necesita, tras
+    comunidad_upv/estudiante: ver comunidad_upv/ptgas_pdi_pi) -- codigo
+    identico al que ya usaba extrae_estudiante.py como utilidad local."""
+    bloques = [{"titulo": None, "lineas": []}]
+    for linea in lineas:
+        if linea.startswith("## "):
+            bloques.append({"titulo": linea[3:].strip(), "lineas": []})
+        else:
+            bloques[-1]["lineas"].append(linea)
+    return bloques
+
+
+def separar_texto_y_enlaces(lineas: list[str]) -> tuple[list[str], list[tuple[str, str]]]:
+    """Separa las lineas de un bloque en (texto propio, enlaces sueltos):
+    una linea que es INTEGRAMENTE un enlace markdown (con o sin guion de
+    lista delante) cuenta como enlace, el resto es cuerpo de texto de la
+    seccion. Promovida junto a dividir_bloques_h2() -- ver esa misma
+    nota."""
+    texto, enlaces = [], []
+    for linea in lineas:
+        coincidencia = PATRON_LINEA_ENLACE.match(linea.strip())
+        if coincidencia:
+            enlaces.append((coincidencia.group(1), coincidencia.group(2)))
+        else:
+            texto.append(linea)
+    return texto, enlaces
+
+
+# Subdominios de upv.es con aplicaciones JavaScript con sesion propia
+# (intranet, poliformat, automatricula...) sin contenido real accesible
+# sin iniciar sesion -- fuera de alcance de este scraper. Promovido a
+# este modulo 2026-08-24 (segundo extractor real que lo necesita, tras
+# comunidad_upv/estudiante: ver comunidad_upv/ptgas_pdi_pi) -- mismo
+# listado exacto que ya usaba extrae_estudiante.py como constante local.
+SUBDOMINIOS_FUERA_DE_ALCANCE = {
+    "intranet.upv.es", "automatricula.upv.es", "poliformat.upv.es",
+    "riunet.upv.es", "correo.upv.es", "search.upv.es", "sede.upv.es",
+    "wiki.upv.es", "apps.upv.es",
+}
+
+
+def es_subdominio_fuera_de_alcance(url: str) -> bool:
+    netloc = urlparse(url).netloc.lower().removeprefix("www.")
+    return netloc in SUBDOMINIOS_FUERA_DE_ALCANCE
+
+
 def es_linea_boilerplate(linea: str, textos_boilerplate: set[str] = TEXTOS_BOILERPLATE_BASE) -> bool:
     texto_plano = re.sub(r"^#+\s*", "", linea)
     texto_plano = re.sub(r"^-\s*", "", texto_plano)

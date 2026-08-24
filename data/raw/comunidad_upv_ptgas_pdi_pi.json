@@ -1,0 +1,224 @@
+{
+  "titulo": "PTGAS, PDI y PI",
+  "url": "https://www.upv.es/perfiles/ptgas-pdi-pi/index-es.html",
+  "secciones": [
+    {
+      "id": "herramientas_recursos",
+      "titulo": "Herramientas y recursos",
+      "tipo": "herramientas_recursos",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Directorio de personal",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/oalu/sic_per.Busca_Persona?p_idioma=c"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Directorio de cargos docentes",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/oalu/sic_dir.Cargos?p_idioma=c"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "PoliformaT",
+          "descripcion": "",
+          "url": "https://poliformat.upv.es/portal"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Calendario laboral del PAS",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/pas-pdi/documentos/calendario-laboral-2026.pdf"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Calendario académico",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/estudiante/calendario-academico-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Boletín oficial de la UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SG/infoweb/sg/info/513084normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gestiones dentro de la UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/pas-pdi/gestiones-upv-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Vídeos, presentaciones y materiales de la UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/pas-pdi/videos-presentaciones-materiales-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Identidad visual corporativa",
+          "descripcion": "",
+          "url": "https://www.upv.es/comu/nueva-imagen/index.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Documentos y lenguaje administrativos",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/pas-pdi/documentos-lenguaje-admin-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Tablón de anuncios",
+          "descripcion": "",
+          "url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html"
+        }
+      ]
+    },
+    {
+      "id": "asuntos_propios",
+      "titulo": "Asuntos propios",
+      "tipo": "asuntos_propios",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Tarjeta UPV",
+          "descripcion": "",
+          "url": "https://www.upv.es/tui/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Ofertas y descuentos",
+          "descripcion": "",
+          "url": "https://www.upv.es/pls/soalu/sic_ai_ofertas.ventajas_carnet"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Formación del PAS",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SRH/ufasu/741777normalc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Información de referencia legislativa",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SJ/indexc.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Habilitación del profesorado",
+          "descripcion": "",
+          "url": "http://www.ceice.gva.es/es/inicio"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gestión de Personal",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/SRH/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Defensor Universitario",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/DCU/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Unidad de Servicios Generales",
+          "descripcion": "",
+          "url": "https://www.upv.es/entidades/USG/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Comité de Seguridad y Salud",
+          "descripcion": "",
+          "url": "https://www.upv.es/contenidos/CSS/"
+        }
+      ]
+    },
+    {
+      "id": "enlaces_interes",
+      "titulo": "Enlaces de interés",
+      "tipo": "enlaces_interes",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Ministerio de Educación, Cultura y Deporte",
+          "descripcion": "",
+          "url": "http://www.mecd.gob.es/portada-mecd/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Ministerio de Hacienda y Administraciones Públicas",
+          "descripcion": "",
+          "url": "http://www.minhap.gob.es/es-ES/Paginas/Home.aspx"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Conferencia de Rectores",
+          "descripcion": "",
+          "url": "http://www.crue.org/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Generalitat Valenciana",
+          "descripcion": "",
+          "url": "http://www.gva.es/es/inicio/presentacion"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Conselleria de Educación, Formación y Empleo",
+          "descripcion": "",
+          "url": "http://www.ceice.gva.es/es/inicio"
+        }
+      ]
+    },
+    {
+      "id": "organizaciones_sindicales",
+      "titulo": "Organizaciones sindicales",
+      "tipo": "organizaciones_sindicales",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Sindicato de Trabajadores de la Enseñanza del País Valenciano (STEPV)",
+          "descripcion": "",
+          "url": "http://www.upv.es/entidades/STEPV/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Sección Sindical de UGT de la UPV",
+          "descripcion": "",
+          "url": "http://www.upv.es/entidades/UGT/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Sección Sindical de CC OO de la UPV",
+          "descripcion": "",
+          "url": "http://www.ccoo.upv.es"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "UPV-Sindical",
+          "descripcion": "",
+          "url": "http://upvsindical.blogs.upv.es/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Central Sindical Independiente y de Funcionarios (CSIF)",
+          "descripcion": "",
+          "url": "http://www.upv.es/entidades/CSIF/"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "SATTUi en la Universitat Politècnica de València (UPV)",
+          "descripcion": "",
+          "url": "http://www.upv.es/entidades/SATTUi/"
+        }
+      ]
+    }
+  ]
+}

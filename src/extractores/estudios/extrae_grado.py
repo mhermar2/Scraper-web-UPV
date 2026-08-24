@@ -368,8 +368,8 @@ PATRON_MENU_URL_ANTIGUO = re.compile(r"menu_url\w*\.html\?(//.+)$", re.IGNORECAS
 def _resolver_menu_url_antiguo(url_absoluta: str) -> str:
     """La plantilla clasica usa a veces enlaces
     '.../menu_urlc.html?//www.upv.es/...': la URL real va incrustada en
-    la query string tras '?//' (ver las notas internas del proyecto, "Quirks conocidos de
-    upv.es") -- confirmado en GIA, donde el propio enlace de menu "Plan
+    la query string tras '?//', un patron ya visto en otras secciones
+    con esta misma plantilla -- confirmado en GIA, donde el propio enlace de menu "Plan
     de estudios" ya apunta asi directamente al PDF, sin subpagina
     intermedia. Sin resolver esto, se intentaria descargar la URL
     ofuscada como si fuera HTML y fallaria en silencio. Mismo patron ya

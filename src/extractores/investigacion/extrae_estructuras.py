@@ -285,8 +285,8 @@ def generar_markdown_recurso(item: dict, carpeta: Path, seccion: str) -> bool:
         soup = BeautifulSoup(respuesta.text, "html.parser")
         soup = ml.limpiar_contenido_html(soup)
         contenedor_moderno = soup.find(id="smooth-wrapper") or soup.find("main")
-        # Cuarta variante de plantilla clasica ya documentada en
-        # las notas internas del proyecto ("#contenido sin iframe", ej. VALGRAI): sin este
+        # Quinta variante de plantilla clasica encontrada en este
+        # proyecto: sin <main> ni iframe (ej. VALGRAI). Sin este
         # fallback explicito a #contenido, caer directo a soup.body
         # arrastra tambien el menu/cabecera de la plantilla clasica
         # (que no usa <header>/<nav>, asi que limpiar_contenido_html no

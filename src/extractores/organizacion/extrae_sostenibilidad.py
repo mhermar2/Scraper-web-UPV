@@ -18,8 +18,8 @@ equivalente a `courses/grados-es.json`/`courses/institutos-es.json` que
 se pueda usar en su lugar (a diferencia de estudios/grado, estudios/
 master e investigacion/estructuras, donde SI existia un catalogo
 estatico detras de una SPA). Como el proyecto no tiene Playwright/
-Selenium instalado (ver "Entorno de desarrollo" en las notas internas del proyecto, solo
-contemplado para el crawler generico futuro), el catalogo de esta
+Selenium instalado (solo contemplado para un posible crawler generico
+futuro, no forma parte del entorno actual), el catalogo de esta
 seccion se fija a mano -- mismo criterio ya usado en
 `ESTRUCTURAS_APOYO` de extrae_estructuras.py o las secciones de
 `becas_ayudas` de extrae_estudiante.py: no descubierto en cada

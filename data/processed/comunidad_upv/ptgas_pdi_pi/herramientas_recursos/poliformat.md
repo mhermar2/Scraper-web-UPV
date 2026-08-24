@@ -2,11 +2,11 @@
 fuente: UPV
 url: https://poliformat.upv.es/portal
 categoria: comunidad_upv
-nivel: estudiante
+nivel: ptgas_pdi_pi
 tipo_documento: recurso
 tipo_recurso: informacion
-resumen: https://www.upv.es/perfiles/estudiante/index-es.html
-seccion: estudios
+resumen: https://www.upv.es/perfiles/ptgas-pdi-pi/index-es.html
+seccion: herramientas_recursos
 titulo: PoliformaT
 descripcion: ""
 actualizado: 2026-08-24
