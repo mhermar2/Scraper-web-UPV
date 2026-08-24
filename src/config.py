@@ -103,6 +103,15 @@ ESTRUCTURAS_CARPETAS = {
     "estructuras_apoyo": ESTRUCTURAS_DIR / "estructuras_apoyo",
 }
 
+# --- organizacion / sostenibilidad ---
+SOSTENIBILIDAD_URL = "https://www.upv.es/organizacion/sostenibilidad/index-es.html"
+SOSTENIBILIDAD_JSON = DATA_RAW_DIR / "organizacion_sostenibilidad.json"
+SOSTENIBILIDAD_DIR = ORGANIZACION_DIR / "sostenibilidad"
+SOSTENIBILIDAD_CARPETAS = {
+    "informes": SOSTENIBILIDAD_DIR / "informes",
+    "servicios": SOSTENIBILIDAD_DIR / "servicios",
+}
+
 # --- rankings ---
 RANKINGS_URL = "https://www.upv.es/rankings/index.html"
 RANKINGS_JSON = DATA_RAW_DIR / "rankings.json"

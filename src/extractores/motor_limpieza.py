@@ -303,6 +303,11 @@ def extraer_texto_pdf(contenido: bytes) -> list[str]:
     from pypdf import PdfReader
 
     lector = PdfReader(io.BytesIO(contenido))
+    if lector.is_encrypted:
+        # PDFs de riunet.upv.es cifrados con AES y contraseña vacia (solo
+        # para bloquear edicion, no lectura) -- requiere el paquete
+        # "cryptography" instalado, si no pypdf lanza excepcion al leer.
+        lector.decrypt("")
     paginas = []
     for pagina in lector.pages:
         try:
