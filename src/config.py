@@ -118,6 +118,11 @@ POLICONSULTA_URL = "https://www.upv.es/noticias-upv/noticia-8492-policonsulta-es
 CONTACTO_JSON = DATA_RAW_DIR / "contacto.json"
 CONTACTO_DIR = DATA_PROCESSED_DIR / "contacto"
 
+# --- orientacion ---
+ORIENTACION_URL = "https://www.upv.es/contenidos/orienta/"
+ORIENTACION_JSON = DATA_RAW_DIR / "orientacion.json"
+ORIENTACION_DIR = DATA_PROCESSED_DIR / "orientacion"
+
 # --- rankings ---
 RANKINGS_URL = "https://www.upv.es/rankings/index.html"
 RANKINGS_JSON = DATA_RAW_DIR / "rankings.json"

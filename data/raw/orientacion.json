@@ -1,0 +1,37 @@
+{
+  "recursos": {
+    "actividades_secundaria": {
+      "titulo": "Actividades para secundaria",
+      "url": "https://www.upv.es/contenidos/orienta/secundaria/"
+    },
+    "acciones_universitarios": {
+      "titulo": "Acciones para universitarios",
+      "url": "https://www.upv.es/contenidos/orienta/universitarios/"
+    },
+    "ia_orientadora": {
+      "titulo": "IA orientadora",
+      "url": "https://www.upv.es/contenidos/asistenteia/"
+    },
+    "jornadas_puertas_abiertas": {
+      "titulo": "Jornadas de Puertas Abiertas",
+      "url": "https://www.upv.es/contenidos/jpa/"
+    },
+    "jornada_orientacion": {
+      "titulo": "Jornada de Orientación 2025",
+      "url": "https://www.upv.es/contenidos/orienta/jornada-orientacion/"
+    }
+  },
+  "material_informativo": {
+    "titulo": "Material informativo",
+    "hijos": [
+      [
+        "Material audiovisual",
+        "https://www.upv.es/contenidos/orienta/audiovisual/"
+      ],
+      [
+        "Material impreso",
+        "https://www.upv.es/contenidos/orienta/impreso/"
+      ]
+    ]
+  }
+}
