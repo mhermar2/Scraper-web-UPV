@@ -277,6 +277,7 @@ def clasificar_cambio_git(ruta_relativa: str, codigo: str) -> str:
         resultado = subprocess.run(
             ["git", "diff", "--", ruta_relativa],
             cwd=REPO_ROOT, capture_output=True, text=True,
+            encoding="utf-8", errors="replace",
         )
         lineas_cambio = [
             l for l in resultado.stdout.splitlines()
@@ -304,6 +305,7 @@ def mostrar_cambios_git(secciones: list[Seccion]) -> dict[Seccion, str]:
         resultado = subprocess.run(
             ["git", "status", "--porcelain", "--", "data"],
             cwd=REPO_ROOT, capture_output=True, text=True, check=True,
+            encoding="utf-8", errors="replace",
         )
     except FileNotFoundError:
         print(
@@ -354,23 +356,36 @@ def mostrar_cambios_git(secciones: list[Seccion]) -> dict[Seccion, str]:
 
 def limpiar_seccion_sin_novedad(seccion: Seccion) -> None:
     """Deshace lo que ejecutar_seleccion() hizo especulativamente para una
-    seccion que ha resultado sin contenido nuevo de verdad: borra la copia
-    de seguridad en data/legacy/ (no hacia falta) y descarta el refresco
-    de fecha en data/ (git checkout, deja el fichero como estaba antes de
-    ejecutar). Asi data/legacy/ solo se queda con copias de secciones que
-    SI cambiaron de verdad."""
-    destino = LEGACY_DIR / "processed" / seccion.carpeta_processed.relative_to(config.DATA_PROCESSED_DIR)
-    if destino.exists():
-        shutil.rmtree(destino)
-    destino_json = LEGACY_DIR / "raw" / seccion.json_raw.relative_to(config.DATA_RAW_DIR)
-    if destino_json.exists():
-        destino_json.unlink()
+    seccion que ha resultado sin contenido nuevo de verdad: descarta el
+    refresco de fecha en data/processed|raw/ Y la copia de seguridad en
+    data/legacy/ (no hacia falta ninguna de las dos). Asi data/legacy/ solo
+    se queda con copias de secciones que SI cambiaron de verdad.
 
+    Todo por git, nunca borrando ficheros a mano (bug real encontrado
+    2026-08-27: un `shutil.rmtree()`/`unlink()` directo sobre el destino de
+    data/legacy/ borraba sin mas una copia de seguridad que YA estaba
+    comiteada de una ejecucion anterior -- en vez de devolverla a su
+    version comiteada, la eliminaba del disco por completo). `git checkout`
+    revierte cualquier ruta ya trackeada a su ultima version comiteada; si
+    la copia de data/legacy/ es nueva de esta misma ejecucion (todavia sin
+    comitear, `git checkout` no la toca), `git clean -fd` se encarga de
+    borrar ese sobrante sin tocar nada que ya estuviera en el repo."""
     rutas = [
         str(seccion.carpeta_processed.relative_to(REPO_ROOT)),
         str(seccion.json_raw.relative_to(REPO_ROOT)),
+        str((LEGACY_DIR / "processed" / seccion.carpeta_processed.relative_to(config.DATA_PROCESSED_DIR)).relative_to(REPO_ROOT)),
+        str((LEGACY_DIR / "raw" / seccion.json_raw.relative_to(config.DATA_RAW_DIR)).relative_to(REPO_ROOT)),
     ]
-    subprocess.run(["git", "checkout", "--", *rutas], cwd=REPO_ROOT, capture_output=True)
+    # Una ruta por llamada: "git checkout -- a b" falla POR COMPLETO (sin
+    # revertir nada, ni siquiera las rutas validas) si una sola de las
+    # rutas no esta trackeada -- ej. data/legacy/raw/<seccion>.json puede
+    # no existir todavia en el repo aunque data/legacy/processed/<seccion>
+    # si. Bug real encontrado 2026-08-27 al probarlo: el fallo pasaba
+    # desapercibido (no se comprobaba el codigo de salida) y no revertia
+    # nada en absoluto.
+    for ruta in rutas:
+        subprocess.run(["git", "checkout", "--", ruta], cwd=REPO_ROOT, capture_output=True)
+    subprocess.run(["git", "clean", "-fd", "--", *rutas], cwd=REPO_ROOT, capture_output=True)
 
 
 def preguntar_commit() -> None:
