@@ -111,12 +111,20 @@ def main() -> None:
     CONTACTO_DIR.mkdir(parents=True, exist_ok=True)
     guardar_json()
 
+    # Generar el contenido ANTES de abrir el fichero -- open(ruta, "w")
+    # trunca el fichero a 0 bytes en el mismo instante en que se abre, asi
+    # que si generar_markdown_*() fallase a mitad (ej. un timeout de red
+    # bajando policonsulta.md) con el fichero ya abierto, el .md quedaria
+    # vacio en vez de conservar su contenido anterior. Bug real encontrado
+    # 2026-08-27 probando main.py contra un fallo de red de verdad.
+    contenido_resumen = generar_markdown_resumen()
     with open(CONTACTO_DIR / "contacto.md", "w", encoding="utf-8") as f:
-        f.write(generar_markdown_resumen())
+        f.write(contenido_resumen)
     print("OK:", CONTACTO_DIR / "contacto.md")
 
+    contenido_policonsulta = generar_markdown_policonsulta()
     with open(CONTACTO_DIR / "policonsulta.md", "w", encoding="utf-8") as f:
-        f.write(generar_markdown_policonsulta())
+        f.write(contenido_policonsulta)
     print("OK:", CONTACTO_DIR / "policonsulta.md")
 
 
