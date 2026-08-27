@@ -1,13 +1,13 @@
 """Extractor de "Escuelas y facultades" (organizacion/escuelas_facultades).
 
-El tutor decidio por correo (ver hilo de sesion 2026-08-23) NO intentar
-homogeneizar el contenido real de cada centro: hay demasiada informacion
-y es demasiado heterogenea (18 centros, al menos 3 plantillas/CMS
-distintos). Su alternativa fue remitir a la web de cada centro y, cuando
-existe, a su mapa del sitio -- ese es exactamente el contenido que ya
-habia dejado a mano en escuelas.md (datos basicos) y sitemaps_escuelas.md
-(mapas de sitio de 15 centros, copiados y pegados a mano). Este extractor
-automatiza esa misma idea con el mismo estandar que el resto de secciones
+Se decidio (ver notas de sesion 2026-08-23) NO intentar homogeneizar el
+contenido real de cada centro: hay demasiada informacion y es demasiado
+heterogenea (18 centros, al menos 3 plantillas/CMS distintos). La
+alternativa fue remitir a la web de cada centro y, cuando existe, a su
+mapa del sitio -- ese es exactamente el contenido que ya existia a mano
+en escuelas.md (datos basicos) y sitemaps_escuelas.md (mapas de sitio de
+15 centros, copiados y pegados a mano). Este extractor automatiza esa
+misma idea con el mismo estandar que el resto de secciones
 (metadatos YAML definitivos, JSON intermedio, generado por codigo en vez
 de a mano) y fusiona ambos ficheros en uno solo por centro -- cada ficha
 ya incluye su propio mapa del sitio, no hace falta un documento aparte.
@@ -25,10 +25,10 @@ contra la web real):
   plantilla "!Esto te interesa!" (boilerplate ya conocido, ver
   motor_limpieza.TITULOS_CORTE_PLANTILLA).
   IMPORTANTE: esta pagina trae 18 centros, no los 15 que tenia el
-  escuelas.md del tutor -- ademas de los 15 conocidos (12 en Vera + Alcoy
+  escuelas.md anterior -- ademas de los 15 conocidos (12 en Vera + Alcoy
   + Gandia + Hangzhou) aparecen 3 "Centros adscritos" nuevos (Berklee-
-  Valencia, Centro Universitario EDEM, Florida Universitaria) que el
-  tutor no habia documentado.
+  Valencia, Centro Universitario EDEM, Florida Universitaria) que no
+  estaban documentados hasta ahora.
 - Cada centro puede usar una de tres plantillas, sin patron por URL --
   hay que inspeccionar el HTML de cada uno:
     1. WordPress moderno (la mayoria, 12/18): tiene una pagina propia
@@ -43,8 +43,8 @@ contra la web real):
        ficha de "escuela" bajo upv.es/entidades/<COD>/ es solo un stub de
        contacto/redireccion SIN ningun enlace visible a su dominio real
        (comprobado: ETSII no tiene ningun <a> a etsii.upv.es en su stub)
-       -- el dominio real solo se conoce porque el tutor ya lo habia
-       identificado a mano (escuelas.md). Se mantiene como tabla de
+       -- el dominio real solo se conoce porque ya se habia
+       identificado a mano de antemano (escuelas.md). Se mantiene como tabla de
        excepcion conocida (DOMINIO_PROPIO_CONOCIDO) y, si existe, se
        intenta su sitemap.xml (protocolo sitemaps.org estandar,
        resuelto con motor_limpieza.extraer_urls_de_sitemap(), que
@@ -57,8 +57,8 @@ contra la web real):
        (motor_limpieza.buscar_enlace_acceso_web_externa()).
 - No se intenta scrapear el contenido real de cada pagina enlazada (ni
   siquiera con el motor de "hoja de contenido" para 1-2 paginas clave):
-  seria repetir exactamente la decision que el tutor ya descarto por
-  correo. La ficha de cada centro es un INDICE navegable (datos basicos +
+  seria repetir exactamente la decision ya descartada (ver arriba). La
+  ficha de cada centro es un INDICE navegable (datos basicos +
   mapa del sitio), no un resumen de contenido.
 """
 
@@ -99,8 +99,8 @@ RESUMEN_URL = ESCUELAS_URL
 
 # Centros con dominio propio fuera de upv.es cuyo stub en
 # upv.es/entidades/<COD>/ no enlaza a el en ningun sitio (comprobado
-# 2026-08-23) -- solo se conocen porque el tutor ya los habia
-# identificado a mano en escuelas.md. No hay forma de descubrirlos desde
+# 2026-08-23) -- solo se conocen porque ya se habian identificado a mano
+# de antemano en escuelas.md. No hay forma de descubrirlos desde
 # el propio HTML de upv.es, asi que se mantienen como excepcion explicita
 # en vez de intentar adivinarlos.
 DOMINIO_PROPIO_CONOCIDO = {

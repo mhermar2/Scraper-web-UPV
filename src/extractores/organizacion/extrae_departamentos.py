@@ -1,9 +1,9 @@
 """Extractor de "Departamentos" (organizacion/departamentos).
 
 Mismo criterio y mismo diseno que extrae_escuelas.py (ver la cabecera de
-ese modulo para el razonamiento completo): el tutor decidio por correo
-remitir a la web de cada departamento en vez de homogeneizar su contenido
-real, demasiado heterogeneo. Aqui la heterogeneidad es aun mayor que en
+ese modulo para el razonamiento completo): se decidio remitir a la web de
+cada departamento en vez de homogeneizar su contenido real, demasiado
+heterogeneo. Aqui la heterogeneidad es aun mayor que en
 escuelas: de los 41 departamentos, unos usan la plantilla WordPress
 moderna (con su propio /mapa-del-sitio/) y otros la plantilla Oracle
 Portal clasica (sin esa pagina, pero con el mismo arbol de navegacion

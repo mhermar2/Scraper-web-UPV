@@ -1,13 +1,13 @@
 """Extractor de fichas de titulacion de "Estudios de master" (estudios/master).
 
-Sustituye el contenido entregado por el tutor (125 `.md`, con metadatos
-YAML propios sin normalizar al formato definitivo del proyecto) por un
-extractor propio que sigue el mismo estandar que institucion/servicios/
-admision/investigacion/doctorado: motor de limpieza comun + metadatos
-YAML definitivos + extraccion de tablas + limpieza de HTML. No hay
-extractor anterior en este repo para esta seccion (el tutor scrapeo el
-contenido por su cuenta), asi que esto es un extractor nuevo, no una
-reescritura.
+Sustituye contenido previo recopilado manualmente (125 `.md`, con
+metadatos YAML propios sin normalizar al formato definitivo del
+proyecto) por un extractor propio que sigue el mismo estandar que
+institucion/servicios/admision/investigacion/doctorado: motor de
+limpieza comun + metadatos YAML definitivos + extraccion de tablas +
+limpieza de HTML. No hay extractor anterior en este repo para esta
+seccion (el contenido se habia recopilado a mano antes de este
+proyecto), asi que esto es un extractor nuevo, no una reescritura.
 
 Descubrimiento de la estructura real del sitio (sesion 2026-08-22,
 comprobado contra la web real):
@@ -128,7 +128,7 @@ def generar_markdown_resumen(items: list[dict]) -> str:
     una URL que apunta a otro documento real del propio corpus). Genera
     una tabla-indice a partir
     del propio catalogo (siempre sincronizada, a diferencia de la
-    `_indice.md` estatica que dejo el tutor)."""
+    `_indice.md` estatica anterior)."""
     yaml_metadatos = ml.generar_yaml_metadatos(
         fuente=FUENTE, url=RESUMEN_URL, categoria=CATEGORIA, nivel=NIVEL,
         tipo_documento="resumen", titulo="Másteres universitarios")

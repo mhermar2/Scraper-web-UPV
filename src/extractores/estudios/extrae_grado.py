@@ -2,7 +2,7 @@
 
 Hueco vacio del sitemap (solo `.gitkeep`, sin contenido ni extractor
 previo -- a diferencia de estudios/master, aqui no habia ni siquiera
-contenido del tutor que sustituir). Mismo estandar que el resto de
+contenido previo que sustituir). Mismo estandar que el resto de
 secciones ya definitivas: motor de limpieza comun + metadatos YAML
 definitivos + limpieza de tablas.
 

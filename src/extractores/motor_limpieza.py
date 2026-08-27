@@ -355,8 +355,8 @@ def buscar_enlace_acceso_web_externa(soup: BeautifulSoup, url_base: str) -> str 
 # sitemap.xml)
 #
 # Anadida 2026-08-23 para organizacion/{escuelas_facultades,
-# departamentos}: a diferencia del resto de secciones, aqui el tutor ya
-# habia decidido (por correo) que el contenido real de cada centro es
+# departamentos}: a diferencia del resto de secciones, aqui ya se habia
+# decidido de antemano que el contenido real de cada centro es
 # demasiado heterogeneo para homogeneizar con el traversal por "hoja de
 # contenido" -- lo que aporta valor real es un indice navegable (que
 # secciones tiene la web del centro y a que URL van) mas que el texto
