@@ -32,6 +32,11 @@ antes de tocar nada real. En su lugar, para cada seccion elegida:
      checkout) y se borra la copia especulativa de data/legacy/ -- no
      hacia falta. data/legacy/ se queda solo con secciones que SI
      cambiaron.
+  5. Si hay contenido nuevo de verdad, se pregunta si comitear. Si la
+     respuesta es que no, se descarta TAMBIEN ese contenido (mismo
+     mecanismo del punto 4) -- decir que no al commit deja el repositorio
+     exactamente como estaba antes de ejecutar, nunca a medias. El
+     resultado de una ejecucion solo sobrevive en disco si se comitea.
 """
 
 from __future__ import annotations
@@ -354,12 +359,15 @@ def mostrar_cambios_git(secciones: list[Seccion]) -> dict[Seccion, str]:
     return resumen
 
 
-def limpiar_seccion_sin_novedad(seccion: Seccion) -> None:
-    """Deshace lo que ejecutar_seleccion() hizo especulativamente para una
-    seccion que ha resultado sin contenido nuevo de verdad: descarta el
-    refresco de fecha en data/processed|raw/ Y la copia de seguridad en
-    data/legacy/ (no hacia falta ninguna de las dos). Asi data/legacy/ solo
-    se queda con copias de secciones que SI cambiaron de verdad.
+def revertir_seccion(seccion: Seccion) -> None:
+    """Deshace lo que ejecutar_seleccion() hizo para esta seccion --
+    descarta cualquier cambio en data/processed|raw/ (real o solo de
+    fecha) Y la copia de seguridad especulativa en data/legacy/, dejando
+    ambas rutas exactamente como estaban antes de ejecutar. Se usa tanto
+    para secciones sin novedad real (limpieza automatica) como para
+    cualquier seccion que el usuario decida NO comitear al final (ver
+    preguntar_commit) -- en ambos casos el criterio es el mismo: si no se
+    va a quedar en el repo, no debe quedar rastro en disco tampoco.
 
     Todo por git, nunca borrando ficheros a mano (bug real encontrado
     2026-08-27: un `shutil.rmtree()`/`unlink()` directo sobre el destino de
@@ -388,10 +396,16 @@ def limpiar_seccion_sin_novedad(seccion: Seccion) -> None:
     subprocess.run(["git", "clean", "-fd", "--", *rutas], cwd=REPO_ROOT, capture_output=True)
 
 
-def preguntar_commit() -> None:
+def preguntar_commit(secciones_con_contenido_nuevo: list[Seccion]) -> None:
     respuesta = input("\nQuieres comitear estos cambios ahora? (s/N): ").strip().lower()
     if respuesta not in ("s", "si", "y", "yes"):
-        print("De acuerdo, no se comitea nada (los cambios ya estan en disco).")
+        print(
+            "De acuerdo, no se comitea nada -- se descartan los cambios para "
+            "dejar el repositorio tal cual estaba antes de ejecutar."
+        )
+        for seccion in secciones_con_contenido_nuevo:
+            revertir_seccion(seccion)
+        print("Repositorio restaurado, sin cambios pendientes.")
         return
 
     mensaje = input(
@@ -432,15 +446,16 @@ def main() -> None:
     # tenia nada nuevo. data/legacy/ se queda solo con lo que SI cambio.
     sin_novedad = [s for s, estado in resumen_por_seccion.items() if estado != CONTENIDO_NUEVO]
     for seccion in sin_novedad:
-        limpiar_seccion_sin_novedad(seccion)
+        revertir_seccion(seccion)
     if sin_novedad:
         print(
             f"\n({len(sin_novedad)} seccion(es) sin contenido nuevo: se ha "
             "descartado el toque y no se ha guardado ningun backup para ellas.)"
         )
 
-    if any(estado == CONTENIDO_NUEVO for estado in resumen_por_seccion.values()):
-        preguntar_commit()
+    con_novedad = [s for s, estado in resumen_por_seccion.items() if estado == CONTENIDO_NUEVO]
+    if con_novedad:
+        preguntar_commit(con_novedad)
 
 
 if __name__ == "__main__":
