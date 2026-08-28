@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE ESPECIALIZACIÓN EN MEDIACIÓN A TRAVÉS DEL ARTE
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE ESPECIALIZACIÓN EN MEDIACIÓN A TRAVÉS DEL ARTE
@@ -54,9 +54,7 @@ Responsable de la actividad: María Paula Santiago Martín de Madrid
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Dirigido a
 

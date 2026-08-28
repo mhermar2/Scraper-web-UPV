@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: "VALORACIÓN CATASTRAL: UNA PERSPECTIVA INTERNACIONAL"
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALORACIÓN CATASTRAL: UNA PERSPECTIVA INTERNACIONAL
@@ -48,7 +48,9 @@ Responsable de la actividad: Elena De la Poza Plaza
 
 El objetivo de la asignatura es que el alumno conozca la situación actual de la valoración catastral urbana y rústica, según la normativa, tanto en el mercado urbano de la vivienda como en el mercado de la tierra, así como cuáles pueden ser las tendencias que previsiblemente se seguirán en un futuro, a nivel nacional e internacional.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Profesores
 
@@ -60,9 +62,9 @@ Roberto Elías Cervelló Royo Catedrático/a de Universidad
 
 La enseñanza es totalmente ONLINE. Al estudiante se le asigna una clave de acceso a la plataforma informática del Máster diseñada por la Universidad Politécnica de Valencia, denominada PoliformaT, a través de la cual puede visualizar el material didáctico, las tareas, el correo interno, el tablón de anuncios, los exámenes, etc. El material didáctico comprende un texto o apuntes, así como unas tareas y unos tests, que deberá realizar de forma periódica. El régimen de tutorías es a distancia a través del correo interno de PoliformaT y por Teams previa solicitud al profesor. El rendimiento de la asignatura se evalúa de 0 a 10 puntos y es necesario obtener un mínimo de 5 puntos para superarla. Dicha nota se obtiene con las calificaciones obtenidas en las tareas y exámenes realizados a lo largo del curso en PoliformaT (40% de la nota final) y en el examen final en junio realizado también a través de PoliformaT (60% de la nota final). En este examen final de junio se deberá obtener, como mínimo, la calificación de un 4 sobre 10. Sólo hay una convocatoria de examen final en el mes de junio.
 
-## Suscríbete al boletín del CFP
+## Portal de formación permanente UPV
 
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Proyecto formativo
 

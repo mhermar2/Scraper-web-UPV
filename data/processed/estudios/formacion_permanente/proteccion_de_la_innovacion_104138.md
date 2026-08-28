@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: PROTECCIÓN DE LA INNOVACIÓN
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # PROTECCIÓN DE LA INNOVACIÓN

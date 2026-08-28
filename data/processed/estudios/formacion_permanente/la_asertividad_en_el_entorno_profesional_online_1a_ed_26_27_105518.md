@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: LA ASERTIVIDAD EN EL ENTORNO PROFESIONAL - ONLINE 1ª ED. 26-27
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # LA ASERTIVIDAD EN EL ENTORNO PROFESIONAL - ONLINE 1ª ED. 26-27
@@ -66,6 +66,6 @@ El curso se imparte en modalidad online asíncrona, lo que permite al estudianta
 
 - Introducción. - Estilos básicos de conducta y que consecuencias tienen en las relaciones profesionales. - Características de las personas asertivas, como son en el ámbito profesional y que conductas muestran: Hacer y recibir cumplidos. Expresión de molestia, desagrado o disgusto. Hacer o rechazar peticiones. Afrontar críticas.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 Página web: [https://www.upv.es/contenidos/sieemple...](https://www.upv.es/contenidos/sieemple/formacion/)

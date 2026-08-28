@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: PATRÓN DE EMBARCACIONES DE RECREO (PREPARACIÓN PARA EL EXAMEN OFICIAL)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # PATRÓN DE EMBARCACIONES DE RECREO (PREPARACIÓN PARA EL EXAMEN OFICIAL)
@@ -70,7 +70,9 @@ Jorge Romero Garcia Profesional del sector
 
 Victoria Vives Salvador Profesional del sector
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Temas a desarrollar
 

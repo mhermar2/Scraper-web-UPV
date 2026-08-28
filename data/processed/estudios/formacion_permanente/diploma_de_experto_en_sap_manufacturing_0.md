@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN SAP MANUFACTURING
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 - [ES](https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-manufacturing_0.html?idioma=es) | [VA](https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-manufacturing_0.html?idioma=va)

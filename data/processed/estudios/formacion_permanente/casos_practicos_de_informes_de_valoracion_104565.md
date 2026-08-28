@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: CASOS PRÁCTICOS DE INFORMES DE VALORACIÓN
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # CASOS PRÁCTICOS DE INFORMES DE VALORACIÓN
@@ -48,9 +48,7 @@ Responsable de la actividad: Elena De la Poza Plaza
 
 El objetivo de la asignatura es que a su término, el alumno sea capaz de realizar un informe de valoración según RICS, comenzando con la propuesta del informe según el tipo de servicio solicitado, las diferentes finalidades de una valoración RICS y los términos y condiciones de contratación, continuando con la recopilación de la información utilizada en la realización del informe, y finalizando con el contenido mínimo de un informe de valoración según el uso: consultoría y valoración RICS.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Profesores
 
@@ -62,7 +60,9 @@ Pedro Félix Vicente Profesional del sector
 
 La enseñanza es totalmente ONLINE. Al estudiante se le asigna una clave de acceso a la plataforma informática del Máster diseñada por la Universidad Politécnica de Valencia, denominada PoliformaT, a través de la cual puede visualizar el material didáctico, las tareas, el correo interno, el tablón de anuncios, los exámenes, etc. El material didáctico comprende un texto o apuntes, unos videos, así como unas tareas y unos tests, que deberá realizar de forma periódica. El régimen de tutorías es a distancia a través del correo interno de PoliformaT y por Teams previa solicitud al profesor. El rendimiento de la asignatura se evalúa de 0 a 10 puntos y es necesario obtener un mínimo de 5 puntos para superarla. Dicha nota se obtiene con las calificaciones obtenidas en el trabajo realizado a lo largo del curso en PoliformaT (40% de la nota final) y en el examen final en junio realizado también a través de PoliformaT (60% de la nota final). En este examen final de junio se deberá obtener, como mínimo, la calificación de un 4 sobre 10. Sólo hay una convocatoria de examen final en el mes de junio.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Proyecto formativo
 

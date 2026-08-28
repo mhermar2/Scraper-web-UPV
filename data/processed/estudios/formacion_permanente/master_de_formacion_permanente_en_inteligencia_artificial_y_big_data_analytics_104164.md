@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN INTELIGENCIA ARTIFICIAL Y BIG DATA ANALYTICS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # Máster de Formación Permanente en Inteligencia Artificial y Big Data Analytics
@@ -64,9 +64,7 @@ El principal objetivo del Máster es ofrecer la formación especializada teóric
 
 Profesionales de las TIC y a recién titulados.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Requisitos de acceso
 

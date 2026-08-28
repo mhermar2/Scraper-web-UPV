@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: DERECHO DE EMPRESA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DERECHO DE EMPRESA
@@ -50,7 +50,7 @@ Responsable de la actividad: Ricardo José Server Izquierdo
 
 350€ Alumno UPV a falta de menos de 30 créditos ECTS incluido TFG para terminar estudios 350€ Personal UPV 350€ Alumni UPV PLUS 400€ Público en general 350€ Familia Numerosa
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Acción formativa dirigida a
 

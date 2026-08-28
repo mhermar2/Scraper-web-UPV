@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: LIDERAZGO, AGENDA Y ENFOQUE CON PERSPECTIVA DE GÉNERO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # LIDERAZGO, AGENDA Y ENFOQUE CON PERSPECTIVA DE GÉNERO

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN BATTERY CELL PRODUCTION & TECHNOLOGY (POWERCO GIGACELL)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN BATTERY CELL PRODUCTION & TECHNOLOGY (POWERCO GIGACELL)
@@ -54,7 +54,7 @@ Capacitar a los egresados para que conozcan los detalles de la industria de fabr
 
 Ingenieros industriales, ingenieros químicos, ingenieros de la rama industrial y licenciados en química. Necesario dominio del Ingles y Castellano.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Requisitos de acceso
 

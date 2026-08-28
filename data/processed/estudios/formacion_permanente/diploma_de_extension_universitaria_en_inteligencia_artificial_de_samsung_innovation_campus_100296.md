@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN INTELIGENCIA ARTIFICIAL DE SAMSUNG INNOVATION CAMPUS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN INTELIGENCIA ARTIFICIAL DE SAMSUNG INNOVATION CAMPUS
@@ -52,7 +52,9 @@ Este curso de IA está pensado para que los estudiantes aprendan los fundamentos
 
 Miembros de la Comunidad Universitaria de la UPV (Alumnos y personal UPV), cuya edad ha de ser inferior a 26 años. Se exigirá el CV, expediente académico y DNI de los participantes para la selección.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Requisitos de acceso
 

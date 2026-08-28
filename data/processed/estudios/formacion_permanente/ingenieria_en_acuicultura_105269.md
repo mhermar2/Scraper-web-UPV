@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: INGENIERIA EN ACUICULTURA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INGENIERIA EN ACUICULTURA
@@ -50,7 +50,9 @@ Silvia Martinez Llorens Catedrático/a de Universidad
 
 Miguel Jover Cerdá Catedrático/a de Universidad
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Temas a desarrollar
 

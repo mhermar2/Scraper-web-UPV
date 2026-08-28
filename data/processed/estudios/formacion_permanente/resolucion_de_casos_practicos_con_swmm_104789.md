@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: RESOLUCIÓN DE CASOS PRÁCTICOS CON SWMM
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # RESOLUCIÓN DE CASOS PRÁCTICOS CON SWMM
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Alumni UPV PLUS 250€ Personal UPV 250€ Alumno UPV 380€ Público en general 250€ Desempleados 250€ Ciudadanos de países con rentas reducidas
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Acción formativa dirigida a
 

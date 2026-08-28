@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ACTUALIZACIÓN DE CONOCIMIENTOS EN ASESORÍA FINANCIERA 2025
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ACTUALIZACIÓN DE CONOCIMIENTOS EN ASESORÍA FINANCIERA 2025
@@ -50,7 +50,9 @@ Responsable de la actividad: David Pla Santamaría
 
 - Conocer la normativa actual de protección al inversor y las futuras normas propuestas por la Unión Europea para incrementar dicha cobertura. - Analizar las medidas propuestas por la normativa RIS, sus objetivos y los problemas que busca solucionar. - Identificar las formas de ejercer el asesoramiento financiero según la normativa de 2023, diferenciándolas de la situación anterior. - Describir qué es un índice y los problemas en su construcción y gestión. - Calcular e interpretar el valor, la rentabilidad del precio y la rentabilidad total de un índice según su método de construcción. - Comparar los diferentes métodos de construcción de índices. - Invertir un patrimonio de forma pasiva. - Describir los diferentes instrumentos para invertir de manera indexada. - Describir las novedades en normativa, fiscalidad y coyuntura.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Profesores
 
@@ -62,9 +64,7 @@ David Pla Santamaría Profesor/a Titular de Universidad
 
 Rafael Valor Martínez Profesional del sector
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Temas a desarrollar
 

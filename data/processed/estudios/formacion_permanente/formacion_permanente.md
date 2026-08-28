@@ -6,7 +6,7 @@ nivel: formacion_permanente
 tipo_documento: resumen
 titulo: Formación permanente
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # Formación permanente

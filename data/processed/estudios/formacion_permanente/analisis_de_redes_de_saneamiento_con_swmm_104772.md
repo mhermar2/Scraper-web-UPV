@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ANALISIS DE REDES DE SANEAMIENTO CON SWMM
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ANALISIS DE REDES DE SANEAMIENTO CON SWMM
@@ -52,9 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 320€ Alumni UPV PLUS 320€ Personal UPV 320€ Alumno UPV 495€ Público en general 320€ Desempleados 320€ Ciudadanos de países de rentas reducidas
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Acción formativa dirigida a
 

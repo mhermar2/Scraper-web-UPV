@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: NORMAS DE GESTIÓN DE SOCIEDADES COOPERATIVAS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # NORMAS DE GESTIÓN DE SOCIEDADES COOPERATIVAS

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ADMISSION PROCESS - BACHELOR'S DEGREE IN SYSTEMS ENGINEERING & MANAGEMENT FOR INNOVATION CHALLENGES (SEAMIC)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ADMISSION PROCESS - BACHELOR'S DEGREE IN SYSTEMS ENGINEERING & MANAGEMENT FOR INNOVATION CHALLENGES (SEAMIC)
@@ -50,9 +50,7 @@ Responsable de la actividad: Vicerrector/a Internacionalización y Comunicación
 
 Este curso sirve de soporte para gestionar las diferentes fases del proceso de admisión en el grado propio en Ingeniería de Sistemas y Management de Retos de Innovación (Grado Propio SEAMIC). Este curso dará al alumnado acceso a los diferentes pasos del proceso y le explicará paso a paso cómo realizar las diferentes pruebas y evaluaciones (más información en www.seamic.upv.es ). El objetivo pues del curso es tener un proceso de admisión objetivo y especifico para entrar en el grado propio y poder calcular la nota de acceso. Si el/la estudiante ha realizado todas las pruebas del curso, obtendrá el certificado de aprovechamiento del curso de admisión. Cuando el/la estudiante terminará todas las pruebas (incluyendo la documentación del expediente académico), obtendrá una nota de acceso al grado propio SEAMIC. Si el/la estudiante obtiene una calificación dentro de las mejores (considerando el número máximo de plazas del grado propio), será pre-acceptado/a en el grado proprio. Si no, entrará en la lista de espera.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Profesores
 

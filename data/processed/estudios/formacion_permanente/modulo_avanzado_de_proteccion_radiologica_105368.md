@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: MÓDULO AVANZADO DE PROTECCIÓN RADIOLÓGICA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÓDULO AVANZADO DE PROTECCIÓN RADIOLÓGICA
@@ -52,7 +52,7 @@ Responsable de la actividad: Gumersindo Jesús Verdú Martín
 
 770€ Alumni UPV PLUS 770€ Personal UPV 770€ Alumno UPV 870€ Público en general 770€ Titulados en paro y empleados de entidades colaboradoras
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

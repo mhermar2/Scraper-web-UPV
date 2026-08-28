@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: MÓDULO EN NOCIONES BÁSICAS PARA EL USO DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA EN LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÓDULO EN NOCIONES BÁSICAS PARA EL USO DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA EN LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE
@@ -54,9 +54,7 @@ Responsable de la actividad: Rafael Ramón Temes Córdovez
 
 380€ Alumni UPV PLUS 380€ Alumno UPV 380€ Personal UPV 450€ Público en general 380€ Desempleado 380€ Miembros del Colegio de Arquitectos de Castellón, Málaga y Tenerife
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

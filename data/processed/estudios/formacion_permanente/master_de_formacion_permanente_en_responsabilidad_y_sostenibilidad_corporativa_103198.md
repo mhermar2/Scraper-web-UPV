@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN RESPONSABILIDAD Y SOSTENIBILIDAD CORPORATIVA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN RESPONSABILIDAD Y SOSTENIBILIDAD CORPORATIVA

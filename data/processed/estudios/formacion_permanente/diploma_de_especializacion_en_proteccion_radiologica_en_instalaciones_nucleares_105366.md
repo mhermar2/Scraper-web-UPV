@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE ESPECIALIZACIÓN EN PROTECCIÓN RADIOLÓGICA EN INSTALACIONES NUCLEARES
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE ESPECIALIZACIÓN EN PROTECCIÓN RADIOLÓGICA EN INSTALACIONES NUCLEARES
@@ -58,7 +58,9 @@ Inscríbete sin compromiso ahora
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Dirigido a
 

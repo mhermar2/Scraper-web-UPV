@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN SANITARIA: DIRECCIÓN DE HOSPITALES Y SERVICIOS DE SALUD"
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN SANITARIA: DIRECCIÓN DE HOSPITALES Y SERVICIOS DE SALUD

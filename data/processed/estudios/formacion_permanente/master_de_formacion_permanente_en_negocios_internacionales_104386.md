@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN NEGOCIOS INTERNACIONALES
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN NEGOCIOS INTERNACIONALES
@@ -130,7 +130,7 @@ Juan Segui Moreno : Profesor/a Asociado/a
 
 María Esther Botella Pamies : Profesional del sector
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Secretaría
 

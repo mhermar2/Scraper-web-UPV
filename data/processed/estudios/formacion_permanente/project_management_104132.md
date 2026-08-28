@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: PROJECT MANAGEMENT
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # PROJECT MANAGEMENT
@@ -50,7 +50,7 @@ Responsable de la actividad: Ricardo José Server Izquierdo
 
 230€ Personal UPV 230€ Alumno UPV a falta de menos de 30 créditos ECTS incluido TFG para terminar estudios 230€ Alumni UPV PLUS 275€ Público en general 230€ Familia Numerosa
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Acción formativa dirigida a
 

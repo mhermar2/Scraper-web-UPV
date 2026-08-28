@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE ESPECIALIZACIÓN EN TRANSPORTE TERRESTRE
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE ESPECIALIZACIÓN EN TRANSPORTE TERRESTRE
@@ -46,7 +46,7 @@ Inscríbete sin compromiso ahora
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Dirigido a
 

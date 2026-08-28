@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: INCENDIOS DE ORIGEN ELÉCTRICO EN EL ÁMBITO DOMÉSTICO. CAUSAS, RIESGOS Y ACTUACIÓN
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INCENDIOS DE ORIGEN ELÉCTRICO EN EL ÁMBITO DOMÉSTICO. CAUSAS, RIESGOS Y ACTUACIÓN

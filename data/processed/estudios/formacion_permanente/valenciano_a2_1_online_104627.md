@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALENCIANO A2.1 (ONLINE)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALENCIANO A2.1 (ONLINE)
@@ -60,14 +60,12 @@ Los estudiantes y los miembros de Alumni PLUS, el PAS y el PDI de la UPV, y el p
 
 Raül Ibiza Pujades Profesional del sector
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Temas a desarrollar
 
 En este curso se desarrollarán los siguientes contenidos: 1) NORMATIVA LINGÜÍSTICA 1.1) Elocución y fonología: a) Enlaces fónicos (sonorizaciones y ensordecimientos) y enmudecimientos: consonantes y grupos consonánticos a final de palabra. b) Dicción y ritmo, entonación y lenguaje no verbal 1.2) Ortografía: a) El alfabeto b) Dígrafos, diptongos e hiatos. c) Vocalismo d) Consonantismo. f) Uso del guión en los numerales. 1.3) Morfología y sintaxis: a) El sustantivo y el adjetivo b) Los determinantes: El artículo: uso del apóstrofo, las contracciones; el artículo neutro. Demostrativos. Posesivos, numerales interrogativos e indefinidos c) Pronombres fuertes y débiles. d) Morfología verbal - Las conjugaciones de los verbos regulares. - Verbos auxiliares. e) Preposiciones f) Adverbios g) Conjunciones 1.4) Léxico y semántica: a) La formación del léxico: derivación y composición. b) Polisemia, sinonimia y antonimia. c) Las locuciones y frases hechas más usuales. d) Las formas correctas de los barbarismos más usuales. 2) COMPRENSIÓN Y EXPRESIÓN ESCRITAS Conocimientos y habilidades para familiarizarse con los signos ortográficos del valenciano y saber relacionarlos con el sonido al que corresponden, e iniciarse en la escritura a partir de un dominio mínimo del código escrito: escribir textos breves en variedad estándar sobre el entorno cotidiano y el entorno de aprendizaje. También debe poder comprender las ideas generales de textos sencillos sobre temas de interés general y saber distinguir la información imprescindible de textos informativos del entorno cotidiano. 3) COMPRENSIÓN Y EXPRESIÓN ORALES Conocimientos y habilidades para comprender y producir textos orales, a fin de que pueda resolver en valenciano las necesidades fundamentales de la vida cotidiana. 4) SOCIOLINGÜÍSTICA: a) Variedades de la lengua b) Variedades geográficas
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 Página web: [http://www.upv.es/apnl](http://www.upv.es/apnl)

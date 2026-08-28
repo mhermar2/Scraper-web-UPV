@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN HUMANIDADES ECOLÓGICAS, SUSTENTABILIDAD Y TRANSICIÓN ECOSOCIAL (INTERUNIVERSITARIO)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN HUMANIDADES ECOLÓGICAS, SUSTENTABILIDAD Y TRANSICIÓN ECOSOCIAL (INTERUNIVERSITARIO)
@@ -54,7 +54,7 @@ El título permite realizar prácticas externas extracurriculares durante el per
 
 Personas con titulación universitaria que quieran completar estudios o formarse en ámbitos multidisciplinares de gran actualidad relacionados con el ámbito de la sustentabilidad, las transiciones ecosociales, el ecofeminismo, el decrecimiento y la economía ecológica, los nuevos comunitarismos, la ética ecológica y/o profundizar práctica o teóricamente en la comunicación de estos conocimientos mediante la Educación Ambiental. Personas con interés por el crecimiento personal y por una formación holística, que desean completar su perfil académico y/o profesional con nuevas dimensiones eco-humanistas, adquiriendo conocimientos fundamentales para pensar y actuar en épocas de crisis y transición, reconsiderando la manera de entender el mundo y nuestro lugar en él.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Requisitos de acceso
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ANALISIS DE LA CALIDAD DEL AGUA CON EPANET
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ANALISIS DE LA CALIDAD DEL AGUA CON EPANET
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Personal UPV 250€ Alumno UPV 250€ Alumni UPV PLUS 380€ Público en general 250€ Ciudadanos de países de rentas reducidas 250€ Desempleados
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

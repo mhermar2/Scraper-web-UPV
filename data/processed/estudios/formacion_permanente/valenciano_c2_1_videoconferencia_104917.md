@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALENCIANO C2.1 (VIDEOCONFERENCIA)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALENCIANO C2.1 (VIDEOCONFERENCIA)
@@ -62,7 +62,7 @@ Los estudiantes y los miembros de Alumni PLUS, el PAS y el PDI de la UPV, y el p
 
 Josep Miquel Molina Puerto Técnico Superior Promoción Lingüística
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Temas a desarrollar
 

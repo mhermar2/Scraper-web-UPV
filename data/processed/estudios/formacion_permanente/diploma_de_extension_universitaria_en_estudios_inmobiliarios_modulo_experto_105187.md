@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO EXPERTO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO EXPERTO

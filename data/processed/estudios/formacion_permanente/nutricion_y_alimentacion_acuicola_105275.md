@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: NUTRICION Y ALIMENTACION ACUICOLA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # NUTRICION Y ALIMENTACION ACUICOLA

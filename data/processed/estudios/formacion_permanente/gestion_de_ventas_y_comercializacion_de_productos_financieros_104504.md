@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: GESTIÓN DE VENTAS Y COMERCIALIZACIÓN DE PRODUCTOS FINANCIEROS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # GESTIÓN DE VENTAS Y COMERCIALIZACIÓN DE PRODUCTOS FINANCIEROS

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: PROGRAMACION CON TOOLKIT DE EPANET
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # PROGRAMACION CON TOOLKIT DE EPANET
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Alumno UPV 250€ Personal UPV 250€ Alumni UPV PLUS 380€ Público en general 250€ Ciudadanos de países de rentas reducidas 250€ Desempleados
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Acción formativa dirigida a
 

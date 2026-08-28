@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE GRADO PROPIO EN INGENIERÍA DE SISTEMAS Y GESTIÓN PARA RETOS DE INNOVACIÓN
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # SECOND YEAR 2025 - BACHELOR DEGREE IN SYSTEMS ENGINEERING AND MANAGEMENT FOR INNOVATION CHALLENGES
@@ -118,7 +118,7 @@ Ana Vallés Lluch Catedrático/a de Universidad
 
 Manuel Villarreal Ruiz Técnico Superior de Investigación
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Temas a desarrollar
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN CIENCIAS INMOBILIARIAS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN CIENCIAS INMOBILIARIAS. PRIMER CURSO
@@ -58,9 +58,7 @@ Este Máster tiene como objetivo principal formar a los alumnos en temas relacio
 
 - Titulados universitarios y profesionales con experiencia en el sector. - Interesados en acceder a la prestigiosa organización internacional "Royal Institution of Chartered Surveyors (RICS)".
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Requisitos de acceso
 

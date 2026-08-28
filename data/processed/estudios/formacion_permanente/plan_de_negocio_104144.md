@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: PLAN DE NEGOCIO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # PLAN DE NEGOCIO
@@ -50,9 +50,7 @@ Responsable de la actividad: Ricardo José Server Izquierdo
 
 320€ Alumno UPV a falta de menos de 30 créditos ECTS incluido TFG para terminar estudios 320€ Personal UPV 320€ Alumni UPV PLUS 375€ Público en general 320€ Familia NUmerosa
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Acción formativa dirigida a
 

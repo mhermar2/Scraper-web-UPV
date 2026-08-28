@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: APLICACIÓN DE LA IA A LA VALORACIÓN Y GESTIÓN DE ACTIVOS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # APLICACIÓN DE LA IA A LA VALORACIÓN Y GESTIÓN DE ACTIVOS
@@ -50,9 +50,7 @@ Responsable de la actividad: Elena De la Poza Plaza
 
 El objetivo principal de la asignatura es formar a las personas que trabajan en el sector de la valoración y en las consultoras inmobiliarias en el uso profesional de la inteligencia artificial: desde los fundamentos de los métodos econométricos y del machine learning y los grandes modelos de lenguaje hasta la elaboración de informes de valoración. El alumno aprenderá a realizar regresiones hedónicas con IA sin escribir una línea de código, a aplicar modelos predictivos sobre datos reales del mercado español y a gestionar las implicaciones normativas del AI Act y el RGPD en el ejercicio profesional.
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Profesores
 

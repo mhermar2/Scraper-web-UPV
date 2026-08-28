@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN GEOINFORMATION TOOLS FOR CLIMATE CHANGE MANAGEMENT
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN GEOINFORMATION TOOLS FOR CLIMATE CHANGE MANAGEMENT
@@ -60,9 +60,7 @@ El título permite realizar prácticas externas extracurriculares durante el per
 
 Estudiantes y posgraduados universitarios, profesionales que desean conocer los conceptos básicos de la teledetección y los sistemas de información geográfica (SIG) y sus diferentes aplicaciones en la gestión del cambio climático (agricultura, bosques, zonas costeras y áreas urbanas).
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Requisitos de acceso
 

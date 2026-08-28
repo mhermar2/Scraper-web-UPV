@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALORACIÓN RURAL SEGÚN LA LEY DE SUELO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALORACIÓN RURAL SEGÚN LA LEY DE SUELO
@@ -48,7 +48,7 @@ Responsable de la actividad: Elena De la Poza Plaza
 
 El objetivo de esta asignatura es que el alumno sea capaz de abordar la valoración del suelo rural a efectos de actuaciones de la Administración, de acuerdo con la Ley de Suelo y según el método de capitalización de la renta de una explotación. Asimismo, debe poder valorar elementos susceptibles de ser desvinculados del suelo como edificaciones, construcciones e instalaciones, así como la valoración de árboles de especial valor histórico, medioambiental y paisajístico.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Profesores
 

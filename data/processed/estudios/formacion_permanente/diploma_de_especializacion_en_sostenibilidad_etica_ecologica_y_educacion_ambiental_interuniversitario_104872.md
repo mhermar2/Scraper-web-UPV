@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE ESPECIALIZACIÓN EN SOSTENIBILIDAD, ÉTICA ECOLÓGICA Y EDUCACIÓN AMBIENTAL (INTERUNIVERSITARIO)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE ESPECIALIZACIÓN EN SOSTENIBILIDAD, ÉTICA ECOLÓGICA Y EDUCACIÓN AMBIENTAL (INTERUNIVERSITARIO)
@@ -54,9 +54,9 @@ El título permite realizar prácticas externas extracurriculares durante el per
 
 Titulados universitarios que quieran completar estudios o formarse en ámbitos multidisciplinares de gran actualidad relacionados con el ámbito de la sostenibilidad, la ética ecológica y/o profundizar práctica o teóricamente en la comunicación de estos conocimientos mediante la Educación Ambiental. Personas con interés por el crecimiento personal y por una formación holística, que desean completar su perfil académico y/o profesional con nuevas dimensiones eco-humanistas, adquiriendo conocimientos fundamentales para pensar y actuar en épocas de crisis y transición, reconsiderando la manera de entender el mundo y nuestro lugar en él.
 
-## Portal de formación permanente UPV
+## Suscríbete al boletín del CFP
 
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Requisitos de acceso
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2025
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2025
@@ -50,7 +50,7 @@ Responsable de la actividad: David Pla Santamaría
 
 - Comprender la importancia de la financiación sostenible. - Saber identificar qué operaciones son sostenibles. - Aprender cómo se regula la sostenibilidad en una operación. - Conocer el contexto histórico y de economías vecinas. - Conocer la posibilidad de tener varias garantías en una única financiación. - Comprender los gastos que tiene una operación, desde su inicio, hasta que se subroga un comprador. - Estar al día en cuanto a la aplicación de la LCCI y sus actualizaciones. - Conocer la evolución que ha tenido el mercado inmobiliario en 2024.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Profesores
 
@@ -60,7 +60,9 @@ María Luisa Vercher Ferrándiz Profesor/a Ayudante Doctor/a
 
 David Pla Santamaría Profesor/a Titular de Universidad
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Temas a desarrollar
 

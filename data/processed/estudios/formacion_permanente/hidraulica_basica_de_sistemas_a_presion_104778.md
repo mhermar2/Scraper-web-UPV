@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: HIDRAULICA BASICA DE SISTEMAS A PRESION
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # HIDRAULICA BASICA DE SISTEMAS A PRESION
@@ -52,7 +52,9 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Alumno UPV 250€ Alumni UPV PLUS 250€ Personal UPV 380€ Público en general 250€ Ciudadanos de países con rentas reducidas 250€ Desempleados
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Acción formativa dirigida a
 

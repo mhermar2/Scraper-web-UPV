@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN TECNOLOGÍA DE MATERIALES POLIMÉRICOS Y COMPOSITES
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN TECNOLOGÍA DE MATERIALES POLIMÉRICOS Y COMPOSITES
@@ -62,9 +62,7 @@ Conocer las propiedades de los materiales poliméricos y composites relacionadas
 
 Titulados universitarios oficiales españoles del área de ciencia e ingeniería. Titulados universitarios con titulación homologable a titulación española en las áreas indicadas y que otorgue acceso a enseñanzas oficiales de posgrado. Experiencia laboral o profesional con nivel competencial equivalente a la formación académica universitaria. (Requiere evaluación del nivel competencial equivalente a la formación académica universitaria).
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Requisitos de acceso
 

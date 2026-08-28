@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: HERRAMIENTAS INFORMATICAS PARA LA DIRECCION Y GESTION DE PROYECTOS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # HERRAMIENTAS INFORMATICAS PARA LA DIRECCION Y GESTION DE PROYECTOS

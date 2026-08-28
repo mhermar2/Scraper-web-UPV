@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: GESTIÓN DE FONDOS Y SOCIEDADES DE INVERSIÓN
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # GESTIÓN DE FONDOS Y SOCIEDADES DE INVERSIÓN

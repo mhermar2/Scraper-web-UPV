@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: "INTELIGENCIA EMOCIONAL: ELEMENTO CLAVE PARA LA EMPLEABILIDAD - ONLINE 1ª ED. 26-27"
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INTELIGENCIA EMOCIONAL: ELEMENTO CLAVE PARA LA EMPLEABILIDAD - ONLINE 1ª ED. 26-27
@@ -66,8 +66,6 @@ El curso se imparte en modalidad online asíncrona, lo que permite al estudianta
 
 1. ¿Qué es la Inteligencia? ¿Cómo se valora en los procesos de selección? 2. Competencias. ¿A qué nos referimos? 3. Inteligencia emocional 4. Resilencia. Un nuevo concepto 5. La emoción. ¿Qué es la emoción? 6. Pensamiento positivo 7. ¿Qué es la empatía? 8. Asertividad 9. Técnicas que mejoran las comunicaciones interpersonales en las relaciones profesionales.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 Página web: [https://www.upv.es/contenidos/sieemple...](https://www.upv.es/contenidos/sieemple/formacion/)

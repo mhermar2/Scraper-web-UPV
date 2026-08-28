@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ASESOR FINANCIERO EN CRÉDITO HIPOTECARIO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ASESOR FINANCIERO EN CRÉDITO HIPOTECARIO
@@ -74,7 +74,9 @@ Lidia Olmos Reig Técnico Superior
 
 María Tamarit Alamar Profesional del sector
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Temas a desarrollar
 

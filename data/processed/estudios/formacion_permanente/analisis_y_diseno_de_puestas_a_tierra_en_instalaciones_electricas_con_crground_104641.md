@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ANÁLISIS Y DISEÑO DE PUESTAS A TIERRA EN INSTALACIONES ELÉCTRICAS CON CRGROUND®
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ANÁLISIS Y DISEÑO DE PUESTAS A TIERRA EN INSTALACIONES ELÉCTRICAS CON CRGROUND®
@@ -76,6 +76,6 @@ Todas las lecciones están grabadas en formato vídeo. Hay material complementar
 
 Conceptos de puestas a tierra. Importancia de las puestas a tierra. Seguridad de las personas frente a los riesgos eléctricos. Puesta a tierra en instalaciones de Alta Tensión. Normativa de aplicación sobre puestas a tierra: REBT, EN 60364, EN 50522 y EN-IEC 61936. Cálculo y diseño de sistemas de puesta a tierra. El software CRGround®: alcance y limitaciones. Instalación y uso del programa CRGround®. Desarrollo de casos de aplicación. Propuesta de casos a desarrollar por los alumnos.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 Página web: [http://www.inielectric.com/resultados/...](http://www.inielectric.com/resultados/CRGROUND/curso)

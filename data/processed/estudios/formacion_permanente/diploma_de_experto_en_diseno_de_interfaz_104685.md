@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN DISEÑO DE INTERFAZ
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN DISEÑO DE INTERFAZ
@@ -62,7 +62,7 @@ Dominar los fundamentos de la Experiencia de Usuario, comprendiendo sus principi
 
 El alumnado de este diploma puede haber realizado diferentes itinerarios antes de acceder a esta titulación. A continuación describimos los itinerarios más comunes que pueden darse: · Alumnado de grados vinculados al diseño gráfico de la UPV (como el Grado en Diseño y Tecnologías Creativas, Grado en Comunicación Audiovisual o el Grado en Bellas Artes). · Alumnado de grados vinculados al diseño industrial y la informática de la UPV (Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos o Grado en Ingeniería Informática) · Alumnado de escuelas de Diseño tanto de València como de otras ciudades · Alumnado de titulaciones vinculadas al diseño visual y al diseño de producto no pertenecientes a la UPV, incluyendo de otras comunidades autónomas · Profesionales ya egresados (UPV o no) que aprovechan el horario ventajoso del título (viernes por la tarde y sábados por la mañana) para reorientar su trayectoria profesional
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Requisitos de acceso
 

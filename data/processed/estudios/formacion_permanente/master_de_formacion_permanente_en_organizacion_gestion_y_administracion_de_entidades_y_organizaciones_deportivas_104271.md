@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN ORGANIZACIÓN, GESTIÓN Y ADMINISTRACIÓN DE ENTIDADES Y ORGANIZACIONES DEPORTIVAS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN ORGANIZACIÓN, GESTIÓN Y ADMINISTRACIÓN DE ENTIDADES Y ORGANIZACIONES DEPORTIVAS
@@ -84,9 +84,7 @@ El título permite realizar prácticas externas extracurriculares durante el per
 
 Titulados Universitarios preferiblemente licenciados en ADE, Derecho o Ciencias de la Actividad Física y el Deporte, y todos aquellos licenciados o diplomados o profesionales, que deseen especializarse en el área de la Gestión Deportiva. Documentación requerida al alumno: Titulación universitaria Curriculum Vitae Fotografía tamaño carnet reciente Lugar de Preinscripción: ETSID - Despacho Cátedra Deporte, 4ª planta Ala Sur Criterio de selección: Entrevista personal y CV
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Requisitos de acceso
 

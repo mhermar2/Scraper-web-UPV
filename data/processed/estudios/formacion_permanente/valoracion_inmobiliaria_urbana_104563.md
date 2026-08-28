@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALORACIÓN INMOBILIARIA URBANA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALORACIÓN INMOBILIARIA URBANA
@@ -48,7 +48,7 @@ Responsable de la actividad: Elena De la Poza Plaza
 
 El objetivo principal de la asignatura es que a su término, el alumno sea capaz de realizar la valoración de cualquier tipo de inmueble tendiendo en cuenta la finalidad de la valoración (mercado, garantía hipotecaria, expropiación, etc.), las normativas, la base de valor, la tipología del inmueble (suelo, urbano, rústico, etc.) y las fuentes de información disponibles.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Profesores
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN DISEÑO MICROELECTRÓNICO DIGITAL
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN DISEÑO MICROELECTRÓNICO DIGITAL

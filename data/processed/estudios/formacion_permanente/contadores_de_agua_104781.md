@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: CONTADORES DE AGUA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # CONTADORES DE AGUA
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 325€ Alumno UPV 325€ Personal UPV 325€ Alumni UPV PLUS 475€ Público en general 325€ Desempleados 325€ Ciudadanos de países de rentas reducidas
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: INFRAESTRUCTURAS DE DATOS ESPACIALES Y GEOPORTALES (WEB MAPPING)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INFRAESTRUCTURAS DE DATOS ESPACIALES Y GEOPORTALES (WEB MAPPING)
@@ -76,12 +76,14 @@ Enric Terol Esparza Profesor/a Titular de Universidad
 
 Jose Carlos Martinez Llario Profesor/a Titular de Universidad
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Temas a desarrollar
 
 Una Infraestructura de Datos Espaciales (IDE) y su Geoportal representan la forma más estándar, rigurosa y normativa de publicar y difundir los recursos cartográficos en Internet. En los países miembros de la Unión Europea, la directiva INSPIRE ha transformado lo que solía ser una buena práctica en una obligación, especialmente para organismos e instituciones públicas como diputaciones, institutos cartográficos, instituciones medioambientales e incluso ayuntamientos. Este curso le proporcionará conocimientos sobre las tecnologías necesarias para crear una IDE, incluyendo la instalación y configuración de los servidores web y cartográficos requeridos, la creación de visualizadores online de cartografía, el estudio y generación de metadatos para los recursos cartográficos, y el diseño y creación de un Geoportal que servirá como punto de entrada para su IDE. A lo largo del curso, se abordarán tanto teórica como prácticamente muchos estándares de información geográfica (SLD, WMS, WFS, WMTS, WCS, CSW, WPS), lenguajes necesarios (HTML5, CSS3, XML) y normativa pertinente. También se utilizará una variedad de software para llevar a cabo la IDE, incluyendo servidores como Apache HTTP Server y Apache Tomcat, servidor cartográfico GeoServer y GeoNetwork para metadatos, SIG de escritorio como QGIS y gvSIG, bases de datos como PostgreSQL y su extensión espacial PostGIS, editores de metadatos como GeoNetwork, editores de XML y HTML como XML Copy Editor y Sublime Text/Visual Studio Code, entre otros. Las horas de trabajo estimadas para cada módulo son en promedio de al menos 100 alumnos, lo que suma una duración de trabajo real de 90 horas. El temario detallado se encuentra en: https://cartosig.webs.upv.es/curso_ide/ MÓDULO 1. GESTIÓN DE LA MÁQUINA VIRTUAL (1 hora) MÓDULO 2. INTRODUCCIÓN A LAS IDE Y MARCO LEGAL (8 horas) MÓDULO 3. ARQUITECTURA CLIENTE-SERVIDOR. LENGUAJE XML, XSD.(8 horas) MÓDULO 4. ESTUDIO DEL SERVICIO DE VISUALIZACIÓN (WMS). (9 horas) MÓDULO 5. CLIENTES IDE Y WEB MAPPING I (8 horas) MÓDULO 6. IMPLEMENTACIÓN DE SERVICIOS OGC CON GEOSERVER. (10 horas) MÓDULO 7. SIMBOLIZACIÓN Y WEB MAPPING II (12 horas) MÓDULO 8. ESTUDIO E IMPLEMENTACIÓN DEL SERVICIO DE DESCARGA (WFS) (7 horas) MÓDULO 9. ESTUDIO E IMPLEMENTACIÓN DE SERVICIOS TESELADOS (WMTS) (5 horas) MÓDULO 10. ESTUDIO E IMPLEMENTACIÓN DEL SERVICIO DE DESCUBRIMIENTO (CSW) (6 horas) MÓDULO 11. METADATOS DE LA INFORMACIÓN GEOGRÁFICA. (6 horas) MÓDULO 12. CREACIÓN DE UN GEOPORTAL IDE (HTML5 + CSS3) (10 horas)
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 Página web: [https://cartosig.webs.upv.es/cursos](https://cartosig.webs.upv.es/cursos)

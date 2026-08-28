@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: EVALUACION Y CONTROL DE PERDIDAS DE AGUA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # EVALUACION Y CONTROL DE PERDIDAS DE AGUA
@@ -54,9 +54,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Personal UPV 250€ Alumno UPV 250€ Alumni UPV PLUS 380€ Público en general 250€ Desempleados 250€ Ciudadanos de países de rentas reducidas 250€ "Grupos de más de 10 trabajadores pertenecientes a la misma empresa" (Necesario acuerdo por matrículas agrupadas, consultar a la dirección del curso)
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Acción formativa dirigida a
 

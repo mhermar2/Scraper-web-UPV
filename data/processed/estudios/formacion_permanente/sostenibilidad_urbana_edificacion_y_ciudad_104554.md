@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: "SOSTENIBILIDAD URBANA: EDIFICACION Y CIUDAD"
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # SOSTENIBILIDAD URBANA: EDIFICACION Y CIUDAD
@@ -48,9 +48,7 @@ Responsable de la actividad: Elena De la Poza Plaza
 
 El objetivo principal de esta asignatura es que los alumnos conozcan las estrategias orientadas a conseguir ciudades más sostenibles para la protección del medio ambiente. Para lograrlo se pretende que los alumnos: - Conozcan las estrategias que desde distintos países, especialmente en el caso de España, se siguen con el fin de conseguir un parque edificatorio más sostenible. - Sepan abordar la sostenibilidad desde un punto de vista más global, considerando la ordenación territorial y la sostenibilidad de los ámbitos urbanos.
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Profesores
 

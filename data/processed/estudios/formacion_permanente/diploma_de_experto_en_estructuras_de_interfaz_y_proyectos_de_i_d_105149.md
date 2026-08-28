@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN ESTRUCTURAS DE INTERFAZ Y PROYECTOS DE I+D
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN ESTRUCTURAS DE INTERFAZ Y PROYECTOS DE I+D
@@ -102,9 +102,7 @@ Profesionales, estudiantes e investigadores involucrados o interesados en la dir
 
 - 4/1/27
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Asignaturas
 

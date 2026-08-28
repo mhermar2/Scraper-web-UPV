@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN LA INDUSTRIA COSMÉTICA. DISEÑO, PRODUCCIÓN Y COMERCIALIZACIÓN DE PRODUCTOS COSMÉTICOS Y COSMECÉUTICOS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN LA INDUSTRIA COSMÉTICA. DISEÑO, PRODUCCIÓN Y COMERCIALIZACIÓN DE PRODUCTOS COSMÉTICOS Y COSMECÉUTICOS
@@ -58,13 +58,13 @@ Responsable de la actividad: Director Escuela Politécnica Superior de Alcoi
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Dirigido a
 
 Cualquier persona que cumpla los requisitos de acceso. En la documentación a entregar se pedirá el CV y con la información aportada se decidirá la admisión de matrícula en el curso, en caso de existir plazas disponibles, comunicándose el resultado al interesado mediante correo electrónico.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Requisitos de acceso
 

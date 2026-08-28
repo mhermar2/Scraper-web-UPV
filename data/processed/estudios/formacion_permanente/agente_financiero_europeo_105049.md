@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: AGENTE FINANCIERO EUROPEO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # AGENTE FINANCIERO EUROPEO
@@ -74,7 +74,7 @@ Marcos Perez Mesas Profesional del sector
 
 Pablo Quintana García Profesional del sector
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Temas a desarrollar
 

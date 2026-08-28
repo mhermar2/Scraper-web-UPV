@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ASPECTOS LEGISLATIVOS DEL ESPACIO ULTRATERRESTRE, LA LUNA Y DEMÁS CUERPOS CELESTES
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ASPECTOS LEGISLATIVOS DEL ESPACIO ULTRATERRESTRE, LA LUNA Y DEMÁS CUERPOS CELESTES
@@ -62,7 +62,7 @@ El curso está dirigido a profesionales del ámbito de la aeronáutica y aeroesp
 
 Francisca Ramón Fernández Catedrático/a de Universidad
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Temas a desarrollar
 

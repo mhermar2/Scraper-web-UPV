@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN ANIMACIÓN
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN ANIMACIÓN
@@ -54,7 +54,7 @@ Responsable de la actividad: Juan Ignacio Meneu Oset
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Dirigido a
 

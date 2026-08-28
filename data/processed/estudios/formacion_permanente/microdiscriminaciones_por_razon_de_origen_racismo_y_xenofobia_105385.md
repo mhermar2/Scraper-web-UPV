@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: MICRODISCRIMINACIONES POR RAZÓN DE ORIGEN. RACISMO Y XENOFOBIA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MICRODISCRIMINACIONES POR RAZÓN DE ORIGEN. RACISMO Y XENOFOBIA

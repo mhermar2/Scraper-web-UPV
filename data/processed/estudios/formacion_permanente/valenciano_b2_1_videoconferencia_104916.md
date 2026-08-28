@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALENCIANO B2.1 (VIDEOCONFERENCIA)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALENCIANO B2.1 (VIDEOCONFERENCIA)
@@ -62,14 +62,14 @@ Los estudiantes y los miembros de Alumni PLUS, el PAS y el PDI de la UPV, y el p
 
 Maria Súsica Cardona I Prats Profesional del sector
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Temas a desarrollar
 
 En este curso se desarrollarán los siguientes contenidos: 1) NORMATIVA LINGÜÍSTICA 1.1) Elocución, fonología y ortografía: a)Reglas de pronunciación y elocución del ámbito formal: enmudecimientos, neutralizaciones, sonorizaciones y fenómenos de la fonética sintáctica. 2) NORMATIVA ORTOGRÁFICA: a) Dígrafos y separación de sílabas. b) Vocalismo. c) La acentuación y la diéresis. d) La apostrofación. e) El uso del guión. f) Consonantismo. g) Abreviaturas de uso más frecuente. h) Mayúsculas y minúsculas en las avisos, anuncios, cartas... g) Puntuación: usos básicos. 3) MORFOLOGÍA Y SINTAXIS: a) La oración: conceptos generales, componentes y funciones sintácticas. b) El sustantivo y el adjetivo. c) Los artículos definidos. d) Los posesivos. e) Los deícticos. f) Los numerales. j) Los relativos, interrogativos y exclamativos. n) Los verbos. 4) LÉXICO Y SEMÁNTICA: a) Barbarismos más usuales del vocabulario básico. b) Tipo de diccionarios y organización de los mismos. c) Estudio de la derivación y composición en palabras del vocabulario básico. Uso del guión en los compuestos del vocabulario básico. 5) EXPRESIÓN ESCRITA Conocimientos y habilidades necesarias para poder escribir textos breves (notas, avisos, invitaciones, anuncios, felicitaciones), correspondencia poco compleja (cartas, solicitudes, currículos). Todos estos textos deben escribirse con la adecuación, coherencia y cohesión exigidas por la situación comunicativa y con la corrección que corresponde a este grado de aprendizaje. 6) EXPRESIÓN ORAL Conocimientos y habilidades necesarias para ser capaz de producir textos breves corresponden a una formalidad media de los ámbitos social, laboral y académico con la adecuación, coherencia y cohesión exigidas por la situación comunicativa y con la corrección que corresponde a este grado de aprendizaje. En cuanto a la lectura de textos breves en voz alta (anuncios, avisos, cartas), tendrán que producirse con la pronunciación, la entonación, el ritmo y la velocidad adecuados. 7) SOCIOLINGÜÍSTICA: a) Variedades de la lengua. b) Variedades geográficas.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 Página web: [http://www.upv.es/spnl](http://www.upv.es/spnl)

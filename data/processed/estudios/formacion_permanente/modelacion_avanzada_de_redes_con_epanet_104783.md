@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: MODELACION AVANZADA DE REDES CON EPANET
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MODELACION AVANZADA DE REDES CON EPANET
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Alumno UPV 250€ Personal UPV 250€ Alumni UPV PLUS 380€ Público en general 250€ Desempleados 250€ Ciudadanos de países de rentas reducidas
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Acción formativa dirigida a
 

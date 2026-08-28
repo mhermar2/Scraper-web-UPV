@@ -1,0 +1,1524 @@
+{
+  "formaciones": [
+    {
+      "nombre": "ANÁLISIS DE LA COYUNTURA ECONÓMICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analisis-coyuntura-economica_100551.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MODELOS MULTICRITERIO APLICADOS A LA GESTIÓN DE CARTERAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/modelos-multicriterio-aplicados-gestion-carteras_100552.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN DE CARTERAS II",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-carteras-ii_100553.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INCENDIOS DE ORIGEN ELÉCTRICO EN EL ÁMBITO DOMÉSTICO. CAUSAS, RIESGOS Y ACTUACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/incendios-origen-electrico-ambito-domestico-causas-riesgos-actuacion_100775.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CAMPOS MAGNÉTICOS EN INSTALACIONES ELÉCTRICAS Y ALREDEDORES, Y SU CÁLCULO Y REPRESENTACIÓN CON CRMAG PLUS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/campos-magneticos-instalaciones-electricas-alrededores-calculo-representacion-crmag-plus_100776.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ANÁLISIS Y DISEÑO DE PUESTAS A TIERRA EN INSTALACIONES ELÉCTRICAS CON CRGROUND®",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analisis-diseno-puestas-tierra-instalaciones-electricas-crground_100777.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASESOR FINANCIERO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero_100899.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "AGENTE FINANCIERO EUROPEO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/agente-financiero-europeo_100902.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASISTENTE FINANCIERO EUROPEO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asistente-financiero-europeo_100903.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ACTUALIZACIÓN DE CONOCIMIENTOS EN ASESORÍA FINANCIERA 2025",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-asesoria-financiera-2025_100904.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2025",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-credito-inmobiliario-2025_100905.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASESOR FINANCIERO EN CRÉDITO HIPOTECARIO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero-credito-hipotecario_100906.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INFORMADOR FINANCIERO EN CRÉDITO HIPOTECARIO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/informador-financiero-credito-hipotecario_100907.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CLOUD COMPUTING CON AMAZON WEB SERVICES (AWS)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/cloud-computing-amazon-web-services-aws_101182.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASSET MANAGEMENT Y O&M EN SISTEMAS FOTOVOLTAICOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asset-management-o-m-sistemas-fotovoltaicos_101630.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ENERGÍA SOLAR FOTOVOLTAICA - UNA APUESTA DE FUTURO SOSTENIBLE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/energia-solar-fotovoltaica-apuesta-futuro-sostenible_101727.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INTRODUCTION TO PHOTOVOLTAIC POWER SYSTEMS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/introduction-to-photovoltaic-power-systems_101728.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "SIMULACIÓN DE SISTEMAS FOTOVOLTAICOS CONECTADOS A RED CON PVSYST. NIVEL AVANZADO (ED. 2025/26)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/simulacion-sistemas-fotovoltaicos-conectados-red-pvsyst-nivel-avanzado-ed-2025-26_102129.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INTRODUCCIÓN A LA ENERGÍA SOLAR FOTOVOLTAICA (25/26)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-energia-solar-fotovoltaica-25-26_102130.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "BOMBEO FOTOVOLTAICO (ED. 2025/26)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/bombeo-fotovoltaico-ed-2025-26_102158.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "SOLAR POWERED WATER SYSTEMS (ED. 2025/26)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/solar-powered-water-systems-ed-2025-26_102159.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ADMISSION PROCESS - BACHELOR'S DEGREE IN SYSTEMS ENGINEERING & MANAGEMENT FOR INNOVATION CHALLENGES (SEAMIC)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/admission-process-bachelor-s-degree-in-systems-engineering-management-for-innovation-challenges-seamic_102737.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2026",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-credito-inmobiliario-2026_103584.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ACTUALIZACIÓN DE CONOCIMIENTOS EN ASESORÍA FINANCIERA 2026",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-asesoria-financiera-2026_103585.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MÉTODOS DE EVALUACIÓN ERGONÓMICA DE PUESTOS DE TRABAJO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/metodos-evaluacion-ergonomica-puestos-trabajo_103847.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ANALÍTICA CON IA APLICADA A NEGOCIOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analitica-ia-aplicada-negocios_103991.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "NORMAS DE GESTIÓN DE SOCIEDADES COOPERATIVAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/normas-gestion-sociedades-cooperativas_104118.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "COOPERATIVAS AGROALIMENTARIAS DE ÉXITO: ESTUDIO DE CASOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/cooperativas-agroalimentarias-exito-estudio-casos_104119.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DIRECCIÓN CONTABLE Y FISCAL DE COOPERATIVAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/direccion-contable-fiscal-cooperativas_104120.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DIRECCIÓN FINANCIERA DE COOPERATIVAS E INTERCOOPERACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/direccion-financiera-cooperativas-intercooperacion_104121.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN CONTABLE Y FISCAL DE EMPRESAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-contable-fiscal-empresas_104122.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN COMERCIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-comercial_104123.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN FINANCIERA DE EMPRESAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-financiera-empresas_104124.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DERECHO DE EMPRESA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/derecho-empresa_104125.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CREACIÓN Y LANZAMIENTO DE NUEVOS PRODUCTOS EN LA EMPRESA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/creacion-lanzamiento-nuevos-productos-empresa_104127.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MARKETING DIGITAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/marketing-digital_104129.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "BIG DATA PARA NEGOCIOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/big-data-negocios_104130.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "SISTEMAS INTEGRADOS DE GESTIÓN DE EMPRESAS (ERP)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/sistemas-integrados-gestion-empresas-erp_104131.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PROJECT MANAGEMENT",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/project-management_104132.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INTERNET DE LAS COSAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/internet-cosas_104133.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DIRECCIÓN ESTRATÉGICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/direccion-estrategica_104136.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN DE RECURSOS HUMANOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-recursos-humanos_104137.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PROTECCIÓN DE LA INNOVACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/proteccion-innovacion_104138.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INVESTIGACIÓN COMERCIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/investigacion-comercial_104139.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PLANIFICACIÓN COMERCIAL DE LA EMPRESA AGROALIMENTARIA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/planificacion-comercial-empresa-agroalimentaria_104140.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN DE LA PRODUCCIÓN Y COSTES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-produccion-costes_104142.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PLANIFICACIÓN COMERCIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/planificacion-comercial_104143.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PLAN DE NEGOCIO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/plan-negocio_104144.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "FUNDAMENTOS DE LA DIRECCION DE PROYECTOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/fundamentos-direccion-proyectos_104374.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "HERRAMIENTAS INFORMATICAS PARA LA DIRECCION Y GESTION DE PROYECTOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/herramientas-informaticas-direccion-gestion-proyectos_104375.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MÉTODOS Y TÉCNICAS PARA LA DIRECCIÓN Y GESTIÓN DE PROYECTOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/metodos-tecnicas-direccion-gestion-proyectos_104376.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN ÁGIL DE PROYECTOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-agil-proyectos_104377.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "REVIT BÁSICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "REVIT AVANZADO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/revit-avanzado_104442.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN DE CARTERAS I",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-carteras-i_104502.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MARCO LEGAL DE LA PLANIFICACIÓN FINANCIERA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/marco-legal-planificacion-financiera_104503.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN DE VENTAS Y COMERCIALIZACIÓN DE PRODUCTOS FINANCIEROS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-ventas-comercializacion-productos-financieros_104504.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ANÁLISIS DE LA COYUNTURA ECONÓMICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analisis-coyuntura-economica_104505.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MODELOS MULTICRITERIO APLICADOS A LA GESTIÓN DE CARTERAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/modelos-multicriterio-aplicados-gestion-carteras_104506.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN DE CARTERAS II",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-carteras-ii_104507.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PRODUCTOS Y MERCADOS FINANCIEROS I",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/productos-mercados-financieros-i_104509.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PRODUCTOS Y MERCADOS FINANCIEROS II",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/productos-mercados-financieros-ii_104510.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTIÓN DE FONDOS Y SOCIEDADES DE INVERSIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-fondos-sociedades-inversion_104511.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PLANIFICACIÓN FISCAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/planificacion-fiscal_104514.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "EXCEL PARA FINANZAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/excel-finanzas_104515.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTION FINANCIERA DE EMPRESAS INMOBILIARIAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-financiera-empresas-inmobiliarias_104550.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "URBANISMO: PLANEAMIENTO, GESTIÓN Y DISCIPLINA URBANÍSTICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/urbanismo-planeamiento-gestion-disciplina-urbanistica_104551.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DERECHO INMOBILIARIO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/derecho-inmobiliario_104552.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ETICA DE LA VALORACION",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/etica-valoracion_104553.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "SOSTENIBILIDAD URBANA: EDIFICACION Y CIUDAD",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/sostenibilidad-urbana-edificacion-ciudad_104554.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "FISCALIDAD INMOBILIARIA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/fiscalidad-inmobiliaria_104555.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACION PARA LA CONTABILIDAD Y AUDITORIA DE TASACIONES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-contabilidad-auditoria-tasaciones_104556.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CONSTRUCCION",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/construccion_104557.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MODELOS ECONOMÉTRICOS DE VALORACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/modelos-econometricos-valoracion_104558.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACION DEL SUELO URBANO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-suelo-urbano_104559.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "EL MERCADO DEL SUELO Y SECTOR INMOBILIARIO CORPORATIVO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/mercado-suelo-sector-inmobiliario-corporativo_104560.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACIÓN DE INTANGIBLES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-intangibles_104561.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "METODOS DE VALORACION DE EMPRESAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/metodos-valoracion-empresas_104562.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACIÓN INMOBILIARIA URBANA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-inmobiliaria-urbana_104563.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "COMMERCIAL REAL ESTATE INVESTMENT AND VALUATION",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/commercial-real-estate-investment-and-valuation_104564.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CASOS PRÁCTICOS DE INFORMES DE VALORACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/casos-practicos-informes-valoracion_104565.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACION PERICIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-pericial_104566.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACIÓN CATASTRAL: UNA PERSPECTIVA INTERNACIONAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-catastral-perspectiva-internacional_104567.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACION Y TASACION DE OBRAS DE ARTE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-tasacion-obras-arte_104568.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "EL MERCADO INTERNACIONAL DE OBRAS DE ARTE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/mercado-internacional-obras-arte_104569.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACION DE PROYECTOS DE INVERSION",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-proyectos-inversion_104570.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "METODOS DE TASACION AGRARIA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/metodos-tasacion-agraria_104571.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACION DE ARBOLES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-arboles_104572.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACION DEL AGUA DE RIEGO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-agua-riego_104573.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALORACIÓN RURAL SEGÚN LA LEY DE SUELO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valoracion-rural-ley-suelo_104574.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO C1.1 (ONLINE)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-online_104624.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO B1.1 (ONLINE)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b1-1-online_104626.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO A2.1 (ONLINE)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-a2-1-online_104627.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO C2.1 (ONLINE)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c2-1-online_104628.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO B2.1 (ONLINE)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-online_104629.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CAMPOS MAGNÉTICOS EN INSTALACIONES ELÉCTRICAS Y ALREDEDORES, Y SU CÁLCULO Y REPRESENTACIÓN CON CRMAG PLUS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/campos-magneticos-instalaciones-electricas-alrededores-calculo-representacion-crmag-plus_104640.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ANÁLISIS Y DISEÑO DE PUESTAS A TIERRA EN INSTALACIONES ELÉCTRICAS CON CRGROUND®",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analisis-diseno-puestas-tierra-instalaciones-electricas-crground_104641.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INTRODUCCIÓN A LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA MEDIANTE QGIS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-sistemas-informacion-geografica-mediante-qgis_104667.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "BASES DE DATOS ESPACIALES: POSTGIS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/bases-datos-espaciales-postgis_104668.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INFRAESTRUCTURAS DE DATOS ESPACIALES Y GEOPORTALES (WEB MAPPING)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/infraestructuras-datos-espaciales-geoportales-web-mapping_104669.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO A2.1 (VIDEOCONFERENCIA)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-a2-1-videoconferencia_104704.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "LEAN MANUFACTURING SEIS SIGMA YELLOW BELT",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/lean-manufacturing-seis-sigma-yellow-belt_104714.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CIBERSEGURIDAD: SEGURIDAD EN LA INFORMACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/ciberseguridad-seguridad-informacion_104715.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO C1.1 (VIDEOCONFERENCIA) GRUPO A",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo_104716.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INTRODUCCIÓN AL PYTHON PARA IA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-python-ia_104717.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PROYECTOS RENTABLES: APRENDE A EVALUAR ANTES DE INVERTIR",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/proyectos-rentables-aprende-evaluar-antes-invertir_104745.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "EMPRENDER PARA TRANSFORMAR: NEGOCIOS CON IMPACTO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/emprender-transformar-negocios-impacto_104758.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ANÁLISIS DE REDES DE AGUA CON EPANET",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analisis-redes-agua-epanet_104770.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DIMENSIONADO DE REDES HIDRAULICAS CON EPANET",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/dimensionado-redes-hidraulicas-epanet_104771.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ANALISIS DE REDES DE SANEAMIENTO CON SWMM",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analisis-redes-saneamiento-swmm_104772.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "TRANSITORIOS HIDRAULICOS EN SISTEMAS A PRESION CON ALLIEVI",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/transitorios-hidraulicos-sistemas-presion-allievi_104773.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INDICADORES DE GESTION CON SIGMA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/indicadores-gestion-sigma_104774.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTION PATRIMONIAL DE INFRAESTRUCTURAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-patrimonial-infraestructuras_104775.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "EVALUACION Y CONTROL DE PERDIDAS DE AGUA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/evaluacion-control-perdidas-agua_104776.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTION DE LA DEMANDA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-demanda_104777.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "HIDRAULICA BASICA DE SISTEMAS A PRESION",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/hidraulica-basica-sistemas-presion_104778.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALVULAS EN LOS SISTEMAS DE DISTRIBUCION DE AGUA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valvulas-sistemas-distribucion-agua_104779.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ESTACIONES DE BOMBEO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/estaciones-bombeo_104780.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CONTADORES DE AGUA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/contadores-agua_104781.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "SELECCION, DIMENSIONADO Y UTILIZACION DE VALVULAS EN EPANET",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/seleccion-dimensionado-utilizacion-valvulas-epanet_104782.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MODELACION AVANZADA DE REDES CON EPANET",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/modelacion-avanzada-redes-epanet_104783.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ANALISIS DE LA CALIDAD DEL AGUA CON EPANET",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/analisis-calidad-agua-epanet_104784.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PROGRAMACION CON TOOLKIT DE EPANET",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/programacion-toolkit-epanet_104785.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "HIDRAULICA BASICA DE LAMINA LIBRE E HIDROLOGIA URBANA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/hidraulica-basica-lamina-libre-hidrologia-urbana_104786.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ESTUDIOS DE LOS VERTIDOS EN TIEMPO DE LLUVIA MEDIANTE SWMM",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/estudios-vertidos-tiempo-lluvia-mediante-swmm_104787.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INSTRUMENTACIÓN EN CUENCAS URBANAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/instrumentacion-cuencas-urbanas_104788.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "RESOLUCIÓN DE CASOS PRÁCTICOS CON SWMM",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/resolucion-casos-practicos-swmm_104789.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DISEÑO DE SISTEMAS DE PROTECCION FRENTE A TRANSITORIOS HIDRAULICOS MEDIANTE EL PROGRAMA ALLIEVI",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diseno-sistemas-proteccion-frente-transitorios-hidraulicos-mediante-programa-allievi_104790.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "RESOLUCION DE CASOS PRACTICOS DE TRANSITORIOS HIDRAULICOS CON ALLIEVI",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/resolucion-casos-practicos-transitorios-hidraulicos-allievi_104791.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "APLICACIÓN DE LA IA A LA VALORACIÓN Y GESTIÓN DE ACTIVOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/aplicacion-ia-valoracion-gestion-activos_104808.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO B1.1 (VIDEOCONFERENCIA)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b1-1-videoconferencia_104915.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO B2.1 (VIDEOCONFERENCIA)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-videoconferencia_104916.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO C2.1 (VIDEOCONFERENCIA)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c2-1-videoconferencia_104917.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "VALENCIANO C1.1 (VIDEOCONFERENCIA) GRUPO B",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo-b_104918.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "LA REVOLUCIÓN DE LA FOTOGRAFÍA, EL DISEÑO Y LA PRODUCCIÓN AUDIOVISUAL CON INTELIGENCIA ARTIFICIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/revolucion-fotografia-diseno-produccion-audiovisual-inteligencia-artificial_105009.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASESOR FINANCIERO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero_105046.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "AGENTE FINANCIERO EUROPEO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/agente-financiero-europeo_105049.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASISTENTE FINANCIERO EUROPEO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asistente-financiero-europeo_105055.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASESOR FINANCIERO EN CRÉDITO HIPOTECARIO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero-credito-hipotecario_105064.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INFORMADOR FINANCIERO EN CRÉDITO HIPOTECARIO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/informador-financiero-credito-hipotecario_105065.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ACTUALIZACIÓN DE CONOCIMIENTOS EN ASESORÍA FINANCIERA 2026",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-asesoria-financiera-2026_105066.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2026",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-credito-inmobiliario-2026_105067.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MÓDULO EN ANÁLISIS A TRAVÉS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA APLICADOS AL TERRITORIO Y LA CIUDAD",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/modulo-analisis-traves-sistemas-informacion-geografica-aplicados-territorio-ciudad_105120.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MÓDULO EN NOCIONES BÁSICAS PARA EL USO DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA EN LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/modulo-nociones-basicas-uso-sistemas-informacion-geografica-ordenacion-territorio-urbanismo-paisaje_105121.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "CLOUD COMPUTING CON AMAZON WEB SERVICES (AWS)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/cloud-computing-amazon-web-services-aws_105186.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PATRÓN DE EMBARCACIONES DE RECREO (PREPARACIÓN PARA EL EXAMEN OFICIAL)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/patron-embarcaciones-recreo-preparacion-examen-oficial_105218.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASPECTOS LEGISLATIVOS DEL ESPACIO ULTRATERRESTRE, LA LUNA Y DEMÁS CUERPOS CELESTES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/aspectos-legislativos-espacio-ultraterrestre-luna-demas-cuerpos-celestes_105225.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASPECTOS LEGISLATIVOS APLICABLES AL ESTUDIO DEL PATRIMONIO CULTURAL VALENCIANO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/aspectos-legislativos-aplicables-estudio-patrimonio-cultural-valenciano_105226.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ASPECTOS LEGALES DE LA INTELIGENCIA ARTIFICIAL Y SU APLICACIÓN EN LA SOCIEDAD",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/aspectos-legales-inteligencia-artificial-aplicacion-sociedad_105227.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "LEGISLACIÓN APLICADA A LA ALIMENTACIÓN Y LA PROTECCIÓN DEL CONSUMIDOR",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/legislacion-aplicada-alimentacion-proteccion-consumidor_105228.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INGENIERIA EN ACUICULTURA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/ingenieria-acuicultura_105269.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "REPRODUCCION DE PECES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/reproduccion-peces_105270.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "DISEÑO DE INSTALACIONES ACUICOLAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diseno-instalaciones-acuicolas_105271.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ACUICULTURA SOSTENIBLE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/acuicultura-sostenible_105272.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PATOLOGIA ACUICOLA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/patologia-acuicola_105273.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "GESTION DE PRODUCCION EN ACUICULTURA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/gestion-produccion-acuicultura_105274.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "NUTRICION Y ALIMENTACION ACUICOLA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/nutricion-alimentacion-acuicola_105275.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "LIDERAZGO, AGENDA Y ENFOQUE CON PERSPECTIVA DE GÉNERO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/liderazgo-agenda-enfoque-perspectiva-genero_105319.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ENERGÍA SOLAR FOTOVOLTAICA - UNA APUESTA DE FUTURO SOSTENIBLE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/energia-solar-fotovoltaica-apuesta-futuro-sostenible_105321.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "IDENTIFICAR Y COMBATIR EL DISCURSO DE ODIO, LOS SESGOS Y LA DESINFORMACIÓN EN REDES SOCIALES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/identificar-combatir-discurso-odio-sesgos-desinformacion-redes-sociales_105347.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MÓDULO AVANZADO DE PROTECCIÓN RADIOLÓGICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/modulo-avanzado-proteccion-radiologica_105368.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MICRODISCRIMINACIONES POR RAZÓN DE ORIGEN. RACISMO Y XENOFOBIA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/microdiscriminaciones-razon-origen-racismo-xenofobia_105385.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "ROMPER EL CÍRCULO DE LA VIOLENCIA DE GÉNERO. AGENTES, ALIADOS Y TOMA DE DECISIONES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/romper-circulo-violencia-genero-agentes-aliados-toma-decisiones_105487.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "AUTOCAD 2D PARA INGENIERÍA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/autocad-2d-ingenieria_105515.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "LA ASERTIVIDAD EN EL ENTORNO PROFESIONAL - ONLINE 1ª ED. 26-27",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/asertividad-entorno-profesional-online-1-ed-26-27_105518.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "HABLAR EN PÚBLICO - ONLINE 1ª ED. 26-27",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/hablar-publico-online-1-ed-26-27_105521.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INTELIGENCIA EMOCIONAL: ELEMENTO CLAVE PARA LA EMPLEABILIDAD - ONLINE 1ª ED. 26-27",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/inteligencia-emocional-elemento-clave-empleabilidad-online-1-ed-26-27_105522.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "PORFOLIO CREATIVO - ONLINE 1ª ED. 26-27",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/porfolio-creativo-online-1-ed-26-27_105528.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "INSTAGRAM COMO HERRAMIENTA PROFESIONAL - ONLINE 1ª ED. 26-27",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/instagram-herramienta-profesional-online-1-ed-26-27_105529.html",
+      "origen": "cursos_online"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN VALORACIÓN BIOMECÁNICA CLÍNICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-valoracion-biomecanica-clinica_103882.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN ANÁLISIS BIOMECÁNICO EN EL ÁMBITO CLÍNICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-analisis-biomecanico-ambito-clinico_103884.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN VALORACIÓN BIOMECÁNICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-valoracion-biomecanica_103883.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN LA INDUSTRIA COSMÉTICA. DISEÑO, PRODUCCIÓN Y COMERCIALIZACIÓN DE PRODUCTOS COSMÉTICOS Y COSMECÉUTICOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-industria-cosmetica-diseno-produccion-comercializacion-productos-cosmeticos-cosmeceuticos_104378.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN BIOMOLECULES FOR FOOD",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-biomolecules-for-food_98916.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN FOTOGRAFÍA, ARTE Y TÉCNICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-fotografia-arte-tecnica_100810.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN FOTOGRAFÍA EN EL ARTE CONTEMPORÁNEO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-fotografia-arte-contemporaneo_100812.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN FOTOGRAFÍA PROFESIONAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-fotografia-profesional_100813.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN ANIMACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-animacion_104447.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN DIRECCIÓN DE ANIMACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-direccion-animacion_97694.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN ANIMACIÓN 2D",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-animacion-2d_97693.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN ANIMACIÓN 3D",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-animacion-3d_97695.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DISEÑO E ILUSTRACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-diseno-ilustracion_104478.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN DISEÑO CREATIVO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-diseno-creativo_104479.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN ILUSTRACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-ilustracion_104480.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN ILUSTRACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-ilustracion_98098.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DISEÑO DE INTERFAZ",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-diseno-interfaz_104685.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN HUMANIDADES ECOLÓGICAS, SUSTENTABILIDAD Y TRANSICIÓN ECOSOCIAL (INTERUNIVERSITARIO)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-humanidades-ecologicas-sustentabilidad-transicion-ecosocial-interuniversitario_104871.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN SOSTENIBILIDAD, ÉTICA ECOLÓGICA Y EDUCACIÓN AMBIENTAL (INTERUNIVERSITARIO)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-sostenibilidad-etica-ecologica-educacion-ambiental-interuniversitario_104872.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DISEÑO GRÁFICO Y TIPOGRAFÍA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-diseno-grafico-tipografia_104275.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN TIPOGRAFÍA Y DISEÑO EDITORIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-tipografia-diseno-editorial_104276.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN ARTETERAPIA. ASPECTOS EDUCATIVOS, SOCIALES Y TERAPÉUTICOS DEL ARTE COMO EXPERIENCIA DE CREACIÓN ACOMPAÑADA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-arteterapia-aspectos-educativos-sociales-terapeuticos-arte-experiencia-creacion-acompanada_103854.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN MEDIACIÓN A TRAVÉS DEL ARTE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-mediacion-traves-arte_103855.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN PROTECCIÓN RADIOLÓGICA EN INSTALACIONES RADIACTIVAS Y NUCLEARES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-proteccion-radiologica-instalaciones-radiactivas-nucleares_105365.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN PROTECCIÓN RADIOLÓGICA EN INSTALACIONES RADIACTIVAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-proteccion-radiologica-instalaciones-radiactivas_105367.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN PROTECCIÓN RADIOLÓGICA EN INSTALACIONES NUCLEARES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-proteccion-radiologica-instalaciones-nucleares_105366.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DISEÑO DE PIEZAS Y MOLDES PARA INYECCIÓN DE PLÁSTICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-diseno-piezas-moldes-inyeccion-plastico_104238.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ENERGIA SOLAR FOTOVOLTAICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-energia-solar-fotovoltaica_103467.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DESCARBONIZACIÓN INDUSTRIAL Y OPTIMIZACIÓN DE PROCESOS ENERGÉTICOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-descarbonizacion-industrial-optimizacion-procesos-energeticos_104046.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN BATTERY CELL PRODUCTION & TECHNOLOGY (POWERCO GIGACELL)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-battery-cell-production-technology-powerco-gigacell_104676.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN CAR DESIGN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-car-design_104482.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN TECNOLOGÍA DE MATERIALES POLIMÉRICOS Y COMPOSITES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-tecnologia-materiales-polimericos-composites_103780.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE GRADO PROPIO EN INGENIERÍA DE SISTEMAS Y GESTIÓN PARA RETOS DE INNOVACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-grado-propio-ingenieria-sistemas-gestion-retos-innovacion_100133.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN MANAGEMENT FOR THE INDUSTRY OF THE FUTURE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-management-for-the-industry-of-the-future_0.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DIRECCIÓN DE COOPERATIVAS AGROALIMENTARIAS - MBA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-direccion-cooperativas-agroalimentarias-mba_104109.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN GESTIÓN DE COOPERATIVAS AGROALIMENTARIAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-gestion-cooperativas-agroalimentarias_100414.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN SANIDAD VEGETAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-sanidad-vegetal_101441.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN PRODUCCIONES ACUÍCOLAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-producciones-acuicolas_105265.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN ACUICULTURA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-acuicultura_105266.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN PISCICULTURA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-piscicultura_105267.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN CAMARONICULTURA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-camaronicultura_105268.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DIRECCIÓN Y MARKETING DE EMPRESAS AGROALIMENTARIAS - MBA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-direccion-marketing-empresas-agroalimentarias-mba_97509.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DIRECCIÓN DE MARKETING DE EMPRESAS AGROALIMENTARIAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-direccion-marketing-empresas-agroalimentarias_100415.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO BÁSICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-basico_105188.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN MARKETING Y COMUNICACIÓN DIGITAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-marketing-comunicacion-digital_103567.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN COMUNICACIÓN DIGITAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-comunicacion-digital_103571.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACION EN MARKETING",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-marketing_103570.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO MEDIO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-medio_105189.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO AVANZADO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-avanzado_105190.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO EXPERTO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-experto_105187.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN CONTRATACIÓN DEL SECTOR PÚBLICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-contratacion-sector-publico_104446.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN CONTRATACIÓN PÚBLICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-contratacion-publica_99662.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN NEUROEMPRENDIMIENTO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-neuroemprendimiento_102329.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN INGENIERÍA DE LA TASACIÓN Y VALORACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-ingenieria-tasacion-valoracion_104546.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN INGENIERÍA DE LA TASACIÓN Y VALORACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-ingenieria-tasacion-valoracion_104549.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN NEGOCIOS INTERNACIONALES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-negocios-internacionales_104386.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN CIENCIAS INMOBILIARIAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-ciencias-inmobiliarias_104548.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GEOMETRÍAS JURÍDICAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-geometrias-juridicas_97723.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN APLICACIONES PROFESIONALES DE LAS GEOMETRÍAS JURÍDICAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-aplicaciones-profesionales-geometrias-juridicas_97726.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DERECHO INMOBILIARIO Y URBANÍSTICO APLICADO A LAS GEOMETRÍAS JURÍDICAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-derecho-inmobiliario-urbanistico-aplicado-geometrias-juridicas_97725.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN GEORREFERENCIACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-georreferenciacion_97727.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN GEOMETRÍAS JURÍDICAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-geometrias-juridicas_97724.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN ASESORAMIENTO FINANCIERO Y DE SEGUROS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-asesoramiento-financiero-seguros_104498.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN ASESORÍA FINANCIERA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-asesoria-financiera_104499.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN GESTIÓN DE CARTERAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-gestion-carteras_104500.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN NEUROMARKETING APLICADO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-neuromarketing-aplicado_103563.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN NEUROMARKETING",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-neuromarketing_103568.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DIRECCIÓN DE MARKETING Y COMUNICACIÓN EMPRESARIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-direccion-marketing-comunicacion-empresarial_103566.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN COMUNICACIÓN EMPRESARIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-comunicacion-empresarial_103569.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN COMUNICACIÓN DIGITAL Y EXPERIENCIA DE USUARIO (UX/UI)",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-comunicacion-digital-experiencia-usuario-ux-ui_103565.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN TECNOLOGÍAS INTERACTIVAS Y FABRICACIÓN DIGITAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-tecnologias-interactivas-fabricacion-digital_104205.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN TECNOLOGÍAS INTERACTIVAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-tecnologias-interactivas_104206.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN TECNOLOGÍAS INTERACTIVAS Y FABRICACIÓN DIGITAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-tecnologias-interactivas-fabricacion-digital_104208.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN TECNOLOGÍAS DE EDICIÓN DIGITAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-tecnologias-edicion-digital_104207.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DIRECCIÓN DE EMPRESAS Y TRANSFORMACIÓN DIGITAL - MBA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-direccion-empresas-transformacion-digital-mba_100412.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN DIRECCIÓN DE EMPRESAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-direccion-empresas_100413.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN TRANSFORMACIÓN DIGITAL DE EMPRESAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-transformacion-digital-empresas_100417.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DISEÑO MICROELECTRÓNICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-diseno-microelectronico_104829.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN MICROPROCESADORES Y CODISEÑO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-microprocesadores-codiseno_104835.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DISEÑO MICROELECTRÓNICO DIGITAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-diseno-microelectronico-digital_104830.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DISEÑO MICROELECTRÓNICO ANALÓGICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-diseno-microelectronico-analogico_104832.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN VERIFICACIÓN DE SISTEMAS DIGITALES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-verificacion-sistemas-digitales_104831.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DISEÑO DE CONVERTIDORES A/D Y D/A",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-diseno-convertidores-a-d-d-a_104836.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DISEÑO PARA RADIOFRECUENCIA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-diseno-radiofrecuencia_104833.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN DISEÑO DE PCB, INTEGRIDAD DE SEÑAL Y DISEÑO TÉRMICO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-diseno-pcb-integridad-senal-diseno-termico_104834.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN GEOINFORMATION TOOLS FOR CLIMATE CHANGE MANAGEMENT",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-geoinformation-tools-for-climate-change-management_102033.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN INTELIGENCIA ARTIFICIAL Y BIG DATA ANALYTICS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-inteligencia-artificial-big-data-analytics_104164.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN IOT DE SAMSUNG INNOVATION CAMPUS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-iot-samsung-innovation-campus_0.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN INTELIGENCIA ARTIFICIAL DE SAMSUNG INNOVATION CAMPUS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-inteligencia-artificial-samsung-innovation-campus_100296.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN NEUROCOMUNICACIÓN Y NEUROVENTAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-neurocomunicacion-neuroventas_103564.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN PORTUARIA Y TRANSPORTE INTERMODAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-gestion-portuaria-transporte-intermodal_104892.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN TRANSPORTE INTERMODAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-transporte-intermodal_104893.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN TRANSPORTE MARÍTIMO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-transporte-maritimo_104896.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN TRANSPORTE TERRESTRE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-transporte-terrestre_104895.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN GESTIÓN DE PUERTOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-gestion-puertos_104894.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN SISTEMAS DE INFORMACIÓN GEOGRÁFICA APLICADOS A LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-sistemas-informacion-geografica-aplicados-ordenacion-territorio-urbanismo-paisaje_105116.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN SISTEMAS DE INFORMACIÓN GEOGRÁFICA APLICADOS A LA ORDENACIÓN DEL TERRITORIO, EL URBANISMO Y EL PAISAJE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-sistemas-informacion-geografica-aplicados-ordenacion-territorio-urbanismo-paisaje_105117.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN GESTIÓN DE DATOS PARA LA ADMINISTRACIÓN DE TERRITORIOS Y CIUDADES A TRAVÉS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-gestion-datos-administracion-territorios-ciudades-traves-sistemas-informacion-geografica_105118.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN ANÁLISIS URBANO Y TERRITORIAL A TRAVÉS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-analisis-urbano-territorial-traves-sistemas-informacion-geografica_105119.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN BIM MANAGEMENT",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-bim-management_104439.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN TECNOLOGÍA BIM",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-tecnologia-bim_104440.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN EFICIENTE DEL AGUA URBANA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-gestion-eficiente-agua-urbana_104765.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN REDES DE SANEAMIENTO CON SWMM",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-redes-saneamiento-swmm_104768.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DIRECCIÓN Y PLANIFICACIÓN DE EMPRESAS - MBA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-direccion-planificacion-empresas-mba_97510.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN PLANIFICACIÓN Y CONTROL DE EMPRESAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-planificacion-control-empresas_100416.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN RESPONSABILIDAD Y SOSTENIBILIDAD CORPORATIVA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-responsabilidad-sostenibilidad-corporativa_103198.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN RESPONSABILIDAD SOCIAL CORPORATIVA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-responsabilidad-social-corporativa_103199.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN RESPONSABILIDAD Y SOSTENIBILIDAD CORPORATIVA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-responsabilidad-sostenibilidad-corporativa_98396.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN DEL DEPORTE Y EL TURISMO ACTIVO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-gestion-deporte-turismo-activo_104272.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN STARTUP ADMINISTRATION MSA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-startup-administration-msa_105295.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN DE PROYECTOS SAP",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-gestion-proyectos-sap_104197.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN SAP LOGISTICS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-logistics_0.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN SAP MANUFACTURING",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-manufacturing_0.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN SAP FINANCIALS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-financials_0.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN ORGANIZACIÓN, GESTIÓN Y ADMINISTRACIÓN DE ENTIDADES Y ORGANIZACIONES DEPORTIVAS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-organizacion-gestion-administracion-entidades-organizaciones-deportivas_104271.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN DE LA CIENCIA Y LA INNOVACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-gestion-ciencia-innovacion_105141.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN VALORIZACIÓN DE RESULTADOS DE INVESTIGACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-valorizacion-resultados-investigacion_100890.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN GESTIÓN DE LA INVESTIGACIÓN Y LA TRANSFERENCIA DE CONOCIMIENTO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-gestion-investigacion-transferencia-conocimiento_100886.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN INNOVACIÓN EMPRESARIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-innovacion-empresarial_100885.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN CONCEPTOS BÁSICOS SOBRE CIENCIA E INNOVACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-conceptos-basicos-ciencia-innovacion_105146.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN GESTIÓN, PLANIFICACIÓN Y PROYECTOS DE INNOVACIÓN EMPRESARIAL",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-gestion-planificacion-proyectos-innovacion-empresarial_105153.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN MODELOS Y MÉTODOS DE GESTIÓN DE LA INNOVACIÓN Y DEL CONOCIMIENTO",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-modelos-metodos-gestion-innovacion-conocimiento_100894.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN CREATIVIDAD Y EMPRENDIMIENTO PARA LA GESTIÓN DE LA INNOVACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-creatividad-emprendimiento-gestion-innovacion_105151.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN ESTRUCTURAS DE INTERFAZ Y PROYECTOS DE I+D",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-estructuras-interfaz-proyectos-i-d_105149.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN HERRAMIENTAS PARA LA GESTIÓN DE LA CIENCIA Y LA INNOVACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-herramientas-gestion-ciencia-innovacion_105147.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE EXPERTO EN POLÍTICA Y PLANIFICACIÓN ESTRATÉGICA DE LA CIENCIA Y LA INNOVACIÓN",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-politica-planificacion-estrategica-ciencia-innovacion_105150.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN PROJECT MANAGEMENT",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-project-management_104372.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN DIRECCIÓN DE PROYECTOS",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-direccion-proyectos_104373.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN BANCARIA EN UN ENTORNO SOSTENIBLE",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-gestion-bancaria-entorno-sostenible_101421.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN EXECUTIVE MBA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-executive-mba_105417.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN GESTIÓN SANITARIA: DIRECCIÓN DE HOSPITALES Y SERVICIOS DE SALUD",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-gestion-sanitaria-direccion-hospitales-servicios-salud_104884.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN GESTIÓN SANITARIA",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-gestion-sanitaria_104886.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN ECONOMÍA DE LA SALUD Y GESTIÓN DE HOSPITALES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-economia-salud-gestion-hospitales_104885.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "MÁSTER DE FORMACIÓN PERMANENTE EN DIRECCIÓN, GESTIÓN Y ANÁLISIS DE NEGOCIOS DIGITALES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/master-formacion-permanente-direccion-gestion-analisis-negocios-digitales_103458.html",
+      "origen": "masters"
+    },
+    {
+      "nombre": "DIPLOMA DE ESPECIALIZACIÓN EN DIRECCIÓN, GESTIÓN Y ANÁLISIS DE NEGOCIOS DIGITALES",
+      "url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-especializacion-direccion-gestion-analisis-negocios-digitales_103459.html",
+      "origen": "masters"
+    }
+  ]
+}

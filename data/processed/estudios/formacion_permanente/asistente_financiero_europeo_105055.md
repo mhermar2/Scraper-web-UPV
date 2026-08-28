@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ASISTENTE FINANCIERO EUROPEO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ASISTENTE FINANCIERO EUROPEO
@@ -72,7 +72,9 @@ David Pla Santamaría Profesor/a Titular de Universidad
 
 Rafael Valor Martínez Profesional del sector
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Temas a desarrollar
 

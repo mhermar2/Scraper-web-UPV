@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ASPECTOS LEGISLATIVOS APLICABLES AL ESTUDIO DEL PATRIMONIO CULTURAL VALENCIANO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ASPECTOS LEGISLATIVOS APLICABLES AL ESTUDIO DEL PATRIMONIO CULTURAL VALENCIANO
@@ -62,7 +62,7 @@ El curso está dirigido a profesionales del ámbito jurídico (abogados, jurista
 
 Francisca Ramón Fernández Catedrático/a de Universidad
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Temas a desarrollar
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: LEAN MANUFACTURING SEIS SIGMA YELLOW BELT
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # LEAN MANUFACTURING SEIS SIGMA YELLOW BELT
@@ -58,7 +58,9 @@ EQF6 - Personas que cursan Educación Superior (Grado)
 
 José Manuel Jabaloyes Vivas Profesor/a Titular de Universidad
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Temas a desarrollar
 

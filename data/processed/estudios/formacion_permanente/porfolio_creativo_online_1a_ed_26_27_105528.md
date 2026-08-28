@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: PORFOLIO CREATIVO - ONLINE 1ª ED. 26-27
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # PORFOLIO CREATIVO - ONLINE 1ª ED. 26-27
@@ -66,6 +66,8 @@ El curso se imparte en modalidad online asíncrona, lo que permite al estudianta
 
 Curso destinado al posicionamiento profesional para la búsqueda de empleo u oportunidades laborales de los participantes, mediante la realización de un porfolio creativo enfocado al sector de diseño en general. Aprovechando este formato se dará visibilidad a una selección de proyectos y trabajos realizados que constituyan su identidad profesional. El porfolio es la definición de tus capacidades y estilo propio para darte a conocer entre las empresas y clientes "qué puedes hacer y cómo lo haces" Más allá de las distintas herramientas de creación disponibles para realizarlo, este curso trata de consejos prácticos de cómo realizarlo y adaptarlo a las necesidades de cada profesional relacionado con el diseño. Si has completado en parte su formación y quiere buscar proyectos laborales, es el momento de crear su porfolio. Los contenidos que se van a desarrollar son los siguiente: U0 INTRODUCCIÓN U1 EL PORFOLIO U2 CARACTERÍSTICAS Y ELEMENTOS U3 PLATAFORMAS DIGITALES U4 MARCA PERSONAL E IDENTIDAD VISUAL U5 EL PROYECTO U6 PROYECTO FINAL
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 Página web: [https://www.upv.es/contenidos/sieemple...](https://www.upv.es/contenidos/sieemple/formacion/)

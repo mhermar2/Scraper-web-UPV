@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN MODELOS Y MÉTODOS DE GESTIÓN DE LA INNOVACIÓN Y DEL CONOCIMIENTO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN MODELOS Y MÉTODOS DE GESTIÓN DE LA INNOVACIÓN Y DEL CONOCIMIENTO
@@ -44,9 +44,9 @@ Responsable de la actividad: Mónica Arroyo Vázquez
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Suscríbete al boletín del CFP
+## Portal de formación permanente UPV
 
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Dirigido a
 

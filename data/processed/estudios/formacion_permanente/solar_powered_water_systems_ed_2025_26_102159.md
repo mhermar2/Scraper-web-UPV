@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: SOLAR POWERED WATER SYSTEMS (ED. 2025/26)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # SOLAR POWERED WATER SYSTEMS (ED. 2025/26)
@@ -84,6 +84,8 @@ Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados f
 
 This course is taught in English. Detailed course program: Module 0: Introduction to Solar PV energy and Solar Powered Water Systems in Humanitarian and Development Contexts. Module 1: Main Definitions and Principles of PV Solar Energy Production. Module 2: Solar powered water system configurations and components. Module 3: Factors influencing solar photovoltaic energy production. Module 4: Design of a Solar Powered Water Scheme Section 4.1 - System planning. Section 4.2 - Manual calculation. Section 4.3 - Using PVWPS design software. Module 5: Electrical and mechanical installation Section 5.1 - Equipment and control. Section 5.2 - Installation process. Module 6: Practical aspects related to solar powered water pumping. Module 7: Calls for proposal and bidding. Module 8: Economic analysis - life cycle cost for different pumping technologies. Module 9: Testing and commissioning, operation and maintenance. Module 10: Long term management of Solar Powered Water Systems. Dispones de una versión en español de este mismo curso con el nombre "BOMBEO FOTOVOLTAICO"
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 Página web: [https://www.cursofotovoltaica.com/sola...](https://www.cursofotovoltaica.com/solar-powered-water-systems/)

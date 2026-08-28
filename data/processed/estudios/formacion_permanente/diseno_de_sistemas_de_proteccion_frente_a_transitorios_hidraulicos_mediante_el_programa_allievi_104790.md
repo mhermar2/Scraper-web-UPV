@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: DISEÑO DE SISTEMAS DE PROTECCION FRENTE A TRANSITORIOS HIDRAULICOS MEDIANTE EL PROGRAMA ALLIEVI
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DISEÑO DE SISTEMAS DE PROTECCION FRENTE A TRANSITORIOS HIDRAULICOS MEDIANTE EL PROGRAMA ALLIEVI
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 575€ Alumni UPV PLUS 575€ Personal UPV 575€ Alumno UPV 795€ Público en general 575€ Desempleados 575€ Ciudadanos de países de rentas reducidas
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

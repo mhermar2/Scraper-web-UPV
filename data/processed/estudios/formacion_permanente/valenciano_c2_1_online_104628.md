@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALENCIANO C2.1 (ONLINE)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALENCIANO C2.1 (ONLINE)
@@ -60,14 +60,12 @@ Los estudiantes y los miembros de Alumni PLUS, el PAS y el PDI de la UPV, y el p
 
 María Izquierdo García Profesional del sector
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Temas a desarrollar
 
 En este curso se desarrollarán los contenidos siguientes: 1) NORMATIVA LINGÜÍSTICA Y SOCIOLINGÜÍSTICA. Conocimientos avanzados de: a) CONSONANTISMO I: H, B/V, vibrantes. b) ARTÍCULO DEFINIDO. c) VOCALISMO. d) CONJUNCIONES. e) ADVERBIOS. f) USOS DE LOS TIEMPOS VERBALES. g) FORMACIÓN DE PALABRAS. DERIVACIÓN, COMPOSICIÓN, ETC. 2) COMPRENSIÓN Y EXPRESIÓN ESCRITA: Conocimientos y habilidades para producir escritos complejos (informes, artículos de opinión, etc.), y capacidad capaz de dotar los textos de una estructura lógica, apropiada y eficaz, que ayuda el lector a encontrar y recordar las ideas importantes. 3) COMPRENSIÓN Y EXPRESIÓN ORAL: Profundización en la fluidez y la corrección. Exposiciones orales sobre la docencia en valenciano (PDI), sobre la atención al público en el puesto de trabajo (), y sobre los estudios universitarios (estudiantes). 4) SOCIOLINGÜÍSTICA: Historia de la lengua desde el s. XVI: crisis Y reanudaciones.
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 Página web: [http://www.upv.es/spnl](http://www.upv.es/spnl)

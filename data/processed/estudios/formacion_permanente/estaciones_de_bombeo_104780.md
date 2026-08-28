@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ESTACIONES DE BOMBEO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ESTACIONES DE BOMBEO
@@ -52,7 +52,9 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 430€ Alumno UPV 430€ Personal UPV 430€ Alumni UPV PLUS 630€ Público en general 430€ Desempleados 430€ Ciudadanos de países de rentas reducidas
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Acción formativa dirigida a
 

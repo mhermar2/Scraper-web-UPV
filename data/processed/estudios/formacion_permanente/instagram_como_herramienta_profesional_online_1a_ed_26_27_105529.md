@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: INSTAGRAM COMO HERRAMIENTA PROFESIONAL - ONLINE 1ª ED. 26-27
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INSTAGRAM COMO HERRAMIENTA PROFESIONAL - ONLINE 1ª ED. 26-27
@@ -66,6 +66,6 @@ El curso se imparte en modalidad online asíncrona, lo que permite al estudianta
 
 A través de “Instagram como Herramienta Profesional” aprenderás a impulsar tu marca personal, así como llegar a tu público objetivo generando comunidad y desarrollando una estrategia con un universo propio, donde dar a conocer tu trabajo, creando sinergias y una huella digital profesional Este curso de nivel inicial está diseñado para ayudar a los participantes a desarrollar habilidades profesionales en el uso de la aplicación y red social INSTAGRAM, con el objetivo de mejorar sus oportunidades laborales y búsqueda de empleo. Esta red social proporciona visibilidad a todos aquellos documentos, porfolios, videos, etc., aumentado el conocimiento de la marca profesional. Se trata de un curso enfocado a la mejora de su uso como red profesional y posicionamiento de marca y no al inicio básico de la app. Introducción La importancia de Instagram • Por qué utilizarlo • Cuentas para empresas - Cuentas para creadores • Humanizar tu marca Estrategia de contenidos • Posicionamiento de Marca • Propuesta única- Pilares de Comunicación • Objetivos de Marca • Valores de Marca • Planificación de Contenidos Elementos Fundamentales • Biografía Atrayente • Importancia del storytelling • Como utilizar instagram storys para conectar y convertir • Call to Action Seguidores y Engagement • Encontrar y capturar tu target Campaña paid media • Cuenta publicitaria Analítica de las estadísticas • Casos de estudio
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 Página web: [https://www.upv.es/contenidos/sieemple...](https://www.upv.es/contenidos/sieemple/formacion/)

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ANÁLISIS DE REDES DE AGUA CON EPANET
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ANÁLISIS DE REDES DE AGUA CON EPANET
@@ -52,9 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 320€ Alumni UPV PLUS 320€ Personal UPV 320€ Alumno UPV 495€ Público en general 320€ Ciudadanos de países de rentas reducidas 320€ Desempleados
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: SELECCION, DIMENSIONADO Y UTILIZACION DE VALVULAS EN EPANET
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # SELECCION, DIMENSIONADO Y UTILIZACION DE VALVULAS EN EPANET
@@ -52,7 +52,9 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Alumno UPV 250€ Personal UPV 250€ Alumni UPV PLUS 380€ Público en general 250€ Ciudadanos de países de rentas reducidas 250€ Desempleados
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Acción formativa dirigida a
 

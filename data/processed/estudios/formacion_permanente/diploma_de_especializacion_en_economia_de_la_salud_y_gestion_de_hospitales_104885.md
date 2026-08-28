@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE ESPECIALIZACIÓN EN ECONOMÍA DE LA SALUD Y GESTIÓN DE HOSPITALES
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE ESPECIALIZACIÓN EN ECONOMÍA DE LA SALUD Y GESTIÓN DE HOSPITALES

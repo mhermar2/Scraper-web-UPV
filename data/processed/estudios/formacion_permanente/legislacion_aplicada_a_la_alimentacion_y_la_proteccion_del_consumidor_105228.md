@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: LEGISLACIÓN APLICADA A LA ALIMENTACIÓN Y LA PROTECCIÓN DEL CONSUMIDOR
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # LEGISLACIÓN APLICADA A LA ALIMENTACIÓN Y LA PROTECCIÓN DEL CONSUMIDOR
@@ -62,9 +62,7 @@ El curso está dirigido a profesionales del ámbito de la alimentación (tecnól
 
 Francisca Ramón Fernández Catedrático/a de Universidad
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Temas a desarrollar
 

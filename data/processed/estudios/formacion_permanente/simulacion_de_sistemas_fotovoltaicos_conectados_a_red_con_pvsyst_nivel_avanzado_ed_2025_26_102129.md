@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: SIMULACIÓN DE SISTEMAS FOTOVOLTAICOS CONECTADOS A RED CON PVSYST. NIVEL AVANZADO (ED. 2025/26)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # SIMULACIÓN DE SISTEMAS FOTOVOLTAICOS CONECTADOS A RED CON PVSYST. NIVEL AVANZADO (ED. 2025/26)
@@ -84,8 +84,6 @@ Material formativo en plataforma on-line PoliformaT: apuntes, videos, documentos
 
 1, Introducción. PVsyst básico. 2. Herramientas para simular fielmente la instalación: construcción 3D; factores de pérdidas; módulos bifaciales; optimizadores; etc. 3. Componentes utilizados en las simulaciones: archivos .PAN y .OND; importación y exportación de los datos asociados a los proyectos. 4. Análisis de datos. Representación y obtención de informes y gráficos: simulación mensual y simulación con lotes; optimización y envejecimiento; forzado de datos para la simulación; etc. 5. Otras aplicaciones menos comunes de PVsyst: diseño rápido preliminar de sistemas; bombeo; aisladas. 6. Resolución de los casos prácticos planteados. • Sistema fotovoltaico de conexión a red en sector doméstico/industrial en cubierta con sombreados. • Sistema fotovoltaico de conexión a red en escala MW (utility-scale). 7. Tutoriales adicionales: • Introducción a PVsyst (con Miguel Alonso – CIEMAT – 2014). • Simulación y dimensionamiento de baterías industriales (con Huawei – 2024).
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.

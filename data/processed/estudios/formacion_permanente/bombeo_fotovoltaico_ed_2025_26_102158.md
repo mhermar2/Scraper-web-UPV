@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: BOMBEO FOTOVOLTAICO (ED. 2025/26)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # BOMBEO FOTOVOLTAICO (ED. 2025/26)
@@ -84,7 +84,7 @@ Cristian Terrados López Profesional del sector
 
 Asenath Wambui Kiprono Profesional del sector
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Temas a desarrollar
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO BÁSICO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO BÁSICO
@@ -44,15 +44,15 @@ Responsable de la actividad: Fernando José Cos-Gayón López
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Dirigido a
 
 El título está dirigido a aquellas personas que deseen colegiarse como Administradores de Fincas o trabajar en cualquier empresa relacionada con el sector inmobiliario.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Requisitos de acceso
 

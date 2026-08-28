@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN DESCARBONIZACIÓN INDUSTRIAL Y OPTIMIZACIÓN DE PROCESOS ENERGÉTICOS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN DESCARBONIZACIÓN INDUSTRIAL Y OPTIMIZACIÓN DE PROCESOS ENERGÉTICOS
@@ -60,7 +60,7 @@ Los objetivos generales del curso son proporcionar una formación en las distint
 
 Personal técnico y directivo de la industria, especialmente de los sectores químico, energético y afines, así como a estudiantes de último curso de másteres y grados de ingeniería y ciencias.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Requisitos de acceso
 

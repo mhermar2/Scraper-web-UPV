@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ASISTENTE FINANCIERO EUROPEO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ASISTENTE FINANCIERO EUROPEO
@@ -72,9 +72,7 @@ Miguel Ángel Lafita Ramírez Profesional del sector
 
 Rafael Valor Martínez Profesional del sector
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Temas a desarrollar
 

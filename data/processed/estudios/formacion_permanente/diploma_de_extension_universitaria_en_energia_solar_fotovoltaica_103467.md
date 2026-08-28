@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ENERGIA SOLAR FOTOVOLTAICA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ENERGIA SOLAR FOTOVOLTAICA
@@ -62,7 +62,9 @@ El objetivo principal del Diploma de Extensión Universitaria en Energía Solar 
 
 Los perfiles más adecuados para seguir con facilidad los estudios son: - Ingenieros Superiores, Ing. de Grado e Ing. Técnicos de cualquier rama: industrial, electrónica, electricidad, mecánica, civil, agrónomos, etc. - Arquitectura o carreras afines. - Alumnos de ciclos formativos y formación profesional. - Personal de oficinas técnicas. - Instaladores eléctricos y otros profesionales que deseen una formación complementaria y aplicada en el ámbito de la energía solar fotovoltaica y las energías renovables. Los perfiles anteriores no son excluyentes, pudiendo realizar los estudios cualquier persona interesada en la tecnología fotovoltaica: gestores económicos, licenciados en economía y derecho, asesores financieros, etc. Desde la primera edición en 2010 el curso ha sido completado por todo tipo de estudiantes de diversos países: Brasil; Chile; Colombia; Ecuador; España; Francia; México, Perú; Uruguay; USA; etc. Este tipo de estudios tienen reconocida la posibilidad de realizar prácticas en empresa, a gestionar por el propio alumno a través del Servicio Integrado de Empleo de la UPV. El número máximo de horas de prácticas en empresa es de 225 (equivalente a 9 ECTS). Las condiciones de realización de las prácticas en empresa están sujetas a la normativa vigente en la UPV, que puede consultarse en http://www.upv.es/entidades/SIE/indexc.html.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Requisitos de acceso
 

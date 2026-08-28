@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALENCIANO B1.1 (VIDEOCONFERENCIA)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALENCIANO B1.1 (VIDEOCONFERENCIA)
@@ -62,12 +62,12 @@ Los estudiantes y los miembros de Alumni PLUS, el PAS y el PDI de la UPV, y el p
 
 Laura Rubio Heras Profesional del sector
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Temas a desarrollar
 
 En este curso se desarrollarán los contenidos siguientes: 1) NORMATIVA LINGÜÍSTICA 1.1) Elocució y fonología: a) Elisiones vocálicas, enlaces fónicos y fonética sintáctica b) Entonación y lenguaje no verbal 1.2) Ortografía: a) Dígrafos y separación de sílabas. b) Vocalismo. c) La acentuación y la diéresis. d) La apostrofación. e) El uso del guion. f) Consonantismo. 1.3) Morfología y sintaxis: a) El sustantivo y la adjetivo. b) Los determinantes: El artículo: uso del apóstrofo, las contracciones; el artículo neutro. Demostrativos. posesivos numerales e indefinidos. e) Morfología verbal. - Las conjugaciones de los verbos regulares. - Principales verbos irregulares. - Verbos auxiliares. - Uso de las construcciones perifrásticas. 1.4) Léxico y semántica: a) La formación del léxico: derivación y composición. b) Polisemia, sinonimia y antonimia. c) Las locuciones y las frases hechas más usuales. d) Las formas correctas de los barbarismos más usuales. 2) EXPRESIÓN ESCRITA Escribir textos cortos del entorno cotidiano (cartas, reclamaciones, descripciones de personas...) en lengua estándar, con un grado de corrección lingüística suficiente para hacer el mensaje comprensible. 3) EXPRESIÓN ORAL Mantener conversaciones formales sobre cualquier tema de interés general o de interés específico, y producir textos en lengua estándar sobre temas de interés general. Leer en voz alta textos literarios en prosa o dialogados con la entonación y la corrección suficientes que permiten al oyente percibir el valor expresivo que pide cada texto. 4) SOCIOLINGÜÍSTICA: a) Variedades de la lengua. b) Variedades geográficas.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 Página web: [http://www.upv.es/spnl](http://www.upv.es/spnl)

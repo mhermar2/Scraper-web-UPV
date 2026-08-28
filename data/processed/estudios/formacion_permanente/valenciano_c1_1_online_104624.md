@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALENCIANO C1.1 (ONLINE)
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALENCIANO C1.1 (ONLINE)
@@ -60,12 +60,12 @@ Los estudiantes y los miembros de Alumni PLUS, el PAS y el PDI de la UPV, y el p
 
 Rosa Maria Espert Arbona Profesional del sector
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Temas a desarrollar
 
 En este curso se desarrollarán los siguientes contenidos: 1) NORMATIVA LINGÜÍSTICA Y SOCIOLINGÜÍSTICA: a) La acentuación y la diéresis. b) El artículo. c) El verbo I (flexión irregular y usos de los tiempos verbales). d) Flexión del sustantivo. e) Las preposiciones. f) Las grafías G/J, TG/TJ. Las grafías X/IX/TX/IG g) Los pronombres débiles. h) Locuciones, frases hechas y refranes. i) Relativos e interrogativos. 2) EXPRESIÓN ESCRITA Conocimientos y habilidades necesarias para ser capaz de expresarse con textos claros y con la adecuación, coherencia y cohesión apropiadas, de seleccionar el estilo apropiado en función del lector al que van dirigidos los textos, y de producir varios tipos de texto adecuados para el puesto de trabajo o estudios en la UPV. 3) EXPRESIÓN ORAL a) Fluidez y corrección. b) Exposiciones orales relacionadas con el uso del valenciano en el puesto de trabajo y en los estudios en la UPV. 4) SOCIOLINGÜÍSTICA: Presentación del idioma. Situación sociolingüística actual.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 Página web: [http://www.upv.es/spnl](http://www.upv.es/spnl)

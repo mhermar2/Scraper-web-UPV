@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ASESOR FINANCIERO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ASESOR FINANCIERO
@@ -80,7 +80,9 @@ Ana María García Bernabeu Profesor/a Titular de Universidad
 
 David Pla Santamaría Profesor/a Titular de Universidad
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Temas a desarrollar
 

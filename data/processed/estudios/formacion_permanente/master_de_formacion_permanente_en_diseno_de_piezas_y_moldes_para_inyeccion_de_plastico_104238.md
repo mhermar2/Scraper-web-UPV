@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN DISEÑO DE PIEZAS Y MOLDES PARA INYECCIÓN DE PLÁSTICO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN DISEÑO DE PIEZAS Y MOLDES PARA INYECCIÓN DE PLÁSTICO
@@ -76,9 +76,9 @@ El título permite realizar prácticas externas extracurriculares durante el per
 
 – Estudiantes de último curso de Grado en Ingeniería (especialidad Diseño Industrial y Desarrollo de Productos, Mecánica, Química, Organización Industrial, etc.) que quieran enfocar su formación hacia el sector del plástico. – Profesionales (con experiencia mínima de tres años, demostrable con vida laboral) que cuenten con el certificado PAU de acceso a la universidad, un módulo superior o equivalente. – Postgraduados que deseen ampliar o reciclar su formación en el diseño de piezas y moldes para la inyección de plásticos. – Estudiantes titulados del DEU en Diseño de Piezas para Inyección de Plástico que quieran ampliar conocimientos, capacitarse para la profesión de diseñador de moldes y obtener un título que les facilitará la entrada al mercado laboral.
 
-## Portal de formación permanente UPV
+## Suscríbete al boletín del CFP
 
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Requisitos de acceso
 

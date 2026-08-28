@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: INTRODUCCIÓN AL PYTHON PARA IA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INTRODUCCIÓN AL PYTHON PARA IA
@@ -50,15 +50,15 @@ Responsable de la actividad: Ignacio Gil Pechuán
 
 Considerando que Python es quizás el lenguaje más popular en el campo de la IA, pretende transmitir las herramientas clave para el desarrollo de modelos de IA, manipular datos, entrenar modelos de aprendizaje automático y comprender los principios básicos del desarrollo de sistemas inteligentes.
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Profesores
 
 Ignacio Gil Pechuán Catedrático/a de Universidad
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Temas a desarrollar
 

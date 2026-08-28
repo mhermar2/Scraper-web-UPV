@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN SANIDAD VEGETAL
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN SANIDAD VEGETAL
@@ -46,15 +46,13 @@ Responsable de la actividad: Antonia Isabel Soto Sánchez
 
 El título permite realizar prácticas externas extracurriculares durante el periodo lectivo. Las prácticas tendrán con carácter general una duración máxima de hasta el 30% de los créditos necesarios para superar la titulación en estudios de grado y de hasta el 40% en los títulos propios de posgrado.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Dirigido a
 
 Graduados en Ingenierías Agrarias o Agroalimentarias, y en Ciencias forestales, Biológicas o Ambientales, Ingenieros técnicos Agrícolas o Forestales, Ingenieros Agrónomos o de Montes, licenciados en Ciencias Biológicas o Ambientales, y titulaciones análogas. Además se podrán contemplar accesos excepcionales.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Requisitos de acceso
 

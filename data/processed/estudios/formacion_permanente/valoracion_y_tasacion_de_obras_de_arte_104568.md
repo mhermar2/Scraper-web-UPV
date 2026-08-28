@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALORACION Y TASACION DE OBRAS DE ARTE
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALORACION Y TASACION DE OBRAS DE ARTE
@@ -48,7 +48,9 @@ Responsable de la actividad: Elena De la Poza Plaza
 
 Al finalizar la asignatura el alumno debe ser capaz de identificar de manera sistemática, todos los factores o variables de una obra de arte que conducen al cálculo de su valor y precio de mercado. Para ello se distingue entre el caso de una obra de un autor de reconocido prestigio con información del mercado, y el caso de una obra de otro autor sin información del mercado en la que será necesario realizar un estudio pormenorizado de todas las acciones y estudios sobre su obra de arte, desde su estudio preliminar por un historiador, hasta su venta en el mercado secundario del arte. Dentro de todo este estudio multidisciplinar se considerara la expertización, estudios científicos, legislación, recepción de la obra de arte, fortuna crítica del artista, etc.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Profesores
 
@@ -60,9 +62,9 @@ Elena De La Poza Plaza Catedrático/a de Universidad
 
 La enseñanza es totalmente ONLINE. Al estudiante se le asigna una clave de acceso a la plataforma informática del Máster diseñada por la Universidad Politécnica de Valencia, denominada PoliformaT, a través de la cual puede visualizar el material didáctico, las tareas, el correo interno, el tablón de anuncios, los exámenes, etc. El material didáctico comprende un texto o apuntes, unos videos, así como unas tareas y unos tests, que deberá realizar de forma periódica. El régimen de tutorías es a distancia a través del correo interno de PoliformaT y por Teams previa solicitud al profesor. El rendimiento de la asignatura se evalúa de 0 a 10 puntos y es necesario obtener un mínimo de 5 puntos para superarla. Dicha nota se obtiene con las calificaciones obtenidas en las tareas y exámenes realizados a lo largo del curso en PoliformaT (40% de la nota final) y en el examen final en junio realizado también a través de PoliformaT (60% de la nota final). En este examen final de junio se deberá obtener, como mínimo, la calificación de un 4 sobre 10. Sólo hay una convocatoria de examen final en el mes de junio.
 
-## Suscríbete al boletín del CFP
+## Portal de formación permanente UPV
 
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Proyecto formativo
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: INSTRUMENTACIÓN EN CUENCAS URBANAS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INSTRUMENTACIÓN EN CUENCAS URBANAS
@@ -52,9 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Alumno UPV 250€ Personal UPV 250€ Alumni UPV PLUS 380€ Público en general 250€ Ciudadanos de países con rentas reducidas 250€ Desempleados
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Acción formativa dirigida a
 

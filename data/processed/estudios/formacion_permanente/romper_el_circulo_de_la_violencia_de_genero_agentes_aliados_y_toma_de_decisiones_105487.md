@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ROMPER EL CÍRCULO DE LA VIOLENCIA DE GÉNERO. AGENTES, ALIADOS Y TOMA DE DECISIONES
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ROMPER EL CÍRCULO DE LA VIOLENCIA DE GÉNERO. AGENTES, ALIADOS Y TOMA DE DECISIONES

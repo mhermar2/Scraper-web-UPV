@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN BIOMOLECULES FOR FOOD
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN BIOMOLECULES FOR FOOD
@@ -62,7 +62,9 @@ El título permite realizar prácticas externas extracurriculares durante el per
 
 Titulados en Ciencia y Tecnología de los Alimentos, Biotecnología, Ingeniería Agroalimentaria, Biología, Farmacia, Química e Ingeniería Química.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Requisitos de acceso
 

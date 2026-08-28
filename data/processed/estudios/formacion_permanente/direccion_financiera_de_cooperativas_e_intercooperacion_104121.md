@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: DIRECCIÓN FINANCIERA DE COOPERATIVAS E INTERCOOPERACIÓN
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIRECCIÓN FINANCIERA DE COOPERATIVAS E INTERCOOPERACIÓN

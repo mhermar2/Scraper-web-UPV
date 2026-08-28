@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: GESTION PATRIMONIAL DE INFRAESTRUCTURAS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # GESTION PATRIMONIAL DE INFRAESTRUCTURAS
@@ -52,9 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Personal UPV 250€ Alumni UPV PLUS 250€ Alumno UPV 380€ Público en general 250€ Ciudadanos de países de rentas reducidas 250€ Desempleados
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ACTUALIZACIÓN DE CONOCIMIENTOS EN ASESORÍA FINANCIERA 2026
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ACTUALIZACIÓN DE CONOCIMIENTOS EN ASESORÍA FINANCIERA 2026
@@ -50,7 +50,7 @@ Responsable de la actividad: Director Escuela Politécnica Superior de Alcoi
 
 - Comprender la naturaleza y el funcionamiento básico de los ETF y otros productos cotizados en bolsa. - Analizar las principales ventajas y riesgos de los ETF en comparación con los fondos de inversión tradicionales. - Comprender por qué la gestión de índices es eficaz a largo plazo y el papel clave de los costes. - Identificar los principales mitos sobre la indexación y estrategias prácticas como el DCA o el reequilibrio. - Analizar la necesidad de canalizar el ahorro europeo hacia inversiones productivas. - Comprender los objetivos y las principales barreras para la integración de los mercados de capitales europeos. - Identificar las principales novedades normativas y fiscales relevantes para el asesoramiento financiero. - Interpretar el contexto macroeconómico y los principales riesgos que afectan a los mercados financieros. - Comprender las tendencias clave y el marco normativo de las finanzas sostenibles. - Analizar el impacto de la innovación tecnológica y el bienestar financiero en la práctica profesional.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Profesores
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO AVANZADO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN ESTUDIOS INMOBILIARIOS. MÓDULO AVANZADO
@@ -50,9 +50,7 @@ El título permite realizar prácticas externas extracurriculares durante el per
 
 El título está dirigido a aquellas personas que desean colegiarse como Administradores de Fincas o trabajar en cualquier empresa relacionada con el sector inmobiliario.
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Requisitos de acceso
 

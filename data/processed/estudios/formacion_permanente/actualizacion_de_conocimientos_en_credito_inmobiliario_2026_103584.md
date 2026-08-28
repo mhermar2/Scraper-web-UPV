@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2026
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2026
@@ -50,7 +50,9 @@ Responsable de la actividad: Director Escuela Politécnica Superior de Alcoi
 
 - Identificar el ámbito de aplicación de la Ley 5/2019 y las operaciones hipotecarias sujetas a su regulación. - Comprender las obligaciones de información precontractual y el proceso de formalización del préstamo hipotecario en el marco de la LCCI. - Analizar el papel del notario y las garantías de transparencia y protección del consumidor en las operaciones hipotecarias. - Interpretar la jurisprudencia reciente y su impacto práctico en el asesoramiento financiero hipotecario. - Identificar el marco legal que regula las tasaciones hipotecarias en España y su relevancia en la concesión de préstamos. - Comprender el papel de la tasación inmobiliaria como principal garantía y su impacto en el riesgo financiero de la operación. - Analizar la estructura de un informe de tasación y los elementos clave que determinan el valor final del inmueble. - Comprender el concepto de finanzas sostenibles y su integración en el mercado hipotecario. - Evaluar cómo la eficiencia energética y el Certificado de Eficiencia Energética (CEE) afectan al riesgo, al valor del inmueble y a las condiciones de la hipoteca. - Interpretar el uso de criterios ESG y KPI de sostenibilidad en las operaciones de financiación hipotecaria.
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Profesores
 
@@ -58,7 +60,7 @@ David Pla Santamaría Profesor/a Titular de Universidad
 
 María Luisa Vercher Ferrándiz Profesor/a Ayudante Doctor/a
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Temas a desarrollar
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ASPECTOS LEGALES DE LA INTELIGENCIA ARTIFICIAL Y SU APLICACIÓN EN LA SOCIEDAD
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ASPECTOS LEGALES DE LA INTELIGENCIA ARTIFICIAL Y SU APLICACIÓN EN LA SOCIEDAD
@@ -62,7 +62,7 @@ El curso está dirigido a profesionales del ámbito jurídico (abogados, jurista
 
 Francisca Ramón Fernández Catedrático/a de Universidad
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Temas a desarrollar
 

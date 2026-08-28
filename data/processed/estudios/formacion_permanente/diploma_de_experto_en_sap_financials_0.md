@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN SAP FINANCIALS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 - [ES](https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-financials_0.html?idioma=es) | [VA](https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-financials_0.html?idioma=va)

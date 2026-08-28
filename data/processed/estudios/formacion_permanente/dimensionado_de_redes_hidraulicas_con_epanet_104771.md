@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: DIMENSIONADO DE REDES HIDRAULICAS CON EPANET
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIMENSIONADO DE REDES HIDRAULICAS CON EPANET
@@ -52,9 +52,9 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 250€ Alumno UPV 250€ Personal UPV 250€ Alumni UPV PLUS 380€ Público en general 250€ Desempleados 250€ Ciudadanos de países de rentas reducidas
 
-## Portal de formación permanente UPV
+## Suscríbete al boletín del CFP
 
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Acción formativa dirigida a
 

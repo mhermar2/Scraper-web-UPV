@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: DIPLOMA DE EXPERTO EN GESTIÓN, PLANIFICACIÓN Y PROYECTOS DE INNOVACIÓN EMPRESARIAL
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # DIPLOMA DE EXPERTO EN GESTIÓN, PLANIFICACIÓN Y PROYECTOS DE INNOVACIÓN EMPRESARIAL

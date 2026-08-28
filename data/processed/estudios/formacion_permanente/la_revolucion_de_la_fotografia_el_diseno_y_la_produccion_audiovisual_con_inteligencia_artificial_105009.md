@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: LA REVOLUCIÓN DE LA FOTOGRAFÍA, EL DISEÑO Y LA PRODUCCIÓN AUDIOVISUAL CON INTELIGENCIA ARTIFICIAL
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # LA REVOLUCIÓN DE LA FOTOGRAFÍA, EL DISEÑO Y LA PRODUCCIÓN AUDIOVISUAL CON INTELIGENCIA ARTIFICIAL

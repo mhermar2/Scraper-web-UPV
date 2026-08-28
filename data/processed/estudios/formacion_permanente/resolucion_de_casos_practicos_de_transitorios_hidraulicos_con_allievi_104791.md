@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: RESOLUCION DE CASOS PRACTICOS DE TRANSITORIOS HIDRAULICOS CON ALLIEVI
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # RESOLUCION DE CASOS PRACTICOS DE TRANSITORIOS HIDRAULICOS CON ALLIEVI
@@ -52,7 +52,9 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 395€ Alumno UPV 395€ Personal UPV 395€ Alumni UPV PLUS 575€ Público en general 395€ Ciudadanos de países de rentas reducidas 395€ Desempleados
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 ## Acción formativa dirigida a
 

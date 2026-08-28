@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: IDENTIFICAR Y COMBATIR EL DISCURSO DE ODIO, LOS SESGOS Y LA DESINFORMACIÓN EN REDES SOCIALES
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # IDENTIFICAR Y COMBATIR EL DISCURSO DE ODIO, LOS SESGOS Y LA DESINFORMACIÓN EN REDES SOCIALES

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: INFORMADOR FINANCIERO EN CRÉDITO HIPOTECARIO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # INFORMADOR FINANCIERO EN CRÉDITO HIPOTECARIO
@@ -70,9 +70,7 @@ David Pla Santamaría Profesor/a Titular de Universidad
 
 Lidia Olmos Reig Técnico Superior
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Temas a desarrollar
 

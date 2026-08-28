@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: ENERGÍA SOLAR FOTOVOLTAICA - UNA APUESTA DE FUTURO SOSTENIBLE
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # ENERGÍA SOLAR FOTOVOLTAICA - UNA APUESTA DE FUTURO SOSTENIBLE
@@ -90,6 +90,8 @@ Material formativo en PoliformaT: apuntes, videos, auto-test. Tutorías on-line 
 
 Unidad 1: INTRODUCCIÓN A LAS ENERGIAS RENOVABLES 1.1 Introducción 1.2 Energías renovables y no renovables: mix energético y problemática 1.3 Tipos de energías renovables 1.4 Problemática con las energías renovables: almacenamiento 1.5 La energía solar fotovoltaica en el futuro mix energético Unidad 2: MÓDULOS FOTOVOLTAICOS (Trina Solar). 2.1 Célula fotovoltaica. 2.2 Módulo fotovoltaico: construcción. 2.3 Tecnologías de módulos fotovoltaicos. 2.4 Características de los módulos fotovoltaicos. 2.5 Efecto de la temperatura en los módulos fotovoltaicos. 2.6 Campo fotovoltaico. 2.7 Seguimiento del punto de máxima potencia. Unidad 3: INVERSORES FOTOVOLTAICOS EN INSTALACIONES DE CONEXIÓN A RED (SMA Ibérica). 3.1 Convertidor DC/DC. 3.2 Convertidor DC/AC o inversor. 3.3 Características de los inversores de conexión a red. 3.4 Topologías de inversores de conexión a red. 3.5 Tipos de centrales fotovoltaicas de conexión a red.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Suscríbete al boletín del CFP
+
+Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
 
 Página web: [http://www.cursofotovoltaica.com](http://www.cursofotovoltaica.com)

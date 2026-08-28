@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: AGENTE FINANCIERO EUROPEO
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # AGENTE FINANCIERO EUROPEO
@@ -76,9 +76,7 @@ Pablo Quintana García Profesional del sector
 
 Natalia María Utrero González Profesor/a Titular de Universidad
 
-## Suscríbete al boletín del CFP
-
-Mantente informado de todas las novedades formativas con el boletín del Centro de Formación permanente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Temas a desarrollar
 

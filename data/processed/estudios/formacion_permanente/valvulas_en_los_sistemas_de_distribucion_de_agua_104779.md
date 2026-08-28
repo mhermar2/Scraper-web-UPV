@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: VALVULAS EN LOS SISTEMAS DE DISTRIBUCION DE AGUA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # VALVULAS EN LOS SISTEMAS DE DISTRIBUCION DE AGUA
@@ -52,9 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 430€ Alumno UPV 430€ Alumni UPV PLUS 430€ Personal UPV 630€ Público en general 430€ Desempleados 430€ Ciudadanos de países de rentas reducidas
 
-## Portal de formación permanente UPV
-
-Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
+## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
 
 ## Acción formativa dirigida a
 

@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: TRANSITORIOS HIDRAULICOS EN SISTEMAS A PRESION CON ALLIEVI
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # TRANSITORIOS HIDRAULICOS EN SISTEMAS A PRESION CON ALLIEVI
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 575€ Alumno UPV 575€ Personal UPV 575€ Alumni UPV PLUS 795€ Público en general 575€ Ciudadanos de países de rentas reducidas 575€ Desempleados
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Acción formativa dirigida a
 

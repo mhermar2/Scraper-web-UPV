@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: MÓDULO EN ANÁLISIS A TRAVÉS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA APLICADOS AL TERRITORIO Y LA CIUDAD
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÓDULO EN ANÁLISIS A TRAVÉS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA APLICADOS AL TERRITORIO Y LA CIUDAD
@@ -54,7 +54,7 @@ Responsable de la actividad: Rafael Ramón Temes Córdovez
 
 380€ Personal UPV 380€ Alumni UPV PLUS 380€ Alumno UPV 450€ Público en general 380€ Miembros del Colegio de Arquitectos de Castellón, Málaga y Tenerife 380€ Desempleado
 
-## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
+## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
 
 ## Acción formativa dirigida a
 

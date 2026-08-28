@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: HABLAR EN PÚBLICO - ONLINE 1ª ED. 26-27
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # HABLAR EN PÚBLICO - ONLINE 1ª ED. 26-27

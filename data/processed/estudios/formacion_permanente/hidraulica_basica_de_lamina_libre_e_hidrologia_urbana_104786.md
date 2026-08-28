@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: HIDRAULICA BASICA DE LAMINA LIBRE E HIDROLOGIA URBANA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # HIDRAULICA BASICA DE LAMINA LIBRE E HIDROLOGIA URBANA
@@ -52,7 +52,7 @@ Responsable de la actividad: Enrique Cabrera Rochera
 
 430€ Alumni UPV PLUS 430€ Personal UPV 430€ Alumno UPV 630€ Público en general 430€ Ciudadanos de países con rentas reducidas 430€ Desempleados
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Accede a PoliConsulta, la web de la UPV que te ayuda a resolver tus dudas.
 
 ## Acción formativa dirigida a
 

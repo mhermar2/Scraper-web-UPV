@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: masters
 titulo: MÁSTER DE FORMACIÓN PERMANENTE EN EXECUTIVE MBA
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # MÁSTER DE FORMACIÓN PERMANENTE EN EXECUTIVE MBA
@@ -68,7 +68,9 @@ El Máster Executive MBA de la Universitat Politècnica de València tiene como 
 
 El Executive MBA está dirigido a: - Profesionales con experiencia que desean acceder a puestos de dirección. - Directivos que buscan actualizar sus conocimientos y adquirir una visión estratégica del negocio. - Ingenieros, economistas, arquitectos, abogados y titulados universitarios que desean complementar su perfil técnico con competencias de gestión. - Emprendedores interesados en desarrollar y hacer crecer sus proyectos empresariales. - Profesionales con proyección internacional que buscan fortalecer sus capacidades de liderazgo y toma de decisiones.
 
-## Te ofrecemos formación de calidad adaptada a las necesidades del mercado.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 ## Requisitos de acceso
 

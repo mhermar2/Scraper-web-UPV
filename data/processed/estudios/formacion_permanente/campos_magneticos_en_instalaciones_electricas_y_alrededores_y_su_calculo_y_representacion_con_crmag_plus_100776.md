@@ -9,7 +9,7 @@ resumen: https://www.cfp.upv.es/formacion-permanente
 seccion: cursos_online
 titulo: CAMPOS MAGNÉTICOS EN INSTALACIONES ELÉCTRICAS Y ALREDEDORES, Y SU CÁLCULO Y REPRESENTACIÓN CON CRMAG PLUS
 descripcion: ""
-actualizado: 2026-08-20
+actualizado: 2026-08-28
 ---
 
 # CAMPOS MAGNÉTICOS EN INSTALACIONES ELÉCTRICAS Y ALREDEDORES, Y SU CÁLCULO Y REPRESENTACIÓN CON CRMAG PLUS
@@ -74,6 +74,8 @@ Todas las lecciones están grabadas en formato vídeo. Hay material complementar
 
 Campos magnéticos creados por corrientes eléctricas. Interacción de los campos magnéticos de baja frecuencia con los seres vivos. Límites admisibles de la intensidad de campo magnético sobre las personas: Normas y recomendaciones. Reducción de los valores de intensidad de campo magnético en instalaciones industriales. El programa CRMag PLUS: alcance y limitaciones. Instalación y uso del programa CRMag PLUS. Desarrollo de casos de aplicación. Propuesta de casos a desarrollar por los alumnos.
 
-## Aprovecha las ventajas de estudiar online con nuestra plataforma PoliformaT.
+## Portal de formación permanente UPV
+
+Puedes gestionar tus inscripciones y tener siempre accesibles tus certificados firmados digitalmente.
 
 Página web: [http://www.inielectric.com/resultados/...](http://www.inielectric.com/resultados/CRMAG/curso)
