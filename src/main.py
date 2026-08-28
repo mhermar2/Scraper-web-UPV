@@ -28,15 +28,21 @@ antes de tocar nada real. En su lugar, para cada seccion elegida:
      YAML (el extractor la reescribe en cada ejecucion aunque la pagina
      de origen no haya cambiado, asi que un diff a secas siempre
      marcaria todo como "modificado" sin serlo de verdad).
-  4. Si una seccion resulta sin novedad real, se descarta el toque (git
-     checkout) y se borra la copia especulativa de data/legacy/ -- no
-     hacia falta. data/legacy/ se queda solo con secciones que SI
-     cambiaron.
-  5. Si hay contenido nuevo de verdad, se pregunta si comitear. Si la
+  4. Si una seccion resulta sin novedad real, se descarta la seccion
+     entera (git checkout) y se borra la copia especulativa de
+     data/legacy/ -- no hacia falta. data/legacy/ se queda solo con
+     secciones que SI cambiaron.
+  5. Dentro de una seccion que SI tiene contenido nuevo, se descarta el
+     refresco de fecha ficha a ficha (no la seccion entera) -- si una
+     seccion de 305 fichas tiene 145 con contenido real, comitear "la
+     seccion" arrastraria de paso el refresco de fecha vacio de las
+     otras 160 solo por compartir seccion con las que si cambiaron.
+  6. Si hay contenido nuevo de verdad, se pregunta si comitear. Si la
      respuesta es que no, se descarta TAMBIEN ese contenido (mismo
-     mecanismo del punto 4) -- decir que no al commit deja el repositorio
-     exactamente como estaba antes de ejecutar, nunca a medias. El
-     resultado de una ejecucion solo sobrevive en disco si se comitea.
+     mecanismo del punto 4, la seccion entera esta vez) -- decir que no
+     al commit deja el repositorio exactamente como estaba antes de
+     ejecutar, nunca a medias. El resultado de una ejecucion solo
+     sobrevive en disco si se comitea.
 """
 
 from __future__ import annotations
@@ -299,13 +305,16 @@ SOLO_FECHA_ESTADO = "solo_fecha"
 CONTENIDO_NUEVO = "contenido_nuevo"
 
 
-def mostrar_cambios_git(secciones: list[Seccion]) -> dict[Seccion, str]:
+def mostrar_cambios_git(secciones: list[Seccion]) -> dict[Seccion, dict[str, str]]:
     """Compara con git que cambio en data/ tras ejecutar las secciones
     elegidas, y muestra un resumen por seccion distinguiendo contenido
     nuevo de verdad de un simple refresco de fecha. Nunca requiere que el
     usuario escriba un comando de git a mano -- este programa ya lo hace
-    por dentro con subprocess. Devuelve, por seccion, uno de
-    SIN_CAMBIOS/SOLO_FECHA_ESTADO/CONTENIDO_NUEVO."""
+    por dentro con subprocess. Devuelve, por seccion, un dict
+    {ruta_relativa: etiqueta} con cada fichero de esa seccion que cambio
+    -- granularidad por fichero, no solo por seccion, para poder
+    descartar solo los de solo-fecha dentro de una seccion que si tiene
+    contenido nuevo en otros ficheros (ver main())."""
     try:
         resultado = subprocess.run(
             ["git", "status", "--porcelain", "--", "data"],
@@ -317,10 +326,10 @@ def mostrar_cambios_git(secciones: list[Seccion]) -> dict[Seccion, str]:
             "\nNo se encuentra 'git' en este ordenador, no puedo comprobar que "
             "cambio. Los ficheros ya estan actualizados en disco igualmente."
         )
-        return {s: SIN_CAMBIOS for s in secciones}
+        return {s: {} for s in secciones}
     except subprocess.CalledProcessError as e:
         print(f"\nNo se pudo consultar el estado de git: {e}")
-        return {s: SIN_CAMBIOS for s in secciones}
+        return {s: {} for s in secciones}
 
     lineas = [l for l in resultado.stdout.splitlines() if l.strip()]
     cambios = []
@@ -334,66 +343,79 @@ def mostrar_cambios_git(secciones: list[Seccion]) -> dict[Seccion, str]:
             print(f"  [{etiqueta}] {ruta}")
 
     print("\nContenido nuevo por seccion:")
-    resumen: dict[Seccion, str] = {}
+    resumen: dict[Seccion, dict[str, str]] = {}
+    hay_contenido_nuevo_en_total = False
     for seccion in secciones:
         prefijo_processed = str(seccion.carpeta_processed.relative_to(REPO_ROOT)).replace("\\", "/")
         ruta_json = str(seccion.json_raw.relative_to(REPO_ROOT)).replace("\\", "/")
-        propios = [(r, e) for r, e in cambios if r.startswith(prefijo_processed) or r == ruta_json]
+        propios = {r: e for r, e in cambios if r.startswith(prefijo_processed) or r == ruta_json}
+        resumen[seccion] = propios
 
         if not propios:
             print(f"  - {seccion.titulo}: sin cambios (ya estaba al dia)")
-            resumen[seccion] = SIN_CAMBIOS
             continue
 
-        reales = [e for _, e in propios if e != SOLO_FECHA]
+        reales = [e for e in propios.values() if e != SOLO_FECHA]
         if reales:
             print(f"  - {seccion.titulo}: CONTENIDO NUEVO ({len(reales)} de {len(propios)} ficheros)")
-            resumen[seccion] = CONTENIDO_NUEVO
+            hay_contenido_nuevo_en_total = True
         else:
             print(f"  - {seccion.titulo}: sin novedad real en la web (solo se refresco la fecha de extraccion)")
-            resumen[seccion] = SOLO_FECHA_ESTADO
 
-    if not any(estado == CONTENIDO_NUEVO for estado in resumen.values()):
+    if not hay_contenido_nuevo_en_total:
         print("\nNinguna de las secciones comprobadas tiene contenido nuevo respecto a lo que ya habia en el repositorio.")
 
     return resumen
 
 
-def revertir_seccion(seccion: Seccion) -> None:
-    """Deshace lo que ejecutar_seleccion() hizo para esta seccion --
-    descarta cualquier cambio en data/processed|raw/ (real o solo de
-    fecha) Y la copia de seguridad especulativa en data/legacy/, dejando
-    ambas rutas exactamente como estaban antes de ejecutar. Se usa tanto
-    para secciones sin novedad real (limpieza automatica) como para
-    cualquier seccion que el usuario decida NO comitear al final (ver
-    preguntar_commit) -- en ambos casos el criterio es el mismo: si no se
-    va a quedar en el repo, no debe quedar rastro en disco tampoco.
+def revertir_rutas(rutas: list[str]) -> None:
+    """Descarta cualquier cambio en las rutas dadas, dejandolas como
+    estaban en el ultimo commit -- todo por git, nunca borrando ficheros
+    a mano (bug real encontrado 2026-08-27: un `shutil.rmtree()`/`unlink()`
+    directo sobre un destino de data/legacy/ borraba sin mas una copia de
+    seguridad que YA estaba comiteada de una ejecucion anterior, en vez de
+    devolverla a su version comiteada). Una ruta por llamada de `git
+    checkout`: pasarlas todas juntas falla POR COMPLETO (sin revertir
+    nada, ni siquiera las rutas validas) si una sola no esta trackeada
+    todavia -- otro bug real encontrado el mismo dia, el fallo pasaba
+    desapercibido al no comprobar el codigo de salida. `git clean -fd` al
+    final limpia cualquier ruta que fuese nueva de esta ejecucion
+    (todavia sin comitear, `git checkout` no la toca)."""
+    for ruta in rutas:
+        subprocess.run(["git", "checkout", "--", ruta], cwd=REPO_ROOT, capture_output=True)
+    subprocess.run(["git", "clean", "-fd", "--", *rutas], cwd=REPO_ROOT, capture_output=True)
 
-    Todo por git, nunca borrando ficheros a mano (bug real encontrado
-    2026-08-27: un `shutil.rmtree()`/`unlink()` directo sobre el destino de
-    data/legacy/ borraba sin mas una copia de seguridad que YA estaba
-    comiteada de una ejecucion anterior -- en vez de devolverla a su
-    version comiteada, la eliminaba del disco por completo). `git checkout`
-    revierte cualquier ruta ya trackeada a su ultima version comiteada; si
-    la copia de data/legacy/ es nueva de esta misma ejecucion (todavia sin
-    comitear, `git checkout` no la toca), `git clean -fd` se encarga de
-    borrar ese sobrante sin tocar nada que ya estuviera en el repo."""
-    rutas = [
+
+def revertir_seccion(seccion: Seccion) -> None:
+    """Deshace lo que ejecutar_seleccion() hizo para esta seccion entera
+    -- descarta cualquier cambio en data/processed|raw/ (real o solo de
+    fecha) Y la copia de seguridad especulativa en data/legacy/. Se usa
+    tanto para secciones sin novedad real (limpieza automatica) como para
+    cualquier seccion que el usuario decida NO comitear al final (ver
+    preguntar_commit)."""
+    revertir_rutas([
         str(seccion.carpeta_processed.relative_to(REPO_ROOT)),
         str(seccion.json_raw.relative_to(REPO_ROOT)),
         str((LEGACY_DIR / "processed" / seccion.carpeta_processed.relative_to(config.DATA_PROCESSED_DIR)).relative_to(REPO_ROOT)),
         str((LEGACY_DIR / "raw" / seccion.json_raw.relative_to(config.DATA_RAW_DIR)).relative_to(REPO_ROOT)),
-    ]
-    # Una ruta por llamada: "git checkout -- a b" falla POR COMPLETO (sin
-    # revertir nada, ni siquiera las rutas validas) si una sola de las
-    # rutas no esta trackeada -- ej. data/legacy/raw/<seccion>.json puede
-    # no existir todavia en el repo aunque data/legacy/processed/<seccion>
-    # si. Bug real encontrado 2026-08-27 al probarlo: el fallo pasaba
-    # desapercibido (no se comprobaba el codigo de salida) y no revertia
-    # nada en absoluto.
-    for ruta in rutas:
-        subprocess.run(["git", "checkout", "--", ruta], cwd=REPO_ROOT, capture_output=True)
-    subprocess.run(["git", "clean", "-fd", "--", *rutas], cwd=REPO_ROOT, capture_output=True)
+    ])
+
+
+def revertir_fichero(ruta_relativa: str, seccion: Seccion) -> None:
+    """Descarta el cambio de UN fichero concreto (y su copia equivalente
+    en data/legacy/, si la tiene) sin tocar el resto de la seccion --
+    usado para los ficheros de solo-fecha dentro de una seccion que SI
+    tiene contenido nuevo en otros ficheros, para no comitear un refresco
+    de fecha vacio junto al contenido real (petición explícita 2026-08-28,
+    para que "hay 145 fichas con contenido nuevo" no acabe comiteando de
+    paso las otras 160 solo por compartir sección)."""
+    ruta_json_seccion = str(seccion.json_raw.relative_to(REPO_ROOT)).replace("\\", "/")
+    if ruta_relativa == ruta_json_seccion:
+        equivalente_legacy = LEGACY_DIR / "raw" / seccion.json_raw.relative_to(config.DATA_RAW_DIR)
+    else:
+        ruta_abs = REPO_ROOT / ruta_relativa
+        equivalente_legacy = LEGACY_DIR / "processed" / ruta_abs.relative_to(config.DATA_PROCESSED_DIR)
+    revertir_rutas([ruta_relativa, str(equivalente_legacy.relative_to(REPO_ROOT))])
 
 
 def preguntar_commit(secciones_con_contenido_nuevo: list[Seccion]) -> None:
@@ -439,12 +461,16 @@ def main() -> None:
     resultados = ejecutar_seleccion(secciones)
     mostrar_resumen(resultados)
 
-    resumen_por_seccion = mostrar_cambios_git(secciones)
+    cambios_por_seccion = mostrar_cambios_git(secciones)
 
-    # Secciones sin novedad real (o sin cambios): se descarta el toque y se
-    # borra la copia de seguridad especulativa -- no hacia falta, la web no
-    # tenia nada nuevo. data/legacy/ se queda solo con lo que SI cambio.
-    sin_novedad = [s for s, estado in resumen_por_seccion.items() if estado != CONTENIDO_NUEVO]
+    def tiene_contenido_real(cambios: dict[str, str]) -> bool:
+        return any(etiqueta != SOLO_FECHA for etiqueta in cambios.values())
+
+    # Secciones sin novedad real (o sin cambios): se descarta la seccion
+    # entera y se borra la copia de seguridad especulativa -- no hacia
+    # falta, la web no tenia nada nuevo. data/legacy/ se queda solo con lo
+    # que SI cambio.
+    sin_novedad = [s for s, cambios in cambios_por_seccion.items() if not tiene_contenido_real(cambios)]
     for seccion in sin_novedad:
         revertir_seccion(seccion)
     if sin_novedad:
@@ -453,7 +479,23 @@ def main() -> None:
             "descartado el toque y no se ha guardado ningun backup para ellas.)"
         )
 
-    con_novedad = [s for s, estado in resumen_por_seccion.items() if estado == CONTENIDO_NUEVO]
+    # Secciones con contenido real: dentro de ellas, descartar SOLO los
+    # ficheros de solo-fecha (no toda la seccion) -- si no, comitear "la
+    # seccion" arrastraria de paso el refresco de fecha de ficheros que no
+    # cambiaron de verdad, solo por compartir seccion con los que si.
+    con_novedad = [s for s, cambios in cambios_por_seccion.items() if tiene_contenido_real(cambios)]
+    descartados_sueltos = 0
+    for seccion in con_novedad:
+        for ruta, etiqueta in cambios_por_seccion[seccion].items():
+            if etiqueta == SOLO_FECHA:
+                revertir_fichero(ruta, seccion)
+                descartados_sueltos += 1
+    if descartados_sueltos:
+        print(
+            f"\n({descartados_sueltos} fichero(s) sin cambio real dentro de "
+            "secciones con contenido nuevo: descartados, no se comitean.)"
+        )
+
     if con_novedad:
         preguntar_commit(con_novedad)
 
