@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Consejo de Estudiantes de la UPV - (CEUPV)
 descripcion: Consejo de Estudiantes de la UPV
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Consejo de Estudiantes de la UPV - (CEUPV)
@@ -21,17 +21,17 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- https://ceupv.es
+- Servidor WWW: https://ceupv.es
 
-- ceupv@upv.es
+- Dirección electrónica: ceupv@upv.es
 
-- Consejo de Estudiantes de la UPV Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Consejo de Estudiantes de la UPV Camino de Vera, s/n 46022 Valencia
 
-- +34 963877408
+- Teléfono: +34 963877408
 
-- Edificio 4K
+- Ubicación: Edificio 4K
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Universidad Sénior - (AUS)
 descripcion: Universidad Sénior
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Universidad Sénior - (AUS)
@@ -67,11 +67,9 @@ PUBLICACIÓN "LAS RUTAS ARQUEOLÓGICAS DE LA SEDA Y LAS UNIVERSIDADES DE LA TERC
 
 [VÍDEOS INSTITUCIONALES](http://www.upv.es/entidades/AUS/info/1205356normalc.html)
 
-Expandir
-
-Contraer
-
 ## UNIVERSIDAD SÉNIOR
+
+- MATRÍCULA ONLINE: ACCEDIENDO A LOS ICONOS. TODOS LOS CURSOS Y PLAZOS SE ABREN A LAS 9.00 h.
 
 [23/06/2026 REQUISITOS SOLICITUD CARNET UPV Requisito: Estar matriculado/a en la Universidad Sénior, de 70 horas o más en actividades no gratuitas, en el curso académico 2026-2027. + INFORMACIÓN](https://www.upv.es/entidades/AUS/noticia_1277438c.html)
 

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Gestión del Personal de Investigación - (SGPI)
 descripcion: Servicio de Gestión del Personal de Investigación
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Gestión del Personal de Investigación - (SGPI)

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Delegación de Protección de Datos - (DPD)
 descripcion: Delegación de Protección de Datos
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Delegación de Protección de Datos - (DPD)

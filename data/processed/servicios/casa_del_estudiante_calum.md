@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Casa del Estudiante - (CALUM)
 descripcion: Casa del Estudiante
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Casa del Estudiante - (CALUM)
@@ -21,17 +21,17 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- https://casadelalumno.blogs.upv.es/
+- Servidor WWW: https://casadelalumno.blogs.upv.es/
 
-- casalum@ddaa.upv.es
+- Dirección electrónica: casalum@ddaa.upv.es
 
-- Casa del Estudiante Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Casa del Estudiante Camino de Vera, s/n 46022 Valencia
 
-- +34 963879407
+- Teléfono: +34 963879407
 
-- Edificio 4K
+- Ubicación: Edificio 4K
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

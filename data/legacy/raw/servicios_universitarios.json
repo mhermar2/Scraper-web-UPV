@@ -1,0 +1,459 @@
+{
+  "titulo": "Servicios universitarios",
+  "url": "https://www.upv.es/organizacion/servicios-universitarios/index-es.html",
+  "tipo": "padre",
+  "secciones": [
+    {
+      "id": "servicios_universitarios",
+      "titulo": "Servicios universitarios",
+      "tipo": "servicios_universitarios",
+      "descripcion": "",
+      "elementos": [
+        {
+          "tipo": "recurso",
+          "titulo": "Acción Cultural - (ACU)",
+          "descripcion": "Área de Acción Cultural",
+          "url": "https://www.upv.es/entidades/ACU/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Administración Electrónica y Transparencia - (SAET)",
+          "descripcion": "Servicio de Administración Electrónica y Transparencia",
+          "url": "https://www.upv.es/entidades/SAET/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Agromuseu de Vera - (AGROMUSEU)",
+          "descripcion": "Fundación Agromuseu de Vera",
+          "url": "https://www.upv.es/entidades/AGROMUSEU/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Alumni - (ALUMNI)",
+          "descripcion": "Alumni UPV",
+          "url": "https://www.upv.es/entidades/ALUMNI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Área de Excelencia Académica - (AEXA)",
+          "descripcion": "Área de Excelencia Académica",
+          "url": "https://www.upv.es/entidades/AEXA/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Asesoramiento a la I+D+i - (SAIDI)",
+          "descripcion": "Servicio de Asesoramiento a la I+D+i",
+          "url": "https://www.upv.es/entidades/SAIDI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Biblioteca y Documentación Científica - (ABDC)",
+          "descripcion": "Servicio de Biblioteca y Documentación Científica",
+          "url": "https://www.upv.es/entidades/ABDC/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Calidad y Acreditación - (ACA)",
+          "descripcion": "Área de Calidad y Acreditación",
+          "url": "https://www.upv.es/entidades/ACA/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Captación - Mecenazgo - (CAPT)",
+          "descripcion": "Área de Captación",
+          "url": "https://www.upv.es/entidades/CAPT/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Casa del Estudiante - (CALUM)",
+          "descripcion": "Casa del Estudiante",
+          "url": "https://www.upv.es/entidades/CALUM/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Cátedras de Empresa - (CATEMPRE)",
+          "descripcion": "Programa de Cátedras de Empresa",
+          "url": "https://www.upv.es/entidades/CATEMPRE/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Centro de Formación Permanente - (CFP)",
+          "descripcion": "Centro de Formación Permanente",
+          "url": "https://www.upv.es/entidades/CFP/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Centro Infantil Vera - (CIV)",
+          "descripcion": "Centro Infantil Vera",
+          "url": "https://www.upv.es/entidades/CIV/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Ciudad Politécnica de la Innovación - (ANICPI)",
+          "descripcion": "Área de la Ciudad Politécnica de la Innovación",
+          "url": "https://www.upv.es/entidades/ANICPI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Comunicación - (ACOM)",
+          "descripcion": "Área de Comunicación",
+          "url": "https://www.upv.es/entidades/ACOM/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Consejo de Estudiantes de la UPV - (CEUPV)",
+          "descripcion": "Consejo de Estudiantes de la UPV",
+          "url": "https://www.upv.es/entidades/CEUPV/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Contratación - (CYO)",
+          "descripcion": "Servicio de Contratación",
+          "url": "https://www.upv.es/entidades/CYO/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Cooperación al Desarrollo - (CCD)",
+          "descripcion": "Centro de Cooperación al Desarrollo",
+          "url": "https://www.upv.es/entidades/CCD/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Coordinación y Apoyo a la Secretaría General - (ACASG)",
+          "descripcion": "Área de Coordinación y Apoyo a la Secretaría General",
+          "url": "https://www.upv.es/entidades/ACASG/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Correos - (CORR)",
+          "descripcion": "Oficina de Correos",
+          "url": "https://www.upv.es/entidades/CORR/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Delegación de Protección de Datos - (DPD)",
+          "descripcion": "Delegación de Protección de Datos",
+          "url": "https://www.upv.es/entidades/DPD/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Deportes - (AD)",
+          "descripcion": "Área de Deporte",
+          "url": "https://www.upv.es/entidades/AD/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Editorial UPV - (AEUPV)",
+          "descripcion": "Editorial UPV",
+          "url": "https://www.upv.es/entidades/AEUPV/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Empleo - (SIE)",
+          "descripcion": "Servicio Integrado de Empleo",
+          "url": "https://www.upv.es/entidades/SIE/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Entidades Dependientes y Gestión Patrimonial - (AEDGP)",
+          "descripcion": "Área de Entidades Dependientes y Gestión Patrimonial",
+          "url": "https://www.upv.es/entidades/AEDGP/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Escola d'Estiu - (EE)",
+          "descripcion": "Escola d'Estiu",
+          "url": "https://www.upv.es/entidades/EE/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Estudiantes (antiguo Servicio de Alumnado) - (SESTU)",
+          "descripcion": "Servicio de Estudiantes",
+          "url": "https://www.upv.es/entidades/SESTU/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Estudios Deportivos y Sociedad - (SEDES)",
+          "descripcion": "Servicio de Estudios Deportivos y Sociedad",
+          "url": "https://www.upv.es/entidades/SEDES/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Evaluación Calidad y Acreditación - (SECA)",
+          "descripcion": "Servicio de Evaluación, Calidad y Acreditación",
+          "url": "https://www.upv.es/entidades/SECA/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Financiación y Presupuestos - (SFP)",
+          "descripcion": "Servicio de Financiación y Presupuestos",
+          "url": "https://www.upv.es/entidades/SFP/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Fiscalización - (SF)",
+          "descripcion": "Servicio de Fiscalización",
+          "url": "https://www.upv.es/entidades/SF/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Fondo de Arte y Patrimonio UPV - (FPA)",
+          "descripcion": "Área de Fondo de Arte y Patrimonio UPV",
+          "url": "https://www.upv.es/entidades/FPA/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Formación para la Administración y los Servicios Universitarios - (UFASU)",
+          "descripcion": "Unidad de Formación para la Administración y los Servicios Universitarios (UFASU)",
+          "url": "https://www.upv.es/entidades/UFASU/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Fundación CEDAT - (CAD)",
+          "descripcion": "Fundación CEDAT de la Comunidad Valenciana",
+          "url": "https://www.upv.es/entidades/CAD/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gestión del Personal de Investigación - (SGPI)",
+          "descripcion": "Servicio de Gestión del Personal de Investigación",
+          "url": "https://www.upv.es/entidades/SGPI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gestión del Personal Docente e Investigador - (SGPDI)",
+          "descripcion": "Servicio de Gestión del Personal Docente e Investigador",
+          "url": "https://www.upv.es/entidades/SGPDI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gestión del Personal Técnico, de Gestión y de Administración y Servicios - (SGPTGAS)",
+          "descripcion": "Servicio de Gestión del Personal Técnico, de Gestión y de Administración y Servicios",
+          "url": "https://www.upv.es/entidades/SGPTGAS/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gestión Económica - (SGE)",
+          "descripcion": "Servicio de Gestión Económica",
+          "url": "https://www.upv.es/entidades/SGE/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Gestión Operativa de la I+D+i - (SGOIDI)",
+          "descripcion": "Servicio de Gestión Operativa de la I+D+i",
+          "url": "https://www.upv.es/entidades/SGOIDI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "IDEAS UPV - (IDEAS)",
+          "descripcion": "Área de Emprendimiento y del Programa IDEAS",
+          "url": "https://www.upv.es/entidades/IDEAS/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Igualdad - (UI)",
+          "descripcion": "Unidad de Igualdad",
+          "url": "https://www.upv.es/entidades/UI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Infraestructuras - (SDI)",
+          "descripcion": "Servicio de Infraestructuras",
+          "url": "https://www.upv.es/entidades/SDI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Inspección de Servicios - (INSSER)",
+          "descripcion": "Inspección de Servicios",
+          "url": "https://www.upv.es/entidades/INSSER/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Instituto de Ciencias de la Educación - (ICE)",
+          "descripcion": "Instituto de Ciencias de la Educación",
+          "url": "https://www.upv.es/entidades/ICE/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Jurídico - (SJ)",
+          "descripcion": "Servicio Jurídico",
+          "url": "https://www.upv.es/entidades/SJ/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Lenguas - (ACDL)",
+          "descripcion": "Centro de Lenguas",
+          "url": "https://www.upv.es/entidades/ACDL/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Mantenimiento - (SDM)",
+          "descripcion": "Servicio de Mantenimiento",
+          "url": "https://www.upv.es/entidades/SDM/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Medioambiente - (AMAPUOC)",
+          "descripcion": "Unidad de Medioambiente",
+          "url": "https://www.upv.es/entidades/AMAPUOC/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Microscopía Electrónica - (SME)",
+          "descripcion": "Servicio de Microscopía Electrónica",
+          "url": "https://www.upv.es/entidades/SME/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Normativa y Coordinación Administrativa - (SNI)",
+          "descripcion": "Servicio de Normativa y Coordinación Administrativa",
+          "url": "https://www.upv.es/entidades/SNI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Oferta Académica y Gestión de Títulos - (AGT)",
+          "descripcion": "Área de Oferta Académica y Gestión de Títulos",
+          "url": "https://www.upv.es/entidades/AGT/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Oficina de la Secretaría General - (OSEGE)",
+          "descripcion": "Oficina de la Secretaría General",
+          "url": "https://www.upv.es/entidades/OSEGE/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Oficina del Rector - (OFIREC)",
+          "descripcion": "Oficina del Rector",
+          "url": "https://www.upv.es/entidades/OFIREC/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Ordenación Académica - (AOAC)",
+          "descripcion": "Área de Ordenación Académica",
+          "url": "https://www.upv.es/entidades/AOAC/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Prevención y Salud Laboral - (SIPRL)",
+          "descripcion": "Servicio Integrado de Prevención y Salud Laboral",
+          "url": "https://www.upv.es/entidades/SIPRL/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Profesorado - (APROFE)",
+          "descripcion": "Área de Profesorado",
+          "url": "https://www.upv.es/entidades/APROFE/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Promoción y Apoyo a la Investigación, Innovación y Transferencia - (I2T)",
+          "descripcion": "Servicio de Promoción y Apoyo a la Investigación, Innovación y Transferencia",
+          "url": "https://www.upv.es/entidades/I2T/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Promoción y Normalización Lingüística - (SPNL)",
+          "descripcion": "Servicio de Promoción y Normalización Lingüística",
+          "url": "https://www.upv.es/entidades/SPNL/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Protocolo - (AAAP)",
+          "descripcion": "Oficina de Protocolo",
+          "url": "https://www.upv.es/entidades/AAAP/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Registro General - (RG)",
+          "descripcion": "Registro General",
+          "url": "https://www.upv.es/entidades/RG/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Salud Juana Portaceli - (CSLJP)",
+          "descripcion": "Centro de Salud Laboral Juana Portaceli",
+          "url": "https://www.upv.es/entidades/CSLJP/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Seguridad - (SEGU)",
+          "descripcion": "Seguridad",
+          "url": "https://www.upv.es/entidades/SEGU/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Servicio de Internacionalización - (SINT)",
+          "descripcion": "Servicio de Internacionalización",
+          "url": "https://www.upv.es/entidades/SINT/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Servicio de Investigación Aerodinámica - (SIA)",
+          "descripcion": "Servicio de Investigación Aerodinámica",
+          "url": "https://www.upv.es/entidades/SIA/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Servicio Económico de Recursos Humanos - (SERH)",
+          "descripcion": "Servicio Económico de Recursos Humanos",
+          "url": "https://www.upv.es/entidades/SERH/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Servicios Generales - (USG)",
+          "descripcion": "Unidad de Servicios Generales",
+          "url": "https://www.upv.es/entidades/USG/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Sindicatura de Greuges Universitària - (DCU)",
+          "descripcion": "Sindicatura de Greuges Universitària",
+          "url": "https://www.upv.es/entidades/DCU/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Sistemas de la Información y las Comunicaciones - (ASIC)",
+          "descripcion": "Área de Sistemas de la Información y las Comunicaciones",
+          "url": "https://www.upv.es/entidades/ASIC/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Tesorería y Gestión Tributaria - (STGT)",
+          "descripcion": "Servicio de Tesorería y Gestión Tributaria",
+          "url": "https://www.upv.es/entidades/STGT/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Universidad Sénior - (AUS)",
+          "descripcion": "Universidad Sénior",
+          "url": "https://www.upv.es/entidades/AUS/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Vicegerencia de Gestión Económica y de la I+D+i - (VAIDI)",
+          "descripcion": "Vicegerencia de Gestión Económica y de la I+D+i",
+          "url": "https://www.upv.es/entidades/VAIDI/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Vicegerencia de Recursos Humanos y Organización - (SRH)",
+          "descripcion": "Vicegerencia de Recursos Humanos y Organización",
+          "url": "https://www.upv.es/entidades/SRH/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Fundación de la Comunitat Valenciana Ciudad Politécnica de la Innovación - (FINN)",
+          "descripcion": "Fundación de la Comunitat Valenciana Ciudad Politécnica de la Innovación",
+          "url": "https://www.upv.es/entidades/FINN/index-es.html"
+        },
+        {
+          "tipo": "recurso",
+          "titulo": "Fundación Servipoli de la Comunitat Valenciana - (FS)",
+          "descripcion": "Fundación Servipoli de la Comunitat Valenciana",
+          "url": "https://www.upv.es/entidades/FS/index-es.html"
+        }
+      ]
+    }
+  ]
+}

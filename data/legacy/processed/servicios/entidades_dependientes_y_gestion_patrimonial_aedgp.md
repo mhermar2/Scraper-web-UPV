@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Entidades Dependientes y Gestión Patrimonial - (AEDGP)
 descripcion: Área de Entidades Dependientes y Gestión Patrimonial
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Entidades Dependientes y Gestión Patrimonial - (AEDGP)
@@ -17,11 +17,21 @@ actualizado: 2026-08-20
 
 **Descripción breve:** Área de Entidades Dependientes y Gestión Patrimonial
 
+# Área de Entidades Dependientes y Gestión Patrimonial
+
+## Información de contacto
+
+- Área de Entidades Dependientes y Gestión Patrimonial Camino de Vera, s/n 46022 Valencia
+
+- Edificio 3A
+
+- http://www.upv.es/otros/como-llegar-upv/index-es.html
+
+## Teléfonos
+
 - [a](https://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](https://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
 - [Buscar](https://www.upv.es/pls/soalu/sic_mag.MetaBus?p_idioma=C) I
-
-[Información general](https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=AEDGP&P_IDIOMA=c)
 
 [Equipo directivo](https://www.upv.es/pls/oalu/sic_per.Busca_PersonaMS?P_SG=AEDGP&P_CARGOS=1&P_IDIOMA=c)
 
@@ -30,14 +40,6 @@ actualizado: 2026-08-20
 - [Planos](http://www.upv.es/plano/plano-2d-es.html) I
 
 ## Información relacionada
-
-### Información general
-
-**URL:** https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=AEDGP&P_IDIOMA=c
-
-## Información general
-
-[Secretaría General](http://www.upv.es/entidades/SG)
 
 ### Equipo directivo
 

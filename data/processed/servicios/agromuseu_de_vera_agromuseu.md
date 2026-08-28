@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Agromuseu de Vera - (AGROMUSEU)
 descripcion: Fundación Agromuseu de Vera
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Agromuseu de Vera - (AGROMUSEU)
@@ -21,15 +21,15 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- agromuseu@upvnet.upv.es
+- Dirección electrónica: agromuseu@upvnet.upv.es
 
-- Fundación Agromuseu de Vera Complejo Ermita de Vera C/ Iglesia de Vera, 9 46022 Valencia
+- Dirección postal: Fundación Agromuseu de Vera Complejo Ermita de Vera C/ Iglesia de Vera, 9 46022 Valencia
 
-- +34 963877134
+- Teléfono: +34 963877134
 
-- Edificio 3A
+- Ubicación: Edificio 3A
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Área de Excelencia Académica - (AEXA)
 descripcion: Área de Excelencia Académica
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Área de Excelencia Académica - (AEXA)
@@ -21,15 +21,15 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- piaeplus@upv.es
+- Dirección electrónica: piaeplus@upv.es
 
-- Área de Excelencia Académica Camino de Vera S/n 46022 Valencia
+- Dirección postal: Área de Excelencia Académica Camino de Vera S/n 46022 Valencia
 
-- +34 963877000
+- Teléfono: +34 963877000
 
-- Edificio 3A
+- Ubicación: Edificio 3A
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Contratación - (CYO)
 descripcion: Servicio de Contratación
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Contratación - (CYO)

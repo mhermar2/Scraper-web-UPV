@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Inspección de Servicios - (INSSER)
 descripcion: Inspección de Servicios
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Inspección de Servicios - (INSSER)
@@ -21,15 +21,15 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- inspeccion@upv.es
+- Dirección electrónica: inspeccion@upv.es
 
-- Inspección de Servicios Camino de Vera s/n
+- Dirección postal: Inspección de Servicios Camino de Vera s/n
 
-- +34 96877000
+- Teléfono: +34 96877000
 
-- Edificio 2E
+- Ubicación: Edificio 2E
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

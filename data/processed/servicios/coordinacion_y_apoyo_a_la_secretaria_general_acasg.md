@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Coordinación y Apoyo a la Secretaría General - (ACASG)
 descripcion: Área de Coordinación y Apoyo a la Secretaría General
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Coordinación y Apoyo a la Secretaría General - (ACASG)
@@ -21,11 +21,11 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- Área de Coordinación y Apoyo a la Secretaría General Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Área de Coordinación y Apoyo a la Secretaría General Camino de Vera, s/n 46022 Valencia
 
-- Edificio 3A
+- Ubicación: Edificio 3A
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

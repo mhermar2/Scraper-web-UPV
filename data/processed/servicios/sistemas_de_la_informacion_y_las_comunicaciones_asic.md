@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Sistemas de la Información y las Comunicaciones - (ASIC)
 descripcion: Área de Sistemas de la Información y las Comunicaciones
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Sistemas de la Información y las Comunicaciones - (ASIC)

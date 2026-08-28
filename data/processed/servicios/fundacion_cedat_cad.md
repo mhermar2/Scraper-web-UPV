@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Fundación CEDAT - (CAD)
 descripcion: Fundación CEDAT de la Comunidad Valenciana
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Fundación CEDAT - (CAD)
@@ -21,17 +21,17 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- https://fundacioncedat.webs.upv.es
+- Servidor WWW: https://fundacioncedat.webs.upv.es
 
-- cedat@upv.es
+- Dirección electrónica: cedat@upv.es
 
-- Fundación CEDAT de la Comunidad Valenciana Mas del Noi. Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Fundación CEDAT de la Comunidad Valenciana Mas del Noi. Camino de Vera, s/n 46022 Valencia
 
-- +34 963877036
+- Teléfono: +34 963877036
 
-- Edificio 9E
+- Ubicación: Edificio 9E
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Fiscalización - (SF)
 descripcion: Servicio de Fiscalización
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Fiscalización - (SF)
@@ -40,10 +40,6 @@ Atención al usuario
 [Normativa](https://www.upv.es/entidades/SF/menu_1111241c.html)
 
 [Informes](https://www.upv.es/entidades/SF/menu_1213813c.html)
-
-Expandir
-
-Contraer
 
 ## Servicio de Fiscalización
 

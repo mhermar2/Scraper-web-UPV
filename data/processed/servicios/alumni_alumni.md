@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Alumni - (ALUMNI)
 descripcion: Alumni UPV
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Alumni - (ALUMNI)
@@ -21,17 +21,17 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- http://www.alumni.upv.es
+- Servidor WWW: http://www.alumni.upv.es
 
-- alumni@upv.es
+- Dirección electrónica: alumni@upv.es
 
-- Alumni UPV Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Alumni UPV Camino de Vera, s/n 46022 Valencia
 
-- +34 963879006
+- Teléfono: +34 963879006
 
-- Edificio 3Q
+- Ubicación: Edificio 3Q
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 
@@ -44,13 +44,3 @@ actualizado: 2026-08-21
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 
 - [Planos](http://www.upv.es/plano/plano-2d-es.html) I
-
-## Información relacionada
-
-### Equipo directivo
-
-**URL:** https://www.upv.es/pls/oalu/sic_per.Busca_PersonaMS?P_SG=ALUMNI&P_CARGOS=1&P_IDIOMA=c
-
-# Directorio personal de la UPV
-
-En ningún momento puede considerarse este directorio como una fuente accesible al público, ni se puede hacer una libre disposición de los datos recogidos en ella. Este directorio no es ninguna de las fuentes de acceso público reguladas por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril, o por la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales. Las direcciones de correo electrónico de la UPV son publicadas en esta lista exclusivamente con finalidad informativa. Su empleo para cualquier uso distinto del aquí señalado, y en particular para fines comerciales o envíos masivos de correo será puesto en conocimiento de los responsables competentes en materia de protecci…

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Microscopía Electrónica - (SME)
 descripcion: Servicio de Microscopía Electrónica
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Microscopía Electrónica - (SME)
@@ -50,10 +50,6 @@ Aplicaciones disponibles
 [Dotación instrumental](http://www.upv.es/entidades/SME/info/753712normalc.html)
 
 [Tarifas](http://www.upv.es/entidades/SME/info/753119normalc.html)
-
-Expandir
-
-Contraer
 
 ## Servicio de Microscopia Electrónica
 

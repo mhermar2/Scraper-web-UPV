@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Contratación - (CYO)
 descripcion: Servicio de Contratación
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Contratación - (CYO)
@@ -64,10 +64,6 @@ Medio Ambiente
 [Unidad de Medio Ambiente](https://www.upv.es/entidades/CYO/menu_1199437c.html) [Buenas prácticas ambientales](http://www.upv.es/entidades/CYO/info/777141normalc.html)
 
 [Condiciones especiales de ejecución del contrato de carácter social](http://www.upv.es/entidades/CYO/info/1144684normalc.html)
-
-Expandir
-
-Contraer
 
 ## Servicio de Contratación
 

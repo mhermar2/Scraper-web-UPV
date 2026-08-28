@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Profesorado - (APROFE)
 descripcion: Área de Profesorado
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Profesorado - (APROFE)
@@ -17,11 +17,25 @@ actualizado: 2026-08-20
 
 **Descripción breve:** Área de Profesorado
 
+# Área de Profesorado
+
+## Información de contacto
+
+- ecoll@cgf.upv.es
+
+- Área de Profesorado Camino de Vera, s/n 46022 Valencia
+
+- +34 963877061
+
+- Edificio 3A
+
+- http://www.upv.es/otros/como-llegar-upv/index-es.html
+
+## Teléfonos
+
 - [a](https://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](https://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
 - [Buscar](https://www.upv.es/pls/soalu/sic_mag.MetaBus?p_idioma=C) I
-
-[Información general](https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=APROFE&P_IDIOMA=c)
 
 [Equipo directivo](https://www.upv.es/pls/oalu/sic_per.Busca_PersonaMS?P_SG=APROFE&P_CARGOS=1&P_IDIOMA=c)
 
@@ -30,14 +44,6 @@ actualizado: 2026-08-20
 - [Planos](http://www.upv.es/plano/plano-2d-es.html) I
 
 ## Información relacionada
-
-### Información general
-
-**URL:** https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=APROFE&P_IDIOMA=c
-
-## Información general
-
-[Vicerrectorado de Profesorado y Ordenación Académica](http://www.upv.es/entidades/VPOA)
 
 ### Equipo directivo
 
@@ -49,6 +55,8 @@ actualizado: 2026-08-20
 
 ## Cargos
 
-[Coll Aliaga, Peregrina Eloína](https://www.upv.es/pls/oalu/sic_person.info?PE=E0F75A1CA44AFE212DBB775D79D5D94812BD1DB3DCADF717CBC3B2F6188830AB8BF93A38C76AC18C74F4944464CA0EEB8E7D2487133D6E1125C8E26B0B94813CF73C72DEF9C2C4451904C4CC7177A69F1FD2AAD31DA5D038244A6B853F1297C02ADDDCA33DF888F1821288F016B894AF83A637606987F1CA9EC920A699BC5199&P_IDIOMA=c&P_VISTA=MS)
+- Directora Área: Profesorado
 
-En ningún momento puede considerarse este directorio como una fuente accesible al público, ni se puede hacer una libre disposición de los datos recogidos en ella. Este directorio no es ninguna de las fuentes de acceso público reguladas por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril, o por la Ley orgánica 3/2018, de 5 de diciembre, d…
+- Coll Aliaga, Peregrina Eloína; 75534
+
+En ningún momento puede considerarse este directorio como una fuente accesible al público, ni se puede hacer una libre disposición de los datos recogidos en ella. Este directorio no es ninguna de las fuentes de acceso público reguladas por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril, o por la Ley orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales. Las direcciones de correo electrónico de la UPV son publicadas en esta lista exclusivamente con finalidad informativa. Su empleo para cualquier uso distinto del aquí señalado, y en particular para fines comerciales o e…

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Promoción y Normalización Lingüística - (SPNL)
 descripcion: Servicio de Promoción y Normalización Lingüística
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Promoción y Normalización Lingüística - (SPNL)

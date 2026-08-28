@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: IDEAS UPV - (IDEAS)
 descripcion: Área de Emprendimiento y del Programa IDEAS
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # IDEAS UPV - (IDEAS)

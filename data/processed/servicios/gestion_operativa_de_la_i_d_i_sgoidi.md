@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Gestión Operativa de la I+D+i - (SGOIDI)
 descripcion: Servicio de Gestión Operativa de la I+D+i
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Gestión Operativa de la I+D+i - (SGOIDI)

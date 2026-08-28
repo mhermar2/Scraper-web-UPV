@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Entidades Dependientes y Gestión Patrimonial - (AEDGP)
 descripcion: Área de Entidades Dependientes y Gestión Patrimonial
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Entidades Dependientes y Gestión Patrimonial - (AEDGP)
@@ -21,11 +21,11 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- Área de Entidades Dependientes y Gestión Patrimonial Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Área de Entidades Dependientes y Gestión Patrimonial Camino de Vera, s/n 46022 Valencia
 
-- Edificio 3A
+- Ubicación: Edificio 3A
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

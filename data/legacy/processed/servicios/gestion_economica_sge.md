@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Gestión Económica - (SGE)
 descripcion: Servicio de Gestión Económica
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Gestión Económica - (SGE)
@@ -16,6 +16,8 @@ actualizado: 2026-08-20
 **URL:** https://www.upv.es/entidades/SGE/index-es.html
 
 **Descripción breve:** Servicio de Gestión Económica
+
+# Fines y objetivos
 
 - [a](https://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](https://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
@@ -48,10 +50,6 @@ Normativa
 [Cuentas Anuales](https://www.upv.es/entidades/ger/cuentas-anuales/)
 
 [Informes de la Sindicatura de Comptes de la C.V.](https://www.upv.es/entidades/ger/informes-de-la-sindicatura-de-comptes-de-la-c-v/)
-
-Expandir
-
-Contraer
 
 - [Cómo llegar](http://www.upv.es/otros/como-llegar-upv/index-es.html) I
 

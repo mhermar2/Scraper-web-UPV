@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Ciudad Politécnica de la Innovación - (ANICPI)
 descripcion: Área de la Ciudad Politécnica de la Innovación
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Ciudad Politécnica de la Innovación - (ANICPI)

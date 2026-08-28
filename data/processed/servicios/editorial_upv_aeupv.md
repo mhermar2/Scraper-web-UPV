@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Editorial UPV - (AEUPV)
 descripcion: Editorial UPV
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Editorial UPV - (AEUPV)

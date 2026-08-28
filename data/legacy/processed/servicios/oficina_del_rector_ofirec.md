@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Oficina del Rector - (OFIREC)
 descripcion: Oficina del Rector
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Oficina del Rector - (OFIREC)
@@ -17,11 +17,25 @@ actualizado: 2026-08-20
 
 **Descripción breve:** Oficina del Rector
 
+# Oficina del Rector
+
+## Información de contacto
+
+- ofirec@upv.es
+
+- Oficina del Rector Camino de Vera, s/n 46022 Valencia
+
+- +34 963879100
+
+- Edificio 3A
+
+- http://www.upv.es/otros/como-llegar-upv/index-es.html
+
+## Teléfonos
+
 - [a](https://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](https://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
 - [Buscar](https://www.upv.es/pls/soalu/sic_mag.MetaBus?p_idioma=C) I
-
-[Información general](https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=OFIREC&P_IDIOMA=c)
 
 [Equipo directivo](https://www.upv.es/pls/oalu/sic_per.Busca_PersonaMS?P_SG=OFIREC&P_CARGOS=1&P_IDIOMA=c)
 
@@ -30,14 +44,6 @@ actualizado: 2026-08-20
 - [Planos](http://www.upv.es/plano/plano-2d-es.html) I
 
 ## Información relacionada
-
-### Información general
-
-**URL:** https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=OFIREC&P_IDIOMA=c
-
-## Información general
-
-[Dirección Delegada del Gabinete del Rector](http://www.upv.es/entidades/DDGR)
 
 ### Equipo directivo
 

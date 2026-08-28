@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Fundación de la Comunitat Valenciana Ciudad Politécnica de la Innovación - (FINN)
 descripcion: Fundación de la Comunitat Valenciana Ciudad Politécnica de la Innovación
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Fundación de la Comunitat Valenciana Ciudad Politécnica de la Innovación - (FINN)
@@ -21,19 +21,19 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- http://innovacion.upv.es/es/fundacion-ciudad-politecnica-de-la-innovacion/
+- Servidor WWW: http://innovacion.upv.es/es/fundacion-ciudad-politecnica-de-la-innovacion/
 
-- cpi@upv.es
+- Dirección electrónica: cpi@upv.es
 
-- Fundación de la Comunitat Valenciana Ciudad Politécnica de la Innovación Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Fundación de la Comunitat Valenciana Ciudad Politécnica de la Innovación Camino de Vera, s/n 46022 Valencia
 
-- +34 963879886
+- Teléfono: +34 963879886
 
-- +34 963879887
+- Facsímil: +34 963879887
 
-- Edificio 8G
+- Ubicación: Edificio 8G
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

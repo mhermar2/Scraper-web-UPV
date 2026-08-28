@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Oficina del Rector - (OFIREC)
 descripcion: Oficina del Rector
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Oficina del Rector - (OFIREC)
@@ -21,15 +21,15 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- ofirec@upv.es
+- Dirección electrónica: ofirec@upv.es
 
-- Oficina del Rector Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Oficina del Rector Camino de Vera, s/n 46022 Valencia
 
-- +34 963879100
+- Teléfono: +34 963879100
 
-- Edificio 3A
+- Ubicación: Edificio 3A
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

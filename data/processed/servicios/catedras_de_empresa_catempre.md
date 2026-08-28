@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Cátedras de Empresa - (CATEMPRE)
 descripcion: Programa de Cátedras de Empresa
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Cátedras de Empresa - (CATEMPRE)

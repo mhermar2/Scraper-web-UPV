@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Lenguas - (ACDL)
 descripcion: Centro de Lenguas
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Lenguas - (ACDL)

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Fondo de Arte y Patrimonio UPV - (FPA)
 descripcion: Área de Fondo de Arte y Patrimonio UPV
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Fondo de Arte y Patrimonio UPV - (FPA)

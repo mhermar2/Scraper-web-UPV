@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Ordenación Académica - (AOAC)
 descripcion: Área de Ordenación Académica
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Ordenación Académica - (AOAC)
@@ -21,15 +21,15 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- fracator@upv.es
+- Dirección electrónica: fracator@upv.es
 
-- Área de Ordenación Académica Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Área de Ordenación Académica Camino de Vera, s/n 46022 Valencia
 
-- +34 963877790
+- Teléfono: +34 963877790
 
-- Edificio 3A
+- Ubicación: Edificio 3A
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

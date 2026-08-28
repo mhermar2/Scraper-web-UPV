@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Formación para la Administración y los Servicios Universitarios - (UFASU)
 descripcion: Unidad de Formación para la Administración y los Servicios Universitarios (UFASU)
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Formación para la Administración y los Servicios Universitarios - (UFASU)

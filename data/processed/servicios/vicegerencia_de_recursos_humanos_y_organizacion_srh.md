@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Vicegerencia de Recursos Humanos y Organización - (SRH)
 descripcion: Vicegerencia de Recursos Humanos y Organización
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Vicegerencia de Recursos Humanos y Organización - (SRH)

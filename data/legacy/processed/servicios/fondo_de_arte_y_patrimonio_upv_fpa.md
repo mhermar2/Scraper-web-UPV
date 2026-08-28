@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Fondo de Arte y Patrimonio UPV - (FPA)
 descripcion: Área de Fondo de Arte y Patrimonio UPV
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Fondo de Arte y Patrimonio UPV - (FPA)
@@ -21,13 +21,9 @@ actualizado: 2026-08-20
 
 - [Buscar](https://www.upv.es/pls/soalu/sic_mag.MetaBus?p_idioma=C) I
 
-[Información general](https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=FA&P_IDIOMA=c)
-
 [Equipo directivo](https://www.upv.es/pls/oalu/sic_per.Busca_PersonaMS?P_SC=FA&P_CARGOS=1&P_IDIOMA=c)
 
 [Funciones](http://www.upv.es/entidades/FPA/info/865591normalc.html)
-
-[Organigrama](http://www.upv.es/entidades/FPA/info/1023842normalc.html)
 
 [Servicios](http://www.upv.es/entidades/FPA/info/1018596normalc.html)
 
@@ -36,10 +32,6 @@ actualizado: 2026-08-20
 [Museos y colecciones](http://www.upv.es/entidades/FPA/info/865594normalc.html)
 
 [MUCAES-UPV](http://www.upv.es/entidades/FPA/info/1018519normalc.html) [Fondo de Arte UPV](http://www.upv.es/entidades/FPA/info/1018529normalc.html) [Museo de Informática](http://www.upv.es/entidades/FPA/info/1018531normalc.html) [Museo de Telecomunicación](http://www.upv.es/entidades/FPA/info/1018532normalc.html) [Museo del Juguete](http://www.upv.es/entidades/FPA/info/1018533normalc.html) [Colección Libros de artista](http://www.upv.es/entidades/FPA/info/1018534normalc.html) [Colección Estatuaria clásica s XVIII](http://www.upv.es/entidades/FPA/info/1018535normalc.html) [Colección Mapas Fundación Luis Giménez Lorente](http://www.upv.es/entidades/FPA/info/1018536normalc.html) [Coleccción Maquinaria industrial](http://www.upv.es/entidades/FPA/info/1018537normalc.html)
-
-Expandir
-
-Contraer
 
 ## Área de Fondo de Arte y Patrimonio UPV
 

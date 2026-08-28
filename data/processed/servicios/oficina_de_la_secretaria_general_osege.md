@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Oficina de la Secretaría General - (OSEGE)
 descripcion: Oficina de la Secretaría General
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Oficina de la Secretaría General - (OSEGE)
@@ -21,11 +21,11 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- Oficina de la Secretaría General Camino de Vera, s/n 46022 Valencia Valencia España
+- Dirección postal: Oficina de la Secretaría General Camino de Vera, s/n 46022 Valencia Valencia España
 
-- Edificio 3A
+- Ubicación: Edificio 3A
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

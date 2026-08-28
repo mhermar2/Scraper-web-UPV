@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Servicio de Investigación Aerodinámica - (SIA)
 descripcion: Servicio de Investigación Aerodinámica
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Servicio de Investigación Aerodinámica - (SIA)
@@ -186,3 +186,27 @@ Dirección postal :
 Servicio de Investigación Aerodinámica Edificio 8R Camino de Vera, s/n 46022 Valencia Valencia España
 
 Nos puede encontrar en el Edificio 8R del Campus de Vera de la Universitat Politècnica de València.
+
+- [Inicio](https://www.upv.es/entidades/sia/carpeta/inicio/)
+
+- [Instalaciones](https://www.upv.es/entidades/sia/carpeta/instalaciones/)
+
+- [Instrumentación](https://www.upv.es/entidades/sia/carpeta/instrumentacion/)
+
+- [Proyectos](https://www.upv.es/entidades/sia/carpeta/proyectos/)
+
+[Quiénes somos](https://www.upv.es/entidades/sia/carpeta/quienes-somos/)
+
+[Servicio de Investigación Aerodinámica](https://www.upv.es/entidades/sia/carpeta/nombre-de-tu-web/)
+
+- [Fines y objetivos](https://www.upv.es/entidades/sia/fines-y-objetivos/)
+
+- [Tarifas](https://www.upv.es/entidades/sia/carpeta/tarifas/)
+
+Más Información
+
+- [Noticias](https://www.upv.es/entidades/sia/noticias/)
+
+- [Dependencia Orgánica](https://www.upv.es/entidades/sia/consulta/dependencia-organica/)
+
+- [Equipo Directivo](https://www.upv.es/entidades/sia/consulta/equipo-directivo/)

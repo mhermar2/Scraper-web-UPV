@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Seguridad - (SEGU)
 descripcion: Seguridad
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Seguridad - (SEGU)
@@ -21,15 +21,15 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- segurida@upvnet.upv.es
+- Dirección electrónica: segurida@upvnet.upv.es
 
-- Seguridad Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Seguridad Camino de Vera, s/n 46022 Valencia
 
-- +34 963877703
+- Teléfono: +34 963877703
 
-- Edificio 5O
+- Ubicación: Edificio 5O
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

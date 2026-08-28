@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Tesorería y Gestión Tributaria - (STGT)
 descripcion: Servicio de Tesorería y Gestión Tributaria
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Tesorería y Gestión Tributaria - (STGT)

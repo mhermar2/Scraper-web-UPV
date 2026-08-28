@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Protocolo - (AAAP)
 descripcion: Oficina de Protocolo
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Protocolo - (AAAP)
@@ -21,13 +21,9 @@ actualizado: 2026-08-20
 
 - [Buscar](https://www.upv.es/pls/soalu/sic_mag.MetaBus?p_idioma=C) I
 
-[Información general](https://www.upv.es/pls/oalu/sic_infoent.InfoGeneralMS?P_ENTIDAD=PRO&P_IDIOMA=c)
-
 [Equipo directivo](https://www.upv.es/pls/oalu/sic_per.Busca_PersonaMS?P_SG=PRO&P_CARGOS=1&P_IDIOMA=c)
 
 [Funciones](http://www.upv.es/entidades/AAAP/infoweb/aaap/aaap/693218normalc.html)
-
-Organigrama
 
 [Carta de servicios](http://www.upv.es/entidades/AAAP/infoweb/aaap/aaap/693234normalc.html)
 
@@ -43,7 +39,7 @@ Procesos
 
 ## Protocolo
 
-Protocolo de la Universitat Politècnica de València se encarga de organizar y gestionar los actos del rector relacionados con el desarrollo de la actividad universitaria.
+- Protocolo de la Universitat Politècnica de València se encarga de organizar y gestionar los actos del rector relacionados con el desarrollo de la actividad universitaria.
 
 [01/06/2021 Fotos y vídeos de los últimos actos Disponibles los videos y fotos de los ultimos actos acadèmicos.](https://www.upv.es/entidades/AAAP/noticia_821528c.html)
 

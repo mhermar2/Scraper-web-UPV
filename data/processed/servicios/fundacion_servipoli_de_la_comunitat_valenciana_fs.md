@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Fundación Servipoli de la Comunitat Valenciana - (FS)
 descripcion: Fundación Servipoli de la Comunitat Valenciana
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Fundación Servipoli de la Comunitat Valenciana - (FS)
@@ -21,19 +21,19 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- http://www.servipoli.es
+- Servidor WWW: http://www.servipoli.es
 
-- servipoli@servipoli.es
+- Dirección electrónica: servipoli@servipoli.es
 
-- Fundación Servipoli de la Comunitat Valenciana Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Fundación Servipoli de la Comunitat Valenciana Camino de Vera, s/n 46022 Valencia
 
-- +34 963394269
+- Teléfono: +34 963394269
 
-- +34 963394275
+- Facsímil: +34 963394275
 
-- Edificio 8H
+- Ubicación: Edificio 8H
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 
@@ -47,6 +47,8 @@ actualizado: 2026-08-21
 
 **URL:** http://www.upv.es/admision/empezar-en-la-universidad/index-es.html
 
+# Admisión a grado
+
 ## Tu futuro está más cerca de lo que crees
 
 Descubre el proceso que te permite acceder a la mejor universidad tecnológica de España. Elige la vía de acceso correspondiente a tu perfil y comienza tu camino para convertirte en el dueño de tu futuro.
@@ -83,12 +85,14 @@ Ir a la sección
 
 ## Conoce la UPV
 
-Cada año la UPV organiza diferentes actividade…
+Cada año la UPV organiza d…
 
 ### Futuro estudiante
 
 **URL:** http://www.upv.es/perfiles/futuro-alumno/index-es.html
 
+# Admisión a grado
+
 ## Tu futuro está más cerca de lo que crees
 
 Descubre el proceso que te permite acceder a la mejor universidad tecnológica de España. Elige la vía de acceso correspondiente a tu perfil y comienza tu camino para convertirte en el dueño de tu futuro.
@@ -125,12 +129,14 @@ Ir a la sección
 
 ## Conoce la UPV
 
-Cada año la UPV organiza diferentes actividade…
+Cada año la UPV organiza d…
 
 ### Traslados e intercambios
 
 **URL:** http://www.upv.es/admision/traslados-e-intercambios/index-es.html
 
+# Admisión a grado
+
 ## Tu futuro está más cerca de lo que crees
 
 Descubre el proceso que te permite acceder a la mejor universidad tecnológica de España. Elige la vía de acceso correspondiente a tu perfil y comienza tu camino para convertirte en el dueño de tu futuro.
@@ -167,7 +173,7 @@ Ir a la sección
 
 ## Conoce la UPV
 
-Cada año la UPV organiza diferentes actividade…
+Cada año la UPV organiza d…
 
 ### Después del grado
 
@@ -197,6 +203,8 @@ Quiero empezar un doctorado
 
 **URL:** http://www.upv.es/perfiles/pas-pdi/index-es.html
 
+# PTGAS, PDI y PI
+
 ## Tu espacio profesional en la UPV
 
 Recursos, herramientas y servicios para el personal de la Universitat Politècnica de València: información laboral, formación, gestiones y enlaces de interés.
@@ -213,4 +221,4 @@ Accede a las principales herramientas y recursos que necesitas en tu día a día
 
 - [Calendario laboral del PAS](http://www.upv.es/perfiles/pas-pdi/documentos/calendario-laboral-2026.pdf)
 
-- [Calendario académico](http://www.upv.es/perfiles/estudiante/calendario-aca…
+- [Calendario académico](http://www.upv.es/perfiles/estudi…

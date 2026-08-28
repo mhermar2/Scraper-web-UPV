@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Normativa y Coordinación Administrativa - (SNI)
 descripcion: Servicio de Normativa y Coordinación Administrativa
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Normativa y Coordinación Administrativa - (SNI)
@@ -44,10 +44,6 @@ Atención al usuario
 [Mapas de procesos](http://www.upv.es/entidades/SNI/info/1080057normalc.html)
 
 [Acuerdos Convenios y Contratos](http://www.upv.es/entidades/SNI/info/1079180normalc.html)
-
-Expandir
-
-Contraer
 
 ## Servicio de Normativa y Coordinación Administrativa
 

@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Correos - (CORR)
 descripcion: Oficina de Correos
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Correos - (CORR)
@@ -23,17 +23,17 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- http://www.upv.es/entidades/AG/infoweb/ag/info/757789normalc.html
+- Servidor WWW: http://www.upv.es/entidades/AG/infoweb/ag/info/757789normalc.html
 
-- ofcorreo@upvnet.upv.es
+- Dirección electrónica: ofcorreo@upvnet.upv.es
 
-- Oficina de Correos Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Oficina de Correos Camino de Vera, s/n 46022 Valencia
 
-- +34 963877020
+- Teléfono: +34 963877020
 
-- Edificio 3F
+- Ubicación: Edificio 3F
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

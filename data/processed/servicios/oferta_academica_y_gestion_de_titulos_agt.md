@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Oferta Académica y Gestión de Títulos - (AGT)
 descripcion: Área de Oferta Académica y Gestión de Títulos
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Oferta Académica y Gestión de Títulos - (AGT)

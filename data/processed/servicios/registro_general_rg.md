@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Registro General - (RG)
 descripcion: Registro General
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Registro General - (RG)
@@ -23,19 +23,19 @@ actualizado: 2026-08-21
 
 ## Información de contacto
 
-- https://www.upv.es/entidades/saet/registro-electronico/
+- Servidor WWW: https://www.upv.es/entidades/saet/registro-electronico/
 
-- regen@upvnet.upv.es
+- Dirección electrónica: regen@upvnet.upv.es
 
-- Registro General Camino de Vera, s/n 46022 Valencia
+- Dirección postal: Registro General Camino de Vera, s/n 46022 Valencia
 
-- +34 963877405
+- Teléfono: +34 963877405
 
-- +34 963877009
+- Facsímil: +34 963877009
 
-- Edificio 3F
+- Ubicación: Edificio 3F
 
-- http://www.upv.es/otros/como-llegar-upv/index-es.html
+- Cómo llegar: http://www.upv.es/otros/como-llegar-upv/index-es.html
 
 ## Teléfonos
 

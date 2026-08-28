@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Captación - Mecenazgo - (CAPT)
 descripcion: Área de Captación
-actualizado: 2026-08-20
+actualizado: 2026-08-21
 ---
 
 # Captación - Mecenazgo - (CAPT)
@@ -20,8 +20,6 @@ actualizado: 2026-08-20
 - [a](https://www.upv.es/bin2/tipoacc/a?%3A%2F%2F%3A) · [A](https://www.upv.es/bin2/tipoacc/A?%3A%2F%2F%3A) I
 
 - [Buscar](https://www.upv.es/pls/soalu/sic_mag.MetaBus?p_idioma=C) I
-
-[Organigrama](https://www.upv.es/pls/oalu/sic_infoserv.Organigrama?p_entidad=CAPT&p_idioma=c)
 
 [Dependencia orgánica](https://www.upv.es/pls/oalu/sic_infoent.InfoDepOrgMS?p_entidad=CAPT&p_idioma=c)
 

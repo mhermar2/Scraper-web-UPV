@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Servicios Generales - (USG)
 descripcion: Unidad de Servicios Generales
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Servicios Generales - (USG)

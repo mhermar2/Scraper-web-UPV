@@ -8,7 +8,7 @@ resumen: https://www.upv.es/organizacion/servicios-universitarios/index-es.html
 seccion: servicios_universitarios
 titulo: Instituto de Ciencias de la Educación - (ICE)
 descripcion: Instituto de Ciencias de la Educación
-actualizado: 2026-08-21
+actualizado: 2026-08-28
 ---
 
 # Instituto de Ciencias de la Educación - (ICE)
