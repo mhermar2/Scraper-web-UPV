@@ -285,6 +285,20 @@ def extraer_pagina_main(url: str, recortar_h1: bool = True) -> list[str]:
     ]
 
 
+def _con_pausa(func, *args, pausa: float = 0.3, **kwargs):
+    """Ejecuta func(*args, **kwargs) y garantiza la pausa despues, incluso
+    si func lanza una excepcion -- bug real encontrado 2026-08-27: con
+    time.sleep() suelto tras cada llamada dentro del mismo try, un fallo
+    a mitad de una titulacion (ej. un 503 del backend clasico) saltaba
+    las pausas pendientes de esa titulacion, haciendo que el extractor
+    insistiera MAS rapido justo cuando el servidor estaba fallando, en
+    vez de dar un respiro."""
+    try:
+        return func(*args, **kwargs)
+    finally:
+        time.sleep(pausa)
+
+
 def extraer_consulta_clasica(url: str) -> list[str]:
     """Asignaturas/Competencias/Profesorado: sin main/article/entry-content
     (pagina WordPress vacia, contenido inyectado por JS que no se
@@ -338,19 +352,14 @@ def generar_markdown_titulacion(item: dict, carpeta: Path) -> bool:
         # estudios/grado).
         lineas_inicio = ml.quitar_titulos_redundantes(lineas_inicio, titulo)
 
-        lineas_detalle = extraer_pagina_main(url.rstrip("/") + "/detalle/")
-        time.sleep(0.3)
-        lineas_admision = extraer_pagina_main(url.rstrip("/") + "/admision/")
-        time.sleep(0.3)
+        lineas_detalle = _con_pausa(extraer_pagina_main, url.rstrip("/") + "/detalle/")
+        lineas_admision = _con_pausa(extraer_pagina_main, url.rstrip("/") + "/admision/")
 
         if p_tit:
-            lineas_asignaturas = extraer_consulta_clasica(
-                URL_ASIGNATURAS.format(p_tit=p_tit, acronimo=acronimo))
-            time.sleep(0.3)
-            lineas_competencias = extraer_consulta_clasica(URL_COMPETENCIAS.format(p_tit=p_tit))
-            time.sleep(0.3)
-            lineas_profesorado = extraer_consulta_clasica(URL_PROFESORADO.format(p_tit=p_tit))
-            time.sleep(0.3)
+            lineas_asignaturas = _con_pausa(
+                extraer_consulta_clasica, URL_ASIGNATURAS.format(p_tit=p_tit, acronimo=acronimo))
+            lineas_competencias = _con_pausa(extraer_consulta_clasica, URL_COMPETENCIAS.format(p_tit=p_tit))
+            lineas_profesorado = _con_pausa(extraer_consulta_clasica, URL_PROFESORADO.format(p_tit=p_tit))
         else:
             print("    AVISO: no se ha encontrado p_tit -- sin asignaturas/competencias/profesorado.")
             lineas_asignaturas = lineas_competencias = lineas_profesorado = []

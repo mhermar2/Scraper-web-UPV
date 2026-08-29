@@ -337,6 +337,19 @@ def extraer_ficha(url: str) -> tuple[list[str], str | None]:
     return lineas, p_tit
 
 
+def _con_pausa(func, *args, pausa: float = 0.3, **kwargs):
+    """Ejecuta func(*args, **kwargs) y garantiza la pausa despues, incluso
+    si func lanza una excepcion -- mismo bug real que en estudios/master
+    (2026-08-27): con time.sleep() suelto tras cada llamada dentro del
+    mismo try, un fallo a mitad de una titulacion (ej. un 503 del backend
+    clasico) saltaba las pausas pendientes, haciendo que el extractor
+    insistiera MAS rapido justo cuando el servidor estaba fallando."""
+    try:
+        return func(*args, **kwargs)
+    finally:
+        time.sleep(pausa)
+
+
 def extraer_consulta_clasica(url: str) -> list[str]:
     """Asignaturas/Competencias/Profesorado -- mismo patron que
     estudios/master, ver cabecera del modulo."""
@@ -471,12 +484,10 @@ def generar_markdown_titulacion(item: dict, carpeta: Path) -> bool:
         lineas_ficha = ml.quitar_titulos_redundantes(lineas_ficha, titulo)
 
         if p_tit:
-            lineas_asignaturas = extraer_consulta_clasica(URL_ASIGNATURAS.format(p_tit=p_tit, acronimo=codigo))
-            time.sleep(0.3)
-            lineas_competencias = extraer_consulta_clasica(URL_COMPETENCIAS.format(p_tit=p_tit))
-            time.sleep(0.3)
-            lineas_profesorado = extraer_consulta_clasica(URL_PROFESORADO.format(p_tit=p_tit))
-            time.sleep(0.3)
+            lineas_asignaturas = _con_pausa(
+                extraer_consulta_clasica, URL_ASIGNATURAS.format(p_tit=p_tit, acronimo=codigo))
+            lineas_competencias = _con_pausa(extraer_consulta_clasica, URL_COMPETENCIAS.format(p_tit=p_tit))
+            lineas_profesorado = _con_pausa(extraer_consulta_clasica, URL_PROFESORADO.format(p_tit=p_tit))
         else:
             print("    AVISO: no se ha encontrado p_tit -- sin asignaturas/competencias/profesorado.")
             lineas_asignaturas = lineas_competencias = lineas_profesorado = []
