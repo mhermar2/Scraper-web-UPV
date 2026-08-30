@@ -25,7 +25,13 @@ src/
 
 data/
 ├── raw/                  # JSON intermedios de cada extractor (no son contenido
-│                         #   consultable, son la materia prima del proceso)
+│                         #   consultable, son la materia prima del proceso).
+│                         #   Incluye descubrimiento_urls.json, el fichero de
+│                         #   seguimiento de descubrimiento.py: registra cada URL
+│                         #   conocida (si ya tiene .md, de qué página cuelga, y a
+│                         #   cuántos saltos de enlace del contenido curado
+│                         #   original está) para poder avanzar de forma
+│                         #   incremental entre ejecuciones sin repetir trabajo.
 ├── processed/            # el corpus en sí — el Markdown que consume el RAG
 ├── glosario_metadatos_rag.md   # esquema de metadatos, pensado como contexto
 │                         #   fijo del system prompt de la aplicación RAG
