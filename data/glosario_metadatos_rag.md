@@ -86,14 +86,20 @@ rama: <rama>
   `diploma_experto`, `diploma_extension`. Útil para filtrar por tipo de
   consulta (ej. priorizar `faq` si la pregunta suena a duda frecuente,
   o `calendario`/`matricula` si pregunta por fechas o plazos).
-- **`resumen`** — la URL del documento "resumen" del que depende este
+- **`resumen`** — la URL del documento ancestro del que depende este
   documento (ver tabla de presencia más abajo). Es siempre una URL, no
   un identificador interno: apunta al documento del corpus cuyo propio
-  campo `url` coincide con este valor. Sirve para reconstruir la
-  jerarquía completa de una categoría/sección a partir de cualquier
+  campo `url` coincide con este valor. Normalmente es la página
+  resumen/índice de toda la categoría o nivel — pero en los documentos
+  generados por el programa de descubrimiento de contenido nuevo (ver
+  `profundidad` más abajo) puede apuntar a otro `recurso` (la página
+  concreta en la que se encontró el enlace), no solo a un `resumen`;
+  para llegar hasta el resumen de la categoría en esos casos hace falta
+  seguir la cadena de `resumen` más de un salto. Sirve para reconstruir
+  la jerarquía completa de una categoría/sección a partir de cualquier
   documento suelto, y para decidir si conviene recuperar también el
-  resumen cuando se recupera un recurso concreto (más contexto general
-  de la sección a la que pertenece).
+  documento del que depende cuando se recupera uno más concreto (más
+  contexto general de dónde encaja).
 - **`seccion`** — un slug interno (no una URL) que identifica la
   subsección concreta a la que pertenece un recurso dentro de su
   `nivel` (ej. la carpeta en la que vive, o una agrupación temática del
@@ -120,6 +126,17 @@ rama: <rama>
   cuando se conoce), centro responsable y rama de conocimiento. Útil
   para filtrar titulaciones por estos criterios sin tener que analizar
   el texto libre del documento.
+- **`profundidad`** — solo presente en documentos generados por el
+  programa de descubrimiento de contenido nuevo (`src/descubrimiento.py`),
+  ausente en el resto del corpus. Un entero ≥ 1: cuántos saltos de
+  enlace separan a este documento del contenido curado originalmente
+  (1 = enlazado directamente desde un documento sin este campo, 2 =
+  enlazado desde uno de profundidad 1, etc.). Como estos documentos no
+  pasan por un extractor específico de su plantilla, sino por una
+  extracción genérica, cuanto mayor sea `profundidad` más razonable es
+  esperar algo más de ruido residual en el contenido (menús o pies de
+  página no filtrados del todo) — útil como señal aproximada de
+  confianza/relevancia, no como filtro estricto.
 
 ## `tipo_documento`: resumen, sección y recurso
 
@@ -130,7 +147,7 @@ niveles de documentos:
 |---|---|---|---|
 | `resumen` | Página raíz/índice de una categoría o nivel, de la que cuelgan las demás (ej. `institucion.md`, `estudios/grado/grado.md`) | no | no |
 | `seccion` | Documento con texto propio sustancial que agrupa varios recursos relacionados dentro de un nivel, pero no es la raíz de toda la categoría | sí (URL del resumen del que cuelga) | no |
-| `recurso` | El documento más específico: una página o PDF concreto | sí (URL del resumen, aunque haya que saltarse un nivel intermedio sin documento propio) | sí (slug de la subsección) |
+| `recurso` | El documento más específico: una página o PDF concreto | sí (URL del resumen, aunque haya que saltarse un nivel intermedio sin documento propio; en contenido de descubrimiento — ver `profundidad` — puede ser la URL de otro `recurso` en vez del resumen de la categoría) | sí (slug de la subsección) |
 
 Por qué importa esta distinción para un sistema de recuperación:
 - Un **`resumen`** da la visión general de una categoría entera — útil
