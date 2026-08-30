@@ -142,10 +142,10 @@ def _limpiar_pagina_segura(soup: BeautifulSoup) -> BeautifulSoup:
 
 
 def encontrar_contenedor_generico(soup: BeautifulSoup, url: str):
-    """Cascada de selectores de las plantillas de upv.es ya documentadas
-    (ver las notas internas del proyecto) reunidas aqui para uso generico -- no sustituye la
-    lista local de ningun extractor existente, es solo para paginas de
-    las que no se conoce de antemano que plantilla usan. Devuelve
+    """Cascada de selectores de las plantillas de upv.es ya conocidas por
+    el resto de extractores, reunidas aqui para uso generico -- no
+    sustituye la lista local de ningun extractor existente, es solo para
+    paginas de las que no se conoce de antemano que plantilla usan. Devuelve
     (contenedor, url_del_contenido) -- distinto de la url original cuando
     el contenido real vive en un iframe clasico."""
     iframe_url = ml.buscar_iframe_contenido_clasico(soup, url)
