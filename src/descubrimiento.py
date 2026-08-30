@@ -35,8 +35,12 @@ TAMANO_LOTE = 10
 Seccion = tuple[str, "str | None"]  # (categoria, nivel)
 
 
-def _profundidades_con_pendientes(seguimiento: dict) -> list[int]:
-    return sorted({e["profundidad"] for e in seguimiento.values() if not e["md_generado"] and not e["descartada"]})
+def _conteo_pendientes_por_profundidad(seguimiento: dict) -> dict[int, int]:
+    conteo: dict[int, int] = {}
+    for e in seguimiento.values():
+        if not e["md_generado"] and not e["descartada"]:
+            conteo[e["profundidad"]] = conteo.get(e["profundidad"], 0) + 1
+    return conteo
 
 
 def _categoria_nivel_de_padre(padre_url: str | None, seguimiento: dict, cache: dict) -> Seccion | None:
@@ -90,10 +94,12 @@ def _etiqueta_seccion(seccion: Seccion | None) -> str:
     return f"{categoria}/{nivel}" if nivel else categoria
 
 
-def _elegir_profundidad(profundidades: list[int]) -> int:
+def _elegir_profundidad(conteo: dict[int, int]) -> int:
+    profundidades = sorted(conteo)
     if len(profundidades) == 1:
         return profundidades[0]
-    print("\nProfundidades con candidatos pendientes:", ", ".join(str(p) for p in profundidades))
+    resumen = ", ".join(f"{p} ({conteo[p]} pendientes)" for p in profundidades)
+    print(f"\nProfundidades con candidatos pendientes: {resumen}")
     try:
         respuesta = input(f"¿En cual quieres trabajar? (enter para la mas baja, {profundidades[0]}): ").strip()
     except EOFError:
@@ -225,22 +231,31 @@ def _procesar_profundidad(seguimiento: dict, profundidad: int, filtro_seccion: S
     return generadas
 
 
-def _descubrir_pendientes(seguimiento: dict) -> int:
+def _descubrir_pendientes(seguimiento: dict) -> tuple[dict[int, int], dict[int, int]]:
     """Mina los enlaces de CUALQUIER .md ya generado que todavia no se
     haya explorado (md_generado=true, expandida=false), sea cual sea su
     profundidad -- se pone al dia con todo lo que se pueda de una vez, no
-    solo con lo generado en la sesion actual. Asi, si en una sesion
-    anterior se genero contenido pero no se llego a "descubrir" a partir
-    de el, esta pasada lo recoge igual."""
+    solo con lo generado en la sesion actual ni solo con la profundidad
+    mas alta. Asi, si en una sesion anterior se genero contenido pero no
+    se llego a "descubrir" a partir de el, esta pasada lo recoge igual,
+    y puede abrir mas de una profundidad nueva a la vez si habia varias
+    sin minar.
+
+    Devuelve (explorados_por_profundidad, nuevos_por_profundidad):
+    cuantos documentos se han minado agrupados por SU PROPIA profundidad
+    (de donde partia la busqueda), y cuantos candidatos nuevos han caido
+    en cada profundidad RESULTANTE (siempre origen + 1)."""
     objetivos = [
         (url, e) for url, e in seguimiento.items()
         if e["md_generado"] and not e["expandida"] and e.get("archivo")
     ]
     if not objetivos:
-        return 0
+        return {}, {}
 
-    nuevas = 0
+    explorados_por_profundidad: dict[int, int] = {}
+    nuevos_por_profundidad: dict[int, int] = {}
     for url, entrada in objetivos:
+        explorados_por_profundidad[entrada["profundidad"]] = explorados_por_profundidad.get(entrada["profundidad"], 0) + 1
         ruta_md = config.DATA_PROCESSED_DIR / entrada["archivo"]
         if not ruta_md.exists():
             entrada["expandida"] = True
@@ -252,8 +267,9 @@ def _descubrir_pendientes(seguimiento: dict) -> int:
                 continue
             if dc.es_texto_enlace_sin_valor(texto_enlace):
                 continue
+            profundidad_nueva = entrada["profundidad"] + 1
             seguimiento[url_enlace] = {
-                "profundidad": entrada["profundidad"] + 1,
+                "profundidad": profundidad_nueva,
                 "md_generado": False,
                 "archivo": None,
                 "padre_url": url,
@@ -261,11 +277,11 @@ def _descubrir_pendientes(seguimiento: dict) -> int:
                 "expandida": False,
                 "descartada": False,
             }
-            nuevas += 1
+            nuevos_por_profundidad[profundidad_nueva] = nuevos_por_profundidad.get(profundidad_nueva, 0) + 1
         entrada["expandida"] = True
 
     dc.guardar_seguimiento(seguimiento)
-    return nuevas
+    return explorados_por_profundidad, nuevos_por_profundidad
 
 
 def _elegir_accion() -> str:
@@ -283,17 +299,29 @@ def main() -> None:
     accion = _elegir_accion()
 
     if accion == "2":
-        nuevas = _descubrir_pendientes(seguimiento)
-        print(f"\n{nuevas} candidatos nuevos anadidos al fichero de seguimiento.")
+        explorados, nuevos = _descubrir_pendientes(seguimiento)
+        if not explorados:
+            print("\nNo hay ningun .md generado pendiente de explorar todavia.")
+            return
+        print("\nDocumentos explorados (por su propia profundidad):")
+        for p in sorted(explorados):
+            print(f"  - profundidad {p}: {explorados[p]} documento(s)")
+        if nuevos:
+            print("Candidatos nuevos anadidos al fichero de seguimiento (por profundidad resultante):")
+            for p in sorted(nuevos):
+                print(f"  - profundidad {p}: {nuevos[p]} candidato(s)")
+        else:
+            print("Ningun candidato nuevo -- todos los enlaces encontrados ya eran conocidos, "
+                  "estaban en la lista negra, o su texto no aportaba como titulo.")
         return
 
-    profundidades = _profundidades_con_pendientes(seguimiento)
-    if not profundidades:
+    conteo = _conteo_pendientes_por_profundidad(seguimiento)
+    if not conteo:
         print("No hay ninguna URL pendiente de generar. Prueba la opcion 2 "
               "(Descubrir) si hay .md ya generados sin explorar todavia.")
         return
 
-    profundidad = _elegir_profundidad(profundidades)
+    profundidad = _elegir_profundidad(conteo)
     filtro_seccion = _elegir_filtro_seccion(seguimiento, profundidad)
 
     print(f"\nProfundidad elegida: {profundidad} -- {_etiqueta_seccion(filtro_seccion)}")
