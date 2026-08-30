@@ -190,6 +190,13 @@ ADMISION_GRADO_DIR = ADMISION_DIR / "grado"
 CRAWLER_OUTPUT_DIR = DATA_RAW_DIR / "crawler_generico"
 CRAWLER_ESTADO = CRAWLER_OUTPUT_DIR / "estado_bot.pkl"
 
+# --- descubrimiento de contenido nuevo ---
+# Fichero de seguimiento del programa src/crawlers/descubrimiento.py --
+# una entrada por URL conocida (profundidad, si ya tiene .md, de que
+# padre cuelga). Se genera solo (bootstrap) la primera vez que se
+# ejecuta ese programa si no existe todavia.
+DESCUBRIMIENTO_URLS_JSON = DATA_RAW_DIR / "descubrimiento_urls.json"
+
 ADMISION_GRADO_FUENTES = [
     ("Bachillerato", "https://www.upv.es/admision/admision-grado/bachillerato-es.html", "bachillerato"),
     ("Ciclos formativos", "https://www.upv.es/admision/admision-grado/ciclos-formativos-es.html", "ciclos_formativos"),

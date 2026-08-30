@@ -260,6 +260,24 @@ def ejecutar_seleccion(secciones: list[Seccion]) -> list[tuple[Seccion, bool, st
     return resultados
 
 
+def refrescar_descubrimiento(secciones: list[Seccion]) -> None:
+    """Vuelve a generar, para las secciones elegidas, el contenido que ya
+    hubiera creado src/crawlers/descubrimiento.py bajo su carpeta -- sin
+    descubrir enlaces nuevos (eso es tarea exclusiva de ese programa,
+    nunca automatica desde aqui). No hace falta ningun campo nuevo en
+    Seccion: el fichero de seguimiento es global y se filtra por prefijo
+    de carpeta, igual que ya hace mostrar_cambios_git() con git status."""
+    crawlers_dir = REPO_ROOT / "src" / "crawlers"
+    if str(crawlers_dir) not in sys.path:
+        sys.path.insert(0, str(crawlers_dir))
+    import descubrimiento_comun as dc
+
+    for seccion in secciones:
+        n = dc.refrescar_bajo_carpeta(seccion.carpeta_processed)
+        if n:
+            print(f"  {seccion.titulo}: {n} recurso(s) de descubrimiento refrescado(s).")
+
+
 def mostrar_resumen(resultados: list[tuple[Seccion, bool, str]]) -> None:
     print(f"\n{'=' * 60}\nResumen de la ejecucion\n{'=' * 60}")
     for seccion, ok, error in resultados:
@@ -460,6 +478,14 @@ def main() -> None:
 
     resultados = ejecutar_seleccion(secciones)
     mostrar_resumen(resultados)
+
+    if config.DESCUBRIMIENTO_URLS_JSON.exists():
+        respuesta = input(
+            "\n¿Refrescar tambien el contenido de descubrimiento ya generado "
+            "para estas secciones? (s/N): "
+        ).strip().lower()
+        if respuesta in ("s", "si", "y", "yes"):
+            refrescar_descubrimiento(secciones)
 
     cambios_por_seccion = mostrar_cambios_git(secciones)
 

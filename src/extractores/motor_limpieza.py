@@ -319,6 +319,25 @@ def extraer_texto_pdf(contenido: bytes) -> list[str]:
     return paginas
 
 
+PATRON_MENU_URL_ANTIGUO = re.compile(r"menu_url\w*\.html\?(//.+)$", re.IGNORECASE)
+
+
+def resolver_menu_url_antiguo(url_absoluta: str) -> str:
+    """La plantilla clasica usa a veces enlaces
+    '.../menu_urlc.html?//www.upv.es/...': la URL real va incrustada en
+    la query string tras '?//' -- requests no la sigue sola, hay que
+    resolverla explicitamente o se descarga la pagina ofuscada (un menu
+    de navegacion) en vez del contenido real. Mismo patron ya resuelto
+    por separado en extrae_servicios.py/extrae_rankings.py/extrae_grado.py
+    -- promovido aqui de forma aditiva (sin tocar esos tres modulos ya
+    comiteados) al aparecer una cuarta vez."""
+    m = PATRON_MENU_URL_ANTIGUO.search(url_absoluta)
+    if not m:
+        return url_absoluta
+    interno = m.group(1)
+    return "https:" + interno if interno.startswith("//") else interno
+
+
 def buscar_iframe_contenido_clasico(soup: BeautifulSoup, url_base: str) -> str | None:
     """La plantilla clasica Oracle Portal/PL-SQL de fichas de entidad
     (sin #smooth-wrapper ni <main>) no lleva el contenido real en la
