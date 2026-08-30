@@ -1,5 +1,5 @@
 """Programa de descubrimiento de contenido nuevo de upv.es (interactivo,
-sin flags, mismo estilo que src/main.py).
+sin flags, mismo estilo que src/actualizar.py).
 
 Dos acciones independientes sobre el mismo fichero de seguimiento
 (data/raw/descubrimiento_urls.json, ver descubrimiento_comun.py):
@@ -14,7 +14,7 @@ Dos acciones independientes sobre el mismo fichero de seguimiento
      lo generado en la sesion actual -- se pone al dia con todo lo que
      se pueda de una vez.
 
-No sustituye a ningun extrae_*.py ni se registra en src/main.py como una
+No sustituye a ningun extrae_*.py ni se registra en src/actualizar.py como una
 seccion mas -- genera contenido nuevo siempre al mismo nivel que la
 pagina padre de la que cuelga, heredando su categoria/nivel/seccion.
 """

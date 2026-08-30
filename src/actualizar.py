@@ -4,7 +4,7 @@ Punto de entrada unico para actualizar data/processed/ sin tener que saber
 que extractores existen ni como se invoca cada uno por separado. Pensado
 para que cualquiera sin conocer el codigo pueda ejecutar
 
-    python src/main.py
+    python src/actualizar.py
 
 y elegir que secciones actualizar. Cada extractor ya escribe directamente
 en su carpeta de data/raw|processed/ (ver config.py) e ideempotente
@@ -157,12 +157,12 @@ def avisar_si_faltan_extractores() -> None:
         return
     print(
         "\nAVISO: hay extractores en src/extractores/ que no estan dados de "
-        "alta en REGISTRO (src/main.py) y por eso no van a aparecer en el "
+        "alta en REGISTRO (src/actualizar.py) y por eso no van a aparecer en el "
         "menu de abajo:"
     )
     for ruta in faltantes:
         print(f"  - {ruta}")
-    print("Anadelos a REGISTRO en src/main.py para que el orquestador los use.")
+    print("Anadelos a REGISTRO en src/actualizar.py para que el orquestador los use.")
 
 
 def mostrar_menu() -> None:

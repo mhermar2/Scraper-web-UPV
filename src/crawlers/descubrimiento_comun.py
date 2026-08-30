@@ -1,7 +1,8 @@
 """Utilidades compartidas por el programa de descubrimiento de contenido
-nuevo (src/descubrimiento.py, al mismo nivel que main.py -- este modulo
-de soporte se queda en src/crawlers/, junto a crawler_inicial.py) y por
-el enganche de refresco desde src/main.py.
+nuevo (src/descubrimiento.py, al mismo nivel que src/actualizar.py --
+este modulo de soporte se queda en src/crawlers/, junto a
+crawler_inicial.py) y por el enganche de refresco desde
+src/actualizar.py.
 
 No se apoya en ningun extrae_*.py -- necesita generar paginas de las que
 no se conoce de antemano la plantilla, asi que usa una cascada generica de
@@ -330,7 +331,7 @@ def guardar_seguimiento(seguimiento: dict) -> None:
 
 
 def refrescar_bajo_carpeta(carpeta_processed: Path) -> int:
-    """Usada desde main.py: vuelve a generar los .md de descubrimiento ya
+    """Usada desde src/actualizar.py: vuelve a generar los .md de descubrimiento ya
     existentes bajo la carpeta de una seccion, sin descubrir enlaces
     nuevos ni modificar el fichero de seguimiento (profundidad/archivo/
     padre_url no cambian al refrescar -- solo se reescribe el contenido
