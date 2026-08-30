@@ -53,57 +53,55 @@ MÁSTER
 
 ¿Sabes que la Universitat Politècnica de València ofrece más de 600 cursos y jornadas a lo largo del año? Tenemos 14 áreas temáticas formativas con una oferta que se actualiza semanalmente.
 
-#### [COLAPSOS ECOSOCIALES: HISTORIA Y PROSPECTIVA](https://www.cfp.upv.es/formacion-permanente/curso/colapsos-ecosociales-historia-prospectiva_104875.html)
+#### [ANÁLISIS DE LA COYUNTURA ECONÓMICA](https://www.cfp.upv.es/formacion-permanente/curso/analisis-coyuntura-economica_100551.html)
 
-- Inicio: 3/9/26 | Presencial
+- Inicio: 31/8/26 | Online
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/colapsos-ecosociales-historia-prospectiva_104875.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/analisis-coyuntura-economica_100551.html)
 
-#### [SELECCION, DIMENSIONADO Y UTILIZACION DE VALVULAS EN EPANET](https://www.cfp.upv.es/formacion-permanente/curso/seleccion-dimensionado-utilizacion-valvulas-epanet_104782.html)
-
-- Inicio: 15/9/26 | Online
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/seleccion-dimensionado-utilizacion-valvulas-epanet_104782.html)
-
-#### [INTRODUCCIÓN AL ANÁLISIS DE SISTEMAS. CLIMA Y ENERGÍA](https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html)
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html)
-
-#### [VALENCIANO B2.1 (VIDEOCONFERENCIA)](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-videoconferencia_104916.html)
-
-- Inicio: 29/9/26 | Online
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-videoconferencia_104916.html)
-
-#### [SÉNIOR BAILES LATINOS LUNES](https://www.cfp.upv.es/formacion-permanente/curso/senior-bailes-latinos-lunes_105299.html)
+#### [ENGLISH C1+.1- REFINE](https://www.cfp.upv.es/formacion-permanente/curso/english-c1-1-refine_105198.html)
 
 - Inicio: 28/9/26 | Presencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/senior-bailes-latinos-lunes_105299.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/english-c1-1-refine_105198.html)
 
-#### [REVIT BÁSICO](https://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
+#### [VALENCIANO A2.1 (SEMIPRESENCIAL)](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-a2-1-semipresencial_104919.html)
 
-- Inicio: 19/10/26 | Online
+- Inicio: 28/9/26 | Semipresencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-a2-1-semipresencial_104919.html)
 
-#### [EL ARTE DE CONTAR: RELATOS, MEMORIA Y EXPERIENCIA - PLUS2 60](https://www.cfp.upv.es/formacion-permanente/curso/arte-contar-relatos-memoria-experiencia-plus2-60_105264.html)
+#### [MÓDULO GENERAL DE PROTECCIÓN RADIOLÓGICA E INSTALACIONES RADIACTIVAS Y NUCLEARES](https://www.cfp.upv.es/formacion-permanente/curso/modulo-general-proteccion-radiologica-instalaciones-radiactivas-nucleares_105369.html)
 
-- Inicio: 30/9/26 | Presencial
+- Inicio: 1/10/26 | Semipresencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/arte-contar-relatos-memoria-experiencia-plus2-60_105264.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/modulo-general-proteccion-radiologica-instalaciones-radiactivas-nucleares_105369.html)
 
-#### [ASESOR FINANCIERO EN CRÉDITO HIPOTECARIO](https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero-credito-hipotecario_105064.html)
-
-- Inicio: 1/9/26 | Online
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero-credito-hipotecario_105064.html)
-
-#### [VALENCIANO C1.1 (VIDEOCONFERENCIA) GRUPO B](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo-b_104918.html)
+#### [MODELOS MULTICRITERIO APLICADOS A LA GESTIÓN DE CARTERAS](https://www.cfp.upv.es/formacion-permanente/curso/modelos-multicriterio-aplicados-gestion-carteras_100552.html)
 
 - Inicio: 28/9/26 | Online
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo-b_104918.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/modelos-multicriterio-aplicados-gestion-carteras_100552.html)
+
+#### [VALENCIANO C1.1 (VIDEOCONFERENCIA) GRUPO A](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo_104716.html)
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo_104716.html)
+
+#### [VALENCIANO A2.1 (ONLINE)](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-a2-1-online_104627.html)
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-a2-1-online_104627.html)
+
+#### [SOSTENIBILIDAD URBANA: EDIFICACION Y CIUDAD](https://www.cfp.upv.es/formacion-permanente/curso/sostenibilidad-urbana-edificacion-ciudad_104554.html)
+
+- Inicio: 1/10/26 | Online
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/sostenibilidad-urbana-edificacion-ciudad_104554.html)
+
+#### [VALENCIANO C2.1 (VIDEOCONFERENCIA)](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c2-1-videoconferencia_104917.html)
+
+- Inicio: 23/9/26 | Online
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c2-1-videoconferencia_104917.html)
 
 [Ver más cursos cortos y jornadas](https://www.cfp.upv.es/formacion-permanente/cursos-y-jornadas/cursos-y-jornadas.html)
 

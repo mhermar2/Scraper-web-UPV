@@ -2970,26 +2970,26 @@
     "titulo_enlace": "Centro de Investigación Arte y Entorno (CIAE)"
   },
   "http://www.upv.es/entidades/CIAE/info/1026103normalc.html": {
-    "archivo": null,
+    "archivo": "investigacion/estructuras/centros_investigacion/sede_e_instalaciones.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
     "profundidad": 1,
     "titulo_enlace": "SEDE E INSTALACIONES"
   },
   "http://www.upv.es/entidades/CIAE/info/1026608normalc.html": {
-    "archivo": null,
+    "archivo": "investigacion/estructuras/centros_investigacion/documentacion_interna.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
     "profundidad": 1,
     "titulo_enlace": "DOCUMENTACIÓN INTERNA"
   },
   "http://www.upv.es/entidades/CIAE/info/1062349normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -2998,7 +2998,7 @@
   },
   "http://www.upv.es/entidades/CIAE/info/1145590normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -3007,7 +3007,7 @@
   },
   "http://www.upv.es/entidades/CIAE/info/1237953normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -3016,7 +3016,7 @@
   },
   "http://www.upv.es/entidades/CIAE/info/758536normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -3025,7 +3025,7 @@
   },
   "http://www.upv.es/entidades/CIAE/info/758814normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -3034,7 +3034,7 @@
   },
   "http://www.upv.es/entidades/CIAE/info/759540normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -3043,7 +3043,7 @@
   },
   "http://www.upv.es/entidades/CIAE/info/759582normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -3052,7 +3052,7 @@
   },
   "http://www.upv.es/entidades/CIAE/info/759585normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CIAE/",
@@ -5670,26 +5670,26 @@
     "titulo_enlace": "Plan de medidas antifraude Universitat Politècnica de València"
   },
   "http://www.upv.es/entidades/DB/infoweb/db/info/1160156normalc.html": {
-    "archivo": null,
+    "archivo": "organizacion/departamentos/plazas_de_profesorado_contratado.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/entidades/DB/index-es.html",
     "profundidad": 1,
     "titulo_enlace": "Plazas de Profesorado Contratado"
   },
   "http://www.upv.es/entidades/DB/infoweb/db/info/1171530normalc.html": {
-    "archivo": null,
+    "archivo": "organizacion/departamentos/plazas_de_profesorado_funcionario_de_carrera.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/entidades/DB/index-es.html",
     "profundidad": 1,
     "titulo_enlace": "Plazas de Profesorado Funcionario de Carrera"
   },
   "http://www.upv.es/entidades/DB/infoweb/db/info/1178234normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DB/index-es.html",
@@ -5698,7 +5698,7 @@
   },
   "http://www.upv.es/entidades/DB/menu_urlc.html?https://intranet.upv.es/pls/soalu/sic_news2.Lis_Intranet_InfoIntranet?p_acronimo=DB&p_TIPO=PRIVADAS&p_idioma=C&p_vista=MS": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DB/index-es.html",
@@ -5725,7 +5725,7 @@
   },
   "http://www.upv.es/entidades/DC/infoweb/dc_1/info/1218058normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DC/index-es.html",
@@ -5734,7 +5734,7 @@
   },
   "http://www.upv.es/entidades/DC/infoweb/dc_1/info/1243379normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DC/index-es.html",
@@ -5743,7 +5743,7 @@
   },
   "http://www.upv.es/entidades/DC/infoweb/dc_1/info/1257717normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DC/index-es.html",
@@ -5752,7 +5752,7 @@
   },
   "http://www.upv.es/entidades/DC/infoweb/dc_1/info/1273817normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DC/index-es.html",
@@ -5779,7 +5779,7 @@
   },
   "http://www.upv.es/entidades/DCADHA/infoweb/dcadha/info/1190459normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DCADHA/index-es.html",
@@ -5788,7 +5788,7 @@
   },
   "http://www.upv.es/entidades/DCADHA/infoweb/dcadha/info/1190460normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/DCADHA/index-es.html",
@@ -18703,7 +18703,7 @@
   },
   "https://www.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/rankings/index.html",

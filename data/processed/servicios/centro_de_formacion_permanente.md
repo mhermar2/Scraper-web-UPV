@@ -52,57 +52,59 @@ MÁSTER
 
 ¿Sabes que la Universitat Politècnica de València ofrece más de 600 cursos y jornadas a lo largo del año? Tenemos 14 áreas temáticas formativas con una oferta que se actualiza semanalmente.
 
-#### [ANALISIS DE LA CALIDAD DEL AGUA CON EPANET](http://www.cfp.upv.es/formacion-permanente/curso/analisis-calidad-agua-epanet_104784.html)
+#### [INFORMADOR FINANCIERO EN CRÉDITO HIPOTECARIO](http://www.cfp.upv.es/formacion-permanente/curso/informador-financiero-credito-hipotecario_105065.html)
 
-- Inicio: 15/9/26 | Online
+- Inicio: 1/9/26 | Online
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/analisis-calidad-agua-epanet_104784.html)
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/informador-financiero-credito-hipotecario_105065.html)
 
-#### [GESTIÓN DE LA PRODUCCIÓN Y COSTES](http://www.cfp.upv.es/formacion-permanente/curso/gestion-produccion-costes_104142.html)
+#### [VALENCIANO C2.1 (VIDEOCONFERENCIA)](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-c2-1-videoconferencia_104917.html)
 
-- Inicio: 1/10/26 | Online
+- Inicio: 23/9/26 | Online
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/gestion-produccion-costes_104142.html)
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-c2-1-videoconferencia_104917.html)
 
-#### [B2 SKILLS READING, WRITING & MEDIATION](http://www.cfp.upv.es/formacion-permanente/curso/b2-skills-reading-writing-mediation_105473.html)
+#### [LÍDERES. INICIACIÓN AL MUNDO DE LA EMPRESA (18ª ED. CÁTEDRA LÍDERES DE CULTURA DIRECTIVA Y EMPRESARIAL)](http://www.cfp.upv.es/formacion-permanente/curso/lideres-iniciacion-mundo-empresa-18-ed-catedra-lideres-cultura-directiva-empresarial_105057.html)
 
 - Inicio: 1/10/26 | Presencial
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/b2-skills-reading-writing-mediation_105473.html)
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/lideres-iniciacion-mundo-empresa-18-ed-catedra-lideres-cultura-directiva-empresarial_105057.html)
 
-#### [KEEP IN TOUCH 2 (B2.1)](http://www.cfp.upv.es/formacion-permanente/curso/keep-in-touch-2-b2-1_105256.html)
+#### [ENERGÍA SOLAR FOTOVOLTAICA - UNA APUESTA DE FUTURO SOSTENIBLE](http://www.cfp.upv.es/formacion-permanente/curso/energia-solar-fotovoltaica-apuesta-futuro-sostenible_105321.html)
+
+- Inicio: 10/9/26 | Online
+
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/energia-solar-fotovoltaica-apuesta-futuro-sostenible_105321.html)
+
+#### [INSTRUMENTACIÓN EN CUENCAS URBANAS](http://www.cfp.upv.es/formacion-permanente/curso/instrumentacion-cuencas-urbanas_104788.html)
+
+- Inicio: 15/9/26 | Online
+
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/instrumentacion-cuencas-urbanas_104788.html)
+
+#### [TECNOLOGÍAS DE VANGUARDIA EN LA INGENIERÍA GEOMÁTICA Y GEOINFORMACIÓN](http://www.cfp.upv.es/formacion-permanente/curso/tecnologias-vanguardia-ingenieria-geomatica-geoinformacion_105078.html)
+
+- Inicio: 7/9/26 | Presencial
+
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/tecnologias-vanguardia-ingenieria-geomatica-geoinformacion_105078.html)
+
+#### [METODOS DE VALORACION DE EMPRESAS](http://www.cfp.upv.es/formacion-permanente/curso/metodos-valoracion-empresas_104562.html)
+
+- Inicio: 1/10/26 | Online
+
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/metodos-valoracion-empresas_104562.html)
+
+#### [VALÈNCIA SEMICON STARTUP LAB - BOOTCAMP](http://www.cfp.upv.es/formacion-permanente/curso/valencia-semicon-startup-lab-bootcamp_105502.html)
+
+- Inicio: 13/10/26 | Presencial
+
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/valencia-semicon-startup-lab-bootcamp_105502.html)
+
+#### [ENGLISH A2.1- START](http://www.cfp.upv.es/formacion-permanente/curso/english-a2-1-start_75494.html)
 
 - Inicio: 28/9/26 | Presencial
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/keep-in-touch-2-b2-1_105256.html)
-
-#### [INTRODUCCIÓN AL PYTHON PARA IA](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-python-ia_104717.html)
-
-- Inicio: 5/10/26 | Online
-
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-python-ia_104717.html)
-
-#### [CLAVES PARA LA ESCRITURA ACADÉMICA: CLARIDAD, ESTRUCTURA Y ESTILO](http://www.cfp.upv.es/formacion-permanente/curso/claves-escritura-academica-claridad-estructura-estilo_105486.html)
-
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/claves-escritura-academica-claridad-estructura-estilo_105486.html)
-
-#### [INTRODUCCIÓN Y CARACTERIZACIÓN DE MATERIALES POLIMÉRICOS EMPLEADOS EN INYECCIÓN DE PLÁSTICO](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-caracterizacion-materiales-polimericos-empleados-inyeccion-plastico_104240.html)
-
-- Inicio: 16/10/26 | Semipresencial
-
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-caracterizacion-materiales-polimericos-empleados-inyeccion-plastico_104240.html)
-
-#### [TALLER DE MÚSICA ELECTRÓNICA](http://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
-
-- Inicio: 9/9/26 | Presencial
-
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
-
-#### [VALENCIANO C1.1 (VIDEOCONFERENCIA) GRUPO A](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo_104716.html)
-
-- Inicio: 28/9/26 | Online
-
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo_104716.html)
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/english-a2-1-start_75494.html)
 
 [Ver más cursos cortos y jornadas](http://www.cfp.upv.es/formacion-permanente/cursos-y-jornadas/cursos-y-jornadas.html)
 

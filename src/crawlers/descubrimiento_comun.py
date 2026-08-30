@@ -192,25 +192,39 @@ def _es_titulo_corto(linea: str) -> bool:
     return bool(re.match(r"^#{1,6}\s+\S+(\s+\S+){0,2}\s*$", linea.strip()))
 
 
-def recortar_bloque_final_tipo_menu(lineas: list[str], maximo_lineas: int = 6) -> list[str]:
-    """Heuristica generica -- solo la usa generar_recurso_generico, para
-    paginas de plantilla desconocida (ver encontrar_contenedor_generico).
-    Si las ultimas lineas son un bloque corto de enlaces sueltos (tipico
-    menu/pie de un microsite ajeno a las plantillas ya documentadas de
-    upv.es, ej. un subdominio antiguo sin relacion con las 6 variantes ya
-    conocidas), se recorta. Limitado a un bloque corto al final
-    (maximo_lineas) para no comerse una seccion de contenido real que
-    termine en una lista de enlaces legitima."""
-    fin = len(lineas)
+def _recortar_borde_tipo_menu(lineas: list[str], maximo_lineas: int, al_final: bool) -> list[str]:
+    orden = range(len(lineas) - 1, -1, -1) if al_final else range(len(lineas))
+    recorte = 0
     hubo_enlaces = False
-    while fin > 0 and (len(lineas) - fin) < maximo_lineas:
-        linea = lineas[fin - 1]
+    for pos, i in enumerate(orden):
+        if pos >= maximo_lineas:
+            break
+        linea = lineas[i]
         if _es_linea_solo_enlaces(linea):
             hubo_enlaces = True
         elif not _es_titulo_corto(linea):
             break
-        fin -= 1
-    return lineas[:fin] if hubo_enlaces else lineas
+        recorte += 1
+    if not hubo_enlaces:
+        return lineas
+    return lineas[:-recorte] if al_final else lineas[recorte:]
+
+
+def recortar_bloques_menu(lineas: list[str], maximo_lineas: int = 20) -> list[str]:
+    """Heuristica generica -- solo la usa generar_recurso_generico, para
+    paginas de plantilla desconocida (ver encontrar_contenedor_generico).
+    Si las primeras o las ultimas lineas son un bloque corto de enlaces
+    sueltos, se recortan. Dos casos reales distintos motivaron cada
+    extremo: un microsite ajeno a las plantillas ya documentadas de
+    upv.es con su menu/pie repetido AL FINAL de cada pagina (50a.upv.es);
+    y una plantilla clasica antigua (ej. CIAE, investigacion/estructuras)
+    que repite su menu lateral completo AL PRINCIPIO de cada pagina,
+    antes del contenido real. Limitado a un bloque corto en cada extremo
+    (maximo_lineas) para no comerse una seccion de contenido real que
+    empiece o termine en una lista de enlaces legitima."""
+    lineas = _recortar_borde_tipo_menu(lineas, maximo_lineas, al_final=True)
+    lineas = _recortar_borde_tipo_menu(lineas, maximo_lineas, al_final=False)
+    return lineas
 
 
 def generar_recurso_generico(url: str, carpeta_destino: Path, *, categoria: str, nivel: str | None,
@@ -248,7 +262,7 @@ def generar_recurso_generico(url: str, carpeta_destino: Path, *, categoria: str,
             ml.reemplazar_tablas_por_listas(soup, contenedor)
             lineas = ml.extraer_bloques_contenido(contenedor, url_contenido)
             lineas = ml.limpiar_lineas_finales(lineas, textos_boilerplate=TEXTOS_BOILERPLATE_DESCUBRIMIENTO)
-            lineas = recortar_bloque_final_tipo_menu(lineas)
+            lineas = recortar_bloques_menu(lineas)
             titulo_final = (titulo or (soup.title.get_text(strip=True) if soup.title else url)).strip()
             lineas = ml.quitar_titulos_redundantes(lineas, titulo_final)
             if not lineas or ml.contar_palabras(lineas) < UMBRAL_PALABRAS_MINIMO:
