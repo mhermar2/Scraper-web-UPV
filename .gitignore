@@ -10,6 +10,7 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
 # SO
 .DS_Store
