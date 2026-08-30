@@ -110,7 +110,7 @@
   "http://50a.upv.es/SDS/programa.html": {
     "archivo": "institucion/upv_al_detalle/programa.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "http://50a.upv.es/SDS/index.html",
     "profundidad": 3,
@@ -513,17 +513,17 @@
     "titulo_enlace": null
   },
   "http://www.cfp.upv.es": {
-    "archivo": null,
+    "archivo": "servicios/centro_de_formacion_permanente.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/entidades/CFP/index-es.html",
     "profundidad": 1,
     "titulo_enlace": "Centro de Formación Permanente"
   },
   "http://www.ciencialab.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/orienta/secundaria/",
@@ -549,17 +549,17 @@
     "titulo_enlace": "I.U.I. CMT – Clean Mobility & Thermofluids"
   },
   "http://www.cmt.upv.es/Thiesel2026": {
-    "archivo": null,
+    "archivo": "estudios/doctorado/thiesel_2026.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "http://www.cmt.upv.es",
     "profundidad": 2,
     "titulo_enlace": "THIESEL 2026"
   },
   "http://www.cmt.upv.es/about": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -568,7 +568,7 @@
   },
   "http://www.cmt.upv.es/aircraft": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -577,7 +577,7 @@
   },
   "http://www.cmt.upv.es/ats": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -586,7 +586,7 @@
   },
   "http://www.cmt.upv.es/battery": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -595,7 +595,7 @@
   },
   "http://www.cmt.upv.es/ccie": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -604,7 +604,7 @@
   },
   "http://www.cmt.upv.es/cfd": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -613,7 +613,7 @@
   },
   "http://www.cmt.upv.es/co2": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -622,7 +622,7 @@
   },
   "http://www.cmt.upv.es/combustion": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -631,7 +631,7 @@
   },
   "http://www.cmt.upv.es/combustion-in-gas": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.cmt.upv.es",
@@ -982,7 +982,7 @@
   },
   "http://www.dsic.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/estudios/master/mucnap/",
@@ -991,7 +991,7 @@
   },
   "http://www.editorial.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/AEUPV/index-es.html",
@@ -1000,7 +1000,7 @@
   },
   "http://www.etsii.upv.es/docencia/tfm-es.php": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/estudios/master/musepra/",
@@ -1009,7 +1009,7 @@
   },
   "http://www.grycap.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/estudios/master/mucnap/",
@@ -1036,7 +1036,7 @@
   },
   "http://www.iccp.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/estudios/master/muieg/",
@@ -1090,7 +1090,7 @@
   },
   "http://www.iteam.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-telecomunicacion/",
@@ -1099,7 +1099,7 @@
   },
   "http://www.iti.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-informatica/",
@@ -1108,7 +1108,7 @@
   },
   "http://www.jo.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/orienta/secundaria/",
@@ -1116,17 +1116,17 @@
     "titulo_enlace": "Jornada de Orientación"
   },
   "http://www.jpa.upv.es": {
-    "archivo": null,
+    "archivo": "orientacion/jornadas_de_puertas_abiertas.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/contenidos/orienta/secundaria/",
     "profundidad": 1,
     "titulo_enlace": "Jornadas de Puertas Abiertas"
   },
   "http://www.lalibreria.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://editorialupv.webs.upv.es/politica-acceso-abierto/",
@@ -1134,17 +1134,17 @@
     "titulo_enlace": "La Librería UPV,"
   },
   "http://www.sie.upv.es": {
-    "archivo": null,
+    "archivo": "estudios/master/sie.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/estudios/master/muieg/",
     "profundidad": 1,
     "titulo_enlace": "SIE"
   },
   "http://www.upv.es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/china",
@@ -1153,7 +1153,7 @@
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.activitats-culturals&P_ESTILO=300&P_ID=c": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
@@ -1162,7 +1162,7 @@
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.activitats-esportives&P_ESTILO=300&P_ID=c": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
@@ -1171,7 +1171,7 @@
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.administracio&P_ESTILO=300&P_ID=c": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
@@ -1180,7 +1180,7 @@
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.anuncis&P_ESTILO=300&P_ID=c": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
@@ -1189,7 +1189,7 @@
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.compra-venda&P_ESTILO=300&P_ID=c": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
@@ -1198,7 +1198,7 @@
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.forum&P_ESTILO=300&P_ID=c": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
@@ -1206,26 +1206,26 @@
     "titulo_enlace": "Forum"
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.novetats&P_ESTILO=300&P_ID=c": {
-    "archivo": null,
+    "archivo": "comunidad_upv/ptgas_pdi_pi/herramientas_recursos/novedades.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
     "profundidad": 1,
     "titulo_enlace": "Novedades"
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.recursos-humans&P_ESTILO=300&P_ID=c": {
-    "archivo": null,
+    "archivo": "comunidad_upv/ptgas_pdi_pi/herramientas_recursos/recursos_humanos.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
     "profundidad": 1,
     "titulo_enlace": "Recursos humanos"
   },
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.sindical&P_ESTILO=300&P_ID=c": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
@@ -1234,7 +1234,7 @@
   },
   "http://www.upv.es/contenidos/CSS/info/1033050normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/CSS/",
@@ -1243,7 +1243,7 @@
   },
   "http://www.upv.es/contenidos/CSS/info/1033149normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/CSS/",
@@ -1261,7 +1261,7 @@
   },
   "http://www.upv.es/contenidos/CSS/menu_urlc.html?//www.upv.es/contenidos/CSS/info/U0943067.pdf": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/CSS/",
@@ -1270,7 +1270,7 @@
   },
   "http://www.upv.es/contenidos/CSS/menu_urlc.html?https://www.sprl.upv.es/A5_11.asp": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/CSS/",
@@ -1279,7 +1279,7 @@
   },
   "http://www.upv.es/contenidos/CSS/menu_urlpc.html?//www.upv.es/contenidos/CSS/info/U0803814.pdf": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/CSS/",
@@ -1288,7 +1288,7 @@
   },
   "http://www.upv.es/contenidos/D_SIEEMPLE/infoweb/sieemple/info/943211normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/contenidos/SIEORIEN/indexc.html",
@@ -1297,7 +1297,7 @@
   },
   "http://www.upv.es/contenidos/INVESDTA/indexc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/edoctorado/programa-de-doctorado-en-ciencia-tecnologia-y-gestion-alimentaria/",
@@ -14816,7 +14816,7 @@
   "https://www.cfp.upv.es": {
     "archivo": "institucion/upv_al_detalle/cfp.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "http://50a.upv.es/SFP/index_c.html",
     "profundidad": 3,
@@ -16505,6 +16505,15 @@
     "profundidad": 0,
     "titulo_enlace": null
   },
+  "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html": {
+    "archivo": "institucion/upv_al_detalle/introduccion_al_analisis_de_sistemas_clima_y_energia.md",
+    "descartada": false,
+    "expandida": false,
+    "md_generado": true,
+    "padre_url": "https://www.cfp.upv.es",
+    "profundidad": 4,
+    "titulo_enlace": "INTRODUCCIÓN AL ANÁLISIS DE SISTEMAS. CLIMA Y ENERGÍA"
+  },
   "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-energia-solar-fotovoltaica-25-26_102130.html": {
     "archivo": "estudios/formacion_permanente/introduccion_a_la_energia_solar_fotovoltaica_25_26_102130.md",
     "descartada": false,
@@ -16549,6 +16558,15 @@
     "padre_url": null,
     "profundidad": 0,
     "titulo_enlace": null
+  },
+  "https://www.cfp.upv.es/formacion-permanente/curso/keep-in-touch-3-c1-1_105259.html": {
+    "archivo": null,
+    "descartada": true,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "https://www.cfp.upv.es",
+    "profundidad": 4,
+    "titulo_enlace": "KEEP IN TOUCH 3 (C1.1)"
   },
   "https://www.cfp.upv.es/formacion-permanente/curso/lean-manufacturing-seis-sigma-yellow-belt_104714.html": {
     "archivo": "estudios/formacion_permanente/lean_manufacturing_seis_sigma_yellow_belt_104714.md",
@@ -17404,6 +17422,15 @@
     "padre_url": null,
     "profundidad": 0,
     "titulo_enlace": null
+  },
+  "https://www.cfp.upv.es/formacion-permanente/curso/tecnico-experto-proteccion-radiologica-instalaciones-radiactivas-nucleares_105327.html": {
+    "archivo": null,
+    "descartada": true,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "https://www.cfp.upv.es",
+    "profundidad": 4,
+    "titulo_enlace": "TÉCNICO EXPERTO EN PROTECCIÓN RADIOLÓGICA EN INSTALACIONES RADIACTIVAS Y NUCLEARES"
   },
   "https://www.cfp.upv.es/formacion-permanente/curso/transitorios-hidraulicos-sistemas-presion-allievi_104773.html": {
     "archivo": "estudios/formacion_permanente/transitorios_hidraulicos_en_sistemas_a_presion_con_allievi_104773.md",

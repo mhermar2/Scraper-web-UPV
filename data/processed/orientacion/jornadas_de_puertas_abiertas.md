@@ -1,19 +1,20 @@
 ---
 fuente: UPV
-url: https://www.upv.es/contenidos/jpa/
+url: http://www.jpa.upv.es
 categoria: orientacion
 tipo_documento: recurso
 tipo_recurso: informacion
-resumen: https://www.upv.es/contenidos/orienta/
-seccion: jornadas_puertas_abiertas
+resumen: https://www.upv.es/contenidos/orienta/secundaria/
+seccion: actividades_secundaria
 titulo: Jornadas de Puertas Abiertas
 descripcion: ""
-actualizado: 2026-08-24
+actualizado: 2026-08-30
+profundidad: 1
 ---
 
 # Jornadas de Puertas Abiertas
 
-**URL:** https://www.upv.es/contenidos/jpa/
+**URL:** http://www.jpa.upv.es
 
 #### ¡Bienvenido a la UPV!
 

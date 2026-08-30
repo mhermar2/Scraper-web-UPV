@@ -105,12 +105,28 @@ def es_texto_enlace_sin_valor(texto: str | None) -> bool:
     return False
 
 
+_PATRON_PORTADA_DESNUDA = re.compile(r"^https?://(www\.)?upv\.es/?(index[\w.-]*\.html)?$", re.IGNORECASE)
+
+
+def _es_portada_desnuda(url: str) -> bool:
+    """La home de upv.es (con o sin 'www.', con o sin 'index...html') es
+    un enlace de "volver al inicio" que aparece en casi cualquier pagina
+    -- generarla como recurso de la seccion que la enlazo por casualidad
+    produce un documento enorme, mayoritariamente ruido (noticias
+    efimeras, menu de pie completo, widgets de portada) sin relacion real
+    con esa seccion. Bug real encontrado probando el programa: acabo
+    colgada bajo admision/grado/bachillerato/ solo porque una pagina de
+    esa seccion enlazaba "de vuelta" a la home."""
+    return bool(_PATRON_PORTADA_DESNUDA.match(url.strip()))
+
+
 def es_url_candidata(url: str) -> bool:
     """Dominio upv.es y fuera de la lista negra ya madura de
     crawler_inicial.py (dominios/rutas prohibidos, extensiones de video/
     audio/comprimido, idiomas no castellanos...) -- se reutiliza tal cual,
-    no se duplica el criterio."""
-    return ci.es_valida(url) and not ml.es_subdominio_fuera_de_alcance(url)
+    no se duplica el criterio. Ademas descarta la home desnuda (ver
+    _es_portada_desnuda)."""
+    return ci.es_valida(url) and not ml.es_subdominio_fuera_de_alcance(url) and not _es_portada_desnuda(url)
 
 
 def _limpiar_pagina_segura(soup: BeautifulSoup) -> BeautifulSoup:

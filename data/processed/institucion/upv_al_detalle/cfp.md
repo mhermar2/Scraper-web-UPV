@@ -53,59 +53,57 @@ MÁSTER
 
 ¿Sabes que la Universitat Politècnica de València ofrece más de 600 cursos y jornadas a lo largo del año? Tenemos 14 áreas temáticas formativas con una oferta que se actualiza semanalmente.
 
-#### [GESTION PATRIMONIAL DE INFRAESTRUCTURAS](https://www.cfp.upv.es/formacion-permanente/curso/gestion-patrimonial-infraestructuras_104775.html)
+#### [IDENTIFICAR Y COMBATIR EL DISCURSO DE ODIO, LOS SESGOS Y LA DESINFORMACIÓN EN REDES SOCIALES](https://www.cfp.upv.es/formacion-permanente/curso/identificar-combatir-discurso-odio-sesgos-desinformacion-redes-sociales_105347.html)
 
-- Inicio: 15/9/26 | Online
+- Inicio: 13/10/26 | Online
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/gestion-patrimonial-infraestructuras_104775.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/identificar-combatir-discurso-odio-sesgos-desinformacion-redes-sociales_105347.html)
 
-#### [VALENCIANO C1.1 (ONLINE)](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-online_104624.html)
+#### [ESPAÑOL B1.1](https://www.cfp.upv.es/formacion-permanente/curso/espanol-b1-1_105432.html)
 
-- Inicio: 28/9/26 | Online
+- Inicio: 6/10/26 | Presencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-online_104624.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/espanol-b1-1_105432.html)
 
-#### [INFRAESTRUCTURAS DE DATOS ESPACIALES Y GEOPORTALES (WEB MAPPING)](https://www.cfp.upv.es/formacion-permanente/curso/infraestructuras-datos-espaciales-geoportales-web-mapping_104669.html)
-
-- Inicio: 14/9/26 | Online
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/infraestructuras-datos-espaciales-geoportales-web-mapping_104669.html)
-
-#### [KEEP IN TOUCH 3 (C1.1)](https://www.cfp.upv.es/formacion-permanente/curso/keep-in-touch-3-c1-1_105259.html)
+#### [ENGLISH B1.1 ACTIVATE](https://www.cfp.upv.es/formacion-permanente/curso/english-b1-1-activate_105174.html)
 
 - Inicio: 28/9/26 | Presencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/keep-in-touch-3-c1-1_105259.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/english-b1-1-activate_105174.html)
 
-#### [INTRODUCCIÓN AL ANÁLISIS DE SISTEMAS. CLIMA Y ENERGÍA](https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html)
-
-- Inicio: 3/9/26 | Presencial
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html)
-
-#### [TÉCNICO EXPERTO EN PROTECCIÓN RADIOLÓGICA EN INSTALACIONES RADIACTIVAS Y NUCLEARES](https://www.cfp.upv.es/formacion-permanente/curso/tecnico-experto-proteccion-radiologica-instalaciones-radiactivas-nucleares_105327.html)
-
-- Inicio: 1/10/26 | Semipresencial
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/tecnico-experto-proteccion-radiologica-instalaciones-radiactivas-nucleares_105327.html)
-
-#### [HABLAR EN PÚBLICO - ONLINE 1ª ED. 26-27](https://www.cfp.upv.es/formacion-permanente/curso/hablar-publico-online-1-ed-26-27_105521.html)
-
-- Inicio: 27/10/26 | Online
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/hablar-publico-online-1-ed-26-27_105521.html)
-
-#### [VALENCIANO B2.1 (VIDEOCONFERENCIA)](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-videoconferencia_104916.html)
-
-- Inicio: 29/9/26 | Online
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-videoconferencia_104916.html)
-
-#### [ASPECTOS LEGALES DE LA INTELIGENCIA ARTIFICIAL Y SU APLICACIÓN EN LA SOCIEDAD](https://www.cfp.upv.es/formacion-permanente/curso/aspectos-legales-inteligencia-artificial-aplicacion-sociedad_105227.html)
+#### [ETICA DE LA VALORACION](https://www.cfp.upv.es/formacion-permanente/curso/etica-valoracion_104553.html)
 
 - Inicio: 1/10/26 | Online
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/aspectos-legales-inteligencia-artificial-aplicacion-sociedad_105227.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/etica-valoracion_104553.html)
+
+#### [VALORACION PERICIAL](https://www.cfp.upv.es/formacion-permanente/curso/valoracion-pericial_104566.html)
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valoracion-pericial_104566.html)
+
+#### [REVIT BÁSICO](https://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
+
+- Inicio: 19/10/26 | Online
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
+
+#### [TALLER DE MÚSICA ELECTRÓNICA](https://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
+
+- Inicio: 9/9/26 | Presencial
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
+
+#### [DIMENSIONADO DE REDES HIDRAULICAS CON EPANET](https://www.cfp.upv.es/formacion-permanente/curso/dimensionado-redes-hidraulicas-epanet_104771.html)
+
+- Inicio: 15/9/26 | Online
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/dimensionado-redes-hidraulicas-epanet_104771.html)
+
+#### [HERRAMIENTAS DE COMUNICACIÓN ACADÉMICA: ESCRIBE, PRESENTA Y DEFIENDE TUS IDEAS](https://www.cfp.upv.es/formacion-permanente/curso/herramientas-comunicacion-academica-escribe-presenta-defiende-tus-ideas_105480.html)
+
+- Inicio: 1/10/26 | Presencial
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/herramientas-comunicacion-academica-escribe-presenta-defiende-tus-ideas_105480.html)
 
 [Ver más cursos cortos y jornadas](https://www.cfp.upv.es/formacion-permanente/cursos-y-jornadas/cursos-y-jornadas.html)
 
