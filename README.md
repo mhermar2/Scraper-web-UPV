@@ -1,6 +1,6 @@
 # Base documental UPV para RAG
 
-Corpus en Markdown extraído de la web oficial de la Universitat
+Base de datos en Markdown extraído de la web oficial de la Universitat
 Politècnica de València ([upv.es](https://www.upv.es)), pensado para
 alimentar un sistema de *Retrieval-Augmented Generation* (RAG) o
 chatbot institucional. Trabajo de Fin de Grado de Ingeniería de
