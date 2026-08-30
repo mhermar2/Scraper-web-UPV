@@ -53,33 +53,33 @@ MÁSTER
 
 ¿Sabes que la Universitat Politècnica de València ofrece más de 600 cursos y jornadas a lo largo del año? Tenemos 14 áreas temáticas formativas con una oferta que se actualiza semanalmente.
 
-#### [IDENTIFICAR Y COMBATIR EL DISCURSO DE ODIO, LOS SESGOS Y LA DESINFORMACIÓN EN REDES SOCIALES](https://www.cfp.upv.es/formacion-permanente/curso/identificar-combatir-discurso-odio-sesgos-desinformacion-redes-sociales_105347.html)
+#### [COLAPSOS ECOSOCIALES: HISTORIA Y PROSPECTIVA](https://www.cfp.upv.es/formacion-permanente/curso/colapsos-ecosociales-historia-prospectiva_104875.html)
 
-- Inicio: 13/10/26 | Online
+- Inicio: 3/9/26 | Presencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/identificar-combatir-discurso-odio-sesgos-desinformacion-redes-sociales_105347.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/colapsos-ecosociales-historia-prospectiva_104875.html)
 
-#### [ESPAÑOL B1.1](https://www.cfp.upv.es/formacion-permanente/curso/espanol-b1-1_105432.html)
+#### [SELECCION, DIMENSIONADO Y UTILIZACION DE VALVULAS EN EPANET](https://www.cfp.upv.es/formacion-permanente/curso/seleccion-dimensionado-utilizacion-valvulas-epanet_104782.html)
 
-- Inicio: 6/10/26 | Presencial
+- Inicio: 15/9/26 | Online
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/espanol-b1-1_105432.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/seleccion-dimensionado-utilizacion-valvulas-epanet_104782.html)
 
-#### [ENGLISH B1.1 ACTIVATE](https://www.cfp.upv.es/formacion-permanente/curso/english-b1-1-activate_105174.html)
+#### [INTRODUCCIÓN AL ANÁLISIS DE SISTEMAS. CLIMA Y ENERGÍA](https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html)
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html)
+
+#### [VALENCIANO B2.1 (VIDEOCONFERENCIA)](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-videoconferencia_104916.html)
+
+- Inicio: 29/9/26 | Online
+
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-videoconferencia_104916.html)
+
+#### [SÉNIOR BAILES LATINOS LUNES](https://www.cfp.upv.es/formacion-permanente/curso/senior-bailes-latinos-lunes_105299.html)
 
 - Inicio: 28/9/26 | Presencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/english-b1-1-activate_105174.html)
-
-#### [ETICA DE LA VALORACION](https://www.cfp.upv.es/formacion-permanente/curso/etica-valoracion_104553.html)
-
-- Inicio: 1/10/26 | Online
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/etica-valoracion_104553.html)
-
-#### [VALORACION PERICIAL](https://www.cfp.upv.es/formacion-permanente/curso/valoracion-pericial_104566.html)
-
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valoracion-pericial_104566.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/senior-bailes-latinos-lunes_105299.html)
 
 #### [REVIT BÁSICO](https://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
 
@@ -87,23 +87,23 @@ MÁSTER
 
 - | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
 
-#### [TALLER DE MÚSICA ELECTRÓNICA](https://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
+#### [EL ARTE DE CONTAR: RELATOS, MEMORIA Y EXPERIENCIA - PLUS2 60](https://www.cfp.upv.es/formacion-permanente/curso/arte-contar-relatos-memoria-experiencia-plus2-60_105264.html)
 
-- Inicio: 9/9/26 | Presencial
+- Inicio: 30/9/26 | Presencial
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/arte-contar-relatos-memoria-experiencia-plus2-60_105264.html)
 
-#### [DIMENSIONADO DE REDES HIDRAULICAS CON EPANET](https://www.cfp.upv.es/formacion-permanente/curso/dimensionado-redes-hidraulicas-epanet_104771.html)
+#### [ASESOR FINANCIERO EN CRÉDITO HIPOTECARIO](https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero-credito-hipotecario_105064.html)
 
-- Inicio: 15/9/26 | Online
+- Inicio: 1/9/26 | Online
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/dimensionado-redes-hidraulicas-epanet_104771.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/asesor-financiero-credito-hipotecario_105064.html)
 
-#### [HERRAMIENTAS DE COMUNICACIÓN ACADÉMICA: ESCRIBE, PRESENTA Y DEFIENDE TUS IDEAS](https://www.cfp.upv.es/formacion-permanente/curso/herramientas-comunicacion-academica-escribe-presenta-defiende-tus-ideas_105480.html)
+#### [VALENCIANO C1.1 (VIDEOCONFERENCIA) GRUPO B](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo-b_104918.html)
 
-- Inicio: 1/10/26 | Presencial
+- Inicio: 28/9/26 | Online
 
-- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/herramientas-comunicacion-academica-escribe-presenta-defiende-tus-ideas_105480.html)
+- | [INFO](https://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo-b_104918.html)
 
 [Ver más cursos cortos y jornadas](https://www.cfp.upv.es/formacion-permanente/cursos-y-jornadas/cursos-y-jornadas.html)
 

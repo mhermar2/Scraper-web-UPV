@@ -52,6 +52,18 @@ MÁSTER
 
 ¿Sabes que la Universitat Politècnica de València ofrece más de 600 cursos y jornadas a lo largo del año? Tenemos 14 áreas temáticas formativas con una oferta que se actualiza semanalmente.
 
+#### [ANALISIS DE LA CALIDAD DEL AGUA CON EPANET](http://www.cfp.upv.es/formacion-permanente/curso/analisis-calidad-agua-epanet_104784.html)
+
+- Inicio: 15/9/26 | Online
+
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/analisis-calidad-agua-epanet_104784.html)
+
+#### [GESTIÓN DE LA PRODUCCIÓN Y COSTES](http://www.cfp.upv.es/formacion-permanente/curso/gestion-produccion-costes_104142.html)
+
+- Inicio: 1/10/26 | Online
+
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/gestion-produccion-costes_104142.html)
+
 #### [B2 SKILLS READING, WRITING & MEDIATION](http://www.cfp.upv.es/formacion-permanente/curso/b2-skills-reading-writing-mediation_105473.html)
 
 - Inicio: 1/10/26 | Presencial
@@ -64,45 +76,33 @@ MÁSTER
 
 - | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/keep-in-touch-2-b2-1_105256.html)
 
-#### [VALENCIANO B2.1 (SEMIPRESENCIAL)](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-semipresencial_104682.html)
+#### [INTRODUCCIÓN AL PYTHON PARA IA](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-python-ia_104717.html)
 
-- Inicio: 28/9/26 | Semipresencial
+- Inicio: 5/10/26 | Online
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-semipresencial_104682.html)
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-python-ia_104717.html)
 
-#### [VALÈNCIA SEMICON STARTUP LAB - BOOTCAMP](http://www.cfp.upv.es/formacion-permanente/curso/valencia-semicon-startup-lab-bootcamp_105502.html)
+#### [CLAVES PARA LA ESCRITURA ACADÉMICA: CLARIDAD, ESTRUCTURA Y ESTILO](http://www.cfp.upv.es/formacion-permanente/curso/claves-escritura-academica-claridad-estructura-estilo_105486.html)
 
-- Inicio: 13/10/26 | Presencial
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/claves-escritura-academica-claridad-estructura-estilo_105486.html)
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/valencia-semicon-startup-lab-bootcamp_105502.html)
+#### [INTRODUCCIÓN Y CARACTERIZACIÓN DE MATERIALES POLIMÉRICOS EMPLEADOS EN INYECCIÓN DE PLÁSTICO](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-caracterizacion-materiales-polimericos-empleados-inyeccion-plastico_104240.html)
 
-#### [IMMERSIVE SPANISH COURSE FOR ERASMUS STUDENTS A1](http://www.cfp.upv.es/formacion-permanente/curso/immersive-spanish-course-for-erasmus-students-a1_103947.html)
+- Inicio: 16/10/26 | Semipresencial
 
-- Inicio: 31/8/26 | Presencial
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/introduccion-caracterizacion-materiales-polimericos-empleados-inyeccion-plastico_104240.html)
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/immersive-spanish-course-for-erasmus-students-a1_103947.html)
+#### [TALLER DE MÚSICA ELECTRÓNICA](http://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
 
-#### [INFORMADOR FINANCIERO EN CRÉDITO HIPOTECARIO](http://www.cfp.upv.es/formacion-permanente/curso/informador-financiero-credito-hipotecario_105065.html)
+- Inicio: 9/9/26 | Presencial
 
-- Inicio: 1/9/26 | Online
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/taller-musica-electronica_105157.html)
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/informador-financiero-credito-hipotecario_105065.html)
-
-#### [VALENCIANO B2.1 (ONLINE)](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-online_104629.html)
+#### [VALENCIANO C1.1 (VIDEOCONFERENCIA) GRUPO A](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo_104716.html)
 
 - Inicio: 28/9/26 | Online
 
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-online_104629.html)
-
-#### [ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2026](http://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-credito-inmobiliario-2026_105067.html)
-
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-credito-inmobiliario-2026_105067.html)
-
-#### [REVIT BÁSICO](http://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
-
-- Inicio: 19/10/26 | Online
-
-- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html)
+- | [INFO](http://www.cfp.upv.es/formacion-permanente/curso/valenciano-c1-1-videoconferencia-grupo_104716.html)
 
 [Ver más cursos cortos y jornadas](http://www.cfp.upv.es/formacion-permanente/cursos-y-jornadas/cursos-y-jornadas.html)
 

@@ -854,6 +854,14 @@ SUBDOMINIOS_FUERA_DE_ALCANCE = {
     "intranet.upv.es", "automatricula.upv.es", "poliformat.upv.es",
     "riunet.upv.es", "correo.upv.es", "search.upv.es", "sede.upv.es",
     "wiki.upv.es", "apps.upv.es",
+    # portal de matriculacion/inscripcion de cfp.upv.es -- requiere sesion
+    # y no tiene contenido informativo propio, solo el formulario de alta
+    # (identico salvo el ID del curso). Encontrado por el programa de
+    # descubrimiento generando la misma pagina de inscripcion para dos
+    # cursos distintos de formacion permanente -- sin este filtro,
+    # profundizar en cfp.upv.es generaria un duplicado casi identico por
+    # cada uno de sus cientos de cursos.
+    "poseidon.cfp.upv.es",
 }
 
 

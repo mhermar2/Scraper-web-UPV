@@ -207,26 +207,26 @@
     "titulo_enlace": "SEMANA DEL LIBRO"
   },
   "http://50a.upv.es/SM/index_c.html": {
-    "archivo": null,
+    "archivo": "institucion/upv_al_detalle/semana_musical.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "http://50a.upv.es/programacion_c.html",
     "profundidad": 2,
     "titulo_enlace": "SEMANA MUSICAL"
   },
   "http://50a.upv.es/SMIS/index-c.html": {
-    "archivo": null,
+    "archivo": "institucion/upv_al_detalle/semana_del_multilinguismo_y_la_inclusion_social.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "http://50a.upv.es/programacion_c.html",
     "profundidad": 2,
     "titulo_enlace": "SEMANA DEL MULTILINGÜISMO Y LA INCLUSIÓN SOCIAL"
   },
   "http://50a.upv.es/SPL/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -235,7 +235,7 @@
   },
   "http://50a.upv.es/SPOLINIZA2/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -244,7 +244,7 @@
   },
   "http://50a.upv.es/SREFET/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -253,7 +253,7 @@
   },
   "http://50a.upv.es/SSP/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -262,7 +262,7 @@
   },
   "http://50a.upv.es/SSST/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -271,7 +271,7 @@
   },
   "http://50a.upv.es/ST/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -280,7 +280,7 @@
   },
   "http://50a.upv.es/SUPV2030/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -289,7 +289,7 @@
   },
   "http://50a.upv.es/SUSA/index_c.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://50a.upv.es/programacion_c.html",
@@ -515,11 +515,182 @@
   "http://www.cfp.upv.es": {
     "archivo": "servicios/centro_de_formacion_permanente.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "https://www.upv.es/entidades/CFP/index-es.html",
     "profundidad": 1,
     "titulo_enlace": "Centro de Formación Permanente"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/busqueda/cursos.html?buscar=u": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Estudia a tu ritmo Cursos de matrícula continua: empieza cuando quieras y avanza a tu ritmo."
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/actualizacion-conocimientos-credito-inmobiliario-2026_105067.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "ACTUALIZACIÓN DE CONOCIMIENTOS EN CRÉDITO INMOBILIARIO 2026"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/b2-skills-reading-writing-mediation_105473.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "B2 SKILLS READING, WRITING & MEDIATION"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/immersive-spanish-course-for-erasmus-students-a1_103947.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "IMMERSIVE SPANISH COURSE FOR ERASMUS STUDENTS A1"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/informador-financiero-credito-hipotecario_105065.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "INFORMADOR FINANCIERO EN CRÉDITO HIPOTECARIO"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/keep-in-touch-2-b2-1_105256.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "KEEP IN TOUCH 2 (B2.1)"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/revit-basico_104441.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "REVIT BÁSICO"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/valencia-semicon-startup-lab-bootcamp_105502.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "VALÈNCIA SEMICON STARTUP LAB - BOOTCAMP"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-online_104629.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "VALENCIANO B2.1 (ONLINE)"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/curso/valenciano-b2-1-semipresencial_104682.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "VALENCIANO B2.1 (SEMIPRESENCIAL)"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/cursos-y-jornadas/cursos-y-jornadas.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Próximos cursos y jornadas Consulta la oferta de cursos y jornadas con matrícula abierta."
+  },
+  "http://www.cfp.upv.es/formacion-permanente/inicio/aviso-cookies.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Política de privacidad y cookies"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/inicio/formacion-empresas.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Empresa Formación a medida para organizaciones y equipos, diseñada junto a tu empresa. Cursos para empresas"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/inicio/informacion-alumno.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Estudiante Matrícula, certificados, becas y todos los trámites académicos en un solo lugar. Información para estudiantes"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/inicio/informacion-profesor.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Docente Recursos, gestión y apoyo para impartir formación permanente en la UPV. Información para docentes"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/inicio/microcredenciales.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Microcredenciales UPV Formación breve, flexible y acreditada para actualizar tus competencias."
+  },
+  "http://www.cfp.upv.es/formacion-permanente/masters/masteres-matriculables.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Ver Títulos Propios en periodo de matrícula"
+  },
+  "http://www.cfp.upv.es/formacion-permanente/masters/masters.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Másteres y diplomas UPV Títulos propios de la UPV para especializarte y avanzar en tu carrera."
+  },
+  "http://www.cfp.upv.es/formacion-permanente/online/formacion-online-masteres-cursos.html": {
+    "archivo": null,
+    "descartada": false,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cfp.upv.es",
+    "profundidad": 2,
+    "titulo_enlace": "Formación a distancia Másteres y cursos online para estudiar desde donde quieras."
   },
   "http://www.ciencialab.upv.es": {
     "archivo": null,
@@ -551,11 +722,20 @@
   "http://www.cmt.upv.es/Thiesel2026": {
     "archivo": "estudios/doctorado/thiesel_2026.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "http://www.cmt.upv.es",
     "profundidad": 2,
     "titulo_enlace": "THIESEL 2026"
+  },
+  "http://www.cmt.upv.es/Thiesel2026/registration": {
+    "archivo": null,
+    "descartada": true,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cmt.upv.es/Thiesel2026",
+    "profundidad": 3,
+    "titulo_enlace": "MORE INFORMATION"
   },
   "http://www.cmt.upv.es/about": {
     "archivo": null,
@@ -1118,7 +1298,7 @@
   "http://www.jpa.upv.es": {
     "archivo": "orientacion/jornadas_de_puertas_abiertas.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "https://www.upv.es/contenidos/orienta/secundaria/",
     "profundidad": 1,
@@ -1136,7 +1316,7 @@
   "http://www.sie.upv.es": {
     "archivo": "estudios/master/sie.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "https://www.upv.es/estudios/master/muieg/",
     "profundidad": 1,
@@ -1208,7 +1388,7 @@
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.novetats&P_ESTILO=300&P_ID=c": {
     "archivo": "comunidad_upv/ptgas_pdi_pi/herramientas_recursos/novedades.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
     "profundidad": 1,
@@ -1217,7 +1397,7 @@
   "http://www.upv.es/bin2/tablon?newsgroup=UPV.recursos-humans&P_ESTILO=300&P_ID=c": {
     "archivo": "comunidad_upv/ptgas_pdi_pi/herramientas_recursos/recursos_humanos.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/tablon-de-anuncios-es.html",
     "profundidad": 1,
@@ -1306,7 +1486,7 @@
   },
   "http://www.upv.es/contenidos/IOFEPSA": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/estudios/master/muipcm/",
@@ -1314,26 +1494,26 @@
     "titulo_enlace": "Oficina de Programas Internacionales de Intercambio (OPII) en el campus de Alcoy"
   },
   "http://www.upv.es/contenidos/ORIENTA/info/794647normalc.html": {
-    "archivo": null,
+    "archivo": "comunidad_upv/ptgas_pdi_pi/herramientas_recursos/materiales_impresos_de_la_upv.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/videos-presentaciones-materiales-es.html",
     "profundidad": 1,
     "titulo_enlace": "Materiales impresos de la UPV"
   },
   "http://www.upv.es/contenidos/ORIENTA/info/795947normalc.html": {
-    "archivo": null,
+    "archivo": "comunidad_upv/ptgas_pdi_pi/herramientas_recursos/videos_presentaciones_y_grabaciones_de_la_upv.md",
     "descartada": false,
     "expandida": false,
-    "md_generado": false,
+    "md_generado": true,
     "padre_url": "https://www.upv.es/perfiles/pas-pdi/videos-presentaciones-materiales-es.html",
     "profundidad": 1,
     "titulo_enlace": "Vídeos, presentaciones y grabaciones de la UPV"
   },
   "http://www.upv.es/contenidos/PETSA/index-es.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/estudios/master/mucpa/",
@@ -1342,7 +1522,7 @@
   },
   "http://www.upv.es/contenidos/PORTRANSV4": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/CYO/index-es.html",
@@ -1360,7 +1540,7 @@
   },
   "http://www.upv.es/contenidos/PORTRANSV4/info/1080735normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.upv.es/contenidos/PORTRANSV4/indexc.html",
@@ -1369,7 +1549,7 @@
   },
   "http://www.upv.es/contenidos/PORTRANSV4/info/1080739normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.upv.es/contenidos/PORTRANSV4/indexc.html",
@@ -1378,7 +1558,7 @@
   },
   "http://www.upv.es/contenidos/PORTRANSV4/info/1081290normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.upv.es/contenidos/PORTRANSV4/indexc.html",
@@ -1387,7 +1567,7 @@
   },
   "http://www.upv.es/contenidos/PORTRANSV4/info/1083171normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.upv.es/contenidos/PORTRANSV4/indexc.html",
@@ -1396,7 +1576,7 @@
   },
   "http://www.upv.es/contenidos/PORTRANSV4/info/1083795normalc.html": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "http://www.upv.es/contenidos/PORTRANSV4/indexc.html",
@@ -14365,7 +14545,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos104k/curso104714/public_BS_Declaracion_Responsable_v3.pdf?nodeRef=c3ce9677-2d8f-41fe-8e96-772d8f31fed0&secSig=fbe621d87acede43c2c27ea3b9465aefb8e7242c6bbebc7e7d68e1bf6e19383a": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/lean-manufacturing-seis-sigma-yellow-belt_104714.html",
@@ -14374,7 +14554,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos104k/curso104715/public_BS_Declaracion_Responsable_v3.pdf?nodeRef=80cfcfbb-c877-44d0-8fcf-bbc87764d0bc&secSig=37ccfaea50a403c08bf93539c76df1d4975ba3ec47a72c7f4fe28d03eba94da5": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/ciberseguridad-seguridad-informacion_104715.html",
@@ -14383,7 +14563,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos104k/curso104717/public_BS_Declaracion_Responsable_v3.pdf?nodeRef=63613c47-06ce-4805-a13c-4706cee80593&secSig=86799d6707cf3b1a709fc67c8659f5b000465850fe56d965858d1708e8b67e40": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-python-ia_104717.html",
@@ -14392,7 +14572,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos104k/curso104745/public_BS_Declaracion_Responsable_v3.pdf?nodeRef=aa55aec2-4c67-4530-95ae-c24c67353042&secSig=a151e460158961fb48f1eac26a543e084bde057a4f3a382cc7c6955398d86d89": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/proyectos-rentables-aprende-evaluar-antes-invertir_104745.html",
@@ -14401,7 +14581,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos104k/curso104758/public_BS_Declaracion_Responsable_v3.pdf?nodeRef=ff9bf751-8894-4228-9bf7-51889492280c&secSig=7981078bdb0c2ab6ad85f4ed648fb0ae3e4d026662b2ffd387a0f4b2cd6b13a7": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/emprender-transformar-negocios-impacto_104758.html",
@@ -14410,7 +14590,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos105k/curso105187/publicDEUEI.pdf?nodeRef=89dfbed9-1ddd-457e-9fbe-d91ddd857eed&secSig=0ab420406cdda4c0a566ef21c3e725e7b4e9aebb32b5e2ba0efac9bc518a0952": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-experto_105187.html",
@@ -14419,7 +14599,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos105k/curso105188/publicDEUEI.pdf?nodeRef=f7af0739-deaa-43e5-af07-39deaaf3e5bf&secSig=b85fe1301ca97357f79e162ba53983b5da8314ca62ab88402fdeece8a2471cee": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-basico_105188.html",
@@ -14428,7 +14608,7 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos105k/curso105189/publicDEUEI.pdf?nodeRef=1d58e5cb-3104-4fc0-98e5-cb31041fc0b2&secSig=6e687aaad16e4d6f05cc5a3a7c9db68ea24b1118be610f3aa12a5b16608a335f": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-medio_105189.html",
@@ -14437,12 +14617,30 @@
   },
   "https://poseidon.cfp.upv.es/cfp-goa/alfrescofi/download-file/cursos/cursos105k/curso105190/publicDEUEI.pdf?nodeRef=cac1d175-1162-47b2-81d1-75116257b2e9&secSig=bc94b8464229a22ac1201328cab27bfa1e2c37e169628b53e61852779e04a592": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-extension-universitaria-estudios-inmobiliarios-modulo-avanzado_105190.html",
     "profundidad": 1,
     "titulo_enlace": "Descargar documento"
+  },
+  "https://poseidon.cfp.upv.es/portal-formacion/alumno/gestion_matricula.jsp?cid=104635&idioma=es&secSig=02fbab1a174c13f13cd3e05e54752db451f28028a372d4c20172888c143f4e58": {
+    "archivo": null,
+    "descartada": true,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "http://www.cmt.upv.es/Thiesel2026",
+    "profundidad": 3,
+    "titulo_enlace": "REGISTER HERE"
+  },
+  "https://poseidon.cfp.upv.es/portal-formacion/alumno/gestion_matricula.jsp?cid=104877&idioma=es&secSig=a48667353230637eed344a7474aa95091d4f7635bf317dc6615e68a45f37f83e": {
+    "archivo": null,
+    "descartada": true,
+    "expandida": false,
+    "md_generado": false,
+    "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html",
+    "profundidad": 5,
+    "titulo_enlace": "Inscripción Inscripción online cerrada"
   },
   "https://poseidon.cfp.upv.es/portal-formacion/alumno/gestion_matricula.jsp?cid=64654&idioma=es&hash=984c9f19c71e934c9a4c9b4e8813ca13c117cf47cb09884a9e4a9e4a9e4c964328&": {
     "archivo": null,
@@ -14455,7 +14653,7 @@
   },
   "https://poseidon.cfp.upv.es/portal-formacion/curriculum/curriculum.jsp?part=alum&idioma=es&hash=984a9b0acf08da47cf16db178813ca13c117cf47cb09884a9e4a9e4a9e49984915&": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/UFASU/index-es.html",
@@ -14464,7 +14662,7 @@
   },
   "https://poseidon.cfp.upv.es/portal-formacion/oferta/oferta-ufasu.jsp?part=nece&idioma=es&hash=9e499e0acf08da47c01fcd1f8813ca13c117cf47cb09884a9e4a9e4a9e429e4c88&": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/UFASU/index-es.html",
@@ -14473,7 +14671,7 @@
   },
   "https://poseidon.cfp.upv.es/portal-formacion/registro/areas.jsp?idioma=es": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.cfp.upv.es/formacion-permanente/curso/diploma-experto-sap-financials_0.html",
@@ -14482,7 +14680,7 @@
   },
   "https://poseidon.cfp.upv.es/portal-formacion/responsableArea/responsable_accion_for.jsp?idioma=es&hash=974f9c13ca13c117cf47cb09884a9e4a9e4a9e43984d86&": {
     "archivo": null,
-    "descartada": false,
+    "descartada": true,
     "expandida": false,
     "md_generado": false,
     "padre_url": "https://www.upv.es/entidades/UFASU/index-es.html",
@@ -16508,7 +16706,7 @@
   "https://www.cfp.upv.es/formacion-permanente/curso/introduccion-analisis-sistemas-clima-energia_104877.html": {
     "archivo": "institucion/upv_al_detalle/introduccion_al_analisis_de_sistemas_clima_y_energia.md",
     "descartada": false,
-    "expandida": false,
+    "expandida": true,
     "md_generado": true,
     "padre_url": "https://www.cfp.upv.es",
     "profundidad": 4,
